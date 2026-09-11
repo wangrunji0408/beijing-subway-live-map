@@ -458,15 +458,40 @@
  {
   "source": "timetables/5-北新桥-3.jpg",
   "id": "5-北新桥-3",
-  "n_times": 181,
+  "n_times": 151,
   "stats": {
-   "n": 181,
-   "n_hours": 19,
+   "n": 151,
+   "n_hours": 18,
    "median_gap": 6,
-   "max_gap": 10,
+   "max_gap": 20,
    "min_gap": 5
   },
-  "issues": [],
+  "issues": [
+   {
+    "kind": "gap_large",
+    "gap": 20,
+    "at": "05:58->06:18",
+    "msg": "gap 20 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 16,
+    "at": "19:52->20:08",
+    "msg": "gap 16 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 16,
+    "at": "20:56->21:12",
+    "msg": "gap 16 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 16,
+    "at": "21:52->22:08",
+    "msg": "gap 16 min exceeds 15 (possible missed train)"
+   }
+  ],
   "flags": [
    {
     "row_y": 696,
@@ -877,15 +902,38 @@
  {
   "source": "timetables/5-和平里北街-3.jpg",
   "id": "5-和平里北街-3",
-  "n_times": 181,
+  "n_times": 109,
   "stats": {
-   "n": 181,
-   "n_hours": 19,
-   "median_gap": 6,
-   "max_gap": 10,
-   "min_gap": 5
+   "n": 109,
+   "n_hours": 11,
+   "median_gap": 5,
+   "max_gap": 70,
+   "min_gap": 2
   },
-  "issues": [],
+  "issues": [
+   {
+    "kind": "gap_large",
+    "gap": 70,
+    "at": "09:54->11:04",
+    "msg": "gap 70 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 20,
+    "at": "12:47->13:07",
+    "msg": "gap 20 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 23,
+    "at": "13:07->13:30",
+    "msg": "gap 23 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "hour_gap",
+    "msg": "hours 9->11 not consecutive"
+   }
+  ],
   "flags": [
    {
     "row_y": 438,

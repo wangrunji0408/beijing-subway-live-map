@@ -425,6 +425,9 @@ def apply_overrides(times, ov):
             mins = [int(m) for m in o['row_set']['minutes']]
             times = [t for t in times if t['hour'] != H]
             times += [dict(hour=H, minute=m, terminal=None, color=None) for m in mins]
+        elif isinstance(o, dict) and 'set_times' in o:
+            times = [dict(hour=int(h) % 24, minute=int(m), terminal=None, color=None)
+                     for h, m in o['set_times']]
         elif isinstance(o, dict) and 'del' in o:
             h, m = o['del']; times = [t for t in times if not (t['hour'] == h and t['minute'] == m)]
         elif isinstance(o, dict) and 'add' in o:

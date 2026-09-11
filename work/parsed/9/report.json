@@ -99,26 +99,15 @@
  {
   "source": "timetables/9-七里庄-4.jpg",
   "id": "9-七里庄-4",
-  "n_times": 132,
+  "n_times": 151,
   "stats": {
-   "n": 132,
-   "n_hours": 18,
+   "n": 151,
+   "n_hours": 19,
    "median_gap": 7,
-   "max_gap": 395,
+   "max_gap": 10,
    "min_gap": 6
   },
-  "issues": [
-   {
-    "kind": "gap_large",
-    "gap": 16,
-    "at": "02:56->03:12",
-    "msg": "gap 16 min exceeds 15 (possible missed train)"
-   },
-   {
-    "kind": "hour_gap",
-    "msg": "hours 3->10 not consecutive"
-   }
-  ],
+  "issues": [],
   "flags": []
  },
  {
@@ -194,26 +183,15 @@
  {
   "source": "timetables/9-丰台东大街-4.jpg",
   "id": "9-丰台东大街-4",
-  "n_times": 133,
+  "n_times": 151,
   "stats": {
-   "n": 133,
+   "n": 151,
    "n_hours": 18,
    "median_gap": 7,
-   "max_gap": 387,
+   "max_gap": 10,
    "min_gap": 6
   },
-  "issues": [
-   {
-    "kind": "gap_large",
-    "gap": 16,
-    "at": "04:58->05:14",
-    "msg": "gap 16 min exceeds 15 (possible missed train)"
-   },
-   {
-    "kind": "hour_gap",
-    "msg": "hours 5->12 not consecutive"
-   }
-  ],
+  "issues": [],
   "flags": [
    {
     "row_y": 476,
@@ -281,22 +259,15 @@
  {
   "source": "timetables/9-丰台南路-3.jpg",
   "id": "9-丰台南路-3",
-  "n_times": 133,
+  "n_times": 151,
   "stats": {
-   "n": 133,
+   "n": 151,
    "n_hours": 18,
    "median_gap": 7,
-   "max_gap": 16,
+   "max_gap": 10,
    "min_gap": 6
   },
-  "issues": [
-   {
-    "kind": "gap_large",
-    "gap": 16,
-    "at": "16:54->17:10",
-    "msg": "gap 16 min exceeds 15 (possible missed train)"
-   }
-  ],
+  "issues": [],
   "flags": []
  },
  {
@@ -307,15 +278,10 @@
    "n": 151,
    "n_hours": 18,
    "median_gap": 7,
-   "max_gap": 380,
+   "max_gap": 10,
    "min_gap": 6
   },
-  "issues": [
-   {
-    "kind": "hour_gap",
-    "msg": "hours 1->8 not consecutive"
-   }
-  ],
+  "issues": [],
   "flags": [
    {
     "row_y": 476,
@@ -409,41 +375,29 @@
  {
   "source": "timetables/9-丰台科技园-3.jpg",
   "id": "9-丰台科技园-3",
-  "n_times": 133,
+  "n_times": 148,
   "stats": {
-   "n": 133,
+   "n": 148,
    "n_hours": 18,
    "median_gap": 7,
-   "max_gap": 16,
+   "max_gap": 14,
    "min_gap": 6
   },
-  "issues": [
-   {
-    "kind": "gap_large",
-    "gap": 16,
-    "at": "17:58->18:14",
-    "msg": "gap 16 min exceeds 15 (possible missed train)"
-   }
-  ],
+  "issues": [],
   "flags": []
  },
  {
   "source": "timetables/9-丰台科技园-4.jpg",
   "id": "9-丰台科技园-4",
-  "n_times": 133,
+  "n_times": 150,
   "stats": {
-   "n": 133,
+   "n": 150,
    "n_hours": 18,
    "median_gap": 7,
-   "max_gap": 387,
+   "max_gap": 14,
    "min_gap": 6
   },
-  "issues": [
-   {
-    "kind": "hour_gap",
-    "msg": "hours 1->8 not consecutive"
-   }
-  ],
+  "issues": [],
   "flags": [
    {
     "row_y": 476,
@@ -690,45 +644,29 @@
  {
   "source": "timetables/9-军事博物馆-3.jpg",
   "id": "9-军事博物馆-3",
-  "n_times": 132,
+  "n_times": 151,
   "stats": {
-   "n": 132,
-   "n_hours": 18,
+   "n": 151,
+   "n_hours": 19,
    "median_gap": 7,
-   "max_gap": 397,
+   "max_gap": 10,
    "min_gap": 6
   },
-  "issues": [
-   {
-    "kind": "hour_gap",
-    "msg": "hours 16->23 not consecutive"
-   }
-  ],
+  "issues": [],
   "flags": []
  },
  {
   "source": "timetables/9-军事博物馆-4.jpg",
   "id": "9-军事博物馆-4",
-  "n_times": 132,
+  "n_times": 151,
   "stats": {
-   "n": 132,
+   "n": 151,
    "n_hours": 19,
    "median_gap": 7,
-   "max_gap": 387,
+   "max_gap": 10,
    "min_gap": 6
   },
-  "issues": [
-   {
-    "kind": "gap_large",
-    "gap": 19,
-    "at": "06:58->07:17",
-    "msg": "gap 19 min exceeds 15 (possible missed train)"
-   },
-   {
-    "kind": "hour_gap",
-    "msg": "hours 7->13 not consecutive"
-   }
-  ],
+  "issues": [],
   "flags": []
  },
  {
@@ -779,20 +717,15 @@
  {
   "source": "timetables/9-北京西站-3.jpg",
   "id": "9-北京西站-3",
-  "n_times": 133,
+  "n_times": 151,
   "stats": {
-   "n": 133,
+   "n": 151,
    "n_hours": 18,
    "median_gap": 7,
-   "max_gap": 389,
+   "max_gap": 10,
    "min_gap": 6
   },
-  "issues": [
-   {
-    "kind": "hour_gap",
-    "msg": "hours 12->19 not consecutive"
-   }
-  ],
+  "issues": [],
   "flags": []
  },
  {
@@ -803,15 +736,10 @@
    "n": 151,
    "n_hours": 19,
    "median_gap": 7,
-   "max_gap": 380,
+   "max_gap": 10,
    "min_gap": 6
   },
-  "issues": [
-   {
-    "kind": "hour_gap",
-    "msg": "hours 1->7 not consecutive"
-   }
-  ],
+  "issues": [],
   "flags": [
    {
     "row_y": 476,
@@ -858,15 +786,10 @@
    "n": 151,
    "n_hours": 19,
    "median_gap": 7,
-   "max_gap": 380,
+   "max_gap": 10,
    "min_gap": 6
   },
-  "issues": [
-   {
-    "kind": "hour_gap",
-    "msg": "hours 1->7 not consecutive"
-   }
-  ],
+  "issues": [],
   "flags": [
    {
     "row_y": 476,
@@ -963,20 +886,15 @@
  {
   "source": "timetables/9-白堆子-3.jpg",
   "id": "9-白堆子-3",
-  "n_times": 132,
+  "n_times": 151,
   "stats": {
-   "n": 132,
-   "n_hours": 18,
+   "n": 151,
+   "n_hours": 19,
    "median_gap": 7,
-   "max_gap": 396,
+   "max_gap": 10,
    "min_gap": 6
   },
-  "issues": [
-   {
-    "kind": "hour_gap",
-    "msg": "hours 6->13 not consecutive"
-   }
-  ],
+  "issues": [],
   "flags": []
  },
  {
@@ -987,15 +905,10 @@
    "n": 151,
    "n_hours": 19,
    "median_gap": 7,
-   "max_gap": 380,
+   "max_gap": 10,
    "min_gap": 6
   },
-  "issues": [
-   {
-    "kind": "hour_gap",
-    "msg": "hours 1->7 not consecutive"
-   }
-  ],
+  "issues": [],
   "flags": [
    {
     "row_y": 476,
@@ -1062,22 +975,15 @@
  {
   "source": "timetables/9-白石桥南-3.jpg",
   "id": "9-白石桥南-3",
-  "n_times": 132,
+  "n_times": 151,
   "stats": {
-   "n": 132,
+   "n": 151,
    "n_hours": 19,
    "median_gap": 7,
-   "max_gap": 16,
+   "max_gap": 10,
    "min_gap": 6
   },
-  "issues": [
-   {
-    "kind": "gap_large",
-    "gap": 16,
-    "at": "17:53->18:09",
-    "msg": "gap 16 min exceeds 15 (possible missed train)"
-   }
-  ],
+  "issues": [],
   "flags": []
  },
  {
@@ -1088,15 +994,10 @@
    "n": 151,
    "n_hours": 19,
    "median_gap": 7,
-   "max_gap": 380,
+   "max_gap": 10,
    "min_gap": 6
   },
-  "issues": [
-   {
-    "kind": "hour_gap",
-    "msg": "hours 1->7 not consecutive"
-   }
-  ],
+  "issues": [],
   "flags": [
    {
     "row_y": 476,
@@ -1170,22 +1071,15 @@
  {
   "source": "timetables/9-科怡路-3.jpg",
   "id": "9-科怡路-3",
-  "n_times": 133,
+  "n_times": 150,
   "stats": {
-   "n": 133,
+   "n": 150,
    "n_hours": 18,
    "median_gap": 7,
-   "max_gap": 16,
+   "max_gap": 14,
    "min_gap": 6
   },
-  "issues": [
-   {
-    "kind": "gap_large",
-    "gap": 16,
-    "at": "19:52->20:08",
-    "msg": "gap 16 min exceeds 15 (possible missed train)"
-   }
-  ],
+  "issues": [],
   "flags": []
  },
  {
