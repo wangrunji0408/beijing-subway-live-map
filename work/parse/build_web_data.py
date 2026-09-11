@@ -146,7 +146,9 @@ def build():
             direction = oo[0]
         else:
             direction = oo[-1]
-        service = SUFFIX_SERVICE.get(g['group'], 'unknown')
+        # infer_diagram resolves the service from the records; the suffix
+        # table is only a legacy fallback
+        service = g.get('service') or SUFFIX_SERVICE.get(g['group'], 'unknown')
         # hand-written meta wins
         mp = os.path.join(PARSED, g['line'], 'meta.json')
         if os.path.exists(mp):

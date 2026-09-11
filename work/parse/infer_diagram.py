@@ -1,21 +1,22 @@
 #!/usr/bin/env python3
 """Infer per-train diagrams (运行图) from per-station timetables.
 
-Within one (line, direction, service) group the station timetables are time
+Within one (physical direction, service) group the station timetables are time
 shifts of each other: a train leaving the origin at t passes station s at
 t + tau_s.  We recover:
 
-  * station order  - sorted by each station's robust "first service" time
-    (a low percentile of its departures), which grows monotonically from origin
-    to terminus; cross-checked against the OSM station order for the direction;
-  * tau_s          - the total origin->terminus travel time (first-service time
-    difference) distributed over the line geometry by inter-station distance;
-  * train runs     - each origin departure matched to the nearest departure at
-    every station, giving a stop-by-stop trajectory (short-turns simply drop out).
+  * station order  - the OSM order for that line, restricted to the stations
+    present, oriented by the physical direction of travel;
+  * tau_s          - geometry distance / average speed, then CALIBRATED against
+    the real departures (the shift near the geometric guess with the most
+    matches), so a train is only truncated at a genuine short-turn terminus;
+  * train runs     - each origin departure, using the SAME calibrated tau for
+    every train, so trajectories can never overtake one another; a run is a
+    contiguous prefix of the station order.
 
-Output: work/out/train_runs.jsonl, one JSON object per (line, group).
+Output: work/out/train_runs.jsonl, one JSON object per group.
 """
-import json, os, glob, sys
+import json, os, glob, sys, re
 import numpy as np
 from collections import defaultdict
 
@@ -29,6 +30,10 @@ LINE_MAP = {'1': '1', '2': '2', '3': '3', '4': '4', '5': '5', '6': '6', '7': '7'
             '16': '16', '17': '17', '18': '18', '19': '19', 'S1': 'S1', '亦庄': 'Yizhuang',
             '八通': '1', '大兴机场': 'DaxingAirport', '房山': 'Fangshan',
             '昌平': 'Changping', '燕房': 'Yanfang', '首都机场': 'CapitalAirport'}
+
+AVG_SPEED_KMH = 36.0
+LOOP_LINES = {'2', '10'}   # loop lines: the station order is cyclic
+EXTRA_AFTER = {'八角游乐园': '古城', '陶然桥': '永定门外', '红庙': '大望路'}
 
 _GEO = None
 _OSM = None
@@ -45,16 +50,86 @@ def load_line(line):
     return [json.loads(l) for l in open(p)]
 
 
-def group_by_suffix(recs):
-    """Group by (suffix, direction, service) so a station whose suffix means a
-    different direction/service (rare but real) forms its own group."""
-    g = defaultdict(list)
-    for r in recs:
-        key = (r.get('suffix') or '?', r.get('direction'), r.get('service'))
-        g[key].append(r)
-    return g
+def _norm(s):
+    n = re.sub(r'[\s\(\)（）]', '', str(s or ''))
+    n = re.sub(r'号线$', '', n)
+    n = re.sub(r'线$', '', n)
+    n = re.sub(r'站$', '', n)
+    return n
 
 
+# station names that differ between the posters and the OSM relation
+ALIAS = {'清河': '清河站',
+         '2号航站楼': '首都机场2号航站楼',
+         '3号航站楼': '首都机场3号航站楼',
+         '首都机场': '首都机场2号航站楼'}
+
+
+def _canon(s):
+    n = _norm(s)
+    return _norm(ALIAS.get(n, n))
+
+
+# ---------------------------------------------------------------- grouping
+def physical_sign(rec, osm, loop=False):
+    """+1 forward along the OSM order, -1 backward, 0 unknown.
+
+    On a loop line the order is cyclic, so "the next station" is not simply a
+    larger index (e.g. on line 2 both neighbours of the last station are index
+    0 and n-2); there the shorter arc decides the direction.
+    """
+    if not osm:
+        return 0
+    pos = {_canon(n): i for i, n in enumerate(osm)}
+    si = pos.get(_canon(rec.get('station')))
+    if si is None:
+        return 0
+    n = len(osm)
+    for part in re.split(r'[、,，/]', str(rec.get('direction') or '')):
+        di = pos.get(_canon(part))
+        if di is None or di == si:
+            continue
+        if loop:
+            return 1 if (di - si) % n <= n // 2 else -1
+        return 1 if di > si else -1
+    return 0
+
+
+def group_records(line, recs, osm, loop=False):
+    """One bucket per (physical direction, service).
+
+    A terminus poster prints the DEPARTING direction, so a printed suffix can
+    mean opposite directions at different stations.  Bucketing by physical
+    direction keeps every train sharing a track in one group, preventing
+    cross-group overtaking.
+    """
+    from collections import Counter
+    signs = [(r, physical_sign(r, osm, loop)) for r in recs]
+    maj = {}
+    for r, sg in signs:
+        if sg:
+            maj.setdefault((r.get('suffix'), r.get('service')), Counter())[sg] += 1
+    buckets = defaultdict(list)
+    for r, sg in signs:
+        if not sg:
+            c = maj.get((r.get('suffix'), r.get('service')))
+            if c:
+                sg = c.most_common(1)[0][0]
+        buckets[(sg, r.get('service'))].append(r)
+    out = {}
+    for k in [k for k in list(buckets) if k[0] == 0]:
+        svc = k[1]
+        cands = [kk for kk in buckets if kk[1] == svc and kk[0] != 0]
+        if cands:
+            tgt = max(cands, key=lambda kk: len(buckets[kk]))
+            buckets[tgt] += buckets.pop(k)
+        else:
+            out[k] = buckets.pop(k)
+    out.update(buckets)
+    return out
+
+
+# ---------------------------------------------------------------- times
 def dedup_times(rec):
     seen = set(); out = []
     for t in rec['times']:
@@ -68,70 +143,7 @@ def early_time(ts, q=10):
     return float(np.percentile(ts, q)) if ts else None
 
 
-def osm_order(line):
-    global _OSM
-    if _OSM is None:
-        try:
-            _OSM = json.load(open(os.path.join(DATA, 'beijing_subway_lines_stations_wgs84.json')))['lines']
-        except Exception:
-            _OSM = {}
-    key = LINE_MAP.get(line)
-    if key and key in _OSM:
-        return [s['name'] for s in _OSM[key]['stations']]
-    return None
-
-
-def load_geometry():
-    global _GEO
-    if _GEO is None:
-        _GEO = {}
-        try:
-            g = json.load(open(os.path.join(DATA, 'beijing_subway_lines_wgs84.geojson')))
-            for f in g['features']:
-                p = f['properties']
-                key = p.get('ref') or p.get('name')
-                _GEO.setdefault(key, []).append(f['geometry']['coordinates'])
-        except Exception:
-            pass
-    return _GEO
-
-
-def station_fraction(key, names):
-    """Fractional distance (0..1) of each station along the line geometry."""
-    coords = None
-    for c in load_geometry().get(key, []):
-        if coords is None or len(c) > len(coords):
-            coords = c
-    if not coords:
-        return {}
-    osm = osm_order_by_key(key)
-    st = {s['name']: (s['lon'], s['lat']) for s in osm}
-    kx = np.cos(np.radians(np.mean([p[1] for p in coords])))
-    pts = [(p[0] * kx, p[1]) for p in coords]
-    cum = [0.0]
-    for i in range(1, len(pts)):
-        cum.append(cum[-1] + np.hypot(pts[i][0] - pts[i-1][0], pts[i][1] - pts[i-1][1]))
-    total = cum[-1] or 1.0
-    out = {}
-    for n in names:
-        if n not in st:
-            out[n] = None
-            continue
-        px, py = st[n][0] * kx, st[n][1]
-        best = (1e18, 0.0)
-        for i in range(1, len(pts)):
-            ax, ay = pts[i-1]; bx, by = pts[i]
-            dx, dy = bx-ax, by-ay
-            L2 = dx*dx + dy*dy or 1e-12
-            t = max(0.0, min(1.0, ((px-ax)*dx + (py-ay)*dy) / L2))
-            qx, qy = ax + t*dx, ay + t*dy
-            d2 = (px-qx)**2 + (py-qy)**2
-            if d2 < best[0]:
-                best = (d2, (cum[i-1] + t*(cum[i]-cum[i-1])) / total)
-        out[n] = best[1]
-    return out
-
-
+# ---------------------------------------------------------------- geometry
 def osm_order_by_key(key):
     global _OSM
     if _OSM is None:
@@ -142,68 +154,21 @@ def osm_order_by_key(key):
     return _OSM.get(key, {}).get('stations', [])
 
 
-def refine_tau(T0, Ts, tau0, window=8, tol=2):
-    """Refine a station's running-time offset around the geometric estimate.
-
-    Picks the shift (within +/- window minutes of the geometric guess) that has
-    the most matching departures; this absorbs real dwell/running differences
-    and cumulative error, so a train is only truncated when a station genuinely
-    has no corresponding departure (short turn), not because of a few minutes of
-    drift.
-    """
-    if not T0 or not Ts:
-        return tau0
-    best = (-1, tau0)
-    for d in np.arange(tau0 - window, tau0 + window + 0.5, 1.0):
-        m = sum(1 for t0 in T0 if any(abs(x - (t0 + d)) <= tol for x in Ts))
-        if m > best[0]:
-            best = (m, float(d))
-    return best[1]
-
-
-def match_runs(order, stations, tau, tol=4):
-    """Build each train's trajectory from the origin's departures.
-
-    All trains share the same calibrated inter-station running times `tau`, so
-    trajectories can never overtake one another.  A train is truncated at the
-    LAST station where a matching departure exists (its short-turn terminus);
-    interior misses (an OCR gap at one station) are bridged with the predicted
-    time, so a train does not vanish mid-line.
-    """
-    origin = order[0]
-    base = stations[origin]
-    runs = []
-    for t0 in base:
-        last = -1
-        for i, s in enumerate(order):
-            pred = t0 + tau[s]
-            if any(abs(x - pred) <= tol for x in stations[s]):
-                last = i
-        if last < 1:
-            continue
-        stops = {order[i]: int(round(t0 + tau[order[i]])) for i in range(last + 1)}
-        runs.append(stops)
-    return runs
-
-
-# stations present in the timetables but missing from the OSM line relation
-# (closed / under construction) -> insert after this station
-EXTRA_AFTER = {'八角游乐园': '古城', '陶然桥': '永定门外', '红庙': '大望路'}
-
-
-AVG_SPEED_KMH = 36.0   # typical metro average incl. dwell
+def osm_order(line):
+    key = LINE_MAP.get(line)
+    return [s['name'] for s in osm_order_by_key(key)] if key else None
 
 
 def station_km(key, names):
-    """Cumulative straight-line distance (km) between consecutive stations."""
+    """Cumulative straight-line distance (km) from the origin along the order."""
     osm = osm_order_by_key(key)
-    st = {s['name']: (s['lon'], s['lat']) for s in osm}
+    st = {_canon(x['name']): (x['lon'], x['lat']) for x in osm}
     lat0 = np.mean([v[1] for v in st.values()]) if st else 40.0
     kx = np.cos(np.radians(lat0))
     pts = []
     for n in names:
-        if n in st:
-            lon, lat = st[n]
+        if _canon(n) in st:
+            lon, lat = st[_canon(n)]
             pts.append((lon * kx * 111.32, lat * 110.57))
         else:
             pts.append(None)
@@ -223,30 +188,92 @@ def station_km(key, names):
                 pts[i] = (lo[1][0] + f * (hi[1][0] - lo[1][0]),
                           lo[1][1] + f * (hi[1][1] - lo[1][1]))
     cum = [0.0]
-    for a, b in zip(pts, pts[1:]):
-        cum.append(cum[-1] + float(np.hypot(b[0]-a[0], b[1]-a[1])))
+    for p, q in zip(pts, pts[1:]):
+        cum.append(cum[-1] + float(np.hypot(q[0] - p[0], q[1] - p[1])))
     return {n: cum[i] for i, n in enumerate(names)}
 
 
-def infer_group(line, suffix, recs, meta=None, osm=None):
-    stations = {}
+# ---------------------------------------------------------------- diagram
+def _count_matches(T0, Ts, d, tol=2):
+    return sum(1 for t0 in T0 if any(abs(x - (t0 + d)) <= tol for x in Ts))
+
+
+def best_shift(T0, Ts, guess, lo=None, window=25, tol=2):
+    """Offset with the most matching departures, searched around `guess`.
+
+    `lo` is the physical floor (the previous station's offset): a train cannot
+    reach a later station earlier, so offsets must be non-decreasing.  Searching
+    inside that feasible range (instead of clamping afterwards) keeps every
+    station on its own best alignment.  Ties break towards `guess`.
+    """
+    if not T0 or not Ts:
+        return guess if lo is None else max(guess, lo)
+    start = guess - window
+    if lo is not None:
+        start = max(start, lo)
+    best = (-1, max(guess, start), 1e9)
+    for d in np.arange(start, guess + window + 0.5, 1.0):
+        if lo is not None and d < lo - 1e-9:
+            continue
+        m = _count_matches(T0, Ts, d, tol)
+        if m > best[0] or (m == best[0] and abs(d - guess) < best[2]):
+            best = (m, float(d), abs(d - guess))
+    return best[1]
+
+
+def calibrate_tau(order, stations, tau_geo):
+    """Calibrate every station offset against the real departures, keeping the
+    sequence non-decreasing (each station searched inside the feasible range)."""
+    T0 = stations[order[0]]
+    fit = {order[0]: 0.0}
+    prev = 0.0
+    for s in order[1:]:
+        prev = best_shift(T0, stations[s], tau_geo[s], lo=prev)
+        fit[s] = prev
+    return fit
+
+
+def match_runs(order, stations, tau, tol=4):
+    """Every train uses the same calibrated tau, so no train can overtake
+    another.  A train is truncated at the LAST station with a matching
+    departure (its short-turn terminus); interior OCR gaps are bridged with the
+    predicted time, so a train never vanishes mid-line."""
+    origin = order[0]
+    base = stations[origin]
+    runs = []
+    for t0 in base:
+        last = -1
+        for i, s in enumerate(order):
+            pred = t0 + tau[s]
+            if any(abs(x - pred) <= tol for x in stations[s]):
+                last = i
+        if last < 1:
+            continue
+        runs.append({order[i]: int(round(t0 + tau[order[i]])) for i in range(last + 1)})
+    return runs
+
+
+def infer_group(line, sign, recs, meta=None, osm=None):
+    merged = {}
     for r in recs:
         ts = dedup_times(r)
         if ts:
-            stations[r['station']] = ts
+            merged.setdefault(r['station'], []).extend(ts)
+    # several posters can cover one station (e.g. one per service window); their
+    # departures must be unioned, not overwritten
+    stations = {k: sorted(set(v)) for k, v in merged.items()}
     if len(stations) < 2:
         return None
     present = set(stations)
     key = LINE_MAP.get(line)
-    m = (meta or {}).get(suffix, {}) or {}
+    m = (meta or {}).get(sign, {}) or {}
     if not isinstance(m, dict):
         m = {}
-    direction = m.get('direction')
-
-    # build station order along the line
     if osm:
-        seq = [s for s in osm if s in present]
-        for e in [s for s in stations if s not in osm]:
+        canon = {_canon(n): n for n in present}
+        seq = [canon[_canon(s)] for s in osm if _canon(s) in canon]
+        seen = set(seq)
+        for e in [s for s in stations if s not in seen]:
             anchor = EXTRA_AFTER.get(e)
             if anchor and anchor in seq:
                 seq.insert(seq.index(anchor) + 1, e)
@@ -254,20 +281,16 @@ def infer_group(line, suffix, recs, meta=None, osm=None):
                 seq.append(e)
         if not seq:
             seq = list(stations)
-        # orient by the known direction terminal, else by early-service time
-        if direction == osm[0]:
+        if sign == -1:
             order = list(reversed(seq))
-        elif direction == osm[-1]:
+        elif sign == 1:
             order = seq
         else:
             et = {n: early_time(stations[n]) for n in seq}
             order = seq if et[seq[-1]] >= et[seq[0]] else list(reversed(seq))
-            direction = order[-1]
     else:
         order = sorted(stations, key=lambda n: early_time(stations[n]))
-        direction = direction or order[-1]
 
-    # tau from geometry distance / average speed (robust, physically plausible)
     km = station_km(key, order) if key else None
     if km and sum(1 for n in order if km.get(n) is not None) >= 2:
         vals = [(i, km[n]) for i, n in enumerate(order) if km.get(n) is not None]
@@ -275,31 +298,32 @@ def infer_group(line, suffix, recs, meta=None, osm=None):
             if km.get(n) is None:
                 lo = max((v for v in vals if v[0] <= i), default=vals[0])
                 hi = min((v for v in vals if v[0] >= i), default=vals[-1])
-                km[n] = lo[1] if lo[0] == hi[0] else lo[1] + (i-lo[0])/(hi[0]-lo[0])*(hi[1]-lo[1])
+                km[n] = lo[1] if lo[0] == hi[0] else lo[1] + (i - lo[0]) / (hi[0] - lo[0]) * (hi[1] - lo[1])
         d0 = km[order[0]]
         tau = {n: abs(km[n] - d0) / AVG_SPEED_KMH * 60 for n in order}
-        for a, b in zip(order, order[1:]):
-            if tau[b] < tau[a]:
-                tau[b] = tau[a]
-        total = max(tau.values())
     else:
-        total = 50.0
-        tau = {n: i / (len(order) - 1) * total for i, n in enumerate(order)}
-
-    # calibrate each station's offset against the real departures, then keep it
-    # monotonic along the direction
-    T0 = stations[order[0]]
-    for s in order[1:]:
-        tau[s] = refine_tau(T0, stations[s], tau[s])
+        tau = {n: i / max(1, len(order) - 1) * 50.0 for i, n in enumerate(order)}
     for a, b in zip(order, order[1:]):
         if tau[b] < tau[a]:
             tau[b] = tau[a]
+
+    tau = calibrate_tau(order, stations, tau)
     total = max(tau.values())
 
     runs = match_runs(order, stations, tau, tol=4)
     runs = [r for r in runs if len(r) >= 2]
-    return dict(line=line, group=suffix,
-                direction=direction, service=m.get('service'),
+    from collections import Counter as _C
+    svc = m.get('service')
+    if not svc:
+        cc = _C(r.get('service') for r in recs if r.get('service'))
+        svc = cc.most_common(1)[0][0] if cc else None
+    if osm and sign in (1, -1):
+        direction = osm[-1] if sign == 1 else osm[0]
+    else:
+        direction = (osm[-1] if osm else None)
+    return dict(line=line, group=sign,
+                direction=m.get('direction') or direction,
+                service=svc,
                 station_order=order, tau={k: round(tau[k], 1) for k in order},
                 total_travel=round(total, 1),
                 n_stations=len(order), n_runs=len(runs),
@@ -313,9 +337,9 @@ def infer_line(line, meta=None):
         return []
     osm = osm_order(line)
     out = []
-    for key, rs in sorted(group_by_suffix(recs).items(), key=lambda kv: str(kv[0])):
-        suffix = key[0]
-        g = infer_group(line, suffix, rs, meta, osm)
+    loop = line in LOOP_LINES
+    for key, rs in sorted(group_records(line, recs, osm, loop).items(), key=lambda kv: str(kv[0])):
+        g = infer_group(line, key[0], rs, meta, osm)
         if g:
             out.append(g)
     return out
@@ -325,6 +349,7 @@ def main():
     import argparse
     ap = argparse.ArgumentParser()
     ap.add_argument('--lines', default=None)
+    ap.add_argument('--out', default=os.path.join(OUT, 'train_runs.jsonl'))
     a = ap.parse_args()
     lines = a.lines.split(',') if a.lines else [os.path.basename(p)[:-6]
              for p in sorted(glob.glob(os.path.join(PARSED, '*.jsonl')))]
@@ -339,10 +364,10 @@ def main():
             allg.append(g)
             print(f"[{line}/{g['group']}] {g['n_stations']} stations, {g['n_runs']} runs, "
                   f"total={g['total_travel']}min dir={g['direction']} svc={g['service']}")
-    with open(os.path.join(OUT, 'train_runs.jsonl'), 'w') as f:
+    with open(a.out, 'w') as f:
         for g in allg:
             f.write(json.dumps(g, ensure_ascii=False) + '\n')
-    print('wrote', os.path.join(OUT, 'train_runs.jsonl'), len(allg), 'groups')
+    print('wrote', a.out, len(allg), 'groups')
 
 
 if __name__ == '__main__':

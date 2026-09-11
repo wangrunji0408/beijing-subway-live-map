@@ -97,3 +97,18 @@ cd web && python3 -m http.server 8765 --bind 127.0.0.1
 - 少数图片存在截断/损坏（如 `timetables/8-东高地-1.jpg`）或配色特殊，OCR 可能遗漏若干行；
   `work/out/parse_report.json` 会列出所有告警，`work/parsed/<line>/overrides.json` 可人工修正。
 - 运行图的站间时分按里程与平均旅速估算（约 36 km/h），非逐段实测。
+
+## 运行图校验工具
+
+反推出运行图后有两个自检脚本（都在 `work/parse/`）：
+
+```bash
+python3 work/parse/check_diagram.py --allow 6   # 超车检查（6 号线有大站快车，豁免）
+python3 work/parse/check_reverse.py --tol 2     # 由运行图反向导出时刻表，与原时刻表对比
+```
+
+* `check_diagram.py`：同一线路同一方向的列车按发车顺序不得互相超越
+  （含站间交叉检测）。当前 108 组、17,725 趟车 **0 起超车**。
+  6 号线因同时开行大站快车与普通车，允许超车，故豁免。
+* `check_reverse.py`：把运行图在每个站的停站时刻反向导出成时刻表，与原时刻表
+  逐站比对（默认 ±2 分钟）。当前 **支持率 97.3%**，不一致处即解析或反推的疑点。
