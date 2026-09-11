@@ -1,0 +1,12 @@
+{
+ "1": {"direction": "未来科学城北", "service": "weekday", "legend": {}},
+ "2": {"direction": "嘉会湖", "service": "weekday", "legend": {}},
+ "3": {"direction": "未来科学城北", "service": "weekend", "legend": {}},
+ "4": {"direction": "嘉会湖", "service": "weekend", "legend": {}},
+ "_images": {
+  "17-嘉会湖-1": {"direction": "未来科学城北", "service": "weekday"},
+  "17-嘉会湖-2": {"direction": "未来科学城北", "service": "weekend"},
+  "17-未来科学城北-1": {"direction": "嘉会湖", "service": "weekday"},
+  "17-未来科学城北-2": {"direction": "嘉会湖", "service": "weekend"}
+ }
+}

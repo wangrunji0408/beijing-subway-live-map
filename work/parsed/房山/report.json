@@ -1,0 +1,1433 @@
+[
+ {
+  "source": "timetables/房山-东管头南-1.jpg",
+  "id": "房山-东管头南-1",
+  "n_times": 192,
+  "stats": {
+   "n": 192,
+   "n_hours": 19,
+   "median_gap": 5,
+   "max_gap": 10,
+   "min_gap": 2
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 444,
+    "kind": "bad_minute",
+    "text": "99"
+   }
+  ]
+ },
+ {
+  "source": "timetables/房山-东管头南-2.jpg",
+  "id": "房山-东管头南-2",
+  "n_times": 126,
+  "stats": {
+   "n": 126,
+   "n_hours": 19,
+   "median_gap": 9,
+   "max_gap": 11,
+   "min_gap": 7
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 888,
+    "kind": "ocr_fail",
+    "text": "0717263544353"
+   }
+  ]
+ },
+ {
+  "source": "timetables/房山-大葆台-1.jpg",
+  "id": "房山-大葆台-1",
+  "n_times": 216,
+  "stats": {
+   "n": 216,
+   "n_hours": 18,
+   "median_gap": 4,
+   "max_gap": 11,
+   "min_gap": 2
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 1108,
+    "kind": "bad_minute",
+    "text": "96"
+   }
+  ]
+ },
+ {
+  "source": "timetables/房山-大葆台-2.jpg",
+  "id": "房山-大葆台-2",
+  "n_times": 216,
+  "stats": {
+   "n": 216,
+   "n_hours": 18,
+   "median_gap": 4,
+   "max_gap": 10,
+   "min_gap": 2
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 1009,
+    "kind": "repaired_swap",
+    "text": "80",
+    "fixed": "08"
+   }
+  ]
+ },
+ {
+  "source": "timetables/房山-大葆台-3.jpg",
+  "id": "房山-大葆台-3",
+  "n_times": 126,
+  "stats": {
+   "n": 126,
+   "n_hours": 18,
+   "median_gap": 9,
+   "max_gap": 11,
+   "min_gap": 5
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 472,
+    "kind": "ocr_fail",
+    "text": ""
+   },
+   {
+    "row_y": 514,
+    "kind": "ocr_fail",
+    "text": "88"
+   }
+  ]
+ },
+ {
+  "source": "timetables/房山-大葆台-4.jpg",
+  "id": "房山-大葆台-4",
+  "n_times": 126,
+  "stats": {
+   "n": 126,
+   "n_hours": 18,
+   "median_gap": 9,
+   "max_gap": 11,
+   "min_gap": 7
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/房山-广阳城-1.jpg",
+  "id": "房山-广阳城-1",
+  "n_times": 201,
+  "stats": {
+   "n": 201,
+   "n_hours": 18,
+   "median_gap": 5,
+   "max_gap": 11,
+   "min_gap": 2
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 444,
+    "kind": "repaired_swap",
+    "text": "80",
+    "fixed": "08"
+   },
+   {
+    "row_y": 945,
+    "kind": "ocr_fail",
+    "text": "2410210172431384552"
+   }
+  ]
+ },
+ {
+  "source": "timetables/房山-广阳城-2.jpg",
+  "id": "房山-广阳城-2",
+  "n_times": 197,
+  "stats": {
+   "n": 197,
+   "n_hours": 18,
+   "median_gap": 5,
+   "max_gap": 10,
+   "min_gap": 2
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 791,
+    "kind": "repaired_swap",
+    "text": "95",
+    "fixed": "59"
+   },
+   {
+    "row_y": 791,
+    "kind": "repaired_swap",
+    "text": "92",
+    "fixed": "29"
+   },
+   {
+    "row_y": 830,
+    "kind": "ocr_fail",
+    "text": "190000406091111518202227293134363840434547505356"
+   }
+  ]
+ },
+ {
+  "source": "timetables/房山-广阳城-3.jpg",
+  "id": "房山-广阳城-3",
+  "n_times": 126,
+  "stats": {
+   "n": 126,
+   "n_hours": 18,
+   "median_gap": 9,
+   "max_gap": 11,
+   "min_gap": 5
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 370,
+    "kind": "ocr_fail",
+    "text": ""
+   },
+   {
+    "row_y": 403,
+    "kind": "ocr_fail",
+    "text": ""
+   }
+  ]
+ },
+ {
+  "source": "timetables/房山-广阳城-4.jpg",
+  "id": "房山-广阳城-4",
+  "n_times": 126,
+  "stats": {
+   "n": 126,
+   "n_hours": 18,
+   "median_gap": 9,
+   "max_gap": 11,
+   "min_gap": 7
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 940,
+    "kind": "ocr_fail",
+    "text": "0817263645354"
+   },
+   {
+    "row_y": 1154,
+    "kind": "ocr_fail",
+    "text": "0310172431384552359"
+   }
+  ]
+ },
+ {
+  "source": "timetables/房山-白盆窑-1.jpg",
+  "id": "房山-白盆窑-1",
+  "n_times": 192,
+  "stats": {
+   "n": 192,
+   "n_hours": 18,
+   "median_gap": 6,
+   "max_gap": 11,
+   "min_gap": 2
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/房山-白盆窑-2.jpg",
+  "id": "房山-白盆窑-2",
+  "n_times": 191,
+  "stats": {
+   "n": 191,
+   "n_hours": 18,
+   "median_gap": 5,
+   "max_gap": 10,
+   "min_gap": 2
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 406,
+    "kind": "repaired_swap",
+    "text": "75",
+    "fixed": "57"
+   },
+   {
+    "row_y": 445,
+    "kind": "repaired_swap",
+    "text": "74",
+    "fixed": "47"
+   }
+  ]
+ },
+ {
+  "source": "timetables/房山-白盆窑-3.jpg",
+  "id": "房山-白盆窑-3",
+  "n_times": 126,
+  "stats": {
+   "n": 126,
+   "n_hours": 18,
+   "median_gap": 9,
+   "max_gap": 11,
+   "min_gap": 5
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 370,
+    "kind": "ocr_fail",
+    "text": ""
+   },
+   {
+    "row_y": 403,
+    "kind": "ocr_fail",
+    "text": ""
+   },
+   {
+    "row_y": 622,
+    "kind": "ocr_fail",
+    "text": "0710815222936435057"
+   }
+  ]
+ },
+ {
+  "source": "timetables/房山-白盆窑-4.jpg",
+  "id": "房山-白盆窑-4",
+  "n_times": 125,
+  "stats": {
+   "n": 125,
+   "n_hours": 18,
+   "median_gap": 9,
+   "max_gap": 11,
+   "min_gap": 7
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/房山-稻田-1.jpg",
+  "id": "房山-稻田-1",
+  "n_times": 217,
+  "stats": {
+   "n": 217,
+   "n_hours": 18,
+   "median_gap": 4,
+   "max_gap": 11,
+   "min_gap": 2
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 445,
+    "kind": "repaired_swap",
+    "text": "80",
+    "fixed": "08"
+   },
+   {
+    "row_y": 445,
+    "kind": "repaired_swap",
+    "text": "60",
+    "fixed": "06"
+   },
+   {
+    "row_y": 445,
+    "kind": "repaired_swap",
+    "text": "81",
+    "fixed": "18"
+   },
+   {
+    "row_y": 445,
+    "kind": "repaired_swap",
+    "text": "61",
+    "fixed": "16"
+   },
+   {
+    "row_y": 445,
+    "kind": "repaired_swap",
+    "text": "82",
+    "fixed": "28"
+   }
+  ]
+ },
+ {
+  "source": "timetables/房山-稻田-2.jpg",
+  "id": "房山-稻田-2",
+  "n_times": 215,
+  "stats": {
+   "n": 215,
+   "n_hours": 18,
+   "median_gap": 4,
+   "max_gap": 10,
+   "min_gap": 2
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 366,
+    "kind": "bad_minute",
+    "text": "76"
+   },
+   {
+    "row_y": 405,
+    "kind": "repaired_swap",
+    "text": "80",
+    "fixed": "08"
+   },
+   {
+    "row_y": 405,
+    "kind": "bad_minute",
+    "text": "98"
+   },
+   {
+    "row_y": 790,
+    "kind": "ocr_fail",
+    "text": "18000309111417202326231333537404244464951535698"
+   },
+   {
+    "row_y": 829,
+    "kind": "repaired_swap",
+    "text": "90",
+    "fixed": "09"
+   },
+   {
+    "row_y": 906,
+    "kind": "ocr_fail",
+    "text": "24100061117232936435058"
+   }
+  ]
+ },
+ {
+  "source": "timetables/房山-稻田-3.jpg",
+  "id": "房山-稻田-3",
+  "n_times": 126,
+  "stats": {
+   "n": 126,
+   "n_hours": 18,
+   "median_gap": 9,
+   "max_gap": 11,
+   "min_gap": 6
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 370,
+    "kind": "ocr_fail",
+    "text": ""
+   },
+   {
+    "row_y": 403,
+    "kind": "ocr_fail",
+    "text": ""
+   }
+  ]
+ },
+ {
+  "source": "timetables/房山-稻田-4.jpg",
+  "id": "房山-稻田-4",
+  "n_times": 126,
+  "stats": {
+   "n": 126,
+   "n_hours": 18,
+   "median_gap": 9,
+   "max_gap": 11,
+   "min_gap": 7
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/房山-篱笆房-1.jpg",
+  "id": "房山-篱笆房-1",
+  "n_times": 216,
+  "stats": {
+   "n": 216,
+   "n_hours": 18,
+   "median_gap": 4,
+   "max_gap": 11,
+   "min_gap": 1
+  },
+  "issues": [
+   {
+    "kind": "gap_small",
+    "gap": 1,
+    "at": "07:52->07:53",
+    "msg": "gap 1 min is below 2"
+   },
+   {
+    "kind": "gap_small",
+    "gap": 1,
+    "at": "08:33->08:34",
+    "msg": "gap 1 min is below 2"
+   }
+  ],
+  "flags": [
+   {
+    "row_y": 407,
+    "kind": "repaired_swap",
+    "text": "60",
+    "fixed": "06"
+   },
+   {
+    "row_y": 407,
+    "kind": "repaired_swap",
+    "text": "81",
+    "fixed": "18"
+   },
+   {
+    "row_y": 407,
+    "kind": "repaired_swap",
+    "text": "71",
+    "fixed": "17"
+   },
+   {
+    "row_y": 407,
+    "kind": "repaired_swap",
+    "text": "92",
+    "fixed": "29"
+   },
+   {
+    "row_y": 407,
+    "kind": "repaired_swap",
+    "text": "72",
+    "fixed": "27"
+   },
+   {
+    "row_y": 407,
+    "kind": "repaired_swap",
+    "text": "93",
+    "fixed": "39"
+   },
+   {
+    "row_y": 407,
+    "kind": "repaired_swap",
+    "text": "73",
+    "fixed": "37"
+   },
+   {
+    "row_y": 407,
+    "kind": "repaired_swap",
+    "text": "94",
+    "fixed": "49"
+   }
+  ]
+ },
+ {
+  "source": "timetables/房山-篱笆房-2.jpg",
+  "id": "房山-篱笆房-2",
+  "n_times": 213,
+  "stats": {
+   "n": 213,
+   "n_hours": 18,
+   "median_gap": 4,
+   "max_gap": 10,
+   "min_gap": 2
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/房山-篱笆房-3.jpg",
+  "id": "房山-篱笆房-3",
+  "n_times": 126,
+  "stats": {
+   "n": 126,
+   "n_hours": 18,
+   "median_gap": 9,
+   "max_gap": 11,
+   "min_gap": 6
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 370,
+    "kind": "ocr_fail",
+    "text": ""
+   },
+   {
+    "row_y": 403,
+    "kind": "ocr_fail",
+    "text": "8"
+   }
+  ]
+ },
+ {
+  "source": "timetables/房山-篱笆房-4.jpg",
+  "id": "房山-篱笆房-4",
+  "n_times": 126,
+  "stats": {
+   "n": 126,
+   "n_hours": 18,
+   "median_gap": 9,
+   "max_gap": 11,
+   "min_gap": 7
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/房山-良乡南关-1.jpg",
+  "id": "房山-良乡南关-1",
+  "n_times": 204,
+  "stats": {
+   "n": 204,
+   "n_hours": 18,
+   "median_gap": 5,
+   "max_gap": 11,
+   "min_gap": 2
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/房山-良乡南关-2.jpg",
+  "id": "房山-良乡南关-2",
+  "n_times": 198,
+  "stats": {
+   "n": 198,
+   "n_hours": 18,
+   "median_gap": 5,
+   "max_gap": 11,
+   "min_gap": 2
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 792,
+    "kind": "ocr_fail",
+    "text": "180204071013161921247303336414447052545759"
+   },
+   {
+    "row_y": 830,
+    "kind": "ocr_fail",
+    "text": "190103060810115171921242628313337404244464951535558"
+   }
+  ]
+ },
+ {
+  "source": "timetables/房山-良乡南关-3.jpg",
+  "id": "房山-良乡南关-3",
+  "n_times": 126,
+  "stats": {
+   "n": 126,
+   "n_hours": 18,
+   "median_gap": 9,
+   "max_gap": 11,
+   "min_gap": 6
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 370,
+    "kind": "ocr_fail",
+    "text": ""
+   },
+   {
+    "row_y": 403,
+    "kind": "ocr_fail",
+    "text": "88"
+   }
+  ]
+ },
+ {
+  "source": "timetables/房山-良乡南关-4.jpg",
+  "id": "房山-良乡南关-4",
+  "n_times": 126,
+  "stats": {
+   "n": 126,
+   "n_hours": 18,
+   "median_gap": 9,
+   "max_gap": 11,
+   "min_gap": 7
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 1156,
+    "kind": "ocr_fail",
+    "text": "06132027344148355"
+   }
+  ]
+ },
+ {
+  "source": "timetables/房山-良乡大学城-1.jpg",
+  "id": "房山-良乡大学城-1",
+  "n_times": 201,
+  "stats": {
+   "n": 201,
+   "n_hours": 18,
+   "median_gap": 5,
+   "max_gap": 11,
+   "min_gap": 2
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 406,
+    "kind": "ocr_fail",
+    "text": "7030507091113151719212325272933384246505458"
+   },
+   {
+    "row_y": 792,
+    "kind": "ocr_fail",
+    "text": "17000698111720232831343740424548515457459"
+   },
+   {
+    "row_y": 984,
+    "kind": "ocr_fail",
+    "text": "22061112030"
+   }
+  ]
+ },
+ {
+  "source": "timetables/房山-良乡大学城-2.jpg",
+  "id": "房山-良乡大学城-2",
+  "n_times": 196,
+  "stats": {
+   "n": 196,
+   "n_hours": 18,
+   "median_gap": 5,
+   "max_gap": 11,
+   "min_gap": 2
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 791,
+    "kind": "ocr_fail",
+    "text": "18020508111316199252830363942147495154558"
+   },
+   {
+    "row_y": 830,
+    "kind": "repaired_swap",
+    "text": "90",
+    "fixed": "09"
+   },
+   {
+    "row_y": 868,
+    "kind": "ocr_fail",
+    "text": "20014051013152124273238434954"
+   }
+  ]
+ },
+ {
+  "source": "timetables/房山-良乡大学城-3.jpg",
+  "id": "房山-良乡大学城-3",
+  "n_times": 126,
+  "stats": {
+   "n": 126,
+   "n_hours": 18,
+   "median_gap": 9,
+   "max_gap": 11,
+   "min_gap": 6
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 370,
+    "kind": "ocr_fail",
+    "text": ""
+   },
+   {
+    "row_y": 403,
+    "kind": "ocr_fail",
+    "text": ""
+   }
+  ]
+ },
+ {
+  "source": "timetables/房山-良乡大学城-4.jpg",
+  "id": "房山-良乡大学城-4",
+  "n_times": 126,
+  "stats": {
+   "n": 126,
+   "n_hours": 18,
+   "median_gap": 9,
+   "max_gap": 11,
+   "min_gap": 7
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/房山-良乡大学城北-1.jpg",
+  "id": "房山-良乡大学城北-1",
+  "n_times": 200,
+  "stats": {
+   "n": 200,
+   "n_hours": 18,
+   "median_gap": 5,
+   "max_gap": 11,
+   "min_gap": 2
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 406,
+    "kind": "ocr_fail",
+    "text": "7030507091113151719212326283032364044485256"
+   },
+   {
+    "row_y": 599,
+    "kind": "ocr_fail",
+    "text": "142011120304050"
+   }
+  ]
+ },
+ {
+  "source": "timetables/房山-良乡大学城北-2.jpg",
+  "id": "房山-良乡大学城北-2",
+  "n_times": 197,
+  "stats": {
+   "n": 197,
+   "n_hours": 18,
+   "median_gap": 5,
+   "max_gap": 10,
+   "min_gap": 2
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 753,
+    "kind": "bad_minute",
+    "text": "97"
+   },
+   {
+    "row_y": 791,
+    "kind": "ocr_fail",
+    "text": "18000205111417192225281343639494447495155658"
+   },
+   {
+    "row_y": 829,
+    "kind": "ocr_fail",
+    "text": "190002050709121411821232530323436394143464850535659"
+   }
+  ]
+ },
+ {
+  "source": "timetables/房山-良乡大学城北-3.jpg",
+  "id": "房山-良乡大学城北-3",
+  "n_times": 126,
+  "stats": {
+   "n": 126,
+   "n_hours": 18,
+   "median_gap": 9,
+   "max_gap": 11,
+   "min_gap": 5
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 370,
+    "kind": "ocr_fail",
+    "text": ""
+   },
+   {
+    "row_y": 403,
+    "kind": "ocr_fail",
+    "text": "88"
+   }
+  ]
+ },
+ {
+  "source": "timetables/房山-良乡大学城北-4.jpg",
+  "id": "房山-良乡大学城北-4",
+  "n_times": 126,
+  "stats": {
+   "n": 126,
+   "n_hours": 18,
+   "median_gap": 9,
+   "max_gap": 11,
+   "min_gap": 7
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 996,
+    "kind": "ocr_fail",
+    "text": "0615243343352"
+   }
+  ]
+ },
+ {
+  "source": "timetables/房山-良乡大学城西-1.jpg",
+  "id": "房山-良乡大学城西-1",
+  "n_times": 201,
+  "stats": {
+   "n": 201,
+   "n_hours": 18,
+   "median_gap": 5,
+   "max_gap": 11,
+   "min_gap": 2
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/房山-良乡大学城西-2.jpg",
+  "id": "房山-良乡大学城西-2",
+  "n_times": 200,
+  "stats": {
+   "n": 200,
+   "n_hours": 18,
+   "median_gap": 5,
+   "max_gap": 10,
+   "min_gap": 2
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 791,
+    "kind": "ocr_fail",
+    "text": "180205081113161922252830333639424547505254565"
+   }
+  ]
+ },
+ {
+  "source": "timetables/房山-良乡大学城西-3.jpg",
+  "id": "房山-良乡大学城西-3",
+  "n_times": 126,
+  "stats": {
+   "n": 126,
+   "n_hours": 18,
+   "median_gap": 9,
+   "max_gap": 11,
+   "min_gap": 5
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 370,
+    "kind": "ocr_fail",
+    "text": ""
+   },
+   {
+    "row_y": 403,
+    "kind": "ocr_fail",
+    "text": "86"
+   }
+  ]
+ },
+ {
+  "source": "timetables/房山-良乡大学城西-4.jpg",
+  "id": "房山-良乡大学城西-4",
+  "n_times": 126,
+  "stats": {
+   "n": 126,
+   "n_hours": 18,
+   "median_gap": 9,
+   "max_gap": 11,
+   "min_gap": 7
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/房山-花乡东桥-1.jpg",
+  "id": "房山-花乡东桥-1",
+  "n_times": 192,
+  "stats": {
+   "n": 192,
+   "n_hours": 19,
+   "median_gap": 6,
+   "max_gap": 11,
+   "min_gap": 2
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/房山-花乡东桥-2.jpg",
+  "id": "房山-花乡东桥-2",
+  "n_times": 191,
+  "stats": {
+   "n": 191,
+   "n_hours": 18,
+   "median_gap": 5,
+   "max_gap": 11,
+   "min_gap": 2
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/房山-花乡东桥-3.jpg",
+  "id": "房山-花乡东桥-3",
+  "n_times": 125,
+  "stats": {
+   "n": 125,
+   "n_hours": 18,
+   "median_gap": 9,
+   "max_gap": 10,
+   "min_gap": 6
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 370,
+    "kind": "ocr_fail",
+    "text": ""
+   },
+   {
+    "row_y": 403,
+    "kind": "ocr_fail",
+    "text": ""
+   }
+  ]
+ },
+ {
+  "source": "timetables/房山-花乡东桥-4.jpg",
+  "id": "房山-花乡东桥-4",
+  "n_times": 125,
+  "stats": {
+   "n": 125,
+   "n_hours": 18,
+   "median_gap": 9,
+   "max_gap": 11,
+   "min_gap": 7
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/房山-苏庄-1.jpg",
+  "id": "房山-苏庄-1",
+  "n_times": 201,
+  "stats": {
+   "n": 201,
+   "n_hours": 18,
+   "median_gap": 5,
+   "max_gap": 11,
+   "min_gap": 2
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 406,
+    "kind": "ocr_fail",
+    "text": "704060810121416182022263034384247545559"
+   },
+   {
+    "row_y": 715,
+    "kind": "ocr_fail",
+    "text": "14504101520253037435056"
+   }
+  ]
+ },
+ {
+  "source": "timetables/房山-苏庄-2.jpg",
+  "id": "房山-苏庄-2",
+  "n_times": 198,
+  "stats": {
+   "n": 198,
+   "n_hours": 18,
+   "median_gap": 5,
+   "max_gap": 10,
+   "min_gap": 2
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 561,
+    "kind": "ocr_fail",
+    "text": "1209192938488"
+   },
+   {
+    "row_y": 792,
+    "kind": "repaired_swap",
+    "text": "82",
+    "fixed": "28"
+   },
+   {
+    "row_y": 792,
+    "kind": "repaired_swap",
+    "text": "73",
+    "fixed": "37"
+   },
+   {
+    "row_y": 792,
+    "kind": "repaired_swap",
+    "text": "83",
+    "fixed": "38"
+   },
+   {
+    "row_y": 792,
+    "kind": "repaired_swap",
+    "text": "84",
+    "fixed": "48"
+   },
+   {
+    "row_y": 792,
+    "kind": "repaired_swap",
+    "text": "74",
+    "fixed": "47"
+   },
+   {
+    "row_y": 792,
+    "kind": "repaired_swap",
+    "text": "95",
+    "fixed": "59"
+   }
+  ]
+ },
+ {
+  "source": "timetables/房山-苏庄-3.jpg",
+  "id": "房山-苏庄-3",
+  "n_times": 126,
+  "stats": {
+   "n": 126,
+   "n_hours": 18,
+   "median_gap": 9,
+   "max_gap": 10,
+   "min_gap": 6
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 370,
+    "kind": "ocr_fail",
+    "text": ""
+   },
+   {
+    "row_y": 403,
+    "kind": "ocr_fail",
+    "text": "8"
+   }
+  ]
+ },
+ {
+  "source": "timetables/房山-苏庄-4.jpg",
+  "id": "房山-苏庄-4",
+  "n_times": 126,
+  "stats": {
+   "n": 126,
+   "n_hours": 18,
+   "median_gap": 9,
+   "max_gap": 11,
+   "min_gap": 7
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 676,
+    "kind": "ocr_fail",
+    "text": "0007142128354249356"
+   }
+  ]
+ },
+ {
+  "source": "timetables/房山-郭公庄-1.jpg",
+  "id": "房山-郭公庄-1",
+  "n_times": 200,
+  "stats": {
+   "n": 200,
+   "n_hours": 18,
+   "median_gap": 5,
+   "max_gap": 11,
+   "min_gap": 2
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 569,
+    "kind": "ocr_fail",
+    "text": "800020406081121417192123252720313235373941434547495154575"
+   }
+  ]
+ },
+ {
+  "source": "timetables/房山-郭公庄-2.jpg",
+  "id": "房山-郭公庄-2",
+  "n_times": 212,
+  "stats": {
+   "n": 212,
+   "n_hours": 18,
+   "median_gap": 4,
+   "max_gap": 11,
+   "min_gap": 2
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 1059,
+    "kind": "repaired_swap",
+    "text": "80",
+    "fixed": "08"
+   },
+   {
+    "row_y": 1059,
+    "kind": "repaired_swap",
+    "text": "60",
+    "fixed": "06"
+   },
+   {
+    "row_y": 1108,
+    "kind": "repaired_swap",
+    "text": "90",
+    "fixed": "09"
+   }
+  ]
+ },
+ {
+  "source": "timetables/房山-郭公庄-3.jpg",
+  "id": "房山-郭公庄-3",
+  "n_times": 126,
+  "stats": {
+   "n": 126,
+   "n_hours": 18,
+   "median_gap": 9,
+   "max_gap": 11,
+   "min_gap": 5
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 471,
+    "kind": "ocr_fail",
+    "text": ""
+   },
+   {
+    "row_y": 514,
+    "kind": "ocr_fail",
+    "text": "88"
+   }
+  ]
+ },
+ {
+  "source": "timetables/房山-郭公庄-4.jpg",
+  "id": "房山-郭公庄-4",
+  "n_times": 125,
+  "stats": {
+   "n": 125,
+   "n_hours": 18,
+   "median_gap": 9,
+   "max_gap": 11,
+   "min_gap": 7
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/房山-长阳-1.jpg",
+  "id": "房山-长阳-1",
+  "n_times": 216,
+  "stats": {
+   "n": 216,
+   "n_hours": 18,
+   "median_gap": 4,
+   "max_gap": 10,
+   "min_gap": 2
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 445,
+    "kind": "repaired_swap",
+    "text": "71",
+    "fixed": "17"
+   }
+  ]
+ },
+ {
+  "source": "timetables/房山-长阳-2.jpg",
+  "id": "房山-长阳-2",
+  "n_times": 211,
+  "stats": {
+   "n": 211,
+   "n_hours": 18,
+   "median_gap": 5,
+   "max_gap": 10,
+   "min_gap": 2
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 751,
+    "kind": "repaired_swap",
+    "text": "65",
+    "fixed": "56"
+   },
+   {
+    "row_y": 789,
+    "kind": "ocr_fail",
+    "text": "18020508111316197252830736384042447495154058"
+   }
+  ]
+ },
+ {
+  "source": "timetables/房山-长阳-3.jpg",
+  "id": "房山-长阳-3",
+  "n_times": 126,
+  "stats": {
+   "n": 126,
+   "n_hours": 18,
+   "median_gap": 9,
+   "max_gap": 11,
+   "min_gap": 6
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 370,
+    "kind": "ocr_fail",
+    "text": ""
+   },
+   {
+    "row_y": 403,
+    "kind": "ocr_fail",
+    "text": "88"
+   }
+  ]
+ },
+ {
+  "source": "timetables/房山-长阳-4.jpg",
+  "id": "房山-长阳-4",
+  "n_times": 126,
+  "stats": {
+   "n": 126,
+   "n_hours": 18,
+   "median_gap": 9,
+   "max_gap": 11,
+   "min_gap": 7
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/房山-阎村东-1.jpg",
+  "id": "房山-阎村东-1",
+  "n_times": 177,
+  "stats": {
+   "n": 177,
+   "n_hours": 18,
+   "median_gap": 6,
+   "max_gap": 10,
+   "min_gap": 2
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 406,
+    "kind": "bad_minute",
+    "text": "77"
+   },
+   {
+    "row_y": 522,
+    "kind": "ocr_fail",
+    "text": "10061112030405059"
+   },
+   {
+    "row_y": 792,
+    "kind": "repaired_swap",
+    "text": "70",
+    "fixed": "07"
+   }
+  ]
+ },
+ {
+  "source": "timetables/房山-阎村东-2.jpg",
+  "id": "房山-阎村东-2",
+  "n_times": 125,
+  "stats": {
+   "n": 125,
+   "n_hours": 18,
+   "median_gap": 9,
+   "max_gap": 11,
+   "min_gap": 6
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 370,
+    "kind": "ocr_fail",
+    "text": ""
+   },
+   {
+    "row_y": 403,
+    "kind": "ocr_fail",
+    "text": ""
+   }
+  ]
+ },
+ {
+  "source": "timetables/房山-首经贸-1.jpg",
+  "id": "房山-首经贸-1",
+  "n_times": 192,
+  "stats": {
+   "n": 192,
+   "n_hours": 19,
+   "median_gap": 6,
+   "max_gap": 11,
+   "min_gap": 2
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 445,
+    "kind": "repaired_swap",
+    "text": "70",
+    "fixed": "07"
+   }
+  ]
+ },
+ {
+  "source": "timetables/房山-首经贸-2.jpg",
+  "id": "房山-首经贸-2",
+  "n_times": 192,
+  "stats": {
+   "n": 192,
+   "n_hours": 19,
+   "median_gap": 5,
+   "max_gap": 10,
+   "min_gap": 2
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/房山-首经贸-3.jpg",
+  "id": "房山-首经贸-3",
+  "n_times": 125,
+  "stats": {
+   "n": 125,
+   "n_hours": 18,
+   "median_gap": 9,
+   "max_gap": 11,
+   "min_gap": 6
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 268,
+    "kind": "ocr_fail",
+    "text": ""
+   },
+   {
+    "row_y": 290,
+    "kind": "ocr_fail",
+    "text": "206686"
+   }
+  ]
+ },
+ {
+  "source": "timetables/房山-首经贸-4.jpg",
+  "id": "房山-首经贸-4",
+  "n_times": 126,
+  "stats": {
+   "n": 126,
+   "n_hours": 19,
+   "median_gap": 9,
+   "max_gap": 11,
+   "min_gap": 7
+  },
+  "issues": [],
+  "flags": []
+ }
+]

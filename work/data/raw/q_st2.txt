@@ -1,0 +1,11 @@
+[out:json][timeout:300];
+(
+  node["railway"="station"](39.3,115.3,41.2,117.6);
+  node["railway"="halt"](39.3,115.3,41.2,117.6);
+  node["public_transport"="station"](39.3,115.3,41.2,117.6);
+  way["railway"="station"](39.3,115.3,41.2,117.6);
+  way["public_transport"="station"](39.3,115.3,41.2,117.6);
+  rel["public_transport"="station"](39.3,115.3,41.2,117.6);
+  rel["railway"="station"](39.3,115.3,41.2,117.6);
+);
+out center tags;

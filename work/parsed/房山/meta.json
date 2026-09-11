@@ -1,0 +1,12 @@
+{
+ "1": {"direction": "东管头南", "service": "weekday", "legend": {"green": "东管头南", "yellow": "东管头南", "pink": "郭公庄", "purple": "国家图书馆"}, "note": "工作日; 16 images; 图例随车站不同，以各图为准"},
+ "2": {"direction": "阎村东", "service": "weekday", "legend": {"blue": "阎村东", "red": "东管头南"}, "note": "工作日; 16 images"},
+ "3": {"direction": "东管头南", "service": "weekend", "legend": {"yellow": "东管头南"}, "note": "双休日; 14 images"},
+ "4": {"direction": "阎村东", "service": "weekend", "legend": {}, "note": "双休日; 14 images"},
+ "_images": {
+  "房山-东管头南-1": {"direction": "阎村东", "service": "weekday", "note": "东管头南为东端终点，仅开往阎村东方向"},
+  "房山-东管头南-2": {"direction": "阎村东", "service": "weekend", "note": "双休日，仅开往阎村东方向"},
+  "房山-阎村东-1": {"direction": "东管头南", "service": "weekday", "note": "阎村东为西端终点，仅开往东管头南方向"},
+  "房山-阎村东-2": {"direction": "东管头南", "service": "weekend", "note": "双休日，仅开往东管头南方向"}
+ }
+}

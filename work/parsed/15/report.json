@@ -1,0 +1,7496 @@
+[
+ {
+  "source": "timetables/15-俸伯-1.jpg",
+  "id": "15-俸伯-1",
+  "n_times": 219,
+  "stats": {
+   "n": 219,
+   "n_hours": 19,
+   "median_gap": 4,
+   "max_gap": 11,
+   "min_gap": 2
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 975,
+    "kind": "ocr_fail",
+    "text": "6020714192326293233841434744945245558"
+   },
+   {
+    "row_y": 1079,
+    "kind": "ocr_fail",
+    "text": "7019307101316186206240622963206034063840424558"
+   },
+   {
+    "row_y": 1181,
+    "kind": "ocr_fail",
+    "text": "80022052811414172232622923320634063706400644965255"
+   },
+   {
+    "row_y": 1284,
+    "kind": "repaired_swap",
+    "text": "91",
+    "fixed": "19"
+   },
+   {
+    "row_y": 1592,
+    "kind": "ocr_fail",
+    "text": "42031141927354325159"
+   },
+   {
+    "row_y": 2003,
+    "kind": "ocr_fail",
+    "text": "14600071316192432394444500655658"
+   },
+   {
+    "row_y": 2106,
+    "kind": "ocr_fail",
+    "text": "170511182428313437414424445006645457"
+   },
+   {
+    "row_y": 2208,
+    "kind": "ocr_fail",
+    "text": "180031013167023229323639442646649065206655659"
+   },
+   {
+    "row_y": 2413,
+    "kind": "ocr_fail",
+    "text": "200006121824272303236414454490452065606659"
+   },
+   {
+    "row_y": 2517,
+    "kind": "ocr_fail",
+    "text": "2103101823283944449454659"
+   }
+  ]
+ },
+ {
+  "source": "timetables/15-俸伯-2.jpg",
+  "id": "15-俸伯-2",
+  "n_times": 153,
+  "stats": {
+   "n": 153,
+   "n_hours": 19,
+   "median_gap": 8,
+   "max_gap": 12,
+   "min_gap": 4
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 877,
+    "kind": "repaired_swap",
+    "text": "83",
+    "fixed": "38"
+   },
+   {
+    "row_y": 877,
+    "kind": "repaired_swap",
+    "text": "64",
+    "fixed": "46"
+   },
+   {
+    "row_y": 980,
+    "kind": "ocr_fail",
+    "text": "606131827423444144855"
+   },
+   {
+    "row_y": 1082,
+    "kind": "ocr_fail",
+    "text": "70206142026303844115056"
+   },
+   {
+    "row_y": 1288,
+    "kind": "repaired_swap",
+    "text": "63",
+    "fixed": "36"
+   },
+   {
+    "row_y": 1288,
+    "kind": "repaired_swap",
+    "text": "84",
+    "fixed": "48"
+   },
+   {
+    "row_y": 1800,
+    "kind": "ocr_fail",
+    "text": "14041220283644652"
+   },
+   {
+    "row_y": 1903,
+    "kind": "ocr_fail",
+    "text": "150008162432404742495159"
+   },
+   {
+    "row_y": 2006,
+    "kind": "ocr_fail",
+    "text": "16051115232923539474295359"
+   },
+   {
+    "row_y": 2108,
+    "kind": "ocr_fail",
+    "text": "1703111723062706350664106470535"
+   },
+   {
+    "row_y": 2211,
+    "kind": "ocr_fail",
+    "text": "180511172232354144856"
+   },
+   {
+    "row_y": 2411,
+    "kind": "ocr_fail",
+    "text": "200614182230384650854"
+   },
+   {
+    "row_y": 2519,
+    "kind": "repaired_swap",
+    "text": "82",
+    "fixed": "28"
+   }
+  ]
+ },
+ {
+  "source": "timetables/15-六道口-1.jpg",
+  "id": "15-六道口-1",
+  "n_times": 162,
+  "stats": {
+   "n": 162,
+   "n_hours": 19,
+   "median_gap": 6,
+   "max_gap": 10,
+   "min_gap": 3
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 1087,
+    "kind": "ocr_fail",
+    "text": "1081319253137434854"
+   },
+   {
+    "row_y": 1292,
+    "kind": "ocr_fail",
+    "text": "90005111722242806340639066445065158"
+   }
+  ]
+ },
+ {
+  "source": "timetables/15-六道口-2.jpg",
+  "id": "15-六道口-2",
+  "n_times": 162,
+  "stats": {
+   "n": 162,
+   "n_hours": 19,
+   "median_gap": 6,
+   "max_gap": 11,
+   "min_gap": 2
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 864,
+    "kind": "ocr_fail",
+    "text": "2329354249456"
+   },
+   {
+    "row_y": 967,
+    "kind": "repaired_swap",
+    "text": "80",
+    "fixed": "08"
+   },
+   {
+    "row_y": 967,
+    "kind": "bad_minute",
+    "text": "98"
+   },
+   {
+    "row_y": 1068,
+    "kind": "ocr_fail",
+    "text": "041016222834404682357"
+   },
+   {
+    "row_y": 1172,
+    "kind": "ocr_fail",
+    "text": "03091520262834394550456"
+   },
+   {
+    "row_y": 1275,
+    "kind": "bad_minute",
+    "text": "99"
+   },
+   {
+    "row_y": 1275,
+    "kind": "repaired_swap",
+    "text": "92",
+    "fixed": "29"
+   },
+   {
+    "row_y": 1275,
+    "kind": "repaired_swap",
+    "text": "84",
+    "fixed": "48"
+   },
+   {
+    "row_y": 1378,
+    "kind": "ocr_fail",
+    "text": "00138192228333945951"
+   },
+   {
+    "row_y": 1584,
+    "kind": "repaired_swap",
+    "text": "93",
+    "fixed": "39"
+   },
+   {
+    "row_y": 1584,
+    "kind": "repaired_swap",
+    "text": "74",
+    "fixed": "47"
+   },
+   {
+    "row_y": 1686,
+    "kind": "repaired_swap",
+    "text": "91",
+    "fixed": "19"
+   },
+   {
+    "row_y": 1686,
+    "kind": "bad_minute",
+    "text": "97"
+   },
+   {
+    "row_y": 1891,
+    "kind": "ocr_fail",
+    "text": "150109172333741494357"
+   },
+   {
+    "row_y": 1994,
+    "kind": "ocr_fail",
+    "text": "050913212934556"
+   },
+   {
+    "row_y": 2097,
+    "kind": "ocr_fail",
+    "text": "170208142123439453503583"
+   },
+   {
+    "row_y": 2302,
+    "kind": "ocr_fail",
+    "text": "19051118243134450"
+   },
+   {
+    "row_y": 2404,
+    "kind": "ocr_fail",
+    "text": "03101222834404658258"
+   },
+   {
+    "row_y": 2507,
+    "kind": "repaired_swap",
+    "text": "94",
+    "fixed": "49"
+   },
+   {
+    "row_y": 2507,
+    "kind": "repaired_swap",
+    "text": "65",
+    "fixed": "56"
+   },
+   {
+    "row_y": 2610,
+    "kind": "ocr_fail",
+    "text": "00162636465"
+   }
+  ]
+ },
+ {
+  "source": "timetables/15-六道口-3.jpg",
+  "id": "15-六道口-3",
+  "n_times": 150,
+  "stats": {
+   "n": 150,
+   "n_hours": 19,
+   "median_gap": 7,
+   "max_gap": 9,
+   "min_gap": 6
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 1388,
+    "kind": "repaired_swap",
+    "text": "81",
+    "fixed": "18"
+   },
+   {
+    "row_y": 1388,
+    "kind": "repaired_swap",
+    "text": "63",
+    "fixed": "36"
+   },
+   {
+    "row_y": 1388,
+    "kind": "repaired_swap",
+    "text": "84",
+    "fixed": "48"
+   },
+   {
+    "row_y": 1802,
+    "kind": "repaired_swap",
+    "text": "71",
+    "fixed": "17"
+   },
+   {
+    "row_y": 1906,
+    "kind": "ocr_fail",
+    "text": "1503111927354345159"
+   },
+   {
+    "row_y": 2112,
+    "kind": "ocr_fail",
+    "text": "1705111742234293564144753659"
+   },
+   {
+    "row_y": 2215,
+    "kind": "ocr_fail",
+    "text": "105111742234293544147245359"
+   },
+   {
+    "row_y": 2319,
+    "kind": "repaired_swap",
+    "text": "90",
+    "fixed": "09"
+   }
+  ]
+ },
+ {
+  "source": "timetables/15-六道口-4.jpg",
+  "id": "15-六道口-4",
+  "n_times": 150,
+  "stats": {
+   "n": 150,
+   "n_hours": 19,
+   "median_gap": 7,
+   "max_gap": 10,
+   "min_gap": 6
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 1179,
+    "kind": "ocr_fail",
+    "text": "03091521272333945245157"
+   },
+   {
+    "row_y": 1281,
+    "kind": "repaired_swap",
+    "text": "91",
+    "fixed": "19"
+   },
+   {
+    "row_y": 1281,
+    "kind": "repaired_swap",
+    "text": "73",
+    "fixed": "37"
+   },
+   {
+    "row_y": 1281,
+    "kind": "repaired_swap",
+    "text": "94",
+    "fixed": "49"
+   },
+   {
+    "row_y": 1384,
+    "kind": "ocr_fail",
+    "text": "0309152127233394545259"
+   },
+   {
+    "row_y": 1589,
+    "kind": "ocr_fail",
+    "text": "1203114192735435159"
+   },
+   {
+    "row_y": 1794,
+    "kind": "ocr_fail",
+    "text": "1403114192735443245159"
+   },
+   {
+    "row_y": 1999,
+    "kind": "ocr_fail",
+    "text": "031141927235424854"
+   },
+   {
+    "row_y": 2102,
+    "kind": "ocr_fail",
+    "text": "17000612182430364248454"
+   },
+   {
+    "row_y": 2410,
+    "kind": "ocr_fail",
+    "text": "051321293744553"
+   },
+   {
+    "row_y": 2512,
+    "kind": "ocr_fail",
+    "text": "91010917253341249457"
+   }
+  ]
+ },
+ {
+  "source": "timetables/15-关庄-1.jpg",
+  "id": "15-关庄-1",
+  "n_times": 129,
+  "stats": {
+   "n": 129,
+   "n_hours": 12,
+   "median_gap": 6,
+   "max_gap": 65,
+   "min_gap": 1
+  },
+  "issues": [
+   {
+    "kind": "duplicate",
+    "hour": 10,
+    "minute": 47,
+    "msg": "duplicate 10:47"
+   },
+   {
+    "kind": "duplicate",
+    "hour": 11,
+    "minute": 23,
+    "msg": "duplicate 11:23"
+   },
+   {
+    "kind": "duplicate",
+    "hour": 18,
+    "minute": 10,
+    "msg": "duplicate 18:10"
+   },
+   {
+    "kind": "duplicate",
+    "hour": 18,
+    "minute": 13,
+    "msg": "duplicate 18:13"
+   },
+   {
+    "kind": "duplicate",
+    "hour": 18,
+    "minute": 47,
+    "msg": "duplicate 18:47"
+   },
+   {
+    "kind": "dup_hour",
+    "hour": 10,
+    "msg": "hour 10 has duplicates: [1, 3, 12, 17, 26, 31, 35, 43, 47, 47, 51, 59]"
+   },
+   {
+    "kind": "dup_hour",
+    "hour": 11,
+    "msg": "hour 11 has duplicates: [7, 15, 23, 23, 31, 35, 39, 47, 55]"
+   },
+   {
+    "kind": "dup_hour",
+    "hour": 18,
+    "msg": "hour 18 has duplicates: [4, 10, 10, 13, 13, 16, 19, 22, 25, 28, 34, 38, 43, 46, 47, 47, 49, 53, 56]"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 63,
+    "at": "06:57->08:00",
+    "msg": "gap 63 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "gap_small",
+    "gap": 1,
+    "at": "09:12->09:13",
+    "msg": "gap 1 min is below 2"
+   },
+   {
+    "kind": "gap_small",
+    "gap": 1,
+    "at": "09:13->09:14",
+    "msg": "gap 1 min is below 2"
+   },
+   {
+    "kind": "gap_small",
+    "gap": 1,
+    "at": "09:39->09:40",
+    "msg": "gap 1 min is below 2"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 16,
+    "at": "11:55->12:11",
+    "msg": "gap 16 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 16,
+    "at": "12:59->13:15",
+    "msg": "gap 16 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 16,
+    "at": "13:55->14:11",
+    "msg": "gap 16 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 65,
+    "at": "16:59->18:04",
+    "msg": "gap 65 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "gap_small",
+    "gap": 1,
+    "at": "18:46->18:47",
+    "msg": "gap 1 min is below 2"
+   },
+   {
+    "kind": "hour_gap",
+    "msg": "hours 6->8 not consecutive"
+   },
+   {
+    "kind": "hour_gap",
+    "msg": "hours 16->18 not consecutive"
+   }
+  ],
+  "flags": [
+   {
+    "row_y": 1087,
+    "kind": "ocr_fail",
+    "text": "703081316192225231343740434644865145457"
+   },
+   {
+    "row_y": 1190,
+    "kind": "bad_minute",
+    "text": "78"
+   },
+   {
+    "row_y": 1292,
+    "kind": "repaired_swap",
+    "text": "90",
+    "fixed": "09"
+   },
+   {
+    "row_y": 1292,
+    "kind": "repaired_swap",
+    "text": "93",
+    "fixed": "39"
+   },
+   {
+    "row_y": 1395,
+    "kind": "repaired_swap",
+    "text": "71",
+    "fixed": "17"
+   },
+   {
+    "row_y": 1395,
+    "kind": "repaired_swap",
+    "text": "62",
+    "fixed": "26"
+   },
+   {
+    "row_y": 1395,
+    "kind": "repaired_swap",
+    "text": "74",
+    "fixed": "47"
+   },
+   {
+    "row_y": 2114,
+    "kind": "ocr_fail",
+    "text": "405091215182252313538414448515457"
+   },
+   {
+    "row_y": 2217,
+    "kind": "repaired_swap",
+    "text": "82",
+    "fixed": "28"
+   },
+   {
+    "row_y": 2217,
+    "kind": "repaired_swap",
+    "text": "83",
+    "fixed": "38"
+   },
+   {
+    "row_y": 2217,
+    "kind": "repaired_swap",
+    "text": "74",
+    "fixed": "47"
+   },
+   {
+    "row_y": 2217,
+    "kind": "repaired_swap",
+    "text": "64",
+    "fixed": "46"
+   },
+   {
+    "row_y": 2217,
+    "kind": "bad_minute",
+    "text": "99"
+   },
+   {
+    "row_y": 2318,
+    "kind": "ocr_fail",
+    "text": "0209121519222528323538414548417515458"
+   },
+   {
+    "row_y": 2422,
+    "kind": "ocr_fail",
+    "text": "9001471111420263239455258"
+   }
+  ]
+ },
+ {
+  "source": "timetables/15-关庄-2.jpg",
+  "id": "15-关庄-2",
+  "n_times": 130,
+  "stats": {
+   "n": 130,
+   "n_hours": 13,
+   "median_gap": 6,
+   "max_gap": 133,
+   "min_gap": 1
+  },
+  "issues": [
+   {
+    "kind": "gap_large",
+    "gap": 20,
+    "at": "05:23->05:43",
+    "msg": "gap 20 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "gap_small",
+    "gap": 1,
+    "at": "05:43->05:44",
+    "msg": "gap 1 min is below 2"
+   },
+   {
+    "kind": "gap_small",
+    "gap": 1,
+    "at": "06:45->06:46",
+    "msg": "gap 1 min is below 2"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 18,
+    "at": "06:46->07:04",
+    "msg": "gap 18 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "gap_small",
+    "gap": 1,
+    "at": "07:37->07:38",
+    "msg": "gap 1 min is below 2"
+   },
+   {
+    "kind": "gap_small",
+    "gap": 1,
+    "at": "07:45->07:46",
+    "msg": "gap 1 min is below 2"
+   },
+   {
+    "kind": "gap_small",
+    "gap": 1,
+    "at": "10:10->10:11",
+    "msg": "gap 1 min is below 2"
+   },
+   {
+    "kind": "gap_small",
+    "gap": 1,
+    "at": "10:11->10:12",
+    "msg": "gap 1 min is below 2"
+   },
+   {
+    "kind": "gap_small",
+    "gap": 1,
+    "at": "10:12->10:13",
+    "msg": "gap 1 min is below 2"
+   },
+   {
+    "kind": "gap_small",
+    "gap": 1,
+    "at": "10:39->10:40",
+    "msg": "gap 1 min is below 2"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 16,
+    "at": "11:53->12:09",
+    "msg": "gap 16 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 16,
+    "at": "12:57->13:13",
+    "msg": "gap 16 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 16,
+    "at": "13:53->14:09",
+    "msg": "gap 16 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "gap_small",
+    "gap": 1,
+    "at": "16:44->16:45",
+    "msg": "gap 1 min is below 2"
+   },
+   {
+    "kind": "gap_small",
+    "gap": 1,
+    "at": "19:29->19:30",
+    "msg": "gap 1 min is below 2"
+   },
+   {
+    "kind": "gap_small",
+    "gap": 1,
+    "at": "19:30->19:31",
+    "msg": "gap 1 min is below 2"
+   },
+   {
+    "kind": "gap_small",
+    "gap": 1,
+    "at": "19:31->19:32",
+    "msg": "gap 1 min is below 2"
+   },
+   {
+    "kind": "gap_small",
+    "gap": 1,
+    "at": "19:35->19:36",
+    "msg": "gap 1 min is below 2"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 17,
+    "at": "20:16->20:33",
+    "msg": "gap 17 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "gap_small",
+    "gap": 1,
+    "at": "20:51->20:52",
+    "msg": "gap 1 min is below 2"
+   },
+   {
+    "kind": "hour_gap",
+    "msg": "hours 7->10 not consecutive"
+   },
+   {
+    "kind": "hour_gap",
+    "msg": "hours 16->19 not consecutive"
+   }
+  ],
+  "flags": [
+   {
+    "row_y": 748,
+    "kind": "ocr_fail",
+    "text": ""
+   },
+   {
+    "row_y": 964,
+    "kind": "bad_minute",
+    "text": "86"
+   },
+   {
+    "row_y": 1169,
+    "kind": "ocr_fail",
+    "text": "900350811141619222527303336384144475053555"
+   },
+   {
+    "row_y": 1272,
+    "kind": "ocr_fail",
+    "text": "01340710131619222523033363424485155589"
+   },
+   {
+    "row_y": 1375,
+    "kind": "repaired_swap",
+    "text": "71",
+    "fixed": "17"
+   },
+   {
+    "row_y": 1375,
+    "kind": "repaired_swap",
+    "text": "62",
+    "fixed": "26"
+   },
+   {
+    "row_y": 1991,
+    "kind": "repaired_swap",
+    "text": "65",
+    "fixed": "56"
+   },
+   {
+    "row_y": 2093,
+    "kind": "ocr_fail",
+    "text": "0336091216192222833033363390424548515558"
+   },
+   {
+    "row_y": 2197,
+    "kind": "ocr_fail",
+    "text": "1801340811141721242730343740424750535"
+   },
+   {
+    "row_y": 2298,
+    "kind": "repaired_swap",
+    "text": "63",
+    "fixed": "36"
+   },
+   {
+    "row_y": 2298,
+    "kind": "repaired_swap",
+    "text": "91",
+    "fixed": "19"
+   },
+   {
+    "row_y": 2298,
+    "kind": "repaired_swap",
+    "text": "61",
+    "fixed": "16"
+   },
+   {
+    "row_y": 2298,
+    "kind": "repaired_swap",
+    "text": "92",
+    "fixed": "29"
+   },
+   {
+    "row_y": 2298,
+    "kind": "repaired_swap",
+    "text": "62",
+    "fixed": "26"
+   },
+   {
+    "row_y": 2402,
+    "kind": "repaired_swap",
+    "text": "61",
+    "fixed": "16"
+   },
+   {
+    "row_y": 2608,
+    "kind": "ocr_fail",
+    "text": "0414243445455"
+   }
+  ]
+ },
+ {
+  "source": "timetables/15-关庄-3.jpg",
+  "id": "15-关庄-3",
+  "n_times": 150,
+  "stats": {
+   "n": 150,
+   "n_hours": 19,
+   "median_gap": 7,
+   "max_gap": 9,
+   "min_gap": 6
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 773,
+    "kind": "ocr_fail",
+    "text": ""
+   },
+   {
+    "row_y": 1497,
+    "kind": "repaired_swap",
+    "text": "81",
+    "fixed": "18"
+   },
+   {
+    "row_y": 1600,
+    "kind": "repaired_swap",
+    "text": "92",
+    "fixed": "29"
+   },
+   {
+    "row_y": 2109,
+    "kind": "ocr_fail",
+    "text": "51117232935414753594"
+   }
+  ]
+ },
+ {
+  "source": "timetables/15-关庄-4.jpg",
+  "id": "15-关庄-4",
+  "n_times": 150,
+  "stats": {
+   "n": 150,
+   "n_hours": 18,
+   "median_gap": 7,
+   "max_gap": 10,
+   "min_gap": 6
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 868,
+    "kind": "ocr_fail",
+    "text": "111927435435157"
+   },
+   {
+    "row_y": 970,
+    "kind": "ocr_fail",
+    "text": "60311192723542424956"
+   },
+   {
+    "row_y": 1073,
+    "kind": "ocr_fail",
+    "text": "0310174224431238455157"
+   },
+   {
+    "row_y": 1175,
+    "kind": "ocr_fail",
+    "text": "030815212723339455157"
+   },
+   {
+    "row_y": 1278,
+    "kind": "repaired_swap",
+    "text": "81",
+    "fixed": "18"
+   },
+   {
+    "row_y": 1278,
+    "kind": "repaired_swap",
+    "text": "72",
+    "fixed": "27"
+   },
+   {
+    "row_y": 1380,
+    "kind": "ocr_fail",
+    "text": "030915214272334404755"
+   },
+   {
+    "row_y": 1482,
+    "kind": "ocr_fail",
+    "text": "03411219272358438065159"
+   },
+   {
+    "row_y": 1585,
+    "kind": "ocr_fail",
+    "text": "42071523431394944755"
+   },
+   {
+    "row_y": 1687,
+    "kind": "ocr_fail",
+    "text": "031119227435435159"
+   },
+   {
+    "row_y": 1789,
+    "kind": "ocr_fail",
+    "text": "071523314394755"
+   },
+   {
+    "row_y": 1892,
+    "kind": "ocr_fail",
+    "text": "03411219273548851659"
+   },
+   {
+    "row_y": 2097,
+    "kind": "repaired_swap",
+    "text": "70",
+    "fixed": "07"
+   },
+   {
+    "row_y": 2097,
+    "kind": "repaired_swap",
+    "text": "61",
+    "fixed": "16"
+   },
+   {
+    "row_y": 2097,
+    "kind": "repaired_swap",
+    "text": "82",
+    "fixed": "28"
+   },
+   {
+    "row_y": 2301,
+    "kind": "ocr_fail",
+    "text": "0006121823143942446853"
+   },
+   {
+    "row_y": 2404,
+    "kind": "repaired_swap",
+    "text": "91",
+    "fixed": "19"
+   },
+   {
+    "row_y": 2404,
+    "kind": "repaired_swap",
+    "text": "74",
+    "fixed": "47"
+   },
+   {
+    "row_y": 2507,
+    "kind": "ocr_fail",
+    "text": "91051342142294293744553"
+   },
+   {
+    "row_y": 2609,
+    "kind": "ocr_fail",
+    "text": "0198182742364555"
+   }
+  ]
+ },
+ {
+  "source": "timetables/15-北沙滩-1.jpg",
+  "id": "15-北沙滩-1#0",
+  "n_times": 162,
+  "stats": {
+   "n": 162,
+   "n_hours": 19,
+   "median_gap": 6,
+   "max_gap": 10,
+   "min_gap": 3
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 2322,
+    "kind": "ocr_fail",
+    "text": "061219254"
+   }
+  ]
+ },
+ {
+  "source": "timetables/15-北沙滩-1.jpg",
+  "id": "15-北沙滩-1#1",
+  "n_times": 162,
+  "stats": {
+   "n": 162,
+   "n_hours": 19,
+   "median_gap": 6,
+   "max_gap": 10,
+   "min_gap": 3
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 986,
+    "kind": "repaired_swap",
+    "text": "93",
+    "fixed": "39"
+   },
+   {
+    "row_y": 1090,
+    "kind": "ocr_fail",
+    "text": "23339451"
+   },
+   {
+    "row_y": 1193,
+    "kind": "ocr_fail",
+    "text": "2323841461"
+   },
+   {
+    "row_y": 1295,
+    "kind": "ocr_fail",
+    "text": "29303642483"
+   },
+   {
+    "row_y": 1500,
+    "kind": "ocr_fail",
+    "text": "2934503"
+   },
+   {
+    "row_y": 1706,
+    "kind": "ocr_fail",
+    "text": "34593"
+   },
+   {
+    "row_y": 1911,
+    "kind": "ocr_fail",
+    "text": "3441"
+   },
+   {
+    "row_y": 2220,
+    "kind": "ocr_fail",
+    "text": "2228344046939"
+   },
+   {
+    "row_y": 2322,
+    "kind": "repaired_swap",
+    "text": "84",
+    "fixed": "48"
+   }
+  ]
+ },
+ {
+  "source": "timetables/15-北沙滩-2.jpg",
+  "id": "15-北沙滩-2",
+  "n_times": 162,
+  "stats": {
+   "n": 162,
+   "n_hours": 19,
+   "median_gap": 6,
+   "max_gap": 11,
+   "min_gap": 3
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 1171,
+    "kind": "repaired_swap",
+    "text": "80",
+    "fixed": "08"
+   },
+   {
+    "row_y": 1171,
+    "kind": "repaired_swap",
+    "text": "71",
+    "fixed": "17"
+   },
+   {
+    "row_y": 1171,
+    "kind": "repaired_swap",
+    "text": "82",
+    "fixed": "28"
+   },
+   {
+    "row_y": 1274,
+    "kind": "ocr_fail",
+    "text": "901172293440465238"
+   },
+   {
+    "row_y": 1582,
+    "kind": "ocr_fail",
+    "text": "1203111927354351359"
+   },
+   {
+    "row_y": 1786,
+    "kind": "ocr_fail",
+    "text": "03111927354335159"
+   },
+   {
+    "row_y": 1891,
+    "kind": "repaired_swap",
+    "text": "94",
+    "fixed": "49"
+   },
+   {
+    "row_y": 1891,
+    "kind": "repaired_swap",
+    "text": "75",
+    "fixed": "57"
+   },
+   {
+    "row_y": 1993,
+    "kind": "ocr_fail",
+    "text": "160307111927354348954"
+   },
+   {
+    "row_y": 2506,
+    "kind": "repaired_swap",
+    "text": "92",
+    "fixed": "29"
+   }
+  ]
+ },
+ {
+  "source": "timetables/15-北沙滩-3.jpg",
+  "id": "15-北沙滩-3",
+  "n_times": 150,
+  "stats": {
+   "n": 150,
+   "n_hours": 19,
+   "median_gap": 7,
+   "max_gap": 9,
+   "min_gap": 6
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 1497,
+    "kind": "ocr_fail",
+    "text": "0132129374244553"
+   },
+   {
+    "row_y": 1602,
+    "kind": "ocr_fail",
+    "text": "14201091725334144957"
+   },
+   {
+    "row_y": 1705,
+    "kind": "ocr_fail",
+    "text": "0132129374244553"
+   },
+   {
+    "row_y": 2016,
+    "kind": "ocr_fail",
+    "text": "16010917233414855"
+   },
+   {
+    "row_y": 2120,
+    "kind": "ocr_fail",
+    "text": "17017131925313742434955"
+   },
+   {
+    "row_y": 2224,
+    "kind": "ocr_fail",
+    "text": "180107131925313742434955"
+   },
+   {
+    "row_y": 2327,
+    "kind": "ocr_fail",
+    "text": "01071319253143743435057"
+   },
+   {
+    "row_y": 2431,
+    "kind": "ocr_fail",
+    "text": "2004112182634425058"
+   }
+  ]
+ },
+ {
+  "source": "timetables/15-北沙滩-4.jpg",
+  "id": "15-北沙滩-4",
+  "n_times": 150,
+  "stats": {
+   "n": 150,
+   "n_hours": 19,
+   "median_gap": 7,
+   "max_gap": 10,
+   "min_gap": 6
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 1074,
+    "kind": "ocr_fail",
+    "text": "7061320273441484955"
+   },
+   {
+    "row_y": 1177,
+    "kind": "ocr_fail",
+    "text": "801071319253137438449955"
+   },
+   {
+    "row_y": 1383,
+    "kind": "ocr_fail",
+    "text": "10010713192531374350937"
+   },
+   {
+    "row_y": 1588,
+    "kind": "repaired_swap",
+    "text": "91",
+    "fixed": "19"
+   },
+   {
+    "row_y": 1588,
+    "kind": "repaired_swap",
+    "text": "72",
+    "fixed": "27"
+   },
+   {
+    "row_y": 1691,
+    "kind": "repaired_swap",
+    "text": "93",
+    "fixed": "39"
+   },
+   {
+    "row_y": 1794,
+    "kind": "ocr_fail",
+    "text": "14010917253341497"
+   },
+   {
+    "row_y": 1897,
+    "kind": "repaired_swap",
+    "text": "83",
+    "fixed": "38"
+   },
+   {
+    "row_y": 2000,
+    "kind": "repaired_swap",
+    "text": "65",
+    "fixed": "56"
+   },
+   {
+    "row_y": 2514,
+    "kind": "ocr_fail",
+    "text": "0715233123944755"
+   }
+  ]
+ },
+ {
+  "source": "timetables/15-南法信-1.jpg",
+  "id": "15-南法信-1",
+  "n_times": 123,
+  "stats": {
+   "n": 123,
+   "n_hours": 13,
+   "median_gap": 6,
+   "max_gap": 345,
+   "min_gap": 1
+  },
+  "issues": [
+   {
+    "kind": "gap_small",
+    "gap": 1,
+    "at": "07:27->07:28",
+    "msg": "gap 1 min is below 2"
+   },
+   {
+    "kind": "gap_small",
+    "gap": 1,
+    "at": "07:31->07:32",
+    "msg": "gap 1 min is below 2"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 63,
+    "at": "07:58->09:01",
+    "msg": "gap 63 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "gap_small",
+    "gap": 1,
+    "at": "09:01->09:02",
+    "msg": "gap 1 min is below 2"
+   },
+   {
+    "kind": "gap_small",
+    "gap": 1,
+    "at": "09:38->09:39",
+    "msg": "gap 1 min is below 2"
+   },
+   {
+    "kind": "gap_small",
+    "gap": 1,
+    "at": "09:42->09:43",
+    "msg": "gap 1 min is below 2"
+   },
+   {
+    "kind": "gap_small",
+    "gap": 1,
+    "at": "09:50->09:51",
+    "msg": "gap 1 min is below 2"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 72,
+    "at": "12:53->14:05",
+    "msg": "gap 72 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 72,
+    "at": "14:53->16:05",
+    "msg": "gap 72 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 68,
+    "at": "16:54->18:02",
+    "msg": "gap 68 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "hour_gap",
+    "msg": "hours 7->9 not consecutive"
+   },
+   {
+    "kind": "hour_gap",
+    "msg": "hours 12->14 not consecutive"
+   },
+   {
+    "kind": "hour_gap",
+    "msg": "hours 14->16 not consecutive"
+   },
+   {
+    "kind": "hour_gap",
+    "msg": "hours 16->18 not consecutive"
+   },
+   {
+    "kind": "hour_gap",
+    "msg": "hours 18->22 not consecutive"
+   }
+  ],
+  "flags": [
+   {
+    "row_y": 1084,
+    "kind": "repaired_swap",
+    "text": "61",
+    "fixed": "16"
+   },
+   {
+    "row_y": 1084,
+    "kind": "repaired_swap",
+    "text": "72",
+    "fixed": "27"
+   },
+   {
+    "row_y": 1188,
+    "kind": "ocr_fail",
+    "text": "8010471013164192225273033363944264454486510654658"
+   },
+   {
+    "row_y": 1291,
+    "kind": "repaired_swap",
+    "text": "70",
+    "fixed": "07"
+   },
+   {
+    "row_y": 1291,
+    "kind": "repaired_swap",
+    "text": "91",
+    "fixed": "19"
+   },
+   {
+    "row_y": 1291,
+    "kind": "repaired_swap",
+    "text": "82",
+    "fixed": "28"
+   },
+   {
+    "row_y": 1291,
+    "kind": "repaired_swap",
+    "text": "83",
+    "fixed": "38"
+   },
+   {
+    "row_y": 1701,
+    "kind": "ocr_fail",
+    "text": "13010917425334124957"
+   },
+   {
+    "row_y": 1906,
+    "kind": "ocr_fail",
+    "text": "1501091725334124957"
+   },
+   {
+    "row_y": 2111,
+    "kind": "ocr_fail",
+    "text": "10171412027334043464953656659"
+   },
+   {
+    "row_y": 2317,
+    "kind": "ocr_fail",
+    "text": "1900030609121518212427303343724043465006553065659"
+   },
+   {
+    "row_y": 2420,
+    "kind": "ocr_fail",
+    "text": "20030609121641922252932353842454855"
+   },
+   {
+    "row_y": 2522,
+    "kind": "ocr_fail",
+    "text": "21017132026323844245056"
+   }
+  ]
+ },
+ {
+  "source": "timetables/15-南法信-2.jpg",
+  "id": "15-南法信-2",
+  "n_times": 102,
+  "stats": {
+   "n": 102,
+   "n_hours": 11,
+   "median_gap": 8,
+   "max_gap": 368,
+   "min_gap": 1
+  },
+  "issues": [
+   {
+    "kind": "duplicate",
+    "hour": 8,
+    "minute": 41,
+    "msg": "duplicate 08:41"
+   },
+   {
+    "kind": "duplicate",
+    "hour": 9,
+    "minute": 32,
+    "msg": "duplicate 09:32"
+   },
+   {
+    "kind": "duplicate",
+    "hour": 9,
+    "minute": 40,
+    "msg": "duplicate 09:40"
+   },
+   {
+    "kind": "dup_hour",
+    "hour": 8,
+    "msg": "hour 08 has duplicates: [6, 10, 19, 20, 21, 23, 24, 26, 29, 30, 32, 35, 38, 41, 41, 44, 45, 47, 49, 55, 58]"
+   },
+   {
+    "kind": "dup_hour",
+    "hour": 9,
+    "msg": "hour 09 has duplicates: [1, 2, 9, 10, 17, 26, 31, 32, 32, 35, 40, 40, 45, 51, 57]"
+   },
+   {
+    "kind": "gap_small",
+    "gap": 1,
+    "at": "08:19->08:20",
+    "msg": "gap 1 min is below 2"
+   },
+   {
+    "kind": "gap_small",
+    "gap": 1,
+    "at": "08:20->08:21",
+    "msg": "gap 1 min is below 2"
+   },
+   {
+    "kind": "gap_small",
+    "gap": 1,
+    "at": "08:23->08:24",
+    "msg": "gap 1 min is below 2"
+   },
+   {
+    "kind": "gap_small",
+    "gap": 1,
+    "at": "08:29->08:30",
+    "msg": "gap 1 min is below 2"
+   },
+   {
+    "kind": "gap_small",
+    "gap": 1,
+    "at": "08:44->08:45",
+    "msg": "gap 1 min is below 2"
+   },
+   {
+    "kind": "gap_small",
+    "gap": 1,
+    "at": "09:01->09:02",
+    "msg": "gap 1 min is below 2"
+   },
+   {
+    "kind": "gap_small",
+    "gap": 1,
+    "at": "09:09->09:10",
+    "msg": "gap 1 min is below 2"
+   },
+   {
+    "kind": "gap_small",
+    "gap": 1,
+    "at": "09:31->09:32",
+    "msg": "gap 1 min is below 2"
+   },
+   {
+    "kind": "gap_small",
+    "gap": 1,
+    "at": "16:41->16:42",
+    "msg": "gap 1 min is below 2"
+   },
+   {
+    "kind": "hour_gap",
+    "msg": "hours 5->8 not consecutive"
+   },
+   {
+    "kind": "hour_gap",
+    "msg": "hours 16->23 not consecutive"
+   }
+  ],
+  "flags": [
+   {
+    "row_y": 972,
+    "kind": "ocr_fail",
+    "text": "60111723284323543864144444750653665659"
+   },
+   {
+    "row_y": 1075,
+    "kind": "ocr_fail",
+    "text": "72204071013161822425428630330636063906418644647045065265558"
+   },
+   {
+    "row_y": 1178,
+    "kind": "repaired_swap",
+    "text": "60",
+    "fixed": "06"
+   },
+   {
+    "row_y": 1178,
+    "kind": "repaired_swap",
+    "text": "91",
+    "fixed": "19"
+   },
+   {
+    "row_y": 1280,
+    "kind": "repaired_swap",
+    "text": "90",
+    "fixed": "09"
+   },
+   {
+    "row_y": 1280,
+    "kind": "repaired_swap",
+    "text": "71",
+    "fixed": "17"
+   },
+   {
+    "row_y": 1280,
+    "kind": "repaired_swap",
+    "text": "62",
+    "fixed": "26"
+   },
+   {
+    "row_y": 1280,
+    "kind": "bad_minute",
+    "text": "68"
+   },
+   {
+    "row_y": 1999,
+    "kind": "repaired_swap",
+    "text": "60",
+    "fixed": "06"
+   },
+   {
+    "row_y": 1999,
+    "kind": "repaired_swap",
+    "text": "62",
+    "fixed": "26"
+   },
+   {
+    "row_y": 2102,
+    "kind": "ocr_fail",
+    "text": "17050814212733374043474505356"
+   },
+   {
+    "row_y": 2205,
+    "kind": "ocr_fail",
+    "text": "180003060913161922262323539424548525558"
+   },
+   {
+    "row_y": 2307,
+    "kind": "ocr_fail",
+    "text": "190105081114182124273236439645465157"
+   },
+   {
+    "row_y": 2410,
+    "kind": "ocr_fail",
+    "text": "2900309152127333394245651065458"
+   },
+   {
+    "row_y": 2513,
+    "kind": "ocr_fail",
+    "text": "29102050981219283338485358"
+   },
+   {
+    "row_y": 2616,
+    "kind": "ocr_fail",
+    "text": "2204089819235435159"
+   }
+  ]
+ },
+ {
+  "source": "timetables/15-南法信-3.jpg",
+  "id": "15-南法信-3",
+  "n_times": 153,
+  "stats": {
+   "n": 153,
+   "n_hours": 20,
+   "median_gap": 7,
+   "max_gap": 345,
+   "min_gap": 6
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 981,
+    "kind": "ocr_fail",
+    "text": "60818253341244957"
+   },
+   {
+    "row_y": 1084,
+    "kind": "ocr_fail",
+    "text": "70132129436443245057"
+   },
+   {
+    "row_y": 1186,
+    "kind": "ocr_fail",
+    "text": "80411182532394464245359"
+   },
+   {
+    "row_y": 1288,
+    "kind": "ocr_fail",
+    "text": "9011172232906350644475359"
+   },
+   {
+    "row_y": 1391,
+    "kind": "ocr_fail",
+    "text": "10011172306290206350647535"
+   },
+   {
+    "row_y": 1494,
+    "kind": "ocr_fail",
+    "text": "1105111742923229066350641404856"
+   },
+   {
+    "row_y": 2108,
+    "kind": "ocr_fail",
+    "text": "4700084624313844245056"
+   },
+   {
+    "row_y": 2211,
+    "kind": "ocr_fail",
+    "text": "18020814202632384442450456"
+   },
+   {
+    "row_y": 2313,
+    "kind": "ocr_fail",
+    "text": "190208142026323844245056"
+   },
+   {
+    "row_y": 2416,
+    "kind": "ocr_fail",
+    "text": "90020814420263324044754"
+   },
+   {
+    "row_y": 2518,
+    "kind": "ocr_fail",
+    "text": "9101091723344124957"
+   },
+   {
+    "row_y": 2620,
+    "kind": "ocr_fail",
+    "text": "9905423613022"
+   },
+   {
+    "row_y": 2723,
+    "kind": "ocr_fail",
+    "text": "930109182723364554"
+   }
+  ]
+ },
+ {
+  "source": "timetables/15-南法信-4.jpg",
+  "id": "15-南法信-4",
+  "n_times": 153,
+  "stats": {
+   "n": 153,
+   "n_hours": 19,
+   "median_gap": 7,
+   "max_gap": 10,
+   "min_gap": 4
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 979,
+    "kind": "ocr_fail",
+    "text": "602091623303742444245158"
+   },
+   {
+    "row_y": 1082,
+    "kind": "repaired_swap",
+    "text": "82",
+    "fixed": "28"
+   },
+   {
+    "row_y": 1082,
+    "kind": "repaired_swap",
+    "text": "64",
+    "fixed": "46"
+   },
+   {
+    "row_y": 1184,
+    "kind": "repaired_swap",
+    "text": "61",
+    "fixed": "16"
+   },
+   {
+    "row_y": 1184,
+    "kind": "repaired_swap",
+    "text": "84",
+    "fixed": "48"
+   },
+   {
+    "row_y": 1390,
+    "kind": "repaired_swap",
+    "text": "71",
+    "fixed": "17"
+   },
+   {
+    "row_y": 1492,
+    "kind": "ocr_fail",
+    "text": "14102101826344225058"
+   },
+   {
+    "row_y": 1903,
+    "kind": "ocr_fail",
+    "text": "1502101862344425057"
+   },
+   {
+    "row_y": 2005,
+    "kind": "ocr_fail",
+    "text": "1603098152127333944545157"
+   },
+   {
+    "row_y": 2108,
+    "kind": "ocr_fail",
+    "text": "170391521272333944545157"
+   },
+   {
+    "row_y": 2210,
+    "kind": "ocr_fail",
+    "text": "180309152127233394455158"
+   },
+   {
+    "row_y": 2621,
+    "kind": "ocr_fail",
+    "text": "220312192943384757"
+   },
+   {
+    "row_y": 2723,
+    "kind": "ocr_fail",
+    "text": "2307211726"
+   }
+  ]
+ },
+ {
+  "source": "timetables/15-后沙峪-1.jpg",
+  "id": "15-后沙峪-1",
+  "n_times": 123,
+  "stats": {
+   "n": 123,
+   "n_hours": 13,
+   "median_gap": 6,
+   "max_gap": 185,
+   "min_gap": 2
+  },
+  "issues": [
+   {
+    "kind": "gap_large",
+    "gap": 69,
+    "at": "05:52->07:01",
+    "msg": "gap 69 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 64,
+    "at": "17:57->19:01",
+    "msg": "gap 64 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 64,
+    "at": "19:58->21:02",
+    "msg": "gap 64 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "hour_gap",
+    "msg": "hours 5->7 not consecutive"
+   },
+   {
+    "kind": "hour_gap",
+    "msg": "hours 7->11 not consecutive"
+   },
+   {
+    "kind": "hour_gap",
+    "msg": "hours 17->19 not consecutive"
+   },
+   {
+    "kind": "hour_gap",
+    "msg": "hours 19->21 not consecutive"
+   }
+  ],
+  "flags": [
+   {
+    "row_y": 984,
+    "kind": "ocr_fail",
+    "text": "600071319232743441243244745145458"
+   },
+   {
+    "row_y": 1190,
+    "kind": "ocr_fail",
+    "text": "80205081114172202326283134374404344650653065659"
+   },
+   {
+    "row_y": 1292,
+    "kind": "ocr_fail",
+    "text": "902057101341618244226062906320635066687066400646065157"
+   },
+   {
+    "row_y": 1395,
+    "kind": "ocr_fail",
+    "text": "10020814192531384550457"
+   },
+   {
+    "row_y": 2218,
+    "kind": "ocr_fail",
+    "text": "180104071014172202302270630063306386064006430644606490525"
+   },
+   {
+    "row_y": 2423,
+    "kind": "ocr_fail",
+    "text": "200104171114172024273033374044302650656"
+   }
+  ]
+ },
+ {
+  "source": "timetables/15-后沙峪-2.jpg",
+  "id": "15-后沙峪-2",
+  "n_times": 94,
+  "stats": {
+   "n": 94,
+   "n_hours": 11,
+   "median_gap": 8,
+   "max_gap": 184,
+   "min_gap": 1
+  },
+  "issues": [
+   {
+    "kind": "gap_large",
+    "gap": 18,
+    "at": "06:04->06:22",
+    "msg": "gap 18 min exceeds 18 (possible missed train)"
+   },
+   {
+    "kind": "gap_small",
+    "gap": 1,
+    "at": "06:33->06:34",
+    "msg": "gap 1 min is below 2"
+   },
+   {
+    "kind": "gap_small",
+    "gap": 1,
+    "at": "06:46->06:47",
+    "msg": "gap 1 min is below 2"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 64,
+    "at": "14:58->16:02",
+    "msg": "gap 64 min exceeds 18 (possible missed train)"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 64,
+    "at": "20:59->22:03",
+    "msg": "gap 64 min exceeds 18 (possible missed train)"
+   },
+   {
+    "kind": "hour_gap",
+    "msg": "hours 6->10 not consecutive"
+   },
+   {
+    "kind": "hour_gap",
+    "msg": "hours 14->16 not consecutive"
+   },
+   {
+    "kind": "hour_gap",
+    "msg": "hours 16->20 not consecutive"
+   },
+   {
+    "kind": "hour_gap",
+    "msg": "hours 20->22 not consecutive"
+   }
+  ],
+  "flags": [
+   {
+    "row_y": 965,
+    "kind": "repaired_swap",
+    "text": "62",
+    "fixed": "26"
+   },
+   {
+    "row_y": 965,
+    "kind": "repaired_swap",
+    "text": "83",
+    "fixed": "38"
+   },
+   {
+    "row_y": 965,
+    "kind": "repaired_swap",
+    "text": "74",
+    "fixed": "47"
+   },
+   {
+    "row_y": 965,
+    "kind": "repaired_swap",
+    "text": "64",
+    "fixed": "46"
+   },
+   {
+    "row_y": 1067,
+    "kind": "ocr_fail",
+    "text": "70104069121518217427303233841434649525457"
+   },
+   {
+    "row_y": 1170,
+    "kind": "ocr_fail",
+    "text": "80003050811141619222528313437444346494514545"
+   },
+   {
+    "row_y": 1273,
+    "kind": "ocr_fail",
+    "text": "900030612151821242831333740455056"
+   },
+   {
+    "row_y": 1889,
+    "kind": "ocr_fail",
+    "text": "14506142230384654"
+   },
+   {
+    "row_y": 2095,
+    "kind": "ocr_fail",
+    "text": "170409121925323842454515558"
+   },
+   {
+    "row_y": 2198,
+    "kind": "ocr_fail",
+    "text": "18010428114141721424006206300663406370664006430450535"
+   },
+   {
+    "row_y": 2300,
+    "kind": "ocr_fail",
+    "text": "1900032091316192222932360641444650656"
+   },
+   {
+    "row_y": 2506,
+    "kind": "ocr_fail",
+    "text": "21032710141722433038643066530658"
+   }
+  ]
+ },
+ {
+  "source": "timetables/15-后沙峪-3.jpg",
+  "id": "15-后沙峪-3",
+  "n_times": 110,
+  "stats": {
+   "n": 110,
+   "n_hours": 14,
+   "median_gap": 8,
+   "max_gap": 123,
+   "min_gap": 2
+  },
+  "issues": [
+   {
+    "kind": "duplicate",
+    "hour": 10,
+    "minute": 0,
+    "msg": "duplicate 10:00"
+   },
+   {
+    "kind": "dup_hour",
+    "hour": 10,
+    "msg": "hour 10 has duplicates: [0, 0, 16, 21, 28, 30, 36, 42, 48, 54]"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 61,
+    "at": "07:59->09:00",
+    "msg": "gap 61 min exceeds 18 (possible missed train)"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 64,
+    "at": "15:59->17:03",
+    "msg": "gap 64 min exceeds 18 (possible missed train)"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 18,
+    "at": "17:11->17:29",
+    "msg": "gap 18 min exceeds 18 (possible missed train)"
+   },
+   {
+    "kind": "hour_gap",
+    "msg": "hours 7->9 not consecutive"
+   },
+   {
+    "kind": "hour_gap",
+    "msg": "hours 15->17 not consecutive"
+   },
+   {
+    "kind": "hour_gap",
+    "msg": "hours 17->20 not consecutive"
+   }
+  ],
+  "flags": [
+   {
+    "row_y": 978,
+    "kind": "repaired_swap",
+    "text": "62",
+    "fixed": "26"
+   },
+   {
+    "row_y": 1187,
+    "kind": "ocr_fail",
+    "text": "8061320274234414854"
+   },
+   {
+    "row_y": 1292,
+    "kind": "repaired_swap",
+    "text": "61",
+    "fixed": "16"
+   },
+   {
+    "row_y": 1292,
+    "kind": "repaired_swap",
+    "text": "82",
+    "fixed": "28"
+   },
+   {
+    "row_y": 1393,
+    "kind": "repaired_swap",
+    "text": "61",
+    "fixed": "16"
+   },
+   {
+    "row_y": 1393,
+    "kind": "repaired_swap",
+    "text": "82",
+    "fixed": "28"
+   },
+   {
+    "row_y": 1911,
+    "kind": "bad_minute",
+    "text": "86"
+   },
+   {
+    "row_y": 2014,
+    "kind": "ocr_fail",
+    "text": "16071523313944755"
+   },
+   {
+    "row_y": 2120,
+    "kind": "repaired_swap",
+    "text": "92",
+    "fixed": "29"
+   },
+   {
+    "row_y": 2216,
+    "kind": "ocr_fail",
+    "text": "180309152127333984585157"
+   },
+   {
+    "row_y": 2321,
+    "kind": "ocr_fail",
+    "text": "1903091521273363906645065157"
+   },
+   {
+    "row_y": 2739,
+    "kind": "ocr_fail",
+    "text": "2304134224314404958"
+   }
+  ]
+ },
+ {
+  "source": "timetables/15-后沙峪-4.jpg",
+  "id": "15-后沙峪-4",
+  "n_times": 153,
+  "stats": {
+   "n": 153,
+   "n_hours": 19,
+   "median_gap": 7,
+   "max_gap": 10,
+   "min_gap": 4
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 967,
+    "kind": "repaired_swap",
+    "text": "63",
+    "fixed": "36"
+   },
+   {
+    "row_y": 1069,
+    "kind": "ocr_fail",
+    "text": "702086222340465258"
+   },
+   {
+    "row_y": 1172,
+    "kind": "repaired_swap",
+    "text": "80",
+    "fixed": "08"
+   },
+   {
+    "row_y": 1172,
+    "kind": "repaired_swap",
+    "text": "64",
+    "fixed": "46"
+   },
+   {
+    "row_y": 1274,
+    "kind": "repaired_swap",
+    "text": "64",
+    "fixed": "46"
+   },
+   {
+    "row_y": 1788,
+    "kind": "ocr_fail",
+    "text": "4402101826344245058"
+   },
+   {
+    "row_y": 1993,
+    "kind": "ocr_fail",
+    "text": "160107131925313743444955"
+   },
+   {
+    "row_y": 2095,
+    "kind": "ocr_fail",
+    "text": "170107131942531374344955"
+   },
+   {
+    "row_y": 2198,
+    "kind": "ocr_fail",
+    "text": "18010713194253137434955"
+   },
+   {
+    "row_y": 2301,
+    "kind": "ocr_fail",
+    "text": "1902101724324044856"
+   },
+   {
+    "row_y": 2404,
+    "kind": "ocr_fail",
+    "text": "9004124202828320636064402"
+   },
+   {
+    "row_y": 2506,
+    "kind": "ocr_fail",
+    "text": "9100040816624232404958"
+   },
+   {
+    "row_y": 2608,
+    "kind": "ocr_fail",
+    "text": "9201624434443252"
+   },
+   {
+    "row_y": 2718,
+    "kind": "ocr_fail",
+    "text": "23021222331"
+   }
+  ]
+ },
+ {
+  "source": "timetables/15-国展-1.jpg",
+  "id": "15-国展-1",
+  "n_times": 132,
+  "stats": {
+   "n": 132,
+   "n_hours": 13,
+   "median_gap": 6,
+   "max_gap": 123,
+   "min_gap": 1
+  },
+  "issues": [
+   {
+    "kind": "duplicate",
+    "hour": 7,
+    "minute": 42,
+    "msg": "duplicate 07:42"
+   },
+   {
+    "kind": "duplicate",
+    "hour": 20,
+    "minute": 43,
+    "msg": "duplicate 20:43"
+   },
+   {
+    "kind": "dup_hour",
+    "hour": 7,
+    "msg": "hour 07 has duplicates: [8, 13, 17, 20, 25, 26, 30, 35, 39, 42, 42, 45, 48, 50, 53, 56, 59]"
+   },
+   {
+    "kind": "dup_hour",
+    "hour": 20,
+    "msg": "hour 20 has duplicates: [1, 5, 11, 12, 13, 18, 27, 28, 37, 41, 42, 43, 43, 50, 56]"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 74,
+    "at": "05:54->07:08",
+    "msg": "gap 74 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "gap_small",
+    "gap": 1,
+    "at": "07:25->07:26",
+    "msg": "gap 1 min is below 2"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 72,
+    "at": "11:54->13:06",
+    "msg": "gap 72 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 69,
+    "at": "15:54->17:03",
+    "msg": "gap 69 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 63,
+    "at": "17:58->19:01",
+    "msg": "gap 63 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "gap_small",
+    "gap": 1,
+    "at": "20:11->20:12",
+    "msg": "gap 1 min is below 2"
+   },
+   {
+    "kind": "gap_small",
+    "gap": 1,
+    "at": "20:12->20:13",
+    "msg": "gap 1 min is below 2"
+   },
+   {
+    "kind": "gap_small",
+    "gap": 1,
+    "at": "20:27->20:28",
+    "msg": "gap 1 min is below 2"
+   },
+   {
+    "kind": "gap_small",
+    "gap": 1,
+    "at": "20:41->20:42",
+    "msg": "gap 1 min is below 2"
+   },
+   {
+    "kind": "gap_small",
+    "gap": 1,
+    "at": "20:42->20:43",
+    "msg": "gap 1 min is below 2"
+   },
+   {
+    "kind": "hour_gap",
+    "msg": "hours 5->7 not consecutive"
+   },
+   {
+    "kind": "hour_gap",
+    "msg": "hours 7->10 not consecutive"
+   },
+   {
+    "kind": "hour_gap",
+    "msg": "hours 11->13 not consecutive"
+   },
+   {
+    "kind": "hour_gap",
+    "msg": "hours 15->17 not consecutive"
+   },
+   {
+    "kind": "hour_gap",
+    "msg": "hours 17->19 not consecutive"
+   }
+  ],
+  "flags": [
+   {
+    "row_y": 982,
+    "kind": "ocr_fail",
+    "text": "601071316212834374412444484525559"
+   },
+   {
+    "row_y": 1188,
+    "kind": "ocr_fail",
+    "text": "802050811141722023425062863106340637064006444064706500605538565"
+   },
+   {
+    "row_y": 1290,
+    "kind": "ocr_fail",
+    "text": "9010471012184202342604290631063406400645065156"
+   },
+   {
+    "row_y": 1598,
+    "kind": "ocr_fail",
+    "text": "1202101826344250458"
+   },
+   {
+    "row_y": 2009,
+    "kind": "ocr_fail",
+    "text": "102091724303742435056"
+   },
+   {
+    "row_y": 2215,
+    "kind": "ocr_fail",
+    "text": "180104081111417421242730343724404344649065206556658"
+   },
+   {
+    "row_y": 2421,
+    "kind": "repaired_swap",
+    "text": "81",
+    "fixed": "18"
+   },
+   {
+    "row_y": 2421,
+    "kind": "repaired_swap",
+    "text": "82",
+    "fixed": "28"
+   },
+   {
+    "row_y": 2421,
+    "kind": "repaired_swap",
+    "text": "73",
+    "fixed": "37"
+   },
+   {
+    "row_y": 2421,
+    "kind": "repaired_swap",
+    "text": "72",
+    "fixed": "27"
+   }
+  ]
+ },
+ {
+  "source": "timetables/15-国展-2.jpg",
+  "id": "15-国展-2",
+  "n_times": 117,
+  "stats": {
+   "n": 117,
+   "n_hours": 13,
+   "median_gap": 8,
+   "max_gap": 192,
+   "min_gap": 1
+  },
+  "issues": [
+   {
+    "kind": "duplicate",
+    "hour": 7,
+    "minute": 10,
+    "msg": "duplicate 07:10"
+   },
+   {
+    "kind": "duplicate",
+    "hour": 7,
+    "minute": 16,
+    "msg": "duplicate 07:16"
+   },
+   {
+    "kind": "duplicate",
+    "hour": 7,
+    "minute": 47,
+    "msg": "duplicate 07:47"
+   },
+   {
+    "kind": "duplicate",
+    "hour": 7,
+    "minute": 55,
+    "msg": "duplicate 07:55"
+   },
+   {
+    "kind": "dup_hour",
+    "hour": 7,
+    "msg": "hour 07 has duplicates: [3, 9, 10, 10, 10, 13, 16, 16, 24, 26, 27, 33, 38, 41, 44, 47, 47, 55, 55, 58]"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 66,
+    "at": "05:57->07:03",
+    "msg": "gap 66 min exceeds 18 (possible missed train)"
+   },
+   {
+    "kind": "gap_small",
+    "gap": 1,
+    "at": "07:09->07:10",
+    "msg": "gap 1 min is below 2"
+   },
+   {
+    "kind": "gap_small",
+    "gap": 1,
+    "at": "07:26->07:27",
+    "msg": "gap 1 min is below 2"
+   },
+   {
+    "kind": "gap_small",
+    "gap": 1,
+    "at": "21:22->21:23",
+    "msg": "gap 1 min is below 2"
+   },
+   {
+    "kind": "hour_gap",
+    "msg": "hours 5->7 not consecutive"
+   },
+   {
+    "kind": "hour_gap",
+    "msg": "hours 7->10 not consecutive"
+   },
+   {
+    "kind": "hour_gap",
+    "msg": "hours 17->21 not consecutive"
+   }
+  ],
+  "flags": [
+   {
+    "row_y": 975,
+    "kind": "ocr_fail",
+    "text": "60410162228344044464952558"
+   },
+   {
+    "row_y": 1078,
+    "kind": "repaired_swap",
+    "text": "61",
+    "fixed": "16"
+   },
+   {
+    "row_y": 1078,
+    "kind": "repaired_swap",
+    "text": "90",
+    "fixed": "09"
+   },
+   {
+    "row_y": 1078,
+    "kind": "repaired_swap",
+    "text": "62",
+    "fixed": "26"
+   },
+   {
+    "row_y": 1078,
+    "kind": "bad_minute",
+    "text": "88"
+   },
+   {
+    "row_y": 1078,
+    "kind": "repaired_swap",
+    "text": "85",
+    "fixed": "58"
+   },
+   {
+    "row_y": 1181,
+    "kind": "ocr_fail",
+    "text": "80103091214172022260699063106340638706640066438064649825558"
+   },
+   {
+    "row_y": 1283,
+    "kind": "ocr_fail",
+    "text": "90140619121518242731343704006430647665156"
+   },
+   {
+    "row_y": 2207,
+    "kind": "ocr_fail",
+    "text": "180104711141729024297300632063706400644306465053"
+   },
+   {
+    "row_y": 2311,
+    "kind": "ocr_fail",
+    "text": "19030609812164194224229432066350663866430647065157"
+   },
+   {
+    "row_y": 2413,
+    "kind": "ocr_fail",
+    "text": "2003091521263238444724505356"
+   },
+   {
+    "row_y": 2516,
+    "kind": "bad_minute",
+    "text": "98"
+   }
+  ]
+ },
+ {
+  "source": "timetables/15-国展-3.jpg",
+  "id": "15-国展-3",
+  "n_times": 106,
+  "stats": {
+   "n": 106,
+   "n_hours": 13,
+   "median_gap": 7,
+   "max_gap": 244,
+   "min_gap": 1
+  },
+  "issues": [
+   {
+    "kind": "duplicate",
+    "hour": 8,
+    "minute": 42,
+    "msg": "duplicate 08:42"
+   },
+   {
+    "kind": "dup_hour",
+    "hour": 8,
+    "msg": "hour 08 has duplicates: [0, 11, 17, 28, 35, 42, 42, 48, 54]"
+   },
+   {
+    "kind": "gap_small",
+    "gap": 1,
+    "at": "09:42->09:43",
+    "msg": "gap 1 min is below 2"
+   },
+   {
+    "kind": "gap_small",
+    "gap": 1,
+    "at": "17:01->17:02",
+    "msg": "gap 1 min is below 2"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 30,
+    "at": "17:02->17:32",
+    "msg": "gap 30 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "gap_small",
+    "gap": 1,
+    "at": "17:32->17:33",
+    "msg": "gap 1 min is below 2"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 75,
+    "at": "17:57->19:12",
+    "msg": "gap 75 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "gap_small",
+    "gap": 1,
+    "at": "19:51->19:52",
+    "msg": "gap 1 min is below 2"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 19,
+    "at": "22:01->22:20",
+    "msg": "gap 19 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "gap_small",
+    "gap": 1,
+    "at": "22:20->22:21",
+    "msg": "gap 1 min is below 2"
+   },
+   {
+    "kind": "hour_gap",
+    "msg": "hours 12->17 not consecutive"
+   },
+   {
+    "kind": "hour_gap",
+    "msg": "hours 17->19 not consecutive"
+   }
+  ],
+  "flags": [
+   {
+    "row_y": 1085,
+    "kind": "repaired_swap",
+    "text": "70",
+    "fixed": "07"
+   },
+   {
+    "row_y": 1085,
+    "kind": "repaired_swap",
+    "text": "82",
+    "fixed": "28"
+   },
+   {
+    "row_y": 1188,
+    "kind": "repaired_swap",
+    "text": "71",
+    "fixed": "17"
+   },
+   {
+    "row_y": 1290,
+    "kind": "repaired_swap",
+    "text": "61",
+    "fixed": "16"
+   },
+   {
+    "row_y": 1290,
+    "kind": "repaired_swap",
+    "text": "82",
+    "fixed": "28"
+   },
+   {
+    "row_y": 1699,
+    "kind": "ocr_fail",
+    "text": "108132129374244553"
+   },
+   {
+    "row_y": 1801,
+    "kind": "ocr_fail",
+    "text": "4401091722533441244957"
+   },
+   {
+    "row_y": 1903,
+    "kind": "ocr_fail",
+    "text": "4051321294374244553"
+   },
+   {
+    "row_y": 2005,
+    "kind": "ocr_fail",
+    "text": "160109174253341244957"
+   },
+   {
+    "row_y": 2108,
+    "kind": "repaired_swap",
+    "text": "73",
+    "fixed": "37"
+   },
+   {
+    "row_y": 2108,
+    "kind": "repaired_swap",
+    "text": "94",
+    "fixed": "49"
+   },
+   {
+    "row_y": 2212,
+    "kind": "ocr_fail",
+    "text": "18030915214274233394455157"
+   },
+   {
+    "row_y": 2316,
+    "kind": "repaired_swap",
+    "text": "91",
+    "fixed": "19"
+   },
+   {
+    "row_y": 2316,
+    "kind": "repaired_swap",
+    "text": "74",
+    "fixed": "47"
+   },
+   {
+    "row_y": 2626,
+    "kind": "repaired_swap",
+    "text": "82",
+    "fixed": "28"
+   }
+  ]
+ },
+ {
+  "source": "timetables/15-国展-4.jpg",
+  "id": "15-国展-4",
+  "n_times": 153,
+  "stats": {
+   "n": 153,
+   "n_hours": 19,
+   "median_gap": 7,
+   "max_gap": 10,
+   "min_gap": 4
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 973,
+    "kind": "ocr_fail",
+    "text": "60513202742344444855"
+   },
+   {
+    "row_y": 1075,
+    "kind": "ocr_fail",
+    "text": "7020916232943544124475359"
+   },
+   {
+    "row_y": 1178,
+    "kind": "ocr_fail",
+    "text": "8051117212342923544144475359"
+   },
+   {
+    "row_y": 1280,
+    "kind": "ocr_fail",
+    "text": "90511174212329358641475359"
+   },
+   {
+    "row_y": 1382,
+    "kind": "ocr_fail",
+    "text": "1001118253341244957"
+   },
+   {
+    "row_y": 1484,
+    "kind": "ocr_fail",
+    "text": "110513212943744458853"
+   },
+   {
+    "row_y": 1586,
+    "kind": "ocr_fail",
+    "text": "1201917425334124957"
+   },
+   {
+    "row_y": 1689,
+    "kind": "ocr_fail",
+    "text": "1305132129424374553"
+   },
+   {
+    "row_y": 1893,
+    "kind": "ocr_fail",
+    "text": "15013212374244553"
+   },
+   {
+    "row_y": 1995,
+    "kind": "ocr_fail",
+    "text": "160108142023238442450456"
+   },
+   {
+    "row_y": 2097,
+    "kind": "ocr_fail",
+    "text": "170208142023238644245056"
+   },
+   {
+    "row_y": 2199,
+    "kind": "ocr_fail",
+    "text": "148020814202632384445056"
+   },
+   {
+    "row_y": 2302,
+    "kind": "ocr_fail",
+    "text": "19020917124313944755"
+   },
+   {
+    "row_y": 2404,
+    "kind": "ocr_fail",
+    "text": "900311194276350639064305"
+   },
+   {
+    "row_y": 2506,
+    "kind": "ocr_fail",
+    "text": "94071115238631066339"
+   },
+   {
+    "row_y": 2609,
+    "kind": "ocr_fail",
+    "text": "2920514212331404958"
+   }
+  ]
+ },
+ {
+  "source": "timetables/15-大屯路东-1.jpg",
+  "id": "15-大屯路东-1",
+  "n_times": 222,
+  "stats": {
+   "n": 222,
+   "n_hours": 19,
+   "median_gap": 4,
+   "max_gap": 10,
+   "min_gap": 2
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 1087,
+    "kind": "ocr_fail",
+    "text": "0005101417223229313434043464952258"
+   },
+   {
+    "row_y": 1190,
+    "kind": "ocr_fail",
+    "text": "0104060912161922262831343739424548505355458"
+   },
+   {
+    "row_y": 1292,
+    "kind": "ocr_fail",
+    "text": "0104070912151820232629323437404346495255458"
+   },
+   {
+    "row_y": 2012,
+    "kind": "ocr_fail",
+    "text": "160411172430374350456"
+   },
+   {
+    "row_y": 2114,
+    "kind": "ocr_fail",
+    "text": "030609131618222629335342454852555"
+   },
+   {
+    "row_y": 2217,
+    "kind": "ocr_fail",
+    "text": "01350811141727023229343534144473535"
+   },
+   {
+    "row_y": 2320,
+    "kind": "ocr_fail",
+    "text": "0093061013161922262323394245452555819"
+   },
+   {
+    "row_y": 2423,
+    "kind": "ocr_fail",
+    "text": "209061117243036434955"
+   }
+  ]
+ },
+ {
+  "source": "timetables/15-大屯路东-2.jpg",
+  "id": "15-大屯路东-2",
+  "n_times": 89,
+  "stats": {
+   "n": 89,
+   "n_hours": 9,
+   "median_gap": 6,
+   "max_gap": 190,
+   "min_gap": 1
+  },
+  "issues": [
+   {
+    "kind": "duplicate",
+    "hour": 6,
+    "minute": 19,
+    "msg": "duplicate 06:19"
+   },
+   {
+    "kind": "duplicate",
+    "hour": 6,
+    "minute": 24,
+    "msg": "duplicate 06:24"
+   },
+   {
+    "kind": "duplicate",
+    "hour": 19,
+    "minute": 24,
+    "msg": "duplicate 19:24"
+   },
+   {
+    "kind": "dup_hour",
+    "hour": 6,
+    "msg": "hour 06 has duplicates: [3, 6, 7, 10, 13, 14, 16, 19, 19, 22, 23, 24, 24, 36, 49, 53, 54, 57, 58, 59]"
+   },
+   {
+    "kind": "dup_hour",
+    "hour": 19,
+    "msg": "hour 19 has duplicates: [8, 9, 12, 18, 24, 24, 30, 36, 42, 48, 53, 59]"
+   },
+   {
+    "kind": "gap_small",
+    "gap": 1,
+    "at": "05:43->05:44",
+    "msg": "gap 1 min is below 2"
+   },
+   {
+    "kind": "gap_small",
+    "gap": 1,
+    "at": "06:06->06:07",
+    "msg": "gap 1 min is below 2"
+   },
+   {
+    "kind": "gap_small",
+    "gap": 1,
+    "at": "06:13->06:14",
+    "msg": "gap 1 min is below 2"
+   },
+   {
+    "kind": "gap_small",
+    "gap": 1,
+    "at": "06:22->06:23",
+    "msg": "gap 1 min is below 2"
+   },
+   {
+    "kind": "gap_small",
+    "gap": 1,
+    "at": "06:23->06:24",
+    "msg": "gap 1 min is below 2"
+   },
+   {
+    "kind": "gap_small",
+    "gap": 1,
+    "at": "06:53->06:54",
+    "msg": "gap 1 min is below 2"
+   },
+   {
+    "kind": "gap_small",
+    "gap": 1,
+    "at": "06:57->06:58",
+    "msg": "gap 1 min is below 2"
+   },
+   {
+    "kind": "gap_small",
+    "gap": 1,
+    "at": "06:58->06:59",
+    "msg": "gap 1 min is below 2"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 80,
+    "at": "10:55->12:15",
+    "msg": "gap 80 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 80,
+    "at": "12:55->14:15",
+    "msg": "gap 80 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "gap_small",
+    "gap": 1,
+    "at": "19:08->19:09",
+    "msg": "gap 1 min is below 2"
+   },
+   {
+    "kind": "hour_gap",
+    "msg": "hours 6->9 not consecutive"
+   },
+   {
+    "kind": "hour_gap",
+    "msg": "hours 10->12 not consecutive"
+   },
+   {
+    "kind": "hour_gap",
+    "msg": "hours 12->14 not consecutive"
+   },
+   {
+    "kind": "hour_gap",
+    "msg": "hours 15->19 not consecutive"
+   }
+  ],
+  "flags": [
+   {
+    "row_y": 860,
+    "kind": "ocr_fail",
+    "text": "13192532394653459"
+   },
+   {
+    "row_y": 1066,
+    "kind": "repaired_swap",
+    "text": "70",
+    "fixed": "07"
+   },
+   {
+    "row_y": 1066,
+    "kind": "repaired_swap",
+    "text": "91",
+    "fixed": "19"
+   },
+   {
+    "row_y": 1066,
+    "kind": "repaired_swap",
+    "text": "63",
+    "fixed": "36"
+   },
+   {
+    "row_y": 1066,
+    "kind": "repaired_swap",
+    "text": "94",
+    "fixed": "49"
+   },
+   {
+    "row_y": 1066,
+    "kind": "repaired_swap",
+    "text": "85",
+    "fixed": "58"
+   },
+   {
+    "row_y": 1168,
+    "kind": "ocr_fail",
+    "text": "0220598111316192224730333538414446351052558"
+   },
+   {
+    "row_y": 1272,
+    "kind": "ocr_fail",
+    "text": "970409121518212942730333603896642064406406665006847"
+   },
+   {
+    "row_y": 1374,
+    "kind": "repaired_swap",
+    "text": "80",
+    "fixed": "08"
+   },
+   {
+    "row_y": 1374,
+    "kind": "bad_minute",
+    "text": "98"
+   },
+   {
+    "row_y": 1581,
+    "kind": "ocr_fail",
+    "text": "1203111927354351459"
+   },
+   {
+    "row_y": 1786,
+    "kind": "ocr_fail",
+    "text": "1403111927354351459"
+   },
+   {
+    "row_y": 2093,
+    "kind": "ocr_fail",
+    "text": "959811151839124303333539144450"
+   },
+   {
+    "row_y": 2196,
+    "kind": "ocr_fail",
+    "text": "1890003810141622322336394246499325559"
+   },
+   {
+    "row_y": 2298,
+    "kind": "ocr_fail",
+    "text": "023081215182126280331484144473515457"
+   },
+   {
+    "row_y": 2402,
+    "kind": "repaired_swap",
+    "text": "90",
+    "fixed": "09"
+   },
+   {
+    "row_y": 2606,
+    "kind": "ocr_fail",
+    "text": "0616263647957"
+   }
+  ]
+ },
+ {
+  "source": "timetables/15-大屯路东-3.jpg",
+  "id": "15-大屯路东-3",
+  "n_times": 128,
+  "stats": {
+   "n": 128,
+   "n_hours": 17,
+   "median_gap": 7,
+   "max_gap": 16,
+   "min_gap": 6
+  },
+  "issues": [
+   {
+    "kind": "gap_large",
+    "gap": 16,
+    "at": "05:41->05:57",
+    "msg": "gap 16 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 16,
+    "at": "11:52->12:08",
+    "msg": "gap 16 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 16,
+    "at": "12:56->13:12",
+    "msg": "gap 16 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 16,
+    "at": "15:28->15:44",
+    "msg": "gap 16 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 16,
+    "at": "20:57->21:13",
+    "msg": "gap 16 min exceeds 15 (possible missed train)"
+   }
+  ],
+  "flags": []
+ },
+ {
+  "source": "timetables/15-大屯路东-4.jpg",
+  "id": "15-大屯路东-4",
+  "n_times": 150,
+  "stats": {
+   "n": 150,
+   "n_hours": 18,
+   "median_gap": 7,
+   "max_gap": 9,
+   "min_gap": 6
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 747,
+    "kind": "ocr_fail",
+    "text": "0"
+   },
+   {
+    "row_y": 1589,
+    "kind": "ocr_fail",
+    "text": "12021018263442245058"
+   },
+   {
+    "row_y": 2102,
+    "kind": "repaired_swap",
+    "text": "70",
+    "fixed": "07"
+   },
+   {
+    "row_y": 2102,
+    "kind": "repaired_swap",
+    "text": "91",
+    "fixed": "19"
+   },
+   {
+    "row_y": 2102,
+    "kind": "repaired_swap",
+    "text": "95",
+    "fixed": "59"
+   }
+  ]
+ },
+ {
+  "source": "timetables/15-奥林匹克公园-1.jpg",
+  "id": "15-奥林匹克公园-1",
+  "n_times": 162,
+  "stats": {
+   "n": 162,
+   "n_hours": 19,
+   "median_gap": 6,
+   "max_gap": 10,
+   "min_gap": 2
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/15-奥林匹克公园-2.jpg",
+  "id": "15-奥林匹克公园-2",
+  "n_times": 162,
+  "stats": {
+   "n": 162,
+   "n_hours": 19,
+   "median_gap": 6,
+   "max_gap": 11,
+   "min_gap": 3
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/15-奥林匹克公园-3.jpg",
+  "id": "15-奥林匹克公园-3",
+  "n_times": 158,
+  "stats": {
+   "n": 158,
+   "n_hours": 19,
+   "median_gap": 7,
+   "max_gap": 9,
+   "min_gap": 6
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/15-奥林匹克公园-4.jpg",
+  "id": "15-奥林匹克公园-4",
+  "n_times": 157,
+  "stats": {
+   "n": 157,
+   "n_hours": 18,
+   "median_gap": 7,
+   "max_gap": 9,
+   "min_gap": 6
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/15-孙河-1.jpg",
+  "id": "15-孙河-1",
+  "n_times": 218,
+  "stats": {
+   "n": 218,
+   "n_hours": 19,
+   "median_gap": 4,
+   "max_gap": 10,
+   "min_gap": 2
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 986,
+    "kind": "ocr_fail",
+    "text": "6030913174246231434063706410664404851555"
+   },
+   {
+    "row_y": 1089,
+    "kind": "ocr_fail",
+    "text": "70205098131721260631063506384144047"
+   },
+   {
+    "row_y": 1191,
+    "kind": "ocr_fail",
+    "text": "8010471013416419222528313437424044472450525558"
+   },
+   {
+    "row_y": 1294,
+    "kind": "ocr_fail",
+    "text": "90103069141719222542846313664206470665358"
+   },
+   {
+    "row_y": 1500,
+    "kind": "ocr_fail",
+    "text": "110311192735643065159"
+   },
+   {
+    "row_y": 1705,
+    "kind": "ocr_fail",
+    "text": "1303111192735435159"
+   },
+   {
+    "row_y": 2013,
+    "kind": "repaired_swap",
+    "text": "60",
+    "fixed": "06"
+   },
+   {
+    "row_y": 2219,
+    "kind": "ocr_fail",
+    "text": "18010407101417202306270630063306386063890642064504815"
+   },
+   {
+    "row_y": 2322,
+    "kind": "ocr_fail",
+    "text": "49000306091215419222528323538414548515458"
+   },
+   {
+    "row_y": 2424,
+    "kind": "ocr_fail",
+    "text": "2001047141417220424270630063306400646065259"
+   },
+   {
+    "row_y": 2733,
+    "kind": "ocr_fail",
+    "text": "230111420293848"
+   }
+  ]
+ },
+ {
+  "source": "timetables/15-孙河-2.jpg",
+  "id": "15-孙河-2",
+  "n_times": 107,
+  "stats": {
+   "n": 107,
+   "n_hours": 12,
+   "median_gap": 7,
+   "max_gap": 123,
+   "min_gap": 1
+  },
+  "issues": [
+   {
+    "kind": "gap_large",
+    "gap": 21,
+    "at": "21:53->22:14",
+    "msg": "gap 21 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "gap_small",
+    "gap": 1,
+    "at": "22:19->22:20",
+    "msg": "gap 1 min is below 2"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 16,
+    "at": "22:58->23:14",
+    "msg": "gap 16 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "hour_gap",
+    "msg": "hours 17->20 not consecutive"
+   }
+  ],
+  "flags": [
+   {
+    "row_y": 860,
+    "kind": "ocr_fail",
+    "text": "53646453"
+   },
+   {
+    "row_y": 962,
+    "kind": "ocr_fail",
+    "text": "60007142026323843475055659"
+   },
+   {
+    "row_y": 1064,
+    "kind": "ocr_fail",
+    "text": "7022081114171929225298313437404344548451545659"
+   },
+   {
+    "row_y": 1167,
+    "kind": "ocr_fail",
+    "text": "0205071013161821424972294326356386414444647845065365659"
+   },
+   {
+    "row_y": 1270,
+    "kind": "ocr_fail",
+    "text": "9020410131619222283134384143475055"
+   },
+   {
+    "row_y": 2194,
+    "kind": "ocr_fail",
+    "text": "49012081141821427313437404447505357"
+   },
+   {
+    "row_y": 2297,
+    "kind": "ocr_fail",
+    "text": "1900030610131619232679323643944244625155"
+   },
+   {
+    "row_y": 2709,
+    "kind": "repaired_swap",
+    "text": "61",
+    "fixed": "16"
+   }
+  ]
+ },
+ {
+  "source": "timetables/15-孙河-3.jpg",
+  "id": "15-孙河-3",
+  "n_times": 153,
+  "stats": {
+   "n": 153,
+   "n_hours": 19,
+   "median_gap": 7,
+   "max_gap": 10,
+   "min_gap": 6
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 979,
+    "kind": "repaired_swap",
+    "text": "82",
+    "fixed": "28"
+   },
+   {
+    "row_y": 979,
+    "kind": "repaired_swap",
+    "text": "63",
+    "fixed": "36"
+   },
+   {
+    "row_y": 1186,
+    "kind": "repaired_swap",
+    "text": "71",
+    "fixed": "17"
+   },
+   {
+    "row_y": 1497,
+    "kind": "ocr_fail",
+    "text": "1102081420263341244957"
+   },
+   {
+    "row_y": 1808,
+    "kind": "ocr_fail",
+    "text": "140513212629374144558"
+   },
+   {
+    "row_y": 1911,
+    "kind": "ocr_fail",
+    "text": "1501091712533414244957"
+   },
+   {
+    "row_y": 2015,
+    "kind": "ocr_fail",
+    "text": "1601321294374244553"
+   },
+   {
+    "row_y": 2118,
+    "kind": "ocr_fail",
+    "text": "17010916229435441424475359"
+   },
+   {
+    "row_y": 2222,
+    "kind": "ocr_fail",
+    "text": "180511174223294356414475359"
+   },
+   {
+    "row_y": 2326,
+    "kind": "ocr_fail",
+    "text": "1905111742329435414745359"
+   },
+   {
+    "row_y": 2429,
+    "kind": "repaired_swap",
+    "text": "94",
+    "fixed": "49"
+   },
+   {
+    "row_y": 2533,
+    "kind": "repaired_swap",
+    "text": "82",
+    "fixed": "28"
+   },
+   {
+    "row_y": 2533,
+    "kind": "repaired_swap",
+    "text": "83",
+    "fixed": "38"
+   },
+   {
+    "row_y": 2740,
+    "kind": "ocr_fail",
+    "text": "230312421243303948"
+   }
+  ]
+ },
+ {
+  "source": "timetables/15-孙河-4.jpg",
+  "id": "15-孙河-4",
+  "n_times": 153,
+  "stats": {
+   "n": 153,
+   "n_hours": 19,
+   "median_gap": 7,
+   "max_gap": 10,
+   "min_gap": 4
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 972,
+    "kind": "ocr_fail",
+    "text": "60008162330374442145158"
+   },
+   {
+    "row_y": 1282,
+    "kind": "repaired_swap",
+    "text": "84",
+    "fixed": "48"
+   },
+   {
+    "row_y": 1585,
+    "kind": "ocr_fail",
+    "text": "41204122028364452"
+   },
+   {
+    "row_y": 1687,
+    "kind": "ocr_fail",
+    "text": "1430008162432404856"
+   },
+   {
+    "row_y": 1998,
+    "kind": "ocr_fail",
+    "text": "160411174223294235441444745359"
+   },
+   {
+    "row_y": 2102,
+    "kind": "ocr_fail",
+    "text": "1705111742234294235441424475359"
+   },
+   {
+    "row_y": 2204,
+    "kind": "ocr_fail",
+    "text": "1805111742234296354414745359"
+   },
+   {
+    "row_y": 2303,
+    "kind": "ocr_fail",
+    "text": "1905122027429334425058"
+   },
+   {
+    "row_y": 2507,
+    "kind": "ocr_fail",
+    "text": "91021014218826406340642065059"
+   },
+   {
+    "row_y": 2610,
+    "kind": "ocr_fail",
+    "text": "2208174226344453"
+   },
+   {
+    "row_y": 2718,
+    "kind": "ocr_fail",
+    "text": "2302122232241"
+   }
+  ]
+ },
+ {
+  "source": "timetables/15-安立路-1.jpg",
+  "id": "15-安立路-1#0",
+  "n_times": 162,
+  "stats": {
+   "n": 162,
+   "n_hours": 19,
+   "median_gap": 6,
+   "max_gap": 10,
+   "min_gap": 3
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/15-安立路-1.jpg",
+  "id": "15-安立路-1#1",
+  "n_times": 162,
+  "stats": {
+   "n": 162,
+   "n_hours": 19,
+   "median_gap": 6,
+   "max_gap": 10,
+   "min_gap": 3
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 1395,
+    "kind": "bad_minute",
+    "text": "98"
+   }
+  ]
+ },
+ {
+  "source": "timetables/15-安立路-2.jpg",
+  "id": "15-安立路-2#0",
+  "n_times": 162,
+  "stats": {
+   "n": 162,
+   "n_hours": 19,
+   "median_gap": 6,
+   "max_gap": 11,
+   "min_gap": 3
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 1685,
+    "kind": "ocr_fail",
+    "text": "1430710917253341"
+   },
+   {
+    "row_y": 1890,
+    "kind": "ocr_fail",
+    "text": "150710917252933"
+   }
+  ]
+ },
+ {
+  "source": "timetables/15-安立路-2.jpg",
+  "id": "15-安立路-2#1",
+  "n_times": 162,
+  "stats": {
+   "n": 162,
+   "n_hours": 19,
+   "median_gap": 6,
+   "max_gap": 11,
+   "min_gap": 3
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 1890,
+    "kind": "ocr_fail",
+    "text": "41497"
+   },
+   {
+    "row_y": 1992,
+    "kind": "ocr_fail",
+    "text": "434999"
+   },
+   {
+    "row_y": 2095,
+    "kind": "repaired_swap",
+    "text": "92",
+    "fixed": "29"
+   },
+   {
+    "row_y": 2197,
+    "kind": "ocr_fail",
+    "text": "44"
+   },
+   {
+    "row_y": 2403,
+    "kind": "ocr_fail",
+    "text": "38445096"
+   },
+   {
+    "row_y": 2505,
+    "kind": "ocr_fail",
+    "text": "394693"
+   }
+  ]
+ },
+ {
+  "source": "timetables/15-安立路-3.jpg",
+  "id": "15-安立路-3",
+  "n_times": 150,
+  "stats": {
+   "n": 150,
+   "n_hours": 19,
+   "median_gap": 7,
+   "max_gap": 9,
+   "min_gap": 6
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 1081,
+    "kind": "repaired_swap",
+    "text": "61",
+    "fixed": "16"
+   },
+   {
+    "row_y": 1081,
+    "kind": "repaired_swap",
+    "text": "73",
+    "fixed": "37"
+   },
+   {
+    "row_y": 1288,
+    "kind": "ocr_fail",
+    "text": "90309152127233394455157"
+   },
+   {
+    "row_y": 1391,
+    "kind": "repaired_swap",
+    "text": "91",
+    "fixed": "19"
+   },
+   {
+    "row_y": 1391,
+    "kind": "repaired_swap",
+    "text": "72",
+    "fixed": "27"
+   },
+   {
+    "row_y": 1494,
+    "kind": "ocr_fail",
+    "text": "1103101826344250458"
+   },
+   {
+    "row_y": 1909,
+    "kind": "ocr_fail",
+    "text": "1502101826344250458"
+   },
+   {
+    "row_y": 2427,
+    "kind": "repaired_swap",
+    "text": "91",
+    "fixed": "19"
+   },
+   {
+    "row_y": 2427,
+    "kind": "repaired_swap",
+    "text": "62",
+    "fixed": "26"
+   },
+   {
+    "row_y": 2530,
+    "kind": "ocr_fail",
+    "text": "2103114192735435159"
+   },
+   {
+    "row_y": 2634,
+    "kind": "ocr_fail",
+    "text": "071523314404958"
+   }
+  ]
+ },
+ {
+  "source": "timetables/15-安立路-4.jpg",
+  "id": "15-安立路-4",
+  "n_times": 150,
+  "stats": {
+   "n": 150,
+   "n_hours": 19,
+   "median_gap": 7,
+   "max_gap": 10,
+   "min_gap": 6
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 873,
+    "kind": "ocr_fail",
+    "text": "1452331394755"
+   },
+   {
+    "row_y": 1592,
+    "kind": "ocr_fail",
+    "text": "12041220283644652"
+   },
+   {
+    "row_y": 2107,
+    "kind": "ocr_fail",
+    "text": "0511417223293541475359"
+   },
+   {
+    "row_y": 2210,
+    "kind": "ocr_fail",
+    "text": "0511417422342935414753459"
+   },
+   {
+    "row_y": 2312,
+    "kind": "ocr_fail",
+    "text": "0511174223429364425158"
+   }
+  ]
+ },
+ {
+  "source": "timetables/15-崔各庄-1.jpg",
+  "id": "15-崔各庄-1",
+  "n_times": 113,
+  "stats": {
+   "n": 113,
+   "n_hours": 12,
+   "median_gap": 6,
+   "max_gap": 182,
+   "min_gap": 1
+  },
+  "issues": [
+   {
+    "kind": "duplicate",
+    "hour": 19,
+    "minute": 28,
+    "msg": "duplicate 19:28"
+   },
+   {
+    "kind": "dup_hour",
+    "hour": 19,
+    "msg": "hour 19 has duplicates: [8, 9, 11, 14, 15, 23, 28, 28, 31, 34, 37, 41, 44, 47, 50, 54, 57]"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 72,
+    "at": "12:55->14:07",
+    "msg": "gap 72 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 71,
+    "at": "14:55->16:06",
+    "msg": "gap 71 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "gap_small",
+    "gap": 1,
+    "at": "17:11->17:12",
+    "msg": "gap 1 min is below 2"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 16,
+    "at": "17:12->17:28",
+    "msg": "gap 16 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "gap_small",
+    "gap": 1,
+    "at": "17:50->17:51",
+    "msg": "gap 1 min is below 2"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 71,
+    "at": "17:57->19:08",
+    "msg": "gap 71 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "gap_small",
+    "gap": 1,
+    "at": "19:08->19:09",
+    "msg": "gap 1 min is below 2"
+   },
+   {
+    "kind": "gap_small",
+    "gap": 1,
+    "at": "19:14->19:15",
+    "msg": "gap 1 min is below 2"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 67,
+    "at": "19:57->21:04",
+    "msg": "gap 67 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "hour_gap",
+    "msg": "hours 6->10 not consecutive"
+   },
+   {
+    "kind": "hour_gap",
+    "msg": "hours 12->14 not consecutive"
+   },
+   {
+    "kind": "hour_gap",
+    "msg": "hours 14->16 not consecutive"
+   },
+   {
+    "kind": "hour_gap",
+    "msg": "hours 17->19 not consecutive"
+   },
+   {
+    "kind": "hour_gap",
+    "msg": "hours 19->21 not consecutive"
+   }
+  ],
+  "flags": [
+   {
+    "row_y": 1080,
+    "kind": "ocr_fail",
+    "text": "7031015202528313437240434649252455658"
+   },
+   {
+    "row_y": 1183,
+    "kind": "ocr_fail",
+    "text": "8013306191215187142242730333704400643064606448065106654065759"
+   },
+   {
+    "row_y": 1287,
+    "kind": "ocr_fail",
+    "text": "90205710131541832142427062906320638506388064106430664606649066520645557"
+   },
+   {
+    "row_y": 1697,
+    "kind": "ocr_fail",
+    "text": "40311192735443065159"
+   },
+   {
+    "row_y": 1903,
+    "kind": "ocr_fail",
+    "text": "1450311192735435159"
+   },
+   {
+    "row_y": 2108,
+    "kind": "repaired_swap",
+    "text": "70",
+    "fixed": "07"
+   },
+   {
+    "row_y": 2108,
+    "kind": "repaired_swap",
+    "text": "82",
+    "fixed": "28"
+   },
+   {
+    "row_y": 2211,
+    "kind": "ocr_fail",
+    "text": "4820003061013161923262932353841444750535659"
+   },
+   {
+    "row_y": 2314,
+    "kind": "repaired_swap",
+    "text": "90",
+    "fixed": "09"
+   },
+   {
+    "row_y": 2314,
+    "kind": "repaired_swap",
+    "text": "82",
+    "fixed": "28"
+   },
+   {
+    "row_y": 2416,
+    "kind": "ocr_fail",
+    "text": "20002371013162023263339455158"
+   }
+  ]
+ },
+ {
+  "source": "timetables/15-崔各庄-2.jpg",
+  "id": "15-崔各庄-2",
+  "n_times": 119,
+  "stats": {
+   "n": 119,
+   "n_hours": 13,
+   "median_gap": 6,
+   "max_gap": 185,
+   "min_gap": 1
+  },
+  "issues": [
+   {
+    "kind": "duplicate",
+    "hour": 9,
+    "minute": 30,
+    "msg": "duplicate 09:30"
+   },
+   {
+    "kind": "dup_hour",
+    "hour": 9,
+    "msg": "hour 09 has duplicates: [0, 3, 6, 12, 15, 17, 18, 21, 24, 27, 30, 30, 33, 35, 39, 42, 46, 48, 54, 58]"
+   },
+   {
+    "kind": "gap_small",
+    "gap": 1,
+    "at": "09:17->09:18",
+    "msg": "gap 1 min is below 2"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 16,
+    "at": "16:06->16:22",
+    "msg": "gap 16 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "gap_small",
+    "gap": 1,
+    "at": "16:22->16:23",
+    "msg": "gap 1 min is below 2"
+   },
+   {
+    "kind": "hour_gap",
+    "msg": "hours 6->9 not consecutive"
+   },
+   {
+    "kind": "hour_gap",
+    "msg": "hours 16->20 not consecutive"
+   }
+  ],
+  "flags": [
+   {
+    "row_y": 1171,
+    "kind": "ocr_fail",
+    "text": "7010410131518212427303336394264506470450645365658"
+   },
+   {
+    "row_y": 1273,
+    "kind": "ocr_fail",
+    "text": "8010470912151820272628313437404344649066520665558"
+   },
+   {
+    "row_y": 1377,
+    "kind": "repaired_swap",
+    "text": "71",
+    "fixed": "17"
+   },
+   {
+    "row_y": 2096,
+    "kind": "repaired_swap",
+    "text": "60",
+    "fixed": "06"
+   },
+   {
+    "row_y": 2096,
+    "kind": "repaired_swap",
+    "text": "63",
+    "fixed": "36"
+   },
+   {
+    "row_y": 2096,
+    "kind": "repaired_swap",
+    "text": "84",
+    "fixed": "48"
+   },
+   {
+    "row_y": 2198,
+    "kind": "ocr_fail",
+    "text": "470004101316182124273033364394306460644906652065659"
+   },
+   {
+    "row_y": 2301,
+    "kind": "ocr_fail",
+    "text": "18020509121582222834353841444851545"
+   },
+   {
+    "row_y": 2403,
+    "kind": "ocr_fail",
+    "text": "149014071014172023273033063664006430664606490653058"
+   },
+   {
+    "row_y": 2712,
+    "kind": "ocr_fail",
+    "text": "9201112213242"
+   }
+  ]
+ },
+ {
+  "source": "timetables/15-崔各庄-3.jpg",
+  "id": "15-崔各庄-3",
+  "n_times": 150,
+  "stats": {
+   "n": 150,
+   "n_hours": 19,
+   "median_gap": 7,
+   "max_gap": 9,
+   "min_gap": 6
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 1188,
+    "kind": "repaired_swap",
+    "text": "82",
+    "fixed": "28"
+   },
+   {
+    "row_y": 1188,
+    "kind": "repaired_swap",
+    "text": "84",
+    "fixed": "48"
+   },
+   {
+    "row_y": 1291,
+    "kind": "repaired_swap",
+    "text": "81",
+    "fixed": "18"
+   },
+   {
+    "row_y": 1291,
+    "kind": "repaired_swap",
+    "text": "63",
+    "fixed": "36"
+   },
+   {
+    "row_y": 1291,
+    "kind": "repaired_swap",
+    "text": "84",
+    "fixed": "48"
+   },
+   {
+    "row_y": 1499,
+    "kind": "ocr_fail",
+    "text": "110281420274235438495159"
+   },
+   {
+    "row_y": 1602,
+    "kind": "ocr_fail",
+    "text": "120715283139474555"
+   },
+   {
+    "row_y": 1706,
+    "kind": "ocr_fail",
+    "text": "13031119274235434295159"
+   },
+   {
+    "row_y": 2016,
+    "kind": "ocr_fail",
+    "text": "160715234313942944755"
+   },
+   {
+    "row_y": 2120,
+    "kind": "ocr_fail",
+    "text": "1703101742232906350475835"
+   },
+   {
+    "row_y": 2224,
+    "kind": "ocr_fail",
+    "text": "180511174223429243506414753659"
+   },
+   {
+    "row_y": 2328,
+    "kind": "ocr_fail",
+    "text": "1905111722342923541444753859"
+   },
+   {
+    "row_y": 2427,
+    "kind": "ocr_fail",
+    "text": "2005121922633064006486656"
+   },
+   {
+    "row_y": 2628,
+    "kind": "ocr_fail",
+    "text": "2200081624324044857"
+   },
+   {
+    "row_y": 2741,
+    "kind": "ocr_fail",
+    "text": "23061524293341"
+   }
+  ]
+ },
+ {
+  "source": "timetables/15-崔各庄-4.jpg",
+  "id": "15-崔各庄-4",
+  "n_times": 150,
+  "stats": {
+   "n": 150,
+   "n_hours": 19,
+   "median_gap": 7,
+   "max_gap": 9,
+   "min_gap": 6
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 965,
+    "kind": "ocr_fail",
+    "text": "50715234314384452"
+   },
+   {
+    "row_y": 1068,
+    "kind": "ocr_fail",
+    "text": "600081462423138455259"
+   },
+   {
+    "row_y": 1171,
+    "kind": "ocr_fail",
+    "text": "7013202742342404465258"
+   },
+   {
+    "row_y": 1376,
+    "kind": "repaired_swap",
+    "text": "62",
+    "fixed": "26"
+   },
+   {
+    "row_y": 1376,
+    "kind": "repaired_swap",
+    "text": "83",
+    "fixed": "38"
+   },
+   {
+    "row_y": 1376,
+    "kind": "repaired_swap",
+    "text": "65",
+    "fixed": "56"
+   },
+   {
+    "row_y": 1480,
+    "kind": "repaired_swap",
+    "text": "93",
+    "fixed": "39"
+   },
+   {
+    "row_y": 1480,
+    "kind": "repaired_swap",
+    "text": "64",
+    "fixed": "46"
+   },
+   {
+    "row_y": 1582,
+    "kind": "ocr_fail",
+    "text": "1410008162432404856"
+   },
+   {
+    "row_y": 2096,
+    "kind": "ocr_fail",
+    "text": "160412192531437424344955"
+   },
+   {
+    "row_y": 2199,
+    "kind": "ocr_fail",
+    "text": "170107131922506631063706430049"
+   },
+   {
+    "row_y": 2301,
+    "kind": "ocr_fail",
+    "text": "1801713419253143743064955"
+   },
+   {
+    "row_y": 2404,
+    "kind": "repaired_swap",
+    "text": "71",
+    "fixed": "17"
+   },
+   {
+    "row_y": 2404,
+    "kind": "repaired_swap",
+    "text": "83",
+    "fixed": "38"
+   },
+   {
+    "row_y": 2507,
+    "kind": "ocr_fail",
+    "text": "900614212230384654"
+   },
+   {
+    "row_y": 2609,
+    "kind": "ocr_fail",
+    "text": "9402101823444425058"
+   },
+   {
+    "row_y": 2712,
+    "kind": "ocr_fail",
+    "text": "92071623442"
+   }
+  ]
+ },
+ {
+  "source": "timetables/15-望京-1.jpg",
+  "id": "15-望京-1",
+  "n_times": 222,
+  "stats": {
+   "n": 222,
+   "n_hours": 19,
+   "median_gap": 4,
+   "max_gap": 10,
+   "min_gap": 2
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 1087,
+    "kind": "ocr_fail",
+    "text": "040914192732698313437400643064664490552065565"
+   },
+   {
+    "row_y": 1189,
+    "kind": "repaired_swap",
+    "text": "80",
+    "fixed": "08"
+   },
+   {
+    "row_y": 1189,
+    "kind": "repaired_swap",
+    "text": "91",
+    "fixed": "19"
+   },
+   {
+    "row_y": 1189,
+    "kind": "repaired_swap",
+    "text": "82",
+    "fixed": "28"
+   },
+   {
+    "row_y": 1292,
+    "kind": "ocr_fail",
+    "text": "90104781215182123262932353840434649525457"
+   },
+   {
+    "row_y": 1395,
+    "kind": "bad_minute",
+    "text": "79"
+   },
+   {
+    "row_y": 2114,
+    "kind": "repaired_swap",
+    "text": "82",
+    "fixed": "28"
+   },
+   {
+    "row_y": 2114,
+    "kind": "repaired_swap",
+    "text": "83",
+    "fixed": "38"
+   },
+   {
+    "row_y": 2114,
+    "kind": "repaired_swap",
+    "text": "84",
+    "fixed": "48"
+   },
+   {
+    "row_y": 2216,
+    "kind": "ocr_fail",
+    "text": "0104710141722023260679903220263506638041644064765088"
+   },
+   {
+    "row_y": 2320,
+    "kind": "repaired_swap",
+    "text": "91",
+    "fixed": "19"
+   },
+   {
+    "row_y": 2320,
+    "kind": "repaired_swap",
+    "text": "92",
+    "fixed": "29"
+   },
+   {
+    "row_y": 2423,
+    "kind": "ocr_fail",
+    "text": "200147111417220273303964506652658"
+   }
+  ]
+ },
+ {
+  "source": "timetables/15-望京-2.jpg",
+  "id": "15-望京-2",
+  "n_times": 112,
+  "stats": {
+   "n": 112,
+   "n_hours": 12,
+   "median_gap": 7,
+   "max_gap": 189,
+   "min_gap": 1
+  },
+  "issues": [
+   {
+    "kind": "duplicate",
+    "hour": 9,
+    "minute": 19,
+    "msg": "duplicate 09:19"
+   },
+   {
+    "kind": "duplicate",
+    "hour": 9,
+    "minute": 42,
+    "msg": "duplicate 09:42"
+   },
+   {
+    "kind": "dup_hour",
+    "hour": 9,
+    "msg": "hour 09 has duplicates: [0, 3, 6, 14, 15, 19, 19, 21, 23, 28, 33, 37, 42, 42, 44, 45, 48, 51, 53, 58]"
+   },
+   {
+    "kind": "gap_small",
+    "gap": 1,
+    "at": "09:14->09:15",
+    "msg": "gap 1 min is below 2"
+   },
+   {
+    "kind": "gap_small",
+    "gap": 1,
+    "at": "09:44->09:45",
+    "msg": "gap 1 min is below 2"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 16,
+    "at": "10:57->11:13",
+    "msg": "gap 16 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "hour_gap",
+    "msg": "hours 6->9 not consecutive"
+   },
+   {
+    "kind": "hour_gap",
+    "msg": "hours 16->20 not consecutive"
+   }
+  ],
+  "flags": [
+   {
+    "row_y": 1070,
+    "kind": "ocr_fail",
+    "text": "70104101215182212427333436063964264450647065065306565"
+   },
+   {
+    "row_y": 1173,
+    "kind": "ocr_fail",
+    "text": "801247101215182122623234374043464952555"
+   },
+   {
+    "row_y": 1275,
+    "kind": "repaired_swap",
+    "text": "91",
+    "fixed": "19"
+   },
+   {
+    "row_y": 1275,
+    "kind": "repaired_swap",
+    "text": "82",
+    "fixed": "28"
+   },
+   {
+    "row_y": 1275,
+    "kind": "repaired_swap",
+    "text": "73",
+    "fixed": "37"
+   },
+   {
+    "row_y": 1275,
+    "kind": "repaired_swap",
+    "text": "84",
+    "fixed": "48"
+   },
+   {
+    "row_y": 1275,
+    "kind": "repaired_swap",
+    "text": "85",
+    "fixed": "58"
+   },
+   {
+    "row_y": 2097,
+    "kind": "ocr_fail",
+    "text": "1703209216182124272323538424548515556"
+   },
+   {
+    "row_y": 2200,
+    "kind": "ocr_fail",
+    "text": "0104408141417212427303437404347505326"
+   },
+   {
+    "row_y": 2302,
+    "kind": "ocr_fail",
+    "text": "14002306081316192226732353942454482452455659"
+   }
+  ]
+ },
+ {
+  "source": "timetables/15-望京-3.jpg",
+  "id": "15-望京-3",
+  "n_times": 150,
+  "stats": {
+   "n": 150,
+   "n_hours": 19,
+   "median_gap": 7,
+   "max_gap": 9,
+   "min_gap": 6
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 1090,
+    "kind": "ocr_fail",
+    "text": "02091623230374442935158"
+   },
+   {
+    "row_y": 1192,
+    "kind": "ocr_fail",
+    "text": "0121926323844245056"
+   },
+   {
+    "row_y": 1295,
+    "kind": "ocr_fail",
+    "text": "020814202632384415056"
+   },
+   {
+    "row_y": 1397,
+    "kind": "ocr_fail",
+    "text": "100208142026323844245056"
+   },
+   {
+    "row_y": 1500,
+    "kind": "ocr_fail",
+    "text": "020814212943744553"
+   },
+   {
+    "row_y": 1603,
+    "kind": "ocr_fail",
+    "text": "010917253341424957"
+   },
+   {
+    "row_y": 1706,
+    "kind": "ocr_fail",
+    "text": "01321294374244553"
+   },
+   {
+    "row_y": 1911,
+    "kind": "ocr_fail",
+    "text": "01321294374244553"
+   },
+   {
+    "row_y": 2013,
+    "kind": "ocr_fail",
+    "text": "160109174225334241244957"
+   },
+   {
+    "row_y": 2116,
+    "kind": "ocr_fail",
+    "text": "041117223229235064406470665359"
+   },
+   {
+    "row_y": 2219,
+    "kind": "ocr_fail",
+    "text": "0111722322923564144753859"
+   },
+   {
+    "row_y": 2321,
+    "kind": "ocr_fail",
+    "text": "190111742232943544144753659"
+   },
+   {
+    "row_y": 2424,
+    "kind": "ocr_fail",
+    "text": "200613202742344225058"
+   }
+  ]
+ },
+ {
+  "source": "timetables/15-望京-4.jpg",
+  "id": "15-望京-4",
+  "n_times": 150,
+  "stats": {
+   "n": 150,
+   "n_hours": 18,
+   "median_gap": 7,
+   "max_gap": 9,
+   "min_gap": 6
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 868,
+    "kind": "ocr_fail",
+    "text": "0312202823643245057"
+   },
+   {
+    "row_y": 970,
+    "kind": "ocr_fail",
+    "text": "601321294236434245057"
+   },
+   {
+    "row_y": 1073,
+    "kind": "ocr_fail",
+    "text": "70411825063206390664506157"
+   },
+   {
+    "row_y": 1175,
+    "kind": "ocr_fail",
+    "text": "0309815212723339455157"
+   },
+   {
+    "row_y": 1278,
+    "kind": "ocr_fail",
+    "text": "903091521272334394545157"
+   },
+   {
+    "row_y": 1380,
+    "kind": "ocr_fail",
+    "text": "03091521274344941244957"
+   },
+   {
+    "row_y": 1585,
+    "kind": "ocr_fail",
+    "text": "4201098174233441244957"
+   },
+   {
+    "row_y": 1687,
+    "kind": "ocr_fail",
+    "text": "013212374244553"
+   },
+   {
+    "row_y": 1790,
+    "kind": "ocr_fail",
+    "text": "1401981742233441244957"
+   },
+   {
+    "row_y": 1892,
+    "kind": "ocr_fail",
+    "text": "013212374244553"
+   },
+   {
+    "row_y": 1994,
+    "kind": "ocr_fail",
+    "text": "01091742243036424854"
+   },
+   {
+    "row_y": 2097,
+    "kind": "ocr_fail",
+    "text": "17000612182430364244854"
+   },
+   {
+    "row_y": 2301,
+    "kind": "repaired_swap",
+    "text": "61",
+    "fixed": "16"
+   },
+   {
+    "row_y": 2301,
+    "kind": "repaired_swap",
+    "text": "82",
+    "fixed": "28"
+   },
+   {
+    "row_y": 2404,
+    "kind": "ocr_fail",
+    "text": "031141942272354395159"
+   },
+   {
+    "row_y": 2508,
+    "kind": "ocr_fail",
+    "text": "910715233123944755"
+   }
+  ]
+ },
+ {
+  "source": "timetables/15-望京东-1.jpg",
+  "id": "15-望京东-1",
+  "n_times": 103,
+  "stats": {
+   "n": 103,
+   "n_hours": 8,
+   "median_gap": 3,
+   "max_gap": 124,
+   "min_gap": 1
+  },
+  "issues": [
+   {
+    "kind": "gap_small",
+    "gap": 1,
+    "at": "08:39->08:40",
+    "msg": "gap 1 min is below 2"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 63,
+    "at": "09:57->11:00",
+    "msg": "gap 63 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 64,
+    "at": "11:56->13:00",
+    "msg": "gap 64 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 64,
+    "at": "13:56->15:00",
+    "msg": "gap 64 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 66,
+    "at": "21:55->23:01",
+    "msg": "gap 66 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "hour_gap",
+    "msg": "hours 9->11 not consecutive"
+   },
+   {
+    "kind": "hour_gap",
+    "msg": "hours 11->13 not consecutive"
+   },
+   {
+    "kind": "hour_gap",
+    "msg": "hours 13->15 not consecutive"
+   },
+   {
+    "kind": "hour_gap",
+    "msg": "hours 15->18 not consecutive"
+   },
+   {
+    "kind": "hour_gap",
+    "msg": "hours 18->21 not consecutive"
+   },
+   {
+    "kind": "hour_gap",
+    "msg": "hours 21->23 not consecutive"
+   }
+  ],
+  "flags": [
+   {
+    "row_y": 884,
+    "kind": "ocr_fail",
+    "text": "53559"
+   },
+   {
+    "row_y": 986,
+    "kind": "ocr_fail",
+    "text": "07142123441485559"
+   },
+   {
+    "row_y": 1088,
+    "kind": "ocr_fail",
+    "text": "07121722283134340434649525457"
+   },
+   {
+    "row_y": 1192,
+    "kind": "repaired_swap",
+    "text": "93",
+    "fixed": "39"
+   },
+   {
+    "row_y": 1396,
+    "kind": "ocr_fail",
+    "text": "000306091216192123037445256"
+   },
+   {
+    "row_y": 1602,
+    "kind": "ocr_fail",
+    "text": "041220283644452"
+   },
+   {
+    "row_y": 1808,
+    "kind": "ocr_fail",
+    "text": "041220283644452"
+   },
+   {
+    "row_y": 2014,
+    "kind": "ocr_fail",
+    "text": "0310162329364249455"
+   },
+   {
+    "row_y": 2115,
+    "kind": "ocr_fail",
+    "text": "0208151821228313438414447515457"
+   },
+   {
+    "row_y": 2321,
+    "kind": "ocr_fail",
+    "text": "0208091215182922578313538414448515457"
+   },
+   {
+    "row_y": 2424,
+    "kind": "ocr_fail",
+    "text": "010401014172233036424855"
+   },
+   {
+    "row_y": 2630,
+    "kind": "ocr_fail",
+    "text": "01071319263241451"
+   }
+  ]
+ },
+ {
+  "source": "timetables/15-望京东-2.jpg",
+  "id": "15-望京东-2",
+  "n_times": 139,
+  "stats": {
+   "n": 139,
+   "n_hours": 14,
+   "median_gap": 6,
+   "max_gap": 184,
+   "min_gap": 1
+  },
+  "issues": [
+   {
+    "kind": "duplicate",
+    "hour": 8,
+    "minute": 40,
+    "msg": "duplicate 08:40"
+   },
+   {
+    "kind": "dup_hour",
+    "hour": 8,
+    "msg": "hour 08 has duplicates: [1, 10, 17, 18, 21, 23, 29, 32, 34, 37, 40, 40, 43, 46, 49, 51, 52, 55, 58]"
+   },
+   {
+    "kind": "gap_small",
+    "gap": 1,
+    "at": "07:12->07:13",
+    "msg": "gap 1 min is below 2"
+   },
+   {
+    "kind": "gap_small",
+    "gap": 1,
+    "at": "07:13->07:14",
+    "msg": "gap 1 min is below 2"
+   },
+   {
+    "kind": "gap_small",
+    "gap": 1,
+    "at": "07:47->07:48",
+    "msg": "gap 1 min is below 2"
+   },
+   {
+    "kind": "gap_small",
+    "gap": 1,
+    "at": "08:17->08:18",
+    "msg": "gap 1 min is below 2"
+   },
+   {
+    "kind": "gap_small",
+    "gap": 1,
+    "at": "08:51->08:52",
+    "msg": "gap 1 min is below 2"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 68,
+    "at": "08:58->10:06",
+    "msg": "gap 68 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 16,
+    "at": "10:55->11:11",
+    "msg": "gap 16 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 16,
+    "at": "13:59->14:15",
+    "msg": "gap 16 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "hour_gap",
+    "msg": "hours 8->10 not consecutive"
+   },
+   {
+    "kind": "hour_gap",
+    "msg": "hours 16->20 not consecutive"
+   }
+  ],
+  "flags": [
+   {
+    "row_y": 748,
+    "kind": "ocr_fail",
+    "text": ""
+   },
+   {
+    "row_y": 1175,
+    "kind": "repaired_swap",
+    "text": "71",
+    "fixed": "17"
+   },
+   {
+    "row_y": 1175,
+    "kind": "repaired_swap",
+    "text": "81",
+    "fixed": "18"
+   },
+   {
+    "row_y": 1175,
+    "kind": "bad_minute",
+    "text": "76"
+   },
+   {
+    "row_y": 1278,
+    "kind": "ocr_fail",
+    "text": "911030091215182124230333638424548515457"
+   },
+   {
+    "row_y": 1998,
+    "kind": "repaired_swap",
+    "text": "90",
+    "fixed": "09"
+   },
+   {
+    "row_y": 2099,
+    "kind": "ocr_fail",
+    "text": "000061013161821242932339424549525558"
+   },
+   {
+    "row_y": 2202,
+    "kind": "ocr_fail",
+    "text": "205381115181242313437414447505457"
+   },
+   {
+    "row_y": 2305,
+    "kind": "ocr_fail",
+    "text": "100317101316202329323639424495256"
+   }
+  ]
+ },
+ {
+  "source": "timetables/15-望京东-3.jpg",
+  "id": "15-望京东-3",
+  "n_times": 91,
+  "stats": {
+   "n": 91,
+   "n_hours": 12,
+   "median_gap": 8,
+   "max_gap": 245,
+   "min_gap": 1
+  },
+  "issues": [
+   {
+    "kind": "gap_large",
+    "gap": 20,
+    "at": "07:01->07:21",
+    "msg": "gap 20 min exceeds 18 (possible missed train)"
+   },
+   {
+    "kind": "gap_small",
+    "gap": 1,
+    "at": "08:38->08:39",
+    "msg": "gap 1 min is below 2"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 66,
+    "at": "09:59->11:05",
+    "msg": "gap 66 min exceeds 18 (possible missed train)"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 64,
+    "at": "13:56->15:00",
+    "msg": "gap 64 min exceeds 18 (possible missed train)"
+   },
+   {
+    "kind": "gap_small",
+    "gap": 1,
+    "at": "17:41->17:42",
+    "msg": "gap 1 min is below 2"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 20,
+    "at": "22:12->22:32",
+    "msg": "gap 20 min exceeds 18 (possible missed train)"
+   },
+   {
+    "kind": "hour_gap",
+    "msg": "hours 9->11 not consecutive"
+   },
+   {
+    "kind": "hour_gap",
+    "msg": "hours 13->15 not consecutive"
+   },
+   {
+    "kind": "hour_gap",
+    "msg": "hours 17->22 not consecutive"
+   }
+  ],
+  "flags": [
+   {
+    "row_y": 1084,
+    "kind": "repaired_swap",
+    "text": "92",
+    "fixed": "29"
+   },
+   {
+    "row_y": 1084,
+    "kind": "repaired_swap",
+    "text": "63",
+    "fixed": "36"
+   },
+   {
+    "row_y": 1186,
+    "kind": "repaired_swap",
+    "text": "81",
+    "fixed": "18"
+   },
+   {
+    "row_y": 1186,
+    "kind": "repaired_swap",
+    "text": "93",
+    "fixed": "39"
+   },
+   {
+    "row_y": 1186,
+    "kind": "repaired_swap",
+    "text": "75",
+    "fixed": "57"
+   },
+   {
+    "row_y": 1392,
+    "kind": "ocr_fail",
+    "text": "10052329354147253591117"
+   },
+   {
+    "row_y": 1802,
+    "kind": "ocr_fail",
+    "text": "041220283644652"
+   },
+   {
+    "row_y": 2110,
+    "kind": "repaired_swap",
+    "text": "71",
+    "fixed": "17"
+   },
+   {
+    "row_y": 2110,
+    "kind": "repaired_swap",
+    "text": "63",
+    "fixed": "36"
+   },
+   {
+    "row_y": 2110,
+    "kind": "repaired_swap",
+    "text": "84",
+    "fixed": "48"
+   },
+   {
+    "row_y": 2213,
+    "kind": "ocr_fail",
+    "text": "180208142026323844245056"
+   },
+   {
+    "row_y": 2315,
+    "kind": "ocr_fail",
+    "text": "028142026323844425056"
+   },
+   {
+    "row_y": 2422,
+    "kind": "ocr_fail",
+    "text": "2002091623303742144553"
+   },
+   {
+    "row_y": 2525,
+    "kind": "ocr_fail",
+    "text": "01091725334144957"
+   },
+   {
+    "row_y": 2627,
+    "kind": "repaired_swap",
+    "text": "93",
+    "fixed": "39"
+   },
+   {
+    "row_y": 2627,
+    "kind": "repaired_swap",
+    "text": "74",
+    "fixed": "47"
+   }
+  ]
+ },
+ {
+  "source": "timetables/15-望京东-4.jpg",
+  "id": "15-望京东-4",
+  "n_times": 150,
+  "stats": {
+   "n": 150,
+   "n_hours": 18,
+   "median_gap": 7,
+   "max_gap": 9,
+   "min_gap": 6
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 870,
+    "kind": "ocr_fail",
+    "text": "011018263441424754"
+   },
+   {
+    "row_y": 1485,
+    "kind": "ocr_fail",
+    "text": "0210182634442450458"
+   },
+   {
+    "row_y": 1690,
+    "kind": "ocr_fail",
+    "text": "02101823442425058"
+   },
+   {
+    "row_y": 1793,
+    "kind": "ocr_fail",
+    "text": "061422303844654"
+   },
+   {
+    "row_y": 1895,
+    "kind": "ocr_fail",
+    "text": "0210182634424250458"
+   },
+   {
+    "row_y": 1999,
+    "kind": "ocr_fail",
+    "text": "1606142427330639057"
+   },
+   {
+    "row_y": 2101,
+    "kind": "ocr_fail",
+    "text": "170391524274233394455157"
+   },
+   {
+    "row_y": 2204,
+    "kind": "ocr_fail",
+    "text": "18039152127233394455157"
+   },
+   {
+    "row_y": 2306,
+    "kind": "ocr_fail",
+    "text": "0309152230374244452"
+   },
+   {
+    "row_y": 2511,
+    "kind": "ocr_fail",
+    "text": "91041242204282360464452"
+   },
+   {
+    "row_y": 2614,
+    "kind": "ocr_fail",
+    "text": "0009182723645"
+   }
+  ]
+ },
+ {
+  "source": "timetables/15-望京西-1.jpg",
+  "id": "15-望京西-1",
+  "n_times": 220,
+  "stats": {
+   "n": 220,
+   "n_hours": 19,
+   "median_gap": 4,
+   "max_gap": 10,
+   "min_gap": 1
+  },
+  "issues": [
+   {
+    "kind": "duplicate",
+    "hour": 9,
+    "minute": 10,
+    "msg": "duplicate 09:10"
+   },
+   {
+    "kind": "duplicate",
+    "hour": 9,
+    "minute": 40,
+    "msg": "duplicate 09:40"
+   },
+   {
+    "kind": "dup_hour",
+    "hour": 9,
+    "msg": "hour 09 has duplicates: [9, 10, 10, 12, 15, 18, 21, 23, 26, 29, 32, 35, 37, 40, 40, 43, 46, 49, 52, 55, 57]"
+   },
+   {
+    "kind": "gap_small",
+    "gap": 1,
+    "at": "09:09->09:10",
+    "msg": "gap 1 min is below 2"
+   }
+  ],
+  "flags": [
+   {
+    "row_y": 1284,
+    "kind": "repaired_swap",
+    "text": "90",
+    "fixed": "09"
+   },
+   {
+    "row_y": 2308,
+    "kind": "bad_minute",
+    "text": "99"
+   },
+   {
+    "row_y": 2411,
+    "kind": "bad_minute",
+    "text": "98"
+   }
+  ]
+ },
+ {
+  "source": "timetables/15-望京西-2.jpg",
+  "id": "15-望京西-2",
+  "n_times": 222,
+  "stats": {
+   "n": 222,
+   "n_hours": 18,
+   "median_gap": 4,
+   "max_gap": 11,
+   "min_gap": 2
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 1386,
+    "kind": "repaired_swap",
+    "text": "90",
+    "fixed": "09"
+   }
+  ]
+ },
+ {
+  "source": "timetables/15-望京西-3.jpg",
+  "id": "15-望京西-3",
+  "n_times": 156,
+  "stats": {
+   "n": 156,
+   "n_hours": 18,
+   "median_gap": 7,
+   "max_gap": 9,
+   "min_gap": 6
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 874,
+    "kind": "ocr_fail",
+    "text": "47395"
+   }
+  ]
+ },
+ {
+  "source": "timetables/15-望京西-4.jpg",
+  "id": "15-望京西-4",
+  "n_times": 158,
+  "stats": {
+   "n": 158,
+   "n_hours": 18,
+   "median_gap": 7,
+   "max_gap": 9,
+   "min_gap": 6
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/15-清华东路西口-1.jpg",
+  "id": "15-清华东路西口-1",
+  "n_times": 162,
+  "stats": {
+   "n": 162,
+   "n_hours": 19,
+   "median_gap": 6,
+   "max_gap": 10,
+   "min_gap": 3
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 1086,
+    "kind": "ocr_fail",
+    "text": "05111722322926346400646065258"
+   },
+   {
+    "row_y": 1190,
+    "kind": "ocr_fail",
+    "text": "804111722283336414725258"
+   },
+   {
+    "row_y": 1292,
+    "kind": "ocr_fail",
+    "text": "9030915202631374349456"
+   },
+   {
+    "row_y": 1497,
+    "kind": "ocr_fail",
+    "text": "1100081627024324048456"
+   },
+   {
+    "row_y": 1600,
+    "kind": "ocr_fail",
+    "text": "12041220283644452"
+   },
+   {
+    "row_y": 1806,
+    "kind": "ocr_fail",
+    "text": "140412202836444652"
+   },
+   {
+    "row_y": 2114,
+    "kind": "ocr_fail",
+    "text": "170411174243037243505659"
+   },
+   {
+    "row_y": 2422,
+    "kind": "ocr_fail",
+    "text": "200005121824303724344955"
+   },
+   {
+    "row_y": 2525,
+    "kind": "ocr_fail",
+    "text": "91010713192531372434955"
+   },
+   {
+    "row_y": 2627,
+    "kind": "ocr_fail",
+    "text": "220108172737424655"
+   }
+  ]
+ },
+ {
+  "source": "timetables/15-清华东路西口-2.jpg",
+  "id": "15-清华东路西口-2",
+  "n_times": 92,
+  "stats": {
+   "n": 92,
+   "n_hours": 12,
+   "median_gap": 7,
+   "max_gap": 190,
+   "min_gap": 2
+  },
+  "issues": [
+   {
+    "kind": "gap_large",
+    "gap": 16,
+    "at": "09:00->09:16",
+    "msg": "gap 16 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 20,
+    "at": "14:12->14:32",
+    "msg": "gap 20 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 72,
+    "at": "20:54->22:06",
+    "msg": "gap 72 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "hour_gap",
+    "msg": "hours 10->14 not consecutive"
+   },
+   {
+    "kind": "hour_gap",
+    "msg": "hours 14->18 not consecutive"
+   },
+   {
+    "kind": "hour_gap",
+    "msg": "hours 20->22 not consecutive"
+   }
+  ],
+  "flags": [
+   {
+    "row_y": 1292,
+    "kind": "repaired_swap",
+    "text": "61",
+    "fixed": "16"
+   },
+   {
+    "row_y": 1292,
+    "kind": "repaired_swap",
+    "text": "82",
+    "fixed": "28"
+   },
+   {
+    "row_y": 1498,
+    "kind": "ocr_fail",
+    "text": "010917253344124957"
+   },
+   {
+    "row_y": 1600,
+    "kind": "ocr_fail",
+    "text": "120513212937424553"
+   },
+   {
+    "row_y": 1703,
+    "kind": "ocr_fail",
+    "text": "1301091725334414957"
+   },
+   {
+    "row_y": 1807,
+    "kind": "repaired_swap",
+    "text": "93",
+    "fixed": "39"
+   },
+   {
+    "row_y": 1807,
+    "kind": "repaired_swap",
+    "text": "74",
+    "fixed": "47"
+   },
+   {
+    "row_y": 1910,
+    "kind": "ocr_fail",
+    "text": "15010917423344124957"
+   },
+   {
+    "row_y": 2012,
+    "kind": "ocr_fail",
+    "text": "1605132129374244945157"
+   },
+   {
+    "row_y": 2115,
+    "kind": "ocr_fail",
+    "text": "170309152127233394455157"
+   },
+   {
+    "row_y": 2528,
+    "kind": "ocr_fail",
+    "text": "410210182634422455058"
+   }
+  ]
+ },
+ {
+  "source": "timetables/15-石门-1.jpg",
+  "id": "15-石门-1",
+  "n_times": 218,
+  "stats": {
+   "n": 218,
+   "n_hours": 20,
+   "median_gap": 4,
+   "max_gap": 346,
+   "min_gap": 2
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 1087,
+    "kind": "ocr_fail",
+    "text": "70306913172202322706631063506389066440649066453060565"
+   },
+   {
+    "row_y": 1189,
+    "kind": "ocr_fail",
+    "text": "802050710131619220625066280631063406370640064206644506480515458"
+   },
+   {
+    "row_y": 1292,
+    "kind": "ocr_fail",
+    "text": "90105071013416180621062446260632066340637066440060643045485459"
+   },
+   {
+    "row_y": 1395,
+    "kind": "ocr_fail",
+    "text": "10065111622283339465359"
+   },
+   {
+    "row_y": 1806,
+    "kind": "ocr_fail",
+    "text": "1401091725334414957"
+   },
+   {
+    "row_y": 2011,
+    "kind": "ocr_fail",
+    "text": "101091742432388455158"
+   },
+   {
+    "row_y": 2114,
+    "kind": "ocr_fail",
+    "text": "17041117224303744306446065006530665659"
+   },
+   {
+    "row_y": 2319,
+    "kind": "ocr_fail",
+    "text": "1900030609121518212427303437404304447050065356"
+   },
+   {
+    "row_y": 2422,
+    "kind": "ocr_fail",
+    "text": "200003060913166192222622626292063202635063904204454855"
+   },
+   {
+    "row_y": 2525,
+    "kind": "ocr_fail",
+    "text": "210410172233036044206648654"
+   }
+  ]
+ },
+ {
+  "source": "timetables/15-石门-2.jpg",
+  "id": "15-石门-2",
+  "n_times": 120,
+  "stats": {
+   "n": 120,
+   "n_hours": 13,
+   "median_gap": 7,
+   "max_gap": 185,
+   "min_gap": 1
+  },
+  "issues": [
+   {
+    "kind": "duplicate",
+    "hour": 9,
+    "minute": 22,
+    "msg": "duplicate 09:22"
+   },
+   {
+    "kind": "duplicate",
+    "hour": 18,
+    "minute": 48,
+    "msg": "duplicate 18:48"
+   },
+   {
+    "kind": "duplicate",
+    "hour": 20,
+    "minute": 0,
+    "msg": "duplicate 20:00"
+   },
+   {
+    "kind": "duplicate",
+    "hour": 21,
+    "minute": 55,
+    "msg": "duplicate 21:55"
+   },
+   {
+    "kind": "dup_hour",
+    "hour": 9,
+    "msg": "hour 09 has duplicates: [1, 4, 7, 9, 13, 16, 22, 22, 24, 28, 32, 37, 42, 47, 53, 59]"
+   },
+   {
+    "kind": "dup_hour",
+    "hour": 18,
+    "msg": "hour 18 has duplicates: [3, 6, 9, 11, 16, 18, 22, 28, 29, 35, 38, 39, 42, 48, 48, 51, 55, 58]"
+   },
+   {
+    "kind": "dup_hour",
+    "hour": 20,
+    "msg": "hour 20 has duplicates: [0, 0, 3, 16, 21, 28, 33, 36, 42, 43, 47, 51, 55, 58]"
+   },
+   {
+    "kind": "dup_hour",
+    "hour": 21,
+    "msg": "hour 21 has duplicates: [2, 3, 5, 9, 18, 26, 53, 54, 55, 55]"
+   },
+   {
+    "kind": "gap_small",
+    "gap": 1,
+    "at": "18:28->18:29",
+    "msg": "gap 1 min is below 2"
+   },
+   {
+    "kind": "gap_small",
+    "gap": 1,
+    "at": "18:38->18:39",
+    "msg": "gap 1 min is below 2"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 62,
+    "at": "18:58->20:00",
+    "msg": "gap 62 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "gap_small",
+    "gap": 1,
+    "at": "20:42->20:43",
+    "msg": "gap 1 min is below 2"
+   },
+   {
+    "kind": "gap_small",
+    "gap": 1,
+    "at": "21:02->21:03",
+    "msg": "gap 1 min is below 2"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 27,
+    "at": "21:26->21:53",
+    "msg": "gap 27 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "gap_small",
+    "gap": 1,
+    "at": "21:53->21:54",
+    "msg": "gap 1 min is below 2"
+   },
+   {
+    "kind": "gap_small",
+    "gap": 1,
+    "at": "21:54->21:55",
+    "msg": "gap 1 min is below 2"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 34,
+    "at": "22:56->23:30",
+    "msg": "gap 34 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "hour_gap",
+    "msg": "hours 5->9 not consecutive"
+   },
+   {
+    "kind": "hour_gap",
+    "msg": "hours 15->18 not consecutive"
+   },
+   {
+    "kind": "hour_gap",
+    "msg": "hours 18->20 not consecutive"
+   }
+  ],
+  "flags": [
+   {
+    "row_y": 974,
+    "kind": "ocr_fail",
+    "text": "6020814202529323538414447494525558"
+   },
+   {
+    "row_y": 1077,
+    "kind": "ocr_fail",
+    "text": "701040710131619021624069703000323538414846249524"
+   },
+   {
+    "row_y": 1178,
+    "kind": "ocr_fail",
+    "text": "80003052811141720232662966320634063704064306646066400525558"
+   },
+   {
+    "row_y": 2001,
+    "kind": "ocr_fail",
+    "text": "16010713192225323845450656"
+   },
+   {
+    "row_y": 2104,
+    "kind": "ocr_fail",
+    "text": "470104111724303423740430646065006530065689"
+   },
+   {
+    "row_y": 2207,
+    "kind": "repaired_swap",
+    "text": "61",
+    "fixed": "16"
+   },
+   {
+    "row_y": 2207,
+    "kind": "repaired_swap",
+    "text": "92",
+    "fixed": "29"
+   },
+   {
+    "row_y": 2207,
+    "kind": "repaired_swap",
+    "text": "82",
+    "fixed": "28"
+   },
+   {
+    "row_y": 2207,
+    "kind": "repaired_swap",
+    "text": "93",
+    "fixed": "39"
+   },
+   {
+    "row_y": 2309,
+    "kind": "ocr_fail",
+    "text": "19010408111417224242833063606664420664854"
+   },
+   {
+    "row_y": 2412,
+    "kind": "repaired_swap",
+    "text": "61",
+    "fixed": "16"
+   },
+   {
+    "row_y": 2412,
+    "kind": "repaired_swap",
+    "text": "82",
+    "fixed": "28"
+   },
+   {
+    "row_y": 2412,
+    "kind": "repaired_swap",
+    "text": "63",
+    "fixed": "36"
+   },
+   {
+    "row_y": 2515,
+    "kind": "repaired_swap",
+    "text": "81",
+    "fixed": "18"
+   },
+   {
+    "row_y": 2515,
+    "kind": "repaired_swap",
+    "text": "62",
+    "fixed": "26"
+   }
+  ]
+ },
+ {
+  "source": "timetables/15-石门-3.jpg",
+  "id": "15-石门-3",
+  "n_times": 153,
+  "stats": {
+   "n": 153,
+   "n_hours": 20,
+   "median_gap": 7,
+   "max_gap": 346,
+   "min_gap": 1
+  },
+  "issues": [
+   {
+    "kind": "duplicate",
+    "hour": 7,
+    "minute": 39,
+    "msg": "duplicate 07:39"
+   },
+   {
+    "kind": "duplicate",
+    "hour": 15,
+    "minute": 19,
+    "msg": "duplicate 15:19"
+   },
+   {
+    "kind": "duplicate",
+    "hour": 17,
+    "minute": 3,
+    "msg": "duplicate 17:03"
+   },
+   {
+    "kind": "dup_hour",
+    "hour": 7,
+    "msg": "hour 07 has duplicates: [0, 8, 16, 24, 32, 39, 39, 46]"
+   },
+   {
+    "kind": "dup_hour",
+    "hour": 15,
+    "msg": "hour 15 has duplicates: [3, 11, 15, 19, 19, 21, 35, 43]"
+   },
+   {
+    "kind": "dup_hour",
+    "hour": 17,
+    "msg": "hour 17 has duplicates: [3, 3, 9, 11, 19, 21, 34, 41, 47]"
+   },
+   {
+    "kind": "gap_small",
+    "gap": 1,
+    "at": "06:28->06:29",
+    "msg": "gap 1 min is below 2"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 16,
+    "at": "06:44->07:00",
+    "msg": "gap 16 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "gap_small",
+    "gap": 1,
+    "at": "08:06->08:07",
+    "msg": "gap 1 min is below 2"
+   },
+   {
+    "kind": "gap_small",
+    "gap": 1,
+    "at": "09:08->09:09",
+    "msg": "gap 1 min is below 2"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 16,
+    "at": "09:44->10:00",
+    "msg": "gap 16 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 18,
+    "at": "10:44->11:02",
+    "msg": "gap 18 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "gap_small",
+    "gap": 1,
+    "at": "11:09->11:10",
+    "msg": "gap 1 min is below 2"
+   },
+   {
+    "kind": "gap_small",
+    "gap": 1,
+    "at": "11:41->11:42",
+    "msg": "gap 1 min is below 2"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 19,
+    "at": "11:48->12:07",
+    "msg": "gap 19 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 23,
+    "at": "13:31->13:54",
+    "msg": "gap 23 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 24,
+    "at": "15:43->16:07",
+    "msg": "gap 24 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 16,
+    "at": "17:47->18:03",
+    "msg": "gap 16 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 16,
+    "at": "18:47->19:03",
+    "msg": "gap 16 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 18,
+    "at": "19:47->20:05",
+    "msg": "gap 18 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 19,
+    "at": "20:43->21:02",
+    "msg": "gap 19 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 16,
+    "at": "21:44->22:00",
+    "msg": "gap 16 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 16,
+    "at": "22:48->23:04",
+    "msg": "gap 16 min exceeds 15 (possible missed train)"
+   }
+  ],
+  "flags": [
+   {
+    "row_y": 982,
+    "kind": "repaired_swap",
+    "text": "92",
+    "fixed": "29"
+   },
+   {
+    "row_y": 1085,
+    "kind": "repaired_swap",
+    "text": "93",
+    "fixed": "39"
+   },
+   {
+    "row_y": 1289,
+    "kind": "repaired_swap",
+    "text": "90",
+    "fixed": "09"
+   },
+   {
+    "row_y": 1494,
+    "kind": "repaired_swap",
+    "text": "81",
+    "fixed": "18"
+   },
+   {
+    "row_y": 1494,
+    "kind": "repaired_swap",
+    "text": "63",
+    "fixed": "36"
+   },
+   {
+    "row_y": 1494,
+    "kind": "repaired_swap",
+    "text": "84",
+    "fixed": "48"
+   },
+   {
+    "row_y": 1597,
+    "kind": "repaired_swap",
+    "text": "95",
+    "fixed": "59"
+   },
+   {
+    "row_y": 1802,
+    "kind": "repaired_swap",
+    "text": "95",
+    "fixed": "59"
+   },
+   {
+    "row_y": 2007,
+    "kind": "repaired_swap",
+    "text": "95",
+    "fixed": "59"
+   },
+   {
+    "row_y": 2417,
+    "kind": "repaired_swap",
+    "text": "90",
+    "fixed": "09"
+   }
+  ]
+ },
+ {
+  "source": "timetables/15-石门-4.jpg",
+  "id": "15-石门-4",
+  "n_times": 99,
+  "stats": {
+   "n": 99,
+   "n_hours": 13,
+   "median_gap": 8,
+   "max_gap": 244,
+   "min_gap": 2
+  },
+  "issues": [
+   {
+    "kind": "duplicate",
+    "hour": 8,
+    "minute": 42,
+    "msg": "duplicate 08:42"
+   },
+   {
+    "kind": "duplicate",
+    "hour": 9,
+    "minute": 42,
+    "msg": "duplicate 09:42"
+   },
+   {
+    "kind": "dup_hour",
+    "hour": 8,
+    "msg": "hour 08 has duplicates: [2, 18, 20, 23, 36, 42, 42, 48, 50, 56]"
+   },
+   {
+    "kind": "dup_hour",
+    "hour": 9,
+    "msg": "hour 09 has duplicates: [2, 18, 20, 23, 36, 42, 42, 48, 50, 56]"
+   },
+   {
+    "kind": "hour_gap",
+    "msg": "hours 14->19 not consecutive"
+   },
+   {
+    "kind": "hour_gap",
+    "msg": "hours 19->22 not consecutive"
+   }
+  ],
+  "flags": [
+   {
+    "row_y": 1083,
+    "kind": "repaired_swap",
+    "text": "81",
+    "fixed": "18"
+   },
+   {
+    "row_y": 1185,
+    "kind": "repaired_swap",
+    "text": "81",
+    "fixed": "18"
+   },
+   {
+    "row_y": 1185,
+    "kind": "repaired_swap",
+    "text": "63",
+    "fixed": "36"
+   },
+   {
+    "row_y": 1185,
+    "kind": "repaired_swap",
+    "text": "84",
+    "fixed": "48"
+   },
+   {
+    "row_y": 1288,
+    "kind": "repaired_swap",
+    "text": "81",
+    "fixed": "18"
+   },
+   {
+    "row_y": 1288,
+    "kind": "repaired_swap",
+    "text": "63",
+    "fixed": "36"
+   },
+   {
+    "row_y": 1288,
+    "kind": "repaired_swap",
+    "text": "84",
+    "fixed": "48"
+   },
+   {
+    "row_y": 1905,
+    "kind": "ocr_fail",
+    "text": "1506142230384645359"
+   },
+   {
+    "row_y": 2008,
+    "kind": "ocr_fail",
+    "text": "16051141722306290635064140475359"
+   },
+   {
+    "row_y": 2110,
+    "kind": "ocr_fail",
+    "text": "170114174223290663506410066475359"
+   },
+   {
+    "row_y": 2213,
+    "kind": "ocr_fail",
+    "text": "18051117223293506641464754"
+   },
+   {
+    "row_y": 2419,
+    "kind": "ocr_fail",
+    "text": "200412202422836442435256"
+   },
+   {
+    "row_y": 2522,
+    "kind": "ocr_fail",
+    "text": "2100081462432415059"
+   }
+  ]
+ },
+ {
+  "source": "timetables/15-花梨坎-1.jpg",
+  "id": "15-花梨坎-1",
+  "n_times": 110,
+  "stats": {
+   "n": 110,
+   "n_hours": 12,
+   "median_gap": 7,
+   "max_gap": 185,
+   "min_gap": 1
+  },
+  "issues": [
+   {
+    "kind": "gap_small",
+    "gap": 1,
+    "at": "09:23->09:24",
+    "msg": "gap 1 min is below 2"
+   },
+   {
+    "kind": "gap_small",
+    "gap": 1,
+    "at": "09:24->09:25",
+    "msg": "gap 1 min is below 2"
+   },
+   {
+    "kind": "gap_small",
+    "gap": 1,
+    "at": "09:27->09:28",
+    "msg": "gap 1 min is below 2"
+   },
+   {
+    "kind": "gap_small",
+    "gap": 1,
+    "at": "09:33->09:34",
+    "msg": "gap 1 min is below 2"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 62,
+    "at": "09:59->11:01",
+    "msg": "gap 62 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 68,
+    "at": "19:57->21:05",
+    "msg": "gap 68 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "hour_gap",
+    "msg": "hours 5->9 not consecutive"
+   },
+   {
+    "kind": "hour_gap",
+    "msg": "hours 9->11 not consecutive"
+   },
+   {
+    "kind": "hour_gap",
+    "msg": "hours 16->19 not consecutive"
+   },
+   {
+    "kind": "hour_gap",
+    "msg": "hours 19->21 not consecutive"
+   }
+  ],
+  "flags": [
+   {
+    "row_y": 982,
+    "kind": "ocr_fail",
+    "text": "60409161924313724044475145457"
+   },
+   {
+    "row_y": 1084,
+    "kind": "ocr_fail",
+    "text": "701050811151923272323744144424472450535659"
+   },
+   {
+    "row_y": 1188,
+    "kind": "ocr_fail",
+    "text": "80204710131641922252833134373944302644664925365658"
+   },
+   {
+    "row_y": 1290,
+    "kind": "bad_minute",
+    "text": "79"
+   },
+   {
+    "row_y": 1290,
+    "kind": "repaired_swap",
+    "text": "64",
+    "fixed": "46"
+   },
+   {
+    "row_y": 1290,
+    "kind": "repaired_swap",
+    "text": "72",
+    "fixed": "27"
+   },
+   {
+    "row_y": 1393,
+    "kind": "ocr_fail",
+    "text": "100410162228354147583"
+   },
+   {
+    "row_y": 2112,
+    "kind": "ocr_fail",
+    "text": "17051218253134384144472515457"
+   },
+   {
+    "row_y": 2215,
+    "kind": "ocr_fail",
+    "text": "180004071013172023263033063606339064206450648065106540657"
+   },
+   {
+    "row_y": 2420,
+    "kind": "ocr_fail",
+    "text": "001047101417220234276300633063606400646065206658"
+   }
+  ]
+ },
+ {
+  "source": "timetables/15-花梨坎-2.jpg",
+  "id": "15-花梨坎-2",
+  "n_times": 218,
+  "stats": {
+   "n": 218,
+   "n_hours": 19,
+   "median_gap": 4,
+   "max_gap": 10,
+   "min_gap": 2
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 1069,
+    "kind": "ocr_fail",
+    "text": "7010407101316192920425429863106336360639066420644047505385558"
+   },
+   {
+    "row_y": 1172,
+    "kind": "ocr_fail",
+    "text": "801040629121517202326293235384144446494526655658"
+   },
+   {
+    "row_y": 1275,
+    "kind": "ocr_fail",
+    "text": "90104101316192175283134374044495459"
+   },
+   {
+    "row_y": 1481,
+    "kind": "ocr_fail",
+    "text": "41010917253341449457"
+   },
+   {
+    "row_y": 1686,
+    "kind": "ocr_fail",
+    "text": "1430109172533414957"
+   },
+   {
+    "row_y": 1892,
+    "kind": "ocr_fail",
+    "text": "1450109172533414957"
+   },
+   {
+    "row_y": 2097,
+    "kind": "ocr_fail",
+    "text": "14702081316232936424549225558"
+   },
+   {
+    "row_y": 2200,
+    "kind": "repaired_swap",
+    "text": "81",
+    "fixed": "18"
+   },
+   {
+    "row_y": 2200,
+    "kind": "repaired_swap",
+    "text": "82",
+    "fixed": "28"
+   },
+   {
+    "row_y": 2200,
+    "kind": "repaired_swap",
+    "text": "83",
+    "fixed": "38"
+   },
+   {
+    "row_y": 2200,
+    "kind": "repaired_swap",
+    "text": "75",
+    "fixed": "57"
+   },
+   {
+    "row_y": 2303,
+    "kind": "ocr_fail",
+    "text": "490003711316202342264296336364064506480654"
+   },
+   {
+    "row_y": 2508,
+    "kind": "ocr_fail",
+    "text": "24103071014172122803706420664757"
+   },
+   {
+    "row_y": 2611,
+    "kind": "ocr_fail",
+    "text": "2202071218283644452"
+   }
+  ]
+ },
+ {
+  "source": "timetables/15-花梨坎-3.jpg",
+  "id": "15-花梨坎-3",
+  "n_times": 153,
+  "stats": {
+   "n": 153,
+   "n_hours": 19,
+   "median_gap": 7,
+   "max_gap": 10,
+   "min_gap": 6
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 1087,
+    "kind": "ocr_fail",
+    "text": "704122027340641848655"
+   },
+   {
+    "row_y": 1190,
+    "kind": "ocr_fail",
+    "text": "802091623303742445056"
+   },
+   {
+    "row_y": 1292,
+    "kind": "ocr_fail",
+    "text": "90208142026323844115056"
+   },
+   {
+    "row_y": 1395,
+    "kind": "ocr_fail",
+    "text": "10020814202632384415056"
+   },
+   {
+    "row_y": 1908,
+    "kind": "ocr_fail",
+    "text": "15071523313934755"
+   },
+   {
+    "row_y": 2011,
+    "kind": "ocr_fail",
+    "text": "16031119273543559"
+   },
+   {
+    "row_y": 2114,
+    "kind": "ocr_fail",
+    "text": "17071522293541474295359"
+   },
+   {
+    "row_y": 2216,
+    "kind": "ocr_fail",
+    "text": "180111742232943541472453459"
+   },
+   {
+    "row_y": 2319,
+    "kind": "ocr_fail",
+    "text": "1905111742232942354414475359"
+   },
+   {
+    "row_y": 2421,
+    "kind": "ocr_fail",
+    "text": "0011171124313845452"
+   },
+   {
+    "row_y": 2626,
+    "kind": "repaired_swap",
+    "text": "83",
+    "fixed": "38"
+   },
+   {
+    "row_y": 2626,
+    "kind": "repaired_swap",
+    "text": "64",
+    "fixed": "46"
+   },
+   {
+    "row_y": 2735,
+    "kind": "ocr_fail",
+    "text": "30009182742364554"
+   }
+  ]
+ },
+ {
+  "source": "timetables/15-花梨坎-4.jpg",
+  "id": "15-花梨坎-4",
+  "n_times": 100,
+  "stats": {
+   "n": 100,
+   "n_hours": 13,
+   "median_gap": 8,
+   "max_gap": 127,
+   "min_gap": 2
+  },
+  "issues": [
+   {
+    "kind": "duplicate",
+    "hour": 7,
+    "minute": 32,
+    "msg": "duplicate 07:32"
+   },
+   {
+    "kind": "duplicate",
+    "hour": 9,
+    "minute": 23,
+    "msg": "duplicate 09:23"
+   },
+   {
+    "kind": "dup_hour",
+    "hour": 7,
+    "msg": "hour 07 has duplicates: [2, 16, 24, 32, 32, 38, 44, 50, 56]"
+   },
+   {
+    "kind": "dup_hour",
+    "hour": 9,
+    "msg": "hour 09 has duplicates: [2, 8, 14, 20, 23, 23, 41, 48, 50, 56]"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 66,
+    "at": "07:56->09:02",
+    "msg": "gap 66 min exceeds 18 (possible missed train)"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 18,
+    "at": "09:23->09:41",
+    "msg": "gap 18 min exceeds 18 (possible missed train)"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 67,
+    "at": "10:54->12:01",
+    "msg": "gap 67 min exceeds 18 (possible missed train)"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 20,
+    "at": "12:03->12:23",
+    "msg": "gap 20 min exceeds 18 (possible missed train)"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 19,
+    "at": "12:23->12:42",
+    "msg": "gap 19 min exceeds 18 (possible missed train)"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 67,
+    "at": "12:54->14:01",
+    "msg": "gap 67 min exceeds 18 (possible missed train)"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 20,
+    "at": "14:03->14:23",
+    "msg": "gap 20 min exceeds 18 (possible missed train)"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 19,
+    "at": "14:23->14:42",
+    "msg": "gap 19 min exceeds 18 (possible missed train)"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 73,
+    "at": "21:53->23:06",
+    "msg": "gap 73 min exceeds 18 (possible missed train)"
+   },
+   {
+    "kind": "hour_gap",
+    "msg": "hours 7->9 not consecutive"
+   },
+   {
+    "kind": "hour_gap",
+    "msg": "hours 10->12 not consecutive"
+   },
+   {
+    "kind": "hour_gap",
+    "msg": "hours 12->14 not consecutive"
+   },
+   {
+    "kind": "hour_gap",
+    "msg": "hours 15->18 not consecutive"
+   },
+   {
+    "kind": "hour_gap",
+    "msg": "hours 21->23 not consecutive"
+   }
+  ],
+  "flags": [
+   {
+    "row_y": 1073,
+    "kind": "repaired_swap",
+    "text": "61",
+    "fixed": "16"
+   },
+   {
+    "row_y": 1175,
+    "kind": "ocr_fail",
+    "text": "802081420263238442450456"
+   },
+   {
+    "row_y": 1278,
+    "kind": "repaired_swap",
+    "text": "84",
+    "fixed": "48"
+   },
+   {
+    "row_y": 1483,
+    "kind": "ocr_fail",
+    "text": "4102101823442445058"
+   },
+   {
+    "row_y": 1586,
+    "kind": "repaired_swap",
+    "text": "84",
+    "fixed": "48"
+   },
+   {
+    "row_y": 1688,
+    "kind": "ocr_fail",
+    "text": "130210183234244245058"
+   },
+   {
+    "row_y": 1791,
+    "kind": "repaired_swap",
+    "text": "84",
+    "fixed": "48"
+   },
+   {
+    "row_y": 1894,
+    "kind": "repaired_swap",
+    "text": "62",
+    "fixed": "26"
+   },
+   {
+    "row_y": 1996,
+    "kind": "ocr_fail",
+    "text": "16011174230629063506414047535"
+   },
+   {
+    "row_y": 2099,
+    "kind": "ocr_fail",
+    "text": "170111742232906350614758359"
+   },
+   {
+    "row_y": 2612,
+    "kind": "ocr_fail",
+    "text": "920211202838444756"
+   }
+  ]
+ },
+ {
+  "source": "timetables/15-顺义-1.jpg",
+  "id": "15-顺义-1",
+  "n_times": 91,
+  "stats": {
+   "n": 91,
+   "n_hours": 12,
+   "median_gap": 7,
+   "max_gap": 345,
+   "min_gap": 3
+  },
+  "issues": [
+   {
+    "kind": "hour_gap",
+    "msg": "hours 6->10 not consecutive"
+   },
+   {
+    "kind": "hour_gap",
+    "msg": "hours 17->22 not consecutive"
+   }
+  ],
+  "flags": [
+   {
+    "row_y": 1083,
+    "kind": "ocr_fail",
+    "text": "70105081215192225293437424729525558"
+   },
+   {
+    "row_y": 1186,
+    "kind": "ocr_fail",
+    "text": "801047101341661922242730333639442454484515457"
+   },
+   {
+    "row_y": 1289,
+    "kind": "ocr_fail",
+    "text": "90004710121518212326290443406370639066420644506480665156"
+   },
+   {
+    "row_y": 2212,
+    "kind": "ocr_fail",
+    "text": "1802050811151821242831343724144472450535659"
+   },
+   {
+    "row_y": 2316,
+    "kind": "ocr_fail",
+    "text": "19020508111417422023229333639424464952455659"
+   },
+   {
+    "row_y": 2418,
+    "kind": "ocr_fail",
+    "text": "2002050812151821252831343844144475154"
+   },
+   {
+    "row_y": 2520,
+    "kind": "ocr_fail",
+    "text": "21007134192632384445056"
+   },
+   {
+    "row_y": 2726,
+    "kind": "ocr_fail",
+    "text": "23031222324415059"
+   }
+  ]
+ },
+ {
+  "source": "timetables/15-顺义-2.jpg",
+  "id": "15-顺义-2",
+  "n_times": 93,
+  "stats": {
+   "n": 93,
+   "n_hours": 10,
+   "median_gap": 7,
+   "max_gap": 139,
+   "min_gap": 1
+  },
+  "issues": [
+   {
+    "kind": "duplicate",
+    "hour": 8,
+    "minute": 38,
+    "msg": "duplicate 08:38"
+   },
+   {
+    "kind": "dup_hour",
+    "hour": 8,
+    "msg": "hour 08 has duplicates: [0, 3, 5, 6, 9, 12, 15, 17, 20, 22, 23, 26, 28, 32, 38, 38, 41, 44, 45, 55, 58]"
+   },
+   {
+    "kind": "gap_small",
+    "gap": 1,
+    "at": "08:05->08:06",
+    "msg": "gap 1 min is below 2"
+   },
+   {
+    "kind": "gap_small",
+    "gap": 1,
+    "at": "08:22->08:23",
+    "msg": "gap 1 min is below 2"
+   },
+   {
+    "kind": "gap_small",
+    "gap": 1,
+    "at": "08:44->08:45",
+    "msg": "gap 1 min is below 2"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 65,
+    "at": "08:58->10:03",
+    "msg": "gap 65 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 72,
+    "at": "12:55->14:07",
+    "msg": "gap 72 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 70,
+    "at": "14:55->16:05",
+    "msg": "gap 70 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "gap_small",
+    "gap": 1,
+    "at": "19:20->19:21",
+    "msg": "gap 1 min is below 2"
+   },
+   {
+    "kind": "gap_small",
+    "gap": 1,
+    "at": "19:28->19:29",
+    "msg": "gap 1 min is below 2"
+   },
+   {
+    "kind": "gap_small",
+    "gap": 1,
+    "at": "19:29->19:30",
+    "msg": "gap 1 min is below 2"
+   },
+   {
+    "kind": "gap_small",
+    "gap": 1,
+    "at": "19:50->19:51",
+    "msg": "gap 1 min is below 2"
+   },
+   {
+    "kind": "gap_small",
+    "gap": 1,
+    "at": "19:51->19:52",
+    "msg": "gap 1 min is below 2"
+   },
+   {
+    "kind": "hour_gap",
+    "msg": "hours 5->8 not consecutive"
+   },
+   {
+    "kind": "hour_gap",
+    "msg": "hours 8->10 not consecutive"
+   },
+   {
+    "kind": "hour_gap",
+    "msg": "hours 12->14 not consecutive"
+   },
+   {
+    "kind": "hour_gap",
+    "msg": "hours 14->16 not consecutive"
+   },
+   {
+    "kind": "hour_gap",
+    "msg": "hours 16->19 not consecutive"
+   },
+   {
+    "kind": "hour_gap",
+    "msg": "hours 19->22 not consecutive"
+   }
+  ],
+  "flags": [
+   {
+    "row_y": 976,
+    "kind": "ocr_fail",
+    "text": "60512172327303235423864146444647045065365659"
+   },
+   {
+    "row_y": 1078,
+    "kind": "ocr_fail",
+    "text": "7120571013161922029506270630063306360663866410444704952555"
+   },
+   {
+    "row_y": 1180,
+    "kind": "repaired_swap",
+    "text": "82",
+    "fixed": "28"
+   },
+   {
+    "row_y": 1180,
+    "kind": "repaired_swap",
+    "text": "62",
+    "fixed": "26"
+   },
+   {
+    "row_y": 1284,
+    "kind": "ocr_fail",
+    "text": "9010407101417202342643034063906450665157"
+   },
+   {
+    "row_y": 1695,
+    "kind": "ocr_fail",
+    "text": "1303114192735435159"
+   },
+   {
+    "row_y": 1900,
+    "kind": "ocr_fail",
+    "text": "4503114192735435159"
+   },
+   {
+    "row_y": 2106,
+    "kind": "ocr_fail",
+    "text": "17020815212731343841444725145457"
+   },
+   {
+    "row_y": 2208,
+    "kind": "ocr_fail",
+    "text": "180014710131720224266030063306366390643064606649052565"
+   },
+   {
+    "row_y": 2311,
+    "kind": "repaired_swap",
+    "text": "92",
+    "fixed": "29"
+   },
+   {
+    "row_y": 2311,
+    "kind": "repaired_swap",
+    "text": "81",
+    "fixed": "18"
+   },
+   {
+    "row_y": 2311,
+    "kind": "repaired_swap",
+    "text": "82",
+    "fixed": "28"
+   },
+   {
+    "row_y": 2414,
+    "kind": "ocr_fail",
+    "text": "900409152127230333643944456496562665659"
+   },
+   {
+    "row_y": 2516,
+    "kind": "ocr_fail",
+    "text": "2103061322273243448453658"
+   }
+  ]
+ },
+ {
+  "source": "timetables/15-顺义-3.jpg",
+  "id": "15-顺义-3",
+  "n_times": 153,
+  "stats": {
+   "n": 153,
+   "n_hours": 20,
+   "median_gap": 7,
+   "max_gap": 345,
+   "min_gap": 6
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 981,
+    "kind": "ocr_fail",
+    "text": "64114224343947655"
+   },
+   {
+    "row_y": 1084,
+    "kind": "repaired_swap",
+    "text": "92",
+    "fixed": "29"
+   },
+   {
+    "row_y": 1084,
+    "kind": "repaired_swap",
+    "text": "74",
+    "fixed": "47"
+   },
+   {
+    "row_y": 1187,
+    "kind": "ocr_fail",
+    "text": "8031017422431238455259"
+   },
+   {
+    "row_y": 1290,
+    "kind": "ocr_fail",
+    "text": "90511172329354144475359"
+   },
+   {
+    "row_y": 1393,
+    "kind": "repaired_swap",
+    "text": "72",
+    "fixed": "27"
+   },
+   {
+    "row_y": 1496,
+    "kind": "ocr_fail",
+    "text": "1105811172329354144754"
+   },
+   {
+    "row_y": 1599,
+    "kind": "ocr_fail",
+    "text": "12021018263444250358"
+   },
+   {
+    "row_y": 1908,
+    "kind": "ocr_fail",
+    "text": "15061422303844654"
+   },
+   {
+    "row_y": 2012,
+    "kind": "ocr_fail",
+    "text": "1602101826344245058"
+   },
+   {
+    "row_y": 2114,
+    "kind": "ocr_fail",
+    "text": "1706142230374244450856"
+   },
+   {
+    "row_y": 2320,
+    "kind": "repaired_swap",
+    "text": "84",
+    "fixed": "48"
+   },
+   {
+    "row_y": 2423,
+    "kind": "ocr_fail",
+    "text": "20020814223239483"
+   },
+   {
+    "row_y": 2629,
+    "kind": "ocr_fail",
+    "text": "2203111927423543445159"
+   }
+  ]
+ },
+ {
+  "source": "timetables/15-顺义-4.jpg",
+  "id": "15-顺义-4",
+  "n_times": 110,
+  "stats": {
+   "n": 110,
+   "n_hours": 14,
+   "median_gap": 8,
+   "max_gap": 126,
+   "min_gap": 1
+  },
+  "issues": [
+   {
+    "kind": "duplicate",
+    "hour": 22,
+    "minute": 32,
+    "msg": "duplicate 22:32"
+   },
+   {
+    "kind": "dup_hour",
+    "hour": 22,
+    "msg": "hour 22 has duplicates: [16, 20, 32, 32, 41, 51]"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 20,
+    "at": "05:04->05:24",
+    "msg": "gap 20 min exceeds 18 (possible missed train)"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 19,
+    "at": "05:24->05:43",
+    "msg": "gap 19 min exceeds 18 (possible missed train)"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 70,
+    "at": "05:56->07:06",
+    "msg": "gap 70 min exceeds 18 (possible missed train)"
+   },
+   {
+    "kind": "gap_small",
+    "gap": 1,
+    "at": "09:03->09:04",
+    "msg": "gap 1 min is below 2"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 72,
+    "at": "10:56->12:08",
+    "msg": "gap 72 min exceeds 18 (possible missed train)"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 78,
+    "at": "20:58->22:16",
+    "msg": "gap 78 min exceeds 18 (possible missed train)"
+   },
+   {
+    "kind": "hour_gap",
+    "msg": "hours 5->7 not consecutive"
+   },
+   {
+    "kind": "hour_gap",
+    "msg": "hours 10->12 not consecutive"
+   },
+   {
+    "kind": "hour_gap",
+    "msg": "hours 15->18 not consecutive"
+   },
+   {
+    "kind": "hour_gap",
+    "msg": "hours 20->22 not consecutive"
+   }
+  ],
+  "flags": [
+   {
+    "row_y": 980,
+    "kind": "ocr_fail",
+    "text": "60310172431386450"
+   },
+   {
+    "row_y": 1288,
+    "kind": "repaired_swap",
+    "text": "82",
+    "fixed": "28"
+   },
+   {
+    "row_y": 1288,
+    "kind": "repaired_swap",
+    "text": "64",
+    "fixed": "46"
+   },
+   {
+    "row_y": 1288,
+    "kind": "repaired_swap",
+    "text": "84",
+    "fixed": "48"
+   },
+   {
+    "row_y": 1493,
+    "kind": "ocr_fail",
+    "text": "11041220283644652"
+   },
+   {
+    "row_y": 2006,
+    "kind": "ocr_fail",
+    "text": "16030915214273339455157"
+   },
+   {
+    "row_y": 2108,
+    "kind": "ocr_fail",
+    "text": "17034915212733339455157"
+   },
+   {
+    "row_y": 2518,
+    "kind": "ocr_fail",
+    "text": "21061422303948457"
+   },
+   {
+    "row_y": 2621,
+    "kind": "repaired_swap",
+    "text": "61",
+    "fixed": "16"
+   }
+  ]
+ },
+ {
+  "source": "timetables/15-马泉营-1.jpg",
+  "id": "15-马泉营-1",
+  "n_times": 147,
+  "stats": {
+   "n": 147,
+   "n_hours": 14,
+   "median_gap": 6,
+   "max_gap": 124,
+   "min_gap": 1
+  },
+  "issues": [
+   {
+    "kind": "duplicate",
+    "hour": 5,
+    "minute": 52,
+    "msg": "duplicate 05:52"
+   },
+   {
+    "kind": "duplicate",
+    "hour": 18,
+    "minute": 32,
+    "msg": "duplicate 18:32"
+   },
+   {
+    "kind": "dup_hour",
+    "hour": 5,
+    "msg": "hour 05 has duplicates: [39, 46, 52, 52, 59]"
+   },
+   {
+    "kind": "dup_hour",
+    "hour": 18,
+    "msg": "hour 18 has duplicates: [0, 5, 6, 10, 13, 16, 19, 23, 25, 26, 29, 32, 32, 33, 35, 38, 41, 44, 47, 59]"
+   },
+   {
+    "kind": "gap_small",
+    "gap": 1,
+    "at": "06:01->06:02",
+    "msg": "gap 1 min is below 2"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 19,
+    "at": "06:05->06:24",
+    "msg": "gap 19 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "gap_small",
+    "gap": 1,
+    "at": "06:32->06:33",
+    "msg": "gap 1 min is below 2"
+   },
+   {
+    "kind": "gap_small",
+    "gap": 1,
+    "at": "06:39->06:40",
+    "msg": "gap 1 min is below 2"
+   },
+   {
+    "kind": "gap_small",
+    "gap": 1,
+    "at": "09:02->09:03",
+    "msg": "gap 1 min is below 2"
+   },
+   {
+    "kind": "gap_small",
+    "gap": 1,
+    "at": "09:27->09:28",
+    "msg": "gap 1 min is below 2"
+   },
+   {
+    "kind": "gap_small",
+    "gap": 1,
+    "at": "09:48->09:49",
+    "msg": "gap 1 min is below 2"
+   },
+   {
+    "kind": "gap_small",
+    "gap": 1,
+    "at": "09:51->09:52",
+    "msg": "gap 1 min is below 2"
+   },
+   {
+    "kind": "gap_small",
+    "gap": 1,
+    "at": "09:52->09:53",
+    "msg": "gap 1 min is below 2"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 65,
+    "at": "16:55->18:00",
+    "msg": "gap 65 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "gap_small",
+    "gap": 1,
+    "at": "18:05->18:06",
+    "msg": "gap 1 min is below 2"
+   },
+   {
+    "kind": "gap_small",
+    "gap": 1,
+    "at": "18:25->18:26",
+    "msg": "gap 1 min is below 2"
+   },
+   {
+    "kind": "gap_small",
+    "gap": 1,
+    "at": "18:32->18:33",
+    "msg": "gap 1 min is below 2"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 18,
+    "at": "21:55->22:13",
+    "msg": "gap 18 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "gap_small",
+    "gap": 1,
+    "at": "22:19->22:20",
+    "msg": "gap 1 min is below 2"
+   },
+   {
+    "kind": "hour_gap",
+    "msg": "hours 6->9 not consecutive"
+   },
+   {
+    "kind": "hour_gap",
+    "msg": "hours 16->18 not consecutive"
+   },
+   {
+    "kind": "hour_gap",
+    "msg": "hours 18->21 not consecutive"
+   }
+  ],
+  "flags": [
+   {
+    "row_y": 878,
+    "kind": "repaired_swap",
+    "text": "93",
+    "fixed": "39"
+   },
+   {
+    "row_y": 981,
+    "kind": "bad_minute",
+    "text": "77"
+   },
+   {
+    "row_y": 981,
+    "kind": "repaired_swap",
+    "text": "93",
+    "fixed": "39"
+   },
+   {
+    "row_y": 1083,
+    "kind": "ocr_fail",
+    "text": "701050913182328431343740434649065206655658"
+   },
+   {
+    "row_y": 1186,
+    "kind": "ocr_fail",
+    "text": "8200306092151821242733336404346448651065465765"
+   },
+   {
+    "row_y": 1289,
+    "kind": "repaired_swap",
+    "text": "82",
+    "fixed": "28"
+   },
+   {
+    "row_y": 1289,
+    "kind": "repaired_swap",
+    "text": "73",
+    "fixed": "37"
+   },
+   {
+    "row_y": 1289,
+    "kind": "repaired_swap",
+    "text": "84",
+    "fixed": "48"
+   },
+   {
+    "row_y": 1289,
+    "kind": "repaired_swap",
+    "text": "72",
+    "fixed": "27"
+   },
+   {
+    "row_y": 2111,
+    "kind": "ocr_fail",
+    "text": "17010814214273134340444755357"
+   },
+   {
+    "row_y": 2317,
+    "kind": "ocr_fail",
+    "text": "1490205011158182124278313437414447505457"
+   },
+   {
+    "row_y": 2420,
+    "kind": "ocr_fail",
+    "text": "000310131622322936424854"
+   }
+  ]
+ },
+ {
+  "source": "timetables/15-马泉营-2.jpg",
+  "id": "15-马泉营-2",
+  "n_times": 140,
+  "stats": {
+   "n": 140,
+   "n_hours": 14,
+   "median_gap": 6,
+   "max_gap": 123,
+   "min_gap": 1
+  },
+  "issues": [
+   {
+    "kind": "duplicate",
+    "hour": 18,
+    "minute": 18,
+    "msg": "duplicate 18:18"
+   },
+   {
+    "kind": "dup_hour",
+    "hour": 18,
+    "msg": "hour 18 has duplicates: [8, 12, 13, 14, 15, 18, 18, 20, 22, 38, 44, 48, 52, 53, 54, 57, 58, 59]"
+   },
+   {
+    "kind": "gap_small",
+    "gap": 1,
+    "at": "09:29->09:30",
+    "msg": "gap 1 min is below 2"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 71,
+    "at": "16:57->18:08",
+    "msg": "gap 71 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "gap_small",
+    "gap": 1,
+    "at": "18:12->18:13",
+    "msg": "gap 1 min is below 2"
+   },
+   {
+    "kind": "gap_small",
+    "gap": 1,
+    "at": "18:13->18:14",
+    "msg": "gap 1 min is below 2"
+   },
+   {
+    "kind": "gap_small",
+    "gap": 1,
+    "at": "18:14->18:15",
+    "msg": "gap 1 min is below 2"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 16,
+    "at": "18:22->18:38",
+    "msg": "gap 16 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "gap_small",
+    "gap": 1,
+    "at": "18:52->18:53",
+    "msg": "gap 1 min is below 2"
+   },
+   {
+    "kind": "gap_small",
+    "gap": 1,
+    "at": "18:53->18:54",
+    "msg": "gap 1 min is below 2"
+   },
+   {
+    "kind": "gap_small",
+    "gap": 1,
+    "at": "18:57->18:58",
+    "msg": "gap 1 min is below 2"
+   },
+   {
+    "kind": "gap_small",
+    "gap": 1,
+    "at": "18:58->18:59",
+    "msg": "gap 1 min is below 2"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 17,
+    "at": "22:22->22:39",
+    "msg": "gap 17 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "hour_gap",
+    "msg": "hours 6->9 not consecutive"
+   },
+   {
+    "kind": "hour_gap",
+    "msg": "hours 16->18 not consecutive"
+   },
+   {
+    "kind": "hour_gap",
+    "msg": "hours 18->21 not consecutive"
+   }
+  ],
+  "flags": [
+   {
+    "row_y": 1175,
+    "kind": "ocr_fail",
+    "text": "700030612151821242303353841444750525558"
+   },
+   {
+    "row_y": 1277,
+    "kind": "ocr_fail",
+    "text": "8010306812141727023252843134370640064306445064806510654057"
+   },
+   {
+    "row_y": 1381,
+    "kind": "repaired_swap",
+    "text": "90",
+    "fixed": "09"
+   },
+   {
+    "row_y": 1381,
+    "kind": "bad_minute",
+    "text": "69"
+   },
+   {
+    "row_y": 2203,
+    "kind": "ocr_fail",
+    "text": "17000370912151822382293336394424666496655206566659"
+   },
+   {
+    "row_y": 2305,
+    "kind": "repaired_swap",
+    "text": "80",
+    "fixed": "08"
+   },
+   {
+    "row_y": 2305,
+    "kind": "repaired_swap",
+    "text": "83",
+    "fixed": "38"
+   },
+   {
+    "row_y": 2305,
+    "kind": "repaired_swap",
+    "text": "84",
+    "fixed": "48"
+   },
+   {
+    "row_y": 2305,
+    "kind": "repaired_swap",
+    "text": "85",
+    "fixed": "58"
+   },
+   {
+    "row_y": 2408,
+    "kind": "ocr_fail",
+    "text": "19010471014172202323033360640064306460650065559"
+   },
+   {
+    "row_y": 2510,
+    "kind": "ocr_fail",
+    "text": "2001117223062906350641064706553006565"
+   },
+   {
+    "row_y": 2715,
+    "kind": "repaired_swap",
+    "text": "93",
+    "fixed": "39"
+   },
+   {
+    "row_y": 2715,
+    "kind": "repaired_swap",
+    "text": "94",
+    "fixed": "49"
+   },
+   {
+    "row_y": 2818,
+    "kind": "ocr_fail",
+    "text": "2303112194292736646"
+   }
+  ]
+ },
+ {
+  "source": "timetables/15-马泉营-3.jpg",
+  "id": "15-马泉营-3",
+  "n_times": 153,
+  "stats": {
+   "n": 153,
+   "n_hours": 19,
+   "median_gap": 8,
+   "max_gap": 10,
+   "min_gap": 6
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 985,
+    "kind": "ocr_fail",
+    "text": "60715234314394294755"
+   },
+   {
+    "row_y": 1088,
+    "kind": "repaired_swap",
+    "text": "81",
+    "fixed": "18"
+   },
+   {
+    "row_y": 1088,
+    "kind": "repaired_swap",
+    "text": "82",
+    "fixed": "28"
+   },
+   {
+    "row_y": 1192,
+    "kind": "ocr_fail",
+    "text": "80007142428354144725359"
+   },
+   {
+    "row_y": 1295,
+    "kind": "ocr_fail",
+    "text": "9011174230622906385047535"
+   },
+   {
+    "row_y": 1399,
+    "kind": "repaired_swap",
+    "text": "85",
+    "fixed": "58"
+   },
+   {
+    "row_y": 1502,
+    "kind": "ocr_fail",
+    "text": "110111722330438646654"
+   },
+   {
+    "row_y": 1812,
+    "kind": "ocr_fail",
+    "text": "140210182344424245058"
+   },
+   {
+    "row_y": 2019,
+    "kind": "ocr_fail",
+    "text": "16021018234442245058"
+   },
+   {
+    "row_y": 2123,
+    "kind": "ocr_fail",
+    "text": "170613202632438444508656"
+   },
+   {
+    "row_y": 2226,
+    "kind": "ocr_fail",
+    "text": "1802081420263243844235056"
+   },
+   {
+    "row_y": 2330,
+    "kind": "repaired_swap",
+    "text": "81",
+    "fixed": "18"
+   },
+   {
+    "row_y": 2330,
+    "kind": "repaired_swap",
+    "text": "63",
+    "fixed": "36"
+   },
+   {
+    "row_y": 2330,
+    "kind": "repaired_swap",
+    "text": "84",
+    "fixed": "48"
+   },
+   {
+    "row_y": 2435,
+    "kind": "ocr_fail",
+    "text": "0208152229364345159"
+   },
+   {
+    "row_y": 2537,
+    "kind": "ocr_fail",
+    "text": "1071523429314392944755"
+   },
+   {
+    "row_y": 2640,
+    "kind": "ocr_fail",
+    "text": "203112194227350643"
+   }
+  ]
+ },
+ {
+  "source": "timetables/15-马泉营-4.jpg",
+  "id": "15-马泉营-4",
+  "n_times": 120,
+  "stats": {
+   "n": 120,
+   "n_hours": 15,
+   "median_gap": 7,
+   "max_gap": 129,
+   "min_gap": 3
+  },
+  "issues": [
+   {
+    "kind": "gap_large",
+    "gap": 64,
+    "at": "10:56->12:00",
+    "msg": "gap 64 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "hour_gap",
+    "msg": "hours 10->12 not consecutive"
+   },
+   {
+    "kind": "hour_gap",
+    "msg": "hours 14->17 not consecutive"
+   },
+   {
+    "kind": "hour_gap",
+    "msg": "hours 20->23 not consecutive"
+   }
+  ],
+  "flags": [
+   {
+    "row_y": 1587,
+    "kind": "ocr_fail",
+    "text": "11041220283644652"
+   },
+   {
+    "row_y": 1998,
+    "kind": "ocr_fail",
+    "text": "15041220283644652"
+   },
+   {
+    "row_y": 2101,
+    "kind": "ocr_fail",
+    "text": "1600081521276330663394455157"
+   },
+   {
+    "row_y": 2615,
+    "kind": "ocr_fail",
+    "text": "21061421922243043844654"
+   },
+   {
+    "row_y": 2718,
+    "kind": "ocr_fail",
+    "text": "220312212303944958"
+   }
+  ]
+ }
+]

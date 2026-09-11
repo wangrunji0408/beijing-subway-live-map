@@ -1,0 +1,1284 @@
+[
+ {
+  "source": "timetables/13-上地-1.jpg",
+  "id": "13-上地-1",
+  "n_times": 214,
+  "stats": {
+   "n": 214,
+   "n_hours": 20,
+   "median_gap": 4,
+   "max_gap": 340,
+   "min_gap": 3
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/13-上地-2.jpg",
+  "id": "13-上地-2",
+  "n_times": 214,
+  "stats": {
+   "n": 214,
+   "n_hours": 19,
+   "median_gap": 4,
+   "max_gap": 10,
+   "min_gap": 2
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 873,
+    "kind": "ocr_fail",
+    "text": "5152337434956"
+   }
+  ]
+ },
+ {
+  "source": "timetables/13-上地-3.jpg",
+  "id": "13-上地-3",
+  "n_times": 136,
+  "stats": {
+   "n": 136,
+   "n_hours": 19,
+   "median_gap": 8,
+   "max_gap": 10,
+   "min_gap": 7
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/13-上地-4.jpg",
+  "id": "13-上地-4",
+  "n_times": 118,
+  "stats": {
+   "n": 118,
+   "n_hours": 19,
+   "median_gap": 8,
+   "max_gap": 352,
+   "min_gap": 7
+  },
+  "issues": [
+   {
+    "kind": "hour_gap",
+    "msg": "hours 9->15 not consecutive"
+   }
+  ],
+  "flags": []
+ },
+ {
+  "source": "timetables/13-东直门-1.jpg",
+  "id": "13-东直门-1",
+  "n_times": 200,
+  "stats": {
+   "n": 200,
+   "n_hours": 19,
+   "median_gap": 5,
+   "max_gap": 10,
+   "min_gap": 3
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/13-东直门-2.jpg",
+  "id": "13-东直门-2",
+  "n_times": 118,
+  "stats": {
+   "n": 118,
+   "n_hours": 19,
+   "median_gap": 8,
+   "max_gap": 20,
+   "min_gap": 4
+  },
+  "issues": [
+   {
+    "kind": "gap_large",
+    "gap": 20,
+    "at": "17:49->18:09",
+    "msg": "gap 20 min exceeds 18 (possible missed train)"
+   }
+  ],
+  "flags": []
+ },
+ {
+  "source": "timetables/13-五道口-1.jpg",
+  "id": "13-五道口-1",
+  "n_times": 214,
+  "stats": {
+   "n": 214,
+   "n_hours": 20,
+   "median_gap": 4,
+   "max_gap": 340,
+   "min_gap": 3
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/13-五道口-2.jpg",
+  "id": "13-五道口-2",
+  "n_times": 214,
+  "stats": {
+   "n": 214,
+   "n_hours": 19,
+   "median_gap": 4,
+   "max_gap": 24,
+   "min_gap": 3
+  },
+  "issues": [
+   {
+    "kind": "gap_large",
+    "gap": 24,
+    "at": "05:12->05:36",
+    "msg": "gap 24 min exceeds 15 (possible missed train)"
+   }
+  ],
+  "flags": [
+   {
+    "row_y": 2203,
+    "kind": "bad_minute",
+    "text": "79"
+   }
+  ]
+ },
+ {
+  "source": "timetables/13-五道口-3.jpg",
+  "id": "13-五道口-3",
+  "n_times": 136,
+  "stats": {
+   "n": 136,
+   "n_hours": 19,
+   "median_gap": 8,
+   "max_gap": 16,
+   "min_gap": 7
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/13-五道口-4.jpg",
+  "id": "13-五道口-4",
+  "n_times": 137,
+  "stats": {
+   "n": 137,
+   "n_hours": 19,
+   "median_gap": 8,
+   "max_gap": 10,
+   "min_gap": 6
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 976,
+    "kind": "bad_minute",
+    "text": "98"
+   }
+  ]
+ },
+ {
+  "source": "timetables/13-光熙门-1.jpg",
+  "id": "13-光熙门-1",
+  "n_times": 200,
+  "stats": {
+   "n": 200,
+   "n_hours": 19,
+   "median_gap": 5,
+   "max_gap": 10,
+   "min_gap": 3
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/13-光熙门-2.jpg",
+  "id": "13-光熙门-2",
+  "n_times": 200,
+  "stats": {
+   "n": 200,
+   "n_hours": 19,
+   "median_gap": 5,
+   "max_gap": 10,
+   "min_gap": 3
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/13-光熙门-3.jpg",
+  "id": "13-光熙门-3",
+  "n_times": 137,
+  "stats": {
+   "n": 137,
+   "n_hours": 19,
+   "median_gap": 8,
+   "max_gap": 11,
+   "min_gap": 6
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/13-光熙门-4.jpg",
+  "id": "13-光熙门-4",
+  "n_times": 137,
+  "stats": {
+   "n": 137,
+   "n_hours": 19,
+   "median_gap": 8,
+   "max_gap": 350,
+   "min_gap": 4
+  },
+  "issues": [
+   {
+    "kind": "hour_gap",
+    "msg": "hours 0->6 not consecutive"
+   }
+  ],
+  "flags": []
+ },
+ {
+  "source": "timetables/13-北苑-1.jpg",
+  "id": "13-北苑-1",
+  "n_times": 200,
+  "stats": {
+   "n": 200,
+   "n_hours": 19,
+   "median_gap": 5,
+   "max_gap": 10,
+   "min_gap": 3
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/13-北苑-2.jpg",
+  "id": "13-北苑-2",
+  "n_times": 200,
+  "stats": {
+   "n": 200,
+   "n_hours": 20,
+   "median_gap": 5,
+   "max_gap": 350,
+   "min_gap": 3
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/13-北苑-3.jpg",
+  "id": "13-北苑-3",
+  "n_times": 137,
+  "stats": {
+   "n": 137,
+   "n_hours": 19,
+   "median_gap": 8,
+   "max_gap": 11,
+   "min_gap": 6
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/13-北苑-4.jpg",
+  "id": "13-北苑-4",
+  "n_times": 135,
+  "stats": {
+   "n": 135,
+   "n_hours": 18,
+   "median_gap": 8,
+   "max_gap": 11,
+   "min_gap": 4
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/13-回龙观-1.jpg",
+  "id": "13-回龙观-1",
+  "n_times": 214,
+  "stats": {
+   "n": 214,
+   "n_hours": 19,
+   "median_gap": 4,
+   "max_gap": 340,
+   "min_gap": 3
+  },
+  "issues": [
+   {
+    "kind": "hour_gap",
+    "msg": "hours 0->6 not consecutive"
+   }
+  ],
+  "flags": []
+ },
+ {
+  "source": "timetables/13-回龙观-2.jpg",
+  "id": "13-回龙观-2",
+  "n_times": 211,
+  "stats": {
+   "n": 211,
+   "n_hours": 19,
+   "median_gap": 4,
+   "max_gap": 10,
+   "min_gap": 3
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 872,
+    "kind": "ocr_fail",
+    "text": "5172313742456"
+   },
+   {
+    "row_y": 976,
+    "kind": "repaired_swap",
+    "text": "60",
+    "fixed": "06"
+   },
+   {
+    "row_y": 1078,
+    "kind": "repaired_swap",
+    "text": "70",
+    "fixed": "07"
+   },
+   {
+    "row_y": 1078,
+    "kind": "repaired_swap",
+    "text": "71",
+    "fixed": "17"
+   },
+   {
+    "row_y": 1078,
+    "kind": "repaired_swap",
+    "text": "72",
+    "fixed": "27"
+   },
+   {
+    "row_y": 1078,
+    "kind": "repaired_swap",
+    "text": "73",
+    "fixed": "37"
+   },
+   {
+    "row_y": 1078,
+    "kind": "repaired_swap",
+    "text": "92",
+    "fixed": "29"
+   },
+   {
+    "row_y": 1181,
+    "kind": "ocr_fail",
+    "text": "1040710131619232629323639424549925558"
+   },
+   {
+    "row_y": 1999,
+    "kind": "ocr_fail",
+    "text": "16032121520242933364044755457"
+   },
+   {
+    "row_y": 2101,
+    "kind": "ocr_fail",
+    "text": "1731040111518222293236343462537"
+   },
+   {
+    "row_y": 2203,
+    "kind": "repaired_swap",
+    "text": "80",
+    "fixed": "08"
+   },
+   {
+    "row_y": 2203,
+    "kind": "repaired_swap",
+    "text": "71",
+    "fixed": "17"
+   },
+   {
+    "row_y": 2203,
+    "kind": "repaired_swap",
+    "text": "82",
+    "fixed": "28"
+   }
+  ]
+ },
+ {
+  "source": "timetables/13-回龙观-3.jpg",
+  "id": "13-回龙观-3",
+  "n_times": 137,
+  "stats": {
+   "n": 137,
+   "n_hours": 19,
+   "median_gap": 8,
+   "max_gap": 340,
+   "min_gap": 7
+  },
+  "issues": [
+   {
+    "kind": "hour_gap",
+    "msg": "hours 0->6 not consecutive"
+   }
+  ],
+  "flags": []
+ },
+ {
+  "source": "timetables/13-回龙观-4.jpg",
+  "id": "13-回龙观-4",
+  "n_times": 137,
+  "stats": {
+   "n": 137,
+   "n_hours": 19,
+   "median_gap": 8,
+   "max_gap": 10,
+   "min_gap": 7
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 874,
+    "kind": "ocr_fail",
+    "text": "210182634424956"
+   }
+  ]
+ },
+ {
+  "source": "timetables/13-大钟寺-1.jpg",
+  "id": "13-大钟寺-1",
+  "n_times": 214,
+  "stats": {
+   "n": 214,
+   "n_hours": 19,
+   "median_gap": 4,
+   "max_gap": 11,
+   "min_gap": 3
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/13-大钟寺-2.jpg",
+  "id": "13-大钟寺-2",
+  "n_times": 214,
+  "stats": {
+   "n": 214,
+   "n_hours": 19,
+   "median_gap": 4,
+   "max_gap": 11,
+   "min_gap": 3
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 975,
+    "kind": "repaired_swap",
+    "text": "60",
+    "fixed": "06"
+   }
+  ]
+ },
+ {
+  "source": "timetables/13-大钟寺-3.jpg",
+  "id": "13-大钟寺-3",
+  "n_times": 137,
+  "stats": {
+   "n": 137,
+   "n_hours": 19,
+   "median_gap": 8,
+   "max_gap": 10,
+   "min_gap": 7
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/13-大钟寺-4.jpg",
+  "id": "13-大钟寺-4",
+  "n_times": 118,
+  "stats": {
+   "n": 118,
+   "n_hours": 19,
+   "median_gap": 8,
+   "max_gap": 29,
+   "min_gap": 2
+  },
+  "issues": [
+   {
+    "kind": "gap_large",
+    "gap": 19,
+    "at": "00:25->00:44",
+    "msg": "gap 19 min exceeds 18 (possible missed train)"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 29,
+    "at": "00:44->01:13",
+    "msg": "gap 29 min exceeds 18 (possible missed train)"
+   }
+  ],
+  "flags": []
+ },
+ {
+  "source": "timetables/13-望京西-1.jpg",
+  "id": "13-望京西-1",
+  "n_times": 200,
+  "stats": {
+   "n": 200,
+   "n_hours": 19,
+   "median_gap": 5,
+   "max_gap": 10,
+   "min_gap": 3
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/13-望京西-2.jpg",
+  "id": "13-望京西-2",
+  "n_times": 200,
+  "stats": {
+   "n": 200,
+   "n_hours": 19,
+   "median_gap": 5,
+   "max_gap": 10,
+   "min_gap": 3
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 1385,
+    "kind": "repaired_swap",
+    "text": "70",
+    "fixed": "07"
+   }
+  ]
+ },
+ {
+  "source": "timetables/13-望京西-3.jpg",
+  "id": "13-望京西-3",
+  "n_times": 137,
+  "stats": {
+   "n": 137,
+   "n_hours": 19,
+   "median_gap": 8,
+   "max_gap": 11,
+   "min_gap": 6
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/13-望京西-4.jpg",
+  "id": "13-望京西-4",
+  "n_times": 137,
+  "stats": {
+   "n": 137,
+   "n_hours": 19,
+   "median_gap": 8,
+   "max_gap": 339,
+   "min_gap": 4
+  },
+  "issues": [
+   {
+    "kind": "gap_large",
+    "gap": 19,
+    "at": "06:44->07:03",
+    "msg": "gap 19 min exceeds 18 (possible missed train)"
+   },
+   {
+    "kind": "hour_gap",
+    "msg": "hours 0->6 not consecutive"
+   }
+  ],
+  "flags": []
+ },
+ {
+  "source": "timetables/13-柳芳-1.jpg",
+  "id": "13-柳芳-1",
+  "n_times": 200,
+  "stats": {
+   "n": 200,
+   "n_hours": 19,
+   "median_gap": 5,
+   "max_gap": 10,
+   "min_gap": 3
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/13-柳芳-2.jpg",
+  "id": "13-柳芳-2",
+  "n_times": 200,
+  "stats": {
+   "n": 200,
+   "n_hours": 19,
+   "median_gap": 5,
+   "max_gap": 10,
+   "min_gap": 3
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/13-柳芳-3.jpg",
+  "id": "13-柳芳-3",
+  "n_times": 137,
+  "stats": {
+   "n": 137,
+   "n_hours": 19,
+   "median_gap": 8,
+   "max_gap": 11,
+   "min_gap": 6
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/13-柳芳-4.jpg",
+  "id": "13-柳芳-4",
+  "n_times": 137,
+  "stats": {
+   "n": 137,
+   "n_hours": 19,
+   "median_gap": 8,
+   "max_gap": 350,
+   "min_gap": 4
+  },
+  "issues": [
+   {
+    "kind": "hour_gap",
+    "msg": "hours 0->6 not consecutive"
+   }
+  ],
+  "flags": []
+ },
+ {
+  "source": "timetables/13-清河站-1.jpg",
+  "id": "13-清河站-1",
+  "n_times": 213,
+  "stats": {
+   "n": 213,
+   "n_hours": 19,
+   "median_gap": 4,
+   "max_gap": 10,
+   "min_gap": 3
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/13-清河站-2.jpg",
+  "id": "13-清河站-2",
+  "n_times": 214,
+  "stats": {
+   "n": 214,
+   "n_hours": 20,
+   "median_gap": 4,
+   "max_gap": 340,
+   "min_gap": 3
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/13-清河站-3.jpg",
+  "id": "13-清河站-3",
+  "n_times": 118,
+  "stats": {
+   "n": 118,
+   "n_hours": 19,
+   "median_gap": 8,
+   "max_gap": 352,
+   "min_gap": 7
+  },
+  "issues": [
+   {
+    "kind": "hour_gap",
+    "msg": "hours 7->13 not consecutive"
+   }
+  ],
+  "flags": []
+ },
+ {
+  "source": "timetables/13-清河站-4.jpg",
+  "id": "13-清河站-4",
+  "n_times": 136,
+  "stats": {
+   "n": 136,
+   "n_hours": 19,
+   "median_gap": 8,
+   "max_gap": 348,
+   "min_gap": 7
+  },
+  "issues": [
+   {
+    "kind": "hour_gap",
+    "msg": "hours 0->6 not consecutive"
+   }
+  ],
+  "flags": []
+ },
+ {
+  "source": "timetables/13-知春路-1.jpg",
+  "id": "13-知春路-1",
+  "n_times": 214,
+  "stats": {
+   "n": 214,
+   "n_hours": 20,
+   "median_gap": 4,
+   "max_gap": 340,
+   "min_gap": 3
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 2989,
+    "kind": "ocr_fail",
+    "text": "5214755217"
+   }
+  ]
+ },
+ {
+  "source": "timetables/13-知春路-2.jpg",
+  "id": "13-知春路-2",
+  "n_times": 214,
+  "stats": {
+   "n": 214,
+   "n_hours": 19,
+   "median_gap": 4,
+   "max_gap": 10,
+   "min_gap": 3
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/13-知春路-3.jpg",
+  "id": "13-知春路-3",
+  "n_times": 136,
+  "stats": {
+   "n": 136,
+   "n_hours": 19,
+   "median_gap": 8,
+   "max_gap": 10,
+   "min_gap": 7
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/13-知春路-4.jpg",
+  "id": "13-知春路-4",
+  "n_times": 118,
+  "stats": {
+   "n": 118,
+   "n_hours": 19,
+   "median_gap": 8,
+   "max_gap": 17,
+   "min_gap": 6
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 874,
+    "kind": "repaired_swap",
+    "text": "85",
+    "fixed": "58"
+   }
+  ]
+ },
+ {
+  "source": "timetables/13-立水桥-1.jpg",
+  "id": "13-立水桥-1",
+  "n_times": 200,
+  "stats": {
+   "n": 200,
+   "n_hours": 19,
+   "median_gap": 5,
+   "max_gap": 11,
+   "min_gap": 3
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/13-立水桥-2.jpg",
+  "id": "13-立水桥-2",
+  "n_times": 180,
+  "stats": {
+   "n": 180,
+   "n_hours": 20,
+   "median_gap": 6,
+   "max_gap": 350,
+   "min_gap": 3
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/13-立水桥-3.jpg",
+  "id": "13-立水桥-3",
+  "n_times": 137,
+  "stats": {
+   "n": 137,
+   "n_hours": 19,
+   "median_gap": 8,
+   "max_gap": 13,
+   "min_gap": 6
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/13-立水桥-4.jpg",
+  "id": "13-立水桥-4",
+  "n_times": 133,
+  "stats": {
+   "n": 133,
+   "n_hours": 18,
+   "median_gap": 8,
+   "max_gap": 13,
+   "min_gap": 7
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/13-芍药居-1.jpg",
+  "id": "13-芍药居-1",
+  "n_times": 200,
+  "stats": {
+   "n": 200,
+   "n_hours": 19,
+   "median_gap": 5,
+   "max_gap": 10,
+   "min_gap": 3
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/13-芍药居-2.jpg",
+  "id": "13-芍药居-2",
+  "n_times": 200,
+  "stats": {
+   "n": 200,
+   "n_hours": 19,
+   "median_gap": 5,
+   "max_gap": 10,
+   "min_gap": 3
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/13-芍药居-3.jpg",
+  "id": "13-芍药居-3",
+  "n_times": 137,
+  "stats": {
+   "n": 137,
+   "n_hours": 19,
+   "median_gap": 8,
+   "max_gap": 11,
+   "min_gap": 6
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/13-芍药居-4.jpg",
+  "id": "13-芍药居-4",
+  "n_times": 137,
+  "stats": {
+   "n": 137,
+   "n_hours": 19,
+   "median_gap": 8,
+   "max_gap": 11,
+   "min_gap": 4
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 874,
+    "kind": "ocr_fail",
+    "text": "41350"
+   }
+  ]
+ },
+ {
+  "source": "timetables/13-西二旗-1.jpg",
+  "id": "13-西二旗-1",
+  "n_times": 210,
+  "stats": {
+   "n": 210,
+   "n_hours": 19,
+   "median_gap": 4,
+   "max_gap": 10,
+   "min_gap": 3
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 677,
+    "kind": "ocr_fail",
+    "text": "60411161927428323544448525"
+   },
+   {
+    "row_y": 820,
+    "kind": "ocr_fail",
+    "text": "820030601215182124231343744447505357"
+   },
+   {
+    "row_y": 892,
+    "kind": "repaired_swap",
+    "text": "90",
+    "fixed": "09"
+   },
+   {
+    "row_y": 1464,
+    "kind": "ocr_fail",
+    "text": "17020501211923263033744447515458"
+   },
+   {
+    "row_y": 1535,
+    "kind": "ocr_fail",
+    "text": "180130812151222629336404347505457"
+   }
+  ]
+ },
+ {
+  "source": "timetables/13-西二旗-2.jpg",
+  "id": "13-西二旗-2",
+  "n_times": 214,
+  "stats": {
+   "n": 214,
+   "n_hours": 20,
+   "median_gap": 4,
+   "max_gap": 340,
+   "min_gap": 3
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/13-西二旗-3.jpg",
+  "id": "13-西二旗-3",
+  "n_times": 137,
+  "stats": {
+   "n": 137,
+   "n_hours": 19,
+   "median_gap": 8,
+   "max_gap": 10,
+   "min_gap": 7
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 604,
+    "kind": "ocr_fail",
+    "text": ""
+   },
+   {
+    "row_y": 748,
+    "kind": "ocr_fail",
+    "text": "03111927354351459"
+   },
+   {
+    "row_y": 1034,
+    "kind": "ocr_fail",
+    "text": "03111927354351459"
+   },
+   {
+    "row_y": 1178,
+    "kind": "ocr_fail",
+    "text": "03111927354351459"
+   },
+   {
+    "row_y": 1321,
+    "kind": "ocr_fail",
+    "text": "03111927354351459"
+   },
+   {
+    "row_y": 1607,
+    "kind": "ocr_fail",
+    "text": "03111927354351459"
+   }
+  ]
+ },
+ {
+  "source": "timetables/13-西二旗-4.jpg",
+  "id": "13-西二旗-4",
+  "n_times": 136,
+  "stats": {
+   "n": 136,
+   "n_hours": 19,
+   "median_gap": 8,
+   "max_gap": 348,
+   "min_gap": 7
+  },
+  "issues": [
+   {
+    "kind": "hour_gap",
+    "msg": "hours 0->6 not consecutive"
+   }
+  ],
+  "flags": [
+   {
+    "row_y": 959,
+    "kind": "ocr_fail",
+    "text": "02101826344250458"
+   },
+   {
+    "row_y": 1031,
+    "kind": "ocr_fail",
+    "text": "061422303846454"
+   },
+   {
+    "row_y": 1174,
+    "kind": "ocr_fail",
+    "text": "061422303846454"
+   },
+   {
+    "row_y": 1245,
+    "kind": "ocr_fail",
+    "text": "021018263442504538"
+   },
+   {
+    "row_y": 1603,
+    "kind": "ocr_fail",
+    "text": "061422303846454"
+   },
+   {
+    "row_y": 1889,
+    "kind": "ocr_fail",
+    "text": "011121303846455"
+   }
+  ]
+ },
+ {
+  "source": "timetables/13-西直门-1.jpg",
+  "id": "13-西直门-1",
+  "n_times": 148,
+  "stats": {
+   "n": 148,
+   "n_hours": 19,
+   "median_gap": 7,
+   "max_gap": 11,
+   "min_gap": 5
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/13-西直门-2.jpg",
+  "id": "13-西直门-2",
+  "n_times": 66,
+  "stats": {
+   "n": 66,
+   "n_hours": 10,
+   "median_gap": 7,
+   "max_gap": 99,
+   "min_gap": 5
+  },
+  "issues": [
+   {
+    "kind": "gap_large",
+    "gap": 99,
+    "at": "15:05->16:44",
+    "msg": "gap 99 min exceeds 15 (possible missed train)"
+   }
+  ],
+  "flags": []
+ },
+ {
+  "source": "timetables/13-西直门-3.jpg",
+  "id": "13-西直门-3",
+  "n_times": 137,
+  "stats": {
+   "n": 137,
+   "n_hours": 19,
+   "median_gap": 8,
+   "max_gap": 10,
+   "min_gap": 7
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/13-霍营-1.jpg",
+  "id": "13-霍营-1",
+  "n_times": 186,
+  "stats": {
+   "n": 186,
+   "n_hours": 20,
+   "median_gap": 6,
+   "max_gap": 20,
+   "min_gap": 3
+  },
+  "issues": [
+   {
+    "kind": "gap_large",
+    "gap": 20,
+    "at": "04:49->05:09",
+    "msg": "gap 20 min exceeds 15 (possible missed train)"
+   }
+  ],
+  "flags": [
+   {
+    "row_y": 871,
+    "kind": "ocr_fail",
+    "text": "489"
+   },
+   {
+    "row_y": 977,
+    "kind": "bad_minute",
+    "text": "98"
+   }
+  ]
+ },
+ {
+  "source": "timetables/13-霍营-2.jpg",
+  "id": "13-霍营-2",
+  "n_times": 219,
+  "stats": {
+   "n": 219,
+   "n_hours": 21,
+   "median_gap": 4,
+   "max_gap": 287,
+   "min_gap": 2
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 1180,
+    "kind": "bad_minute",
+    "text": "97"
+   },
+   {
+    "row_y": 2203,
+    "kind": "repaired_swap",
+    "text": "70",
+    "fixed": "07"
+   },
+   {
+    "row_y": 2203,
+    "kind": "repaired_swap",
+    "text": "81",
+    "fixed": "18"
+   },
+   {
+    "row_y": 2203,
+    "kind": "repaired_swap",
+    "text": "92",
+    "fixed": "29"
+   },
+   {
+    "row_y": 2203,
+    "kind": "repaired_swap",
+    "text": "62",
+    "fixed": "26"
+   }
+  ]
+ },
+ {
+  "source": "timetables/13-霍营-3.jpg",
+  "id": "13-霍营-3",
+  "n_times": 134,
+  "stats": {
+   "n": 134,
+   "n_hours": 19,
+   "median_gap": 8,
+   "max_gap": 12,
+   "min_gap": 7
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/13-霍营-4.jpg",
+  "id": "13-霍营-4",
+  "n_times": 142,
+  "stats": {
+   "n": 142,
+   "n_hours": 20,
+   "median_gap": 8,
+   "max_gap": 295,
+   "min_gap": 5
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 976,
+    "kind": "ocr_fail",
+    "text": "031127031394651"
+   }
+  ]
+ },
+ {
+  "source": "timetables/13-龙泽-1.jpg",
+  "id": "13-龙泽-1",
+  "n_times": 214,
+  "stats": {
+   "n": 214,
+   "n_hours": 20,
+   "median_gap": 4,
+   "max_gap": 340,
+   "min_gap": 3
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/13-龙泽-2.jpg",
+  "id": "13-龙泽-2",
+  "n_times": 214,
+  "stats": {
+   "n": 214,
+   "n_hours": 19,
+   "median_gap": 4,
+   "max_gap": 10,
+   "min_gap": 3
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 2101,
+    "kind": "repaired_swap",
+    "text": "71",
+    "fixed": "17"
+   }
+  ]
+ },
+ {
+  "source": "timetables/13-龙泽-3.jpg",
+  "id": "13-龙泽-3",
+  "n_times": 136,
+  "stats": {
+   "n": 136,
+   "n_hours": 19,
+   "median_gap": 8,
+   "max_gap": 348,
+   "min_gap": 7
+  },
+  "issues": [
+   {
+    "kind": "hour_gap",
+    "msg": "hours 0->6 not consecutive"
+   }
+  ],
+  "flags": []
+ },
+ {
+  "source": "timetables/13-龙泽-4.jpg",
+  "id": "13-龙泽-4",
+  "n_times": 136,
+  "stats": {
+   "n": 136,
+   "n_hours": 19,
+   "median_gap": 8,
+   "max_gap": 11,
+   "min_gap": 6
+  },
+  "issues": [],
+  "flags": []
+ }
+]

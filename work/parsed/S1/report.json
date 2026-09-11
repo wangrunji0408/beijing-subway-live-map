@@ -1,0 +1,394 @@
+[
+ {
+  "source": "timetables/S1-上岸-1.jpg",
+  "id": "S1-上岸-1",
+  "n_times": 128,
+  "stats": {
+   "n": 128,
+   "n_hours": 19,
+   "median_gap": 8,
+   "max_gap": 13,
+   "min_gap": 5
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/S1-上岸-2.jpg",
+  "id": "S1-上岸-2",
+  "n_times": 128,
+  "stats": {
+   "n": 128,
+   "n_hours": 18,
+   "median_gap": 8,
+   "max_gap": 13,
+   "min_gap": 5
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/S1-上岸-3.jpg",
+  "id": "S1-上岸-3",
+  "n_times": 107,
+  "stats": {
+   "n": 107,
+   "n_hours": 19,
+   "median_gap": 10,
+   "max_gap": 11,
+   "min_gap": 9
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/S1-上岸-4.jpg",
+  "id": "S1-上岸-4",
+  "n_times": 107,
+  "stats": {
+   "n": 107,
+   "n_hours": 18,
+   "median_gap": 10,
+   "max_gap": 11,
+   "min_gap": 10
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/S1-四道桥-1.jpg",
+  "id": "S1-四道桥-1",
+  "n_times": 128,
+  "stats": {
+   "n": 128,
+   "n_hours": 19,
+   "median_gap": 8,
+   "max_gap": 13,
+   "min_gap": 5
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/S1-四道桥-2.jpg",
+  "id": "S1-四道桥-2",
+  "n_times": 128,
+  "stats": {
+   "n": 128,
+   "n_hours": 19,
+   "median_gap": 8,
+   "max_gap": 13,
+   "min_gap": 5
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/S1-四道桥-3.jpg",
+  "id": "S1-四道桥-3",
+  "n_times": 107,
+  "stats": {
+   "n": 107,
+   "n_hours": 19,
+   "median_gap": 10,
+   "max_gap": 11,
+   "min_gap": 10
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/S1-四道桥-4.jpg",
+  "id": "S1-四道桥-4",
+  "n_times": 107,
+  "stats": {
+   "n": 107,
+   "n_hours": 19,
+   "median_gap": 10,
+   "max_gap": 11,
+   "min_gap": 10
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/S1-小园-1.jpg",
+  "id": "S1-小园-1",
+  "n_times": 128,
+  "stats": {
+   "n": 128,
+   "n_hours": 19,
+   "median_gap": 8,
+   "max_gap": 13,
+   "min_gap": 5
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/S1-小园-2.jpg",
+  "id": "S1-小园-2",
+  "n_times": 128,
+  "stats": {
+   "n": 128,
+   "n_hours": 18,
+   "median_gap": 8,
+   "max_gap": 13,
+   "min_gap": 5
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/S1-小园-3.jpg",
+  "id": "S1-小园-3",
+  "n_times": 107,
+  "stats": {
+   "n": 107,
+   "n_hours": 19,
+   "median_gap": 10,
+   "max_gap": 11,
+   "min_gap": 9
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/S1-小园-4.jpg",
+  "id": "S1-小园-4",
+  "n_times": 107,
+  "stats": {
+   "n": 107,
+   "n_hours": 18,
+   "median_gap": 10,
+   "max_gap": 11,
+   "min_gap": 10
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/S1-栗园庄-1.jpg",
+  "id": "S1-栗园庄-1",
+  "n_times": 128,
+  "stats": {
+   "n": 128,
+   "n_hours": 19,
+   "median_gap": 8,
+   "max_gap": 13,
+   "min_gap": 5
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/S1-栗园庄-2.jpg",
+  "id": "S1-栗园庄-2",
+  "n_times": 128,
+  "stats": {
+   "n": 128,
+   "n_hours": 18,
+   "median_gap": 8,
+   "max_gap": 13,
+   "min_gap": 5
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/S1-栗园庄-3.jpg",
+  "id": "S1-栗园庄-3",
+  "n_times": 107,
+  "stats": {
+   "n": 107,
+   "n_hours": 19,
+   "median_gap": 10,
+   "max_gap": 11,
+   "min_gap": 9
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/S1-栗园庄-4.jpg",
+  "id": "S1-栗园庄-4",
+  "n_times": 107,
+  "stats": {
+   "n": 107,
+   "n_hours": 18,
+   "median_gap": 10,
+   "max_gap": 11,
+   "min_gap": 10
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/S1-桥户营-1.jpg",
+  "id": "S1-桥户营-1",
+  "n_times": 128,
+  "stats": {
+   "n": 128,
+   "n_hours": 19,
+   "median_gap": 8,
+   "max_gap": 13,
+   "min_gap": 5
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/S1-桥户营-2.jpg",
+  "id": "S1-桥户营-2",
+  "n_times": 128,
+  "stats": {
+   "n": 128,
+   "n_hours": 18,
+   "median_gap": 8,
+   "max_gap": 13,
+   "min_gap": 5
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/S1-桥户营-3.jpg",
+  "id": "S1-桥户营-3",
+  "n_times": 107,
+  "stats": {
+   "n": 107,
+   "n_hours": 19,
+   "median_gap": 10,
+   "max_gap": 11,
+   "min_gap": 10
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/S1-桥户营-4.jpg",
+  "id": "S1-桥户营-4",
+  "n_times": 107,
+  "stats": {
+   "n": 107,
+   "n_hours": 18,
+   "median_gap": 10,
+   "max_gap": 11,
+   "min_gap": 10
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/S1-石厂-1.jpg",
+  "id": "S1-石厂-1",
+  "n_times": 128,
+  "stats": {
+   "n": 128,
+   "n_hours": 19,
+   "median_gap": 8,
+   "max_gap": 13,
+   "min_gap": 4
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/S1-石厂-2.jpg",
+  "id": "S1-石厂-2",
+  "n_times": 107,
+  "stats": {
+   "n": 107,
+   "n_hours": 19,
+   "median_gap": 10,
+   "max_gap": 11,
+   "min_gap": 10
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/S1-苹果园-1.jpg",
+  "id": "S1-苹果园-1",
+  "n_times": 128,
+  "stats": {
+   "n": 128,
+   "n_hours": 19,
+   "median_gap": 8,
+   "max_gap": 13,
+   "min_gap": 5
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/S1-苹果园-2.jpg",
+  "id": "S1-苹果园-2",
+  "n_times": 107,
+  "stats": {
+   "n": 107,
+   "n_hours": 19,
+   "median_gap": 10,
+   "max_gap": 11,
+   "min_gap": 10
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/S1-金安桥-1.jpg",
+  "id": "S1-金安桥-1",
+  "n_times": 128,
+  "stats": {
+   "n": 128,
+   "n_hours": 19,
+   "median_gap": 8,
+   "max_gap": 13,
+   "min_gap": 5
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/S1-金安桥-2.jpg",
+  "id": "S1-金安桥-2",
+  "n_times": 128,
+  "stats": {
+   "n": 128,
+   "n_hours": 19,
+   "median_gap": 8,
+   "max_gap": 13,
+   "min_gap": 5
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/S1-金安桥-3.jpg",
+  "id": "S1-金安桥-3",
+  "n_times": 107,
+  "stats": {
+   "n": 107,
+   "n_hours": 19,
+   "median_gap": 10,
+   "max_gap": 11,
+   "min_gap": 10
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/S1-金安桥-4.jpg",
+  "id": "S1-金安桥-4",
+  "n_times": 107,
+  "stats": {
+   "n": 107,
+   "n_hours": 19,
+   "median_gap": 10,
+   "max_gap": 11,
+   "min_gap": 10
+  },
+  "issues": [],
+  "flags": []
+ }
+]

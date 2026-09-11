@@ -1,0 +1,956 @@
+[
+ {
+  "source": "timetables/亦庄-万源街-1.jpg",
+  "id": "亦庄-万源街-1",
+  "n_times": 165,
+  "stats": {
+   "n": 165,
+   "n_hours": 18,
+   "median_gap": 5,
+   "max_gap": 12,
+   "min_gap": 3
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/亦庄-万源街-2.jpg",
+  "id": "亦庄-万源街-2",
+  "n_times": 165,
+  "stats": {
+   "n": 165,
+   "n_hours": 18,
+   "median_gap": 5,
+   "max_gap": 11,
+   "min_gap": 3
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/亦庄-万源街-3.jpg",
+  "id": "亦庄-万源街-3",
+  "n_times": 116,
+  "stats": {
+   "n": 116,
+   "n_hours": 18,
+   "median_gap": 9,
+   "max_gap": 10,
+   "min_gap": 8
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 563,
+    "kind": "ocr_fail",
+    "text": "0615243343852"
+   },
+   {
+    "row_y": 649,
+    "kind": "repaired_swap",
+    "text": "62",
+    "fixed": "26"
+   },
+   {
+    "row_y": 1082,
+    "kind": "ocr_fail",
+    "text": "0717263"
+   }
+  ]
+ },
+ {
+  "source": "timetables/亦庄-万源街-4.jpg",
+  "id": "亦庄-万源街-4",
+  "n_times": 116,
+  "stats": {
+   "n": 116,
+   "n_hours": 18,
+   "median_gap": 9,
+   "max_gap": 10,
+   "min_gap": 8
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 388,
+    "kind": "repaired_swap",
+    "text": "62",
+    "fixed": "26"
+   }
+  ]
+ },
+ {
+  "source": "timetables/亦庄-亦庄文化园-1.jpg",
+  "id": "亦庄-亦庄文化园-1",
+  "n_times": 165,
+  "stats": {
+   "n": 165,
+   "n_hours": 18,
+   "median_gap": 5,
+   "max_gap": 12,
+   "min_gap": 3
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/亦庄-亦庄文化园-2.jpg",
+  "id": "亦庄-亦庄文化园-2",
+  "n_times": 165,
+  "stats": {
+   "n": 165,
+   "n_hours": 19,
+   "median_gap": 5,
+   "max_gap": 11,
+   "min_gap": 3
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/亦庄-亦庄文化园-3.jpg",
+  "id": "亦庄-亦庄文化园-3",
+  "n_times": 116,
+  "stats": {
+   "n": 116,
+   "n_hours": 18,
+   "median_gap": 9,
+   "max_gap": 10,
+   "min_gap": 8
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 517,
+    "kind": "ocr_fail",
+    "text": "0009172354554"
+   }
+  ]
+ },
+ {
+  "source": "timetables/亦庄-亦庄文化园-4.jpg",
+  "id": "亦庄-亦庄文化园-4",
+  "n_times": 116,
+  "stats": {
+   "n": 116,
+   "n_hours": 19,
+   "median_gap": 9,
+   "max_gap": 10,
+   "min_gap": 8
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/亦庄-亦庄桥-1.jpg",
+  "id": "亦庄-亦庄桥-1",
+  "n_times": 165,
+  "stats": {
+   "n": 165,
+   "n_hours": 18,
+   "median_gap": 5,
+   "max_gap": 12,
+   "min_gap": 3
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/亦庄-亦庄桥-2.jpg",
+  "id": "亦庄-亦庄桥-2",
+  "n_times": 165,
+  "stats": {
+   "n": 165,
+   "n_hours": 19,
+   "median_gap": 5,
+   "max_gap": 11,
+   "min_gap": 3
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/亦庄-亦庄桥-3.jpg",
+  "id": "亦庄-亦庄桥-3",
+  "n_times": 116,
+  "stats": {
+   "n": 116,
+   "n_hours": 18,
+   "median_gap": 9,
+   "max_gap": 10,
+   "min_gap": 8
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 778,
+    "kind": "ocr_fail",
+    "text": "0616253443853"
+   }
+  ]
+ },
+ {
+  "source": "timetables/亦庄-亦庄桥-4.jpg",
+  "id": "亦庄-亦庄桥-4",
+  "n_times": 116,
+  "stats": {
+   "n": 116,
+   "n_hours": 19,
+   "median_gap": 9,
+   "max_gap": 10,
+   "min_gap": 8
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/亦庄-亦庄火车站-1.jpg",
+  "id": "亦庄-亦庄火车站-1",
+  "n_times": 165,
+  "stats": {
+   "n": 165,
+   "n_hours": 18,
+   "median_gap": 6,
+   "max_gap": 11,
+   "min_gap": 2
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/亦庄-亦庄火车站-2.jpg",
+  "id": "亦庄-亦庄火车站-2",
+  "n_times": 116,
+  "stats": {
+   "n": 116,
+   "n_hours": 18,
+   "median_gap": 9,
+   "max_gap": 10,
+   "min_gap": 8
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 433,
+    "kind": "repaired_swap",
+    "text": "62",
+    "fixed": "26"
+   },
+   {
+    "row_y": 519,
+    "kind": "ocr_fail",
+    "text": "0009172344353"
+   },
+   {
+    "row_y": 907,
+    "kind": "repaired_swap",
+    "text": "82",
+    "fixed": "28"
+   },
+   {
+    "row_y": 1036,
+    "kind": "ocr_fail",
+    "text": "06162344353"
+   }
+  ]
+ },
+ {
+  "source": "timetables/亦庄-同济南路-1.jpg",
+  "id": "亦庄-同济南路-1",
+  "n_times": 165,
+  "stats": {
+   "n": 165,
+   "n_hours": 18,
+   "median_gap": 5,
+   "max_gap": 12,
+   "min_gap": 3
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/亦庄-同济南路-2.jpg",
+  "id": "亦庄-同济南路-2",
+  "n_times": 165,
+  "stats": {
+   "n": 165,
+   "n_hours": 18,
+   "median_gap": 5,
+   "max_gap": 11,
+   "min_gap": 3
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/亦庄-同济南路-3.jpg",
+  "id": "亦庄-同济南路-3",
+  "n_times": 116,
+  "stats": {
+   "n": 116,
+   "n_hours": 18,
+   "median_gap": 9,
+   "max_gap": 10,
+   "min_gap": 8
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/亦庄-同济南路-4.jpg",
+  "id": "亦庄-同济南路-4",
+  "n_times": 116,
+  "stats": {
+   "n": 116,
+   "n_hours": 18,
+   "median_gap": 9,
+   "max_gap": 10,
+   "min_gap": 8
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/亦庄-宋家庄-1.jpg",
+  "id": "亦庄-宋家庄-1",
+  "n_times": 165,
+  "stats": {
+   "n": 165,
+   "n_hours": 19,
+   "median_gap": 5,
+   "max_gap": 12,
+   "min_gap": 3
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/亦庄-宋家庄-2.jpg",
+  "id": "亦庄-宋家庄-2",
+  "n_times": 116,
+  "stats": {
+   "n": 116,
+   "n_hours": 19,
+   "median_gap": 9,
+   "max_gap": 19,
+   "min_gap": 4
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 389,
+    "kind": "ocr_fail",
+    "text": "0817273644533"
+   },
+   {
+    "row_y": 1036,
+    "kind": "ocr_fail",
+    "text": "1726354454"
+   }
+  ]
+ },
+ {
+  "source": "timetables/亦庄-小红门-1.jpg",
+  "id": "亦庄-小红门-1",
+  "n_times": 165,
+  "stats": {
+   "n": 165,
+   "n_hours": 18,
+   "median_gap": 5,
+   "max_gap": 12,
+   "min_gap": 3
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/亦庄-小红门-2.jpg",
+  "id": "亦庄-小红门-2",
+  "n_times": 165,
+  "stats": {
+   "n": 165,
+   "n_hours": 19,
+   "median_gap": 5,
+   "max_gap": 11,
+   "min_gap": 3
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/亦庄-小红门-3.jpg",
+  "id": "亦庄-小红门-3",
+  "n_times": 116,
+  "stats": {
+   "n": 116,
+   "n_hours": 18,
+   "median_gap": 9,
+   "max_gap": 10,
+   "min_gap": 8
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 390,
+    "kind": "ocr_fail",
+    "text": "0817273644533"
+   },
+   {
+    "row_y": 433,
+    "kind": "ocr_fail",
+    "text": "011018273544652"
+   },
+   {
+    "row_y": 477,
+    "kind": "ocr_fail",
+    "text": "010918263543652"
+   },
+   {
+    "row_y": 520,
+    "kind": "repaired_swap",
+    "text": "82",
+    "fixed": "28"
+   },
+   {
+    "row_y": 866,
+    "kind": "ocr_fail",
+    "text": "011019283645533"
+   },
+   {
+    "row_y": 909,
+    "kind": "ocr_fail",
+    "text": "021019273644583"
+   }
+  ]
+ },
+ {
+  "source": "timetables/亦庄-小红门-4.jpg",
+  "id": "亦庄-小红门-4",
+  "n_times": 116,
+  "stats": {
+   "n": 116,
+   "n_hours": 19,
+   "median_gap": 9,
+   "max_gap": 10,
+   "min_gap": 8
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 346,
+    "kind": "ocr_fail",
+    "text": "43857"
+   }
+  ]
+ },
+ {
+  "source": "timetables/亦庄-旧宫-1.jpg",
+  "id": "亦庄-旧宫-1",
+  "n_times": 165,
+  "stats": {
+   "n": 165,
+   "n_hours": 18,
+   "median_gap": 5,
+   "max_gap": 12,
+   "min_gap": 3
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/亦庄-旧宫-2.jpg",
+  "id": "亦庄-旧宫-2",
+  "n_times": 165,
+  "stats": {
+   "n": 165,
+   "n_hours": 19,
+   "median_gap": 5,
+   "max_gap": 11,
+   "min_gap": 3
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/亦庄-旧宫-3.jpg",
+  "id": "亦庄-旧宫-3",
+  "n_times": 116,
+  "stats": {
+   "n": 116,
+   "n_hours": 18,
+   "median_gap": 9,
+   "max_gap": 10,
+   "min_gap": 8
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/亦庄-旧宫-4.jpg",
+  "id": "亦庄-旧宫-4",
+  "n_times": 116,
+  "stats": {
+   "n": 116,
+   "n_hours": 19,
+   "median_gap": 9,
+   "max_gap": 10,
+   "min_gap": 8
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/亦庄-次渠-1.jpg",
+  "id": "亦庄-次渠-1",
+  "n_times": 165,
+  "stats": {
+   "n": 165,
+   "n_hours": 18,
+   "median_gap": 5,
+   "max_gap": 12,
+   "min_gap": 3
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/亦庄-次渠-2.jpg",
+  "id": "亦庄-次渠-2",
+  "n_times": 165,
+  "stats": {
+   "n": 165,
+   "n_hours": 18,
+   "median_gap": 5,
+   "max_gap": 11,
+   "min_gap": 3
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/亦庄-次渠-3.jpg",
+  "id": "亦庄-次渠-3",
+  "n_times": 116,
+  "stats": {
+   "n": 116,
+   "n_hours": 18,
+   "median_gap": 9,
+   "max_gap": 10,
+   "min_gap": 8
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 606,
+    "kind": "ocr_fail",
+    "text": "0811726354554"
+   },
+   {
+    "row_y": 908,
+    "kind": "ocr_fail",
+    "text": "02111923645583"
+   }
+  ]
+ },
+ {
+  "source": "timetables/亦庄-次渠-4.jpg",
+  "id": "亦庄-次渠-4",
+  "n_times": 116,
+  "stats": {
+   "n": 116,
+   "n_hours": 18,
+   "median_gap": 9,
+   "max_gap": 10,
+   "min_gap": 8
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/亦庄-次渠南-1.jpg",
+  "id": "亦庄-次渠南-1",
+  "n_times": 165,
+  "stats": {
+   "n": 165,
+   "n_hours": 18,
+   "median_gap": 5,
+   "max_gap": 12,
+   "min_gap": 3
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/亦庄-次渠南-2.jpg",
+  "id": "亦庄-次渠南-2",
+  "n_times": 165,
+  "stats": {
+   "n": 165,
+   "n_hours": 18,
+   "median_gap": 5,
+   "max_gap": 11,
+   "min_gap": 3
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/亦庄-次渠南-3.jpg",
+  "id": "亦庄-次渠南-3",
+  "n_times": 116,
+  "stats": {
+   "n": 116,
+   "n_hours": 18,
+   "median_gap": 9,
+   "max_gap": 10,
+   "min_gap": 8
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 865,
+    "kind": "ocr_fail",
+    "text": "0615253443452"
+   },
+   {
+    "row_y": 951,
+    "kind": "ocr_fail",
+    "text": "0008172344352"
+   }
+  ]
+ },
+ {
+  "source": "timetables/亦庄-次渠南-4.jpg",
+  "id": "亦庄-次渠南-4",
+  "n_times": 116,
+  "stats": {
+   "n": 116,
+   "n_hours": 18,
+   "median_gap": 9,
+   "max_gap": 10,
+   "min_gap": 8
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 390,
+    "kind": "ocr_fail",
+    "text": "0110202938457"
+   }
+  ]
+ },
+ {
+  "source": "timetables/亦庄-经海路-1.jpg",
+  "id": "亦庄-经海路-1",
+  "n_times": 165,
+  "stats": {
+   "n": 165,
+   "n_hours": 18,
+   "median_gap": 5,
+   "max_gap": 12,
+   "min_gap": 3
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/亦庄-经海路-2.jpg",
+  "id": "亦庄-经海路-2",
+  "n_times": 165,
+  "stats": {
+   "n": 165,
+   "n_hours": 18,
+   "median_gap": 5,
+   "max_gap": 11,
+   "min_gap": 3
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/亦庄-经海路-3.jpg",
+  "id": "亦庄-经海路-3",
+  "n_times": 116,
+  "stats": {
+   "n": 116,
+   "n_hours": 18,
+   "median_gap": 9,
+   "max_gap": 10,
+   "min_gap": 8
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/亦庄-经海路-4.jpg",
+  "id": "亦庄-经海路-4",
+  "n_times": 116,
+  "stats": {
+   "n": 116,
+   "n_hours": 18,
+   "median_gap": 9,
+   "max_gap": 10,
+   "min_gap": 8
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 562,
+    "kind": "ocr_fail",
+    "text": "0010192837456"
+   },
+   {
+    "row_y": 777,
+    "kind": "ocr_fail",
+    "text": "0615243343852"
+   },
+   {
+    "row_y": 863,
+    "kind": "ocr_fail",
+    "text": "0615243443852"
+   }
+  ]
+ },
+ {
+  "source": "timetables/亦庄-肖村-1.jpg",
+  "id": "亦庄-肖村-1",
+  "n_times": 165,
+  "stats": {
+   "n": 165,
+   "n_hours": 18,
+   "median_gap": 5,
+   "max_gap": 12,
+   "min_gap": 3
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/亦庄-肖村-2.jpg",
+  "id": "亦庄-肖村-2",
+  "n_times": 165,
+  "stats": {
+   "n": 165,
+   "n_hours": 19,
+   "median_gap": 6,
+   "max_gap": 11,
+   "min_gap": 3
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/亦庄-肖村-3.jpg",
+  "id": "亦庄-肖村-3",
+  "n_times": 116,
+  "stats": {
+   "n": 116,
+   "n_hours": 18,
+   "median_gap": 9,
+   "max_gap": 18,
+   "min_gap": 4
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 433,
+    "kind": "ocr_fail",
+    "text": "0816233425059"
+   },
+   {
+    "row_y": 519,
+    "kind": "repaired_swap",
+    "text": "62",
+    "fixed": "26"
+   },
+   {
+    "row_y": 605,
+    "kind": "repaired_swap",
+    "text": "62",
+    "fixed": "26"
+   },
+   {
+    "row_y": 863,
+    "kind": "ocr_fail",
+    "text": "0817234425159"
+   }
+  ]
+ },
+ {
+  "source": "timetables/亦庄-肖村-4.jpg",
+  "id": "亦庄-肖村-4",
+  "n_times": 116,
+  "stats": {
+   "n": 116,
+   "n_hours": 19,
+   "median_gap": 9,
+   "max_gap": 21,
+   "min_gap": 8
+  },
+  "issues": [
+   {
+    "kind": "gap_large",
+    "gap": 21,
+    "at": "23:10->23:31",
+    "msg": "gap 21 min exceeds 20 (possible missed train)"
+   }
+  ],
+  "flags": [
+   {
+    "row_y": 389,
+    "kind": "ocr_fail",
+    "text": "000918234655"
+   },
+   {
+    "row_y": 647,
+    "kind": "ocr_fail",
+    "text": "0515243342652"
+   }
+  ]
+ },
+ {
+  "source": "timetables/亦庄-荣京东街-1.jpg",
+  "id": "亦庄-荣京东街-1",
+  "n_times": 165,
+  "stats": {
+   "n": 165,
+   "n_hours": 18,
+   "median_gap": 5,
+   "max_gap": 12,
+   "min_gap": 3
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/亦庄-荣京东街-2.jpg",
+  "id": "亦庄-荣京东街-2",
+  "n_times": 165,
+  "stats": {
+   "n": 165,
+   "n_hours": 18,
+   "median_gap": 5,
+   "max_gap": 11,
+   "min_gap": 3
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/亦庄-荣京东街-3.jpg",
+  "id": "亦庄-荣京东街-3",
+  "n_times": 116,
+  "stats": {
+   "n": 116,
+   "n_hours": 18,
+   "median_gap": 9,
+   "max_gap": 10,
+   "min_gap": 8
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/亦庄-荣京东街-4.jpg",
+  "id": "亦庄-荣京东街-4",
+  "n_times": 116,
+  "stats": {
+   "n": 116,
+   "n_hours": 18,
+   "median_gap": 9,
+   "max_gap": 10,
+   "min_gap": 8
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 389,
+    "kind": "ocr_fail",
+    "text": "031322314050459"
+   },
+   {
+    "row_y": 562,
+    "kind": "ocr_fail",
+    "text": "0009182734655"
+   },
+   {
+    "row_y": 908,
+    "kind": "ocr_fail",
+    "text": "0109182634382"
+   }
+  ]
+ },
+ {
+  "source": "timetables/亦庄-荣昌东街-1.jpg",
+  "id": "亦庄-荣昌东街-1",
+  "n_times": 165,
+  "stats": {
+   "n": 165,
+   "n_hours": 18,
+   "median_gap": 5,
+   "max_gap": 12,
+   "min_gap": 3
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/亦庄-荣昌东街-2.jpg",
+  "id": "亦庄-荣昌东街-2",
+  "n_times": 165,
+  "stats": {
+   "n": 165,
+   "n_hours": 18,
+   "median_gap": 5,
+   "max_gap": 11,
+   "min_gap": 3
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/亦庄-荣昌东街-3.jpg",
+  "id": "亦庄-荣昌东街-3",
+  "n_times": 116,
+  "stats": {
+   "n": 116,
+   "n_hours": 18,
+   "median_gap": 9,
+   "max_gap": 10,
+   "min_gap": 8
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 993,
+    "kind": "ocr_fail",
+    "text": "0110192838456"
+   }
+  ]
+ },
+ {
+  "source": "timetables/亦庄-荣昌东街-4.jpg",
+  "id": "亦庄-荣昌东街-4",
+  "n_times": 116,
+  "stats": {
+   "n": 116,
+   "n_hours": 18,
+   "median_gap": 9,
+   "max_gap": 10,
+   "min_gap": 8
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 390,
+    "kind": "ocr_fail",
+    "text": "0110202938457"
+   },
+   {
+    "row_y": 562,
+    "kind": "ocr_fail",
+    "text": "0716253444533"
+   }
+  ]
+ }
+]

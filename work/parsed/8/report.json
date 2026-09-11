@@ -1,0 +1,3871 @@
+[
+ {
+  "source": "timetables/8-东高地-2.jpg",
+  "id": "8-东高地-2",
+  "n_times": 219,
+  "stats": {
+   "n": 219,
+   "n_hours": 19,
+   "median_gap": 5,
+   "max_gap": 9,
+   "min_gap": 2
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/8-东高地-3.jpg",
+  "id": "8-东高地-3",
+  "n_times": 124,
+  "stats": {
+   "n": 124,
+   "n_hours": 18,
+   "median_gap": 8,
+   "max_gap": 66,
+   "min_gap": 5
+  },
+  "issues": [
+   {
+    "kind": "gap_large",
+    "gap": 66,
+    "at": "05:57->07:03",
+    "msg": "gap 66 min exceeds 18 (possible missed train)"
+   },
+   {
+    "kind": "hour_gap",
+    "msg": "hours 5->7 not consecutive"
+   }
+  ],
+  "flags": [
+   {
+    "row_y": 976,
+    "kind": "ocr_fail",
+    "text": "0717273747355"
+   }
+  ]
+ },
+ {
+  "source": "timetables/8-东高地-4.jpg",
+  "id": "8-东高地-4",
+  "n_times": 113,
+  "stats": {
+   "n": 113,
+   "n_hours": 19,
+   "median_gap": 8,
+   "max_gap": 20,
+   "min_gap": 5
+  },
+  "issues": [
+   {
+    "kind": "gap_large",
+    "gap": 20,
+    "at": "02:55->03:15",
+    "msg": "gap 20 min exceeds 18 (possible missed train)"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 20,
+    "at": "03:54->04:14",
+    "msg": "gap 20 min exceeds 18 (possible missed train)"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 18,
+    "at": "04:52->05:10",
+    "msg": "gap 18 min exceeds 18 (possible missed train)"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 18,
+    "at": "05:58->06:16",
+    "msg": "gap 18 min exceeds 18 (possible missed train)"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 18,
+    "at": "06:54->07:12",
+    "msg": "gap 18 min exceeds 18 (possible missed train)"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 20,
+    "at": "07:58->08:18",
+    "msg": "gap 20 min exceeds 18 (possible missed train)"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 20,
+    "at": "08:54->09:14",
+    "msg": "gap 20 min exceeds 18 (possible missed train)"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 20,
+    "at": "09:50->10:10",
+    "msg": "gap 20 min exceeds 18 (possible missed train)"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 18,
+    "at": "10:56->11:14",
+    "msg": "gap 18 min exceeds 18 (possible missed train)"
+   }
+  ],
+  "flags": []
+ },
+ {
+  "source": "timetables/8-中国美术馆-1.jpg",
+  "id": "8-中国美术馆-1",
+  "n_times": 216,
+  "stats": {
+   "n": 216,
+   "n_hours": 19,
+   "median_gap": 4,
+   "max_gap": 13,
+   "min_gap": 3
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/8-中国美术馆-2.jpg",
+  "id": "8-中国美术馆-2",
+  "n_times": 216,
+  "stats": {
+   "n": 216,
+   "n_hours": 19,
+   "median_gap": 5,
+   "max_gap": 10,
+   "min_gap": 2
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/8-中国美术馆-3.jpg",
+  "id": "8-中国美术馆-3",
+  "n_times": 150,
+  "stats": {
+   "n": 150,
+   "n_hours": 19,
+   "median_gap": 7,
+   "max_gap": 352,
+   "min_gap": 4
+  },
+  "issues": [
+   {
+    "kind": "gap_large",
+    "gap": 20,
+    "at": "00:56->01:16",
+    "msg": "gap 20 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 16,
+    "at": "01:58->02:14",
+    "msg": "gap 16 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 16,
+    "at": "02:54->03:10",
+    "msg": "gap 16 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 17,
+    "at": "16:56->17:13",
+    "msg": "gap 17 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "hour_gap",
+    "msg": "hours 17->23 not consecutive"
+   }
+  ],
+  "flags": []
+ },
+ {
+  "source": "timetables/8-中国美术馆-4.jpg",
+  "id": "8-中国美术馆-4",
+  "n_times": 169,
+  "stats": {
+   "n": 169,
+   "n_hours": 19,
+   "median_gap": 7,
+   "max_gap": 11,
+   "min_gap": 4
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 1593,
+    "kind": "bad_minute",
+    "text": "97"
+   },
+   {
+    "row_y": 1695,
+    "kind": "ocr_fail",
+    "text": "93101926313847545"
+   },
+   {
+    "row_y": 1900,
+    "kind": "bad_minute",
+    "text": "96"
+   },
+   {
+    "row_y": 2310,
+    "kind": "repaired_swap",
+    "text": "95",
+    "fixed": "59"
+   }
+  ]
+ },
+ {
+  "source": "timetables/8-五福堂-1.jpg",
+  "id": "8-五福堂-1",
+  "n_times": 213,
+  "stats": {
+   "n": 213,
+   "n_hours": 18,
+   "median_gap": 4,
+   "max_gap": 10,
+   "min_gap": 3
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/8-五福堂-2.jpg",
+  "id": "8-五福堂-2",
+  "n_times": 213,
+  "stats": {
+   "n": 213,
+   "n_hours": 18,
+   "median_gap": 5,
+   "max_gap": 9,
+   "min_gap": 2
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 874,
+    "kind": "ocr_fail",
+    "text": "9058"
+   }
+  ]
+ },
+ {
+  "source": "timetables/8-五福堂-3.jpg",
+  "id": "8-五福堂-3",
+  "n_times": 129,
+  "stats": {
+   "n": 129,
+   "n_hours": 18,
+   "median_gap": 8,
+   "max_gap": 11,
+   "min_gap": 5
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/8-五福堂-4.jpg",
+  "id": "8-五福堂-4",
+  "n_times": 112,
+  "stats": {
+   "n": 112,
+   "n_hours": 18,
+   "median_gap": 9,
+   "max_gap": 20,
+   "min_gap": 5
+  },
+  "issues": [
+   {
+    "kind": "gap_large",
+    "gap": 20,
+    "at": "01:50->02:10",
+    "msg": "gap 20 min exceeds 20 (possible missed train)"
+   }
+  ],
+  "flags": []
+ },
+ {
+  "source": "timetables/8-什刹海-1.jpg",
+  "id": "8-什刹海-1",
+  "n_times": 216,
+  "stats": {
+   "n": 216,
+   "n_hours": 19,
+   "median_gap": 4,
+   "max_gap": 10,
+   "min_gap": 3
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/8-什刹海-2.jpg",
+  "id": "8-什刹海-2",
+  "n_times": 193,
+  "stats": {
+   "n": 193,
+   "n_hours": 16,
+   "median_gap": 4,
+   "max_gap": 9,
+   "min_gap": 2
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/8-什刹海-3.jpg",
+  "id": "8-什刹海-3",
+  "n_times": 150,
+  "stats": {
+   "n": 150,
+   "n_hours": 19,
+   "median_gap": 7,
+   "max_gap": 355,
+   "min_gap": 5
+  },
+  "issues": [
+   {
+    "kind": "gap_large",
+    "gap": 16,
+    "at": "09:53->10:09",
+    "msg": "gap 16 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 16,
+    "at": "10:53->11:09",
+    "msg": "gap 16 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 20,
+    "at": "17:51->18:11",
+    "msg": "gap 20 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 20,
+    "at": "18:51->19:11",
+    "msg": "gap 20 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "hour_gap",
+    "msg": "hours 11->17 not consecutive"
+   }
+  ],
+  "flags": []
+ },
+ {
+  "source": "timetables/8-什刹海-4.jpg",
+  "id": "8-什刹海-4",
+  "n_times": 169,
+  "stats": {
+   "n": 169,
+   "n_hours": 19,
+   "median_gap": 5,
+   "max_gap": 339,
+   "min_gap": 4
+  },
+  "issues": [
+   {
+    "kind": "gap_large",
+    "gap": 23,
+    "at": "05:50->06:13",
+    "msg": "gap 23 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 20,
+    "at": "07:51->08:11",
+    "msg": "gap 20 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 16,
+    "at": "14:54->15:10",
+    "msg": "gap 16 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 16,
+    "at": "19:56->20:12",
+    "msg": "gap 16 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "hour_gap",
+    "msg": "hours 8->14 not consecutive"
+   }
+  ],
+  "flags": [
+   {
+    "row_y": 2103,
+    "kind": "bad_minute",
+    "text": "79"
+   }
+  ]
+ },
+ {
+  "source": "timetables/8-前门-1.jpg",
+  "id": "8-前门-1",
+  "n_times": 214,
+  "stats": {
+   "n": 214,
+   "n_hours": 19,
+   "median_gap": 4,
+   "max_gap": 10,
+   "min_gap": 3
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/8-前门-2.jpg",
+  "id": "8-前门-2",
+  "n_times": 216,
+  "stats": {
+   "n": 216,
+   "n_hours": 19,
+   "median_gap": 5,
+   "max_gap": 10,
+   "min_gap": 2
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/8-前门-3.jpg",
+  "id": "8-前门-3",
+  "n_times": 148,
+  "stats": {
+   "n": 148,
+   "n_hours": 19,
+   "median_gap": 7,
+   "max_gap": 376,
+   "min_gap": 3
+  },
+  "issues": [
+   {
+    "kind": "gap_large",
+    "gap": 16,
+    "at": "02:55->03:11",
+    "msg": "gap 16 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 19,
+    "at": "04:56->05:15",
+    "msg": "gap 19 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 20,
+    "at": "11:58->12:18",
+    "msg": "gap 20 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 19,
+    "at": "12:58->13:17",
+    "msg": "gap 19 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 17,
+    "at": "18:57->19:14",
+    "msg": "gap 17 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 18,
+    "at": "19:53->20:11",
+    "msg": "gap 18 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "hour_gap",
+    "msg": "hours 5->11 not consecutive"
+   }
+  ],
+  "flags": []
+ },
+ {
+  "source": "timetables/8-前门-4.jpg",
+  "id": "8-前门-4",
+  "n_times": 150,
+  "stats": {
+   "n": 150,
+   "n_hours": 19,
+   "median_gap": 6,
+   "max_gap": 20,
+   "min_gap": 4
+  },
+  "issues": [
+   {
+    "kind": "gap_large",
+    "gap": 19,
+    "at": "00:54->01:13",
+    "msg": "gap 19 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 20,
+    "at": "01:53->02:13",
+    "msg": "gap 20 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 17,
+    "at": "05:57->06:14",
+    "msg": "gap 17 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 17,
+    "at": "06:53->07:10",
+    "msg": "gap 17 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 19,
+    "at": "17:55->18:14",
+    "msg": "gap 19 min exceeds 15 (possible missed train)"
+   }
+  ],
+  "flags": []
+ },
+ {
+  "source": "timetables/8-北土城-1.jpg",
+  "id": "8-北土城-1",
+  "n_times": 216,
+  "stats": {
+   "n": 216,
+   "n_hours": 19,
+   "median_gap": 4,
+   "max_gap": 10,
+   "min_gap": 3
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/8-北土城-2.jpg",
+  "id": "8-北土城-2",
+  "n_times": 0,
+  "stats": {
+   "n": 0,
+   "n_hours": 0,
+   "median_gap": null,
+   "max_gap": null,
+   "min_gap": null
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 465,
+    "kind": "ocr_fail",
+    "text": "0"
+   },
+   {
+    "row_y": 566,
+    "kind": "ocr_fail",
+    "text": ""
+   },
+   {
+    "row_y": 776,
+    "kind": "ocr_fail",
+    "text": "2"
+   }
+  ]
+ },
+ {
+  "source": "timetables/8-北土城-3.jpg",
+  "id": "8-北土城-3",
+  "n_times": 165,
+  "stats": {
+   "n": 165,
+   "n_hours": 18,
+   "median_gap": 5,
+   "max_gap": 248,
+   "min_gap": 5
+  },
+  "issues": [
+   {
+    "kind": "hour_gap",
+    "msg": "hours 4->7 not consecutive"
+   },
+   {
+    "kind": "hour_gap",
+    "msg": "hours 11->16 not consecutive"
+   }
+  ],
+  "flags": [
+   {
+    "row_y": 2001,
+    "kind": "bad_minute",
+    "text": "78"
+   },
+   {
+    "row_y": 2103,
+    "kind": "ocr_fail",
+    "text": "0308131823728333843485358"
+   },
+   {
+    "row_y": 2206,
+    "kind": "ocr_fail",
+    "text": "0308131823728333843485358"
+   }
+  ]
+ },
+ {
+  "source": "timetables/8-北土城-4.jpg",
+  "id": "8-北土城-4",
+  "n_times": 157,
+  "stats": {
+   "n": 157,
+   "n_hours": 18,
+   "median_gap": 7,
+   "max_gap": 70,
+   "min_gap": 3
+  },
+  "issues": [
+   {
+    "kind": "gap_large",
+    "gap": 20,
+    "at": "00:51->01:11",
+    "msg": "gap 20 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 21,
+    "at": "02:54->03:15",
+    "msg": "gap 21 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 70,
+    "at": "06:59->08:09",
+    "msg": "gap 70 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 17,
+    "at": "15:55->16:12",
+    "msg": "gap 17 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "hour_gap",
+    "msg": "hours 6->8 not consecutive"
+   }
+  ],
+  "flags": [
+   {
+    "row_y": 1386,
+    "kind": "bad_minute",
+    "text": "78"
+   },
+   {
+    "row_y": 1591,
+    "kind": "ocr_fail",
+    "text": "06132902734414855"
+   },
+   {
+    "row_y": 1898,
+    "kind": "repaired_swap",
+    "text": "95",
+    "fixed": "59"
+   }
+  ]
+ },
+ {
+  "source": "timetables/8-南锣鼓巷-1.jpg",
+  "id": "8-南锣鼓巷-1",
+  "n_times": 216,
+  "stats": {
+   "n": 216,
+   "n_hours": 19,
+   "median_gap": 4,
+   "max_gap": 11,
+   "min_gap": 3
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/8-南锣鼓巷-2.jpg",
+  "id": "8-南锣鼓巷-2",
+  "n_times": 216,
+  "stats": {
+   "n": 216,
+   "n_hours": 19,
+   "median_gap": 5,
+   "max_gap": 10,
+   "min_gap": 2
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/8-南锣鼓巷-3.jpg",
+  "id": "8-南锣鼓巷-3",
+  "n_times": 139,
+  "stats": {
+   "n": 139,
+   "n_hours": 18,
+   "median_gap": 7,
+   "max_gap": 355,
+   "min_gap": 4
+  },
+  "issues": [
+   {
+    "kind": "gap_large",
+    "gap": 70,
+    "at": "00:58->02:08",
+    "msg": "gap 70 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 18,
+    "at": "07:58->08:16",
+    "msg": "gap 18 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 20,
+    "at": "14:59->15:19",
+    "msg": "gap 20 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 20,
+    "at": "15:59->16:19",
+    "msg": "gap 20 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 16,
+    "at": "17:57->18:13",
+    "msg": "gap 16 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 16,
+    "at": "18:53->19:09",
+    "msg": "gap 16 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "hour_gap",
+    "msg": "hours 8->14 not consecutive"
+   }
+  ],
+  "flags": [
+   {
+    "row_y": 2005,
+    "kind": "ocr_fail",
+    "text": "0720812182328333843485358"
+   }
+  ]
+ },
+ {
+  "source": "timetables/8-南锣鼓巷-4.jpg",
+  "id": "8-南锣鼓巷-4",
+  "n_times": 131,
+  "stats": {
+   "n": 131,
+   "n_hours": 16,
+   "median_gap": 7,
+   "max_gap": 409,
+   "min_gap": 1
+  },
+  "issues": [
+   {
+    "kind": "gap_large",
+    "gap": 20,
+    "at": "03:54->04:14",
+    "msg": "gap 20 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 18,
+    "at": "11:53->12:11",
+    "msg": "gap 18 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "gap_small",
+    "gap": 1,
+    "at": "12:59->13:00",
+    "msg": "gap 1 min is below 2"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 69,
+    "at": "14:59->16:08",
+    "msg": "gap 69 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 71,
+    "at": "18:56->20:07",
+    "msg": "gap 71 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "hour_gap",
+    "msg": "hours 4->11 not consecutive"
+   },
+   {
+    "kind": "hour_gap",
+    "msg": "hours 14->16 not consecutive"
+   },
+   {
+    "kind": "hour_gap",
+    "msg": "hours 18->20 not consecutive"
+   }
+  ],
+  "flags": [
+   {
+    "row_y": 873,
+    "kind": "ocr_fail",
+    "text": "13724344453"
+   },
+   {
+    "row_y": 1386,
+    "kind": "ocr_fail",
+    "text": "06121927344047355"
+   },
+   {
+    "row_y": 1796,
+    "kind": "ocr_fail",
+    "text": "03101722273237424735257"
+   }
+  ]
+ },
+ {
+  "source": "timetables/8-和义-1.jpg",
+  "id": "8-和义-1",
+  "n_times": 214,
+  "stats": {
+   "n": 214,
+   "n_hours": 19,
+   "median_gap": 4,
+   "max_gap": 10,
+   "min_gap": 3
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/8-和义-2.jpg",
+  "id": "8-和义-2",
+  "n_times": 205,
+  "stats": {
+   "n": 205,
+   "n_hours": 18,
+   "median_gap": 4,
+   "max_gap": 65,
+   "min_gap": 2
+  },
+  "issues": [
+   {
+    "kind": "gap_large",
+    "gap": 65,
+    "at": "15:57->17:02",
+    "msg": "gap 65 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "hour_gap",
+    "msg": "hours 15->17 not consecutive"
+   }
+  ],
+  "flags": [
+   {
+    "row_y": 2002,
+    "kind": "ocr_fail",
+    "text": "04121722273237424735257"
+   }
+  ]
+ },
+ {
+  "source": "timetables/8-和义-3.jpg",
+  "id": "8-和义-3",
+  "n_times": 130,
+  "stats": {
+   "n": 130,
+   "n_hours": 19,
+   "median_gap": 8,
+   "max_gap": 11,
+   "min_gap": 5
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/8-和义-4.jpg",
+  "id": "8-和义-4",
+  "n_times": 113,
+  "stats": {
+   "n": 113,
+   "n_hours": 19,
+   "median_gap": 9,
+   "max_gap": 20,
+   "min_gap": 5
+  },
+  "issues": [
+   {
+    "kind": "gap_large",
+    "gap": 20,
+    "at": "00:53->01:13",
+    "msg": "gap 20 min exceeds 20 (possible missed train)"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 20,
+    "at": "01:52->02:12",
+    "msg": "gap 20 min exceeds 20 (possible missed train)"
+   }
+  ],
+  "flags": []
+ },
+ {
+  "source": "timetables/8-回龙观东大街-1.jpg",
+  "id": "8-回龙观东大街-1",
+  "n_times": 244,
+  "stats": {
+   "n": 244,
+   "n_hours": 20,
+   "median_gap": 4,
+   "max_gap": 10,
+   "min_gap": 2
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 874,
+    "kind": "ocr_fail",
+    "text": "9158"
+   }
+  ]
+ },
+ {
+  "source": "timetables/8-回龙观东大街-2.jpg",
+  "id": "8-回龙观东大街-2",
+  "n_times": 216,
+  "stats": {
+   "n": 216,
+   "n_hours": 19,
+   "median_gap": 5,
+   "max_gap": 10,
+   "min_gap": 2
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/8-回龙观东大街-3.jpg",
+  "id": "8-回龙观东大街-3",
+  "n_times": 156,
+  "stats": {
+   "n": 156,
+   "n_hours": 19,
+   "median_gap": 7,
+   "max_gap": 69,
+   "min_gap": 3
+  },
+  "issues": [
+   {
+    "kind": "gap_large",
+    "gap": 16,
+    "at": "04:54->05:10",
+    "msg": "gap 16 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 69,
+    "at": "10:58->12:07",
+    "msg": "gap 69 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 18,
+    "at": "20:51->21:09",
+    "msg": "gap 18 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "hour_gap",
+    "msg": "hours 10->12 not consecutive"
+   }
+  ],
+  "flags": [
+   {
+    "row_y": 1898,
+    "kind": "ocr_fail",
+    "text": "00071418212832354249556"
+   }
+  ]
+ },
+ {
+  "source": "timetables/8-回龙观东大街-4.jpg",
+  "id": "8-回龙观东大街-4",
+  "n_times": 152,
+  "stats": {
+   "n": 152,
+   "n_hours": 18,
+   "median_gap": 7,
+   "max_gap": 311,
+   "min_gap": 4
+  },
+  "issues": [
+   {
+    "kind": "gap_large",
+    "gap": 70,
+    "at": "00:57->02:07",
+    "msg": "gap 70 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 17,
+    "at": "06:53->07:10",
+    "msg": "gap 17 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 21,
+    "at": "13:57->14:18",
+    "msg": "gap 21 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 20,
+    "at": "14:58->15:18",
+    "msg": "gap 20 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "hour_gap",
+    "msg": "hours 7->13 not consecutive"
+   }
+  ],
+  "flags": [
+   {
+    "row_y": 2103,
+    "kind": "ocr_fail",
+    "text": "02071217229732374247525"
+   },
+   {
+    "row_y": 2206,
+    "kind": "bad_minute",
+    "text": "97"
+   },
+   {
+    "row_y": 2308,
+    "kind": "bad_minute",
+    "text": "97"
+   }
+  ]
+ },
+ {
+  "source": "timetables/8-大红门-1.jpg",
+  "id": "8-大红门-1",
+  "n_times": 215,
+  "stats": {
+   "n": 215,
+   "n_hours": 19,
+   "median_gap": 4,
+   "max_gap": 10,
+   "min_gap": 2
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/8-大红门-2.jpg",
+  "id": "8-大红门-2",
+  "n_times": 217,
+  "stats": {
+   "n": 217,
+   "n_hours": 19,
+   "median_gap": 5,
+   "max_gap": 10,
+   "min_gap": 2
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/8-大红门-3.jpg",
+  "id": "8-大红门-3",
+  "n_times": 131,
+  "stats": {
+   "n": 131,
+   "n_hours": 19,
+   "median_gap": 8,
+   "max_gap": 11,
+   "min_gap": 3
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/8-大红门-4.jpg",
+  "id": "8-大红门-4",
+  "n_times": 115,
+  "stats": {
+   "n": 115,
+   "n_hours": 19,
+   "median_gap": 9,
+   "max_gap": 20,
+   "min_gap": 3
+  },
+  "issues": [
+   {
+    "kind": "gap_large",
+    "gap": 20,
+    "at": "06:57->07:17",
+    "msg": "gap 20 min exceeds 20 (possible missed train)"
+   }
+  ],
+  "flags": []
+ },
+ {
+  "source": "timetables/8-大红门南-1.jpg",
+  "id": "8-大红门南-1",
+  "n_times": 214,
+  "stats": {
+   "n": 214,
+   "n_hours": 19,
+   "median_gap": 4,
+   "max_gap": 10,
+   "min_gap": 3
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/8-大红门南-2.jpg",
+  "id": "8-大红门南-2",
+  "n_times": 216,
+  "stats": {
+   "n": 216,
+   "n_hours": 19,
+   "median_gap": 5,
+   "max_gap": 10,
+   "min_gap": 2
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/8-大红门南-3.jpg",
+  "id": "8-大红门南-3",
+  "n_times": 130,
+  "stats": {
+   "n": 130,
+   "n_hours": 19,
+   "median_gap": 8,
+   "max_gap": 11,
+   "min_gap": 5
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/8-大红门南-4.jpg",
+  "id": "8-大红门南-4",
+  "n_times": 113,
+  "stats": {
+   "n": 113,
+   "n_hours": 19,
+   "median_gap": 9,
+   "max_gap": 20,
+   "min_gap": 5
+  },
+  "issues": [
+   {
+    "kind": "gap_large",
+    "gap": 20,
+    "at": "02:50->03:10",
+    "msg": "gap 20 min exceeds 20 (possible missed train)"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 20,
+    "at": "03:59->04:19",
+    "msg": "gap 20 min exceeds 20 (possible missed train)"
+   }
+  ],
+  "flags": []
+ },
+ {
+  "source": "timetables/8-天桥-1.jpg",
+  "id": "8-天桥-1",
+  "n_times": 214,
+  "stats": {
+   "n": 214,
+   "n_hours": 19,
+   "median_gap": 4,
+   "max_gap": 10,
+   "min_gap": 3
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/8-天桥-2.jpg",
+  "id": "8-天桥-2",
+  "n_times": 216,
+  "stats": {
+   "n": 216,
+   "n_hours": 19,
+   "median_gap": 5,
+   "max_gap": 10,
+   "min_gap": 2
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/8-天桥-3.jpg",
+  "id": "8-天桥-3",
+  "n_times": 130,
+  "stats": {
+   "n": 130,
+   "n_hours": 19,
+   "median_gap": 8,
+   "max_gap": 11,
+   "min_gap": 5
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/8-天桥-4.jpg",
+  "id": "8-天桥-4",
+  "n_times": 113,
+  "stats": {
+   "n": 113,
+   "n_hours": 19,
+   "median_gap": 9,
+   "max_gap": 361,
+   "min_gap": 5
+  },
+  "issues": [
+   {
+    "kind": "gap_large",
+    "gap": 20,
+    "at": "21:58->22:18",
+    "msg": "gap 20 min exceeds 20 (possible missed train)"
+   },
+   {
+    "kind": "hour_gap",
+    "msg": "hours 14->20 not consecutive"
+   }
+  ],
+  "flags": []
+ },
+ {
+  "source": "timetables/8-奥体中心-1.jpg",
+  "id": "8-奥体中心-1",
+  "n_times": 190,
+  "stats": {
+   "n": 190,
+   "n_hours": 16,
+   "median_gap": 4,
+   "max_gap": 10,
+   "min_gap": 3
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/8-奥体中心-2.jpg",
+  "id": "8-奥体中心-2",
+  "n_times": 219,
+  "stats": {
+   "n": 219,
+   "n_hours": 19,
+   "median_gap": 5,
+   "max_gap": 9,
+   "min_gap": 2
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/8-奥体中心-3.jpg",
+  "id": "8-奥体中心-3",
+  "n_times": 150,
+  "stats": {
+   "n": 150,
+   "n_hours": 19,
+   "median_gap": 7,
+   "max_gap": 20,
+   "min_gap": 5
+  },
+  "issues": [
+   {
+    "kind": "gap_large",
+    "gap": 20,
+    "at": "01:52->02:12",
+    "msg": "gap 20 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 20,
+    "at": "02:52->03:12",
+    "msg": "gap 20 min exceeds 15 (possible missed train)"
+   }
+  ],
+  "flags": []
+ },
+ {
+  "source": "timetables/8-奥体中心-4.jpg",
+  "id": "8-奥体中心-4",
+  "n_times": 147,
+  "stats": {
+   "n": 147,
+   "n_hours": 19,
+   "median_gap": 7,
+   "max_gap": 20,
+   "min_gap": 4
+  },
+  "issues": [
+   {
+    "kind": "gap_large",
+    "gap": 20,
+    "at": "00:59->01:19",
+    "msg": "gap 20 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 20,
+    "at": "17:50->18:10",
+    "msg": "gap 20 min exceeds 15 (possible missed train)"
+   }
+  ],
+  "flags": []
+ },
+ {
+  "source": "timetables/8-奥林匹克公园-1.jpg",
+  "id": "8-奥林匹克公园-1",
+  "n_times": 216,
+  "stats": {
+   "n": 216,
+   "n_hours": 19,
+   "median_gap": 4,
+   "max_gap": 11,
+   "min_gap": 3
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/8-奥林匹克公园-2.jpg",
+  "id": "8-奥林匹克公园-2",
+  "n_times": 214,
+  "stats": {
+   "n": 214,
+   "n_hours": 18,
+   "median_gap": 5,
+   "max_gap": 8,
+   "min_gap": 2
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/8-奥林匹克公园-3.jpg",
+  "id": "8-奥林匹克公园-3",
+  "n_times": 150,
+  "stats": {
+   "n": 150,
+   "n_hours": 19,
+   "median_gap": 7,
+   "max_gap": 356,
+   "min_gap": 4
+  },
+  "issues": [
+   {
+    "kind": "gap_large",
+    "gap": 20,
+    "at": "17:55->18:15",
+    "msg": "gap 20 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 20,
+    "at": "18:55->19:15",
+    "msg": "gap 20 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "hour_gap",
+    "msg": "hours 11->17 not consecutive"
+   }
+  ],
+  "flags": []
+ },
+ {
+  "source": "timetables/8-奥林匹克公园-4.jpg",
+  "id": "8-奥林匹克公园-4",
+  "n_times": 152,
+  "stats": {
+   "n": 152,
+   "n_hours": 18,
+   "median_gap": 7,
+   "max_gap": 303,
+   "min_gap": 4
+  },
+  "issues": [
+   {
+    "kind": "gap_large",
+    "gap": 21,
+    "at": "07:57->08:18",
+    "msg": "gap 21 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 20,
+    "at": "08:57->09:17",
+    "msg": "gap 20 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 75,
+    "at": "11:55->13:10",
+    "msg": "gap 75 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "hour_gap",
+    "msg": "hours 1->7 not consecutive"
+   },
+   {
+    "kind": "hour_gap",
+    "msg": "hours 11->13 not consecutive"
+   }
+  ],
+  "flags": [
+   {
+    "row_y": 1181,
+    "kind": "bad_minute",
+    "text": "98"
+   },
+   {
+    "row_y": 1386,
+    "kind": "ocr_fail",
+    "text": "90071421283542495"
+   }
+  ]
+ },
+ {
+  "source": "timetables/8-安华桥-1.jpg",
+  "id": "8-安华桥-1",
+  "n_times": 108,
+  "stats": {
+   "n": 108,
+   "n_hours": 10,
+   "median_gap": 5,
+   "max_gap": 11,
+   "min_gap": 3
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/8-安华桥-2.jpg",
+  "id": "8-安华桥-2",
+  "n_times": 219,
+  "stats": {
+   "n": 219,
+   "n_hours": 19,
+   "median_gap": 5,
+   "max_gap": 9,
+   "min_gap": 2
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/8-安华桥-3.jpg",
+  "id": "8-安华桥-3",
+  "n_times": 153,
+  "stats": {
+   "n": 153,
+   "n_hours": 19,
+   "median_gap": 7,
+   "max_gap": 355,
+   "min_gap": 5
+  },
+  "issues": [
+   {
+    "kind": "gap_large",
+    "gap": 20,
+    "at": "06:58->07:18",
+    "msg": "gap 20 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 20,
+    "at": "07:58->08:18",
+    "msg": "gap 20 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "hour_gap",
+    "msg": "hours 0->6 not consecutive"
+   }
+  ],
+  "flags": []
+ },
+ {
+  "source": "timetables/8-安华桥-4.jpg",
+  "id": "8-安华桥-4",
+  "n_times": 169,
+  "stats": {
+   "n": 169,
+   "n_hours": 21,
+   "median_gap": 7,
+   "max_gap": 125,
+   "min_gap": 1
+  },
+  "issues": [
+   {
+    "kind": "gap_small",
+    "gap": 1,
+    "at": "04:37->04:38",
+    "msg": "gap 1 min is below 2"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 17,
+    "at": "06:54->07:11",
+    "msg": "gap 17 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 20,
+    "at": "09:55->10:15",
+    "msg": "gap 20 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 107,
+    "at": "10:15->12:02",
+    "msg": "gap 107 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 16,
+    "at": "15:58->16:14",
+    "msg": "gap 16 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 20,
+    "at": "16:54->17:14",
+    "msg": "gap 20 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "hour_gap",
+    "msg": "hours 10->12 not consecutive"
+   },
+   {
+    "kind": "hour_gap",
+    "msg": "hours 12->15 not consecutive"
+   }
+  ],
+  "flags": [
+   {
+    "row_y": 1898,
+    "kind": "bad_minute",
+    "text": "98"
+   }
+  ]
+ },
+ {
+  "source": "timetables/8-安德里北街-1.jpg",
+  "id": "8-安德里北街-1",
+  "n_times": 216,
+  "stats": {
+   "n": 216,
+   "n_hours": 19,
+   "median_gap": 4,
+   "max_gap": 10,
+   "min_gap": 3
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/8-安德里北街-2.jpg",
+  "id": "8-安德里北街-2",
+  "n_times": 216,
+  "stats": {
+   "n": 216,
+   "n_hours": 19,
+   "median_gap": 5,
+   "max_gap": 10,
+   "min_gap": 2
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/8-安德里北街-3.jpg",
+  "id": "8-安德里北街-3",
+  "n_times": 142,
+  "stats": {
+   "n": 142,
+   "n_hours": 18,
+   "median_gap": 7,
+   "max_gap": 355,
+   "min_gap": 2
+  },
+  "issues": [
+   {
+    "kind": "gap_large",
+    "gap": 16,
+    "at": "03:58->04:14",
+    "msg": "gap 16 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 21,
+    "at": "11:55->12:16",
+    "msg": "gap 21 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 19,
+    "at": "12:56->13:15",
+    "msg": "gap 19 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "hour_gap",
+    "msg": "hours 5->11 not consecutive"
+   }
+  ],
+  "flags": [
+   {
+    "row_y": 2001,
+    "kind": "repaired_swap",
+    "text": "75",
+    "fixed": "57"
+   },
+   {
+    "row_y": 2103,
+    "kind": "ocr_fail",
+    "text": "0005101520275303540454955"
+   },
+   {
+    "row_y": 2308,
+    "kind": "repaired_swap",
+    "text": "75",
+    "fixed": "57"
+   }
+  ]
+ },
+ {
+  "source": "timetables/8-安德里北街-4.jpg",
+  "id": "8-安德里北街-4",
+  "n_times": 149,
+  "stats": {
+   "n": 149,
+   "n_hours": 18,
+   "median_gap": 7,
+   "max_gap": 360,
+   "min_gap": 2
+  },
+  "issues": [
+   {
+    "kind": "gap_large",
+    "gap": 20,
+    "at": "06:57->07:17",
+    "msg": "gap 20 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 20,
+    "at": "13:56->14:16",
+    "msg": "gap 20 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 69,
+    "at": "21:56->23:05",
+    "msg": "gap 69 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "hour_gap",
+    "msg": "hours 7->13 not consecutive"
+   },
+   {
+    "kind": "hour_gap",
+    "msg": "hours 21->23 not consecutive"
+   }
+  ],
+  "flags": [
+   {
+    "row_y": 1796,
+    "kind": "ocr_fail",
+    "text": "03101520295303540455056"
+   },
+   {
+    "row_y": 2206,
+    "kind": "repaired_swap",
+    "text": "75",
+    "fixed": "57"
+   }
+  ]
+ },
+ {
+  "source": "timetables/8-平西府-1.jpg",
+  "id": "8-平西府-1",
+  "n_times": 205,
+  "stats": {
+   "n": 205,
+   "n_hours": 19,
+   "median_gap": 5,
+   "max_gap": 280,
+   "min_gap": 2
+  },
+  "issues": [
+   {
+    "kind": "gap_large",
+    "gap": 64,
+    "at": "19:58->21:02",
+    "msg": "gap 64 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "hour_gap",
+    "msg": "hours 19->21 not consecutive"
+   }
+  ],
+  "flags": [
+   {
+    "row_y": 2514,
+    "kind": "ocr_fail",
+    "text": "04081115222735394735257"
+   }
+  ]
+ },
+ {
+  "source": "timetables/8-平西府-2.jpg",
+  "id": "8-平西府-2",
+  "n_times": 197,
+  "stats": {
+   "n": 197,
+   "n_hours": 18,
+   "median_gap": 5,
+   "max_gap": 10,
+   "min_gap": 2
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/8-平西府-3.jpg",
+  "id": "8-平西府-3",
+  "n_times": 160,
+  "stats": {
+   "n": 160,
+   "n_hours": 19,
+   "median_gap": 7,
+   "max_gap": 295,
+   "min_gap": 3
+  },
+  "issues": [
+   {
+    "kind": "gap_large",
+    "gap": 18,
+    "at": "07:54->08:12",
+    "msg": "gap 18 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 69,
+    "at": "13:58->15:07",
+    "msg": "gap 69 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 16,
+    "at": "15:57->16:13",
+    "msg": "gap 16 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "hour_gap",
+    "msg": "hours 8->13 not consecutive"
+   },
+   {
+    "kind": "hour_gap",
+    "msg": "hours 13->15 not consecutive"
+   }
+  ],
+  "flags": [
+   {
+    "row_y": 1078,
+    "kind": "ocr_fail",
+    "text": "06121626333747357"
+   }
+  ]
+ },
+ {
+  "source": "timetables/8-平西府-4.jpg",
+  "id": "8-平西府-4",
+  "n_times": 203,
+  "stats": {
+   "n": 203,
+   "n_hours": 24,
+   "median_gap": 7,
+   "max_gap": 29,
+   "min_gap": 3
+  },
+  "issues": [
+   {
+    "kind": "gap_large",
+    "gap": 16,
+    "at": "04:59->05:15",
+    "msg": "gap 16 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 19,
+    "at": "05:55->06:14",
+    "msg": "gap 19 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 19,
+    "at": "09:55->10:14",
+    "msg": "gap 19 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 18,
+    "at": "12:58->13:16",
+    "msg": "gap 18 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 18,
+    "at": "13:46->14:04",
+    "msg": "gap 18 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 29,
+    "at": "19:56->20:25",
+    "msg": "gap 29 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 20,
+    "at": "20:55->21:15",
+    "msg": "gap 20 min exceeds 15 (possible missed train)"
+   }
+  ],
+  "flags": [
+   {
+    "row_y": 1796,
+    "kind": "repaired_swap",
+    "text": "95",
+    "fixed": "59"
+   },
+   {
+    "row_y": 1898,
+    "kind": "bad_minute",
+    "text": "99"
+   },
+   {
+    "row_y": 2001,
+    "kind": "bad_minute",
+    "text": "99"
+   },
+   {
+    "row_y": 2103,
+    "kind": "bad_minute",
+    "text": "99"
+   }
+  ]
+ },
+ {
+  "source": "timetables/8-德茂-1.jpg",
+  "id": "8-德茂-1",
+  "n_times": 213,
+  "stats": {
+   "n": 213,
+   "n_hours": 18,
+   "median_gap": 4,
+   "max_gap": 10,
+   "min_gap": 3
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/8-德茂-2.jpg",
+  "id": "8-德茂-2",
+  "n_times": 203,
+  "stats": {
+   "n": 203,
+   "n_hours": 17,
+   "median_gap": 4,
+   "max_gap": 70,
+   "min_gap": 2
+  },
+  "issues": [
+   {
+    "kind": "gap_large",
+    "gap": 70,
+    "at": "15:52->17:02",
+    "msg": "gap 70 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "hour_gap",
+    "msg": "hours 15->17 not consecutive"
+   }
+  ],
+  "flags": [
+   {
+    "row_y": 2002,
+    "kind": "ocr_fail",
+    "text": "00071522273237424735257"
+   }
+  ]
+ },
+ {
+  "source": "timetables/8-德茂-3.jpg",
+  "id": "8-德茂-3",
+  "n_times": 129,
+  "stats": {
+   "n": 129,
+   "n_hours": 18,
+   "median_gap": 8,
+   "max_gap": 11,
+   "min_gap": 5
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/8-德茂-4.jpg",
+  "id": "8-德茂-4",
+  "n_times": 112,
+  "stats": {
+   "n": 112,
+   "n_hours": 18,
+   "median_gap": 9,
+   "max_gap": 20,
+   "min_gap": 6
+  },
+  "issues": [
+   {
+    "kind": "gap_large",
+    "gap": 20,
+    "at": "04:53->05:13",
+    "msg": "gap 20 min exceeds 20 (possible missed train)"
+   }
+  ],
+  "flags": []
+ },
+ {
+  "source": "timetables/8-木樨园-1.jpg",
+  "id": "8-木樨园-1",
+  "n_times": 214,
+  "stats": {
+   "n": 214,
+   "n_hours": 19,
+   "median_gap": 4,
+   "max_gap": 10,
+   "min_gap": 3
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/8-木樨园-2.jpg",
+  "id": "8-木樨园-2",
+  "n_times": 216,
+  "stats": {
+   "n": 216,
+   "n_hours": 19,
+   "median_gap": 5,
+   "max_gap": 10,
+   "min_gap": 2
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/8-木樨园-3.jpg",
+  "id": "8-木樨园-3",
+  "n_times": 130,
+  "stats": {
+   "n": 130,
+   "n_hours": 19,
+   "median_gap": 8,
+   "max_gap": 11,
+   "min_gap": 5
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/8-木樨园-4.jpg",
+  "id": "8-木樨园-4",
+  "n_times": 113,
+  "stats": {
+   "n": 113,
+   "n_hours": 19,
+   "median_gap": 9,
+   "max_gap": 20,
+   "min_gap": 5
+  },
+  "issues": [
+   {
+    "kind": "gap_large",
+    "gap": 20,
+    "at": "02:53->03:13",
+    "msg": "gap 20 min exceeds 20 (possible missed train)"
+   }
+  ],
+  "flags": []
+ },
+ {
+  "source": "timetables/8-朱辛庄-1.jpg",
+  "id": "8-朱辛庄-1",
+  "n_times": 179,
+  "stats": {
+   "n": 179,
+   "n_hours": 18,
+   "median_gap": 6,
+   "max_gap": 396,
+   "min_gap": 2
+  },
+  "issues": [
+   {
+    "kind": "hour_gap",
+    "msg": "hours 15->22 not consecutive"
+   }
+  ],
+  "flags": []
+ },
+ {
+  "source": "timetables/8-朱辛庄-2.jpg",
+  "id": "8-朱辛庄-2",
+  "n_times": 139,
+  "stats": {
+   "n": 139,
+   "n_hours": 17,
+   "median_gap": 7,
+   "max_gap": 399,
+   "min_gap": 1
+  },
+  "issues": [
+   {
+    "kind": "gap_large",
+    "gap": 18,
+    "at": "01:52->02:10",
+    "msg": "gap 18 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 20,
+    "at": "09:59->10:19",
+    "msg": "gap 20 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 16,
+    "at": "15:16->15:32",
+    "msg": "gap 16 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 69,
+    "at": "18:58->20:07",
+    "msg": "gap 69 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 21,
+    "at": "21:57->22:18",
+    "msg": "gap 21 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "gap_small",
+    "gap": 1,
+    "at": "22:30->22:31",
+    "msg": "gap 1 min is below 2"
+   },
+   {
+    "kind": "gap_small",
+    "gap": 1,
+    "at": "22:31->22:32",
+    "msg": "gap 1 min is below 2"
+   },
+   {
+    "kind": "gap_small",
+    "gap": 1,
+    "at": "22:37->22:38",
+    "msg": "gap 1 min is below 2"
+   },
+   {
+    "kind": "hour_gap",
+    "msg": "hours 2->9 not consecutive"
+   },
+   {
+    "kind": "hour_gap",
+    "msg": "hours 18->20 not consecutive"
+   }
+  ],
+  "flags": [
+   {
+    "row_y": 1152,
+    "kind": "repaired_swap",
+    "text": "61",
+    "fixed": "16"
+   },
+   {
+    "row_y": 1470,
+    "kind": "ocr_fail",
+    "text": "0308131823283473843485358"
+   },
+   {
+    "row_y": 1709,
+    "kind": "repaired_swap",
+    "text": "81",
+    "fixed": "18"
+   },
+   {
+    "row_y": 1709,
+    "kind": "repaired_swap",
+    "text": "82",
+    "fixed": "28"
+   },
+   {
+    "row_y": 1709,
+    "kind": "repaired_swap",
+    "text": "73",
+    "fixed": "37"
+   }
+  ]
+ },
+ {
+  "source": "timetables/8-林萃桥-1.jpg",
+  "id": "8-林萃桥-1",
+  "n_times": 214,
+  "stats": {
+   "n": 214,
+   "n_hours": 18,
+   "median_gap": 4,
+   "max_gap": 10,
+   "min_gap": 3
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/8-林萃桥-2.jpg",
+  "id": "8-林萃桥-2",
+  "n_times": 215,
+  "stats": {
+   "n": 215,
+   "n_hours": 19,
+   "median_gap": 5,
+   "max_gap": 57,
+   "min_gap": 2
+  },
+  "issues": [
+   {
+    "kind": "gap_large",
+    "gap": 57,
+    "at": "04:02->04:59",
+    "msg": "gap 57 min exceeds 15 (possible missed train)"
+   }
+  ],
+  "flags": []
+ },
+ {
+  "source": "timetables/8-林萃桥-3.jpg",
+  "id": "8-林萃桥-3",
+  "n_times": 0,
+  "stats": {
+   "n": 0,
+   "n_hours": 0,
+   "median_gap": null,
+   "max_gap": null,
+   "min_gap": null
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 976,
+    "kind": "ocr_fail",
+    "text": ""
+   },
+   {
+    "row_y": 1078,
+    "kind": "ocr_fail",
+    "text": ""
+   }
+  ]
+ },
+ {
+  "source": "timetables/8-林萃桥-4.jpg",
+  "id": "8-林萃桥-4",
+  "n_times": 147,
+  "stats": {
+   "n": 147,
+   "n_hours": 18,
+   "median_gap": 7,
+   "max_gap": 20,
+   "min_gap": 4
+  },
+  "issues": [
+   {
+    "kind": "gap_large",
+    "gap": 20,
+    "at": "02:51->03:11",
+    "msg": "gap 20 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 17,
+    "at": "16:55->17:12",
+    "msg": "gap 17 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 16,
+    "at": "18:58->19:14",
+    "msg": "gap 16 min exceeds 15 (possible missed train)"
+   }
+  ],
+  "flags": [
+   {
+    "row_y": 2103,
+    "kind": "repaired_swap",
+    "text": "61",
+    "fixed": "16"
+   }
+  ]
+ },
+ {
+  "source": "timetables/8-森林公园南门-1.jpg",
+  "id": "8-森林公园南门-1",
+  "n_times": 215,
+  "stats": {
+   "n": 215,
+   "n_hours": 19,
+   "median_gap": 4,
+   "max_gap": 11,
+   "min_gap": 3
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/8-森林公园南门-2.jpg",
+  "id": "8-森林公园南门-2",
+  "n_times": 214,
+  "stats": {
+   "n": 214,
+   "n_hours": 18,
+   "median_gap": 5,
+   "max_gap": 8,
+   "min_gap": 2
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/8-森林公园南门-3.jpg",
+  "id": "8-森林公园南门-3",
+  "n_times": 137,
+  "stats": {
+   "n": 137,
+   "n_hours": 18,
+   "median_gap": 7,
+   "max_gap": 364,
+   "min_gap": 4
+  },
+  "issues": [
+   {
+    "kind": "gap_large",
+    "gap": 21,
+    "at": "06:57->07:18",
+    "msg": "gap 21 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 20,
+    "at": "07:58->08:18",
+    "msg": "gap 20 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 68,
+    "at": "15:59->17:07",
+    "msg": "gap 68 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "hour_gap",
+    "msg": "hours 0->6 not consecutive"
+   },
+   {
+    "kind": "hour_gap",
+    "msg": "hours 15->17 not consecutive"
+   }
+  ],
+  "flags": [
+   {
+    "row_y": 1898,
+    "kind": "ocr_fail",
+    "text": "06121722273237414735257"
+   }
+  ]
+ },
+ {
+  "source": "timetables/8-森林公园南门-4.jpg",
+  "id": "8-森林公园南门-4",
+  "n_times": 152,
+  "stats": {
+   "n": 152,
+   "n_hours": 18,
+   "median_gap": 7,
+   "max_gap": 20,
+   "min_gap": 4
+  },
+  "issues": [
+   {
+    "kind": "gap_large",
+    "gap": 20,
+    "at": "04:55->05:15",
+    "msg": "gap 20 min exceeds 15 (possible missed train)"
+   }
+  ],
+  "flags": [
+   {
+    "row_y": 2001,
+    "kind": "repaired_swap",
+    "text": "94",
+    "fixed": "49"
+   },
+   {
+    "row_y": 2001,
+    "kind": "repaired_swap",
+    "text": "95",
+    "fixed": "59"
+   },
+   {
+    "row_y": 2103,
+    "kind": "ocr_fail",
+    "text": "04091419242933394449545"
+   }
+  ]
+ },
+ {
+  "source": "timetables/8-永定门外-2.jpg",
+  "id": "8-永定门外-2",
+  "n_times": 219,
+  "stats": {
+   "n": 219,
+   "n_hours": 19,
+   "median_gap": 5,
+   "max_gap": 10,
+   "min_gap": 2
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/8-永定门外-3.jpg",
+  "id": "8-永定门外-3",
+  "n_times": 130,
+  "stats": {
+   "n": 130,
+   "n_hours": 19,
+   "median_gap": 8,
+   "max_gap": 10,
+   "min_gap": 5
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/8-永定门外-4.jpg",
+  "id": "8-永定门外-4",
+  "n_times": 113,
+  "stats": {
+   "n": 113,
+   "n_hours": 19,
+   "median_gap": 8,
+   "max_gap": 359,
+   "min_gap": 5
+  },
+  "issues": [
+   {
+    "kind": "gap_large",
+    "gap": 20,
+    "at": "00:51->01:11",
+    "msg": "gap 20 min exceeds 18 (possible missed train)"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 20,
+    "at": "01:57->02:17",
+    "msg": "gap 20 min exceeds 18 (possible missed train)"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 20,
+    "at": "02:53->03:13",
+    "msg": "gap 20 min exceeds 18 (possible missed train)"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 18,
+    "at": "03:59->04:17",
+    "msg": "gap 18 min exceeds 18 (possible missed train)"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 18,
+    "at": "04:55->05:13",
+    "msg": "gap 18 min exceeds 18 (possible missed train)"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 18,
+    "at": "05:51->06:09",
+    "msg": "gap 18 min exceeds 18 (possible missed train)"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 18,
+    "at": "06:57->07:15",
+    "msg": "gap 18 min exceeds 18 (possible missed train)"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 18,
+    "at": "07:53->08:11",
+    "msg": "gap 18 min exceeds 18 (possible missed train)"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 18,
+    "at": "16:54->17:12",
+    "msg": "gap 18 min exceeds 18 (possible missed train)"
+   },
+   {
+    "kind": "hour_gap",
+    "msg": "hours 17->23 not consecutive"
+   }
+  ],
+  "flags": []
+ },
+ {
+  "source": "timetables/8-永泰庄-1.jpg",
+  "id": "8-永泰庄-1",
+  "n_times": 214,
+  "stats": {
+   "n": 214,
+   "n_hours": 18,
+   "median_gap": 4,
+   "max_gap": 10,
+   "min_gap": 3
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/8-永泰庄-2.jpg",
+  "id": "8-永泰庄-2",
+  "n_times": 205,
+  "stats": {
+   "n": 205,
+   "n_hours": 18,
+   "median_gap": 4,
+   "max_gap": 67,
+   "min_gap": 2
+  },
+  "issues": [
+   {
+    "kind": "gap_large",
+    "gap": 67,
+    "at": "14:55->16:02",
+    "msg": "gap 67 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "hour_gap",
+    "msg": "hours 14->16 not consecutive"
+   }
+  ],
+  "flags": [
+   {
+    "row_y": 2002,
+    "kind": "ocr_fail",
+    "text": "02101722273237424735257"
+   }
+  ]
+ },
+ {
+  "source": "timetables/8-永泰庄-3.jpg",
+  "id": "8-永泰庄-3",
+  "n_times": 165,
+  "stats": {
+   "n": 165,
+   "n_hours": 18,
+   "median_gap": 5,
+   "max_gap": 20,
+   "min_gap": 4
+  },
+  "issues": [
+   {
+    "kind": "gap_large",
+    "gap": 20,
+    "at": "03:54->04:14",
+    "msg": "gap 20 min exceeds 15 (possible missed train)"
+   }
+  ],
+  "flags": [
+   {
+    "row_y": 2103,
+    "kind": "bad_minute",
+    "text": "78"
+   },
+   {
+    "row_y": 2308,
+    "kind": "bad_minute",
+    "text": "78"
+   }
+  ]
+ },
+ {
+  "source": "timetables/8-永泰庄-4.jpg",
+  "id": "8-永泰庄-4",
+  "n_times": 146,
+  "stats": {
+   "n": 146,
+   "n_hours": 17,
+   "median_gap": 7,
+   "max_gap": 183,
+   "min_gap": 2
+  },
+  "issues": [
+   {
+    "kind": "gap_large",
+    "gap": 70,
+    "at": "02:57->04:07",
+    "msg": "gap 70 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 16,
+    "at": "09:55->10:11",
+    "msg": "gap 16 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 62,
+    "at": "15:57->16:59",
+    "msg": "gap 62 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 72,
+    "at": "18:57->20:09",
+    "msg": "gap 72 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "hour_gap",
+    "msg": "hours 4->7 not consecutive"
+   },
+   {
+    "kind": "hour_gap",
+    "msg": "hours 10->14 not consecutive"
+   },
+   {
+    "kind": "hour_gap",
+    "msg": "hours 18->20 not consecutive"
+   }
+  ],
+  "flags": [
+   {
+    "row_y": 1078,
+    "kind": "ocr_fail",
+    "text": "0818283845525"
+   },
+   {
+    "row_y": 1181,
+    "kind": "ocr_fail",
+    "text": "061320973441485"
+   },
+   {
+    "row_y": 1899,
+    "kind": "bad_minute",
+    "text": "97"
+   },
+   {
+    "row_y": 1899,
+    "kind": "repaired_swap",
+    "text": "73",
+    "fixed": "37"
+   },
+   {
+    "row_y": 2002,
+    "kind": "ocr_fail",
+    "text": "020712172227323424757"
+   },
+   {
+    "row_y": 2103,
+    "kind": "repaired_swap",
+    "text": "73",
+    "fixed": "37"
+   },
+   {
+    "row_y": 2207,
+    "kind": "ocr_fail",
+    "text": "020712172227323424657"
+   },
+   {
+    "row_y": 2309,
+    "kind": "ocr_fail",
+    "text": "020712162227323424657"
+   }
+  ]
+ },
+ {
+  "source": "timetables/8-海户屯-1.jpg",
+  "id": "8-海户屯-1",
+  "n_times": 214,
+  "stats": {
+   "n": 214,
+   "n_hours": 19,
+   "median_gap": 4,
+   "max_gap": 10,
+   "min_gap": 3
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/8-海户屯-2.jpg",
+  "id": "8-海户屯-2",
+  "n_times": 216,
+  "stats": {
+   "n": 216,
+   "n_hours": 19,
+   "median_gap": 5,
+   "max_gap": 10,
+   "min_gap": 2
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/8-海户屯-3.jpg",
+  "id": "8-海户屯-3",
+  "n_times": 130,
+  "stats": {
+   "n": 130,
+   "n_hours": 19,
+   "median_gap": 8,
+   "max_gap": 11,
+   "min_gap": 5
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/8-海户屯-4.jpg",
+  "id": "8-海户屯-4",
+  "n_times": 99,
+  "stats": {
+   "n": 99,
+   "n_hours": 17,
+   "median_gap": 9,
+   "max_gap": 75,
+   "min_gap": 5
+  },
+  "issues": [
+   {
+    "kind": "gap_large",
+    "gap": 20,
+    "at": "04:55->05:15",
+    "msg": "gap 20 min exceeds 20 (possible missed train)"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 75,
+    "at": "12:59->14:14",
+    "msg": "gap 75 min exceeds 20 (possible missed train)"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 75,
+    "at": "14:59->16:14",
+    "msg": "gap 75 min exceeds 20 (possible missed train)"
+   },
+   {
+    "kind": "hour_gap",
+    "msg": "hours 12->14 not consecutive"
+   },
+   {
+    "kind": "hour_gap",
+    "msg": "hours 14->16 not consecutive"
+   }
+  ],
+  "flags": [
+   {
+    "row_y": 1898,
+    "kind": "ocr_fail",
+    "text": "07142229374452359"
+   },
+   {
+    "row_y": 2104,
+    "kind": "ocr_fail",
+    "text": "07142229374452359"
+   }
+  ]
+ },
+ {
+  "source": "timetables/8-瀛海-1.jpg",
+  "id": "8-瀛海-1",
+  "n_times": 204,
+  "stats": {
+   "n": 204,
+   "n_hours": 17,
+   "median_gap": 4,
+   "max_gap": 68,
+   "min_gap": 2
+  },
+  "issues": [
+   {
+    "kind": "gap_large",
+    "gap": 68,
+    "at": "14:54->16:02",
+    "msg": "gap 68 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "hour_gap",
+    "msg": "hours 14->16 not consecutive"
+   }
+  ],
+  "flags": [
+   {
+    "row_y": 1898,
+    "kind": "ocr_fail",
+    "text": "0210172432394735257"
+   }
+  ]
+ },
+ {
+  "source": "timetables/8-瀛海-2.jpg",
+  "id": "8-瀛海-2",
+  "n_times": 129,
+  "stats": {
+   "n": 129,
+   "n_hours": 18,
+   "median_gap": 8,
+   "max_gap": 10,
+   "min_gap": 5
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/8-火箭万源-1.jpg",
+  "id": "8-火箭万源-1",
+  "n_times": 213,
+  "stats": {
+   "n": 213,
+   "n_hours": 18,
+   "median_gap": 4,
+   "max_gap": 10,
+   "min_gap": 3
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/8-火箭万源-2.jpg",
+  "id": "8-火箭万源-2",
+  "n_times": 205,
+  "stats": {
+   "n": 205,
+   "n_hours": 18,
+   "median_gap": 4,
+   "max_gap": 68,
+   "min_gap": 2
+  },
+  "issues": [
+   {
+    "kind": "gap_large",
+    "gap": 68,
+    "at": "15:54->17:02",
+    "msg": "gap 68 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "hour_gap",
+    "msg": "hours 15->17 not consecutive"
+   }
+  ],
+  "flags": [
+   {
+    "row_y": 2002,
+    "kind": "ocr_fail",
+    "text": "02091722273237424735257"
+   }
+  ]
+ },
+ {
+  "source": "timetables/8-火箭万源-3.jpg",
+  "id": "8-火箭万源-3",
+  "n_times": 130,
+  "stats": {
+   "n": 130,
+   "n_hours": 19,
+   "median_gap": 8,
+   "max_gap": 11,
+   "min_gap": 5
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/8-火箭万源-4.jpg",
+  "id": "8-火箭万源-4",
+  "n_times": 113,
+  "stats": {
+   "n": 113,
+   "n_hours": 19,
+   "median_gap": 9,
+   "max_gap": 20,
+   "min_gap": 5
+  },
+  "issues": [
+   {
+    "kind": "gap_large",
+    "gap": 20,
+    "at": "00:58->01:18",
+    "msg": "gap 20 min exceeds 20 (possible missed train)"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 20,
+    "at": "01:57->02:17",
+    "msg": "gap 20 min exceeds 20 (possible missed train)"
+   }
+  ],
+  "flags": []
+ },
+ {
+  "source": "timetables/8-王府井-1.jpg",
+  "id": "8-王府井-1",
+  "n_times": 0,
+  "stats": {
+   "n": 0,
+   "n_hours": 0,
+   "median_gap": null,
+   "max_gap": null,
+   "min_gap": null
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 465,
+    "kind": "ocr_fail",
+    "text": "6"
+   },
+   {
+    "row_y": 566,
+    "kind": "ocr_fail",
+    "text": ""
+   },
+   {
+    "row_y": 774,
+    "kind": "ocr_fail",
+    "text": "1"
+   }
+  ]
+ },
+ {
+  "source": "timetables/8-王府井-2.jpg",
+  "id": "8-王府井-2",
+  "n_times": 219,
+  "stats": {
+   "n": 219,
+   "n_hours": 19,
+   "median_gap": 5,
+   "max_gap": 9,
+   "min_gap": 2
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/8-王府井-3.jpg",
+  "id": "8-王府井-3",
+  "n_times": 137,
+  "stats": {
+   "n": 137,
+   "n_hours": 15,
+   "median_gap": 6,
+   "max_gap": 68,
+   "min_gap": 3
+  },
+  "issues": [
+   {
+    "kind": "gap_large",
+    "gap": 67,
+    "at": "10:58->12:05",
+    "msg": "gap 67 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 66,
+    "at": "17:59->19:05",
+    "msg": "gap 66 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 68,
+    "at": "21:52->23:00",
+    "msg": "gap 68 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "hour_gap",
+    "msg": "hours 10->12 not consecutive"
+   },
+   {
+    "kind": "hour_gap",
+    "msg": "hours 17->19 not consecutive"
+   },
+   {
+    "kind": "hour_gap",
+    "msg": "hours 21->23 not consecutive"
+   }
+  ],
+  "flags": [
+   {
+    "row_y": 876,
+    "kind": "ocr_fail",
+    "text": "42352"
+   },
+   {
+    "row_y": 1490,
+    "kind": "ocr_fail",
+    "text": "09192633374754"
+   },
+   {
+    "row_y": 1594,
+    "kind": "repaired_swap",
+    "text": "91",
+    "fixed": "19"
+   },
+   {
+    "row_y": 2208,
+    "kind": "ocr_fail",
+    "text": "0510152029529354045505559"
+   },
+   {
+    "row_y": 2618,
+    "kind": "ocr_fail",
+    "text": "00071422293744352"
+   }
+  ]
+ },
+ {
+  "source": "timetables/8-王府井-4.jpg",
+  "id": "8-王府井-4",
+  "n_times": 142,
+  "stats": {
+   "n": 142,
+   "n_hours": 18,
+   "median_gap": 6,
+   "max_gap": 360,
+   "min_gap": 1
+  },
+  "issues": [
+   {
+    "kind": "gap_small",
+    "gap": 1,
+    "at": "00:27->00:28",
+    "msg": "gap 1 min is below 2"
+   },
+   {
+    "kind": "gap_small",
+    "gap": 1,
+    "at": "01:27->01:28",
+    "msg": "gap 1 min is below 2"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 19,
+    "at": "07:51->08:10",
+    "msg": "gap 19 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 20,
+    "at": "14:59->15:19",
+    "msg": "gap 20 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 18,
+    "at": "15:59->16:17",
+    "msg": "gap 18 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 17,
+    "at": "18:57->19:14",
+    "msg": "gap 17 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 17,
+    "at": "19:53->20:10",
+    "msg": "gap 17 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 76,
+    "at": "21:53->23:09",
+    "msg": "gap 76 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "hour_gap",
+    "msg": "hours 8->14 not consecutive"
+   },
+   {
+    "kind": "hour_gap",
+    "msg": "hours 21->23 not consecutive"
+   }
+  ],
+  "flags": [
+   {
+    "row_y": 1696,
+    "kind": "ocr_fail",
+    "text": "0202813213036414958"
+   }
+  ]
+ },
+ {
+  "source": "timetables/8-珠市口-1.jpg",
+  "id": "8-珠市口-1",
+  "n_times": 214,
+  "stats": {
+   "n": 214,
+   "n_hours": 19,
+   "median_gap": 4,
+   "max_gap": 10,
+   "min_gap": 3
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/8-珠市口-2.jpg",
+  "id": "8-珠市口-2",
+  "n_times": 216,
+  "stats": {
+   "n": 216,
+   "n_hours": 19,
+   "median_gap": 5,
+   "max_gap": 10,
+   "min_gap": 2
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/8-珠市口-3.jpg",
+  "id": "8-珠市口-3",
+  "n_times": 145,
+  "stats": {
+   "n": 145,
+   "n_hours": 19,
+   "median_gap": 7,
+   "max_gap": 19,
+   "min_gap": 3
+  },
+  "issues": [
+   {
+    "kind": "gap_large",
+    "gap": 19,
+    "at": "01:56->02:15",
+    "msg": "gap 19 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 19,
+    "at": "02:55->03:14",
+    "msg": "gap 19 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 16,
+    "at": "03:55->04:11",
+    "msg": "gap 16 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 18,
+    "at": "07:58->08:16",
+    "msg": "gap 18 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 18,
+    "at": "08:54->09:12",
+    "msg": "gap 18 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 18,
+    "at": "09:50->10:08",
+    "msg": "gap 18 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 16,
+    "at": "16:52->17:08",
+    "msg": "gap 16 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 19,
+    "at": "18:53->19:12",
+    "msg": "gap 19 min exceeds 15 (possible missed train)"
+   }
+  ],
+  "flags": [
+   {
+    "row_y": 2001,
+    "kind": "repaired_swap",
+    "text": "91",
+    "fixed": "19"
+   }
+  ]
+ },
+ {
+  "source": "timetables/8-珠市口-4.jpg",
+  "id": "8-珠市口-4",
+  "n_times": 110,
+  "stats": {
+   "n": 110,
+   "n_hours": 18,
+   "median_gap": 9,
+   "max_gap": 20,
+   "min_gap": 5
+  },
+  "issues": [
+   {
+    "kind": "gap_large",
+    "gap": 20,
+    "at": "05:56->06:16",
+    "msg": "gap 20 min exceeds 20 (possible missed train)"
+   }
+  ],
+  "flags": [
+   {
+    "row_y": 874,
+    "kind": "ocr_fail",
+    "text": "263747357"
+   }
+  ]
+ },
+ {
+  "source": "timetables/8-育新-1.jpg",
+  "id": "8-育新-1",
+  "n_times": 215,
+  "stats": {
+   "n": 215,
+   "n_hours": 19,
+   "median_gap": 4,
+   "max_gap": 355,
+   "min_gap": 3
+  },
+  "issues": [
+   {
+    "kind": "hour_gap",
+    "msg": "hours 1->7 not consecutive"
+   }
+  ],
+  "flags": []
+ },
+ {
+  "source": "timetables/8-育新-2.jpg",
+  "id": "8-育新-2",
+  "n_times": 216,
+  "stats": {
+   "n": 216,
+   "n_hours": 19,
+   "median_gap": 5,
+   "max_gap": 10,
+   "min_gap": 2
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/8-育新-3.jpg",
+  "id": "8-育新-3",
+  "n_times": 95,
+  "stats": {
+   "n": 95,
+   "n_hours": 12,
+   "median_gap": 7,
+   "max_gap": 21,
+   "min_gap": 4
+  },
+  "issues": [
+   {
+    "kind": "gap_large",
+    "gap": 21,
+    "at": "08:58->09:19",
+    "msg": "gap 21 min exceeds 15 (possible missed train)"
+   }
+  ],
+  "flags": []
+ },
+ {
+  "source": "timetables/8-育新-4.jpg",
+  "id": "8-育新-4",
+  "n_times": 156,
+  "stats": {
+   "n": 156,
+   "n_hours": 18,
+   "median_gap": 7,
+   "max_gap": 340,
+   "min_gap": 3
+  },
+  "issues": [
+   {
+    "kind": "gap_large",
+    "gap": 17,
+    "at": "05:58->06:15",
+    "msg": "gap 17 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 31,
+    "at": "12:34->13:05",
+    "msg": "gap 31 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 65,
+    "at": "13:57->15:02",
+    "msg": "gap 65 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "hour_gap",
+    "msg": "hours 6->12 not consecutive"
+   },
+   {
+    "kind": "hour_gap",
+    "msg": "hours 13->15 not consecutive"
+   }
+  ],
+  "flags": [
+   {
+    "row_y": 1078,
+    "kind": "ocr_fail",
+    "text": "031323334047354"
+   },
+   {
+    "row_y": 1796,
+    "kind": "repaired_swap",
+    "text": "92",
+    "fixed": "29"
+   }
+  ]
+ },
+ {
+  "source": "timetables/8-育知路-1.jpg",
+  "id": "8-育知路-1",
+  "n_times": 216,
+  "stats": {
+   "n": 216,
+   "n_hours": 20,
+   "median_gap": 5,
+   "max_gap": 280,
+   "min_gap": 2
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/8-育知路-2.jpg",
+  "id": "8-育知路-2",
+  "n_times": 197,
+  "stats": {
+   "n": 197,
+   "n_hours": 18,
+   "median_gap": 5,
+   "max_gap": 10,
+   "min_gap": 2
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/8-育知路-3.jpg",
+  "id": "8-育知路-3",
+  "n_times": 167,
+  "stats": {
+   "n": 167,
+   "n_hours": 20,
+   "median_gap": 7,
+   "max_gap": 295,
+   "min_gap": 3
+  },
+  "issues": [
+   {
+    "kind": "gap_large",
+    "gap": 16,
+    "at": "01:54->02:10",
+    "msg": "gap 16 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 18,
+    "at": "02:57->03:15",
+    "msg": "gap 18 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 18,
+    "at": "08:51->09:09",
+    "msg": "gap 18 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 16,
+    "at": "09:50->10:06",
+    "msg": "gap 16 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 18,
+    "at": "10:50->11:08",
+    "msg": "gap 18 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "hour_gap",
+    "msg": "hours 3->8 not consecutive"
+   }
+  ],
+  "flags": []
+ },
+ {
+  "source": "timetables/8-育知路-4.jpg",
+  "id": "8-育知路-4",
+  "n_times": 153,
+  "stats": {
+   "n": 153,
+   "n_hours": 17,
+   "median_gap": 7,
+   "max_gap": 65,
+   "min_gap": 3
+  },
+  "issues": [
+   {
+    "kind": "gap_large",
+    "gap": 65,
+    "at": "13:56->15:01",
+    "msg": "gap 65 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "hour_gap",
+    "msg": "hours 13->15 not consecutive"
+   }
+  ],
+  "flags": [
+   {
+    "row_y": 1386,
+    "kind": "bad_minute",
+    "text": "77"
+   },
+   {
+    "row_y": 1796,
+    "kind": "ocr_fail",
+    "text": "01611162226313641465156"
+   },
+   {
+    "row_y": 1898,
+    "kind": "bad_minute",
+    "text": "96"
+   },
+   {
+    "row_y": 2001,
+    "kind": "bad_minute",
+    "text": "96"
+   }
+  ]
+ },
+ {
+  "source": "timetables/8-西小口-1.jpg",
+  "id": "8-西小口-1",
+  "n_times": 215,
+  "stats": {
+   "n": 215,
+   "n_hours": 19,
+   "median_gap": 4,
+   "max_gap": 356,
+   "min_gap": 3
+  },
+  "issues": [
+   {
+    "kind": "hour_gap",
+    "msg": "hours 1->7 not consecutive"
+   }
+  ],
+  "flags": []
+ },
+ {
+  "source": "timetables/8-西小口-2.jpg",
+  "id": "8-西小口-2",
+  "n_times": 216,
+  "stats": {
+   "n": 216,
+   "n_hours": 19,
+   "median_gap": 5,
+   "max_gap": 14,
+   "min_gap": 2
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/8-西小口-3.jpg",
+  "id": "8-西小口-3",
+  "n_times": 149,
+  "stats": {
+   "n": 149,
+   "n_hours": 19,
+   "median_gap": 7,
+   "max_gap": 365,
+   "min_gap": 4
+  },
+  "issues": [
+   {
+    "kind": "gap_large",
+    "gap": 18,
+    "at": "05:52->06:10",
+    "msg": "gap 18 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 20,
+    "at": "12:56->13:16",
+    "msg": "gap 20 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "hour_gap",
+    "msg": "hours 6->12 not consecutive"
+   }
+  ],
+  "flags": []
+ },
+ {
+  "source": "timetables/8-金鱼胡同-1.jpg",
+  "id": "8-金鱼胡同-1",
+  "n_times": 216,
+  "stats": {
+   "n": 216,
+   "n_hours": 19,
+   "median_gap": 4,
+   "max_gap": 12,
+   "min_gap": 3
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/8-金鱼胡同-2.jpg",
+  "id": "8-金鱼胡同-2",
+  "n_times": 208,
+  "stats": {
+   "n": 208,
+   "n_hours": 18,
+   "median_gap": 5,
+   "max_gap": 67,
+   "min_gap": 2
+  },
+  "issues": [
+   {
+    "kind": "gap_large",
+    "gap": 67,
+    "at": "12:55->14:02",
+    "msg": "gap 67 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "hour_gap",
+    "msg": "hours 12->14 not consecutive"
+   }
+  ],
+  "flags": [
+   {
+    "row_y": 1696,
+    "kind": "ocr_fail",
+    "text": "02101725324047355"
+   }
+  ]
+ },
+ {
+  "source": "timetables/8-金鱼胡同-3.jpg",
+  "id": "8-金鱼胡同-3",
+  "n_times": 150,
+  "stats": {
+   "n": 150,
+   "n_hours": 19,
+   "median_gap": 7,
+   "max_gap": 30,
+   "min_gap": 2
+  },
+  "issues": [
+   {
+    "kind": "gap_large",
+    "gap": 30,
+    "at": "02:44->03:14",
+    "msg": "gap 30 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 20,
+    "at": "03:54->04:14",
+    "msg": "gap 20 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 16,
+    "at": "04:56->05:12",
+    "msg": "gap 16 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 16,
+    "at": "05:52->06:08",
+    "msg": "gap 16 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 17,
+    "at": "19:54->20:11",
+    "msg": "gap 17 min exceeds 15 (possible missed train)"
+   }
+  ],
+  "flags": []
+ },
+ {
+  "source": "timetables/8-金鱼胡同-4.jpg",
+  "id": "8-金鱼胡同-4",
+  "n_times": 145,
+  "stats": {
+   "n": 145,
+   "n_hours": 17,
+   "median_gap": 7,
+   "max_gap": 67,
+   "min_gap": 4
+  },
+  "issues": [
+   {
+    "kind": "gap_large",
+    "gap": 65,
+    "at": "14:57->16:02",
+    "msg": "gap 65 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 67,
+    "at": "18:57->20:04",
+    "msg": "gap 67 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "hour_gap",
+    "msg": "hours 14->16 not consecutive"
+   },
+   {
+    "kind": "hour_gap",
+    "msg": "hours 18->20 not consecutive"
+   }
+  ],
+  "flags": [
+   {
+    "row_y": 1080,
+    "kind": "ocr_fail",
+    "text": "08172429936455257"
+   },
+   {
+    "row_y": 1183,
+    "kind": "ocr_fail",
+    "text": "041320253241485"
+   },
+   {
+    "row_y": 1593,
+    "kind": "bad_minute",
+    "text": "99"
+   },
+   {
+    "row_y": 1901,
+    "kind": "ocr_fail",
+    "text": "020812172227323424757"
+   },
+   {
+    "row_y": 2004,
+    "kind": "ocr_fail",
+    "text": "0207121722273331424757"
+   },
+   {
+    "row_y": 2106,
+    "kind": "ocr_fail",
+    "text": "0207121722273231424757"
+   },
+   {
+    "row_y": 2209,
+    "kind": "ocr_fail",
+    "text": "020712172227323434757"
+   },
+   {
+    "row_y": 2311,
+    "kind": "ocr_fail",
+    "text": "020712172227323424757"
+   }
+  ]
+ },
+ {
+  "source": "timetables/8-霍营-1.jpg",
+  "id": "8-霍营-1",
+  "n_times": 216,
+  "stats": {
+   "n": 216,
+   "n_hours": 19,
+   "median_gap": 4,
+   "max_gap": 345,
+   "min_gap": 3
+  },
+  "issues": [
+   {
+    "kind": "hour_gap",
+    "msg": "hours 0->6 not consecutive"
+   }
+  ],
+  "flags": []
+ },
+ {
+  "source": "timetables/8-霍营-3.jpg",
+  "id": "8-霍营-3",
+  "n_times": 150,
+  "stats": {
+   "n": 150,
+   "n_hours": 19,
+   "median_gap": 7,
+   "max_gap": 20,
+   "min_gap": 5
+  },
+  "issues": [
+   {
+    "kind": "gap_large",
+    "gap": 20,
+    "at": "00:51->01:11",
+    "msg": "gap 20 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 19,
+    "at": "17:57->18:16",
+    "msg": "gap 19 min exceeds 15 (possible missed train)"
+   }
+  ],
+  "flags": []
+ },
+ {
+  "source": "timetables/8-霍营-4.jpg",
+  "id": "8-霍营-4",
+  "n_times": 164,
+  "stats": {
+   "n": 164,
+   "n_hours": 18,
+   "median_gap": 5,
+   "max_gap": 373,
+   "min_gap": 1
+  },
+  "issues": [
+   {
+    "kind": "gap_small",
+    "gap": 1,
+    "at": "00:19->00:20",
+    "msg": "gap 1 min is below 2"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 17,
+    "at": "08:55->09:12",
+    "msg": "gap 17 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "hour_gap",
+    "msg": "hours 9->16 not consecutive"
+   }
+  ],
+  "flags": [
+   {
+    "row_y": 874,
+    "kind": "ocr_fail",
+    "text": "41951"
+   },
+   {
+    "row_y": 1796,
+    "kind": "repaired_swap",
+    "text": "91",
+    "fixed": "19"
+   },
+   {
+    "row_y": 1796,
+    "kind": "repaired_swap",
+    "text": "62",
+    "fixed": "26"
+   },
+   {
+    "row_y": 2206,
+    "kind": "bad_minute",
+    "text": "99"
+   },
+   {
+    "row_y": 2308,
+    "kind": "bad_minute",
+    "text": "99"
+   }
+  ]
+ },
+ {
+  "source": "timetables/8-鼓楼大街-1.jpg",
+  "id": "8-鼓楼大街-1",
+  "n_times": 216,
+  "stats": {
+   "n": 216,
+   "n_hours": 19,
+   "median_gap": 4,
+   "max_gap": 10,
+   "min_gap": 3
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/8-鼓楼大街-2.jpg",
+  "id": "8-鼓楼大街-2",
+  "n_times": 216,
+  "stats": {
+   "n": 216,
+   "n_hours": 19,
+   "median_gap": 5,
+   "max_gap": 10,
+   "min_gap": 2
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/8-鼓楼大街-3.jpg",
+  "id": "8-鼓楼大街-3",
+  "n_times": 143,
+  "stats": {
+   "n": 143,
+   "n_hours": 18,
+   "median_gap": 7,
+   "max_gap": 70,
+   "min_gap": 4
+  },
+  "issues": [
+   {
+    "kind": "gap_large",
+    "gap": 20,
+    "at": "02:53->03:13",
+    "msg": "gap 20 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 19,
+    "at": "03:54->04:13",
+    "msg": "gap 19 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 70,
+    "at": "08:59->10:09",
+    "msg": "gap 70 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "hour_gap",
+    "msg": "hours 8->10 not consecutive"
+   }
+  ],
+  "flags": [
+   {
+    "row_y": 1594,
+    "kind": "ocr_fail",
+    "text": "05131927344147355"
+   }
+  ]
+ },
+ {
+  "source": "timetables/8-鼓楼大街-4.jpg",
+  "id": "8-鼓楼大街-4",
+  "n_times": 169,
+  "stats": {
+   "n": 169,
+   "n_hours": 20,
+   "median_gap": 7,
+   "max_gap": 287,
+   "min_gap": 2
+  },
+  "issues": [
+   {
+    "kind": "gap_large",
+    "gap": 19,
+    "at": "01:50->02:09",
+    "msg": "gap 19 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 24,
+    "at": "07:55->08:19",
+    "msg": "gap 24 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 20,
+    "at": "08:59->09:19",
+    "msg": "gap 20 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "hour_gap",
+    "msg": "hours 2->7 not consecutive"
+   }
+  ],
+  "flags": [
+   {
+    "row_y": 2001,
+    "kind": "ocr_fail",
+    "text": "0308131823728333843475358"
+   },
+   {
+    "row_y": 2103,
+    "kind": "bad_minute",
+    "text": "78"
+   },
+   {
+    "row_y": 2206,
+    "kind": "bad_minute",
+    "text": "78"
+   }
+  ]
+ }
+]

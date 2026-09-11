@@ -1,0 +1,772 @@
+[
+ {
+  "source": "timetables/3-东四十条-1.jpg",
+  "id": "3-东四十条-1",
+  "n_times": 186,
+  "stats": {
+   "n": 186,
+   "n_hours": 19,
+   "median_gap": 7,
+   "max_gap": 9,
+   "min_gap": 4
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 1287,
+    "kind": "ocr_fail",
+    "text": "01050913172122933374145495357"
+   }
+  ]
+ },
+ {
+  "source": "timetables/3-东四十条-2.jpg",
+  "id": "3-东四十条-2",
+  "n_times": 173,
+  "stats": {
+   "n": 173,
+   "n_hours": 19,
+   "median_gap": 7,
+   "max_gap": 9,
+   "min_gap": 5
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 1175,
+    "kind": "ocr_fail",
+    "text": "04122028364435157"
+   },
+   {
+    "row_y": 1287,
+    "kind": "repaired_swap",
+    "text": "71",
+    "fixed": "17"
+   },
+   {
+    "row_y": 1510,
+    "kind": "ocr_fail",
+    "text": "020712122273237424752"
+   },
+   {
+    "row_y": 1846,
+    "kind": "ocr_fail",
+    "text": "0108152229364350957"
+   },
+   {
+    "row_y": 2404,
+    "kind": "ocr_fail",
+    "text": "0409141924293439444954959"
+   },
+   {
+    "row_y": 2516,
+    "kind": "ocr_fail",
+    "text": "0409141924293439444954939"
+   },
+   {
+    "row_y": 2627,
+    "kind": "ocr_fail",
+    "text": "05111825323946353"
+   }
+  ]
+ },
+ {
+  "source": "timetables/3-东坝-1.jpg",
+  "id": "3-东坝-1",
+  "n_times": 186,
+  "stats": {
+   "n": 186,
+   "n_hours": 19,
+   "median_gap": 7,
+   "max_gap": 10,
+   "min_gap": 4
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/3-东坝-2.jpg",
+  "id": "3-东坝-2",
+  "n_times": 186,
+  "stats": {
+   "n": 186,
+   "n_hours": 18,
+   "median_gap": 7,
+   "max_gap": 9,
+   "min_gap": 4
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/3-东坝-3.jpg",
+  "id": "3-东坝-3",
+  "n_times": 173,
+  "stats": {
+   "n": 173,
+   "n_hours": 19,
+   "median_gap": 7,
+   "max_gap": 10,
+   "min_gap": 5
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 1064,
+    "kind": "ocr_fail",
+    "text": "061422303846954"
+   },
+   {
+    "row_y": 2514,
+    "kind": "ocr_fail",
+    "text": "0005101520253035404535055"
+   }
+  ]
+ },
+ {
+  "source": "timetables/3-东坝-4.jpg",
+  "id": "3-东坝-4",
+  "n_times": 173,
+  "stats": {
+   "n": 173,
+   "n_hours": 18,
+   "median_gap": 7,
+   "max_gap": 9,
+   "min_gap": 4
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 1064,
+    "kind": "ocr_fail",
+    "text": "051321293745353"
+   },
+   {
+    "row_y": 1175,
+    "kind": "ocr_fail",
+    "text": "01091723283439434835358"
+   },
+   {
+    "row_y": 1286,
+    "kind": "ocr_fail",
+    "text": "0308131823283338434853458"
+   },
+   {
+    "row_y": 1397,
+    "kind": "ocr_fail",
+    "text": "0308131823283338434853458"
+   },
+   {
+    "row_y": 1620,
+    "kind": "ocr_fail",
+    "text": "0310172431384552459"
+   }
+  ]
+ },
+ {
+  "source": "timetables/3-东坝北-1.jpg",
+  "id": "3-东坝北-1",
+  "n_times": 186,
+  "stats": {
+   "n": 186,
+   "n_hours": 18,
+   "median_gap": 7,
+   "max_gap": 9,
+   "min_gap": 2
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/3-东坝北-2.jpg",
+  "id": "3-东坝北-2",
+  "n_times": 173,
+  "stats": {
+   "n": 173,
+   "n_hours": 18,
+   "median_gap": 7,
+   "max_gap": 9,
+   "min_gap": 3
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/3-东坝南-1.jpg",
+  "id": "3-东坝南-1",
+  "n_times": 186,
+  "stats": {
+   "n": 186,
+   "n_hours": 19,
+   "median_gap": 7,
+   "max_gap": 9,
+   "min_gap": 4
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/3-东坝南-2.jpg",
+  "id": "3-东坝南-2",
+  "n_times": 186,
+  "stats": {
+   "n": 186,
+   "n_hours": 18,
+   "median_gap": 7,
+   "max_gap": 10,
+   "min_gap": 4
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 2287,
+    "kind": "ocr_fail",
+    "text": "01050913172122933374145495357"
+   }
+  ]
+ },
+ {
+  "source": "timetables/3-东坝南-3.jpg",
+  "id": "3-东坝南-3",
+  "n_times": 173,
+  "stats": {
+   "n": 173,
+   "n_hours": 19,
+   "median_gap": 7,
+   "max_gap": 9,
+   "min_gap": 5
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 1287,
+    "kind": "ocr_fail",
+    "text": "02091520253035404535055"
+   },
+   {
+    "row_y": 2291,
+    "kind": "ocr_fail",
+    "text": "03091723283338434835358"
+   }
+  ]
+ },
+ {
+  "source": "timetables/3-东坝南-4.jpg",
+  "id": "3-东坝南-4",
+  "n_times": 173,
+  "stats": {
+   "n": 173,
+   "n_hours": 18,
+   "median_gap": 7,
+   "max_gap": 10,
+   "min_gap": 4
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 1953,
+    "kind": "ocr_fail",
+    "text": "0108152229364350957"
+   },
+   {
+    "row_y": 2287,
+    "kind": "ocr_fail",
+    "text": "0308131823283338434853458"
+   }
+  ]
+ },
+ {
+  "source": "timetables/3-团结湖-1.jpg",
+  "id": "3-团结湖-1",
+  "n_times": 186,
+  "stats": {
+   "n": 186,
+   "n_hours": 19,
+   "median_gap": 7,
+   "max_gap": 10,
+   "min_gap": 4
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/3-团结湖-2.jpg",
+  "id": "3-团结湖-2",
+  "n_times": 186,
+  "stats": {
+   "n": 186,
+   "n_hours": 19,
+   "median_gap": 7,
+   "max_gap": 9,
+   "min_gap": 4
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/3-团结湖-3.jpg",
+  "id": "3-团结湖-3",
+  "n_times": 173,
+  "stats": {
+   "n": 173,
+   "n_hours": 19,
+   "median_gap": 7,
+   "max_gap": 10,
+   "min_gap": 5
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 1399,
+    "kind": "ocr_fail",
+    "text": "0106111621263136414695156"
+   }
+  ]
+ },
+ {
+  "source": "timetables/3-团结湖-4.jpg",
+  "id": "3-团结湖-4",
+  "n_times": 173,
+  "stats": {
+   "n": 173,
+   "n_hours": 19,
+   "median_gap": 7,
+   "max_gap": 9,
+   "min_gap": 4
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 1510,
+    "kind": "ocr_fail",
+    "text": "000510152025303540455055359"
+   },
+   {
+    "row_y": 2179,
+    "kind": "ocr_fail",
+    "text": "000714212835414735257"
+   }
+  ]
+ },
+ {
+  "source": "timetables/3-姚家园-1.jpg",
+  "id": "3-姚家园-1",
+  "n_times": 186,
+  "stats": {
+   "n": 186,
+   "n_hours": 19,
+   "median_gap": 7,
+   "max_gap": 9,
+   "min_gap": 4
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/3-姚家园-2.jpg",
+  "id": "3-姚家园-2",
+  "n_times": 186,
+  "stats": {
+   "n": 186,
+   "n_hours": 18,
+   "median_gap": 7,
+   "max_gap": 9,
+   "min_gap": 4
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/3-姚家园-3.jpg",
+  "id": "3-姚家园-3",
+  "n_times": 173,
+  "stats": {
+   "n": 173,
+   "n_hours": 19,
+   "median_gap": 7,
+   "max_gap": 9,
+   "min_gap": 5
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 1287,
+    "kind": "ocr_fail",
+    "text": "06121722273237424735257"
+   },
+   {
+    "row_y": 1845,
+    "kind": "ocr_fail",
+    "text": "0209162330374451358"
+   },
+   {
+    "row_y": 2291,
+    "kind": "ocr_fail",
+    "text": "0006131924293439444935459"
+   },
+   {
+    "row_y": 2514,
+    "kind": "ocr_fail",
+    "text": "0409141924293439444935459"
+   }
+  ]
+ },
+ {
+  "source": "timetables/3-姚家园-4.jpg",
+  "id": "3-姚家园-4",
+  "n_times": 173,
+  "stats": {
+   "n": 173,
+   "n_hours": 18,
+   "median_gap": 7,
+   "max_gap": 9,
+   "min_gap": 4
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 1175,
+    "kind": "ocr_fail",
+    "text": "071523293439454954359"
+   },
+   {
+    "row_y": 1398,
+    "kind": "ocr_fail",
+    "text": "0409141924293439444935459"
+   }
+  ]
+ },
+ {
+  "source": "timetables/3-工人体育场-1.jpg",
+  "id": "3-工人体育场-1",
+  "n_times": 186,
+  "stats": {
+   "n": 186,
+   "n_hours": 19,
+   "median_gap": 7,
+   "max_gap": 11,
+   "min_gap": 4
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/3-工人体育场-2.jpg",
+  "id": "3-工人体育场-2",
+  "n_times": 186,
+  "stats": {
+   "n": 186,
+   "n_hours": 19,
+   "median_gap": 7,
+   "max_gap": 9,
+   "min_gap": 4
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/3-工人体育场-3.jpg",
+  "id": "3-工人体育场-3",
+  "n_times": 173,
+  "stats": {
+   "n": 173,
+   "n_hours": 19,
+   "median_gap": 7,
+   "max_gap": 11,
+   "min_gap": 5
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 1287,
+    "kind": "ocr_fail",
+    "text": "0409141924293439444935459"
+   },
+   {
+    "row_y": 1398,
+    "kind": "ocr_fail",
+    "text": "0409141924293439444954459"
+   },
+   {
+    "row_y": 1510,
+    "kind": "ocr_fail",
+    "text": "0409141924293439444935439"
+   },
+   {
+    "row_y": 1844,
+    "kind": "ocr_fail",
+    "text": "03101724313845524359"
+   }
+  ]
+ },
+ {
+  "source": "timetables/3-工人体育场-4.jpg",
+  "id": "3-工人体育场-4",
+  "n_times": 173,
+  "stats": {
+   "n": 173,
+   "n_hours": 19,
+   "median_gap": 7,
+   "max_gap": 9,
+   "min_gap": 4
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 1278,
+    "kind": "repaired_swap",
+    "text": "71",
+    "fixed": "17"
+   },
+   {
+    "row_y": 2183,
+    "kind": "ocr_fail",
+    "text": "020916233037434954459"
+   },
+   {
+    "row_y": 2405,
+    "kind": "ocr_fail",
+    "text": "0409141924293439444954359"
+   },
+   {
+    "row_y": 2516,
+    "kind": "ocr_fail",
+    "text": "040914192429343945517"
+   }
+  ]
+ },
+ {
+  "source": "timetables/3-朝阳公园-1.jpg",
+  "id": "3-朝阳公园-1",
+  "n_times": 186,
+  "stats": {
+   "n": 186,
+   "n_hours": 19,
+   "median_gap": 7,
+   "max_gap": 10,
+   "min_gap": 4
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/3-朝阳公园-2.jpg",
+  "id": "3-朝阳公园-2",
+  "n_times": 186,
+  "stats": {
+   "n": 186,
+   "n_hours": 19,
+   "median_gap": 7,
+   "max_gap": 9,
+   "min_gap": 4
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/3-朝阳公园-3.jpg",
+  "id": "3-朝阳公园-3",
+  "n_times": 173,
+  "stats": {
+   "n": 173,
+   "n_hours": 19,
+   "median_gap": 7,
+   "max_gap": 10,
+   "min_gap": 5
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 1399,
+    "kind": "ocr_fail",
+    "text": "0409141924293439444935459"
+   },
+   {
+    "row_y": 2403,
+    "kind": "ocr_fail",
+    "text": "0106111621263136414695156"
+   }
+  ]
+ },
+ {
+  "source": "timetables/3-朝阳公园-4.jpg",
+  "id": "3-朝阳公园-4",
+  "n_times": 173,
+  "stats": {
+   "n": 173,
+   "n_hours": 19,
+   "median_gap": 7,
+   "max_gap": 9,
+   "min_gap": 4
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 2291,
+    "kind": "ocr_fail",
+    "text": "000509141924293439444954359"
+   },
+   {
+    "row_y": 2403,
+    "kind": "ocr_fail",
+    "text": "0409141924293439444935459"
+   }
+  ]
+ },
+ {
+  "source": "timetables/3-朝阳站-1.jpg",
+  "id": "3-朝阳站-1",
+  "n_times": 186,
+  "stats": {
+   "n": 186,
+   "n_hours": 19,
+   "median_gap": 7,
+   "max_gap": 10,
+   "min_gap": 4
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/3-朝阳站-2.jpg",
+  "id": "3-朝阳站-2",
+  "n_times": 186,
+  "stats": {
+   "n": 186,
+   "n_hours": 19,
+   "median_gap": 7,
+   "max_gap": 9,
+   "min_gap": 4
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/3-朝阳站-3.jpg",
+  "id": "3-朝阳站-3",
+  "n_times": 173,
+  "stats": {
+   "n": 173,
+   "n_hours": 19,
+   "median_gap": 7,
+   "max_gap": 10,
+   "min_gap": 5
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 1399,
+    "kind": "ocr_fail",
+    "text": "0409141924293439444935459"
+   }
+  ]
+ },
+ {
+  "source": "timetables/3-朝阳站-4.jpg",
+  "id": "3-朝阳站-4",
+  "n_times": 173,
+  "stats": {
+   "n": 173,
+   "n_hours": 19,
+   "median_gap": 7,
+   "max_gap": 9,
+   "min_gap": 4
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 1176,
+    "kind": "ocr_fail",
+    "text": "0210182632374248525"
+   },
+   {
+    "row_y": 1399,
+    "kind": "ocr_fail",
+    "text": "02071217222732374247527"
+   }
+  ]
+ },
+ {
+  "source": "timetables/3-石佛营-1.jpg",
+  "id": "3-石佛营-1",
+  "n_times": 186,
+  "stats": {
+   "n": 186,
+   "n_hours": 19,
+   "median_gap": 7,
+   "max_gap": 9,
+   "min_gap": 4
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/3-石佛营-2.jpg",
+  "id": "3-石佛营-2",
+  "n_times": 186,
+  "stats": {
+   "n": 186,
+   "n_hours": 19,
+   "median_gap": 7,
+   "max_gap": 9,
+   "min_gap": 4
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/3-石佛营-3.jpg",
+  "id": "3-石佛营-3",
+  "n_times": 173,
+  "stats": {
+   "n": 173,
+   "n_hours": 19,
+   "median_gap": 7,
+   "max_gap": 9,
+   "min_gap": 5
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 953,
+    "kind": "ocr_fail",
+    "text": "4594"
+   },
+   {
+    "row_y": 1287,
+    "kind": "ocr_fail",
+    "text": "0107121722273237424735257"
+   },
+   {
+    "row_y": 1399,
+    "kind": "ocr_fail",
+    "text": "02071217222732374247352"
+   }
+  ]
+ },
+ {
+  "source": "timetables/3-石佛营-4.jpg",
+  "id": "3-石佛营-4",
+  "n_times": 173,
+  "stats": {
+   "n": 173,
+   "n_hours": 19,
+   "median_gap": 7,
+   "max_gap": 9,
+   "min_gap": 4
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 953,
+    "kind": "ocr_fail",
+    "text": "19283745533"
+   },
+   {
+    "row_y": 2849,
+    "kind": "ocr_fail",
+    "text": "02091623303744505"
+   }
+  ]
+ }
+]

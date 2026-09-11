@@ -1,0 +1,1906 @@
+[
+ {
+  "source": "timetables/八通-临河里-1.jpg",
+  "id": "八通-临河里-1",
+  "n_times": 265,
+  "stats": {
+   "n": 265,
+   "n_hours": 19,
+   "median_gap": 3,
+   "max_gap": 358,
+   "min_gap": 1
+  },
+  "issues": [
+   {
+    "kind": "gap_small",
+    "gap": 1,
+    "at": "08:27->08:28",
+    "msg": "gap 1 min is below 2"
+   },
+   {
+    "kind": "gap_small",
+    "gap": 1,
+    "at": "08:59->09:00",
+    "msg": "gap 1 min is below 2"
+   },
+   {
+    "kind": "gap_small",
+    "gap": 1,
+    "at": "09:09->09:10",
+    "msg": "gap 1 min is below 2"
+   },
+   {
+    "kind": "hour_gap",
+    "msg": "hours 0->6 not consecutive"
+   }
+  ],
+  "flags": []
+ },
+ {
+  "source": "timetables/八通-临河里-2.jpg",
+  "id": "八通-临河里-2",
+  "n_times": 264,
+  "stats": {
+   "n": 264,
+   "n_hours": 19,
+   "median_gap": 4,
+   "max_gap": 10,
+   "min_gap": 2
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 469,
+    "kind": "ocr_fail",
+    "text": "700030507101151719232729313639114347495155559"
+   },
+   {
+    "row_y": 515,
+    "kind": "ocr_fail",
+    "text": "8310305011131719212521293235374043451545"
+   },
+   {
+    "row_y": 562,
+    "kind": "ocr_fail",
+    "text": "904081822273277404445256"
+   },
+   {
+    "row_y": 609,
+    "kind": "repaired_swap",
+    "text": "81",
+    "fixed": "18"
+   },
+   {
+    "row_y": 609,
+    "kind": "repaired_swap",
+    "text": "62",
+    "fixed": "26"
+   },
+   {
+    "row_y": 609,
+    "kind": "repaired_swap",
+    "text": "73",
+    "fixed": "37"
+   },
+   {
+    "row_y": 937,
+    "kind": "repaired_swap",
+    "text": "75",
+    "fixed": "57"
+   },
+   {
+    "row_y": 984,
+    "kind": "repaired_swap",
+    "text": "80",
+    "fixed": "08"
+   },
+   {
+    "row_y": 984,
+    "kind": "repaired_swap",
+    "text": "60",
+    "fixed": "06"
+   },
+   {
+    "row_y": 984,
+    "kind": "repaired_swap",
+    "text": "91",
+    "fixed": "19"
+   },
+   {
+    "row_y": 984,
+    "kind": "bad_minute",
+    "text": "97"
+   },
+   {
+    "row_y": 1078,
+    "kind": "ocr_fail",
+    "text": "2001050913152022230337444475359"
+   }
+  ]
+ },
+ {
+  "source": "timetables/八通-临河里-3.jpg",
+  "id": "八通-临河里-3",
+  "n_times": 172,
+  "stats": {
+   "n": 172,
+   "n_hours": 19,
+   "median_gap": 6,
+   "max_gap": 358,
+   "min_gap": 4
+  },
+  "issues": [
+   {
+    "kind": "hour_gap",
+    "msg": "hours 0->6 not consecutive"
+   }
+  ],
+  "flags": []
+ },
+ {
+  "source": "timetables/八通-临河里-4.jpg",
+  "id": "八通-临河里-4",
+  "n_times": 172,
+  "stats": {
+   "n": 172,
+   "n_hours": 19,
+   "median_gap": 6,
+   "max_gap": 10,
+   "min_gap": 4
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 469,
+    "kind": "repaired_swap",
+    "text": "94",
+    "fixed": "49"
+   },
+   {
+    "row_y": 515,
+    "kind": "ocr_fail",
+    "text": "03081216212630394485257"
+   }
+  ]
+ },
+ {
+  "source": "timetables/八通-九棵树-1.jpg",
+  "id": "八通-九棵树-1",
+  "n_times": 265,
+  "stats": {
+   "n": 265,
+   "n_hours": 19,
+   "median_gap": 3,
+   "max_gap": 358,
+   "min_gap": 1
+  },
+  "issues": [
+   {
+    "kind": "gap_small",
+    "gap": 1,
+    "at": "07:43->07:44",
+    "msg": "gap 1 min is below 2"
+   },
+   {
+    "kind": "gap_small",
+    "gap": 1,
+    "at": "08:56->08:57",
+    "msg": "gap 1 min is below 2"
+   },
+   {
+    "kind": "gap_small",
+    "gap": 1,
+    "at": "09:06->09:07",
+    "msg": "gap 1 min is below 2"
+   },
+   {
+    "kind": "hour_gap",
+    "msg": "hours 0->6 not consecutive"
+   }
+  ],
+  "flags": []
+ },
+ {
+  "source": "timetables/八通-九棵树-2.jpg",
+  "id": "八通-九棵树-2",
+  "n_times": 264,
+  "stats": {
+   "n": 264,
+   "n_hours": 19,
+   "median_gap": 4,
+   "max_gap": 9,
+   "min_gap": 1
+  },
+  "issues": [
+   {
+    "kind": "gap_small",
+    "gap": 1,
+    "at": "18:19->18:20",
+    "msg": "gap 1 min is below 2"
+   }
+  ],
+  "flags": [
+   {
+    "row_y": 469,
+    "kind": "repaired_swap",
+    "text": "70",
+    "fixed": "07"
+   },
+   {
+    "row_y": 469,
+    "kind": "repaired_swap",
+    "text": "91",
+    "fixed": "19"
+   },
+   {
+    "row_y": 469,
+    "kind": "repaired_swap",
+    "text": "71",
+    "fixed": "17"
+   },
+   {
+    "row_y": 469,
+    "kind": "repaired_swap",
+    "text": "92",
+    "fixed": "29"
+   },
+   {
+    "row_y": 469,
+    "kind": "repaired_swap",
+    "text": "73",
+    "fixed": "37"
+   },
+   {
+    "row_y": 469,
+    "kind": "repaired_swap",
+    "text": "75",
+    "fixed": "57"
+   },
+   {
+    "row_y": 515,
+    "kind": "ocr_fail",
+    "text": "8039507091315172123752931333394245485565"
+   },
+   {
+    "row_y": 563,
+    "kind": "ocr_fail",
+    "text": "3408131823232374245495456"
+   },
+   {
+    "row_y": 609,
+    "kind": "ocr_fail",
+    "text": "10010091182126313744954"
+   },
+   {
+    "row_y": 937,
+    "kind": "ocr_fail",
+    "text": "1703081215182224272931343638414345485525559"
+   },
+   {
+    "row_y": 984,
+    "kind": "repaired_swap",
+    "text": "80",
+    "fixed": "08"
+   },
+   {
+    "row_y": 984,
+    "kind": "repaired_swap",
+    "text": "60",
+    "fixed": "06"
+   },
+   {
+    "row_y": 984,
+    "kind": "repaired_swap",
+    "text": "91",
+    "fixed": "19"
+   },
+   {
+    "row_y": 1171,
+    "kind": "ocr_fail",
+    "text": "22051219253239475"
+   }
+  ]
+ },
+ {
+  "source": "timetables/八通-九棵树-3.jpg",
+  "id": "八通-九棵树-3",
+  "n_times": 172,
+  "stats": {
+   "n": 172,
+   "n_hours": 19,
+   "median_gap": 7,
+   "max_gap": 358,
+   "min_gap": 4
+  },
+  "issues": [
+   {
+    "kind": "hour_gap",
+    "msg": "hours 0->6 not consecutive"
+   }
+  ],
+  "flags": []
+ },
+ {
+  "source": "timetables/八通-九棵树-4.jpg",
+  "id": "八通-九棵树-4",
+  "n_times": 172,
+  "stats": {
+   "n": 172,
+   "n_hours": 19,
+   "median_gap": 6,
+   "max_gap": 11,
+   "min_gap": 3
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 515,
+    "kind": "repaired_swap",
+    "text": "71",
+    "fixed": "17"
+   },
+   {
+    "row_y": 1078,
+    "kind": "ocr_fail",
+    "text": "030813182328333434955"
+   },
+   {
+    "row_y": 1172,
+    "kind": "ocr_fail",
+    "text": "051118253239475"
+   }
+  ]
+ },
+ {
+  "source": "timetables/八通-传媒大学-1.jpg",
+  "id": "八通-传媒大学-1",
+  "n_times": 281,
+  "stats": {
+   "n": 281,
+   "n_hours": 19,
+   "median_gap": 3,
+   "max_gap": 9,
+   "min_gap": 2
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/八通-传媒大学-2.jpg",
+  "id": "八通-传媒大学-2",
+  "n_times": 280,
+  "stats": {
+   "n": 280,
+   "n_hours": 19,
+   "median_gap": 3,
+   "max_gap": 10,
+   "min_gap": 2
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 469,
+    "kind": "ocr_fail",
+    "text": "7020407091316192124262831436381044464250525658"
+   },
+   {
+    "row_y": 516,
+    "kind": "ocr_fail",
+    "text": "8002204060810121416182022426283323436384042444645052545658"
+   },
+   {
+    "row_y": 562,
+    "kind": "repaired_swap",
+    "text": "71",
+    "fixed": "17"
+   },
+   {
+    "row_y": 609,
+    "kind": "repaired_swap",
+    "text": "72",
+    "fixed": "27"
+   },
+   {
+    "row_y": 609,
+    "kind": "repaired_swap",
+    "text": "74",
+    "fixed": "47"
+   },
+   {
+    "row_y": 609,
+    "kind": "repaired_swap",
+    "text": "75",
+    "fixed": "57"
+   },
+   {
+    "row_y": 937,
+    "kind": "ocr_fail",
+    "text": "170003061014192428313438404345475052395759"
+   },
+   {
+    "row_y": 984,
+    "kind": "ocr_fail",
+    "text": "1801049608111151822225212932343639414346450535659"
+   },
+   {
+    "row_y": 1125,
+    "kind": "repaired_swap",
+    "text": "91",
+    "fixed": "19"
+   },
+   {
+    "row_y": 1125,
+    "kind": "repaired_swap",
+    "text": "92",
+    "fixed": "29"
+   },
+   {
+    "row_y": 1125,
+    "kind": "repaired_swap",
+    "text": "64",
+    "fixed": "46"
+   },
+   {
+    "row_y": 1218,
+    "kind": "ocr_fail",
+    "text": "2303024"
+   }
+  ]
+ },
+ {
+  "source": "timetables/八通-传媒大学-3.jpg",
+  "id": "八通-传媒大学-3",
+  "n_times": 204,
+  "stats": {
+   "n": 204,
+   "n_hours": 19,
+   "median_gap": 5,
+   "max_gap": 9,
+   "min_gap": 3
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/八通-传媒大学-4.jpg",
+  "id": "八通-传媒大学-4",
+  "n_times": 204,
+  "stats": {
+   "n": 204,
+   "n_hours": 19,
+   "median_gap": 5,
+   "max_gap": 11,
+   "min_gap": 3
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 1078,
+    "kind": "repaired_swap",
+    "text": "91",
+    "fixed": "19"
+   },
+   {
+    "row_y": 1078,
+    "kind": "repaired_swap",
+    "text": "92",
+    "fixed": "29"
+   },
+   {
+    "row_y": 1125,
+    "kind": "repaired_swap",
+    "text": "72",
+    "fixed": "27"
+   }
+  ]
+ },
+ {
+  "source": "timetables/八通-八里桥-1.jpg",
+  "id": "八通-八里桥-1",
+  "n_times": 281,
+  "stats": {
+   "n": 281,
+   "n_hours": 19,
+   "median_gap": 3,
+   "max_gap": 8,
+   "min_gap": 2
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 469,
+    "kind": "ocr_fail",
+    "text": "703050911141719222427293235373941444749345558"
+   }
+  ]
+ },
+ {
+  "source": "timetables/八通-八里桥-2.jpg",
+  "id": "八通-八里桥-2",
+  "n_times": 280,
+  "stats": {
+   "n": 280,
+   "n_hours": 19,
+   "median_gap": 3,
+   "max_gap": 10,
+   "min_gap": 2
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 469,
+    "kind": "ocr_fail",
+    "text": "70004071012151719222272913537341434749515555759"
+   },
+   {
+    "row_y": 515,
+    "kind": "ocr_fail",
+    "text": "80103950709111151719212325272931335373414245474951535558"
+   },
+   {
+    "row_y": 562,
+    "kind": "ocr_fail",
+    "text": "93103008121620283034394445256"
+   },
+   {
+    "row_y": 937,
+    "kind": "repaired_swap",
+    "text": "85",
+    "fixed": "58"
+   },
+   {
+    "row_y": 984,
+    "kind": "ocr_fail",
+    "text": "18000204070911141612123228303235373424447515458"
+   },
+   {
+    "row_y": 1078,
+    "kind": "ocr_fail",
+    "text": "20000306111316212527323442454952565"
+   },
+   {
+    "row_y": 1125,
+    "kind": "repaired_swap",
+    "text": "72",
+    "fixed": "27"
+   },
+   {
+    "row_y": 1125,
+    "kind": "repaired_swap",
+    "text": "83",
+    "fixed": "38"
+   },
+   {
+    "row_y": 1218,
+    "kind": "ocr_fail",
+    "text": "2306014"
+   }
+  ]
+ },
+ {
+  "source": "timetables/八通-八里桥-3.jpg",
+  "id": "八通-八里桥-3",
+  "n_times": 204,
+  "stats": {
+   "n": 204,
+   "n_hours": 19,
+   "median_gap": 5,
+   "max_gap": 9,
+   "min_gap": 3
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 890,
+    "kind": "ocr_fail",
+    "text": "0207131722273337424752357"
+   }
+  ]
+ },
+ {
+  "source": "timetables/八通-八里桥-4.jpg",
+  "id": "八通-八里桥-4",
+  "n_times": 204,
+  "stats": {
+   "n": 204,
+   "n_hours": 19,
+   "median_gap": 5,
+   "max_gap": 10,
+   "min_gap": 3
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 515,
+    "kind": "bad_minute",
+    "text": "78"
+   }
+  ]
+ },
+ {
+  "source": "timetables/八通-双桥-1.jpg",
+  "id": "八通-双桥-1",
+  "n_times": 281,
+  "stats": {
+   "n": 281,
+   "n_hours": 19,
+   "median_gap": 3,
+   "max_gap": 9,
+   "min_gap": 2
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/八通-双桥-2.jpg",
+  "id": "八通-双桥-2",
+  "n_times": 280,
+  "stats": {
+   "n": 280,
+   "n_hours": 19,
+   "median_gap": 3,
+   "max_gap": 10,
+   "min_gap": 2
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 469,
+    "kind": "repaired_swap",
+    "text": "74",
+    "fixed": "47"
+   },
+   {
+    "row_y": 469,
+    "kind": "repaired_swap",
+    "text": "95",
+    "fixed": "59"
+   },
+   {
+    "row_y": 469,
+    "kind": "repaired_swap",
+    "text": "75",
+    "fixed": "57"
+   },
+   {
+    "row_y": 515,
+    "kind": "ocr_fail",
+    "text": "80103050709111315171212325272931373537341434547495153555759"
+   },
+   {
+    "row_y": 562,
+    "kind": "ocr_fail",
+    "text": "90104370912141822263136445505558"
+   },
+   {
+    "row_y": 609,
+    "kind": "repaired_swap",
+    "text": "94",
+    "fixed": "49"
+   },
+   {
+    "row_y": 984,
+    "kind": "repaired_swap",
+    "text": "71",
+    "fixed": "17"
+   },
+   {
+    "row_y": 984,
+    "kind": "repaired_swap",
+    "text": "92",
+    "fixed": "29"
+   },
+   {
+    "row_y": 984,
+    "kind": "repaired_swap",
+    "text": "62",
+    "fixed": "26"
+   },
+   {
+    "row_y": 984,
+    "kind": "repaired_swap",
+    "text": "93",
+    "fixed": "39"
+   },
+   {
+    "row_y": 984,
+    "kind": "repaired_swap",
+    "text": "63",
+    "fixed": "36"
+   },
+   {
+    "row_y": 984,
+    "kind": "repaired_swap",
+    "text": "84",
+    "fixed": "48"
+   },
+   {
+    "row_y": 1078,
+    "kind": "repaired_swap",
+    "text": "85",
+    "fixed": "58"
+   },
+   {
+    "row_y": 1125,
+    "kind": "repaired_swap",
+    "text": "75",
+    "fixed": "57"
+   }
+  ]
+ },
+ {
+  "source": "timetables/八通-双桥-3.jpg",
+  "id": "八通-双桥-3",
+  "n_times": 204,
+  "stats": {
+   "n": 204,
+   "n_hours": 19,
+   "median_gap": 5,
+   "max_gap": 10,
+   "min_gap": 3
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 1030,
+    "kind": "ocr_fail",
+    "text": "00051015192328333641465145559"
+   }
+  ]
+ },
+ {
+  "source": "timetables/八通-双桥-4.jpg",
+  "id": "八通-双桥-4",
+  "n_times": 204,
+  "stats": {
+   "n": 204,
+   "n_hours": 19,
+   "median_gap": 5,
+   "max_gap": 10,
+   "min_gap": 4
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 469,
+    "kind": "repaired_swap",
+    "text": "95",
+    "fixed": "59"
+   },
+   {
+    "row_y": 1078,
+    "kind": "repaired_swap",
+    "text": "64",
+    "fixed": "46"
+   },
+   {
+    "row_y": 1078,
+    "kind": "repaired_swap",
+    "text": "72",
+    "fixed": "27"
+   },
+   {
+    "row_y": 1218,
+    "kind": "ocr_fail",
+    "text": "000491"
+   }
+  ]
+ },
+ {
+  "source": "timetables/八通-土桥-1.jpg",
+  "id": "八通-土桥-1",
+  "n_times": 237,
+  "stats": {
+   "n": 237,
+   "n_hours": 21,
+   "median_gap": 5,
+   "max_gap": 289,
+   "min_gap": 1
+  },
+  "issues": [
+   {
+    "kind": "gap_small",
+    "gap": 1,
+    "at": "08:21->08:22",
+    "msg": "gap 1 min is below 2"
+   }
+  ],
+  "flags": []
+ },
+ {
+  "source": "timetables/八通-土桥-2.jpg",
+  "id": "八通-土桥-2",
+  "n_times": 264,
+  "stats": {
+   "n": 264,
+   "n_hours": 19,
+   "median_gap": 4,
+   "max_gap": 10,
+   "min_gap": 2
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 469,
+    "kind": "ocr_fail",
+    "text": "70103050811131517212527293437414547495153575"
+   },
+   {
+    "row_y": 515,
+    "kind": "ocr_fail",
+    "text": "8010397091115171232273033353842449525"
+   },
+   {
+    "row_y": 562,
+    "kind": "ocr_fail",
+    "text": "9020616225303538424750545"
+   },
+   {
+    "row_y": 609,
+    "kind": "bad_minute",
+    "text": "98"
+   },
+   {
+    "row_y": 984,
+    "kind": "ocr_fail",
+    "text": "180002007121416202330344145515558"
+   },
+   {
+    "row_y": 1078,
+    "kind": "repaired_swap",
+    "text": "81",
+    "fixed": "18"
+   },
+   {
+    "row_y": 1078,
+    "kind": "repaired_swap",
+    "text": "82",
+    "fixed": "28"
+   },
+   {
+    "row_y": 1078,
+    "kind": "repaired_swap",
+    "text": "93",
+    "fixed": "39"
+   },
+   {
+    "row_y": 1078,
+    "kind": "repaired_swap",
+    "text": "63",
+    "fixed": "36"
+   },
+   {
+    "row_y": 1125,
+    "kind": "repaired_swap",
+    "text": "85",
+    "fixed": "58"
+   }
+  ]
+ },
+ {
+  "source": "timetables/八通-土桥-3.jpg",
+  "id": "八通-土桥-3",
+  "n_times": 177,
+  "stats": {
+   "n": 177,
+   "n_hours": 21,
+   "median_gap": 7,
+   "max_gap": 289,
+   "min_gap": 4
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/八通-土桥-4.jpg",
+  "id": "八通-土桥-4",
+  "n_times": 172,
+  "stats": {
+   "n": 172,
+   "n_hours": 19,
+   "median_gap": 6,
+   "max_gap": 10,
+   "min_gap": 4
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 469,
+    "kind": "repaired_swap",
+    "text": "71",
+    "fixed": "17"
+   },
+   {
+    "row_y": 469,
+    "kind": "repaired_swap",
+    "text": "94",
+    "fixed": "49"
+   },
+   {
+    "row_y": 469,
+    "kind": "repaired_swap",
+    "text": "85",
+    "fixed": "58"
+   },
+   {
+    "row_y": 515,
+    "kind": "ocr_fail",
+    "text": "01061015192428374465155"
+   },
+   {
+    "row_y": 1172,
+    "kind": "ocr_fail",
+    "text": "051219263340454"
+   }
+  ]
+ },
+ {
+  "source": "timetables/八通-果园-1.jpg",
+  "id": "八通-果园-1",
+  "n_times": 265,
+  "stats": {
+   "n": 265,
+   "n_hours": 19,
+   "median_gap": 3,
+   "max_gap": 358,
+   "min_gap": 1
+  },
+  "issues": [
+   {
+    "kind": "gap_small",
+    "gap": 1,
+    "at": "07:41->07:42",
+    "msg": "gap 1 min is below 2"
+   },
+   {
+    "kind": "gap_small",
+    "gap": 1,
+    "at": "08:54->08:55",
+    "msg": "gap 1 min is below 2"
+   },
+   {
+    "kind": "gap_small",
+    "gap": 1,
+    "at": "09:04->09:05",
+    "msg": "gap 1 min is below 2"
+   },
+   {
+    "kind": "hour_gap",
+    "msg": "hours 0->6 not consecutive"
+   }
+  ],
+  "flags": []
+ },
+ {
+  "source": "timetables/八通-果园-2.jpg",
+  "id": "八通-果园-2",
+  "n_times": 280,
+  "stats": {
+   "n": 280,
+   "n_hours": 19,
+   "median_gap": 3,
+   "max_gap": 9,
+   "min_gap": 1
+  },
+  "issues": [
+   {
+    "kind": "gap_small",
+    "gap": 1,
+    "at": "08:44->08:45",
+    "msg": "gap 1 min is below 2"
+   }
+  ],
+  "flags": [
+   {
+    "row_y": 469,
+    "kind": "repaired_swap",
+    "text": "70",
+    "fixed": "07"
+   },
+   {
+    "row_y": 469,
+    "kind": "repaired_swap",
+    "text": "70",
+    "fixed": "07"
+   },
+   {
+    "row_y": 469,
+    "kind": "repaired_swap",
+    "text": "91",
+    "fixed": "19"
+   },
+   {
+    "row_y": 469,
+    "kind": "repaired_swap",
+    "text": "61",
+    "fixed": "16"
+   },
+   {
+    "row_y": 469,
+    "kind": "repaired_swap",
+    "text": "74",
+    "fixed": "47"
+   },
+   {
+    "row_y": 515,
+    "kind": "ocr_fail",
+    "text": "801030500911131171921232522931373537394144454850535558"
+   },
+   {
+    "row_y": 562,
+    "kind": "ocr_fail",
+    "text": "930033101522523439444751558"
+   },
+   {
+    "row_y": 609,
+    "kind": "ocr_fail",
+    "text": "10030111202228333945156"
+   },
+   {
+    "row_y": 937,
+    "kind": "ocr_fail",
+    "text": "170005101417202426293133363810434547505254575"
+   },
+   {
+    "row_y": 984,
+    "kind": "bad_minute",
+    "text": "96"
+   },
+   {
+    "row_y": 984,
+    "kind": "repaired_swap",
+    "text": "82",
+    "fixed": "28"
+   }
+  ]
+ },
+ {
+  "source": "timetables/八通-果园-3.jpg",
+  "id": "八通-果园-3",
+  "n_times": 172,
+  "stats": {
+   "n": 172,
+   "n_hours": 19,
+   "median_gap": 6,
+   "max_gap": 358,
+   "min_gap": 4
+  },
+  "issues": [
+   {
+    "kind": "hour_gap",
+    "msg": "hours 0->6 not consecutive"
+   }
+  ],
+  "flags": []
+ },
+ {
+  "source": "timetables/八通-果园-4.jpg",
+  "id": "八通-果园-4",
+  "n_times": 204,
+  "stats": {
+   "n": 204,
+   "n_hours": 19,
+   "median_gap": 5,
+   "max_gap": 11,
+   "min_gap": 2
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 469,
+    "kind": "bad_minute",
+    "text": "79"
+   },
+   {
+    "row_y": 515,
+    "kind": "ocr_fail",
+    "text": "000915187327333645505459"
+   },
+   {
+    "row_y": 1078,
+    "kind": "ocr_fail",
+    "text": "0005101520253035140455157"
+   },
+   {
+    "row_y": 1172,
+    "kind": "repaired_swap",
+    "text": "95",
+    "fixed": "59"
+   }
+  ]
+ },
+ {
+  "source": "timetables/八通-梨园-1.jpg",
+  "id": "八通-梨园-1",
+  "n_times": 265,
+  "stats": {
+   "n": 265,
+   "n_hours": 19,
+   "median_gap": 3,
+   "max_gap": 358,
+   "min_gap": 1
+  },
+  "issues": [
+   {
+    "kind": "gap_small",
+    "gap": 1,
+    "at": "08:25->08:26",
+    "msg": "gap 1 min is below 2"
+   },
+   {
+    "kind": "gap_small",
+    "gap": 1,
+    "at": "08:41->08:42",
+    "msg": "gap 1 min is below 2"
+   },
+   {
+    "kind": "gap_small",
+    "gap": 1,
+    "at": "08:57->08:58",
+    "msg": "gap 1 min is below 2"
+   },
+   {
+    "kind": "gap_small",
+    "gap": 1,
+    "at": "09:07->09:08",
+    "msg": "gap 1 min is below 2"
+   },
+   {
+    "kind": "hour_gap",
+    "msg": "hours 0->6 not consecutive"
+   }
+  ],
+  "flags": []
+ },
+ {
+  "source": "timetables/八通-梨园-2.jpg",
+  "id": "八通-梨园-2",
+  "n_times": 264,
+  "stats": {
+   "n": 264,
+   "n_hours": 19,
+   "median_gap": 4,
+   "max_gap": 10,
+   "min_gap": 2
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 469,
+    "kind": "repaired_swap",
+    "text": "71",
+    "fixed": "17"
+   },
+   {
+    "row_y": 469,
+    "kind": "bad_minute",
+    "text": "79"
+   },
+   {
+    "row_y": 515,
+    "kind": "ocr_fail",
+    "text": "801930507111315192122723134373942465535"
+   },
+   {
+    "row_y": 562,
+    "kind": "repaired_swap",
+    "text": "65",
+    "fixed": "56"
+   },
+   {
+    "row_y": 609,
+    "kind": "repaired_swap",
+    "text": "93",
+    "fixed": "39"
+   },
+   {
+    "row_y": 937,
+    "kind": "repaired_swap",
+    "text": "63",
+    "fixed": "36"
+   },
+   {
+    "row_y": 937,
+    "kind": "repaired_swap",
+    "text": "84",
+    "fixed": "48"
+   }
+  ]
+ },
+ {
+  "source": "timetables/八通-梨园-3.jpg",
+  "id": "八通-梨园-3",
+  "n_times": 172,
+  "stats": {
+   "n": 172,
+   "n_hours": 19,
+   "median_gap": 7,
+   "max_gap": 358,
+   "min_gap": 4
+  },
+  "issues": [
+   {
+    "kind": "hour_gap",
+    "msg": "hours 0->6 not consecutive"
+   }
+  ],
+  "flags": []
+ },
+ {
+  "source": "timetables/八通-梨园-4.jpg",
+  "id": "八通-梨园-4",
+  "n_times": 172,
+  "stats": {
+   "n": 172,
+   "n_hours": 19,
+   "median_gap": 6,
+   "max_gap": 10,
+   "min_gap": 4
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 469,
+    "kind": "repaired_swap",
+    "text": "75",
+    "fixed": "57"
+   },
+   {
+    "row_y": 515,
+    "kind": "ocr_fail",
+    "text": "05101419232832414505559"
+   },
+   {
+    "row_y": 1078,
+    "kind": "repaired_swap",
+    "text": "61",
+    "fixed": "16"
+   },
+   {
+    "row_y": 1078,
+    "kind": "repaired_swap",
+    "text": "62",
+    "fixed": "26"
+   },
+   {
+    "row_y": 1078,
+    "kind": "repaired_swap",
+    "text": "63",
+    "fixed": "36"
+   }
+  ]
+ },
+ {
+  "source": "timetables/八通-环球度假区-1.jpg",
+  "id": "八通-环球度假区-1",
+  "n_times": 222,
+  "stats": {
+   "n": 222,
+   "n_hours": 18,
+   "median_gap": 4,
+   "max_gap": 10,
+   "min_gap": 2
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/八通-环球度假区-2.jpg",
+  "id": "八通-环球度假区-2",
+  "n_times": 163,
+  "stats": {
+   "n": 163,
+   "n_hours": 18,
+   "median_gap": 7,
+   "max_gap": 10,
+   "min_gap": 4
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 912,
+    "kind": "ocr_fail",
+    "text": "02071119263037434853459"
+   }
+  ]
+ },
+ {
+  "source": "timetables/八通-管庄-1.jpg",
+  "id": "八通-管庄-1",
+  "n_times": 281,
+  "stats": {
+   "n": 281,
+   "n_hours": 19,
+   "median_gap": 3,
+   "max_gap": 8,
+   "min_gap": 2
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 469,
+    "kind": "ocr_fail",
+    "text": "7000206081114161921242629323436384144460395525557"
+   }
+  ]
+ },
+ {
+  "source": "timetables/八通-管庄-2.jpg",
+  "id": "八通-管庄-2",
+  "n_times": 280,
+  "stats": {
+   "n": 280,
+   "n_hours": 19,
+   "median_gap": 3,
+   "max_gap": 10,
+   "min_gap": 2
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 469,
+    "kind": "ocr_fail",
+    "text": "70103071013151820222530324384044446505254558"
+   },
+   {
+    "row_y": 516,
+    "kind": "ocr_fail",
+    "text": "80002040608101214161820222426283032343384042444645052545658"
+   },
+   {
+    "row_y": 562,
+    "kind": "ocr_fail",
+    "text": "9010406011119232333424755559"
+   },
+   {
+    "row_y": 609,
+    "kind": "repaired_swap",
+    "text": "94",
+    "fixed": "49"
+   },
+   {
+    "row_y": 609,
+    "kind": "repaired_swap",
+    "text": "92",
+    "fixed": "29"
+   },
+   {
+    "row_y": 609,
+    "kind": "repaired_swap",
+    "text": "71",
+    "fixed": "17"
+   },
+   {
+    "row_y": 937,
+    "kind": "ocr_fail",
+    "text": "17010408131822252932353739424446451535658"
+   },
+   {
+    "row_y": 984,
+    "kind": "ocr_fail",
+    "text": "1820030501012141719212422313335384044547505457"
+   },
+   {
+    "row_y": 1078,
+    "kind": "ocr_fail",
+    "text": "200306091416192428303537445452559"
+   },
+   {
+    "row_y": 1125,
+    "kind": "repaired_swap",
+    "text": "84",
+    "fixed": "48"
+   }
+  ]
+ },
+ {
+  "source": "timetables/八通-管庄-3.jpg",
+  "id": "八通-管庄-3",
+  "n_times": 204,
+  "stats": {
+   "n": 204,
+   "n_hours": 19,
+   "median_gap": 5,
+   "max_gap": 9,
+   "min_gap": 3
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/八通-管庄-4.jpg",
+  "id": "八通-管庄-4",
+  "n_times": 204,
+  "stats": {
+   "n": 204,
+   "n_hours": 19,
+   "median_gap": 5,
+   "max_gap": 10,
+   "min_gap": 3
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 516,
+    "kind": "ocr_fail",
+    "text": "000409182327313641454"
+   },
+   {
+    "row_y": 562,
+    "kind": "repaired_swap",
+    "text": "75",
+    "fixed": "57"
+   },
+   {
+    "row_y": 750,
+    "kind": "ocr_fail",
+    "text": "0107121624127323641475256"
+   }
+  ]
+ },
+ {
+  "source": "timetables/八通-花庄-1.jpg",
+  "id": "八通-花庄-1",
+  "n_times": 237,
+  "stats": {
+   "n": 237,
+   "n_hours": 20,
+   "median_gap": 5,
+   "max_gap": 289,
+   "min_gap": 2
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/八通-花庄-2.jpg",
+  "id": "八通-花庄-2",
+  "n_times": 222,
+  "stats": {
+   "n": 222,
+   "n_hours": 18,
+   "median_gap": 4,
+   "max_gap": 10,
+   "min_gap": 2
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/八通-花庄-3.jpg",
+  "id": "八通-花庄-3",
+  "n_times": 179,
+  "stats": {
+   "n": 179,
+   "n_hours": 20,
+   "median_gap": 7,
+   "max_gap": 289,
+   "min_gap": 4
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 567,
+    "kind": "ocr_fail",
+    "text": "0005091419232834414653459"
+   },
+   {
+    "row_y": 610,
+    "kind": "ocr_fail",
+    "text": "051117222835404654459"
+   },
+   {
+    "row_y": 998,
+    "kind": "ocr_fail",
+    "text": "010612192835424653459"
+   },
+   {
+    "row_y": 1170,
+    "kind": "ocr_fail",
+    "text": "0006121824331384552459"
+   }
+  ]
+ },
+ {
+  "source": "timetables/八通-花庄-4.jpg",
+  "id": "八通-花庄-4",
+  "n_times": 163,
+  "stats": {
+   "n": 163,
+   "n_hours": 18,
+   "median_gap": 7,
+   "max_gap": 10,
+   "min_gap": 4
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 740,
+    "kind": "ocr_fail",
+    "text": "0712192732394735259"
+   },
+   {
+    "row_y": 998,
+    "kind": "repaired_swap",
+    "text": "95",
+    "fixed": "59"
+   }
+  ]
+ },
+ {
+  "source": "timetables/八通-通州北苑-1.jpg",
+  "id": "八通-通州北苑-1",
+  "n_times": 281,
+  "stats": {
+   "n": 281,
+   "n_hours": 19,
+   "median_gap": 3,
+   "max_gap": 8,
+   "min_gap": 2
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 469,
+    "kind": "ocr_fail",
+    "text": "70206081214172022252730323538404244474951358"
+   }
+  ]
+ },
+ {
+  "source": "timetables/八通-通州北苑-2.jpg",
+  "id": "八通-通州北苑-2",
+  "n_times": 280,
+  "stats": {
+   "n": 280,
+   "n_hours": 19,
+   "median_gap": 4,
+   "max_gap": 10,
+   "min_gap": 1
+  },
+  "issues": [
+   {
+    "kind": "gap_small",
+    "gap": 1,
+    "at": "07:32->07:33",
+    "msg": "gap 1 min is below 2"
+   },
+   {
+    "kind": "gap_small",
+    "gap": 1,
+    "at": "07:52->07:53",
+    "msg": "gap 1 min is below 2"
+   },
+   {
+    "kind": "gap_small",
+    "gap": 1,
+    "at": "08:14->08:15",
+    "msg": "gap 1 min is below 2"
+   },
+   {
+    "kind": "gap_small",
+    "gap": 1,
+    "at": "08:22->08:23",
+    "msg": "gap 1 min is below 2"
+   },
+   {
+    "kind": "gap_small",
+    "gap": 1,
+    "at": "08:30->08:31",
+    "msg": "gap 1 min is below 2"
+   },
+   {
+    "kind": "gap_small",
+    "gap": 1,
+    "at": "08:38->08:39",
+    "msg": "gap 1 min is below 2"
+   },
+   {
+    "kind": "gap_small",
+    "gap": 1,
+    "at": "08:46->08:47",
+    "msg": "gap 1 min is below 2"
+   }
+  ],
+  "flags": [
+   {
+    "row_y": 469,
+    "kind": "repaired_swap",
+    "text": "70",
+    "fixed": "07"
+   },
+   {
+    "row_y": 469,
+    "kind": "repaired_swap",
+    "text": "70",
+    "fixed": "07"
+   },
+   {
+    "row_y": 469,
+    "kind": "repaired_swap",
+    "text": "91",
+    "fixed": "19"
+   },
+   {
+    "row_y": 469,
+    "kind": "repaired_swap",
+    "text": "61",
+    "fixed": "16"
+   },
+   {
+    "row_y": 469,
+    "kind": "repaired_swap",
+    "text": "92",
+    "fixed": "29"
+   },
+   {
+    "row_y": 469,
+    "kind": "repaired_swap",
+    "text": "62",
+    "fixed": "26"
+   },
+   {
+    "row_y": 469,
+    "kind": "repaired_swap",
+    "text": "83",
+    "fixed": "38"
+   },
+   {
+    "row_y": 515,
+    "kind": "ocr_fail",
+    "text": "8002204060811214151202223262833134338394244464750525550"
+   },
+   {
+    "row_y": 562,
+    "kind": "ocr_fail",
+    "text": "9000205013172227313641449534"
+   },
+   {
+    "row_y": 609,
+    "kind": "repaired_swap",
+    "text": "64",
+    "fixed": "46"
+   },
+   {
+    "row_y": 984,
+    "kind": "repaired_swap",
+    "text": "92",
+    "fixed": "29"
+   },
+   {
+    "row_y": 1078,
+    "kind": "repaired_swap",
+    "text": "81",
+    "fixed": "18"
+   },
+   {
+    "row_y": 1078,
+    "kind": "repaired_swap",
+    "text": "82",
+    "fixed": "28"
+   },
+   {
+    "row_y": 1078,
+    "kind": "repaired_swap",
+    "text": "93",
+    "fixed": "39"
+   },
+   {
+    "row_y": 1078,
+    "kind": "repaired_swap",
+    "text": "94",
+    "fixed": "49"
+   },
+   {
+    "row_y": 1078,
+    "kind": "repaired_swap",
+    "text": "64",
+    "fixed": "46"
+   }
+  ]
+ },
+ {
+  "source": "timetables/八通-通州北苑-3.jpg",
+  "id": "八通-通州北苑-3",
+  "n_times": 204,
+  "stats": {
+   "n": 204,
+   "n_hours": 19,
+   "median_gap": 5,
+   "max_gap": 9,
+   "min_gap": 3
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/八通-通州北苑-4.jpg",
+  "id": "八通-通州北苑-4",
+  "n_times": 204,
+  "stats": {
+   "n": 204,
+   "n_hours": 19,
+   "median_gap": 5,
+   "max_gap": 10,
+   "min_gap": 2
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 515,
+    "kind": "repaired_swap",
+    "text": "75",
+    "fixed": "57"
+   },
+   {
+    "row_y": 1218,
+    "kind": "ocr_fail",
+    "text": "012"
+   }
+  ]
+ },
+ {
+  "source": "timetables/八通-高碑店-1.jpg",
+  "id": "八通-高碑店-1",
+  "n_times": 281,
+  "stats": {
+   "n": 281,
+   "n_hours": 19,
+   "median_gap": 3,
+   "max_gap": 9,
+   "min_gap": 2
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 469,
+    "kind": "ocr_fail",
+    "text": "7000306081013161821232628303235370434649535557"
+   }
+  ]
+ },
+ {
+  "source": "timetables/八通-高碑店-2.jpg",
+  "id": "八通-高碑店-2",
+  "n_times": 280,
+  "stats": {
+   "n": 280,
+   "n_hours": 19,
+   "median_gap": 3,
+   "max_gap": 11,
+   "min_gap": 2
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 469,
+    "kind": "ocr_fail",
+    "text": "700050710121619222427293134339411474951535550"
+   },
+   {
+    "row_y": 515,
+    "kind": "ocr_fail",
+    "text": "80103950709111315119212322729313353739414344749515354559"
+   },
+   {
+    "row_y": 562,
+    "kind": "repaired_swap",
+    "text": "90",
+    "fixed": "09"
+   },
+   {
+    "row_y": 562,
+    "kind": "repaired_swap",
+    "text": "81",
+    "fixed": "18"
+   },
+   {
+    "row_y": 562,
+    "kind": "repaired_swap",
+    "text": "82",
+    "fixed": "28"
+   },
+   {
+    "row_y": 562,
+    "kind": "repaired_swap",
+    "text": "83",
+    "fixed": "38"
+   },
+   {
+    "row_y": 562,
+    "kind": "repaired_swap",
+    "text": "74",
+    "fixed": "47"
+   },
+   {
+    "row_y": 937,
+    "kind": "ocr_fail",
+    "text": "1703061013172227303438414345485052553559"
+   },
+   {
+    "row_y": 984,
+    "kind": "repaired_swap",
+    "text": "63",
+    "fixed": "36"
+   },
+   {
+    "row_y": 984,
+    "kind": "repaired_swap",
+    "text": "91",
+    "fixed": "19"
+   },
+   {
+    "row_y": 984,
+    "kind": "repaired_swap",
+    "text": "61",
+    "fixed": "16"
+   },
+   {
+    "row_y": 984,
+    "kind": "repaired_swap",
+    "text": "82",
+    "fixed": "28"
+   },
+   {
+    "row_y": 984,
+    "kind": "repaired_swap",
+    "text": "73",
+    "fixed": "37"
+   },
+   {
+    "row_y": 1125,
+    "kind": "ocr_fail",
+    "text": "2101008116222833946535"
+   },
+   {
+    "row_y": 1218,
+    "kind": "ocr_fail",
+    "text": "2305112"
+   }
+  ]
+ },
+ {
+  "source": "timetables/八通-高碑店-3.jpg",
+  "id": "八通-高碑店-3",
+  "n_times": 204,
+  "stats": {
+   "n": 204,
+   "n_hours": 19,
+   "median_gap": 5,
+   "max_gap": 9,
+   "min_gap": 3
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/八通-高碑店-4.jpg",
+  "id": "八通-高碑店-4",
+  "n_times": 204,
+  "stats": {
+   "n": 204,
+   "n_hours": 19,
+   "median_gap": 5,
+   "max_gap": 10,
+   "min_gap": 3
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 515,
+    "kind": "ocr_fail",
+    "text": "081317263235404450533"
+   },
+   {
+    "row_y": 1125,
+    "kind": "ocr_fail",
+    "text": "0208142023136424956"
+   },
+   {
+    "row_y": 1218,
+    "kind": "bad_minute",
+    "text": "76"
+   }
+  ]
+ }
+]

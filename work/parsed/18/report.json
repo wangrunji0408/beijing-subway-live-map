@@ -1,0 +1,1494 @@
+[
+ {
+  "source": "timetables/18-上地软件园-1.jpg",
+  "id": "18-上地软件园-1#0",
+  "n_times": 164,
+  "stats": {
+   "n": 164,
+   "n_hours": 19,
+   "median_gap": 7,
+   "max_gap": 10,
+   "min_gap": 4
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 408,
+    "kind": "ocr_fail",
+    "text": ""
+   },
+   {
+    "row_y": 441,
+    "kind": "ocr_fail",
+    "text": ""
+   },
+   {
+    "row_y": 473,
+    "kind": "ocr_fail",
+    "text": "7"
+   },
+   {
+    "row_y": 526,
+    "kind": "ocr_fail",
+    "text": "199020711162126313641475359"
+   },
+   {
+    "row_y": 595,
+    "kind": "bad_minute",
+    "text": "31119"
+   },
+   {
+    "row_y": 663,
+    "kind": "ocr_fail",
+    "text": "2338152"
+   },
+   {
+    "row_y": 687,
+    "kind": "ocr_fail",
+    "text": ""
+   },
+   {
+    "row_y": 703,
+    "kind": "ocr_fail",
+    "text": ""
+   }
+  ]
+ },
+ {
+  "source": "timetables/18-上地软件园-1.jpg",
+  "id": "18-上地软件园-1#1",
+  "n_times": 133,
+  "stats": {
+   "n": 133,
+   "n_hours": 19,
+   "median_gap": 8,
+   "max_gap": 12,
+   "min_gap": 7
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 44,
+    "kind": "ocr_fail",
+    "text": "5435159"
+   },
+   {
+    "row_y": 79,
+    "kind": "ocr_fail",
+    "text": "607152331394755"
+   },
+   {
+    "row_y": 113,
+    "kind": "ocr_fail",
+    "text": "70311192735435159"
+   },
+   {
+    "row_y": 355,
+    "kind": "ocr_fail",
+    "text": "21407152331394755"
+   },
+   {
+    "row_y": 595,
+    "kind": "ocr_fail",
+    "text": "21"
+   },
+   {
+    "row_y": 628,
+    "kind": "ocr_fail",
+    "text": "2271626354453"
+   },
+   {
+    "row_y": 663,
+    "kind": "ocr_fail",
+    "text": "323008152"
+   },
+   {
+    "row_y": 685,
+    "kind": "ocr_fail",
+    "text": ""
+   }
+  ]
+ },
+ {
+  "source": "timetables/18-上地软件园-2.jpg",
+  "id": "18-上地软件园-2#0",
+  "n_times": 164,
+  "stats": {
+   "n": 164,
+   "n_hours": 19,
+   "median_gap": 7,
+   "max_gap": 10,
+   "min_gap": 4
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/18-上地软件园-2.jpg",
+  "id": "18-上地软件园-2#1",
+  "n_times": 133,
+  "stats": {
+   "n": 133,
+   "n_hours": 19,
+   "median_gap": 8,
+   "max_gap": 10,
+   "min_gap": 7
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 47,
+    "kind": "ocr_fail",
+    "text": "52836445159"
+   },
+   {
+    "row_y": 81,
+    "kind": "ocr_fail",
+    "text": "608172533414957"
+   },
+   {
+    "row_y": 116,
+    "kind": "ocr_fail",
+    "text": "705132129374553"
+   },
+   {
+    "row_y": 150,
+    "kind": "ocr_fail",
+    "text": "80109172533414957"
+   },
+   {
+    "row_y": 185,
+    "kind": "ocr_fail",
+    "text": "905132129374553"
+   }
+  ]
+ },
+ {
+  "source": "timetables/18-东北旺-1.jpg",
+  "id": "18-东北旺-1#0",
+  "n_times": 164,
+  "stats": {
+   "n": 164,
+   "n_hours": 19,
+   "median_gap": 7,
+   "max_gap": 10,
+   "min_gap": 4
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/18-东北旺-1.jpg",
+  "id": "18-东北旺-1#1",
+  "n_times": 133,
+  "stats": {
+   "n": 133,
+   "n_hours": 19,
+   "median_gap": 8,
+   "max_gap": 10,
+   "min_gap": 7
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 44,
+    "kind": "ocr_fail",
+    "text": "54553"
+   },
+   {
+    "row_y": 113,
+    "kind": "ocr_fail",
+    "text": "705132129374553"
+   },
+   {
+    "row_y": 355,
+    "kind": "ocr_fail",
+    "text": "2140109172533414957"
+   },
+   {
+    "row_y": 595,
+    "kind": "ocr_fail",
+    "text": "21"
+   },
+   {
+    "row_y": 663,
+    "kind": "repaired_swap",
+    "text": "82",
+    "fixed": "28"
+   },
+   {
+    "row_y": 685,
+    "kind": "ocr_fail",
+    "text": ""
+   }
+  ]
+ },
+ {
+  "source": "timetables/18-东北旺-2.jpg",
+  "id": "18-东北旺-2#0",
+  "n_times": 164,
+  "stats": {
+   "n": 164,
+   "n_hours": 19,
+   "median_gap": 7,
+   "max_gap": 10,
+   "min_gap": 4
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/18-东北旺-2.jpg",
+  "id": "18-东北旺-2#1",
+  "n_times": 133,
+  "stats": {
+   "n": 133,
+   "n_hours": 19,
+   "median_gap": 8,
+   "max_gap": 10,
+   "min_gap": 7
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 47,
+    "kind": "ocr_fail",
+    "text": "52533414856"
+   },
+   {
+    "row_y": 81,
+    "kind": "repaired_swap",
+    "text": "84",
+    "fixed": "48"
+   },
+   {
+    "row_y": 81,
+    "kind": "repaired_swap",
+    "text": "65",
+    "fixed": "56"
+   },
+   {
+    "row_y": 116,
+    "kind": "repaired_swap",
+    "text": "82",
+    "fixed": "28"
+   },
+   {
+    "row_y": 116,
+    "kind": "repaired_swap",
+    "text": "63",
+    "fixed": "36"
+   },
+   {
+    "row_y": 150,
+    "kind": "ocr_fail",
+    "text": "06142230384654"
+   },
+   {
+    "row_y": 185,
+    "kind": "bad_minute",
+    "text": "79"
+   }
+  ]
+ },
+ {
+  "source": "timetables/18-回龙观东大街-1.jpg",
+  "id": "18-回龙观东大街-1#0",
+  "n_times": 164,
+  "stats": {
+   "n": 164,
+   "n_hours": 19,
+   "median_gap": 7,
+   "max_gap": 10,
+   "min_gap": 4
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 408,
+    "kind": "ocr_fail",
+    "text": ""
+   },
+   {
+    "row_y": 441,
+    "kind": "ocr_fail",
+    "text": ""
+   },
+   {
+    "row_y": 473,
+    "kind": "ocr_fail",
+    "text": "7"
+   },
+   {
+    "row_y": 595,
+    "kind": "ocr_fail",
+    "text": "21021018263442505858545584"
+   },
+   {
+    "row_y": 687,
+    "kind": "ocr_fail",
+    "text": ""
+   },
+   {
+    "row_y": 703,
+    "kind": "ocr_fail",
+    "text": ""
+   }
+  ]
+ },
+ {
+  "source": "timetables/18-回龙观东大街-1.jpg",
+  "id": "18-回龙观东大街-1#1",
+  "n_times": 133,
+  "stats": {
+   "n": 133,
+   "n_hours": 19,
+   "median_gap": 8,
+   "max_gap": 10,
+   "min_gap": 7
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 79,
+    "kind": "ocr_fail",
+    "text": "606142230384654"
+   },
+   {
+    "row_y": 113,
+    "kind": "repaired_swap",
+    "text": "82",
+    "fixed": "28"
+   },
+   {
+    "row_y": 113,
+    "kind": "repaired_swap",
+    "text": "63",
+    "fixed": "36"
+   },
+   {
+    "row_y": 355,
+    "kind": "ocr_fail",
+    "text": "21406142230384654"
+   },
+   {
+    "row_y": 685,
+    "kind": "ocr_fail",
+    "text": ""
+   }
+  ]
+ },
+ {
+  "source": "timetables/18-回龙观东大街-2.jpg",
+  "id": "18-回龙观东大街-2#0",
+  "n_times": 164,
+  "stats": {
+   "n": 164,
+   "n_hours": 18,
+   "median_gap": 7,
+   "max_gap": 10,
+   "min_gap": 4
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 443,
+    "kind": "ocr_fail",
+    "text": ""
+   },
+   {
+    "row_y": 475,
+    "kind": "ocr_fail",
+    "text": "7"
+   },
+   {
+    "row_y": 598,
+    "kind": "bad_minute",
+    "text": "41220"
+   }
+  ]
+ },
+ {
+  "source": "timetables/18-回龙观东大街-2.jpg",
+  "id": "18-回龙观东大街-2#1",
+  "n_times": 133,
+  "stats": {
+   "n": 133,
+   "n_hours": 18,
+   "median_gap": 8,
+   "max_gap": 10,
+   "min_gap": 7
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 47,
+    "kind": "repaired_swap",
+    "text": "92",
+    "fixed": "29"
+   },
+   {
+    "row_y": 47,
+    "kind": "repaired_swap",
+    "text": "73",
+    "fixed": "37"
+   },
+   {
+    "row_y": 81,
+    "kind": "ocr_fail",
+    "text": "60008162432404856"
+   },
+   {
+    "row_y": 150,
+    "kind": "ocr_fail",
+    "text": ""
+   }
+  ]
+ },
+ {
+  "source": "timetables/18-回龙观西大街-1.jpg",
+  "id": "18-回龙观西大街-1#0",
+  "n_times": 164,
+  "stats": {
+   "n": 164,
+   "n_hours": 19,
+   "median_gap": 7,
+   "max_gap": 10,
+   "min_gap": 4
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 408,
+    "kind": "ocr_fail",
+    "text": ""
+   },
+   {
+    "row_y": 441,
+    "kind": "ocr_fail",
+    "text": ""
+   },
+   {
+    "row_y": 473,
+    "kind": "ocr_fail",
+    "text": "7"
+   },
+   {
+    "row_y": 526,
+    "kind": "ocr_fail",
+    "text": "199030812172227313641465258"
+   },
+   {
+    "row_y": 595,
+    "kind": "bad_minute",
+    "text": "51321"
+   },
+   {
+    "row_y": 663,
+    "kind": "bad_minute",
+    "text": "96"
+   },
+   {
+    "row_y": 687,
+    "kind": "ocr_fail",
+    "text": ""
+   },
+   {
+    "row_y": 703,
+    "kind": "ocr_fail",
+    "text": ""
+   }
+  ]
+ },
+ {
+  "source": "timetables/18-回龙观西大街-1.jpg",
+  "id": "18-回龙观西大街-1#1",
+  "n_times": 133,
+  "stats": {
+   "n": 133,
+   "n_hours": 19,
+   "median_gap": 8,
+   "max_gap": 10,
+   "min_gap": 7
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 113,
+    "kind": "ocr_fail",
+    "text": "705132129374553"
+   },
+   {
+    "row_y": 355,
+    "kind": "ocr_fail",
+    "text": "2140109172533414957"
+   },
+   {
+    "row_y": 595,
+    "kind": "ocr_fail",
+    "text": "21"
+   },
+   {
+    "row_y": 685,
+    "kind": "ocr_fail",
+    "text": ""
+   }
+  ]
+ },
+ {
+  "source": "timetables/18-回龙观西大街-2.jpg",
+  "id": "18-回龙观西大街-2#0",
+  "n_times": 164,
+  "stats": {
+   "n": 164,
+   "n_hours": 18,
+   "median_gap": 7,
+   "max_gap": 10,
+   "min_gap": 4
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 443,
+    "kind": "ocr_fail",
+    "text": ""
+   },
+   {
+    "row_y": 475,
+    "kind": "ocr_fail",
+    "text": "7"
+   },
+   {
+    "row_y": 598,
+    "kind": "bad_minute",
+    "text": "21018"
+   },
+   {
+    "row_y": 598,
+    "kind": "repaired_swap",
+    "text": "75",
+    "fixed": "57"
+   },
+   {
+    "row_y": 598,
+    "kind": "repaired_swap",
+    "text": "74",
+    "fixed": "47"
+   }
+  ]
+ },
+ {
+  "source": "timetables/18-回龙观西大街-2.jpg",
+  "id": "18-回龙观西大街-2#1",
+  "n_times": 133,
+  "stats": {
+   "n": 133,
+   "n_hours": 18,
+   "median_gap": 8,
+   "max_gap": 10,
+   "min_gap": 7
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 47,
+    "kind": "ocr_fail",
+    "text": "5172533404857"
+   },
+   {
+    "row_y": 81,
+    "kind": "ocr_fail",
+    "text": "606142230384654"
+   },
+   {
+    "row_y": 116,
+    "kind": "repaired_swap",
+    "text": "82",
+    "fixed": "28"
+   },
+   {
+    "row_y": 116,
+    "kind": "repaired_swap",
+    "text": "63",
+    "fixed": "36"
+   },
+   {
+    "row_y": 150,
+    "kind": "ocr_fail",
+    "text": "06142230384654"
+   },
+   {
+    "row_y": 185,
+    "kind": "bad_minute",
+    "text": "79"
+   }
+  ]
+ },
+ {
+  "source": "timetables/18-天通苑-1.jpg",
+  "id": "18-天通苑-1#0",
+  "n_times": 178,
+  "stats": {
+   "n": 178,
+   "n_hours": 19,
+   "median_gap": 5,
+   "max_gap": 10,
+   "min_gap": 3
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 1291,
+    "kind": "ocr_fail",
+    "text": "41917000612172227313641465055"
+   },
+   {
+    "row_y": 1338,
+    "kind": "ocr_fail",
+    "text": ""
+   },
+   {
+    "row_y": 1529,
+    "kind": "ocr_fail",
+    "text": "5"
+   },
+   {
+    "row_y": 1686,
+    "kind": "ocr_fail",
+    "text": "2102101826344250581655165"
+   }
+  ]
+ },
+ {
+  "source": "timetables/18-天通苑-1.jpg",
+  "id": "18-天通苑-1#1",
+  "n_times": 135,
+  "stats": {
+   "n": 135,
+   "n_hours": 19,
+   "median_gap": 8,
+   "max_gap": 10,
+   "min_gap": 8
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 126,
+    "kind": "ocr_fail",
+    "text": "5162432404857"
+   },
+   {
+    "row_y": 321,
+    "kind": "ocr_fail",
+    "text": "70210182634425058"
+   }
+  ]
+ },
+ {
+  "source": "timetables/18-天通苑-2.jpg",
+  "id": "18-天通苑-2#0",
+  "n_times": 160,
+  "stats": {
+   "n": 160,
+   "n_hours": 18,
+   "median_gap": 7,
+   "max_gap": 10,
+   "min_gap": 4
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 836,
+    "kind": "ocr_fail",
+    "text": "0"
+   },
+   {
+    "row_y": 1097,
+    "kind": "ocr_fail",
+    "text": "4150412202836445158"
+   },
+   {
+    "row_y": 1192,
+    "kind": "ocr_fail",
+    "text": "160511172226313641465155"
+   },
+   {
+    "row_y": 1290,
+    "kind": "ocr_fail",
+    "text": "1700051014192429333843485257"
+   }
+  ]
+ },
+ {
+  "source": "timetables/18-天通苑-2.jpg",
+  "id": "18-天通苑-2#1",
+  "n_times": 129,
+  "stats": {
+   "n": 129,
+   "n_hours": 18,
+   "median_gap": 8,
+   "max_gap": 10,
+   "min_gap": 8
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 125,
+    "kind": "ocr_fail",
+    "text": "5354352"
+   },
+   {
+    "row_y": 319,
+    "kind": "ocr_fail",
+    "text": "704122028364452"
+   },
+   {
+    "row_y": 416,
+    "kind": "ocr_fail",
+    "text": "80008162432404856"
+   }
+  ]
+ },
+ {
+  "source": "timetables/18-天通苑东-1.jpg",
+  "id": "18-天通苑东-1#0",
+  "n_times": 160,
+  "stats": {
+   "n": 160,
+   "n_hours": 18,
+   "median_gap": 7,
+   "max_gap": 10,
+   "min_gap": 4
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 218,
+    "kind": "ocr_fail",
+    "text": "100311192735435159"
+   }
+  ]
+ },
+ {
+  "source": "timetables/18-天通苑东-1.jpg",
+  "id": "18-天通苑东-1#1",
+  "n_times": 128,
+  "stats": {
+   "n": 128,
+   "n_hours": 18,
+   "median_gap": 8,
+   "max_gap": 16,
+   "min_gap": 8
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 47,
+    "kind": "ocr_fail",
+    "text": "529384755"
+   },
+   {
+    "row_y": 80,
+    "kind": "ocr_fail",
+    "text": "60311192735435159"
+   },
+   {
+    "row_y": 115,
+    "kind": "ocr_fail",
+    "text": "707152331394755"
+   },
+   {
+    "row_y": 149,
+    "kind": "ocr_fail",
+    "text": "80311192735435159"
+   }
+  ]
+ },
+ {
+  "source": "timetables/18-太平庄-1.jpg",
+  "id": "18-太平庄-1#0",
+  "n_times": 178,
+  "stats": {
+   "n": 178,
+   "n_hours": 19,
+   "median_gap": 5,
+   "max_gap": 10,
+   "min_gap": 3
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 89,
+    "kind": "ocr_fail",
+    "text": "18"
+   },
+   {
+    "row_y": 229,
+    "kind": "ocr_fail",
+    "text": ""
+   },
+   {
+    "row_y": 408,
+    "kind": "ocr_fail",
+    "text": "2"
+   },
+   {
+    "row_y": 441,
+    "kind": "ocr_fail",
+    "text": ""
+   },
+   {
+    "row_y": 473,
+    "kind": "ocr_fail",
+    "text": "7"
+   },
+   {
+    "row_y": 595,
+    "kind": "bad_minute",
+    "text": "51321"
+   },
+   {
+    "row_y": 595,
+    "kind": "repaired_swap",
+    "text": "94",
+    "fixed": "49"
+   },
+   {
+    "row_y": 652,
+    "kind": "ocr_fail",
+    "text": ""
+   },
+   {
+    "row_y": 665,
+    "kind": "ocr_fail",
+    "text": "23011019"
+   },
+   {
+    "row_y": 690,
+    "kind": "ocr_fail",
+    "text": ""
+   },
+   {
+    "row_y": 705,
+    "kind": "ocr_fail",
+    "text": ""
+   }
+  ]
+ },
+ {
+  "source": "timetables/18-太平庄-1.jpg",
+  "id": "18-太平庄-1#1",
+  "n_times": 135,
+  "stats": {
+   "n": 135,
+   "n_hours": 19,
+   "median_gap": 8,
+   "max_gap": 10,
+   "min_gap": 8
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 44,
+    "kind": "ocr_fail",
+    "text": "51927354351"
+   },
+   {
+    "row_y": 113,
+    "kind": "ocr_fail",
+    "text": "705132129374553"
+   },
+   {
+    "row_y": 355,
+    "kind": "ocr_fail",
+    "text": "2140109172533414957"
+   },
+   {
+    "row_y": 595,
+    "kind": "ocr_fail",
+    "text": "21"
+   }
+  ]
+ },
+ {
+  "source": "timetables/18-太平庄-2.jpg",
+  "id": "18-太平庄-2#0",
+  "n_times": 160,
+  "stats": {
+   "n": 160,
+   "n_hours": 18,
+   "median_gap": 7,
+   "max_gap": 10,
+   "min_gap": 4
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 410,
+    "kind": "ocr_fail",
+    "text": ""
+   },
+   {
+    "row_y": 443,
+    "kind": "ocr_fail",
+    "text": ""
+   },
+   {
+    "row_y": 459,
+    "kind": "ocr_fail",
+    "text": "1703712172226313641455055"
+   },
+   {
+    "row_y": 475,
+    "kind": "ocr_fail",
+    "text": "7"
+   },
+   {
+    "row_y": 598,
+    "kind": "ocr_fail",
+    "text": "21021018263442505832545324"
+   }
+  ]
+ },
+ {
+  "source": "timetables/18-太平庄-2.jpg",
+  "id": "18-太平庄-2#1",
+  "n_times": 129,
+  "stats": {
+   "n": 129,
+   "n_hours": 18,
+   "median_gap": 8,
+   "max_gap": 10,
+   "min_gap": 8
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 47,
+    "kind": "ocr_fail",
+    "text": "532415058"
+   },
+   {
+    "row_y": 81,
+    "kind": "ocr_fail",
+    "text": "606142230384654"
+   },
+   {
+    "row_y": 116,
+    "kind": "repaired_swap",
+    "text": "82",
+    "fixed": "28"
+   },
+   {
+    "row_y": 116,
+    "kind": "repaired_swap",
+    "text": "63",
+    "fixed": "36"
+   },
+   {
+    "row_y": 150,
+    "kind": "ocr_fail",
+    "text": "06142230384654"
+   },
+   {
+    "row_y": 185,
+    "kind": "bad_minute",
+    "text": "79"
+   }
+  ]
+ },
+ {
+  "source": "timetables/18-文华路-1.jpg",
+  "id": "18-文华路-1#0",
+  "n_times": 164,
+  "stats": {
+   "n": 164,
+   "n_hours": 19,
+   "median_gap": 7,
+   "max_gap": 10,
+   "min_gap": 4
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/18-文华路-1.jpg",
+  "id": "18-文华路-1#1",
+  "n_times": 133,
+  "stats": {
+   "n": 133,
+   "n_hours": 19,
+   "median_gap": 8,
+   "max_gap": 10,
+   "min_gap": 7
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 113,
+    "kind": "ocr_fail",
+    "text": "707152331394755"
+   },
+   {
+    "row_y": 355,
+    "kind": "ocr_fail",
+    "text": "2140311192735435159"
+   },
+   {
+    "row_y": 595,
+    "kind": "ocr_fail",
+    "text": "21"
+   },
+   {
+    "row_y": 663,
+    "kind": "repaired_swap",
+    "text": "90",
+    "fixed": "09"
+   },
+   {
+    "row_y": 685,
+    "kind": "ocr_fail",
+    "text": ""
+   }
+  ]
+ },
+ {
+  "source": "timetables/18-文华路-2.jpg",
+  "id": "18-文华路-2#0",
+  "n_times": 164,
+  "stats": {
+   "n": 164,
+   "n_hours": 18,
+   "median_gap": 7,
+   "max_gap": 10,
+   "min_gap": 4
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/18-文华路-2.jpg",
+  "id": "18-文华路-2#1",
+  "n_times": 133,
+  "stats": {
+   "n": 133,
+   "n_hours": 18,
+   "median_gap": 8,
+   "max_gap": 10,
+   "min_gap": 7
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 47,
+    "kind": "ocr_fail",
+    "text": "5152331384655"
+   },
+   {
+    "row_y": 81,
+    "kind": "ocr_fail",
+    "text": "604122028364452"
+   },
+   {
+    "row_y": 116,
+    "kind": "ocr_fail",
+    "text": "70008162432404856"
+   },
+   {
+    "row_y": 150,
+    "kind": "ocr_fail",
+    "text": "04122028364452"
+   },
+   {
+    "row_y": 185,
+    "kind": "ocr_fail",
+    "text": "90008162432404856"
+   }
+  ]
+ },
+ {
+  "source": "timetables/18-霍营东-1.jpg",
+  "id": "18-霍营东-1#0",
+  "n_times": 170,
+  "stats": {
+   "n": 170,
+   "n_hours": 19,
+   "median_gap": 7,
+   "max_gap": 10,
+   "min_gap": 4
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 89,
+    "kind": "ocr_fail",
+    "text": "18"
+   },
+   {
+    "row_y": 408,
+    "kind": "ocr_fail",
+    "text": "2"
+   },
+   {
+    "row_y": 441,
+    "kind": "ocr_fail",
+    "text": ""
+   },
+   {
+    "row_y": 473,
+    "kind": "ocr_fail",
+    "text": "7"
+   },
+   {
+    "row_y": 595,
+    "kind": "bad_minute",
+    "text": "51321"
+   },
+   {
+    "row_y": 650,
+    "kind": "ocr_fail",
+    "text": ""
+   },
+   {
+    "row_y": 664,
+    "kind": "ocr_fail",
+    "text": "23021119263441"
+   },
+   {
+    "row_y": 690,
+    "kind": "ocr_fail",
+    "text": ""
+   },
+   {
+    "row_y": 705,
+    "kind": "ocr_fail",
+    "text": ""
+   }
+  ]
+ },
+ {
+  "source": "timetables/18-霍营东-1.jpg",
+  "id": "18-霍营东-1#1",
+  "n_times": 139,
+  "stats": {
+   "n": 139,
+   "n_hours": 19,
+   "median_gap": 8,
+   "max_gap": 10,
+   "min_gap": 7
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 44,
+    "kind": "repaired_swap",
+    "text": "92",
+    "fixed": "29"
+   },
+   {
+    "row_y": 44,
+    "kind": "repaired_swap",
+    "text": "73",
+    "fixed": "37"
+   },
+   {
+    "row_y": 113,
+    "kind": "ocr_fail",
+    "text": "705132129374553"
+   },
+   {
+    "row_y": 355,
+    "kind": "ocr_fail",
+    "text": "2140109172533414957"
+   },
+   {
+    "row_y": 595,
+    "kind": "ocr_fail",
+    "text": "21"
+   },
+   {
+    "row_y": 664,
+    "kind": "ocr_fail",
+    "text": "3230211186341"
+   }
+  ]
+ },
+ {
+  "source": "timetables/18-霍营东-2.jpg",
+  "id": "18-霍营东-2#0",
+  "n_times": 164,
+  "stats": {
+   "n": 164,
+   "n_hours": 18,
+   "median_gap": 7,
+   "max_gap": 10,
+   "min_gap": 4
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/18-霍营东-2.jpg",
+  "id": "18-霍营东-2#1",
+  "n_times": 133,
+  "stats": {
+   "n": 133,
+   "n_hours": 18,
+   "median_gap": 8,
+   "max_gap": 10,
+   "min_gap": 7
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 47,
+    "kind": "ocr_fail",
+    "text": "509172532404958"
+   },
+   {
+    "row_y": 81,
+    "kind": "ocr_fail",
+    "text": "606142230384654"
+   },
+   {
+    "row_y": 116,
+    "kind": "repaired_swap",
+    "text": "82",
+    "fixed": "28"
+   },
+   {
+    "row_y": 116,
+    "kind": "repaired_swap",
+    "text": "63",
+    "fixed": "36"
+   },
+   {
+    "row_y": 150,
+    "kind": "ocr_fail",
+    "text": "906142230384654"
+   },
+   {
+    "row_y": 185,
+    "kind": "bad_minute",
+    "text": "79"
+   }
+  ]
+ },
+ {
+  "source": "timetables/18-马连洼-1.jpg",
+  "id": "18-马连洼-1#0",
+  "n_times": 164,
+  "stats": {
+   "n": 164,
+   "n_hours": 19,
+   "median_gap": 7,
+   "max_gap": 10,
+   "min_gap": 4
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 216,
+    "kind": "ocr_fail",
+    "text": "4100311192735435159"
+   }
+  ]
+ },
+ {
+  "source": "timetables/18-马连洼-1.jpg",
+  "id": "18-马连洼-1#1",
+  "n_times": 133,
+  "stats": {
+   "n": 133,
+   "n_hours": 19,
+   "median_gap": 8,
+   "max_gap": 10,
+   "min_gap": 7
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 44,
+    "kind": "ocr_fail",
+    "text": "5394755"
+   },
+   {
+    "row_y": 79,
+    "kind": "ocr_fail",
+    "text": "0311192735435159"
+   },
+   {
+    "row_y": 113,
+    "kind": "ocr_fail",
+    "text": "707152331394755"
+   },
+   {
+    "row_y": 629,
+    "kind": "ocr_fail",
+    "text": "220312223140495"
+   }
+  ]
+ },
+ {
+  "source": "timetables/18-龙泽西-1.jpg",
+  "id": "18-龙泽西-1#0",
+  "n_times": 164,
+  "stats": {
+   "n": 164,
+   "n_hours": 19,
+   "median_gap": 7,
+   "max_gap": 10,
+   "min_gap": 4
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 408,
+    "kind": "ocr_fail",
+    "text": ""
+   },
+   {
+    "row_y": 441,
+    "kind": "ocr_fail",
+    "text": ""
+   },
+   {
+    "row_y": 473,
+    "kind": "ocr_fail",
+    "text": "7"
+   },
+   {
+    "row_y": 595,
+    "kind": "bad_minute",
+    "text": "21018"
+   },
+   {
+    "row_y": 663,
+    "kind": "ocr_fail",
+    "text": "23009714223"
+   },
+   {
+    "row_y": 687,
+    "kind": "ocr_fail",
+    "text": ""
+   },
+   {
+    "row_y": 703,
+    "kind": "ocr_fail",
+    "text": ""
+   }
+  ]
+ },
+ {
+  "source": "timetables/18-龙泽西-1.jpg",
+  "id": "18-龙泽西-1#1",
+  "n_times": 133,
+  "stats": {
+   "n": 133,
+   "n_hours": 19,
+   "median_gap": 8,
+   "max_gap": 10,
+   "min_gap": 7
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 44,
+    "kind": "ocr_fail",
+    "text": "55058"
+   },
+   {
+    "row_y": 79,
+    "kind": "ocr_fail",
+    "text": "606142230384654"
+   },
+   {
+    "row_y": 113,
+    "kind": "repaired_swap",
+    "text": "82",
+    "fixed": "28"
+   },
+   {
+    "row_y": 113,
+    "kind": "repaired_swap",
+    "text": "63",
+    "fixed": "36"
+   },
+   {
+    "row_y": 355,
+    "kind": "ocr_fail",
+    "text": "21406142230384654"
+   },
+   {
+    "row_y": 663,
+    "kind": "ocr_fail",
+    "text": "3230015230"
+   },
+   {
+    "row_y": 685,
+    "kind": "ocr_fail",
+    "text": ""
+   }
+  ]
+ },
+ {
+  "source": "timetables/18-龙泽西-2.jpg",
+  "id": "18-龙泽西-2#0",
+  "n_times": 164,
+  "stats": {
+   "n": 164,
+   "n_hours": 19,
+   "median_gap": 7,
+   "max_gap": 10,
+   "min_gap": 4
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 218,
+    "kind": "ocr_fail",
+    "text": "100109172533414957"
+   }
+  ]
+ },
+ {
+  "source": "timetables/18-龙泽西-2.jpg",
+  "id": "18-龙泽西-2#1",
+  "n_times": 133,
+  "stats": {
+   "n": 133,
+   "n_hours": 19,
+   "median_gap": 8,
+   "max_gap": 10,
+   "min_gap": 7
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 47,
+    "kind": "ocr_fail",
+    "text": "52028364351"
+   },
+   {
+    "row_y": 81,
+    "kind": "ocr_fail",
+    "text": "60009172533414957"
+   },
+   {
+    "row_y": 115,
+    "kind": "ocr_fail",
+    "text": "705132129374553"
+   },
+   {
+    "row_y": 150,
+    "kind": "ocr_fail",
+    "text": "80109172533414957"
+   },
+   {
+    "row_y": 185,
+    "kind": "ocr_fail",
+    "text": "905132129374553"
+   }
+  ]
+ }
+]

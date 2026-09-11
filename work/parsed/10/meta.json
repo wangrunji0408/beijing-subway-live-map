@@ -1,0 +1,818 @@
+{
+ "_images": {
+  "10-巴沟-1": {
+   "direction": "火器营",
+   "service": "weekday"
+  },
+  "10-巴沟-2": {
+   "direction": "苏州街",
+   "service": "weekday",
+   "legend": {
+    "red": "成寿寺"
+   }
+  },
+  "10-巴沟-3": {
+   "direction": "火器营",
+   "service": "weekend"
+  },
+  "10-巴沟-4": {
+   "direction": "苏州街",
+   "service": "weekend",
+   "legend": {
+    "red": "成寿寺"
+   }
+  },
+  "10-苏州街-1": {
+   "direction": "巴沟",
+   "service": "weekday"
+  },
+  "10-苏州街-2": {
+   "direction": "海淀黄庄",
+   "service": "weekday"
+  },
+  "10-苏州街-3": {
+   "direction": "巴沟",
+   "service": "weekend"
+  },
+  "10-苏州街-4": {
+   "direction": "海淀黄庄",
+   "service": "weekend"
+  },
+  "10-海淀黄庄-1": {
+   "direction": "苏州街",
+   "service": "weekday"
+  },
+  "10-海淀黄庄-2": {
+   "direction": "知春里",
+   "service": "weekday"
+  },
+  "10-海淀黄庄-3": {
+   "direction": "苏州街",
+   "service": "weekend"
+  },
+  "10-海淀黄庄-4": {
+   "direction": "知春里",
+   "service": "weekend"
+  },
+  "10-知春里-1": {
+   "direction": "海淀黄庄",
+   "service": "weekday"
+  },
+  "10-知春里-2": {
+   "direction": "知春路",
+   "service": "weekday"
+  },
+  "10-知春里-3": {
+   "direction": "海淀黄庄",
+   "service": "weekend"
+  },
+  "10-知春里-4": {
+   "direction": "知春路",
+   "service": "weekend"
+  },
+  "10-知春路-1": {
+   "direction": "知春里",
+   "service": "weekday"
+  },
+  "10-知春路-2": {
+   "direction": "西土城",
+   "service": "weekday"
+  },
+  "10-知春路-3": {
+   "direction": "知春里",
+   "service": "weekend"
+  },
+  "10-知春路-4": {
+   "direction": "西土城",
+   "service": "weekend"
+  },
+  "10-西土城-1": {
+   "direction": "知春路",
+   "service": "weekday"
+  },
+  "10-西土城-2": {
+   "direction": "牡丹园",
+   "service": "weekday"
+  },
+  "10-西土城-3": {
+   "direction": "知春路",
+   "service": "weekend"
+  },
+  "10-西土城-4": {
+   "direction": "牡丹园",
+   "service": "weekend"
+  },
+  "10-牡丹园-1": {
+   "direction": "西土城",
+   "service": "weekday"
+  },
+  "10-牡丹园-2": {
+   "direction": "健德门",
+   "service": "weekday"
+  },
+  "10-牡丹园-3": {
+   "direction": "西土城",
+   "service": "weekend"
+  },
+  "10-牡丹园-4": {
+   "direction": "健德门",
+   "service": "weekend"
+  },
+  "10-健德门-1": {
+   "direction": "牡丹园",
+   "service": "weekday"
+  },
+  "10-健德门-2": {
+   "direction": "北土城",
+   "service": "weekday"
+  },
+  "10-健德门-3": {
+   "direction": "牡丹园",
+   "service": "weekend"
+  },
+  "10-健德门-4": {
+   "direction": "北土城",
+   "service": "weekend"
+  },
+  "10-北土城-1": {
+   "direction": "健德门",
+   "service": "weekday"
+  },
+  "10-北土城-2": {
+   "direction": "安贞门",
+   "service": "weekday"
+  },
+  "10-北土城-3": {
+   "direction": "健德门",
+   "service": "weekend"
+  },
+  "10-北土城-4": {
+   "direction": "安贞门",
+   "service": "weekend"
+  },
+  "10-安贞门-1": {
+   "direction": "北土城",
+   "service": "weekday"
+  },
+  "10-安贞门-2": {
+   "direction": "惠新西街南口",
+   "service": "weekday"
+  },
+  "10-安贞门-3": {
+   "direction": "北土城",
+   "service": "weekend"
+  },
+  "10-安贞门-4": {
+   "direction": "惠新西街南口",
+   "service": "weekend"
+  },
+  "10-惠新西街南口-1": {
+   "direction": "芍药居",
+   "service": "weekday",
+   "legend": {
+    "green": "巴沟",
+    "red": "成寿寺"
+   }
+  },
+  "10-惠新西街南口-2": {
+   "direction": "安贞门",
+   "service": "weekday",
+   "legend": {
+    "orange": "车道沟",
+    "blue": "宋家庄"
+   }
+  },
+  "10-惠新西街南口-3": {
+   "direction": "芍药居",
+   "service": "weekend",
+   "legend": {
+    "green": "巴沟",
+    "red": "成寿寺"
+   }
+  },
+  "10-惠新西街南口-4": {
+   "direction": "安贞门",
+   "service": "weekend",
+   "legend": {
+    "orange": "车道沟",
+    "blue": "宋家庄"
+   }
+  },
+  "10-芍药居-1": {
+   "direction": "惠新西街南口",
+   "service": "weekday"
+  },
+  "10-芍药居-2": {
+   "direction": "太阳宫",
+   "service": "weekday"
+  },
+  "10-芍药居-3": {
+   "direction": "惠新西街南口",
+   "service": "weekend"
+  },
+  "10-芍药居-4": {
+   "direction": "太阳宫",
+   "service": "weekend"
+  },
+  "10-太阳宫-1": {
+   "direction": "芍药居",
+   "service": "weekday"
+  },
+  "10-太阳宫-2": {
+   "direction": "三元桥",
+   "service": "weekday"
+  },
+  "10-太阳宫-3": {
+   "direction": "芍药居",
+   "service": "weekend"
+  },
+  "10-太阳宫-4": {
+   "direction": "三元桥",
+   "service": "weekend"
+  },
+  "10-三元桥-1": {
+   "direction": "太阳宫",
+   "service": "weekday",
+   "legend": {
+    "orange": "车道沟"
+   }
+  },
+  "10-三元桥-2": {
+   "direction": "亮马桥",
+   "service": "weekday",
+   "legend": {
+    "red": "成寿寺"
+   }
+  },
+  "10-三元桥-3": {
+   "direction": "太阳宫",
+   "service": "weekend",
+   "legend": {
+    "orange": "车道沟"
+   }
+  },
+  "10-三元桥-4": {
+   "direction": "亮马桥",
+   "service": "weekend",
+   "legend": {
+    "red": "成寿寺"
+   }
+  },
+  "10-亮马桥-1": {
+   "direction": "三元桥",
+   "service": "weekday"
+  },
+  "10-亮马桥-2": {
+   "direction": "农业展览馆",
+   "service": "weekday"
+  },
+  "10-亮马桥-3": {
+   "direction": "三元桥",
+   "service": "weekend"
+  },
+  "10-亮马桥-4": {
+   "direction": "农业展览馆",
+   "service": "weekend"
+  },
+  "10-农业展览馆-1": {
+   "direction": "亮马桥",
+   "service": "weekday"
+  },
+  "10-农业展览馆-2": {
+   "direction": "团结湖",
+   "service": "weekday"
+  },
+  "10-农业展览馆-3": {
+   "direction": "亮马桥",
+   "service": "weekend"
+  },
+  "10-农业展览馆-4": {
+   "direction": "团结湖",
+   "service": "weekend"
+  },
+  "10-团结湖-1": {
+   "direction": "农业展览馆",
+   "service": "weekday"
+  },
+  "10-团结湖-2": {
+   "direction": "呼家楼",
+   "service": "weekday"
+  },
+  "10-团结湖-3": {
+   "direction": "农业展览馆",
+   "service": "weekend"
+  },
+  "10-团结湖-4": {
+   "direction": "呼家楼",
+   "service": "weekend"
+  },
+  "10-呼家楼-1": {
+   "direction": "团结湖",
+   "service": "weekday"
+  },
+  "10-呼家楼-2": {
+   "direction": "金台夕照",
+   "service": "weekday"
+  },
+  "10-呼家楼-3": {
+   "direction": "团结湖",
+   "service": "weekend"
+  },
+  "10-呼家楼-4": {
+   "direction": "金台夕照",
+   "service": "weekend"
+  },
+  "10-金台夕照-1": {
+   "direction": "呼家楼",
+   "service": "weekday",
+   "legend": {
+    "green": "巴沟",
+    "orange": "车道沟",
+    "blue": "宋家庄"
+   }
+  },
+  "10-金台夕照-2": {
+   "direction": "国贸",
+   "service": "weekday"
+  },
+  "10-金台夕照-3": {
+   "direction": "呼家楼",
+   "service": "weekend",
+   "legend": {
+    "green": "巴沟",
+    "orange": "车道沟",
+    "blue": "宋家庄"
+   }
+  },
+  "10-金台夕照-4": {
+   "direction": "国贸",
+   "service": "weekend"
+  },
+  "10-国贸-1": {
+   "direction": "金台夕照",
+   "service": "weekday"
+  },
+  "10-国贸-2": {
+   "direction": "双井",
+   "service": "weekday"
+  },
+  "10-国贸-3": {
+   "direction": "金台夕照",
+   "service": "weekend"
+  },
+  "10-国贸-4": {
+   "direction": "双井",
+   "service": "weekend"
+  },
+  "10-双井-1": {
+   "direction": "国贸",
+   "service": "weekday"
+  },
+  "10-双井-2": {
+   "direction": "劲松",
+   "service": "weekday"
+  },
+  "10-双井-3": {
+   "direction": "国贸",
+   "service": "weekend"
+  },
+  "10-双井-4": {
+   "direction": "劲松",
+   "service": "weekend"
+  },
+  "10-劲松-1": {
+   "direction": "双井",
+   "service": "weekday"
+  },
+  "10-劲松-2": {
+   "direction": "潘家园",
+   "service": "weekday"
+  },
+  "10-劲松-3": {
+   "direction": "双井",
+   "service": "weekend"
+  },
+  "10-劲松-4": {
+   "direction": "潘家园",
+   "service": "weekend"
+  },
+  "10-潘家园-1": {
+   "direction": "劲松",
+   "service": "weekday"
+  },
+  "10-潘家园-2": {
+   "direction": "十里河",
+   "service": "weekday"
+  },
+  "10-潘家园-3": {
+   "direction": "劲松",
+   "service": "weekend"
+  },
+  "10-潘家园-4": {
+   "direction": "十里河",
+   "service": "weekend"
+  },
+  "10-十里河-1": {
+   "direction": "潘家园",
+   "service": "weekday"
+  },
+  "10-十里河-2": {
+   "direction": "分钟寺",
+   "service": "weekday"
+  },
+  "10-十里河-3": {
+   "direction": "潘家园",
+   "service": "weekend"
+  },
+  "10-十里河-4": {
+   "direction": "分钟寺",
+   "service": "weekend"
+  },
+  "10-分钟寺-1": {
+   "direction": "十里河",
+   "service": "weekday"
+  },
+  "10-分钟寺-2": {
+   "direction": "成寿寺",
+   "service": "weekday"
+  },
+  "10-分钟寺-3": {
+   "direction": "十里河",
+   "service": "weekend"
+  },
+  "10-分钟寺-4": {
+   "direction": "成寿寺",
+   "service": "weekend"
+  },
+  "10-成寿寺-1": {
+   "direction": "分钟寺",
+   "service": "weekday"
+  },
+  "10-成寿寺-2": {
+   "direction": "宋家庄",
+   "service": "weekday",
+   "legend": {
+    "green": "巴沟"
+   }
+  },
+  "10-成寿寺-3": {
+   "direction": "分钟寺",
+   "service": "weekend"
+  },
+  "10-成寿寺-4": {
+   "direction": "宋家庄",
+   "service": "weekend",
+   "legend": {
+    "green": "巴沟"
+   }
+  },
+  "10-宋家庄-1": {
+   "direction": "石榴庄",
+   "service": "weekday"
+  },
+  "10-宋家庄-2": {
+   "direction": "成寿寺",
+   "service": "weekday",
+   "legend": {
+    "blue": "车道沟"
+   }
+  },
+  "10-宋家庄-3": {
+   "direction": "石榴庄",
+   "service": "weekend"
+  },
+  "10-宋家庄-4": {
+   "direction": "成寿寺",
+   "service": "weekend",
+   "legend": {
+    "blue": "车道沟"
+   }
+  },
+  "10-石榴庄-1": {
+   "direction": "宋家庄",
+   "service": "weekday"
+  },
+  "10-石榴庄-2": {
+   "direction": "大红门",
+   "service": "weekday"
+  },
+  "10-石榴庄-3": {
+   "direction": "宋家庄",
+   "service": "weekend"
+  },
+  "10-石榴庄-4": {
+   "direction": "大红门",
+   "service": "weekend"
+  },
+  "10-大红门-1": {
+   "direction": "石榴庄",
+   "service": "weekday"
+  },
+  "10-大红门-2": {
+   "direction": "角门东",
+   "service": "weekday"
+  },
+  "10-大红门-3": {
+   "direction": "石榴庄",
+   "service": "weekend"
+  },
+  "10-大红门-4": {
+   "direction": "角门东",
+   "service": "weekend"
+  },
+  "10-角门东-1": {
+   "direction": "大红门",
+   "service": "weekday"
+  },
+  "10-角门东-2": {
+   "direction": "角门西",
+   "service": "weekday"
+  },
+  "10-角门东-3": {
+   "direction": "大红门",
+   "service": "weekend"
+  },
+  "10-角门东-4": {
+   "direction": "角门西",
+   "service": "weekend"
+  },
+  "10-角门西-1": {
+   "direction": "角门东",
+   "service": "weekday"
+  },
+  "10-角门西-2": {
+   "direction": "草桥",
+   "service": "weekday"
+  },
+  "10-角门西-3": {
+   "direction": "角门东",
+   "service": "weekend"
+  },
+  "10-角门西-4": {
+   "direction": "草桥",
+   "service": "weekend"
+  },
+  "10-草桥-1": {
+   "direction": "角门西",
+   "service": "weekday"
+  },
+  "10-草桥-2": {
+   "direction": "纪家庙",
+   "service": "weekday"
+  },
+  "10-草桥-3": {
+   "direction": "角门西",
+   "service": "weekend"
+  },
+  "10-草桥-4": {
+   "direction": "纪家庙",
+   "service": "weekend"
+  },
+  "10-纪家庙-1": {
+   "direction": "草桥",
+   "service": "weekday"
+  },
+  "10-纪家庙-2": {
+   "direction": "首经贸",
+   "service": "weekday"
+  },
+  "10-纪家庙-3": {
+   "direction": "草桥",
+   "service": "weekend"
+  },
+  "10-纪家庙-4": {
+   "direction": "首经贸",
+   "service": "weekend"
+  },
+  "10-首经贸-1": {
+   "direction": "纪家庙",
+   "service": "weekday"
+  },
+  "10-首经贸-2": {
+   "direction": "丰台站",
+   "service": "weekday"
+  },
+  "10-首经贸-3": {
+   "direction": "纪家庙",
+   "service": "weekend"
+  },
+  "10-首经贸-4": {
+   "direction": "丰台站",
+   "service": "weekend"
+  },
+  "10-丰台站-1": {
+   "direction": "首经贸",
+   "service": "weekday"
+  },
+  "10-丰台站-2": {
+   "direction": "泥洼",
+   "service": "weekday"
+  },
+  "10-丰台站-3": {
+   "direction": "首经贸",
+   "service": "weekend"
+  },
+  "10-丰台站-4": {
+   "direction": "泥洼",
+   "service": "weekend"
+  },
+  "10-泥洼-1": {
+   "direction": "丰台站",
+   "service": "weekday"
+  },
+  "10-泥洼-2": {
+   "direction": "西局",
+   "service": "weekday"
+  },
+  "10-泥洼-3": {
+   "direction": "丰台站",
+   "service": "weekend"
+  },
+  "10-泥洼-4": {
+   "direction": "西局",
+   "service": "weekend"
+  },
+  "10-西局-1": {
+   "direction": "泥洼",
+   "service": "weekday"
+  },
+  "10-西局-2": {
+   "direction": "六里桥",
+   "service": "weekday"
+  },
+  "10-西局-3": {
+   "direction": "泥洼",
+   "service": "weekend"
+  },
+  "10-西局-4": {
+   "direction": "六里桥",
+   "service": "weekend"
+  },
+  "10-六里桥-1": {
+   "direction": "西局",
+   "service": "weekday"
+  },
+  "10-六里桥-2": {
+   "direction": "莲花桥",
+   "service": "weekday"
+  },
+  "10-六里桥-3": {
+   "direction": "西局",
+   "service": "weekend"
+  },
+  "10-六里桥-4": {
+   "direction": "莲花桥",
+   "service": "weekend"
+  },
+  "10-莲花桥-1": {
+   "direction": "六里桥",
+   "service": "weekday"
+  },
+  "10-莲花桥-2": {
+   "direction": "公主坟",
+   "service": "weekday"
+  },
+  "10-莲花桥-3": {
+   "direction": "六里桥",
+   "service": "weekend"
+  },
+  "10-莲花桥-4": {
+   "direction": "公主坟",
+   "service": "weekend"
+  },
+  "10-公主坟-1": {
+   "direction": "莲花桥",
+   "service": "weekday"
+  },
+  "10-公主坟-2": {
+   "direction": "西钓鱼台",
+   "service": "weekday"
+  },
+  "10-公主坟-3": {
+   "direction": "莲花桥",
+   "service": "weekend"
+  },
+  "10-公主坟-4": {
+   "direction": "西钓鱼台",
+   "service": "weekend"
+  },
+  "10-西钓鱼台-1": {
+   "direction": "公主坟",
+   "service": "weekday"
+  },
+  "10-西钓鱼台-2": {
+   "direction": "慈寿寺",
+   "service": "weekday"
+  },
+  "10-西钓鱼台-3": {
+   "direction": "公主坟",
+   "service": "weekend"
+  },
+  "10-西钓鱼台-4": {
+   "direction": "慈寿寺",
+   "service": "weekend"
+  },
+  "10-慈寿寺-1": {
+   "direction": "西钓鱼台",
+   "service": "weekday"
+  },
+  "10-慈寿寺-2": {
+   "direction": "车道沟",
+   "service": "weekday"
+  },
+  "10-慈寿寺-3": {
+   "direction": "西钓鱼台",
+   "service": "weekend"
+  },
+  "10-慈寿寺-4": {
+   "direction": "车道沟",
+   "service": "weekend"
+  },
+  "10-车道沟-1": {
+   "direction": "慈寿寺",
+   "service": "weekday",
+   "legend": {
+    "blue": "宋家庄"
+   }
+  },
+  "10-车道沟-2": {
+   "direction": "长春桥",
+   "service": "weekday"
+  },
+  "10-车道沟-3": {
+   "direction": "慈寿寺",
+   "service": "weekend",
+   "legend": {
+    "blue": "宋家庄"
+   }
+  },
+  "10-车道沟-4": {
+   "direction": "长春桥",
+   "service": "weekend"
+  },
+  "10-长春桥-1": {
+   "direction": "车道沟",
+   "service": "weekday"
+  },
+  "10-长春桥-2": {
+   "direction": "火器营",
+   "service": "weekday"
+  },
+  "10-长春桥-3": {
+   "direction": "车道沟",
+   "service": "weekend"
+  },
+  "10-长春桥-4": {
+   "direction": "火器营",
+   "service": "weekend"
+  },
+  "10-火器营-1": {
+   "direction": "长春桥",
+   "service": "weekday"
+  },
+  "10-火器营-2": {
+   "direction": "巴沟",
+   "service": "weekday"
+  },
+  "10-火器营-3": {
+   "direction": "长春桥",
+   "service": "weekend"
+  },
+  "10-火器营-4": {
+   "direction": "巴沟",
+   "service": "weekend"
+  }
+ },
+ "1": {
+  "direction": null,
+  "service": "weekday",
+  "legend": {
+   "orange": "车道沟",
+   "blue": "宋家庄"
+  }
+ },
+ "2": {
+  "direction": null,
+  "service": "weekday",
+  "legend": {
+   "green": "巴沟",
+   "red": "成寿寺"
+  }
+ },
+ "3": {
+  "direction": null,
+  "service": "weekend",
+  "legend": {
+   "orange": "车道沟",
+   "blue": "宋家庄"
+  }
+ },
+ "4": {
+  "direction": null,
+  "service": "weekend",
+  "legend": {
+   "green": "巴沟",
+   "red": "成寿寺"
+  }
+ }
+}

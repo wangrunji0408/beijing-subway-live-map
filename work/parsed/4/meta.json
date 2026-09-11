@@ -1,0 +1,38 @@
+{
+ "1": {
+  "direction": "安河桥北",
+  "service": "weekday",
+  "legend": {"yellow": "中关村"},
+  "note": "开往安河桥北站方向 工作日 Weekdays. Legend: yellow dot = trains terminating at 中关村. 4-安河桥北-1 is an exception (this terminus prints the 天宫院 direction)."
+ },
+ "2": {
+  "direction": "天宫院",
+  "service": "weekday",
+  "legend": {"yellow": "黄村西大街", "green": "新宫", "purple": "公益西桥"},
+  "note": "开往天宫院站方向 工作日 Weekdays. Legend (where printed): yellow=黄村西大街, green=新宫, purple=公益西桥. 4-天宫院-2 is an exception (this terminus prints the 安河桥北 weekend direction)."
+ },
+ "3": {
+  "direction": "安河桥北",
+  "service": "weekend",
+  "legend": {},
+  "note": "开往安河桥北站方向 双休日 Weekends. No colour legend printed on these images."
+ },
+ "4": {
+  "direction": "天宫院",
+  "service": "weekend",
+  "legend": {"purple": "公益西桥"},
+  "note": "开往天宫院站方向 双休日 Weekends. Legend (where printed): purple=公益西桥."
+ },
+ "_images": {
+  "4-安河桥北-1": {"direction": "天宫院", "service": "weekday",
+                    "legend": {"yellow": "黄村西大街", "green": "新宫", "purple": "公益西桥"},
+                    "note": "terminus: 开往天宫院站方向 工作日"},
+  "4-安河桥北-2": {"direction": "天宫院", "service": "weekend",
+                    "legend": {"purple": "公益西桥"},
+                    "note": "terminus: 开往天宫院站方向 双休日"},
+  "4-天宫院-1": {"direction": "安河桥北", "service": "weekday", "legend": {},
+                  "note": "terminus: 开往安河桥北站方向 工作日, no colour legend"},
+  "4-天宫院-2": {"direction": "安河桥北", "service": "weekend", "legend": {},
+                  "note": "terminus: 开往安河桥北站方向 双休日, no colour legend"}
+ }
+}

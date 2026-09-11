@@ -1,0 +1,22 @@
+{
+ "1": {
+  "direction": "朱辛庄",
+  "service": "weekday",
+  "legend": {"yellow": "回龙观东大街"}
+ },
+ "2": {
+  "direction": "瀛海",
+  "service": "weekday",
+  "legend": {"yellow": "回龙观东大街"}
+ },
+ "3": {
+  "direction": "朱辛庄",
+  "service": "weekend",
+  "legend": {"orange": "珠市口"}
+ },
+ "4": {
+  "direction": "瀛海",
+  "service": "weekend",
+  "legend": {"blue": "珠市口", "orange": "回龙观东大街"}
+ }
+}

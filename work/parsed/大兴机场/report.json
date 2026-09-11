@@ -1,0 +1,339 @@
+[
+ {
+  "source": "timetables/大兴机场-大兴新城-1.png",
+  "id": "大兴机场-大兴新城-1",
+  "n_times": 106,
+  "stats": {
+   "n": 106,
+   "n_hours": 18,
+   "median_gap": 9,
+   "max_gap": 28,
+   "min_gap": 9
+  },
+  "issues": [
+   {
+    "kind": "gap_large",
+    "gap": 28,
+    "at": "06:35->07:03",
+    "msg": "gap 28 min exceeds 20 (possible missed train)"
+   }
+  ],
+  "flags": [
+   {
+    "row_y": 364,
+    "kind": "ocr_fail",
+    "text": "0716263544454"
+   },
+   {
+    "row_y": 564,
+    "kind": "ocr_fail",
+    "text": "0615243443482"
+   },
+   {
+    "row_y": 644,
+    "kind": "ocr_fail",
+    "text": "0716263544534"
+   },
+   {
+    "row_y": 684,
+    "kind": "ocr_fail",
+    "text": "031222314053059"
+   }
+  ]
+ },
+ {
+  "source": "timetables/大兴机场-大兴新城-2.png",
+  "id": "大兴机场-大兴新城-2#0",
+  "n_times": 109,
+  "stats": {
+   "n": 109,
+   "n_hours": 18,
+   "median_gap": 9,
+   "max_gap": 15,
+   "min_gap": 9
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/大兴机场-大兴新城-2.png",
+  "id": "大兴机场-大兴新城-2#1",
+  "n_times": 3,
+  "stats": {
+   "n": 3,
+   "n_hours": 1,
+   "median_gap": 15,
+   "max_gap": 15,
+   "min_gap": 15
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 788,
+    "kind": "ocr_fail",
+    "text": "903659"
+   },
+   {
+    "row_y": 885,
+    "kind": "ocr_fail",
+    "text": "46935"
+   },
+   {
+    "row_y": 981,
+    "kind": "ocr_fail",
+    "text": "4291"
+   },
+   {
+    "row_y": 1370,
+    "kind": "ocr_fail",
+    "text": "45934"
+   },
+   {
+    "row_y": 1468,
+    "kind": "ocr_fail",
+    "text": "41350359"
+   },
+   {
+    "row_y": 1563,
+    "kind": "ocr_fail",
+    "text": "469595"
+   },
+   {
+    "row_y": 1661,
+    "kind": "ocr_fail",
+    "text": "42951"
+   },
+   {
+    "row_y": 1952,
+    "kind": "ocr_fail",
+    "text": "3949358"
+   },
+   {
+    "row_y": 2244,
+    "kind": "ocr_fail",
+    "text": "46959"
+   },
+   {
+    "row_y": 2340,
+    "kind": "ocr_fail",
+    "text": "42937"
+   }
+  ]
+ },
+ {
+  "source": "timetables/大兴机场-大兴新城-3.png",
+  "id": "大兴机场-大兴新城-3",
+  "n_times": 124,
+  "stats": {
+   "n": 124,
+   "n_hours": 18,
+   "median_gap": 8,
+   "max_gap": 10,
+   "min_gap": 8
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 404,
+    "kind": "repaired_swap",
+    "text": "82",
+    "fixed": "28"
+   },
+   {
+    "row_y": 444,
+    "kind": "ocr_fail",
+    "text": "0412202836444532"
+   },
+   {
+    "row_y": 524,
+    "kind": "repaired_swap",
+    "text": "60",
+    "fixed": "06"
+   },
+   {
+    "row_y": 524,
+    "kind": "repaired_swap",
+    "text": "82",
+    "fixed": "28"
+   },
+   {
+    "row_y": 644,
+    "kind": "ocr_fail",
+    "text": "00081624324048536"
+   },
+   {
+    "row_y": 724,
+    "kind": "ocr_fail",
+    "text": "00081624324048456"
+   },
+   {
+    "row_y": 764,
+    "kind": "ocr_fail",
+    "text": "041220283644452"
+   },
+   {
+    "row_y": 804,
+    "kind": "ocr_fail",
+    "text": "00081624324048536"
+   },
+   {
+    "row_y": 844,
+    "kind": "ocr_fail",
+    "text": "041220283644652"
+   },
+   {
+    "row_y": 1003,
+    "kind": "ocr_fail",
+    "text": "0717237"
+   }
+  ]
+ },
+ {
+  "source": "timetables/大兴机场-大兴新城-4.png",
+  "id": "大兴机场-大兴新城-4",
+  "n_times": 116,
+  "stats": {
+   "n": 116,
+   "n_hours": 17,
+   "median_gap": 8,
+   "max_gap": 16,
+   "min_gap": 8
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 364,
+    "kind": "repaired_swap",
+    "text": "82",
+    "fixed": "28"
+   },
+   {
+    "row_y": 364,
+    "kind": "repaired_swap",
+    "text": "63",
+    "fixed": "36"
+   },
+   {
+    "row_y": 483,
+    "kind": "ocr_fail",
+    "text": "061422303846454"
+   },
+   {
+    "row_y": 962,
+    "kind": "ocr_fail",
+    "text": "0111214314257"
+   }
+  ]
+ },
+ {
+  "source": "timetables/大兴机场-大兴机场-1.png",
+  "id": "大兴机场-大兴机场-1",
+  "n_times": 108,
+  "stats": {
+   "n": 108,
+   "n_hours": 17,
+   "median_gap": 9,
+   "max_gap": 15,
+   "min_gap": 9
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 887,
+    "kind": "ocr_fail",
+    "text": "08172364535"
+   },
+   {
+    "row_y": 1469,
+    "kind": "ocr_fail",
+    "text": "031221314049439"
+   },
+   {
+    "row_y": 1567,
+    "kind": "repaired_swap",
+    "text": "72",
+    "fixed": "27"
+   },
+   {
+    "row_y": 1663,
+    "kind": "ocr_fail",
+    "text": "0413823324151"
+   },
+   {
+    "row_y": 1857,
+    "kind": "ocr_fail",
+    "text": "160515243343452"
+   },
+   {
+    "row_y": 2051,
+    "kind": "ocr_fail",
+    "text": "0716253544533"
+   }
+  ]
+ },
+ {
+  "source": "timetables/大兴机场-大兴机场-2.png",
+  "id": "大兴机场-大兴机场-2",
+  "n_times": 122,
+  "stats": {
+   "n": 122,
+   "n_hours": 17,
+   "median_gap": 8,
+   "max_gap": 16,
+   "min_gap": 8
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 524,
+    "kind": "ocr_fail",
+    "text": "0008162432404856"
+   },
+   {
+    "row_y": 924,
+    "kind": "ocr_fail",
+    "text": "00081624324251"
+   }
+  ]
+ },
+ {
+  "source": "timetables/大兴机场-草桥-1.png",
+  "id": "大兴机场-草桥-1",
+  "n_times": 104,
+  "stats": {
+   "n": 104,
+   "n_hours": 18,
+   "median_gap": 9,
+   "max_gap": 19,
+   "min_gap": 9
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/大兴机场-草桥-2.png",
+  "id": "大兴机场-草桥-2",
+  "n_times": 124,
+  "stats": {
+   "n": 124,
+   "n_hours": 18,
+   "median_gap": 8,
+   "max_gap": 11,
+   "min_gap": 8
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 604,
+    "kind": "repaired_swap",
+    "text": "82",
+    "fixed": "28"
+   },
+   {
+    "row_y": 844,
+    "kind": "ocr_fail",
+    "text": "041220283644582"
+   }
+  ]
+ }
+]

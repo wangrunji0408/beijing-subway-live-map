@@ -1,0 +1,34 @@
+{
+ "1": {
+  "direction": "四季青桥",
+  "service": "weekday",
+  "legend": {"yellow": "末班车"},
+  "note": "20 images; weekday, towards Sijiqing Qiao"
+ },
+ "2": {
+  "direction": "东坝北",
+  "service": "weekday",
+  "legend": {"yellow": "末班车"},
+  "note": "20 images; weekday, towards Dongbabei"
+ },
+ "3": {
+  "direction": "四季青桥",
+  "service": "weekend",
+  "legend": {"yellow": "末班车"},
+  "note": "18 images; weekend, towards Sijiqing Qiao"
+ },
+ "4": {
+  "direction": "东坝北",
+  "service": "weekend",
+  "legend": {"yellow": "末班车"},
+  "note": "18 images; weekend, towards Dongbabei"
+ },
+ "_images": {
+  "12-东坝北-2": {"direction": "四季青桥", "service": "weekend",
+                  "note": "Dongbabei is a terminus; -2 is the weekend sheet towards Sijiqing Qiao"},
+  "12-四季青桥-1": {"direction": "东坝北",
+                    "note": "Sijiqing Qiao is a terminus; -1 is the weekday sheet towards Dongbabei"},
+  "12-四季青桥-2": {"direction": "东坝北", "service": "weekend",
+                    "note": "Sijiqing Qiao is a terminus; -2 is the weekend sheet towards Dongbabei"}
+ }
+}

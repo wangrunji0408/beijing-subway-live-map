@@ -1,0 +1,1249 @@
+[
+ {
+  "source": "timetables/2-东四十条-1.jpg",
+  "id": "2-东四十条-1",
+  "n_times": 214,
+  "stats": {
+   "n": 214,
+   "n_hours": 19,
+   "median_gap": 5,
+   "max_gap": 10,
+   "min_gap": 2
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 2123,
+    "kind": "repaired_swap",
+    "text": "92",
+    "fixed": "29"
+   }
+  ]
+ },
+ {
+  "source": "timetables/2-东四十条-2.jpg",
+  "id": "2-东四十条-2",
+  "n_times": 214,
+  "stats": {
+   "n": 214,
+   "n_hours": 19,
+   "median_gap": 5,
+   "max_gap": 9,
+   "min_gap": 2
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/2-东四十条-3.jpg",
+  "id": "2-东四十条-3",
+  "n_times": 144,
+  "stats": {
+   "n": 144,
+   "n_hours": 19,
+   "median_gap": 8,
+   "max_gap": 10,
+   "min_gap": 5
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 2485,
+    "kind": "ocr_fail",
+    "text": "00182"
+   }
+  ]
+ },
+ {
+  "source": "timetables/2-东四十条-4.jpg",
+  "id": "2-东四十条-4",
+  "n_times": 143,
+  "stats": {
+   "n": 143,
+   "n_hours": 19,
+   "median_gap": 8,
+   "max_gap": 10,
+   "min_gap": 7
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 638,
+    "kind": "ocr_fail",
+    "text": ""
+   },
+   {
+    "row_y": 693,
+    "kind": "ocr_fail",
+    "text": ""
+   }
+  ]
+ },
+ {
+  "source": "timetables/2-东直门-1.jpg",
+  "id": "2-东直门-1",
+  "n_times": 214,
+  "stats": {
+   "n": 214,
+   "n_hours": 19,
+   "median_gap": 5,
+   "max_gap": 9,
+   "min_gap": 2
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/2-东直门-2.jpg",
+  "id": "2-东直门-2",
+  "n_times": 214,
+  "stats": {
+   "n": 214,
+   "n_hours": 19,
+   "median_gap": 5,
+   "max_gap": 9,
+   "min_gap": 2
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/2-东直门-3.jpg",
+  "id": "2-东直门-3",
+  "n_times": 144,
+  "stats": {
+   "n": 144,
+   "n_hours": 19,
+   "median_gap": 8,
+   "max_gap": 10,
+   "min_gap": 5
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 874,
+    "kind": "ocr_fail",
+    "text": "23313948357"
+   },
+   {
+    "row_y": 2715,
+    "kind": "ocr_fail",
+    "text": "2112029"
+   }
+  ]
+ },
+ {
+  "source": "timetables/2-东直门-4.jpg",
+  "id": "2-东直门-4",
+  "n_times": 143,
+  "stats": {
+   "n": 143,
+   "n_hours": 19,
+   "median_gap": 8,
+   "max_gap": 10,
+   "min_gap": 7
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/2-前门-1.jpg",
+  "id": "2-前门-1",
+  "n_times": 212,
+  "stats": {
+   "n": 212,
+   "n_hours": 19,
+   "median_gap": 5,
+   "max_gap": 8,
+   "min_gap": 2
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/2-前门-2.jpg",
+  "id": "2-前门-2",
+  "n_times": 216,
+  "stats": {
+   "n": 216,
+   "n_hours": 19,
+   "median_gap": 5,
+   "max_gap": 8,
+   "min_gap": 2
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/2-前门-3.jpg",
+  "id": "2-前门-3",
+  "n_times": 142,
+  "stats": {
+   "n": 142,
+   "n_hours": 19,
+   "median_gap": 8,
+   "max_gap": 9,
+   "min_gap": 5
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 874,
+    "kind": "ocr_fail",
+    "text": "29334249357"
+   }
+  ]
+ },
+ {
+  "source": "timetables/2-前门-4.jpg",
+  "id": "2-前门-4",
+  "n_times": 145,
+  "stats": {
+   "n": 145,
+   "n_hours": 19,
+   "median_gap": 8,
+   "max_gap": 10,
+   "min_gap": 6
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/2-北京站-1.jpg",
+  "id": "2-北京站-1",
+  "n_times": 214,
+  "stats": {
+   "n": 214,
+   "n_hours": 19,
+   "median_gap": 5,
+   "max_gap": 9,
+   "min_gap": 2
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 2510,
+    "kind": "repaired_swap",
+    "text": "82",
+    "fixed": "28"
+   }
+  ]
+ },
+ {
+  "source": "timetables/2-北京站-2.jpg",
+  "id": "2-北京站-2",
+  "n_times": 215,
+  "stats": {
+   "n": 215,
+   "n_hours": 19,
+   "median_gap": 5,
+   "max_gap": 10,
+   "min_gap": 2
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/2-北京站-3.jpg",
+  "id": "2-北京站-3",
+  "n_times": 144,
+  "stats": {
+   "n": 144,
+   "n_hours": 19,
+   "median_gap": 8,
+   "max_gap": 9,
+   "min_gap": 6
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/2-北京站-4.jpg",
+  "id": "2-北京站-4",
+  "n_times": 145,
+  "stats": {
+   "n": 145,
+   "n_hours": 19,
+   "median_gap": 8,
+   "max_gap": 10,
+   "min_gap": 6
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/2-和平门-1.jpg",
+  "id": "2-和平门-1",
+  "n_times": 211,
+  "stats": {
+   "n": 211,
+   "n_hours": 19,
+   "median_gap": 5,
+   "max_gap": 8,
+   "min_gap": 2
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/2-和平门-2.jpg",
+  "id": "2-和平门-2",
+  "n_times": 216,
+  "stats": {
+   "n": 216,
+   "n_hours": 19,
+   "median_gap": 5,
+   "max_gap": 9,
+   "min_gap": 2
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/2-和平门-3.jpg",
+  "id": "2-和平门-3",
+  "n_times": 142,
+  "stats": {
+   "n": 142,
+   "n_hours": 19,
+   "median_gap": 8,
+   "max_gap": 10,
+   "min_gap": 6
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 874,
+    "kind": "ocr_fail",
+    "text": "22314047355"
+   }
+  ]
+ },
+ {
+  "source": "timetables/2-和平门-4.jpg",
+  "id": "2-和平门-4",
+  "n_times": 145,
+  "stats": {
+   "n": 145,
+   "n_hours": 19,
+   "median_gap": 8,
+   "max_gap": 10,
+   "min_gap": 6
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/2-复兴门-1.jpg",
+  "id": "2-复兴门-1",
+  "n_times": 212,
+  "stats": {
+   "n": 212,
+   "n_hours": 19,
+   "median_gap": 5,
+   "max_gap": 8,
+   "min_gap": 2
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/2-复兴门-2.jpg",
+  "id": "2-复兴门-2",
+  "n_times": 216,
+  "stats": {
+   "n": 216,
+   "n_hours": 19,
+   "median_gap": 5,
+   "max_gap": 8,
+   "min_gap": 2
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/2-复兴门-3.jpg",
+  "id": "2-复兴门-3",
+  "n_times": 142,
+  "stats": {
+   "n": 142,
+   "n_hours": 19,
+   "median_gap": 8,
+   "max_gap": 9,
+   "min_gap": 5
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/2-复兴门-4.jpg",
+  "id": "2-复兴门-4",
+  "n_times": 145,
+  "stats": {
+   "n": 145,
+   "n_hours": 19,
+   "median_gap": 8,
+   "max_gap": 10,
+   "min_gap": 6
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/2-安定门-1.jpg",
+  "id": "2-安定门-1",
+  "n_times": 214,
+  "stats": {
+   "n": 214,
+   "n_hours": 19,
+   "median_gap": 5,
+   "max_gap": 9,
+   "min_gap": 2
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/2-安定门-2.jpg",
+  "id": "2-安定门-2",
+  "n_times": 214,
+  "stats": {
+   "n": 214,
+   "n_hours": 19,
+   "median_gap": 5,
+   "max_gap": 8,
+   "min_gap": 2
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/2-安定门-3.jpg",
+  "id": "2-安定门-3",
+  "n_times": 144,
+  "stats": {
+   "n": 144,
+   "n_hours": 19,
+   "median_gap": 8,
+   "max_gap": 10,
+   "min_gap": 6
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 2716,
+    "kind": "ocr_fail",
+    "text": "000812635"
+   }
+  ]
+ },
+ {
+  "source": "timetables/2-安定门-4.jpg",
+  "id": "2-安定门-4",
+  "n_times": 143,
+  "stats": {
+   "n": 143,
+   "n_hours": 19,
+   "median_gap": 8,
+   "max_gap": 10,
+   "min_gap": 6
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/2-宣武门-1.jpg",
+  "id": "2-宣武门-1",
+  "n_times": 211,
+  "stats": {
+   "n": 211,
+   "n_hours": 19,
+   "median_gap": 5,
+   "max_gap": 10,
+   "min_gap": 2
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/2-宣武门-2.jpg",
+  "id": "2-宣武门-2",
+  "n_times": 216,
+  "stats": {
+   "n": 216,
+   "n_hours": 19,
+   "median_gap": 5,
+   "max_gap": 8,
+   "min_gap": 2
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/2-宣武门-3.jpg",
+  "id": "2-宣武门-3",
+  "n_times": 142,
+  "stats": {
+   "n": 142,
+   "n_hours": 19,
+   "median_gap": 8,
+   "max_gap": 10,
+   "min_gap": 6
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/2-宣武门-4.jpg",
+  "id": "2-宣武门-4",
+  "n_times": 145,
+  "stats": {
+   "n": 145,
+   "n_hours": 19,
+   "median_gap": 8,
+   "max_gap": 10,
+   "min_gap": 6
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 2612,
+    "kind": "ocr_fail",
+    "text": "01081624334047354"
+   }
+  ]
+ },
+ {
+  "source": "timetables/2-崇文门-1.jpg",
+  "id": "2-崇文门-1",
+  "n_times": 212,
+  "stats": {
+   "n": 212,
+   "n_hours": 19,
+   "median_gap": 5,
+   "max_gap": 8,
+   "min_gap": 2
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 1195,
+    "kind": "repaired_swap",
+    "text": "90",
+    "fixed": "09"
+   },
+   {
+    "row_y": 1195,
+    "kind": "repaired_swap",
+    "text": "71",
+    "fixed": "17"
+   },
+   {
+    "row_y": 1195,
+    "kind": "repaired_swap",
+    "text": "61",
+    "fixed": "16"
+   },
+   {
+    "row_y": 1195,
+    "kind": "repaired_swap",
+    "text": "92",
+    "fixed": "29"
+   },
+   {
+    "row_y": 1195,
+    "kind": "repaired_swap",
+    "text": "83",
+    "fixed": "38"
+   },
+   {
+    "row_y": 2096,
+    "kind": "ocr_fail",
+    "text": "1902395091318232732364145495458"
+   },
+   {
+    "row_y": 2273,
+    "kind": "ocr_fail",
+    "text": "2102091622293404855"
+   }
+  ]
+ },
+ {
+  "source": "timetables/2-崇文门-2.jpg",
+  "id": "2-崇文门-2",
+  "n_times": 216,
+  "stats": {
+   "n": 216,
+   "n_hours": 19,
+   "median_gap": 5,
+   "max_gap": 9,
+   "min_gap": 2
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 1202,
+    "kind": "ocr_fail",
+    "text": "90030609121518212427303236404348535"
+   },
+   {
+    "row_y": 2362,
+    "kind": "ocr_fail",
+    "text": "22061219263340495"
+   }
+  ]
+ },
+ {
+  "source": "timetables/2-崇文门-3.jpg",
+  "id": "2-崇文门-3",
+  "n_times": 142,
+  "stats": {
+   "n": 142,
+   "n_hours": 19,
+   "median_gap": 8,
+   "max_gap": 10,
+   "min_gap": 6
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 874,
+    "kind": "ocr_fail",
+    "text": "2364552"
+   }
+  ]
+ },
+ {
+  "source": "timetables/2-崇文门-4.jpg",
+  "id": "2-崇文门-4",
+  "n_times": 145,
+  "stats": {
+   "n": 145,
+   "n_hours": 19,
+   "median_gap": 8,
+   "max_gap": 10,
+   "min_gap": 6
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 2612,
+    "kind": "ocr_fail",
+    "text": "010917263340479357"
+   }
+  ]
+ },
+ {
+  "source": "timetables/2-建国门-1.jpg",
+  "id": "2-建国门-1",
+  "n_times": 214,
+  "stats": {
+   "n": 214,
+   "n_hours": 19,
+   "median_gap": 5,
+   "max_gap": 9,
+   "min_gap": 2
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/2-建国门-2.jpg",
+  "id": "2-建国门-2",
+  "n_times": 214,
+  "stats": {
+   "n": 214,
+   "n_hours": 19,
+   "median_gap": 5,
+   "max_gap": 9,
+   "min_gap": 2
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/2-建国门-3.jpg",
+  "id": "2-建国门-3",
+  "n_times": 144,
+  "stats": {
+   "n": 144,
+   "n_hours": 19,
+   "median_gap": 8,
+   "max_gap": 10,
+   "min_gap": 6
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/2-建国门-4.jpg",
+  "id": "2-建国门-4",
+  "n_times": 143,
+  "stats": {
+   "n": 143,
+   "n_hours": 19,
+   "median_gap": 8,
+   "max_gap": 10,
+   "min_gap": 7
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/2-朝阳门-1.jpg",
+  "id": "2-朝阳门-1",
+  "n_times": 214,
+  "stats": {
+   "n": 214,
+   "n_hours": 19,
+   "median_gap": 5,
+   "max_gap": 9,
+   "min_gap": 2
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/2-朝阳门-2.jpg",
+  "id": "2-朝阳门-2",
+  "n_times": 214,
+  "stats": {
+   "n": 214,
+   "n_hours": 19,
+   "median_gap": 5,
+   "max_gap": 9,
+   "min_gap": 2
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/2-朝阳门-3.jpg",
+  "id": "2-朝阳门-3",
+  "n_times": 144,
+  "stats": {
+   "n": 144,
+   "n_hours": 19,
+   "median_gap": 8,
+   "max_gap": 10,
+   "min_gap": 6
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/2-朝阳门-4.jpg",
+  "id": "2-朝阳门-4",
+  "n_times": 143,
+  "stats": {
+   "n": 143,
+   "n_hours": 19,
+   "median_gap": 8,
+   "max_gap": 10,
+   "min_gap": 7
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/2-积水潭-1.jpg",
+  "id": "2-积水潭-1",
+  "n_times": 191,
+  "stats": {
+   "n": 191,
+   "n_hours": 18,
+   "median_gap": 6,
+   "max_gap": 11,
+   "min_gap": 2
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/2-积水潭-2.jpg",
+  "id": "2-积水潭-2",
+  "n_times": 214,
+  "stats": {
+   "n": 214,
+   "n_hours": 19,
+   "median_gap": 5,
+   "max_gap": 8,
+   "min_gap": 2
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/2-积水潭-3.jpg",
+  "id": "2-积水潭-3",
+  "n_times": 138,
+  "stats": {
+   "n": 138,
+   "n_hours": 18,
+   "median_gap": 8,
+   "max_gap": 12,
+   "min_gap": 7
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/2-积水潭-4.jpg",
+  "id": "2-积水潭-4",
+  "n_times": 143,
+  "stats": {
+   "n": 143,
+   "n_hours": 19,
+   "median_gap": 8,
+   "max_gap": 10,
+   "min_gap": 6
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/2-西直门-1.jpg",
+  "id": "2-西直门-1",
+  "n_times": 212,
+  "stats": {
+   "n": 212,
+   "n_hours": 18,
+   "median_gap": 5,
+   "max_gap": 8,
+   "min_gap": 2
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 1184,
+    "kind": "repaired_swap",
+    "text": "95",
+    "fixed": "59"
+   }
+  ]
+ },
+ {
+  "source": "timetables/2-西直门-2.jpg",
+  "id": "2-西直门-2",
+  "n_times": 194,
+  "stats": {
+   "n": 194,
+   "n_hours": 18,
+   "median_gap": 6,
+   "max_gap": 10,
+   "min_gap": 2
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/2-西直门-3.jpg",
+  "id": "2-西直门-3",
+  "n_times": 142,
+  "stats": {
+   "n": 142,
+   "n_hours": 18,
+   "median_gap": 8,
+   "max_gap": 9,
+   "min_gap": 5
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/2-西直门-4.jpg",
+  "id": "2-西直门-4",
+  "n_times": 139,
+  "stats": {
+   "n": 139,
+   "n_hours": 18,
+   "median_gap": 8,
+   "max_gap": 10,
+   "min_gap": 6
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 2612,
+    "kind": "ocr_fail",
+    "text": "00071421314149359"
+   }
+  ]
+ },
+ {
+  "source": "timetables/2-车公庄-1.jpg",
+  "id": "2-车公庄-1",
+  "n_times": 212,
+  "stats": {
+   "n": 212,
+   "n_hours": 19,
+   "median_gap": 5,
+   "max_gap": 8,
+   "min_gap": 2
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/2-车公庄-2.jpg",
+  "id": "2-车公庄-2",
+  "n_times": 216,
+  "stats": {
+   "n": 216,
+   "n_hours": 19,
+   "median_gap": 5,
+   "max_gap": 8,
+   "min_gap": 2
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/2-车公庄-3.jpg",
+  "id": "2-车公庄-3",
+  "n_times": 142,
+  "stats": {
+   "n": 142,
+   "n_hours": 19,
+   "median_gap": 8,
+   "max_gap": 9,
+   "min_gap": 5
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/2-车公庄-4.jpg",
+  "id": "2-车公庄-4",
+  "n_times": 145,
+  "stats": {
+   "n": 145,
+   "n_hours": 19,
+   "median_gap": 8,
+   "max_gap": 10,
+   "min_gap": 6
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/2-长椿街-1.jpg",
+  "id": "2-长椿街-1",
+  "n_times": 212,
+  "stats": {
+   "n": 212,
+   "n_hours": 19,
+   "median_gap": 5,
+   "max_gap": 9,
+   "min_gap": 2
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/2-长椿街-2.jpg",
+  "id": "2-长椿街-2",
+  "n_times": 214,
+  "stats": {
+   "n": 214,
+   "n_hours": 19,
+   "median_gap": 5,
+   "max_gap": 14,
+   "min_gap": 2
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/2-长椿街-3.jpg",
+  "id": "2-长椿街-3",
+  "n_times": 142,
+  "stats": {
+   "n": 142,
+   "n_hours": 19,
+   "median_gap": 8,
+   "max_gap": 10,
+   "min_gap": 6
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 1180,
+    "kind": "ocr_fail",
+    "text": "06142129364451359"
+   }
+  ]
+ },
+ {
+  "source": "timetables/2-长椿街-4.jpg",
+  "id": "2-长椿街-4",
+  "n_times": 145,
+  "stats": {
+   "n": 145,
+   "n_hours": 19,
+   "median_gap": 8,
+   "max_gap": 10,
+   "min_gap": 6
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/2-阜成门-1.jpg",
+  "id": "2-阜成门-1",
+  "n_times": 212,
+  "stats": {
+   "n": 212,
+   "n_hours": 19,
+   "median_gap": 5,
+   "max_gap": 8,
+   "min_gap": 2
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 1184,
+    "kind": "repaired_swap",
+    "text": "90",
+    "fixed": "09"
+   }
+  ]
+ },
+ {
+  "source": "timetables/2-阜成门-2.jpg",
+  "id": "2-阜成门-2",
+  "n_times": 216,
+  "stats": {
+   "n": 216,
+   "n_hours": 19,
+   "median_gap": 5,
+   "max_gap": 8,
+   "min_gap": 2
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/2-阜成门-3.jpg",
+  "id": "2-阜成门-3",
+  "n_times": 142,
+  "stats": {
+   "n": 142,
+   "n_hours": 19,
+   "median_gap": 8,
+   "max_gap": 10,
+   "min_gap": 6
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/2-阜成门-4.jpg",
+  "id": "2-阜成门-4",
+  "n_times": 145,
+  "stats": {
+   "n": 145,
+   "n_hours": 19,
+   "median_gap": 8,
+   "max_gap": 10,
+   "min_gap": 6
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 874,
+    "kind": "ocr_fail",
+    "text": "28344049357"
+   }
+  ]
+ },
+ {
+  "source": "timetables/2-雍和宫-1.jpg",
+  "id": "2-雍和宫-1",
+  "n_times": 213,
+  "stats": {
+   "n": 213,
+   "n_hours": 19,
+   "median_gap": 5,
+   "max_gap": 9,
+   "min_gap": 2
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 1200,
+    "kind": "repaired_swap",
+    "text": "90",
+    "fixed": "09"
+   },
+   {
+    "row_y": 1200,
+    "kind": "repaired_swap",
+    "text": "71",
+    "fixed": "17"
+   },
+   {
+    "row_y": 1200,
+    "kind": "repaired_swap",
+    "text": "61",
+    "fixed": "16"
+   },
+   {
+    "row_y": 1200,
+    "kind": "repaired_swap",
+    "text": "92",
+    "fixed": "29"
+   },
+   {
+    "row_y": 1287,
+    "kind": "ocr_fail",
+    "text": "1003297121621253036435158"
+   },
+   {
+    "row_y": 2097,
+    "kind": "bad_minute",
+    "text": "97"
+   },
+   {
+    "row_y": 2185,
+    "kind": "repaired_swap",
+    "text": "92",
+    "fixed": "29"
+   },
+   {
+    "row_y": 2274,
+    "kind": "repaired_swap",
+    "text": "82",
+    "fixed": "28"
+   },
+   {
+    "row_y": 2274,
+    "kind": "repaired_swap",
+    "text": "84",
+    "fixed": "48"
+   }
+  ]
+ },
+ {
+  "source": "timetables/2-雍和宫-2.jpg",
+  "id": "2-雍和宫-2",
+  "n_times": 214,
+  "stats": {
+   "n": 214,
+   "n_hours": 19,
+   "median_gap": 5,
+   "max_gap": 8,
+   "min_gap": 2
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 2006,
+    "kind": "bad_minute",
+    "text": "76"
+   }
+  ]
+ },
+ {
+  "source": "timetables/2-雍和宫-3.jpg",
+  "id": "2-雍和宫-3",
+  "n_times": 144,
+  "stats": {
+   "n": 144,
+   "n_hours": 19,
+   "median_gap": 8,
+   "max_gap": 10,
+   "min_gap": 6
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 2715,
+    "kind": "ocr_fail",
+    "text": "0615243"
+   }
+  ]
+ },
+ {
+  "source": "timetables/2-雍和宫-4.jpg",
+  "id": "2-雍和宫-4",
+  "n_times": 143,
+  "stats": {
+   "n": 143,
+   "n_hours": 19,
+   "median_gap": 8,
+   "max_gap": 10,
+   "min_gap": 6
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 2612,
+    "kind": "ocr_fail",
+    "text": "011017253141951"
+   }
+  ]
+ },
+ {
+  "source": "timetables/2-鼓楼大街-1.jpg",
+  "id": "2-鼓楼大街-1",
+  "n_times": 214,
+  "stats": {
+   "n": 214,
+   "n_hours": 19,
+   "median_gap": 5,
+   "max_gap": 9,
+   "min_gap": 2
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/2-鼓楼大街-2.jpg",
+  "id": "2-鼓楼大街-2",
+  "n_times": 214,
+  "stats": {
+   "n": 214,
+   "n_hours": 19,
+   "median_gap": 5,
+   "max_gap": 8,
+   "min_gap": 2
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/2-鼓楼大街-3.jpg",
+  "id": "2-鼓楼大街-3",
+  "n_times": 144,
+  "stats": {
+   "n": 144,
+   "n_hours": 19,
+   "median_gap": 8,
+   "max_gap": 10,
+   "min_gap": 6
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/2-鼓楼大街-4.jpg",
+  "id": "2-鼓楼大街-4",
+  "n_times": 143,
+  "stats": {
+   "n": 143,
+   "n_hours": 19,
+   "median_gap": 8,
+   "max_gap": 10,
+   "min_gap": 6
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 2613,
+    "kind": "ocr_fail",
+    "text": "0613212734756"
+   }
+  ]
+ }
+]

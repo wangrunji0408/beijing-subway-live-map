@@ -1,0 +1,12 @@
+{
+ "1": {"direction": "北安河", "service": "weekday", "legend": {}},
+ "2": {"direction": "宛平城", "service": "weekday", "legend": {}},
+ "3": {"direction": "北安河", "service": "weekend", "legend": {}},
+ "4": {"direction": "宛平城", "service": "weekend", "legend": {}},
+ "_images": {
+  "16-北安河-1": {"direction": "宛平城", "service": "weekday"},
+  "16-北安河-2": {"direction": "宛平城", "service": "weekend"},
+  "16-宛平城-1": {"direction": "北安河", "service": "weekday"},
+  "16-宛平城-2": {"direction": "北安河", "service": "weekend"}
+ }
+}

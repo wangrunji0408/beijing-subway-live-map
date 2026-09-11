@@ -1,0 +1,93 @@
+{
+ "1": {
+  "direction": "环球度假区",
+  "service": "weekday",
+  "legend": {
+   "yellow": "土桥",
+   "blue": "果园",
+   "pink": "四惠东",
+   "purple": "四惠",
+   "red": "古城"
+  },
+  "legend_detail": {
+   "yellow": "列车终点站为土桥站",
+   "blue": "列车终点站为果园站",
+   "pink": "列车终点站为四惠东站",
+   "purple": "列车终点站为四惠站",
+   "red": "古城站始发空车"
+  },
+  "note": "开往环球度假区站方向 / To Universal Resort, 工作日 Weekdays"
+ },
+ "2": {
+  "direction": "苹果园",
+  "service": "weekday",
+  "legend": {
+   "red": "古城",
+   "green": "复兴门",
+   "purple": "四惠",
+   "pink": "四惠东",
+   "blue": "果园",
+   "yellow": "土桥"
+  },
+  "legend_detail": {
+   "red": "列车终点站为古城站",
+   "green": "复兴门站始发空车",
+   "purple": "四惠站始发空车",
+   "pink": "四惠东站始发空车",
+   "blue": "果园站始发空车",
+   "yellow": "土桥站始发空车"
+  },
+  "note": "开往苹果园站方向 / To Pingguoyuan, 工作日 Weekdays"
+ },
+ "3": {
+  "direction": "环球度假区",
+  "service": "weekend",
+  "legend": {
+   "yellow": "土桥",
+   "pink": "四惠东",
+   "purple": "四惠",
+   "red": "古城"
+  },
+  "legend_detail": {
+   "yellow": "列车终点站为土桥站",
+   "pink": "列车终点站为四惠东站",
+   "purple": "列车终点站为四惠站",
+   "red": "古城站始发空车"
+  },
+  "note": "开往环球度假区站方向 / To Universal Resort, 双休日 Weekends"
+ },
+ "4": {
+  "direction": "苹果园",
+  "service": "weekend",
+  "legend": {
+   "red": "古城",
+   "green": "复兴门",
+   "purple": "四惠",
+   "pink": "四惠东",
+   "blue": "果园",
+   "yellow": "土桥"
+  },
+  "legend_detail": {
+   "red": "列车终点站为古城站",
+   "green": "复兴门站始发空车",
+   "purple": "四惠站始发空车",
+   "pink": "四惠东站始发空车",
+   "blue": "果园站始发空车",
+   "yellow": "土桥站始发空车"
+  },
+  "note": "开往苹果园站方向 / To Pingguoyuan, 双休日 Weekends"
+ },
+ "_note": "序号含义（4 图车站一致）: 1=工作日开往环球度假区, 2=工作日开往苹果园, 3=双休日开往环球度假区, 4=双休日开往苹果园。例外: (1) 1-苹果园 只有 -1/-2 两张图（无西行）, -1=工作日开往环球度假区, -2=双休日开往环球度假区; (2) 1-八角游乐园-2/-4 的表头是「开往古城站方向 To Gucheng」(非苹果园)。均在 _images 中按图片覆盖。",
+ "_images": {
+  "1-苹果园-2": {
+   "direction": "环球度假区",
+   "service": "weekend"
+  },
+  "1-八角游乐园-2": {
+   "direction": "古城"
+  },
+  "1-八角游乐园-4": {
+   "direction": "古城"
+  }
+ }
+}

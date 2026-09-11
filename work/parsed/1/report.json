@@ -1,0 +1,3444 @@
+[
+ {
+  "source": "timetables/1-万寿路-1.jpg",
+  "id": "1-万寿路-1",
+  "n_times": 315,
+  "stats": {
+   "n": 315,
+   "n_hours": 19,
+   "median_gap": 3,
+   "max_gap": 10,
+   "min_gap": 2
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 886,
+    "kind": "bad_minute",
+    "text": "77"
+   }
+  ]
+ },
+ {
+  "source": "timetables/1-万寿路-2.jpg",
+  "id": "1-万寿路-2",
+  "n_times": 317,
+  "stats": {
+   "n": 317,
+   "n_hours": 20,
+   "median_gap": 3,
+   "max_gap": 314,
+   "min_gap": 2
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 416,
+    "kind": "ocr_fail",
+    "text": "80002050709111511921272931333539414345475153555759"
+   },
+   {
+    "row_y": 455,
+    "kind": "ocr_fail",
+    "text": "903040709111315171921232527293133353740424446485155659"
+   },
+   {
+    "row_y": 494,
+    "kind": "repaired_swap",
+    "text": "81",
+    "fixed": "18"
+   },
+   {
+    "row_y": 494,
+    "kind": "repaired_swap",
+    "text": "82",
+    "fixed": "28"
+   },
+   {
+    "row_y": 494,
+    "kind": "repaired_swap",
+    "text": "73",
+    "fixed": "37"
+   },
+   {
+    "row_y": 494,
+    "kind": "repaired_swap",
+    "text": "74",
+    "fixed": "47"
+   },
+   {
+    "row_y": 808,
+    "kind": "repaired_swap",
+    "text": "74",
+    "fixed": "47"
+   },
+   {
+    "row_y": 808,
+    "kind": "repaired_swap",
+    "text": "95",
+    "fixed": "59"
+   },
+   {
+    "row_y": 847,
+    "kind": "ocr_fail",
+    "text": "1901005081121511922242629313336394346505357"
+   },
+   {
+    "row_y": 964,
+    "kind": "repaired_swap",
+    "text": "91",
+    "fixed": "19"
+   }
+  ]
+ },
+ {
+  "source": "timetables/1-万寿路-3.jpg",
+  "id": "1-万寿路-3",
+  "n_times": 179,
+  "stats": {
+   "n": 179,
+   "n_hours": 19,
+   "median_gap": 7,
+   "max_gap": 9,
+   "min_gap": 3
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 234,
+    "kind": "ocr_fail",
+    "text": ""
+   },
+   {
+    "row_y": 257,
+    "kind": "ocr_fail",
+    "text": ""
+   }
+  ]
+ },
+ {
+  "source": "timetables/1-万寿路-4.jpg",
+  "id": "1-万寿路-4",
+  "n_times": 180,
+  "stats": {
+   "n": 180,
+   "n_hours": 20,
+   "median_gap": 6,
+   "max_gap": 314,
+   "min_gap": 3
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 848,
+    "kind": "repaired_swap",
+    "text": "61",
+    "fixed": "16"
+   }
+  ]
+ },
+ {
+  "source": "timetables/1-东单-1.jpg",
+  "id": "1-东单-1",
+  "n_times": 322,
+  "stats": {
+   "n": 322,
+   "n_hours": 20,
+   "median_gap": 3,
+   "max_gap": 316,
+   "min_gap": 2
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 376,
+    "kind": "ocr_fail",
+    "text": "700030508101214171972252831333537394143454749515355559"
+   },
+   {
+    "row_y": 415,
+    "kind": "repaired_swap",
+    "text": "95",
+    "fixed": "59"
+   }
+  ]
+ },
+ {
+  "source": "timetables/1-东单-2.jpg",
+  "id": "1-东单-2",
+  "n_times": 321,
+  "stats": {
+   "n": 321,
+   "n_hours": 19,
+   "median_gap": 3,
+   "max_gap": 12,
+   "min_gap": 2
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 416,
+    "kind": "repaired_swap",
+    "text": "80",
+    "fixed": "08"
+   },
+   {
+    "row_y": 416,
+    "kind": "repaired_swap",
+    "text": "60",
+    "fixed": "06"
+   },
+   {
+    "row_y": 416,
+    "kind": "repaired_swap",
+    "text": "81",
+    "fixed": "18"
+   },
+   {
+    "row_y": 416,
+    "kind": "repaired_swap",
+    "text": "61",
+    "fixed": "16"
+   },
+   {
+    "row_y": 416,
+    "kind": "repaired_swap",
+    "text": "82",
+    "fixed": "28"
+   },
+   {
+    "row_y": 416,
+    "kind": "repaired_swap",
+    "text": "62",
+    "fixed": "26"
+   },
+   {
+    "row_y": 416,
+    "kind": "repaired_swap",
+    "text": "83",
+    "fixed": "38"
+   },
+   {
+    "row_y": 494,
+    "kind": "repaired_swap",
+    "text": "73",
+    "fixed": "37"
+   },
+   {
+    "row_y": 494,
+    "kind": "repaired_swap",
+    "text": "94",
+    "fixed": "49"
+   },
+   {
+    "row_y": 494,
+    "kind": "repaired_swap",
+    "text": "75",
+    "fixed": "57"
+   },
+   {
+    "row_y": 494,
+    "kind": "repaired_swap",
+    "text": "65",
+    "fixed": "56"
+   },
+   {
+    "row_y": 808,
+    "kind": "repaired_swap",
+    "text": "93",
+    "fixed": "39"
+   },
+   {
+    "row_y": 808,
+    "kind": "repaired_swap",
+    "text": "63",
+    "fixed": "36"
+   },
+   {
+    "row_y": 808,
+    "kind": "repaired_swap",
+    "text": "84",
+    "fixed": "48"
+   },
+   {
+    "row_y": 847,
+    "kind": "repaired_swap",
+    "text": "90",
+    "fixed": "09"
+   },
+   {
+    "row_y": 926,
+    "kind": "ocr_fail",
+    "text": "210104071215199126344046557"
+   }
+  ]
+ },
+ {
+  "source": "timetables/1-东单-3.jpg",
+  "id": "1-东单-3",
+  "n_times": 214,
+  "stats": {
+   "n": 214,
+   "n_hours": 20,
+   "median_gap": 5,
+   "max_gap": 316,
+   "min_gap": 3
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 234,
+    "kind": "ocr_fail",
+    "text": ""
+   },
+   {
+    "row_y": 257,
+    "kind": "ocr_fail",
+    "text": ""
+   }
+  ]
+ },
+ {
+  "source": "timetables/1-东单-4.jpg",
+  "id": "1-东单-4",
+  "n_times": 213,
+  "stats": {
+   "n": 213,
+   "n_hours": 19,
+   "median_gap": 5,
+   "max_gap": 12,
+   "min_gap": 3
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 416,
+    "kind": "repaired_swap",
+    "text": "81",
+    "fixed": "18"
+   },
+   {
+    "row_y": 416,
+    "kind": "repaired_swap",
+    "text": "72",
+    "fixed": "27"
+   },
+   {
+    "row_y": 416,
+    "kind": "repaired_swap",
+    "text": "63",
+    "fixed": "36"
+   },
+   {
+    "row_y": 494,
+    "kind": "repaired_swap",
+    "text": "92",
+    "fixed": "29"
+   },
+   {
+    "row_y": 494,
+    "kind": "repaired_swap",
+    "text": "83",
+    "fixed": "38"
+   },
+   {
+    "row_y": 494,
+    "kind": "repaired_swap",
+    "text": "84",
+    "fixed": "48"
+   },
+   {
+    "row_y": 808,
+    "kind": "repaired_swap",
+    "text": "92",
+    "fixed": "29"
+   },
+   {
+    "row_y": 808,
+    "kind": "repaired_swap",
+    "text": "93",
+    "fixed": "39"
+   },
+   {
+    "row_y": 808,
+    "kind": "repaired_swap",
+    "text": "74",
+    "fixed": "47"
+   },
+   {
+    "row_y": 886,
+    "kind": "repaired_swap",
+    "text": "91",
+    "fixed": "19"
+   },
+   {
+    "row_y": 886,
+    "kind": "repaired_swap",
+    "text": "92",
+    "fixed": "29"
+   },
+   {
+    "row_y": 1004,
+    "kind": "ocr_fail",
+    "text": "0209162330344"
+   }
+  ]
+ },
+ {
+  "source": "timetables/1-五棵松-1.jpg",
+  "id": "1-五棵松-1",
+  "n_times": 316,
+  "stats": {
+   "n": 316,
+   "n_hours": 19,
+   "median_gap": 3,
+   "max_gap": 9,
+   "min_gap": 2
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 886,
+    "kind": "repaired_swap",
+    "text": "74",
+    "fixed": "47"
+   }
+  ]
+ },
+ {
+  "source": "timetables/1-五棵松-2.jpg",
+  "id": "1-五棵松-2",
+  "n_times": 317,
+  "stats": {
+   "n": 317,
+   "n_hours": 20,
+   "median_gap": 3,
+   "max_gap": 314,
+   "min_gap": 2
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 456,
+    "kind": "ocr_fail",
+    "text": "9000306081012141618202224262830323436381042454495154559"
+   },
+   {
+    "row_y": 494,
+    "kind": "repaired_swap",
+    "text": "91",
+    "fixed": "19"
+   },
+   {
+    "row_y": 808,
+    "kind": "ocr_fail",
+    "text": "18010305081012151719212426293133363840434547505545750"
+   },
+   {
+    "row_y": 847,
+    "kind": "repaired_swap",
+    "text": "72",
+    "fixed": "27"
+   },
+   {
+    "row_y": 847,
+    "kind": "repaired_swap",
+    "text": "93",
+    "fixed": "39"
+   }
+  ]
+ },
+ {
+  "source": "timetables/1-五棵松-3.jpg",
+  "id": "1-五棵松-3",
+  "n_times": 179,
+  "stats": {
+   "n": 179,
+   "n_hours": 19,
+   "median_gap": 7,
+   "max_gap": 9,
+   "min_gap": 3
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 234,
+    "kind": "ocr_fail",
+    "text": ""
+   },
+   {
+    "row_y": 257,
+    "kind": "ocr_fail",
+    "text": ""
+   }
+  ]
+ },
+ {
+  "source": "timetables/1-五棵松-4.jpg",
+  "id": "1-五棵松-4",
+  "n_times": 180,
+  "stats": {
+   "n": 180,
+   "n_hours": 20,
+   "median_gap": 6,
+   "max_gap": 314,
+   "min_gap": 4
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 533,
+    "kind": "bad_minute",
+    "text": "98"
+   }
+  ]
+ },
+ {
+  "source": "timetables/1-八宝山-1.jpg",
+  "id": "1-八宝山-1",
+  "n_times": 316,
+  "stats": {
+   "n": 316,
+   "n_hours": 19,
+   "median_gap": 3,
+   "max_gap": 10,
+   "min_gap": 2
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 455,
+    "kind": "repaired_swap",
+    "text": "91",
+    "fixed": "19"
+   }
+  ]
+ },
+ {
+  "source": "timetables/1-八宝山-2.jpg",
+  "id": "1-八宝山-2",
+  "n_times": 317,
+  "stats": {
+   "n": 317,
+   "n_hours": 20,
+   "median_gap": 3,
+   "max_gap": 314,
+   "min_gap": 2
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 416,
+    "kind": "repaired_swap",
+    "text": "80",
+    "fixed": "08"
+   },
+   {
+    "row_y": 416,
+    "kind": "repaired_swap",
+    "text": "81",
+    "fixed": "18"
+   },
+   {
+    "row_y": 416,
+    "kind": "repaired_swap",
+    "text": "71",
+    "fixed": "17"
+   },
+   {
+    "row_y": 416,
+    "kind": "repaired_swap",
+    "text": "92",
+    "fixed": "29"
+   },
+   {
+    "row_y": 456,
+    "kind": "ocr_fail",
+    "text": "9010400911131517192123252729313353759414345485052545659"
+   },
+   {
+    "row_y": 847,
+    "kind": "ocr_fail",
+    "text": "1900020407091114161212325283035373424447515458"
+   },
+   {
+    "row_y": 926,
+    "kind": "ocr_fail",
+    "text": "2100030711131721252732340842454952565"
+   }
+  ]
+ },
+ {
+  "source": "timetables/1-八宝山-3.jpg",
+  "id": "1-八宝山-3",
+  "n_times": 179,
+  "stats": {
+   "n": 179,
+   "n_hours": 19,
+   "median_gap": 6,
+   "max_gap": 9,
+   "min_gap": 3
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 234,
+    "kind": "ocr_fail",
+    "text": ""
+   },
+   {
+    "row_y": 257,
+    "kind": "ocr_fail",
+    "text": ""
+   }
+  ]
+ },
+ {
+  "source": "timetables/1-八宝山-4.jpg",
+  "id": "1-八宝山-4",
+  "n_times": 180,
+  "stats": {
+   "n": 180,
+   "n_hours": 20,
+   "median_gap": 6,
+   "max_gap": 314,
+   "min_gap": 3
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/1-八角游乐园-1.jpg",
+  "id": "1-八角游乐园-1",
+  "n_times": 321,
+  "stats": {
+   "n": 321,
+   "n_hours": 19,
+   "median_gap": 3,
+   "max_gap": 10,
+   "min_gap": 2
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 1768,
+    "kind": "repaired_swap",
+    "text": "90",
+    "fixed": "09"
+   },
+   {
+    "row_y": 1768,
+    "kind": "repaired_swap",
+    "text": "71",
+    "fixed": "17"
+   },
+   {
+    "row_y": 1768,
+    "kind": "repaired_swap",
+    "text": "72",
+    "fixed": "27"
+   },
+   {
+    "row_y": 1849,
+    "kind": "ocr_fail",
+    "text": "20020601316202273343414448505559"
+   },
+   {
+    "row_y": 1931,
+    "kind": "ocr_fail",
+    "text": "21020609131619232630333740444515458"
+   }
+  ]
+ },
+ {
+  "source": "timetables/1-八角游乐园-2.jpg",
+  "id": "1-八角游乐园-2",
+  "n_times": 322,
+  "stats": {
+   "n": 322,
+   "n_hours": 20,
+   "median_gap": 3,
+   "max_gap": 314,
+   "min_gap": 2
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 869,
+    "kind": "ocr_fail",
+    "text": "8010466081113161820222628303234384042444750525557"
+   },
+   {
+    "row_y": 1604,
+    "kind": "ocr_fail",
+    "text": "1700040711141921242729234364143464850635557"
+   }
+  ]
+ },
+ {
+  "source": "timetables/1-八角游乐园-3.jpg",
+  "id": "1-八角游乐园-3",
+  "n_times": 178,
+  "stats": {
+   "n": 178,
+   "n_hours": 19,
+   "median_gap": 6,
+   "max_gap": 9,
+   "min_gap": 3
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 1856,
+    "kind": "repaired_swap",
+    "text": "92",
+    "fixed": "29"
+   }
+  ]
+ },
+ {
+  "source": "timetables/1-八角游乐园-4.jpg",
+  "id": "1-八角游乐园-4",
+  "n_times": 179,
+  "stats": {
+   "n": 179,
+   "n_hours": 20,
+   "median_gap": 6,
+   "max_gap": 314,
+   "min_gap": 4
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 796,
+    "kind": "ocr_fail",
+    "text": "01071320263185404753"
+   }
+  ]
+ },
+ {
+  "source": "timetables/1-公主坟-1.jpg",
+  "id": "1-公主坟-1",
+  "n_times": 321,
+  "stats": {
+   "n": 321,
+   "n_hours": 19,
+   "median_gap": 3,
+   "max_gap": 9,
+   "min_gap": 1
+  },
+  "issues": [
+   {
+    "kind": "gap_small",
+    "gap": 1,
+    "at": "08:17->08:18",
+    "msg": "gap 1 min is below 2"
+   },
+   {
+    "kind": "gap_small",
+    "gap": 1,
+    "at": "08:29->08:30",
+    "msg": "gap 1 min is below 2"
+   },
+   {
+    "kind": "gap_small",
+    "gap": 1,
+    "at": "09:07->09:08",
+    "msg": "gap 1 min is below 2"
+   }
+  ],
+  "flags": []
+ },
+ {
+  "source": "timetables/1-公主坟-2.jpg",
+  "id": "1-公主坟-2",
+  "n_times": 317,
+  "stats": {
+   "n": 317,
+   "n_hours": 20,
+   "median_gap": 3,
+   "max_gap": 313,
+   "min_gap": 2
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 416,
+    "kind": "repaired_swap",
+    "text": "71",
+    "fixed": "17"
+   },
+   {
+    "row_y": 416,
+    "kind": "bad_minute",
+    "text": "79"
+   },
+   {
+    "row_y": 416,
+    "kind": "repaired_swap",
+    "text": "95",
+    "fixed": "59"
+   },
+   {
+    "row_y": 456,
+    "kind": "bad_minute",
+    "text": "272"
+   },
+   {
+    "row_y": 456,
+    "kind": "repaired_swap",
+    "text": "72",
+    "fixed": "27"
+   },
+   {
+    "row_y": 456,
+    "kind": "repaired_swap",
+    "text": "93",
+    "fixed": "39"
+   },
+   {
+    "row_y": 534,
+    "kind": "ocr_fail",
+    "text": "1104061116182428344455057"
+   },
+   {
+    "row_y": 847,
+    "kind": "repaired_swap",
+    "text": "72",
+    "fixed": "27"
+   },
+   {
+    "row_y": 926,
+    "kind": "ocr_fail",
+    "text": "2100020611141621232324394146454"
+   },
+   {
+    "row_y": 965,
+    "kind": "repaired_swap",
+    "text": "61",
+    "fixed": "16"
+   },
+   {
+    "row_y": 965,
+    "kind": "repaired_swap",
+    "text": "72",
+    "fixed": "27"
+   },
+   {
+    "row_y": 1004,
+    "kind": "ocr_fail",
+    "text": "2302091622293643495"
+   }
+  ]
+ },
+ {
+  "source": "timetables/1-公主坟-3.jpg",
+  "id": "1-公主坟-3",
+  "n_times": 213,
+  "stats": {
+   "n": 213,
+   "n_hours": 19,
+   "median_gap": 5,
+   "max_gap": 9,
+   "min_gap": 2
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 234,
+    "kind": "ocr_fail",
+    "text": ""
+   },
+   {
+    "row_y": 257,
+    "kind": "ocr_fail",
+    "text": ""
+   }
+  ]
+ },
+ {
+  "source": "timetables/1-公主坟-4.jpg",
+  "id": "1-公主坟-4",
+  "n_times": 180,
+  "stats": {
+   "n": 180,
+   "n_hours": 20,
+   "median_gap": 6,
+   "max_gap": 313,
+   "min_gap": 4
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 690,
+    "kind": "repaired_swap",
+    "text": "71",
+    "fixed": "17"
+   },
+   {
+    "row_y": 690,
+    "kind": "repaired_swap",
+    "text": "92",
+    "fixed": "29"
+   }
+  ]
+ },
+ {
+  "source": "timetables/1-军事博物馆-1.jpg",
+  "id": "1-军事博物馆-1",
+  "n_times": 321,
+  "stats": {
+   "n": 321,
+   "n_hours": 19,
+   "median_gap": 3,
+   "max_gap": 10,
+   "min_gap": 2
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 455,
+    "kind": "ocr_fail",
+    "text": "901040709111518222427313336404344952555"
+   },
+   {
+    "row_y": 769,
+    "kind": "ocr_fail",
+    "text": "170205081012151719212426283033353739424446495245759"
+   }
+  ]
+ },
+ {
+  "source": "timetables/1-军事博物馆-2.jpg",
+  "id": "1-军事博物馆-2",
+  "n_times": 322,
+  "stats": {
+   "n": 322,
+   "n_hours": 20,
+   "median_gap": 3,
+   "max_gap": 314,
+   "min_gap": 2
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 377,
+    "kind": "repaired_swap",
+    "text": "71",
+    "fixed": "17"
+   },
+   {
+    "row_y": 455,
+    "kind": "ocr_fail",
+    "text": "901030507091113151719712325272931333537394144464515456"
+   },
+   {
+    "row_y": 494,
+    "kind": "repaired_swap",
+    "text": "81",
+    "fixed": "18"
+   },
+   {
+    "row_y": 494,
+    "kind": "bad_minute",
+    "text": "89"
+   },
+   {
+    "row_y": 494,
+    "kind": "repaired_swap",
+    "text": "73",
+    "fixed": "37"
+   },
+   {
+    "row_y": 494,
+    "kind": "repaired_swap",
+    "text": "74",
+    "fixed": "47"
+   },
+   {
+    "row_y": 534,
+    "kind": "ocr_fail",
+    "text": "1101040132125313434855"
+   },
+   {
+    "row_y": 847,
+    "kind": "repaired_swap",
+    "text": "71",
+    "fixed": "17"
+   },
+   {
+    "row_y": 847,
+    "kind": "repaired_swap",
+    "text": "71",
+    "fixed": "17"
+   },
+   {
+    "row_y": 847,
+    "kind": "repaired_swap",
+    "text": "92",
+    "fixed": "29"
+   },
+   {
+    "row_y": 925,
+    "kind": "ocr_fail",
+    "text": "2100030812141921942939364345258"
+   },
+   {
+    "row_y": 1004,
+    "kind": "repaired_swap",
+    "text": "71",
+    "fixed": "17"
+   },
+   {
+    "row_y": 1004,
+    "kind": "repaired_swap",
+    "text": "63",
+    "fixed": "36"
+   }
+  ]
+ },
+ {
+  "source": "timetables/1-军事博物馆-3.jpg",
+  "id": "1-军事博物馆-3",
+  "n_times": 213,
+  "stats": {
+   "n": 213,
+   "n_hours": 19,
+   "median_gap": 5,
+   "max_gap": 9,
+   "min_gap": 2
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 234,
+    "kind": "ocr_fail",
+    "text": ""
+   },
+   {
+    "row_y": 257,
+    "kind": "ocr_fail",
+    "text": ""
+   }
+  ]
+ },
+ {
+  "source": "timetables/1-军事博物馆-4.jpg",
+  "id": "1-军事博物馆-4",
+  "n_times": 214,
+  "stats": {
+   "n": 214,
+   "n_hours": 20,
+   "median_gap": 5,
+   "max_gap": 314,
+   "min_gap": 3
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 416,
+    "kind": "ocr_fail",
+    "text": "04101721263036394448545"
+   },
+   {
+    "row_y": 690,
+    "kind": "repaired_swap",
+    "text": "72",
+    "fixed": "27"
+   },
+   {
+    "row_y": 848,
+    "kind": "repaired_swap",
+    "text": "71",
+    "fixed": "17"
+   }
+  ]
+ },
+ {
+  "source": "timetables/1-南礼士路-1.jpg",
+  "id": "1-南礼士路-1",
+  "n_times": 321,
+  "stats": {
+   "n": 321,
+   "n_hours": 19,
+   "median_gap": 3,
+   "max_gap": 9,
+   "min_gap": 2
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 376,
+    "kind": "repaired_swap",
+    "text": "70",
+    "fixed": "07"
+   }
+  ]
+ },
+ {
+  "source": "timetables/1-南礼士路-2.jpg",
+  "id": "1-南礼士路-2",
+  "n_times": 322,
+  "stats": {
+   "n": 322,
+   "n_hours": 19,
+   "median_gap": 3,
+   "max_gap": 11,
+   "min_gap": 2
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 456,
+    "kind": "ocr_fail",
+    "text": "90002040608101214118202242620303335373942444749525559"
+   },
+   {
+    "row_y": 494,
+    "kind": "ocr_fail",
+    "text": "10040914128232833364045475257"
+   },
+   {
+    "row_y": 847,
+    "kind": "repaired_swap",
+    "text": "71",
+    "fixed": "17"
+   },
+   {
+    "row_y": 925,
+    "kind": "repaired_swap",
+    "text": "70",
+    "fixed": "07"
+   },
+   {
+    "row_y": 925,
+    "kind": "repaired_swap",
+    "text": "91",
+    "fixed": "19"
+   },
+   {
+    "row_y": 925,
+    "kind": "repaired_swap",
+    "text": "62",
+    "fixed": "26"
+   },
+   {
+    "row_y": 1004,
+    "kind": "ocr_fail",
+    "text": "2302091521283642495"
+   }
+  ]
+ },
+ {
+  "source": "timetables/1-南礼士路-3.jpg",
+  "id": "1-南礼士路-3",
+  "n_times": 213,
+  "stats": {
+   "n": 213,
+   "n_hours": 19,
+   "median_gap": 5,
+   "max_gap": 9,
+   "min_gap": 3
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 234,
+    "kind": "ocr_fail",
+    "text": ""
+   },
+   {
+    "row_y": 257,
+    "kind": "ocr_fail",
+    "text": ""
+   }
+  ]
+ },
+ {
+  "source": "timetables/1-南礼士路-4.jpg",
+  "id": "1-南礼士路-4",
+  "n_times": 214,
+  "stats": {
+   "n": 214,
+   "n_hours": 19,
+   "median_gap": 5,
+   "max_gap": 11,
+   "min_gap": 3
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 455,
+    "kind": "repaired_swap",
+    "text": "84",
+    "fixed": "48"
+   },
+   {
+    "row_y": 848,
+    "kind": "repaired_swap",
+    "text": "81",
+    "fixed": "18"
+   },
+   {
+    "row_y": 848,
+    "kind": "repaired_swap",
+    "text": "72",
+    "fixed": "27"
+   },
+   {
+    "row_y": 848,
+    "kind": "repaired_swap",
+    "text": "73",
+    "fixed": "37"
+   },
+   {
+    "row_y": 926,
+    "kind": "repaired_swap",
+    "text": "81",
+    "fixed": "18"
+   },
+   {
+    "row_y": 926,
+    "kind": "repaired_swap",
+    "text": "82",
+    "fixed": "28"
+   },
+   {
+    "row_y": 1005,
+    "kind": "ocr_fail",
+    "text": "010815222936405"
+   }
+  ]
+ },
+ {
+  "source": "timetables/1-古城-1.jpg",
+  "id": "1-古城-1",
+  "n_times": 316,
+  "stats": {
+   "n": 316,
+   "n_hours": 20,
+   "median_gap": 3,
+   "max_gap": 10,
+   "min_gap": 2
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 572,
+    "kind": "ocr_fail",
+    "text": "1106132027344144855"
+   },
+   {
+    "row_y": 886,
+    "kind": "ocr_fail",
+    "text": "190104071014172124283143538424549522659"
+   }
+  ]
+ },
+ {
+  "source": "timetables/1-古城-2.jpg",
+  "id": "1-古城-2",
+  "n_times": 277,
+  "stats": {
+   "n": 277,
+   "n_hours": 19,
+   "median_gap": 3,
+   "max_gap": 12,
+   "min_gap": 2
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/1-古城-3.jpg",
+  "id": "1-古城-3",
+  "n_times": 179,
+  "stats": {
+   "n": 179,
+   "n_hours": 20,
+   "median_gap": 6,
+   "max_gap": 9,
+   "min_gap": 3
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/1-古城-4.jpg",
+  "id": "1-古城-4",
+  "n_times": 172,
+  "stats": {
+   "n": 172,
+   "n_hours": 19,
+   "median_gap": 7,
+   "max_gap": 11,
+   "min_gap": 4
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/1-四惠-1.jpg",
+  "id": "1-四惠-1",
+  "n_times": 287,
+  "stats": {
+   "n": 287,
+   "n_hours": 20,
+   "median_gap": 3,
+   "max_gap": 316,
+   "min_gap": 2
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/1-四惠-2.jpg",
+  "id": "1-四惠-2",
+  "n_times": 321,
+  "stats": {
+   "n": 321,
+   "n_hours": 20,
+   "median_gap": 3,
+   "max_gap": 11,
+   "min_gap": 2
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 455,
+    "kind": "ocr_fail",
+    "text": "801230507091113151719212725272931333537394143454749515355459"
+   },
+   {
+    "row_y": 494,
+    "kind": "ocr_fail",
+    "text": "9010305070911141612174263034384248557"
+   },
+   {
+    "row_y": 534,
+    "kind": "repaired_swap",
+    "text": "71",
+    "fixed": "17"
+   },
+   {
+    "row_y": 534,
+    "kind": "repaired_swap",
+    "text": "92",
+    "fixed": "29"
+   },
+   {
+    "row_y": 534,
+    "kind": "repaired_swap",
+    "text": "63",
+    "fixed": "36"
+   },
+   {
+    "row_y": 847,
+    "kind": "ocr_fail",
+    "text": "180000507101214171971242628313333840424547505254659"
+   },
+   {
+    "row_y": 964,
+    "kind": "repaired_swap",
+    "text": "60",
+    "fixed": "06"
+   },
+   {
+    "row_y": 964,
+    "kind": "repaired_swap",
+    "text": "91",
+    "fixed": "19"
+   }
+  ]
+ },
+ {
+  "source": "timetables/1-四惠-3.jpg",
+  "id": "1-四惠-3",
+  "n_times": 210,
+  "stats": {
+   "n": 210,
+   "n_hours": 20,
+   "median_gap": 5,
+   "max_gap": 316,
+   "min_gap": 3
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 234,
+    "kind": "ocr_fail",
+    "text": ""
+   },
+   {
+    "row_y": 257,
+    "kind": "ocr_fail",
+    "text": ""
+   },
+   {
+    "row_y": 298,
+    "kind": "ocr_fail",
+    "text": "34554"
+   },
+   {
+    "row_y": 456,
+    "kind": "ocr_fail",
+    "text": "0307121212630353943485257"
+   },
+   {
+    "row_y": 846,
+    "kind": "ocr_fail",
+    "text": "0408121222530354044485358"
+   }
+  ]
+ },
+ {
+  "source": "timetables/1-四惠-4.jpg",
+  "id": "1-四惠-4",
+  "n_times": 213,
+  "stats": {
+   "n": 213,
+   "n_hours": 20,
+   "median_gap": 5,
+   "max_gap": 11,
+   "min_gap": 4
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 455,
+    "kind": "ocr_fail",
+    "text": "000508141823232374145505559"
+   },
+   {
+    "row_y": 494,
+    "kind": "ocr_fail",
+    "text": "3308141727263035344485357"
+   },
+   {
+    "row_y": 886,
+    "kind": "ocr_fail",
+    "text": "0101217222733342475257"
+   },
+   {
+    "row_y": 965,
+    "kind": "ocr_fail",
+    "text": "081319263136424855"
+   },
+   {
+    "row_y": 1043,
+    "kind": "ocr_fail",
+    "text": "0411124"
+   }
+  ]
+ },
+ {
+  "source": "timetables/1-四惠东-1.jpg",
+  "id": "1-四惠东-1",
+  "n_times": 281,
+  "stats": {
+   "n": 281,
+   "n_hours": 19,
+   "median_gap": 3,
+   "max_gap": 9,
+   "min_gap": 2
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/1-四惠东-2.jpg",
+  "id": "1-四惠东-2",
+  "n_times": 285,
+  "stats": {
+   "n": 285,
+   "n_hours": 19,
+   "median_gap": 4,
+   "max_gap": 10,
+   "min_gap": 2
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 377,
+    "kind": "repaired_swap",
+    "text": "70",
+    "fixed": "07"
+   },
+   {
+    "row_y": 377,
+    "kind": "repaired_swap",
+    "text": "71",
+    "fixed": "17"
+   },
+   {
+    "row_y": 377,
+    "kind": "repaired_swap",
+    "text": "92",
+    "fixed": "29"
+   },
+   {
+    "row_y": 377,
+    "kind": "repaired_swap",
+    "text": "72",
+    "fixed": "27"
+   },
+   {
+    "row_y": 377,
+    "kind": "repaired_swap",
+    "text": "93",
+    "fixed": "39"
+   },
+   {
+    "row_y": 377,
+    "kind": "repaired_swap",
+    "text": "70",
+    "fixed": "07"
+   },
+   {
+    "row_y": 377,
+    "kind": "repaired_swap",
+    "text": "94",
+    "fixed": "49"
+   },
+   {
+    "row_y": 416,
+    "kind": "ocr_fail",
+    "text": "801030507091113151719212325272931333437394143454149515555575"
+   },
+   {
+    "row_y": 455,
+    "kind": "ocr_fail",
+    "text": "90204060810131518123263035404545459"
+   },
+   {
+    "row_y": 494,
+    "kind": "repaired_swap",
+    "text": "71",
+    "fixed": "17"
+   },
+   {
+    "row_y": 494,
+    "kind": "repaired_swap",
+    "text": "61",
+    "fixed": "16"
+   },
+   {
+    "row_y": 494,
+    "kind": "repaired_swap",
+    "text": "82",
+    "fixed": "28"
+   },
+   {
+    "row_y": 808,
+    "kind": "ocr_fail",
+    "text": "180002040709111416132123952830353736424446495155658"
+   },
+   {
+    "row_y": 925,
+    "kind": "repaired_swap",
+    "text": "61",
+    "fixed": "16"
+   },
+   {
+    "row_y": 1004,
+    "kind": "ocr_fail",
+    "text": "230008147179"
+   }
+  ]
+ },
+ {
+  "source": "timetables/1-四惠东-3.jpg",
+  "id": "1-四惠东-3",
+  "n_times": 204,
+  "stats": {
+   "n": 204,
+   "n_hours": 19,
+   "median_gap": 5,
+   "max_gap": 9,
+   "min_gap": 3
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 234,
+    "kind": "ocr_fail",
+    "text": ""
+   },
+   {
+    "row_y": 257,
+    "kind": "ocr_fail",
+    "text": ""
+   }
+  ]
+ },
+ {
+  "source": "timetables/1-四惠东-4.jpg",
+  "id": "1-四惠东-4",
+  "n_times": 208,
+  "stats": {
+   "n": 208,
+   "n_hours": 19,
+   "median_gap": 5,
+   "max_gap": 11,
+   "min_gap": 4
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 416,
+    "kind": "repaired_swap",
+    "text": "74",
+    "fixed": "47"
+   },
+   {
+    "row_y": 652,
+    "kind": "ocr_fail",
+    "text": "0307121823273238434752358"
+   },
+   {
+    "row_y": 730,
+    "kind": "repaired_swap",
+    "text": "82",
+    "fixed": "28"
+   },
+   {
+    "row_y": 730,
+    "kind": "repaired_swap",
+    "text": "73",
+    "fixed": "37"
+   },
+   {
+    "row_y": 926,
+    "kind": "repaired_swap",
+    "text": "62",
+    "fixed": "26"
+   }
+  ]
+ },
+ {
+  "source": "timetables/1-国贸-1.jpg",
+  "id": "1-国贸-1",
+  "n_times": 322,
+  "stats": {
+   "n": 322,
+   "n_hours": 20,
+   "median_gap": 3,
+   "max_gap": 316,
+   "min_gap": 2
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/1-国贸-2.jpg",
+  "id": "1-国贸-2",
+  "n_times": 321,
+  "stats": {
+   "n": 321,
+   "n_hours": 19,
+   "median_gap": 3,
+   "max_gap": 12,
+   "min_gap": 2
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/1-国贸-3.jpg",
+  "id": "1-国贸-3",
+  "n_times": 214,
+  "stats": {
+   "n": 214,
+   "n_hours": 20,
+   "median_gap": 5,
+   "max_gap": 316,
+   "min_gap": 3
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/1-国贸-4.jpg",
+  "id": "1-国贸-4",
+  "n_times": 213,
+  "stats": {
+   "n": 213,
+   "n_hours": 19,
+   "median_gap": 5,
+   "max_gap": 12,
+   "min_gap": 3
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/1-复兴门-1.jpg",
+  "id": "1-复兴门-1",
+  "n_times": 322,
+  "stats": {
+   "n": 322,
+   "n_hours": 19,
+   "median_gap": 3,
+   "max_gap": 10,
+   "min_gap": 2
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 376,
+    "kind": "bad_minute",
+    "text": "79"
+   }
+  ]
+ },
+ {
+  "source": "timetables/1-复兴门-2.jpg",
+  "id": "1-复兴门-2",
+  "n_times": 322,
+  "stats": {
+   "n": 322,
+   "n_hours": 19,
+   "median_gap": 3,
+   "max_gap": 11,
+   "min_gap": 2
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 416,
+    "kind": "repaired_swap",
+    "text": "80",
+    "fixed": "08"
+   },
+   {
+    "row_y": 416,
+    "kind": "repaired_swap",
+    "text": "90",
+    "fixed": "09"
+   },
+   {
+    "row_y": 416,
+    "kind": "repaired_swap",
+    "text": "63",
+    "fixed": "36"
+   },
+   {
+    "row_y": 416,
+    "kind": "repaired_swap",
+    "text": "84",
+    "fixed": "48"
+   },
+   {
+    "row_y": 534,
+    "kind": "repaired_swap",
+    "text": "71",
+    "fixed": "17"
+   },
+   {
+    "row_y": 534,
+    "kind": "repaired_swap",
+    "text": "61",
+    "fixed": "16"
+   },
+   {
+    "row_y": 534,
+    "kind": "repaired_swap",
+    "text": "92",
+    "fixed": "29"
+   },
+   {
+    "row_y": 808,
+    "kind": "ocr_fail",
+    "text": "18000305071012141719212422831333538404244749554565"
+   },
+   {
+    "row_y": 965,
+    "kind": "repaired_swap",
+    "text": "81",
+    "fixed": "18"
+   }
+  ]
+ },
+ {
+  "source": "timetables/1-复兴门-3.jpg",
+  "id": "1-复兴门-3",
+  "n_times": 214,
+  "stats": {
+   "n": 214,
+   "n_hours": 19,
+   "median_gap": 5,
+   "max_gap": 9,
+   "min_gap": 3
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 234,
+    "kind": "ocr_fail",
+    "text": ""
+   },
+   {
+    "row_y": 257,
+    "kind": "ocr_fail",
+    "text": ""
+   },
+   {
+    "row_y": 886,
+    "kind": "ocr_fail",
+    "text": "010132026303440444754"
+   }
+  ]
+ },
+ {
+  "source": "timetables/1-复兴门-4.jpg",
+  "id": "1-复兴门-4",
+  "n_times": 214,
+  "stats": {
+   "n": 214,
+   "n_hours": 19,
+   "median_gap": 5,
+   "max_gap": 11,
+   "min_gap": 3
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 455,
+    "kind": "ocr_fail",
+    "text": "0104091319222314044495458"
+   },
+   {
+    "row_y": 494,
+    "kind": "repaired_swap",
+    "text": "62",
+    "fixed": "26"
+   },
+   {
+    "row_y": 494,
+    "kind": "repaired_swap",
+    "text": "94",
+    "fixed": "49"
+   },
+   {
+    "row_y": 494,
+    "kind": "repaired_swap",
+    "text": "94",
+    "fixed": "49"
+   },
+   {
+    "row_y": 1004,
+    "kind": "ocr_fail",
+    "text": "0613202734415"
+   }
+  ]
+ },
+ {
+  "source": "timetables/1-大望路-1.jpg",
+  "id": "1-大望路-1",
+  "n_times": 322,
+  "stats": {
+   "n": 322,
+   "n_hours": 20,
+   "median_gap": 3,
+   "max_gap": 316,
+   "min_gap": 2
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/1-大望路-2.jpg",
+  "id": "1-大望路-2",
+  "n_times": 321,
+  "stats": {
+   "n": 321,
+   "n_hours": 20,
+   "median_gap": 3,
+   "max_gap": 11,
+   "min_gap": 2
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 416,
+    "kind": "ocr_fail",
+    "text": "700020407091214161921242628313336384042444648503545658"
+   },
+   {
+    "row_y": 456,
+    "kind": "repaired_swap",
+    "text": "82",
+    "fixed": "28"
+   },
+   {
+    "row_y": 456,
+    "kind": "repaired_swap",
+    "text": "60",
+    "fixed": "06"
+   },
+   {
+    "row_y": 456,
+    "kind": "repaired_swap",
+    "text": "81",
+    "fixed": "18"
+   },
+   {
+    "row_y": 456,
+    "kind": "repaired_swap",
+    "text": "61",
+    "fixed": "16"
+   },
+   {
+    "row_y": 456,
+    "kind": "repaired_swap",
+    "text": "82",
+    "fixed": "28"
+   },
+   {
+    "row_y": 495,
+    "kind": "repaired_swap",
+    "text": "92",
+    "fixed": "29"
+   },
+   {
+    "row_y": 847,
+    "kind": "ocr_fail",
+    "text": "180103008101315120222427293134363414244485053555759"
+   },
+   {
+    "row_y": 964,
+    "kind": "bad_minute",
+    "text": "413"
+   },
+   {
+    "row_y": 1043,
+    "kind": "repaired_swap",
+    "text": "70",
+    "fixed": "07"
+   }
+  ]
+ },
+ {
+  "source": "timetables/1-大望路-3.jpg",
+  "id": "1-大望路-3",
+  "n_times": 214,
+  "stats": {
+   "n": 214,
+   "n_hours": 20,
+   "median_gap": 5,
+   "max_gap": 316,
+   "min_gap": 3
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 234,
+    "kind": "ocr_fail",
+    "text": ""
+   },
+   {
+    "row_y": 257,
+    "kind": "ocr_fail",
+    "text": ""
+   },
+   {
+    "row_y": 494,
+    "kind": "ocr_fail",
+    "text": "0307121722263136404657156"
+   },
+   {
+    "row_y": 574,
+    "kind": "ocr_fail",
+    "text": "0201212223234245237"
+   },
+   {
+    "row_y": 612,
+    "kind": "ocr_fail",
+    "text": "0201217222732342475257"
+   },
+   {
+    "row_y": 652,
+    "kind": "ocr_fail",
+    "text": "0201212227323742475257"
+   },
+   {
+    "row_y": 690,
+    "kind": "ocr_fail",
+    "text": "0207121722273234245257"
+   },
+   {
+    "row_y": 730,
+    "kind": "ocr_fail",
+    "text": "020712122232342465155"
+   },
+   {
+    "row_y": 964,
+    "kind": "repaired_swap",
+    "text": "61",
+    "fixed": "16"
+   }
+  ]
+ },
+ {
+  "source": "timetables/1-大望路-4.jpg",
+  "id": "1-大望路-4",
+  "n_times": 213,
+  "stats": {
+   "n": 213,
+   "n_hours": 20,
+   "median_gap": 5,
+   "max_gap": 11,
+   "min_gap": 4
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 456,
+    "kind": "repaired_swap",
+    "text": "81",
+    "fixed": "18"
+   },
+   {
+    "row_y": 456,
+    "kind": "repaired_swap",
+    "text": "72",
+    "fixed": "27"
+   },
+   {
+    "row_y": 456,
+    "kind": "repaired_swap",
+    "text": "63",
+    "fixed": "36"
+   },
+   {
+    "row_y": 494,
+    "kind": "repaired_swap",
+    "text": "61",
+    "fixed": "16"
+   },
+   {
+    "row_y": 533,
+    "kind": "repaired_swap",
+    "text": "91",
+    "fixed": "19"
+   },
+   {
+    "row_y": 533,
+    "kind": "repaired_swap",
+    "text": "92",
+    "fixed": "29"
+   },
+   {
+    "row_y": 533,
+    "kind": "repaired_swap",
+    "text": "84",
+    "fixed": "48"
+   },
+   {
+    "row_y": 965,
+    "kind": "repaired_swap",
+    "text": "61",
+    "fixed": "16"
+   },
+   {
+    "row_y": 965,
+    "kind": "repaired_swap",
+    "text": "62",
+    "fixed": "26"
+   },
+   {
+    "row_y": 965,
+    "kind": "repaired_swap",
+    "text": "94",
+    "fixed": "49"
+   }
+  ]
+ },
+ {
+  "source": "timetables/1-天安门东-1.jpg",
+  "id": "1-天安门东-1",
+  "n_times": 322,
+  "stats": {
+   "n": 322,
+   "n_hours": 20,
+   "median_gap": 3,
+   "max_gap": 316,
+   "min_gap": 2
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 415,
+    "kind": "repaired_swap",
+    "text": "91",
+    "fixed": "19"
+   }
+  ]
+ },
+ {
+  "source": "timetables/1-天安门东-2.jpg",
+  "id": "1-天安门东-2",
+  "n_times": 321,
+  "stats": {
+   "n": 321,
+   "n_hours": 19,
+   "median_gap": 3,
+   "max_gap": 12,
+   "min_gap": 2
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 416,
+    "kind": "repaired_swap",
+    "text": "80",
+    "fixed": "08"
+   },
+   {
+    "row_y": 455,
+    "kind": "repaired_swap",
+    "text": "90",
+    "fixed": "09"
+   },
+   {
+    "row_y": 455,
+    "kind": "repaired_swap",
+    "text": "60",
+    "fixed": "06"
+   },
+   {
+    "row_y": 455,
+    "kind": "repaired_swap",
+    "text": "81",
+    "fixed": "18"
+   },
+   {
+    "row_y": 455,
+    "kind": "repaired_swap",
+    "text": "61",
+    "fixed": "16"
+   },
+   {
+    "row_y": 455,
+    "kind": "bad_minute",
+    "text": "87"
+   },
+   {
+    "row_y": 455,
+    "kind": "repaired_swap",
+    "text": "62",
+    "fixed": "26"
+   },
+   {
+    "row_y": 455,
+    "kind": "repaired_swap",
+    "text": "83",
+    "fixed": "38"
+   },
+   {
+    "row_y": 808,
+    "kind": "repaired_swap",
+    "text": "74",
+    "fixed": "47"
+   },
+   {
+    "row_y": 808,
+    "kind": "repaired_swap",
+    "text": "95",
+    "fixed": "59"
+   },
+   {
+    "row_y": 808,
+    "kind": "repaired_swap",
+    "text": "74",
+    "fixed": "47"
+   },
+   {
+    "row_y": 925,
+    "kind": "repaired_swap",
+    "text": "81",
+    "fixed": "18"
+   },
+   {
+    "row_y": 925,
+    "kind": "repaired_swap",
+    "text": "61",
+    "fixed": "16"
+   },
+   {
+    "row_y": 925,
+    "kind": "repaired_swap",
+    "text": "92",
+    "fixed": "29"
+   },
+   {
+    "row_y": 925,
+    "kind": "repaired_swap",
+    "text": "84",
+    "fixed": "48"
+   }
+  ]
+ },
+ {
+  "source": "timetables/1-天安门东-3.jpg",
+  "id": "1-天安门东-3",
+  "n_times": 214,
+  "stats": {
+   "n": 214,
+   "n_hours": 20,
+   "median_gap": 5,
+   "max_gap": 316,
+   "min_gap": 3
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 234,
+    "kind": "ocr_fail",
+    "text": ""
+   },
+   {
+    "row_y": 257,
+    "kind": "ocr_fail",
+    "text": ""
+   },
+   {
+    "row_y": 846,
+    "kind": "ocr_fail",
+    "text": "600050813182328323641465156"
+   }
+  ]
+ },
+ {
+  "source": "timetables/1-天安门东-4.jpg",
+  "id": "1-天安门东-4",
+  "n_times": 213,
+  "stats": {
+   "n": 213,
+   "n_hours": 19,
+   "median_gap": 5,
+   "max_gap": 12,
+   "min_gap": 3
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 376,
+    "kind": "ocr_fail",
+    "text": "02061014182531384435157"
+   },
+   {
+    "row_y": 454,
+    "kind": "ocr_fail",
+    "text": "20612152024333424735156"
+   },
+   {
+    "row_y": 534,
+    "kind": "ocr_fail",
+    "text": "02071217222632374248523"
+   },
+   {
+    "row_y": 572,
+    "kind": "repaired_swap",
+    "text": "71",
+    "fixed": "17"
+   },
+   {
+    "row_y": 572,
+    "kind": "repaired_swap",
+    "text": "72",
+    "fixed": "27"
+   },
+   {
+    "row_y": 572,
+    "kind": "repaired_swap",
+    "text": "73",
+    "fixed": "37"
+   },
+   {
+    "row_y": 925,
+    "kind": "repaired_swap",
+    "text": "64",
+    "fixed": "46"
+   }
+  ]
+ },
+ {
+  "source": "timetables/1-天安门西-1.jpg",
+  "id": "1-天安门西-1",
+  "n_times": 322,
+  "stats": {
+   "n": 322,
+   "n_hours": 20,
+   "median_gap": 3,
+   "max_gap": 316,
+   "min_gap": 2
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 925,
+    "kind": "bad_minute",
+    "text": "76"
+   }
+  ]
+ },
+ {
+  "source": "timetables/1-天安门西-2.jpg",
+  "id": "1-天安门西-2",
+  "n_times": 321,
+  "stats": {
+   "n": 321,
+   "n_hours": 19,
+   "median_gap": 3,
+   "max_gap": 12,
+   "min_gap": 2
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 416,
+    "kind": "repaired_swap",
+    "text": "80",
+    "fixed": "08"
+   },
+   {
+    "row_y": 416,
+    "kind": "repaired_swap",
+    "text": "60",
+    "fixed": "06"
+   },
+   {
+    "row_y": 416,
+    "kind": "repaired_swap",
+    "text": "81",
+    "fixed": "18"
+   },
+   {
+    "row_y": 456,
+    "kind": "ocr_fail",
+    "text": "900020406081012141618202242620303335404345495357"
+   },
+   {
+    "row_y": 494,
+    "kind": "repaired_swap",
+    "text": "62",
+    "fixed": "26"
+   },
+   {
+    "row_y": 494,
+    "kind": "repaired_swap",
+    "text": "93",
+    "fixed": "39"
+   },
+   {
+    "row_y": 494,
+    "kind": "repaired_swap",
+    "text": "84",
+    "fixed": "48"
+   },
+   {
+    "row_y": 533,
+    "kind": "ocr_fail",
+    "text": "110201014203237435057"
+   },
+   {
+    "row_y": 926,
+    "kind": "repaired_swap",
+    "text": "70",
+    "fixed": "07"
+   },
+   {
+    "row_y": 926,
+    "kind": "repaired_swap",
+    "text": "91",
+    "fixed": "19"
+   },
+   {
+    "row_y": 926,
+    "kind": "bad_minute",
+    "text": "87"
+   },
+   {
+    "row_y": 926,
+    "kind": "repaired_swap",
+    "text": "73",
+    "fixed": "37"
+   },
+   {
+    "row_y": 1004,
+    "kind": "repaired_swap",
+    "text": "81",
+    "fixed": "18"
+   },
+   {
+    "row_y": 1004,
+    "kind": "repaired_swap",
+    "text": "93",
+    "fixed": "39"
+   }
+  ]
+ },
+ {
+  "source": "timetables/1-天安门西-3.jpg",
+  "id": "1-天安门西-3",
+  "n_times": 214,
+  "stats": {
+   "n": 214,
+   "n_hours": 20,
+   "median_gap": 5,
+   "max_gap": 316,
+   "min_gap": 3
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 234,
+    "kind": "ocr_fail",
+    "text": ""
+   },
+   {
+    "row_y": 257,
+    "kind": "ocr_fail",
+    "text": ""
+   },
+   {
+    "row_y": 613,
+    "kind": "ocr_fail",
+    "text": "01011172127313741475157"
+   }
+  ]
+ },
+ {
+  "source": "timetables/1-天安门西-4.jpg",
+  "id": "1-天安门西-4",
+  "n_times": 213,
+  "stats": {
+   "n": 213,
+   "n_hours": 19,
+   "median_gap": 5,
+   "max_gap": 12,
+   "min_gap": 4
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 456,
+    "kind": "repaired_swap",
+    "text": "91",
+    "fixed": "19"
+   },
+   {
+    "row_y": 456,
+    "kind": "repaired_swap",
+    "text": "82",
+    "fixed": "28"
+   },
+   {
+    "row_y": 1005,
+    "kind": "ocr_fail",
+    "text": "0209162329450"
+   }
+  ]
+ },
+ {
+  "source": "timetables/1-建国门-1.jpg",
+  "id": "1-建国门-1",
+  "n_times": 322,
+  "stats": {
+   "n": 322,
+   "n_hours": 20,
+   "median_gap": 3,
+   "max_gap": 316,
+   "min_gap": 2
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 791,
+    "kind": "repaired_swap",
+    "text": "81",
+    "fixed": "18"
+   },
+   {
+    "row_y": 791,
+    "kind": "repaired_swap",
+    "text": "72",
+    "fixed": "27"
+   },
+   {
+    "row_y": 791,
+    "kind": "repaired_swap",
+    "text": "83",
+    "fixed": "38"
+   },
+   {
+    "row_y": 791,
+    "kind": "repaired_swap",
+    "text": "63",
+    "fixed": "36"
+   },
+   {
+    "row_y": 791,
+    "kind": "repaired_swap",
+    "text": "73",
+    "fixed": "37"
+   },
+   {
+    "row_y": 791,
+    "kind": "repaired_swap",
+    "text": "94",
+    "fixed": "49"
+   },
+   {
+    "row_y": 791,
+    "kind": "repaired_swap",
+    "text": "74",
+    "fixed": "47"
+   },
+   {
+    "row_y": 791,
+    "kind": "repaired_swap",
+    "text": "95",
+    "fixed": "59"
+   }
+  ]
+ },
+ {
+  "source": "timetables/1-建国门-2.jpg",
+  "id": "1-建国门-2",
+  "n_times": 321,
+  "stats": {
+   "n": 321,
+   "n_hours": 19,
+   "median_gap": 3,
+   "max_gap": 11,
+   "min_gap": 2
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/1-建国门-3.jpg",
+  "id": "1-建国门-3",
+  "n_times": 214,
+  "stats": {
+   "n": 214,
+   "n_hours": 20,
+   "median_gap": 5,
+   "max_gap": 316,
+   "min_gap": 3
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 874,
+    "kind": "repaired_swap",
+    "text": "62",
+    "fixed": "26"
+   },
+   {
+    "row_y": 874,
+    "kind": "repaired_swap",
+    "text": "94",
+    "fixed": "49"
+   },
+   {
+    "row_y": 874,
+    "kind": "repaired_swap",
+    "text": "83",
+    "fixed": "38"
+   }
+  ]
+ },
+ {
+  "source": "timetables/1-建国门-4.jpg",
+  "id": "1-建国门-4",
+  "n_times": 213,
+  "stats": {
+   "n": 213,
+   "n_hours": 19,
+   "median_gap": 5,
+   "max_gap": 11,
+   "min_gap": 4
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/1-木樨地-1.jpg",
+  "id": "1-木樨地-1",
+  "n_times": 321,
+  "stats": {
+   "n": 321,
+   "n_hours": 19,
+   "median_gap": 3,
+   "max_gap": 10,
+   "min_gap": 2
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 769,
+    "kind": "ocr_fail",
+    "text": "170104071012141719212326283032353739414446485154659"
+   }
+  ]
+ },
+ {
+  "source": "timetables/1-木樨地-2.jpg",
+  "id": "1-木樨地-2",
+  "n_times": 322,
+  "stats": {
+   "n": 322,
+   "n_hours": 19,
+   "median_gap": 3,
+   "max_gap": 11,
+   "min_gap": 2
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 808,
+    "kind": "ocr_fail",
+    "text": "18000205070911141619212326283033353740194447495154558"
+   },
+   {
+    "row_y": 847,
+    "kind": "repaired_swap",
+    "text": "81",
+    "fixed": "18"
+   }
+  ]
+ },
+ {
+  "source": "timetables/1-木樨地-3.jpg",
+  "id": "1-木樨地-3",
+  "n_times": 213,
+  "stats": {
+   "n": 213,
+   "n_hours": 19,
+   "median_gap": 5,
+   "max_gap": 9,
+   "min_gap": 3
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 234,
+    "kind": "ocr_fail",
+    "text": ""
+   },
+   {
+    "row_y": 257,
+    "kind": "ocr_fail",
+    "text": ""
+   }
+  ]
+ },
+ {
+  "source": "timetables/1-木樨地-4.jpg",
+  "id": "1-木樨地-4",
+  "n_times": 214,
+  "stats": {
+   "n": 214,
+   "n_hours": 19,
+   "median_gap": 5,
+   "max_gap": 11,
+   "min_gap": 3
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 415,
+    "kind": "repaired_swap",
+    "text": "65",
+    "fixed": "56"
+   },
+   {
+    "row_y": 768,
+    "kind": "ocr_fail",
+    "text": "0308141722263136404549545"
+   },
+   {
+    "row_y": 808,
+    "kind": "repaired_swap",
+    "text": "72",
+    "fixed": "27"
+   },
+   {
+    "row_y": 808,
+    "kind": "repaired_swap",
+    "text": "94",
+    "fixed": "49"
+   },
+   {
+    "row_y": 924,
+    "kind": "repaired_swap",
+    "text": "75",
+    "fixed": "57"
+   },
+   {
+    "row_y": 1004,
+    "kind": "repaired_swap",
+    "text": "72",
+    "fixed": "27"
+   },
+   {
+    "row_y": 1004,
+    "kind": "repaired_swap",
+    "text": "84",
+    "fixed": "48"
+   }
+  ]
+ },
+ {
+  "source": "timetables/1-永安里-1.jpg",
+  "id": "1-永安里-1",
+  "n_times": 322,
+  "stats": {
+   "n": 322,
+   "n_hours": 20,
+   "median_gap": 3,
+   "max_gap": 316,
+   "min_gap": 2
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 376,
+    "kind": "bad_minute",
+    "text": "77"
+   },
+   {
+    "row_y": 808,
+    "kind": "bad_minute",
+    "text": "97"
+   }
+  ]
+ },
+ {
+  "source": "timetables/1-永安里-2.jpg",
+  "id": "1-永安里-2",
+  "n_times": 321,
+  "stats": {
+   "n": 321,
+   "n_hours": 19,
+   "median_gap": 3,
+   "max_gap": 12,
+   "min_gap": 2
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 456,
+    "kind": "ocr_fail",
+    "text": "901030507091113151719222427293343842465156"
+   },
+   {
+    "row_y": 494,
+    "kind": "repaired_swap",
+    "text": "82",
+    "fixed": "28"
+   },
+   {
+    "row_y": 494,
+    "kind": "repaired_swap",
+    "text": "73",
+    "fixed": "37"
+   },
+   {
+    "row_y": 494,
+    "kind": "repaired_swap",
+    "text": "94",
+    "fixed": "49"
+   }
+  ]
+ },
+ {
+  "source": "timetables/1-永安里-3.jpg",
+  "id": "1-永安里-3",
+  "n_times": 214,
+  "stats": {
+   "n": 214,
+   "n_hours": 20,
+   "median_gap": 5,
+   "max_gap": 316,
+   "min_gap": 3
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 234,
+    "kind": "ocr_fail",
+    "text": ""
+   },
+   {
+    "row_y": 257,
+    "kind": "ocr_fail",
+    "text": ""
+   },
+   {
+    "row_y": 494,
+    "kind": "repaired_swap",
+    "text": "73",
+    "fixed": "37"
+   },
+   {
+    "row_y": 494,
+    "kind": "repaired_swap",
+    "text": "64",
+    "fixed": "46"
+   },
+   {
+    "row_y": 494,
+    "kind": "repaired_swap",
+    "text": "75",
+    "fixed": "57"
+   },
+   {
+    "row_y": 730,
+    "kind": "ocr_fail",
+    "text": "030813122233342465156"
+   },
+   {
+    "row_y": 1044,
+    "kind": "ocr_fail",
+    "text": "00714"
+   }
+  ]
+ },
+ {
+  "source": "timetables/1-永安里-4.jpg",
+  "id": "1-永安里-4",
+  "n_times": 213,
+  "stats": {
+   "n": 213,
+   "n_hours": 19,
+   "median_gap": 5,
+   "max_gap": 12,
+   "min_gap": 3
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 455,
+    "kind": "ocr_fail",
+    "text": "03061115242933384245156"
+   },
+   {
+    "row_y": 768,
+    "kind": "repaired_swap",
+    "text": "61",
+    "fixed": "16"
+   },
+   {
+    "row_y": 768,
+    "kind": "repaired_swap",
+    "text": "62",
+    "fixed": "26"
+   },
+   {
+    "row_y": 768,
+    "kind": "repaired_swap",
+    "text": "93",
+    "fixed": "39"
+   },
+   {
+    "row_y": 886,
+    "kind": "repaired_swap",
+    "text": "91",
+    "fixed": "19"
+   },
+   {
+    "row_y": 964,
+    "kind": "repaired_swap",
+    "text": "91",
+    "fixed": "19"
+   },
+   {
+    "row_y": 964,
+    "kind": "repaired_swap",
+    "text": "62",
+    "fixed": "26"
+   },
+   {
+    "row_y": 1004,
+    "kind": "repaired_swap",
+    "text": "82",
+    "fixed": "28"
+   }
+  ]
+ },
+ {
+  "source": "timetables/1-玉泉路-1.jpg",
+  "id": "1-玉泉路-1",
+  "n_times": 316,
+  "stats": {
+   "n": 316,
+   "n_hours": 19,
+   "median_gap": 3,
+   "max_gap": 9,
+   "min_gap": 2
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 455,
+    "kind": "bad_minute",
+    "text": "79"
+   }
+  ]
+ },
+ {
+  "source": "timetables/1-玉泉路-2.jpg",
+  "id": "1-玉泉路-2",
+  "n_times": 317,
+  "stats": {
+   "n": 317,
+   "n_hours": 20,
+   "median_gap": 3,
+   "max_gap": 313,
+   "min_gap": 2
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 416,
+    "kind": "ocr_fail",
+    "text": "80103050810131517212225272933352739424547495545759"
+   },
+   {
+    "row_y": 495,
+    "kind": "repaired_swap",
+    "text": "71",
+    "fixed": "17"
+   },
+   {
+    "row_y": 847,
+    "kind": "repaired_swap",
+    "text": "60",
+    "fixed": "06"
+   },
+   {
+    "row_y": 847,
+    "kind": "repaired_swap",
+    "text": "91",
+    "fixed": "19"
+   },
+   {
+    "row_y": 847,
+    "kind": "repaired_swap",
+    "text": "61",
+    "fixed": "16"
+   },
+   {
+    "row_y": 847,
+    "kind": "repaired_swap",
+    "text": "82",
+    "fixed": "28"
+   },
+   {
+    "row_y": 847,
+    "kind": "repaired_swap",
+    "text": "73",
+    "fixed": "37"
+   },
+   {
+    "row_y": 926,
+    "kind": "ocr_fail",
+    "text": "210104081114192225293235404474545"
+   },
+   {
+    "row_y": 964,
+    "kind": "repaired_swap",
+    "text": "71",
+    "fixed": "17"
+   },
+   {
+    "row_y": 1004,
+    "kind": "repaired_swap",
+    "text": "72",
+    "fixed": "27"
+   },
+   {
+    "row_y": 1004,
+    "kind": "repaired_swap",
+    "text": "74",
+    "fixed": "47"
+   }
+  ]
+ },
+ {
+  "source": "timetables/1-玉泉路-3.jpg",
+  "id": "1-玉泉路-3",
+  "n_times": 179,
+  "stats": {
+   "n": 179,
+   "n_hours": 19,
+   "median_gap": 6,
+   "max_gap": 9,
+   "min_gap": 3
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 234,
+    "kind": "ocr_fail",
+    "text": ""
+   },
+   {
+    "row_y": 257,
+    "kind": "ocr_fail",
+    "text": ""
+   },
+   {
+    "row_y": 808,
+    "kind": "ocr_fail",
+    "text": "030914192632343495459"
+   }
+  ]
+ },
+ {
+  "source": "timetables/1-玉泉路-4.jpg",
+  "id": "1-玉泉路-4",
+  "n_times": 180,
+  "stats": {
+   "n": 180,
+   "n_hours": 20,
+   "median_gap": 6,
+   "max_gap": 313,
+   "min_gap": 4
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 298,
+    "kind": "ocr_fail",
+    "text": "2536473"
+   }
+  ]
+ },
+ {
+  "source": "timetables/1-王府井-1.jpg",
+  "id": "1-王府井-1",
+  "n_times": 322,
+  "stats": {
+   "n": 322,
+   "n_hours": 20,
+   "median_gap": 3,
+   "max_gap": 316,
+   "min_gap": 2
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 376,
+    "kind": "ocr_fail",
+    "text": "701030608101315177023262931333537394143454749515355759"
+   }
+  ]
+ },
+ {
+  "source": "timetables/1-王府井-2.jpg",
+  "id": "1-王府井-2",
+  "n_times": 321,
+  "stats": {
+   "n": 321,
+   "n_hours": 19,
+   "median_gap": 3,
+   "max_gap": 12,
+   "min_gap": 2
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 416,
+    "kind": "repaired_swap",
+    "text": "80",
+    "fixed": "08"
+   },
+   {
+    "row_y": 416,
+    "kind": "repaired_swap",
+    "text": "60",
+    "fixed": "06"
+   },
+   {
+    "row_y": 416,
+    "kind": "repaired_swap",
+    "text": "81",
+    "fixed": "18"
+   },
+   {
+    "row_y": 416,
+    "kind": "repaired_swap",
+    "text": "91",
+    "fixed": "19"
+   },
+   {
+    "row_y": 416,
+    "kind": "repaired_swap",
+    "text": "61",
+    "fixed": "16"
+   },
+   {
+    "row_y": 416,
+    "kind": "repaired_swap",
+    "text": "82",
+    "fixed": "28"
+   },
+   {
+    "row_y": 416,
+    "kind": "repaired_swap",
+    "text": "84",
+    "fixed": "48"
+   },
+   {
+    "row_y": 533,
+    "kind": "bad_minute",
+    "text": "79"
+   },
+   {
+    "row_y": 808,
+    "kind": "ocr_fail",
+    "text": "180103050810121511922242679313338404245475052555759"
+   },
+   {
+    "row_y": 1004,
+    "kind": "repaired_swap",
+    "text": "82",
+    "fixed": "28"
+   }
+  ]
+ },
+ {
+  "source": "timetables/1-王府井-3.jpg",
+  "id": "1-王府井-3",
+  "n_times": 214,
+  "stats": {
+   "n": 214,
+   "n_hours": 20,
+   "median_gap": 5,
+   "max_gap": 316,
+   "min_gap": 3
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 234,
+    "kind": "ocr_fail",
+    "text": ""
+   },
+   {
+    "row_y": 257,
+    "kind": "ocr_fail",
+    "text": ""
+   }
+  ]
+ },
+ {
+  "source": "timetables/1-王府井-4.jpg",
+  "id": "1-王府井-4",
+  "n_times": 213,
+  "stats": {
+   "n": 213,
+   "n_hours": 19,
+   "median_gap": 5,
+   "max_gap": 12,
+   "min_gap": 3
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 455,
+    "kind": "bad_minute",
+    "text": "97"
+   },
+   {
+    "row_y": 494,
+    "kind": "repaired_swap",
+    "text": "71",
+    "fixed": "17"
+   },
+   {
+    "row_y": 494,
+    "kind": "repaired_swap",
+    "text": "62",
+    "fixed": "26"
+   },
+   {
+    "row_y": 926,
+    "kind": "repaired_swap",
+    "text": "83",
+    "fixed": "38"
+   },
+   {
+    "row_y": 964,
+    "kind": "repaired_swap",
+    "text": "91",
+    "fixed": "19"
+   },
+   {
+    "row_y": 964,
+    "kind": "repaired_swap",
+    "text": "62",
+    "fixed": "26"
+   }
+  ]
+ },
+ {
+  "source": "timetables/1-苹果园-1.jpg",
+  "id": "1-苹果园-1",
+  "n_times": 278,
+  "stats": {
+   "n": 278,
+   "n_hours": 19,
+   "median_gap": 3,
+   "max_gap": 10,
+   "min_gap": 2
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 886,
+    "kind": "bad_minute",
+    "text": "99"
+   }
+  ]
+ },
+ {
+  "source": "timetables/1-苹果园-2.jpg",
+  "id": "1-苹果园-2",
+  "n_times": 174,
+  "stats": {
+   "n": 174,
+   "n_hours": 19,
+   "median_gap": 6,
+   "max_gap": 12,
+   "min_gap": 3
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 234,
+    "kind": "ocr_fail",
+    "text": ""
+   },
+   {
+    "row_y": 257,
+    "kind": "ocr_fail",
+    "text": ""
+   }
+  ]
+ },
+ {
+  "source": "timetables/1-西单-1.jpg",
+  "id": "1-西单-1",
+  "n_times": 322,
+  "stats": {
+   "n": 322,
+   "n_hours": 20,
+   "median_gap": 3,
+   "max_gap": 316,
+   "min_gap": 2
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 768,
+    "kind": "ocr_fail",
+    "text": "170003050811141719212426283033353739424446485135558"
+   }
+  ]
+ },
+ {
+  "source": "timetables/1-西单-2.jpg",
+  "id": "1-西单-2",
+  "n_times": 321,
+  "stats": {
+   "n": 321,
+   "n_hours": 19,
+   "median_gap": 3,
+   "max_gap": 11,
+   "min_gap": 2
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 416,
+    "kind": "repaired_swap",
+    "text": "74",
+    "fixed": "47"
+   },
+   {
+    "row_y": 456,
+    "kind": "repaired_swap",
+    "text": "90",
+    "fixed": "09"
+   },
+   {
+    "row_y": 456,
+    "kind": "repaired_swap",
+    "text": "60",
+    "fixed": "06"
+   },
+   {
+    "row_y": 456,
+    "kind": "repaired_swap",
+    "text": "81",
+    "fixed": "18"
+   },
+   {
+    "row_y": 494,
+    "kind": "repaired_swap",
+    "text": "91",
+    "fixed": "19"
+   },
+   {
+    "row_y": 494,
+    "kind": "repaired_swap",
+    "text": "82",
+    "fixed": "28"
+   },
+   {
+    "row_y": 494,
+    "kind": "repaired_swap",
+    "text": "83",
+    "fixed": "38"
+   },
+   {
+    "row_y": 808,
+    "kind": "repaired_swap",
+    "text": "80",
+    "fixed": "08"
+   },
+   {
+    "row_y": 808,
+    "kind": "repaired_swap",
+    "text": "70",
+    "fixed": "07"
+   },
+   {
+    "row_y": 808,
+    "kind": "repaired_swap",
+    "text": "91",
+    "fixed": "19"
+   },
+   {
+    "row_y": 808,
+    "kind": "repaired_swap",
+    "text": "61",
+    "fixed": "16"
+   },
+   {
+    "row_y": 808,
+    "kind": "repaired_swap",
+    "text": "92",
+    "fixed": "29"
+   },
+   {
+    "row_y": 808,
+    "kind": "repaired_swap",
+    "text": "62",
+    "fixed": "26"
+   },
+   {
+    "row_y": 808,
+    "kind": "repaired_swap",
+    "text": "83",
+    "fixed": "38"
+   },
+   {
+    "row_y": 847,
+    "kind": "repaired_swap",
+    "text": "81",
+    "fixed": "18"
+   },
+   {
+    "row_y": 926,
+    "kind": "ocr_fail",
+    "text": "210205091215202427234424854"
+   }
+  ]
+ },
+ {
+  "source": "timetables/1-西单-3.jpg",
+  "id": "1-西单-3",
+  "n_times": 214,
+  "stats": {
+   "n": 214,
+   "n_hours": 20,
+   "median_gap": 5,
+   "max_gap": 316,
+   "min_gap": 3
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 234,
+    "kind": "ocr_fail",
+    "text": ""
+   },
+   {
+    "row_y": 257,
+    "kind": "ocr_fail",
+    "text": ""
+   },
+   {
+    "row_y": 926,
+    "kind": "repaired_swap",
+    "text": "62",
+    "fixed": "26"
+   }
+  ]
+ },
+ {
+  "source": "timetables/1-西单-4.jpg",
+  "id": "1-西单-4",
+  "n_times": 213,
+  "stats": {
+   "n": 213,
+   "n_hours": 19,
+   "median_gap": 5,
+   "max_gap": 11,
+   "min_gap": 4
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 417,
+    "kind": "repaired_swap",
+    "text": "71",
+    "fixed": "17"
+   },
+   {
+    "row_y": 417,
+    "kind": "repaired_swap",
+    "text": "72",
+    "fixed": "27"
+   },
+   {
+    "row_y": 417,
+    "kind": "repaired_swap",
+    "text": "63",
+    "fixed": "36"
+   },
+   {
+    "row_y": 495,
+    "kind": "ocr_fail",
+    "text": "005091418232732374146557"
+   },
+   {
+    "row_y": 612,
+    "kind": "ocr_fail",
+    "text": "020111622273136424735156"
+   },
+   {
+    "row_y": 925,
+    "kind": "ocr_fail",
+    "text": "040914197429344047257"
+   }
+  ]
+ }
+]

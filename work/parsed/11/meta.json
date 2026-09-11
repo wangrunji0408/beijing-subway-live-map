@@ -1,0 +1,20 @@
+{
+  "1": {"direction": "新首钢", "service": "weekday", "legend": {}},
+  "2": {"direction": "模式口", "service": "weekday", "legend": {}},
+  "3": {"direction": "新首钢", "service": "weekend", "legend": {}},
+  "4": {"direction": "模式口", "service": "weekend", "legend": {}},
+  "_images": {
+    "11-新首钢-1": {"direction": "模式口", "service": "weekday", "legend": {}},
+    "11-新首钢-2": {"direction": "模式口", "service": "weekend", "legend": {}},
+    "11-模式口-1": {"direction": "新首钢", "service": "weekday", "legend": {}},
+    "11-模式口-2": {"direction": "新首钢", "service": "weekend", "legend": {}},
+    "11-北辛安-1": {"direction": "新首钢", "service": "weekday", "legend": {}},
+    "11-北辛安-2": {"direction": "模式口", "service": "weekday", "legend": {}},
+    "11-北辛安-3": {"direction": "新首钢", "service": "weekend", "legend": {}},
+    "11-北辛安-4": {"direction": "模式口", "service": "weekend", "legend": {}},
+    "11-金安桥-1": {"direction": "新首钢", "service": "weekday", "legend": {}},
+    "11-金安桥-2": {"direction": "模式口", "service": "weekday", "legend": {}},
+    "11-金安桥-3": {"direction": "新首钢", "service": "weekend", "legend": {}},
+    "11-金安桥-4": {"direction": "模式口", "service": "weekend", "legend": {}}
+  }
+}

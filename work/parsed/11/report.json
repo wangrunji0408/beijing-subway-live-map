@@ -1,0 +1,200 @@
+[
+ {
+  "source": "timetables/11-北辛安-1.jpg",
+  "id": "11-北辛安-1",
+  "n_times": 107,
+  "stats": {
+   "n": 107,
+   "n_hours": 18,
+   "median_gap": 10,
+   "max_gap": 10,
+   "min_gap": 8
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 906,
+    "kind": "ocr_fail",
+    "text": "4494"
+   }
+  ]
+ },
+ {
+  "source": "timetables/11-北辛安-2.jpg",
+  "id": "11-北辛安-2",
+  "n_times": 107,
+  "stats": {
+   "n": 107,
+   "n_hours": 18,
+   "median_gap": 10,
+   "max_gap": 10,
+   "min_gap": 8
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 715,
+    "kind": "ocr_fail",
+    "text": ""
+   }
+  ]
+ },
+ {
+  "source": "timetables/11-北辛安-3.jpg",
+  "id": "11-北辛安-3",
+  "n_times": 102,
+  "stats": {
+   "n": 102,
+   "n_hours": 18,
+   "median_gap": 10,
+   "max_gap": 10,
+   "min_gap": 10
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/11-北辛安-4.jpg",
+  "id": "11-北辛安-4",
+  "n_times": 102,
+  "stats": {
+   "n": 102,
+   "n_hours": 18,
+   "median_gap": 10,
+   "max_gap": 10,
+   "min_gap": 10
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 713,
+    "kind": "ocr_fail",
+    "text": ""
+   }
+  ]
+ },
+ {
+  "source": "timetables/11-新首钢-1.jpg",
+  "id": "11-新首钢-1",
+  "n_times": 107,
+  "stats": {
+   "n": 107,
+   "n_hours": 18,
+   "median_gap": 10,
+   "max_gap": 10,
+   "min_gap": 8
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/11-新首钢-2.jpg",
+  "id": "11-新首钢-2",
+  "n_times": 102,
+  "stats": {
+   "n": 102,
+   "n_hours": 18,
+   "median_gap": 10,
+   "max_gap": 10,
+   "min_gap": 10
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/11-模式口-1.jpg",
+  "id": "11-模式口-1",
+  "n_times": 107,
+  "stats": {
+   "n": 107,
+   "n_hours": 18,
+   "median_gap": 10,
+   "max_gap": 10,
+   "min_gap": 8
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/11-模式口-2.jpg",
+  "id": "11-模式口-2",
+  "n_times": 102,
+  "stats": {
+   "n": 102,
+   "n_hours": 18,
+   "median_gap": 10,
+   "max_gap": 10,
+   "min_gap": 10
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/11-金安桥-1.jpg",
+  "id": "11-金安桥-1",
+  "n_times": 107,
+  "stats": {
+   "n": 107,
+   "n_hours": 18,
+   "median_gap": 10,
+   "max_gap": 10,
+   "min_gap": 8
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/11-金安桥-2.jpg",
+  "id": "11-金安桥-2",
+  "n_times": 107,
+  "stats": {
+   "n": 107,
+   "n_hours": 18,
+   "median_gap": 10,
+   "max_gap": 10,
+   "min_gap": 8
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 715,
+    "kind": "ocr_fail",
+    "text": ""
+   }
+  ]
+ },
+ {
+  "source": "timetables/11-金安桥-3.jpg",
+  "id": "11-金安桥-3",
+  "n_times": 102,
+  "stats": {
+   "n": 102,
+   "n_hours": 18,
+   "median_gap": 10,
+   "max_gap": 10,
+   "min_gap": 10
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 710,
+    "kind": "ocr_fail",
+    "text": ""
+   }
+  ]
+ },
+ {
+  "source": "timetables/11-金安桥-4.jpg",
+  "id": "11-金安桥-4",
+  "n_times": 102,
+  "stats": {
+   "n": 102,
+   "n_hours": 18,
+   "median_gap": 10,
+   "max_gap": 10,
+   "min_gap": 10
+  },
+  "issues": [],
+  "flags": []
+ }
+]

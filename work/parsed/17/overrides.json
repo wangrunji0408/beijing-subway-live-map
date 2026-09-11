@@ -1,0 +1,8 @@
+{
+ "timetables/17-左家庄-4.jpg": [
+  {"row_set": {"hour": 17, "minutes": [3, 11, 19, 27, 35, 43, 51, 59]}}
+ ],
+ "timetables/17-西坝河-2.jpg": [
+  {"row_set": {"hour": 12, "minutes": [3, 11, 19, 27, 35, 43, 51, 59]}}
+ ]
+}

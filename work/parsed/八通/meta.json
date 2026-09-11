@@ -1,0 +1,76 @@
+{
+ "1": {
+  "direction": "环球度假区",
+  "service": "weekday",
+  "legend": {
+   "yellow": "土桥",
+   "green": "复兴门",
+   "orange": "公主坟",
+   "red": "古城"
+  },
+  "legend_detail": {
+   "yellow": "土桥站始发空车",
+   "green": "复兴门站始发空车",
+   "orange": "公主坟站始发空车",
+   "red": "古城站始发空车"
+  },
+  "note": "开往环球度假区站方向 / To Universal Resort, 工作日 Weekdays"
+ },
+ "2": {
+  "direction": "苹果园",
+  "service": "weekday",
+  "legend": {
+   "orange": "公主坟",
+   "red": "古城",
+   "yellow": "土桥"
+  },
+  "legend_detail": {
+   "orange": "列车终点站为公主坟站",
+   "red": "列车终点站为古城站",
+   "yellow": "土桥站始发空车"
+  },
+  "note": "开往苹果园站方向 / To Pingguoyuan, 工作日 Weekdays"
+ },
+ "3": {
+  "direction": "环球度假区",
+  "service": "weekend",
+  "legend": {
+   "yellow": "土桥",
+   "green": "复兴门",
+   "orange": "公主坟",
+   "red": "古城"
+  },
+  "legend_detail": {
+   "yellow": "土桥站始发空车",
+   "green": "复兴门站始发空车",
+   "orange": "公主坟站始发空车",
+   "red": "古城站始发空车"
+  },
+  "note": "开往环球度假区站方向 / To Universal Resort, 双休日 Weekends"
+ },
+ "4": {
+  "direction": "苹果园",
+  "service": "weekend",
+  "legend": {
+   "orange": "公主坟",
+   "red": "古城",
+   "yellow": "土桥"
+  },
+  "legend_detail": {
+   "orange": "列车终点站为公主坟站",
+   "red": "列车终点站为古城站",
+   "yellow": "土桥站始发空车"
+  },
+  "note": "开往苹果园站方向 / To Pingguoyuan, 双休日 Weekends"
+ },
+ "_note": "序号含义（4 图车站一致）: 1=工作日开往环球度假区, 2=工作日开往苹果园, 3=双休日开往环球度假区, 4=双休日开往苹果园。例外: 八通-环球度假区 只有 -1/-2 两张图（东端终点, 无东行）, -1=工作日开往苹果园, -2=双休日开往苹果园; 已在 _images 中按图片覆盖。",
+ "_images": {
+  "八通-环球度假区-1": {
+   "direction": "苹果园"
+  },
+  "八通-环球度假区-2": {
+   "direction": "苹果园",
+   "service": "weekend"
+  }
+ }
+}

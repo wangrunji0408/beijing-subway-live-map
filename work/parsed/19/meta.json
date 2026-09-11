@@ -1,0 +1,208 @@
+{
+ "1": {
+  "direction": "牡丹园",
+  "service": "weekday",
+  "legend": {},
+  "note": "开往牡丹园方向 工作日 (suffix default; 牡丹园/新宫 stations differ, see _images)"
+ },
+ "2": {
+  "direction": "新宫",
+  "service": "weekday",
+  "legend": {},
+  "note": "开往新宫方向 工作日 (suffix default)"
+ },
+ "3": {
+  "direction": "牡丹园",
+  "service": "weekend",
+  "legend": {},
+  "note": "开往牡丹园方向 双休日"
+ },
+ "4": {
+  "direction": "新宫",
+  "service": "weekend",
+  "legend": {},
+  "note": "开往新宫方向 双休日"
+ },
+ "_images": {
+  "19-北太平庄-1": {
+   "direction": "牡丹园",
+   "service": "weekday",
+   "legend": {}
+  },
+  "19-北太平庄-2": {
+   "direction": "新宫",
+   "service": "weekday",
+   "legend": {}
+  },
+  "19-北太平庄-3": {
+   "direction": "牡丹园",
+   "service": "weekend",
+   "legend": {}
+  },
+  "19-北太平庄-4": {
+   "direction": "新宫",
+   "service": "weekend",
+   "legend": {}
+  },
+  "19-太平桥-1": {
+   "direction": "牡丹园",
+   "service": "weekday",
+   "legend": {}
+  },
+  "19-太平桥-2": {
+   "direction": "新宫",
+   "service": "weekday",
+   "legend": {}
+  },
+  "19-太平桥-3": {
+   "direction": "牡丹园",
+   "service": "weekend",
+   "legend": {}
+  },
+  "19-太平桥-4": {
+   "direction": "新宫",
+   "service": "weekend",
+   "legend": {}
+  },
+  "19-平安里-1": {
+   "direction": "牡丹园",
+   "service": "weekday",
+   "legend": {}
+  },
+  "19-平安里-2": {
+   "direction": "新宫",
+   "service": "weekday",
+   "legend": {}
+  },
+  "19-平安里-3": {
+   "direction": "牡丹园",
+   "service": "weekend",
+   "legend": {}
+  },
+  "19-平安里-4": {
+   "direction": "新宫",
+   "service": "weekend",
+   "legend": {}
+  },
+  "19-新发地-1": {
+   "direction": "牡丹园",
+   "service": "weekday",
+   "legend": {}
+  },
+  "19-新发地-2": {
+   "direction": "新宫",
+   "service": "weekday",
+   "legend": {}
+  },
+  "19-新发地-3": {
+   "direction": "牡丹园",
+   "service": "weekend",
+   "legend": {}
+  },
+  "19-新发地-4": {
+   "direction": "新宫",
+   "service": "weekend",
+   "legend": {}
+  },
+  "19-新宫-1": {
+   "direction": "牡丹园",
+   "service": "weekday",
+   "legend": {}
+  },
+  "19-新宫-2": {
+   "direction": "牡丹园",
+   "service": "weekend",
+   "legend": {}
+  },
+  "19-景风门-1": {
+   "direction": "牡丹园",
+   "service": "weekday",
+   "legend": {}
+  },
+  "19-景风门-2": {
+   "direction": "新宫",
+   "service": "weekday",
+   "legend": {}
+  },
+  "19-景风门-3": {
+   "direction": "牡丹园",
+   "service": "weekend",
+   "legend": {}
+  },
+  "19-景风门-4": {
+   "direction": "新宫",
+   "service": "weekend",
+   "legend": {}
+  },
+  "19-牛街-1": {
+   "direction": "牡丹园",
+   "service": "weekday",
+   "legend": {}
+  },
+  "19-牛街-2": {
+   "direction": "新宫",
+   "service": "weekday",
+   "legend": {}
+  },
+  "19-牛街-3": {
+   "direction": "牡丹园",
+   "service": "weekend",
+   "legend": {}
+  },
+  "19-牛街-4": {
+   "direction": "新宫",
+   "service": "weekend",
+   "legend": {}
+  },
+  "19-牡丹园-1": {
+   "direction": "新宫",
+   "service": "weekday",
+   "legend": {}
+  },
+  "19-牡丹园-2": {
+   "direction": "新宫",
+   "service": "weekend",
+   "legend": {}
+  },
+  "19-积水潭-1": {
+   "direction": "牡丹园",
+   "service": "weekday",
+   "legend": {}
+  },
+  "19-积水潭-2": {
+   "direction": "新宫",
+   "service": "weekday",
+   "legend": {}
+  },
+  "19-积水潭-3": {
+   "direction": "牡丹园",
+   "service": "weekend",
+   "legend": {}
+  },
+  "19-积水潭-4": {
+   "direction": "新宫",
+   "service": "weekend",
+   "legend": {}
+  },
+  "19-草桥-1": {
+   "direction": "牡丹园",
+   "service": "weekday",
+   "legend": {}
+  },
+  "19-草桥-2": {
+   "direction": "新宫",
+   "service": "weekday",
+   "legend": {}
+  },
+  "19-草桥-3": {
+   "direction": "牡丹园",
+   "service": "weekend",
+   "legend": {}
+  },
+  "19-草桥-4": {
+   "direction": "新宫",
+   "service": "weekend",
+   "legend": {}
+  }
+ }
+}

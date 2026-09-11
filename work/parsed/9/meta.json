@@ -1,0 +1,22 @@
+{
+ "1": {
+  "direction": "国家图书馆",
+  "service": "weekday",
+  "legend": {"purple": "国家图书馆"}
+ },
+ "2": {
+  "direction": "郭公庄、阎村东",
+  "service": "weekday",
+  "legend": {"red": "阎村东"}
+ },
+ "3": {
+  "direction": "国家图书馆",
+  "service": "weekend",
+  "legend": {}
+ },
+ "4": {
+  "direction": "郭公庄",
+  "service": "weekend",
+  "legend": {}
+ }
+}

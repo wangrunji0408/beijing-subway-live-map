@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>北京地铁 列车实时运行图 · Beijing Subway Live Train Map</title>
+<style>
+  :root { --bg:#0d1117; --panel:#161b22; --line:#30363d; --fg:#e6edf3; --muted:#8b949e; --accent:#58a6ff; }
+  * { box-sizing: border-box; }
+  html, body { margin:0; height:100%; background:var(--bg); color:var(--fg);
+    font: 13px/1.4 -apple-system, "PingFang SC", "Helvetica Neue", Arial, sans-serif; }
+  #app { display:flex; height:100%; }
+  #mapwrap { flex:1; position:relative; overflow:hidden; }
+  canvas { display:block; cursor:grab; }
+  canvas.drag { cursor:grabbing; }
+  #diagram { position:absolute; left:0; right:0; bottom:0; display:none;
+    background:#0d1117f2; border-top:1px solid var(--line); cursor:crosshair; }
+  #side { width:320px; min-width:320px; background:var(--panel); border-left:1px solid var(--line);
+    padding:14px 16px; overflow-y:auto; }
+  h1 { font-size:15px; margin:0 0 2px; }
+  h1 .en { color:var(--muted); font-weight:400; font-size:11px; display:block; }
+  .clock { font-variant-numeric: tabular-nums; font-size:30px; font-weight:600; letter-spacing:1px; margin:10px 0 2px; }
+  .sub { color:var(--muted); font-size:11px; margin-bottom:12px; }
+  label { display:block; color:var(--muted); font-size:11px; margin:12px 0 4px; text-transform:uppercase; letter-spacing:.06em; }
+  input[type=range] { width:100%; accent-color: var(--accent); }
+  .row { display:flex; gap:8px; align-items:center; }
+  button { background:#21262d; color:var(--fg); border:1px solid var(--line); border-radius:6px;
+    padding:6px 12px; font-size:12px; cursor:pointer; }
+  button:hover { border-color:var(--accent); }
+  button.active { background:var(--accent); color:#0d1117; border-color:var(--accent); font-weight:600; }
+  .chips { display:flex; flex-wrap:wrap; gap:6px; margin-top:4px; }
+  .chip { display:flex; align-items:center; gap:5px; font-size:11px; padding:3px 7px; border-radius:20px;
+    border:1px solid var(--line); cursor:pointer; user-select:none; }
+  .chip.off { opacity:.35; }
+  .dot { width:9px; height:9px; border-radius:50%; }
+  .stat { display:flex; justify-content:space-between; font-size:12px; color:var(--muted); padding:2px 0; }
+  .stat b { color:var(--fg); font-variant-numeric: tabular-nums; }
+  #traininfo { max-height: 320px; overflow-y: auto; }
+  .thead { color: var(--fg); font-size: 12px; margin-bottom: 6px; }
+  .tstops { font-size: 12px; }
+  .trow { display: flex; justify-content: space-between; gap: 8px; padding: 3px 0;
+    border-bottom: 1px solid #21262d; }
+  .trow .t { color: var(--muted); font-variant-numeric: tabular-nums; }
+  .trow.past { opacity: .45; }
+  .trow.now { color: var(--accent); font-weight: 600; }
+  .trow.now .t { color: var(--accent); }
+  .trow .mark { width: 8px; height: 8px; border-radius: 50%; display:inline-block;
+    margin-right:6px; vertical-align: middle; }
+  #tip { position:absolute; pointer-events:none; background:#1f2630ee; border:1px solid var(--line);
+    border-radius:6px; padding:6px 9px; font-size:12px; display:none; white-space:nowrap; z-index:5; }
+  #legend { position:absolute; left:12px; bottom:12px; background:#161b22dd; border:1px solid var(--line);
+    border-radius:8px; padding:8px 10px; font-size:11px; color:var(--muted); max-width:60%; }
+  .kv { color:var(--fg); }
+  #hint { position:absolute; right:12px; top:12px; color:var(--muted); font-size:11px; background:#161b22cc;
+    padding:5px 9px; border-radius:6px; border:1px solid var(--line); }
+</style>
+</head>
+<body>
+<div id="app">
+  <div id="mapwrap">
+    <canvas id="map"></canvas>
+    <canvas id="diagram"></canvas>
+    <div id="tip"></div>
+    <div id="hint">滚轮缩放 · 拖动平移 · 点击列车查看信息</div>
+    <div id="legend"></div>
+  </div>
+  <aside id="side">
+    <h1>北京地铁 · 列车运行图<span class="en">Beijing Subway · live train positions</span></h1>
+    <div class="clock" id="clock">08:00</div>
+    <div class="sub" id="daytype">工作日 · 周三</div>
+
+    <div class="row" style="margin-top:8px">
+      <button id="play" class="active">⏸ 暂停</button>
+      <button id="reset">↺ 重置 08:00</button>
+    </div>
+
+    <label>时刻 <span id="tlabel">08:00</span></label>
+    <input type="range" id="time" min="240" max="1439" value="480" step="1" />
+
+    <label>时间流速 <span id="slabel">60×</span></label>
+    <input type="range" id="speed" min="1" max="600" value="60" step="1" />
+    <div class="sub" id="speedhint">1 秒现实 ≈ 60 秒运营时间</div>
+
+    <label>运营日</label>
+    <div class="chips" id="services"></div>
+
+    <label>线路（点击隐藏/显示）</label>
+    <div class="chips" id="lines"></div>
+
+    <label>运行图（时间 × 车站）</label>
+    <select id="diagsel" style="width:100%;background:#21262d;color:var(--fg);border:1px solid var(--line);border-radius:6px;padding:6px">
+      <option value="">— 选择线路方向 —</option>
+    </select>
+    <div class="sub" id="diaghint">选择后在地图下方显示该线路的列车运行图</div>
+
+    <label>实时统计</label>
+    <div class="stat"><span>在线列车</span><b id="nTrains">–</b></div>
+    <div class="stat"><span>显示线路</span><b id="nLines">–</b></div>
+    <div class="stat"><span>车站总数</span><b id="nStations">–</b></div>
+    <div class="stat"><span>列车运行图班次</span><b id="nRuns">–</b></div>
+
+    <label>选中列车 · 逐站时刻</label>
+    <div id="traininfo" class="sub">点击地图上的列车查看它的运行图（逐站时刻）</div>
+  </aside>
+</div>
+<script>
+const SERVICE_ZH = { weekday: '工作日', weekend: '双休日', unknown: '未知',
+  key_guaranteed: '重点保障', 'mon-thu_weekend': '周一至周四+双休日',
+  friday: '周五', sunday_extension: '周日延长运营' };
+const DAY_ZH = ['周日','周一','周二','周三','周四','周五','周六'];
+
+let NET = null;          // network.json
+let proj = null;         // projection helpers
+let view = { x:0, y:0, k:1 };  // pan/zoom
+let state = {
+  t: 480,                // minutes since midnight
+  playing: true,
+  speed: 60,             // simulated seconds per real second
+  service: 'weekday',
+  hidden: new Set(),
+  selected: null,        // {g, r} of the clicked train
+};
+let lineInfo = {};       // per-line prepared geometry
+let hovered = null;
+let selected = null;
+let lastFrame = 0;
+
+const cv = document.getElementById('map');
+const ctx = cv.getContext('2d');
+
+function fmt(min) {
+  min = Math.round(min) % 1440;
+  return String(Math.floor(min/60)).padStart(2,'0') + ':' + String(min%60).padStart(2,'0');
+}
+
+async function boot() {
+  const url = 'data/network.json';
+  const r = await fetch(url);
+  NET = await r.json();
+  prepare();
+  buildUI();
+  buildDiagramSelect();
+  resize();
+  window.addEventListener('resize', resize);
+  requestAnimationFrame(loop);
+}
+
+function prepare() {
+  // lat/lon -> unit square, then fit to canvas
+  let minLat=1e9,maxLat=-1e9,minLon=1e9,maxLon=-1e9;
+  for (const key in NET.lines) {
+    for (const p of NET.lines[key].path) {
+      minLat=Math.min(minLat,p[0]); maxLat=Math.max(maxLat,p[0]);
+      minLon=Math.min(minLon,p[1]); maxLon=Math.max(maxLon,p[1]);
+    }
+  }
+  const midLat=(minLat+maxLat)/2, kx=Math.cos(midLat*Math.PI/180);
+  const W=(maxLon-minLon)*kx, H=(maxLat-minLat);
+  proj = {
+    bbox:[minLat,maxLat,minLon,maxLon],
+    toWorld(lat,lon){ return [ (lon-minLon)*kx, (maxLat-lat) ]; },
+    W, H
+  };
+  // precompute cumulative distances along each line path (in world units)
+  for (const key in NET.lines) {
+    const L = NET.lines[key];
+    L.world = L.path.map(p => proj.toWorld(p[0],p[1]));
+    L.cum = [0];
+    for (let i=1;i<L.world.length;i++){
+      const dx=L.world[i][0]-L.world[i-1][0], dy=L.world[i][1]-L.world[i-1][1];
+      L.cum.push(L.cum[i-1]+Math.hypot(dx,dy));
+    }
+    L.len = L.cum[L.cum.length-1] || 1;
+    L.stations.forEach(s => { s.world = proj.toWorld(s.lat, s.lon); });
+  }
+  // group runs by service for quick lookup
+  for (const g of NET.groups) {
+    const L = NET.lines[g.line];
+    g.stationD = g.stations.map(name => {
+      const st = L && L.stations.find(s=>s.name===name);
+      return st ? (st.d ?? null) : null;
+    });
+    g.stationWorld = g.stationD.map(d => {
+      if (d === null || d === undefined) return null;
+      return pointAtDistance(L, d * L.len);
+    });
+  }
+}
+
+function resize() {
+  const wrap = document.getElementById('mapwrap');
+  const dpr = window.devicePixelRatio || 1;
+  cv.width = wrap.clientWidth * dpr;
+  cv.height = wrap.clientHeight * dpr;
+  cv.style.width = wrap.clientWidth + 'px';
+  cv.style.height = wrap.clientHeight + 'px';
+  ctx.setTransform(dpr,0,0,dpr,0,0);
+  fitView();
+  if (typeof resizeDiagram === 'function') resizeDiagram();
+}
+
+function fitView() {
+  const w = cv.clientWidth, h = cv.clientHeight;
+  const pad = 40;
+  const k = Math.min((w-2*pad)/proj.W, (h-2*pad)/proj.H);
+  view.k = k;
+  view.baseK = k;          // zoom is clamped relative to the fitted scale
+  view.x = (w - proj.W*k)/2;
+  view.y = (h - proj.H*k)/2;
+}
+
+function toScreen(p) { return [ view.x + p[0]*view.k, view.y + p[1]*view.k ]; }
+
+function pointAtDistance(L, d) {
+  // binary search cumulative distance
+  let lo=0, hi=L.cum.length-1;
+  if (d<=0) return L.world[0];
+  if (d>=L.len) return L.world[L.cum.length-1];
+  while (lo<hi-1){ const mid=(lo+hi)>>1; if (L.cum[mid]<=d) lo=mid; else hi=mid; }
+  const seg = L.cum[hi]-L.cum[lo] || 1;
+  const f = (d-L.cum[lo])/seg;
+  const a=L.world[lo], b=L.world[hi];
+  return [a[0]+(b[0]-a[0])*f, a[1]+(b[1]-a[1])*f];
+}
+
+/* ---------------- UI ---------------- */
+function buildUI() {
+  const sc = document.getElementById('services');
+  document.getElementById('daytype').textContent =
+    (SERVICE_ZH[state.service] || state.service) + ' · 运行图';
+  sc.innerHTML = '';
+  const svcs = [...new Set(NET.groups.map(g=>g.service||'unknown'))];
+  for (const s of svcs) {
+    const el = document.createElement('div');
+    el.className = 'chip' + (state.service===s?'':' off');
+    el.textContent = SERVICE_ZH[s] || s;
+    el.onclick = () => { state.service = s; buildUI(); };
+    sc.appendChild(el);
+  }
+  const lc = document.getElementById('lines');
+  lc.innerHTML = '';
+  for (const key of Object.keys(NET.lines)) {
+    const L = NET.lines[key];
+    const el = document.createElement('div');
+    el.className = 'chip' + (state.hidden.has(key)?' off':'');
+    el.innerHTML = `<span class="dot" style="background:${L.color}"></span>${L.name}`;
+    el.onclick = () => { state.hidden.has(key)?state.hidden.delete(key):state.hidden.add(key); buildUI(); };
+    lc.appendChild(el);
+  }
+  document.getElementById('nStations').textContent =
+    Object.values(NET.lines).reduce((a,l)=>a+l.stations.length,0);
+  document.getElementById('nRuns').textContent =
+    NET.groups.reduce((a,g)=>a+g.runs.length,0);
+}
+
+function activeRuns() {
+  // returns array of {g, r} for runs active at state.t
+  const out = [];
+  for (const g of NET.groups) {
+    if ((g.service||'unknown') !== state.service) continue;
+    if (state.hidden.has(g.line)) continue;
+    for (const r of g.runs) {
+      if (state.t < r[1] || state.t > r[r.length-1]) continue;
+      out.push({g, r});
+    }
+  }
+  return out;
+}
+
+function trainPos(g, r, t) {
+  // r = [idx0, min0, idx1, min1, ...]
+  let k = 0;
+  while (k+3 < r.length && r[k+3] < t) k += 2;
+  if (k+3 >= r.length) return null;
+  const ia = r[k], ta = r[k+1], ib = r[k+2], tb = r[k+3];
+  const da = g.stationD[ia], db = g.stationD[ib];
+  const L = NET.lines[g.line];
+  if (da === null || db === null || da === undefined || db === undefined) return null;
+  const span = tb - ta;
+  const f = span>0 ? Math.max(0, Math.min(1, (t-ta)/span)) : 0;
+  return pointAtDistance(L, (da + (db-da)*f) * L.len);
+}
+
+/* ---------------- render ---------------- */
+function draw() {
+  const w = cv.clientWidth, h = cv.clientHeight;
+  ctx.clearRect(0,0,w,h);
+  ctx.fillStyle = '#0d1117'; ctx.fillRect(0,0,w,h);
+
+  // lines
+  for (const key in NET.lines) {
+    if (state.hidden.has(key)) continue;
+    const L = NET.lines[key];
+    ctx.strokeStyle = L.color;
+    ctx.lineWidth = Math.max(1.6, 3.2*Math.min(1.4, view.k/ (view.k||1)) * 1);
+    ctx.lineWidth = 3.0;
+    ctx.lineJoin = 'round'; ctx.lineCap = 'round';
+    ctx.beginPath();
+    L.world.forEach((p,i)=>{ const s=toScreen(p); i?ctx.lineTo(s[0],s[1]):ctx.moveTo(s[0],s[1]); });
+    ctx.stroke();
+  }
+  // stations
+  for (const key in NET.lines) {
+    if (state.hidden.has(key)) continue;
+    const L = NET.lines[key];
+    for (const s of L.stations) {
+      const p = toScreen(s.world);
+      ctx.beginPath(); ctx.arc(p[0],p[1], 2.1, 0, 7);
+      ctx.fillStyle = '#0d1117'; ctx.fill();
+      ctx.lineWidth = 1.2; ctx.strokeStyle = L.color; ctx.stroke();
+    }
+  }
+  // trains
+  const runs = activeRuns();
+  let shown = 0;
+  for (const {g, r} of runs) {
+    const p = trainPos(g, r, state.t);
+    if (!p) continue;
+    const s = toScreen(p);
+    const col = NET.lines[g.line] ? NET.lines[g.line].color : '#fff';
+    const isSel = state.selected && state.selected.g === g && state.selected.r === r;
+    ctx.beginPath(); ctx.arc(s[0], s[1], isSel ? 6.5 : 4.4, 0, 7);
+    ctx.fillStyle = col; ctx.fill();
+    ctx.lineWidth = isSel ? 2.2 : 1.4;
+    ctx.strokeStyle = isSel ? '#ffffff' : '#0d1117'; ctx.stroke();
+    if (isSel) {
+      ctx.beginPath(); ctx.arc(s[0], s[1], 11, 0, 7);
+      ctx.strokeStyle = '#ffffff88'; ctx.lineWidth = 1.2; ctx.stroke();
+    }
+    shown++;
+  }
+  document.getElementById('nTrains').textContent = shown;
+  document.getElementById('nLines').textContent =
+    Object.keys(NET.lines).filter(k=>!state.hidden.has(k)).length;
+  drawDiagram();
+}
+
+/* ---------------- hover ---------------- */
+function nearestStopIndex(r, t) {
+  let k = 0;
+  while (k + 3 < r.length && r[k+3] < t) k += 2;
+  return k;
+}
+
+function pickAt(mx, my) {
+  let best = null;
+  for (const {g, r} of activeRuns()) {
+    const p = trainPos(g, r, state.t);
+    if (!p) continue;
+    const s = toScreen(p);
+    const d = Math.hypot(s[0]-mx, s[1]-my);
+    if (d < 8 && (!best || d < best.d)) {
+      const k = nearestStopIndex(r, state.t);
+      best = {d, kind:'train', g, r, line:g.line, direction:g.direction,
+              service:g.service, station:g.stations[r[k]], minute:r[k+1]};
+    }
+  }
+  if (best) return best;
+  for (const key in NET.lines) {
+    if (state.hidden.has(key)) continue;
+    const L = NET.lines[key];
+    for (const st of L.stations) {
+      const p = toScreen(st.world);
+      const d = Math.hypot(p[0]-mx, p[1]-my);
+      if (d < 7 && (!best || d < best.d)) {
+        best = {d, kind:'station', name:st.name, line:L.name};
+      }
+    }
+  }
+  return best;
+}
+
+cv.addEventListener('mousemove', e => {
+  if (drag) return;
+  const rect = cv.getBoundingClientRect();
+  const mx = e.clientX-rect.left, my = e.clientY-rect.top;
+  const hit = pickAt(mx, my);
+  const tip = document.getElementById('tip');
+  if (hit) {
+    if (hit.kind === 'train') {
+      tip.innerHTML = `<b>${NET.lines[hit.line].name}</b> · 开往 ${hit.direction || '?'}<br>` +
+        `${SERVICE_ZH[hit.service] || ''} · 最近车站 <span class="kv">${hit.station}</span> ${fmt(hit.minute)}`;
+    } else {
+      tip.innerHTML = `<span class="kv">${hit.name}</span> · ${hit.line}`;
+    }
+    tip.style.display = 'block';
+    tip.style.left = (mx + 14) + 'px';
+    tip.style.top = (my + 14) + 'px';
+  } else {
+    tip.style.display = 'none';
+  }
+});
+cv.addEventListener('mouseleave', () => { document.getElementById('tip').style.display = 'none'; });
+
+/* ---------------- click to inspect a train ---------------- */
+function renderTrainInfo() {
+  const el = document.getElementById('traininfo');
+  const sel = state.selected;
+  if (!sel) {
+    el.innerHTML = '点击地图上的列车查看它的运行图（逐站时刻）';
+    return;
+  }
+  const {g, r} = sel;
+  const L = NET.lines[g.line];
+  const now = state.t;
+  let html = `<div class="thead">${L ? L.name : g.line} · 开往 ${g.direction || '?'}<br>` +
+             `<span class="sub">${SERVICE_ZH[g.service] || g.service || ''} · ` +
+             `${fmt(r[1])} 发车 · ${Math.round((r[r.length-1]-r[1]))} 分钟全程</span></div>`;
+  html += '<div class="tstops">';
+  for (let k = 0; k < r.length; k += 2) {
+    const idx = r[k], t = r[k+1];
+    const nxt = (k+3 < r.length) ? r[k+3] : null;
+    const cls = (now >= t && (nxt === null || now < nxt)) ? 'now'
+              : (now >= t ? 'past' : '');
+    html += `<div class="trow ${cls}"><span>${g.stations[idx]}</span><span class="t">${fmt(t)}</span></div>`;
+  }
+  html += '</div>';
+  el.innerHTML = html;
+}
+
+cv.addEventListener('click', e => {
+  const rect = cv.getBoundingClientRect();
+  const mx = e.clientX - rect.left, my = e.clientY - rect.top;
+  const hit = pickAt(mx, my);
+  if (hit && hit.kind === 'train') {
+    state.selected = {g: hit.g, r: hit.r};
+    // also show this train's line diagram and highlight it there
+    diagGroup = hit.g;
+    dcv.style.display = 'block';
+    const idx = NET.groups.indexOf(hit.g);
+    const sel = document.getElementById('diagsel');
+    if (idx >= 0) sel.value = String(idx);
+    resizeDiagram();
+  } else {
+    state.selected = null;
+  }
+  renderTrainInfo();
+});
+
+/* keep the stop list in sync while time advances */
+setInterval(() => { if (state.selected) renderTrainInfo(); }, 1000);
+
+function loop(ts) {
+  const dt = lastFrame ? (ts-lastFrame)/1000 : 0;
+  lastFrame = ts;
+  if (state.playing) {
+    state.t += dt * state.speed / 60;   // speed is x real time
+    if (state.t >= 1439.5) state.t = 240;   // loop the service day
+    syncTimeUI();
+  }
+  draw();
+  requestAnimationFrame(loop);
+}
+
+function syncTimeUI() {
+  document.getElementById('clock').textContent = fmt(state.t);
+  document.getElementById('tlabel').textContent = fmt(state.t);
+  document.getElementById('time').value = Math.round(state.t);
+}
+
+/* ---------------- controls ---------------- */
+document.getElementById('play').onclick = (e) => {
+  state.playing = !state.playing;
+  e.target.textContent = state.playing ? '⏸ 暂停' : '▶ 播放';
+  e.target.classList.toggle('active', state.playing);
+};
+document.getElementById('reset').onclick = () => { state.t = 480; syncTimeUI(); };
+document.getElementById('time').oninput = (e) => {
+  state.t = +e.target.value; syncTimeUI();
+};
+document.getElementById('speed').oninput = (e) => {
+  state.speed = +e.target.value;
+  document.getElementById('slabel').textContent = state.speed + '×';
+  document.getElementById('speedhint').textContent =
+    `1 秒现实 ≈ ${state.speed} 秒运营时间`;
+};
+
+/* pan / zoom */
+let drag = null;
+cv.addEventListener('mousedown', e => { drag = {x:e.clientX, y:e.clientY, vx:view.x, vy:view.y}; cv.classList.add('drag'); });
+window.addEventListener('mouseup', () => { drag=null; cv.classList.remove('drag'); });
+window.addEventListener('mousemove', e => {
+  if (drag) { view.x = drag.vx + (e.clientX-drag.x); view.y = drag.vy + (e.clientY-drag.y); }
+});
+cv.addEventListener('wheel', e => {
+  e.preventDefault();
+  const rect = cv.getBoundingClientRect();
+  const mx = e.clientX-rect.left, my = e.clientY-rect.top;
+  const base = view.baseK || view.k;
+  const k2 = Math.max(base/12, Math.min(base*20, view.k * (e.deltaY<0?1.15:0.87)));
+  view.x = mx - (mx-view.x)*(k2/view.k);
+  view.y = my - (my-view.y)*(k2/view.k);
+  view.k = k2;
+}, {passive:false});
+
+/* ---------------- time-distance diagram ---------------- */
+const dcv = document.getElementById('diagram');
+const dctx = dcv.getContext('2d');
+let diagGroup = null;
+
+function buildDiagramSelect() {
+  const sel = document.getElementById('diagsel');
+  const opts = NET.groups.map((g, i) => {
+    const L = NET.lines[g.line];
+    return `<option value="${i}">${L ? L.name : g.line} · 开往${g.direction || '?'} · ` +
+           `${SERVICE_ZH[g.service] || ''}（${g.runs.length} 班）</option>`;
+  });
+  sel.innerHTML = '<option value="">— 选择线路方向 —</option>' + opts.join('');
+  sel.onchange = () => {
+    diagGroup = sel.value === '' ? null : NET.groups[+sel.value];
+    dcv.style.display = diagGroup ? 'block' : 'none';
+    if (diagGroup) resizeDiagram();
+  };
+}
+
+function resizeDiagram() {
+  if (!diagGroup) return;
+  const dpr = window.devicePixelRatio || 1;
+  const h = 210;
+  const w = dcv.parentElement.clientWidth;
+  dcv.style.width = w + 'px';
+  dcv.style.height = h + 'px';
+  dcv.width = Math.round(w * dpr);
+  dcv.height = Math.round(h * dpr);
+  dctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+}
+
+function drawDiagram() {
+  if (!diagGroup) return;
+  const g = diagGroup;
+  const w = dcv.clientWidth, h = dcv.clientHeight;
+  dctx.clearRect(0, 0, w, h);
+  const n = g.stations.length;
+  const padL = 96, padR = 14, padT = 10, padB = 18;
+  const t0 = 240, t1 = 1440;
+  const X = t => padL + (t - t0) / (t1 - t0) * (w - padL - padR);
+  const Y = i => padT + (i / (n - 1 || 1)) * (h - padT - padB);
+  dctx.font = '10px sans-serif';
+  dctx.strokeStyle = '#21262d'; dctx.lineWidth = 1;
+  for (let t = 300; t <= 1440; t += 120) {
+    dctx.beginPath(); dctx.moveTo(X(t), padT); dctx.lineTo(X(t), h - padB); dctx.stroke();
+    dctx.fillStyle = '#8b949e'; dctx.fillText(fmt(t), X(t) - 14, h - 5);
+  }
+  const step = Math.max(1, Math.ceil(n / 14));
+  for (let i = 0; i < n; i += step) {
+    dctx.fillStyle = '#8b949e'; dctx.fillText(g.stations[i], 4, Y(i) + 3);
+  }
+  const col = NET.lines[g.line] ? NET.lines[g.line].color : '#fff';
+  dctx.strokeStyle = col; dctx.lineWidth = 1; dctx.globalAlpha = 0.5;
+  for (const r of g.runs) {
+    const isSel = state.selected && state.selected.g === g && state.selected.r === r;
+    if (isSel) continue;
+    dctx.beginPath();
+    for (let k = 0; k + 1 < r.length; k += 2) {
+      const xx = X(r[k + 1]), yy = Y(r[k]);
+      k ? dctx.lineTo(xx, yy) : dctx.moveTo(xx, yy);
+    }
+    dctx.stroke();
+  }
+  dctx.globalAlpha = 1;
+  // highlight the selected train's trajectory in the diagram
+  if (state.selected && state.selected.g === g) {
+    const r = state.selected.r;
+    dctx.strokeStyle = '#ffffff'; dctx.lineWidth = 2.2;
+    dctx.beginPath();
+    for (let k = 0; k + 1 < r.length; k += 2) {
+      const xx = X(r[k + 1]), yy = Y(r[k]);
+      k ? dctx.lineTo(xx, yy) : dctx.moveTo(xx, yy);
+    }
+    dctx.stroke();
+  }
+  dctx.strokeStyle = '#ff4d4d'; dctx.lineWidth = 1.5;
+  dctx.beginPath(); dctx.moveTo(X(state.t), padT); dctx.lineTo(X(state.t), h - padB); dctx.stroke();
+}
+
+dcv.addEventListener('mousemove', e => {
+  if (!diagGroup) return;
+  const rect = dcv.getBoundingClientRect();
+  const mx = e.clientX - rect.left;
+  const padL = 96, padR = 14;
+  const w = dcv.clientWidth;
+  const t = 240 + (mx - padL) / (w - padL - padR) * 1200;
+  if (t >= 240 && t <= 1440) { state.t = t; syncTimeUI(); }
+});
+
+boot();
+</script>
+</body>
+</html>

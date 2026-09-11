@@ -1,0 +1,290 @@
+{
+ "1": {
+  "direction": "天通苑东",
+  "note": "suffix default; per-image/_panels override"
+ },
+ "2": {
+  "direction": "马连洼",
+  "note": "suffix default"
+ },
+ "_images": {
+  "18-上地软件园-1": {
+   "direction": "天通苑东",
+   "legend": {
+    "yellow": "霍营东"
+   }
+  },
+  "18-上地软件园-2": {
+   "direction": "马连洼",
+   "legend": {
+    "green": "霍营东"
+   }
+  },
+  "18-东北旺-1": {
+   "direction": "天通苑东",
+   "legend": {
+    "yellow": "霍营东"
+   }
+  },
+  "18-东北旺-2": {
+   "direction": "马连洼",
+   "legend": {
+    "green": "霍营东"
+   }
+  },
+  "18-回龙观东大街-1": {
+   "direction": "天通苑东",
+   "legend": {
+    "yellow": "霍营东"
+   }
+  },
+  "18-回龙观东大街-2": {
+   "direction": "马连洼",
+   "legend": {
+    "green": "霍营东"
+   }
+  },
+  "18-回龙观西大街-1": {
+   "direction": "天通苑东",
+   "legend": {
+    "yellow": "霍营东"
+   }
+  },
+  "18-回龙观西大街-2": {
+   "direction": "马连洼",
+   "legend": {
+    "green": "霍营东"
+   }
+  },
+  "18-天通苑-1": {
+   "direction": "天通苑东",
+   "legend": {}
+  },
+  "18-天通苑-2": {
+   "direction": "马连洼",
+   "legend": {}
+  },
+  "18-天通苑东-1": {
+   "direction": "马连洼",
+   "legend": {}
+  },
+  "18-太平庄-1": {
+   "direction": "天通苑东",
+   "legend": {
+    "green": "霍营东",
+    "red": "天通苑"
+   }
+  },
+  "18-太平庄-2": {
+   "direction": "马连洼",
+   "legend": {
+    "green": "霍营东",
+    "yellow": "霍营东"
+   }
+  },
+  "18-文华路-1": {
+   "direction": "天通苑东",
+   "legend": {
+    "yellow": "霍营东"
+   }
+  },
+  "18-文华路-2": {
+   "direction": "马连洼",
+   "legend": {
+    "green": "霍营东"
+   }
+  },
+  "18-霍营东-1": {
+   "direction": "天通苑东",
+   "legend": {
+    "yellow": "霍营东"
+   }
+  },
+  "18-霍营东-2": {
+   "direction": "马连洼",
+   "legend": {
+    "green": "霍营东"
+   }
+  },
+  "18-马连洼-1": {
+   "direction": "天通苑东",
+   "legend": {
+    "yellow": "霍营东"
+   }
+  },
+  "18-龙泽西-1": {
+   "direction": "天通苑东",
+   "legend": {
+    "yellow": "霍营东"
+   }
+  },
+  "18-龙泽西-2": {
+   "direction": "马连洼",
+   "legend": {
+    "green": "霍营东"
+   }
+  }
+ },
+ "_panels": {
+  "18-上地软件园-1": {
+   "0": {
+    "service": "weekday"
+   },
+   "1": {
+    "service": "weekend"
+   }
+  },
+  "18-上地软件园-2": {
+   "0": {
+    "service": "weekday"
+   },
+   "1": {
+    "service": "weekend"
+   }
+  },
+  "18-东北旺-1": {
+   "0": {
+    "service": "weekday"
+   },
+   "1": {
+    "service": "weekend"
+   }
+  },
+  "18-东北旺-2": {
+   "0": {
+    "service": "weekday"
+   },
+   "1": {
+    "service": "weekend"
+   }
+  },
+  "18-回龙观东大街-1": {
+   "0": {
+    "service": "weekday"
+   },
+   "1": {
+    "service": "weekend"
+   }
+  },
+  "18-回龙观东大街-2": {
+   "0": {
+    "service": "weekday"
+   },
+   "1": {
+    "service": "weekend"
+   }
+  },
+  "18-回龙观西大街-1": {
+   "0": {
+    "service": "weekday"
+   },
+   "1": {
+    "service": "weekend"
+   }
+  },
+  "18-回龙观西大街-2": {
+   "0": {
+    "service": "weekday"
+   },
+   "1": {
+    "service": "weekend"
+   }
+  },
+  "18-天通苑-1": {
+   "0": {
+    "service": "weekday"
+   },
+   "1": {
+    "service": "weekend"
+   }
+  },
+  "18-天通苑-2": {
+   "0": {
+    "service": "weekday"
+   },
+   "1": {
+    "service": "weekend"
+   }
+  },
+  "18-天通苑东-1": {
+   "0": {
+    "service": "weekday"
+   },
+   "1": {
+    "service": "weekend"
+   }
+  },
+  "18-太平庄-1": {
+   "0": {
+    "service": "weekday"
+   },
+   "1": {
+    "service": "weekend"
+   }
+  },
+  "18-太平庄-2": {
+   "0": {
+    "service": "weekday"
+   },
+   "1": {
+    "service": "weekend"
+   }
+  },
+  "18-文华路-1": {
+   "0": {
+    "service": "weekday"
+   },
+   "1": {
+    "service": "weekend"
+   }
+  },
+  "18-文华路-2": {
+   "0": {
+    "service": "weekday"
+   },
+   "1": {
+    "service": "weekend"
+   }
+  },
+  "18-霍营东-1": {
+   "0": {
+    "service": "weekday"
+   },
+   "1": {
+    "service": "weekend"
+   }
+  },
+  "18-霍营东-2": {
+   "0": {
+    "service": "weekday"
+   },
+   "1": {
+    "service": "weekend"
+   }
+  },
+  "18-马连洼-1": {
+   "0": {
+    "service": "weekday"
+   },
+   "1": {
+    "service": "weekend"
+   }
+  },
+  "18-龙泽西-1": {
+   "0": {
+    "service": "weekday"
+   },
+   "1": {
+    "service": "weekend"
+   }
+  },
+  "18-龙泽西-2": {
+   "0": {
+    "service": "weekday"
+   },
+   "1": {
+    "service": "weekend"
+   }
+  }
+ }
+}

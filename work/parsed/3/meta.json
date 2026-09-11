@@ -1,0 +1,240 @@
+{
+ "1": {
+  "direction": "东坝北",
+  "service": "weekday",
+  "legend": {}
+ },
+ "2": {
+  "direction": "东四十条",
+  "service": "weekday",
+  "legend": {}
+ },
+ "3": {
+  "direction": "东坝北",
+  "service": "weekend",
+  "legend": {}
+ },
+ "4": {
+  "direction": "东四十条",
+  "service": "weekend",
+  "legend": {}
+ },
+ "_images": {
+  "3-东四十条-1": {
+   "direction": "东坝北",
+   "service": "weekday",
+   "legend": {},
+   "note": "legend: yellow dot = 末班车 (last train); no terminus colours"
+  },
+  "3-东四十条-2": {
+   "direction": "东坝北",
+   "service": "weekend",
+   "legend": {},
+   "note": "legend: yellow dot = 末班车 (last train); no terminus colours"
+  },
+  "3-东坝-1": {
+   "direction": "东坝北",
+   "service": "weekday",
+   "legend": {},
+   "note": "legend: yellow dot = 末班车 (last train); no terminus colours"
+  },
+  "3-东坝-2": {
+   "direction": "东四十条",
+   "service": "weekday",
+   "legend": {},
+   "note": "legend: yellow dot = 末班车 (last train); no terminus colours"
+  },
+  "3-东坝-3": {
+   "direction": "东坝北",
+   "service": "weekend",
+   "legend": {},
+   "note": "legend: yellow dot = 末班车 (last train); no terminus colours"
+  },
+  "3-东坝-4": {
+   "direction": "东四十条",
+   "service": "weekend",
+   "legend": {},
+   "note": "legend: yellow dot = 末班车 (last train); no terminus colours"
+  },
+  "3-东坝北-1": {
+   "direction": "东四十条",
+   "service": "weekday",
+   "legend": {},
+   "note": "legend: yellow dot = 末班车 (last train); no terminus colours"
+  },
+  "3-东坝北-2": {
+   "direction": "东四十条",
+   "service": "weekend",
+   "legend": {},
+   "note": "legend: yellow dot = 末班车 (last train); no terminus colours"
+  },
+  "3-东坝南-1": {
+   "direction": "东坝北",
+   "service": "weekday",
+   "legend": {},
+   "note": "legend: yellow dot = 末班车 (last train); no terminus colours"
+  },
+  "3-东坝南-2": {
+   "direction": "东四十条",
+   "service": "weekday",
+   "legend": {},
+   "note": "legend: yellow dot = 末班车 (last train); no terminus colours"
+  },
+  "3-东坝南-3": {
+   "direction": "东坝北",
+   "service": "weekend",
+   "legend": {},
+   "note": "legend: yellow dot = 末班车 (last train); no terminus colours"
+  },
+  "3-东坝南-4": {
+   "direction": "东四十条",
+   "service": "weekend",
+   "legend": {},
+   "note": "legend: yellow dot = 末班车 (last train); no terminus colours"
+  },
+  "3-团结湖-1": {
+   "direction": "东坝北",
+   "service": "weekday",
+   "legend": {},
+   "note": "legend: yellow dot = 末班车 (last train); no terminus colours"
+  },
+  "3-团结湖-2": {
+   "direction": "东四十条",
+   "service": "weekday",
+   "legend": {},
+   "note": "legend: yellow dot = 末班车 (last train); no terminus colours"
+  },
+  "3-团结湖-3": {
+   "direction": "东坝北",
+   "service": "weekend",
+   "legend": {},
+   "note": "legend: yellow dot = 末班车 (last train); no terminus colours"
+  },
+  "3-团结湖-4": {
+   "direction": "东四十条",
+   "service": "weekend",
+   "legend": {},
+   "note": "legend: yellow dot = 末班车 (last train); no terminus colours"
+  },
+  "3-姚家园-1": {
+   "direction": "东坝北",
+   "service": "weekday",
+   "legend": {},
+   "note": "legend: yellow dot = 末班车 (last train); no terminus colours"
+  },
+  "3-姚家园-2": {
+   "direction": "东四十条",
+   "service": "weekday",
+   "legend": {},
+   "note": "legend: yellow dot = 末班车 (last train); no terminus colours"
+  },
+  "3-姚家园-3": {
+   "direction": "东坝北",
+   "service": "weekend",
+   "legend": {},
+   "note": "legend: yellow dot = 末班车 (last train); no terminus colours"
+  },
+  "3-姚家园-4": {
+   "direction": "东四十条",
+   "service": "weekend",
+   "legend": {},
+   "note": "legend: yellow dot = 末班车 (last train); no terminus colours"
+  },
+  "3-工人体育场-1": {
+   "direction": "东坝北",
+   "service": "weekday",
+   "legend": {},
+   "note": "legend: yellow dot = 末班车 (last train); no terminus colours"
+  },
+  "3-工人体育场-2": {
+   "direction": "东四十条",
+   "service": "weekday",
+   "legend": {},
+   "note": "legend: yellow dot = 末班车 (last train); no terminus colours"
+  },
+  "3-工人体育场-3": {
+   "direction": "东坝北",
+   "service": "weekend",
+   "legend": {},
+   "note": "legend: yellow dot = 末班车 (last train); no terminus colours"
+  },
+  "3-工人体育场-4": {
+   "direction": "东四十条",
+   "service": "weekend",
+   "legend": {},
+   "note": "legend: yellow dot = 末班车 (last train); no terminus colours"
+  },
+  "3-朝阳公园-1": {
+   "direction": "东坝北",
+   "service": "weekday",
+   "legend": {},
+   "note": "legend: yellow dot = 末班车 (last train); no terminus colours"
+  },
+  "3-朝阳公园-2": {
+   "direction": "东四十条",
+   "service": "weekday",
+   "legend": {},
+   "note": "legend: yellow dot = 末班车 (last train); no terminus colours"
+  },
+  "3-朝阳公园-3": {
+   "direction": "东坝北",
+   "service": "weekend",
+   "legend": {},
+   "note": "legend: yellow dot = 末班车 (last train); no terminus colours"
+  },
+  "3-朝阳公园-4": {
+   "direction": "东四十条",
+   "service": "weekend",
+   "legend": {},
+   "note": "legend: yellow dot = 末班车 (last train); no terminus colours"
+  },
+  "3-朝阳站-1": {
+   "direction": "东坝北",
+   "service": "weekday",
+   "legend": {},
+   "note": "legend: yellow dot = 末班车 (last train); no terminus colours"
+  },
+  "3-朝阳站-2": {
+   "direction": "东四十条",
+   "service": "weekday",
+   "legend": {},
+   "note": "legend: yellow dot = 末班车 (last train); no terminus colours"
+  },
+  "3-朝阳站-3": {
+   "direction": "东坝北",
+   "service": "weekend",
+   "legend": {},
+   "note": "legend: yellow dot = 末班车 (last train); no terminus colours"
+  },
+  "3-朝阳站-4": {
+   "direction": "东四十条",
+   "service": "weekend",
+   "legend": {},
+   "note": "legend: yellow dot = 末班车 (last train); no terminus colours"
+  },
+  "3-石佛营-1": {
+   "direction": "东坝北",
+   "service": "weekday",
+   "legend": {},
+   "note": "legend: yellow dot = 末班车 (last train); no terminus colours"
+  },
+  "3-石佛营-2": {
+   "direction": "东四十条",
+   "service": "weekday",
+   "legend": {},
+   "note": "legend: yellow dot = 末班车 (last train); no terminus colours"
+  },
+  "3-石佛营-3": {
+   "direction": "东坝北",
+   "service": "weekend",
+   "legend": {},
+   "note": "legend: yellow dot = 末班车 (last train); no terminus colours"
+  },
+  "3-石佛营-4": {
+   "direction": "东四十条",
+   "service": "weekend",
+   "legend": {},
+   "note": "legend: yellow dot = 末班车 (last train); no terminus colours"
+  }
+ }
+}

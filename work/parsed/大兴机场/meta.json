@@ -1,0 +1,17 @@
+{
+ "1": {"direction": "大兴机场", "service": "weekday", "legend": {}, "note": "平日 Ordinary Days; 3 images"},
+ "2": {"direction": "草桥", "service": "weekday", "legend": {}, "note": "3 images; service varies (see _images)"},
+ "3": {"direction": "大兴机场", "service": "key_guaranteed", "legend": {}, "note": "重点保障 (星期五及重点保障时期) Key Guaranteed Periods"},
+ "4": {"direction": "草桥", "service": "key_guaranteed", "legend": {}, "note": "重点保障 (星期五及重点保障时期) Key Guaranteed Periods"},
+ "_images": {
+  "大兴机场-大兴机场-1": {"direction": "草桥", "service": "weekday", "note": "机场站平日只有开往草桥方向"},
+  "大兴机场-大兴机场-2": {"direction": "草桥", "service": "key_guaranteed", "note": "重点保障"},
+  "大兴机场-草桥-2": {"direction": "大兴机场", "service": "key_guaranteed", "note": "重点保障"}
+ },
+ "_panels": {
+  "大兴机场-大兴新城-2": {
+   "0": {"direction": "草桥", "service": "weekday", "note": "平日主表 6:00-23:00"},
+   "1": {"direction": "草桥", "service": "sunday_extension", "note": "每周日23:00后延长运营时刻小表"}
+  }
+ }
+}

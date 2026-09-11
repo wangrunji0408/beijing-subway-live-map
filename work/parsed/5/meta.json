@@ -1,0 +1,36 @@
+{
+ "1": {
+  "direction": "宋家庄",
+  "service": "weekday",
+  "legend": {},
+  "note": "开往宋家庄站方向 工作日 Weekdays. No colour legend on these images."
+ },
+ "2": {
+  "direction": "天通苑北",
+  "service": "weekday",
+  "legend": {},
+  "note": "开往天通苑北站方向 工作日 Weekdays. No colour legend on these images."
+ },
+ "3": {
+  "direction": "宋家庄",
+  "service": "weekend",
+  "legend": {},
+  "note": "开往宋家庄站方向 双休日 Weekends. No colour legend on these images."
+ },
+ "4": {
+  "direction": "天通苑北",
+  "service": "weekend",
+  "legend": {},
+  "note": "开往天通苑北站方向 双休日 Weekends. No colour legend on these images."
+ },
+ "_images": {
+  "5-宋家庄-1": {"direction": "天通苑北", "service": "weekday",
+                  "note": "terminus: 开往天通苑北站方向 工作日"},
+  "5-宋家庄-2": {"direction": "天通苑北", "service": "weekend",
+                  "note": "terminus: 开往天通苑北站方向 双休日"},
+  "5-天通苑北-1": {"direction": "宋家庄", "service": "weekday",
+                    "note": "terminus: 开往宋家庄站方向 工作日"},
+  "5-天通苑北-2": {"direction": "宋家庄", "service": "weekend",
+                    "note": "terminus: 开往宋家庄站方向 双休日"}
+ }
+}

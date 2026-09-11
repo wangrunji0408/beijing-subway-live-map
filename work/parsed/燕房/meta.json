@@ -1,0 +1,12 @@
+{
+ "1": {"direction": "阎村东", "service": "weekday", "legend": {}, "note": "工作日 Workdays; 9 images"},
+ "2": {"direction": "燕山", "service": "weekday", "legend": {}, "note": "工作日 Workdays; 9 images"},
+ "3": {"direction": "阎村东", "service": "weekend", "legend": {}, "note": "双休日; 7 images"},
+ "4": {"direction": "燕山", "service": "weekend", "legend": {}, "note": "双休日; 7 images"},
+ "_images": {
+  "燕房-阎村东-1": {"direction": "燕山", "service": "weekday", "note": "阎村东为西端终点，仅开往燕山方向"},
+  "燕房-阎村东-2": {"direction": "燕山", "service": "weekend", "note": "双休日，仅开往燕山方向"},
+  "燕房-燕山-1": {"direction": "阎村东", "service": "weekday", "note": "燕山为东端终点，仅开往阎村东方向"},
+  "燕房-燕山-2": {"direction": "阎村东", "service": "weekend", "note": "双休日，仅开往阎村东方向"}
+ }
+}

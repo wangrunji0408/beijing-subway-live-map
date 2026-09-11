@@ -1,0 +1,31 @@
+{
+ "1": {
+  "direction": "昌平西山口",
+  "service": "weekday",
+  "legend": {"purple": "沙河高教园", "blue": "昌平东关", "yellow": "朱辛庄"},
+  "note": "开往昌平西山口站方向 工作日 (checked 六道口-1; 沙河-1 legend omits 朱辛庄)"
+ },
+ "2": {
+  "direction": "蓟门桥",
+  "service": "weekday",
+  "legend": {"purple": "沙河高教园", "blue": "昌平东关", "yellow": "朱辛庄"},
+  "note": "开往蓟门桥站方向 工作日"
+ },
+ "3": {
+  "direction": "昌平西山口",
+  "service": "weekend",
+  "legend": {"purple": "沙河高教园", "blue": "昌平东关", "yellow": "朱辛庄"},
+  "note": "开往昌平西山口站方向 双休日"
+ },
+ "4": {
+  "direction": "蓟门桥",
+  "service": "weekend",
+  "legend": {"purple": "沙河高教园", "blue": "昌平东关", "yellow": "朱辛庄"},
+  "note": "开往蓟门桥站方向 双休日"
+ },
+ "_images": {
+  "昌平-昌平西山口-1": {"direction": "蓟门桥", "service": "weekday", "note": "terminal station: only 开往蓟门桥站方向 工作日"},
+  "昌平-昌平西山口-2": {"direction": "蓟门桥", "service": "weekend", "note": "terminal station: only 开往蓟门桥站方向 双休日"},
+  "昌平-蓟门桥-2": {"direction": "昌平西山口", "service": "weekend", "note": "terminal station: only 开往昌平西山口站方向 双休日"}
+ }
+}

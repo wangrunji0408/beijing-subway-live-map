@@ -1,0 +1,4353 @@
+[
+ {
+  "source": "timetables/昌平-六道口-1.jpg",
+  "id": "昌平-六道口-1",
+  "n_times": 263,
+  "stats": {
+   "n": 263,
+   "n_hours": 19,
+   "median_gap": 3,
+   "max_gap": 11,
+   "min_gap": 2
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 1062,
+    "kind": "bad_minute",
+    "text": "97"
+   },
+   {
+    "row_y": 1062,
+    "kind": "repaired_swap",
+    "text": "65",
+    "fixed": "56"
+   },
+   {
+    "row_y": 1174,
+    "kind": "ocr_fail",
+    "text": "07029598111417902262323837404464750525557"
+   },
+   {
+    "row_y": 1287,
+    "kind": "repaired_swap",
+    "text": "90",
+    "fixed": "09"
+   },
+   {
+    "row_y": 1287,
+    "kind": "repaired_swap",
+    "text": "72",
+    "fixed": "27"
+   },
+   {
+    "row_y": 2291,
+    "kind": "ocr_fail",
+    "text": "1701050912172125233334142464851525658"
+   },
+   {
+    "row_y": 2403,
+    "kind": "ocr_fail",
+    "text": "18910396011131618242226283133338414746485152565"
+   },
+   {
+    "row_y": 2515,
+    "kind": "ocr_fail",
+    "text": "199103960811131618214222628313336384143464851575658"
+   }
+  ]
+ },
+ {
+  "source": "timetables/昌平-六道口-2.jpg",
+  "id": "昌平-六道口-2",
+  "n_times": 265,
+  "stats": {
+   "n": 265,
+   "n_hours": 19,
+   "median_gap": 3,
+   "max_gap": 11,
+   "min_gap": 2
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 1174,
+    "kind": "ocr_fail",
+    "text": "07000307101215182123262831323638414346485153558"
+   },
+   {
+    "row_y": 1286,
+    "kind": "repaired_swap",
+    "text": "92",
+    "fixed": "29"
+   },
+   {
+    "row_y": 1398,
+    "kind": "ocr_fail",
+    "text": "090193060810131511222422831333638414344851535658"
+   },
+   {
+    "row_y": 1509,
+    "kind": "repaired_swap",
+    "text": "71",
+    "fixed": "17"
+   },
+   {
+    "row_y": 1509,
+    "kind": "repaired_swap",
+    "text": "82",
+    "fixed": "28"
+   },
+   {
+    "row_y": 2180,
+    "kind": "ocr_fail",
+    "text": "14602122129354045505458"
+   },
+   {
+    "row_y": 2403,
+    "kind": "repaired_swap",
+    "text": "72",
+    "fixed": "27"
+   },
+   {
+    "row_y": 2403,
+    "kind": "repaired_swap",
+    "text": "93",
+    "fixed": "39"
+   },
+   {
+    "row_y": 2403,
+    "kind": "repaired_swap",
+    "text": "73",
+    "fixed": "37"
+   },
+   {
+    "row_y": 2403,
+    "kind": "repaired_swap",
+    "text": "94",
+    "fixed": "49"
+   },
+   {
+    "row_y": 2403,
+    "kind": "repaired_swap",
+    "text": "74",
+    "fixed": "47"
+   },
+   {
+    "row_y": 2515,
+    "kind": "repaired_swap",
+    "text": "94",
+    "fixed": "49"
+   },
+   {
+    "row_y": 2515,
+    "kind": "repaired_swap",
+    "text": "71",
+    "fixed": "17"
+   },
+   {
+    "row_y": 2627,
+    "kind": "repaired_swap",
+    "text": "92",
+    "fixed": "29"
+   },
+   {
+    "row_y": 2627,
+    "kind": "repaired_swap",
+    "text": "94",
+    "fixed": "49"
+   },
+   {
+    "row_y": 2627,
+    "kind": "repaired_swap",
+    "text": "72",
+    "fixed": "27"
+   },
+   {
+    "row_y": 2627,
+    "kind": "repaired_swap",
+    "text": "93",
+    "fixed": "39"
+   },
+   {
+    "row_y": 2627,
+    "kind": "repaired_swap",
+    "text": "73",
+    "fixed": "37"
+   },
+   {
+    "row_y": 2627,
+    "kind": "repaired_swap",
+    "text": "94",
+    "fixed": "49"
+   },
+   {
+    "row_y": 2627,
+    "kind": "repaired_swap",
+    "text": "74",
+    "fixed": "47"
+   },
+   {
+    "row_y": 2739,
+    "kind": "repaired_swap",
+    "text": "71",
+    "fixed": "17"
+   },
+   {
+    "row_y": 2739,
+    "kind": "repaired_swap",
+    "text": "82",
+    "fixed": "28"
+   }
+  ]
+ },
+ {
+  "source": "timetables/昌平-六道口-3.jpg",
+  "id": "昌平-六道口-3",
+  "n_times": 133,
+  "stats": {
+   "n": 133,
+   "n_hours": 19,
+   "median_gap": 8,
+   "max_gap": 31,
+   "min_gap": 5
+  },
+  "issues": [
+   {
+    "kind": "gap_large",
+    "gap": 24,
+    "at": "05:23->05:47",
+    "msg": "gap 24 min exceeds 18 (possible missed train)"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 31,
+    "at": "08:00->08:31",
+    "msg": "gap 31 min exceeds 18 (possible missed train)"
+   }
+  ],
+  "flags": [
+   {
+    "row_y": 1175,
+    "kind": "ocr_fail",
+    "text": "0413213038463883"
+   },
+   {
+    "row_y": 1287,
+    "kind": "repaired_swap",
+    "text": "71",
+    "fixed": "17"
+   },
+   {
+    "row_y": 1287,
+    "kind": "repaired_swap",
+    "text": "92",
+    "fixed": "29"
+   },
+   {
+    "row_y": 1398,
+    "kind": "ocr_fail",
+    "text": "0107131825313743495"
+   },
+   {
+    "row_y": 2180,
+    "kind": "ocr_fail",
+    "text": "0311192836453883"
+   },
+   {
+    "row_y": 2292,
+    "kind": "ocr_fail",
+    "text": "01101926333945351388"
+   },
+   {
+    "row_y": 2404,
+    "kind": "ocr_fail",
+    "text": "030915212733394551457"
+   },
+   {
+    "row_y": 2515,
+    "kind": "ocr_fail",
+    "text": "0309152127333945351357"
+   },
+   {
+    "row_y": 2739,
+    "kind": "ocr_fail",
+    "text": "020918263543452"
+   }
+  ]
+ },
+ {
+  "source": "timetables/昌平-六道口-4.jpg",
+  "id": "昌平-六道口-4",
+  "n_times": 142,
+  "stats": {
+   "n": 142,
+   "n_hours": 19,
+   "median_gap": 8,
+   "max_gap": 17,
+   "min_gap": 6
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 1064,
+    "kind": "ocr_fail",
+    "text": "0210192834654"
+   },
+   {
+    "row_y": 1622,
+    "kind": "ocr_fail",
+    "text": "0210192736443583"
+   },
+   {
+    "row_y": 1733,
+    "kind": "repaired_swap",
+    "text": "82",
+    "fixed": "28"
+   },
+   {
+    "row_y": 1845,
+    "kind": "ocr_fail",
+    "text": "010918263543492"
+   },
+   {
+    "row_y": 1956,
+    "kind": "ocr_fail",
+    "text": "0009172344251"
+   },
+   {
+    "row_y": 2403,
+    "kind": "ocr_fail",
+    "text": "0309152127333945517"
+   },
+   {
+    "row_y": 2514,
+    "kind": "ocr_fail",
+    "text": "030915212733394535157"
+   },
+   {
+    "row_y": 2849,
+    "kind": "ocr_fail",
+    "text": "081625334250459"
+   }
+  ]
+ },
+ {
+  "source": "timetables/昌平-北邵洼-1.jpg",
+  "id": "昌平-北邵洼-1",
+  "n_times": 192,
+  "stats": {
+   "n": 192,
+   "n_hours": 20,
+   "median_gap": 5,
+   "max_gap": 324,
+   "min_gap": 2
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 1398,
+    "kind": "ocr_fail",
+    "text": "09000471113162022272923463706430665506657"
+   }
+  ]
+ },
+ {
+  "source": "timetables/昌平-北邵洼-2.jpg",
+  "id": "昌平-北邵洼-2",
+  "n_times": 192,
+  "stats": {
+   "n": 192,
+   "n_hours": 19,
+   "median_gap": 5,
+   "max_gap": 10,
+   "min_gap": 2
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 1174,
+    "kind": "ocr_fail",
+    "text": "070205101217202427293336441434474504550657659"
+   },
+   {
+    "row_y": 1286,
+    "kind": "ocr_fail",
+    "text": "0802061113417202527229330636066410643066470665006655557"
+   },
+   {
+    "row_y": 2625,
+    "kind": "ocr_fail",
+    "text": "2004712141942242763464306650658"
+   }
+  ]
+ },
+ {
+  "source": "timetables/昌平-北邵洼-3.jpg",
+  "id": "昌平-北邵洼-3",
+  "n_times": 140,
+  "stats": {
+   "n": 140,
+   "n_hours": 19,
+   "median_gap": 8,
+   "max_gap": 18,
+   "min_gap": 5
+  },
+  "issues": [
+   {
+    "kind": "gap_large",
+    "gap": 18,
+    "at": "05:51->06:09",
+    "msg": "gap 18 min exceeds 18 (possible missed train)"
+   }
+  ],
+  "flags": [
+   {
+    "row_y": 2293,
+    "kind": "ocr_fail",
+    "text": "011018273543952"
+   },
+   {
+    "row_y": 2405,
+    "kind": "ocr_fail",
+    "text": "010815222834404652538"
+   },
+   {
+    "row_y": 2740,
+    "kind": "ocr_fail",
+    "text": "041016233037444652"
+   }
+  ]
+ },
+ {
+  "source": "timetables/昌平-北邵洼-4.jpg",
+  "id": "昌平-北邵洼-4",
+  "n_times": 146,
+  "stats": {
+   "n": 146,
+   "n_hours": 19,
+   "median_gap": 8,
+   "max_gap": 18,
+   "min_gap": 2
+  },
+  "issues": [
+   {
+    "kind": "gap_large",
+    "gap": 18,
+    "at": "22:34->22:52",
+    "msg": "gap 18 min exceeds 18 (possible missed train)"
+   }
+  ],
+  "flags": [
+   {
+    "row_y": 953,
+    "kind": "ocr_fail",
+    "text": "1019273645954"
+   },
+   {
+    "row_y": 1176,
+    "kind": "repaired_swap",
+    "text": "72",
+    "fixed": "27"
+   },
+   {
+    "row_y": 1287,
+    "kind": "repaired_swap",
+    "text": "72",
+    "fixed": "27"
+   },
+   {
+    "row_y": 1399,
+    "kind": "ocr_fail",
+    "text": "05111825323946454"
+   },
+   {
+    "row_y": 1956,
+    "kind": "ocr_fail",
+    "text": "00081726344251359"
+   },
+   {
+    "row_y": 2068,
+    "kind": "ocr_fail",
+    "text": "0816253342350359"
+   },
+   {
+    "row_y": 2625,
+    "kind": "ocr_fail",
+    "text": "010817234425189"
+   },
+   {
+    "row_y": 2737,
+    "kind": "ocr_fail",
+    "text": "0816253342350359"
+   }
+  ]
+ },
+ {
+  "source": "timetables/昌平-十三陵景区-1.jpg",
+  "id": "昌平-十三陵景区-1",
+  "n_times": 168,
+  "stats": {
+   "n": 168,
+   "n_hours": 19,
+   "median_gap": 7,
+   "max_gap": 11,
+   "min_gap": 2
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 2516,
+    "kind": "ocr_fail",
+    "text": "1490008152330384553"
+   },
+   {
+    "row_y": 2851,
+    "kind": "ocr_fail",
+    "text": "22030509126151922323186404785"
+   }
+  ]
+ },
+ {
+  "source": "timetables/昌平-十三陵景区-2.jpg",
+  "id": "昌平-十三陵景区-2",
+  "n_times": 156,
+  "stats": {
+   "n": 156,
+   "n_hours": 18,
+   "median_gap": 7,
+   "max_gap": 11,
+   "min_gap": 2
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 1063,
+    "kind": "ocr_fail",
+    "text": "06000509131720244283343824144648245356"
+   },
+   {
+    "row_y": 2626,
+    "kind": "repaired_swap",
+    "text": "82",
+    "fixed": "28"
+   }
+  ]
+ },
+ {
+  "source": "timetables/昌平-十三陵景区-3.jpg",
+  "id": "昌平-十三陵景区-3",
+  "n_times": 136,
+  "stats": {
+   "n": 136,
+   "n_hours": 20,
+   "median_gap": 8,
+   "max_gap": 333,
+   "min_gap": 2
+  },
+  "issues": [
+   {
+    "kind": "gap_large",
+    "gap": 18,
+    "at": "05:52->06:10",
+    "msg": "gap 18 min exceeds 18 (possible missed train)"
+   }
+  ],
+  "flags": [
+   {
+    "row_y": 1288,
+    "kind": "repaired_swap",
+    "text": "74",
+    "fixed": "47"
+   },
+   {
+    "row_y": 2293,
+    "kind": "ocr_fail",
+    "text": "021119283645583"
+   },
+   {
+    "row_y": 2405,
+    "kind": "repaired_swap",
+    "text": "95",
+    "fixed": "59"
+   },
+   {
+    "row_y": 2517,
+    "kind": "repaired_swap",
+    "text": "74",
+    "fixed": "47"
+   },
+   {
+    "row_y": 2628,
+    "kind": "repaired_swap",
+    "text": "74",
+    "fixed": "47"
+   }
+  ]
+ },
+ {
+  "source": "timetables/昌平-十三陵景区-4.jpg",
+  "id": "昌平-十三陵景区-4",
+  "n_times": 140,
+  "stats": {
+   "n": 140,
+   "n_hours": 19,
+   "median_gap": 8,
+   "max_gap": 26,
+   "min_gap": 5
+  },
+  "issues": [
+   {
+    "kind": "gap_large",
+    "gap": 25,
+    "at": "05:11->05:36",
+    "msg": "gap 25 min exceeds 18 (possible missed train)"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 25,
+    "at": "10:44->11:09",
+    "msg": "gap 25 min exceeds 18 (possible missed train)"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 18,
+    "at": "21:58->22:16",
+    "msg": "gap 18 min exceeds 18 (possible missed train)"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 26,
+    "at": "22:43->23:09",
+    "msg": "gap 26 min exceeds 18 (possible missed train)"
+   }
+  ],
+  "flags": [
+   {
+    "row_y": 953,
+    "kind": "repaired_swap",
+    "text": "82",
+    "fixed": "28"
+   },
+   {
+    "row_y": 1400,
+    "kind": "repaired_swap",
+    "text": "83",
+    "fixed": "38"
+   },
+   {
+    "row_y": 1511,
+    "kind": "repaired_swap",
+    "text": "82",
+    "fixed": "28"
+   },
+   {
+    "row_y": 1623,
+    "kind": "repaired_swap",
+    "text": "82",
+    "fixed": "28"
+   },
+   {
+    "row_y": 1735,
+    "kind": "ocr_fail",
+    "text": "0009172344351"
+   },
+   {
+    "row_y": 1847,
+    "kind": "bad_minute",
+    "text": "89"
+   },
+   {
+    "row_y": 2070,
+    "kind": "ocr_fail",
+    "text": "071524334145058"
+   },
+   {
+    "row_y": 2294,
+    "kind": "ocr_fail",
+    "text": "051017229354147352389"
+   },
+   {
+    "row_y": 2405,
+    "kind": "repaired_swap",
+    "text": "93",
+    "fixed": "39"
+   },
+   {
+    "row_y": 2405,
+    "kind": "repaired_swap",
+    "text": "73",
+    "fixed": "37"
+   },
+   {
+    "row_y": 2517,
+    "kind": "ocr_fail",
+    "text": "0511172330374451389"
+   },
+   {
+    "row_y": 2629,
+    "kind": "ocr_fail",
+    "text": "071625334250359"
+   },
+   {
+    "row_y": 2740,
+    "kind": "ocr_fail",
+    "text": "0716243341350388"
+   },
+   {
+    "row_y": 2852,
+    "kind": "repaired_swap",
+    "text": "82",
+    "fixed": "28"
+   }
+  ]
+ },
+ {
+  "source": "timetables/昌平-南邵-1.jpg",
+  "id": "昌平-南邵-1",
+  "n_times": 192,
+  "stats": {
+   "n": 192,
+   "n_hours": 20,
+   "median_gap": 5,
+   "max_gap": 323,
+   "min_gap": 2
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 1175,
+    "kind": "ocr_fail",
+    "text": "0708121824273339424485457"
+   },
+   {
+    "row_y": 1286,
+    "kind": "ocr_fail",
+    "text": "08030912172024273234394244704492045457"
+   },
+   {
+    "row_y": 2516,
+    "kind": "ocr_fail",
+    "text": "190306111318212628333641434825145658"
+   },
+   {
+    "row_y": 2628,
+    "kind": "ocr_fail",
+    "text": "20030611131832126228633063866410664306648515658"
+   }
+  ]
+ },
+ {
+  "source": "timetables/昌平-南邵-2.jpg",
+  "id": "昌平-南邵-2",
+  "n_times": 192,
+  "stats": {
+   "n": 192,
+   "n_hours": 19,
+   "median_gap": 5,
+   "max_gap": 10,
+   "min_gap": 2
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 1286,
+    "kind": "ocr_fail",
+    "text": "0800020609131620232730323723944306446665006520657"
+   },
+   {
+    "row_y": 2290,
+    "kind": "ocr_fail",
+    "text": "17020712172227320370663906470652657"
+   }
+  ]
+ },
+ {
+  "source": "timetables/昌平-南邵-3.jpg",
+  "id": "昌平-南邵-3",
+  "n_times": 140,
+  "stats": {
+   "n": 140,
+   "n_hours": 19,
+   "median_gap": 8,
+   "max_gap": 20,
+   "min_gap": 1
+  },
+  "issues": [
+   {
+    "kind": "gap_small",
+    "gap": 1,
+    "at": "10:38->10:39",
+    "msg": "gap 1 min is below 2"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 20,
+    "at": "11:02->11:22",
+    "msg": "gap 20 min exceeds 18 (possible missed train)"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 18,
+    "at": "11:51->12:09",
+    "msg": "gap 18 min exceeds 18 (possible missed train)"
+   }
+  ],
+  "flags": [
+   {
+    "row_y": 1063,
+    "kind": "ocr_fail",
+    "text": "06162635444982"
+   },
+   {
+    "row_y": 1175,
+    "kind": "ocr_fail",
+    "text": "0109172354382"
+   },
+   {
+    "row_y": 1287,
+    "kind": "repaired_swap",
+    "text": "72",
+    "fixed": "27"
+   },
+   {
+    "row_y": 1287,
+    "kind": "bad_minute",
+    "text": "88"
+   },
+   {
+    "row_y": 1399,
+    "kind": "ocr_fail",
+    "text": "041015222834404635297"
+   },
+   {
+    "row_y": 1622,
+    "kind": "repaired_swap",
+    "text": "82",
+    "fixed": "28"
+   },
+   {
+    "row_y": 1957,
+    "kind": "ocr_fail",
+    "text": "0008162344351"
+   },
+   {
+    "row_y": 2069,
+    "kind": "repaired_swap",
+    "text": "81",
+    "fixed": "18"
+   },
+   {
+    "row_y": 2069,
+    "kind": "repaired_swap",
+    "text": "62",
+    "fixed": "26"
+   },
+   {
+    "row_y": 2181,
+    "kind": "ocr_fail",
+    "text": "071524334235058"
+   },
+   {
+    "row_y": 2516,
+    "kind": "ocr_fail",
+    "text": "000612182430364248934"
+   },
+   {
+    "row_y": 2628,
+    "kind": "ocr_fail",
+    "text": "000612182430364248934"
+   }
+  ]
+ },
+ {
+  "source": "timetables/昌平-南邵-4.jpg",
+  "id": "昌平-南邵-4",
+  "n_times": 132,
+  "stats": {
+   "n": 132,
+   "n_hours": 19,
+   "median_gap": 8,
+   "max_gap": 26,
+   "min_gap": 5
+  },
+  "issues": [
+   {
+    "kind": "gap_large",
+    "gap": 26,
+    "at": "11:46->12:12",
+    "msg": "gap 26 min exceeds 18 (possible missed train)"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 21,
+    "at": "19:50->20:11",
+    "msg": "gap 21 min exceeds 18 (possible missed train)"
+   }
+  ],
+  "flags": [
+   {
+    "row_y": 1398,
+    "kind": "ocr_fail",
+    "text": "02081421283542497"
+   },
+   {
+    "row_y": 1621,
+    "kind": "repaired_swap",
+    "text": "95",
+    "fixed": "59"
+   },
+   {
+    "row_y": 1732,
+    "kind": "repaired_swap",
+    "text": "95",
+    "fixed": "59"
+   }
+  ]
+ },
+ {
+  "source": "timetables/昌平-学知园-1.jpg",
+  "id": "昌平-学知园-1",
+  "n_times": 263,
+  "stats": {
+   "n": 263,
+   "n_hours": 19,
+   "median_gap": 3,
+   "max_gap": 11,
+   "min_gap": 2
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 1063,
+    "kind": "ocr_fail",
+    "text": "0606142702530343841444750525659"
+   },
+   {
+    "row_y": 1174,
+    "kind": "repaired_swap",
+    "text": "92",
+    "fixed": "29"
+   },
+   {
+    "row_y": 1174,
+    "kind": "repaired_swap",
+    "text": "93",
+    "fixed": "39"
+   },
+   {
+    "row_y": 1174,
+    "kind": "repaired_swap",
+    "text": "84",
+    "fixed": "48"
+   },
+   {
+    "row_y": 1286,
+    "kind": "ocr_fail",
+    "text": "089021305181013151820272252730323436394143454850525557"
+   },
+   {
+    "row_y": 1399,
+    "kind": "bad_minute",
+    "text": "99"
+   },
+   {
+    "row_y": 1846,
+    "kind": "ocr_fail",
+    "text": "143071727374757"
+   },
+   {
+    "row_y": 2293,
+    "kind": "repaired_swap",
+    "text": "90",
+    "fixed": "09"
+   },
+   {
+    "row_y": 2516,
+    "kind": "repaired_swap",
+    "text": "91",
+    "fixed": "19"
+   }
+  ]
+ },
+ {
+  "source": "timetables/昌平-学知园-2.jpg",
+  "id": "昌平-学知园-2",
+  "n_times": 265,
+  "stats": {
+   "n": 265,
+   "n_hours": 19,
+   "median_gap": 3,
+   "max_gap": 10,
+   "min_gap": 1
+  },
+  "issues": [
+   {
+    "kind": "gap_small",
+    "gap": 1,
+    "at": "07:51->07:52",
+    "msg": "gap 1 min is below 2"
+   }
+  ],
+  "flags": [
+   {
+    "row_y": 1287,
+    "kind": "ocr_fail",
+    "text": "08110306981012151719271274262831333638404245474951545658"
+   },
+   {
+    "row_y": 1510,
+    "kind": "repaired_swap",
+    "text": "74",
+    "fixed": "47"
+   }
+  ]
+ },
+ {
+  "source": "timetables/昌平-学知园-3.jpg",
+  "id": "昌平-学知园-3",
+  "n_times": 135,
+  "stats": {
+   "n": 135,
+   "n_hours": 19,
+   "median_gap": 8,
+   "max_gap": 17,
+   "min_gap": 6
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 952,
+    "kind": "ocr_fail",
+    "text": "293949359"
+   },
+   {
+    "row_y": 1511,
+    "kind": "ocr_fail",
+    "text": "0309152229364335159"
+   },
+   {
+    "row_y": 1623,
+    "kind": "ocr_fail",
+    "text": "071624334135058"
+   }
+  ]
+ },
+ {
+  "source": "timetables/昌平-学知园-4.jpg",
+  "id": "昌平-学知园-4",
+  "n_times": 142,
+  "stats": {
+   "n": 142,
+   "n_hours": 19,
+   "median_gap": 8,
+   "max_gap": 19,
+   "min_gap": 5
+  },
+  "issues": [
+   {
+    "kind": "gap_large",
+    "gap": 19,
+    "at": "22:56->23:15",
+    "msg": "gap 19 min exceeds 18 (possible missed train)"
+   }
+  ],
+  "flags": [
+   {
+    "row_y": 1065,
+    "kind": "ocr_fail",
+    "text": "000817263543452"
+   },
+   {
+    "row_y": 1176,
+    "kind": "repaired_swap",
+    "text": "72",
+    "fixed": "27"
+   },
+   {
+    "row_y": 1400,
+    "kind": "ocr_fail",
+    "text": "041016212834404632388"
+   },
+   {
+    "row_y": 1623,
+    "kind": "ocr_fail",
+    "text": "081625334150459"
+   },
+   {
+    "row_y": 1847,
+    "kind": "ocr_fail",
+    "text": "071524324049538"
+   },
+   {
+    "row_y": 1958,
+    "kind": "ocr_fail",
+    "text": "061423324049357"
+   },
+   {
+    "row_y": 2070,
+    "kind": "ocr_fail",
+    "text": "061423313948357"
+   },
+   {
+    "row_y": 2294,
+    "kind": "ocr_fail",
+    "text": "0412182431364248934"
+   },
+   {
+    "row_y": 2405,
+    "kind": "ocr_fail",
+    "text": "000612182431364248934"
+   },
+   {
+    "row_y": 2517,
+    "kind": "ocr_fail",
+    "text": "010612182431364248934"
+   },
+   {
+    "row_y": 2629,
+    "kind": "ocr_fail",
+    "text": "0006122027344148357"
+   },
+   {
+    "row_y": 2740,
+    "kind": "ocr_fail",
+    "text": "051422314048357"
+   }
+  ]
+ },
+ {
+  "source": "timetables/昌平-学院桥-1.jpg",
+  "id": "昌平-学院桥-1",
+  "n_times": 263,
+  "stats": {
+   "n": 263,
+   "n_hours": 19,
+   "median_gap": 3,
+   "max_gap": 11,
+   "min_gap": 2
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 1063,
+    "kind": "repaired_swap",
+    "text": "75",
+    "fixed": "57"
+   },
+   {
+    "row_y": 1175,
+    "kind": "repaired_swap",
+    "text": "70",
+    "fixed": "07"
+   },
+   {
+    "row_y": 1287,
+    "kind": "repaired_swap",
+    "text": "95",
+    "fixed": "59"
+   },
+   {
+    "row_y": 1845,
+    "kind": "ocr_fail",
+    "text": "143021222324252"
+   },
+   {
+    "row_y": 2292,
+    "kind": "repaired_swap",
+    "text": "92",
+    "fixed": "29"
+   },
+   {
+    "row_y": 2292,
+    "kind": "bad_minute",
+    "text": "76"
+   },
+   {
+    "row_y": 2403,
+    "kind": "repaired_swap",
+    "text": "93",
+    "fixed": "39"
+   },
+   {
+    "row_y": 2403,
+    "kind": "bad_minute",
+    "text": "96"
+   }
+  ]
+ },
+ {
+  "source": "timetables/昌平-学院桥-2.jpg",
+  "id": "昌平-学院桥-2",
+  "n_times": 265,
+  "stats": {
+   "n": 265,
+   "n_hours": 19,
+   "median_gap": 3,
+   "max_gap": 10,
+   "min_gap": 2
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 1175,
+    "kind": "repaired_swap",
+    "text": "70",
+    "fixed": "07"
+   },
+   {
+    "row_y": 1175,
+    "kind": "repaired_swap",
+    "text": "91",
+    "fixed": "19"
+   },
+   {
+    "row_y": 1175,
+    "kind": "repaired_swap",
+    "text": "72",
+    "fixed": "27"
+   },
+   {
+    "row_y": 1175,
+    "kind": "repaired_swap",
+    "text": "62",
+    "fixed": "26"
+   },
+   {
+    "row_y": 1175,
+    "kind": "repaired_swap",
+    "text": "83",
+    "fixed": "38"
+   },
+   {
+    "row_y": 1286,
+    "kind": "ocr_fail",
+    "text": "080103060811131517202224220313333841434547505254559"
+   },
+   {
+    "row_y": 1509,
+    "kind": "repaired_swap",
+    "text": "61",
+    "fixed": "16"
+   },
+   {
+    "row_y": 1509,
+    "kind": "repaired_swap",
+    "text": "72",
+    "fixed": "27"
+   },
+   {
+    "row_y": 2404,
+    "kind": "ocr_fail",
+    "text": "1801040609111416192124262931343639414446495154565"
+   },
+   {
+    "row_y": 2515,
+    "kind": "ocr_fail",
+    "text": "1901040609111416192124262031343639414446495154565"
+   },
+   {
+    "row_y": 2627,
+    "kind": "ocr_fail",
+    "text": "2001040609111416192124262031343639414446495154565"
+   },
+   {
+    "row_y": 2739,
+    "kind": "repaired_swap",
+    "text": "61",
+    "fixed": "16"
+   },
+   {
+    "row_y": 2739,
+    "kind": "repaired_swap",
+    "text": "72",
+    "fixed": "27"
+   }
+  ]
+ },
+ {
+  "source": "timetables/昌平-学院桥-3.jpg",
+  "id": "昌平-学院桥-3",
+  "n_times": 133,
+  "stats": {
+   "n": 133,
+   "n_hours": 19,
+   "median_gap": 8,
+   "max_gap": 17,
+   "min_gap": 4
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 953,
+    "kind": "ocr_fail",
+    "text": "244344494"
+   },
+   {
+    "row_y": 1176,
+    "kind": "repaired_swap",
+    "text": "64",
+    "fixed": "46"
+   },
+   {
+    "row_y": 1511,
+    "kind": "ocr_fail",
+    "text": "04101172431384654"
+   },
+   {
+    "row_y": 1734,
+    "kind": "ocr_fail",
+    "text": "0210192736448533"
+   },
+   {
+    "row_y": 1846,
+    "kind": "ocr_fail",
+    "text": "011018273544652"
+   },
+   {
+    "row_y": 1958,
+    "kind": "ocr_fail",
+    "text": "010918263543452"
+   },
+   {
+    "row_y": 2181,
+    "kind": "repaired_swap",
+    "text": "81",
+    "fixed": "18"
+   },
+   {
+    "row_y": 2181,
+    "kind": "repaired_swap",
+    "text": "72",
+    "fixed": "27"
+   },
+   {
+    "row_y": 2404,
+    "kind": "repaired_swap",
+    "text": "74",
+    "fixed": "47"
+   },
+   {
+    "row_y": 2516,
+    "kind": "repaired_swap",
+    "text": "71",
+    "fixed": "17"
+   },
+   {
+    "row_y": 2516,
+    "kind": "repaired_swap",
+    "text": "92",
+    "fixed": "29"
+   },
+   {
+    "row_y": 2628,
+    "kind": "ocr_fail",
+    "text": "01071319231384582"
+   },
+   {
+    "row_y": 2740,
+    "kind": "ocr_fail",
+    "text": "000716243341935058"
+   }
+  ]
+ },
+ {
+  "source": "timetables/昌平-学院桥-4.jpg",
+  "id": "昌平-学院桥-4",
+  "n_times": 138,
+  "stats": {
+   "n": 138,
+   "n_hours": 19,
+   "median_gap": 8,
+   "max_gap": 18,
+   "min_gap": 5
+  },
+  "issues": [
+   {
+    "kind": "gap_large",
+    "gap": 18,
+    "at": "10:55->11:13",
+    "msg": "gap 18 min exceeds 18 (possible missed train)"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 18,
+    "at": "12:54->13:12",
+    "msg": "gap 18 min exceeds 18 (possible missed train)"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 18,
+    "at": "22:52->23:10",
+    "msg": "gap 18 min exceeds 18 (possible missed train)"
+   }
+  ],
+  "flags": [
+   {
+    "row_y": 2402,
+    "kind": "ocr_fail",
+    "text": "051117232936414753459"
+   }
+  ]
+ },
+ {
+  "source": "timetables/昌平-巩华城-1.jpg",
+  "id": "昌平-巩华城-1",
+  "n_times": 244,
+  "stats": {
+   "n": 244,
+   "n_hours": 19,
+   "median_gap": 3,
+   "max_gap": 11,
+   "min_gap": 2
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 836,
+    "kind": "repaired_swap",
+    "text": "91",
+    "fixed": "19"
+   },
+   {
+    "row_y": 836,
+    "kind": "repaired_swap",
+    "text": "95",
+    "fixed": "59"
+   },
+   {
+    "row_y": 914,
+    "kind": "bad_minute",
+    "text": "69"
+   },
+   {
+    "row_y": 914,
+    "kind": "repaired_swap",
+    "text": "91",
+    "fixed": "19"
+   },
+   {
+    "row_y": 914,
+    "kind": "repaired_swap",
+    "text": "61",
+    "fixed": "16"
+   },
+   {
+    "row_y": 914,
+    "kind": "repaired_swap",
+    "text": "92",
+    "fixed": "29"
+   },
+   {
+    "row_y": 914,
+    "kind": "repaired_swap",
+    "text": "74",
+    "fixed": "47"
+   },
+   {
+    "row_y": 994,
+    "kind": "ocr_fail",
+    "text": "0900020507091114161921232630323734449515658"
+   },
+   {
+    "row_y": 1705,
+    "kind": "repaired_swap",
+    "text": "80",
+    "fixed": "08"
+   },
+   {
+    "row_y": 1705,
+    "kind": "repaired_swap",
+    "text": "81",
+    "fixed": "18"
+   },
+   {
+    "row_y": 1705,
+    "kind": "repaired_swap",
+    "text": "82",
+    "fixed": "28"
+   },
+   {
+    "row_y": 1705,
+    "kind": "repaired_swap",
+    "text": "83",
+    "fixed": "38"
+   },
+   {
+    "row_y": 1705,
+    "kind": "repaired_swap",
+    "text": "84",
+    "fixed": "48"
+   }
+  ]
+ },
+ {
+  "source": "timetables/昌平-巩华城-2.jpg",
+  "id": "昌平-巩华城-2",
+  "n_times": 243,
+  "stats": {
+   "n": 243,
+   "n_hours": 19,
+   "median_gap": 3,
+   "max_gap": 10,
+   "min_gap": 2
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 835,
+    "kind": "repaired_swap",
+    "text": "81",
+    "fixed": "18"
+   },
+   {
+    "row_y": 835,
+    "kind": "repaired_swap",
+    "text": "61",
+    "fixed": "16"
+   },
+   {
+    "row_y": 835,
+    "kind": "repaired_swap",
+    "text": "82",
+    "fixed": "28"
+   },
+   {
+    "row_y": 835,
+    "kind": "bad_minute",
+    "text": "67"
+   },
+   {
+    "row_y": 835,
+    "kind": "repaired_swap",
+    "text": "83",
+    "fixed": "38"
+   },
+   {
+    "row_y": 835,
+    "kind": "repaired_swap",
+    "text": "63",
+    "fixed": "36"
+   },
+   {
+    "row_y": 835,
+    "kind": "repaired_swap",
+    "text": "84",
+    "fixed": "48"
+   },
+   {
+    "row_y": 1623,
+    "kind": "ocr_fail",
+    "text": "1702071217222732374245475065257"
+   },
+   {
+    "row_y": 1859,
+    "kind": "repaired_swap",
+    "text": "71",
+    "fixed": "17"
+   },
+   {
+    "row_y": 1859,
+    "kind": "repaired_swap",
+    "text": "72",
+    "fixed": "27"
+   },
+   {
+    "row_y": 2176,
+    "kind": "ocr_fail",
+    "text": "0090"
+   }
+  ]
+ },
+ {
+  "source": "timetables/昌平-巩华城-3.jpg",
+  "id": "昌平-巩华城-3",
+  "n_times": 140,
+  "stats": {
+   "n": 140,
+   "n_hours": 19,
+   "median_gap": 8,
+   "max_gap": 17,
+   "min_gap": 2
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 994,
+    "kind": "repaired_swap",
+    "text": "72",
+    "fixed": "27"
+   },
+   {
+    "row_y": 1074,
+    "kind": "repaired_swap",
+    "text": "72",
+    "fixed": "27"
+   },
+   {
+    "row_y": 1784,
+    "kind": "repaired_swap",
+    "text": "92",
+    "fixed": "29"
+   },
+   {
+    "row_y": 1784,
+    "kind": "repaired_swap",
+    "text": "74",
+    "fixed": "47"
+   }
+  ]
+ },
+ {
+  "source": "timetables/昌平-巩华城-4.jpg",
+  "id": "昌平-巩华城-4",
+  "n_times": 135,
+  "stats": {
+   "n": 135,
+   "n_hours": 19,
+   "median_gap": 8,
+   "max_gap": 21,
+   "min_gap": 1
+  },
+  "issues": [
+   {
+    "kind": "gap_large",
+    "gap": 19,
+    "at": "06:23->06:42",
+    "msg": "gap 19 min exceeds 18 (possible missed train)"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 21,
+    "at": "09:10->09:31",
+    "msg": "gap 21 min exceeds 18 (possible missed train)"
+   },
+   {
+    "kind": "gap_small",
+    "gap": 1,
+    "at": "09:31->09:32",
+    "msg": "gap 1 min is below 2"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 18,
+    "at": "11:57->12:15",
+    "msg": "gap 18 min exceeds 18 (possible missed train)"
+   }
+  ],
+  "flags": [
+   {
+    "row_y": 915,
+    "kind": "repaired_swap",
+    "text": "81",
+    "fixed": "18"
+   },
+   {
+    "row_y": 915,
+    "kind": "repaired_swap",
+    "text": "92",
+    "fixed": "29"
+   },
+   {
+    "row_y": 994,
+    "kind": "repaired_swap",
+    "text": "71",
+    "fixed": "17"
+   },
+   {
+    "row_y": 994,
+    "kind": "repaired_swap",
+    "text": "92",
+    "fixed": "29"
+   },
+   {
+    "row_y": 2017,
+    "kind": "ocr_fail",
+    "text": "0413213039495"
+   }
+  ]
+ },
+ {
+  "source": "timetables/昌平-昌平-1.jpg",
+  "id": "昌平-昌平-1",
+  "n_times": 168,
+  "stats": {
+   "n": 168,
+   "n_hours": 19,
+   "median_gap": 7,
+   "max_gap": 11,
+   "min_gap": 2
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 1511,
+    "kind": "ocr_fail",
+    "text": "1002071014164192325303540455055"
+   },
+   {
+    "row_y": 1735,
+    "kind": "ocr_fail",
+    "text": "142031222324252"
+   },
+   {
+    "row_y": 2628,
+    "kind": "ocr_fail",
+    "text": "2004121922272934374244494525759"
+   }
+  ]
+ },
+ {
+  "source": "timetables/昌平-昌平-2.jpg",
+  "id": "昌平-昌平-2",
+  "n_times": 164,
+  "stats": {
+   "n": 164,
+   "n_hours": 19,
+   "median_gap": 7,
+   "max_gap": 10,
+   "min_gap": 2
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 952,
+    "kind": "ocr_fail",
+    "text": "050513172226313539444745256"
+   },
+   {
+    "row_y": 1733,
+    "kind": "ocr_fail",
+    "text": "142041424344454"
+   },
+   {
+    "row_y": 2963,
+    "kind": "ocr_fail",
+    "text": "2304134223141"
+   }
+  ]
+ },
+ {
+  "source": "timetables/昌平-昌平-3.jpg",
+  "id": "昌平-昌平-3",
+  "n_times": 139,
+  "stats": {
+   "n": 139,
+   "n_hours": 20,
+   "median_gap": 8,
+   "max_gap": 323,
+   "min_gap": 1
+  },
+  "issues": [
+   {
+    "kind": "gap_large",
+    "gap": 26,
+    "at": "05:48->06:14",
+    "msg": "gap 26 min exceeds 18 (possible missed train)"
+   },
+   {
+    "kind": "gap_small",
+    "gap": 1,
+    "at": "18:13->18:14",
+    "msg": "gap 1 min is below 2"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 22,
+    "at": "18:33->18:55",
+    "msg": "gap 22 min exceeds 18 (possible missed train)"
+   }
+  ],
+  "flags": [
+   {
+    "row_y": 1621,
+    "kind": "ocr_fail",
+    "text": "00071421283644452"
+   },
+   {
+    "row_y": 1733,
+    "kind": "ocr_fail",
+    "text": "0109182635434652"
+   },
+   {
+    "row_y": 1844,
+    "kind": "ocr_fail",
+    "text": "0009172344351"
+   },
+   {
+    "row_y": 2067,
+    "kind": "ocr_fail",
+    "text": "0816233425039"
+   },
+   {
+    "row_y": 2290,
+    "kind": "ocr_fail",
+    "text": "071524324149358"
+   },
+   {
+    "row_y": 2402,
+    "kind": "repaired_swap",
+    "text": "94",
+    "fixed": "49"
+   },
+   {
+    "row_y": 2513,
+    "kind": "repaired_swap",
+    "text": "94",
+    "fixed": "49"
+   },
+   {
+    "row_y": 2736,
+    "kind": "ocr_fail",
+    "text": "03091521283542497"
+   }
+  ]
+ },
+ {
+  "source": "timetables/昌平-昌平-4.jpg",
+  "id": "昌平-昌平-4",
+  "n_times": 140,
+  "stats": {
+   "n": 140,
+   "n_hours": 19,
+   "median_gap": 8,
+   "max_gap": 18,
+   "min_gap": 5
+  },
+  "issues": [
+   {
+    "kind": "gap_large",
+    "gap": 18,
+    "at": "13:54->14:12",
+    "msg": "gap 18 min exceeds 18 (possible missed train)"
+   }
+  ],
+  "flags": [
+   {
+    "row_y": 953,
+    "kind": "ocr_fail",
+    "text": "051422314049358"
+   },
+   {
+    "row_y": 1511,
+    "kind": "ocr_fail",
+    "text": "051422313948456"
+   },
+   {
+    "row_y": 2181,
+    "kind": "ocr_fail",
+    "text": "0210182633394551357"
+   },
+   {
+    "row_y": 2405,
+    "kind": "ocr_fail",
+    "text": "030915212733394551357"
+   }
+  ]
+ },
+ {
+  "source": "timetables/昌平-昌平东关-1.jpg",
+  "id": "昌平-昌平东关-1",
+  "n_times": 190,
+  "stats": {
+   "n": 190,
+   "n_hours": 19,
+   "median_gap": 5,
+   "max_gap": 11,
+   "min_gap": 2
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 1286,
+    "kind": "repaired_swap",
+    "text": "80",
+    "fixed": "08"
+   },
+   {
+    "row_y": 1286,
+    "kind": "repaired_swap",
+    "text": "91",
+    "fixed": "19"
+   },
+   {
+    "row_y": 1286,
+    "kind": "repaired_swap",
+    "text": "72",
+    "fixed": "27"
+   },
+   {
+    "row_y": 1397,
+    "kind": "ocr_fail",
+    "text": "090092070914161823425293243703964653"
+   },
+   {
+    "row_y": 1509,
+    "kind": "ocr_fail",
+    "text": "100004071114162023273237442647052657"
+   },
+   {
+    "row_y": 1733,
+    "kind": "ocr_fail",
+    "text": "14200091929394959"
+   },
+   {
+    "row_y": 2290,
+    "kind": "ocr_fail",
+    "text": "147081827354452"
+   },
+   {
+    "row_y": 2736,
+    "kind": "ocr_fail",
+    "text": "21010409111441921262934364146515659"
+   },
+   {
+    "row_y": 2848,
+    "kind": "ocr_fail",
+    "text": "2203060913417221252943344064654"
+   }
+  ]
+ },
+ {
+  "source": "timetables/昌平-昌平东关-2.jpg",
+  "id": "昌平-昌平东关-2",
+  "n_times": 192,
+  "stats": {
+   "n": 192,
+   "n_hours": 19,
+   "median_gap": 5,
+   "max_gap": 11,
+   "min_gap": 2
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 1169,
+    "kind": "repaired_swap",
+    "text": "93",
+    "fixed": "39"
+   },
+   {
+    "row_y": 1169,
+    "kind": "repaired_swap",
+    "text": "84",
+    "fixed": "48"
+   },
+   {
+    "row_y": 1282,
+    "kind": "ocr_fail",
+    "text": "08040811141722225273034384045475255"
+   },
+   {
+    "row_y": 1622,
+    "kind": "ocr_fail",
+    "text": "411071627374657"
+   },
+   {
+    "row_y": 2515,
+    "kind": "repaired_swap",
+    "text": "90",
+    "fixed": "09"
+   },
+   {
+    "row_y": 2515,
+    "kind": "repaired_swap",
+    "text": "91",
+    "fixed": "19"
+   },
+   {
+    "row_y": 2515,
+    "kind": "repaired_swap",
+    "text": "71",
+    "fixed": "17"
+   },
+   {
+    "row_y": 2515,
+    "kind": "repaired_swap",
+    "text": "92",
+    "fixed": "29"
+   }
+  ]
+ },
+ {
+  "source": "timetables/昌平-昌平东关-3.jpg",
+  "id": "昌平-昌平东关-3",
+  "n_times": 136,
+  "stats": {
+   "n": 136,
+   "n_hours": 20,
+   "median_gap": 8,
+   "max_gap": 323,
+   "min_gap": 3
+  },
+  "issues": [
+   {
+    "kind": "gap_large",
+    "gap": 18,
+    "at": "08:15->08:33",
+    "msg": "gap 18 min exceeds 18 (possible missed train)"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 18,
+    "at": "08:45->09:03",
+    "msg": "gap 18 min exceeds 18 (possible missed train)"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 26,
+    "at": "11:49->12:15",
+    "msg": "gap 26 min exceeds 18 (possible missed train)"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 20,
+    "at": "23:23->23:43",
+    "msg": "gap 20 min exceeds 18 (possible missed train)"
+   }
+  ],
+  "flags": [
+   {
+    "row_y": 1287,
+    "kind": "repaired_swap",
+    "text": "61",
+    "fixed": "16"
+   },
+   {
+    "row_y": 1287,
+    "kind": "repaired_swap",
+    "text": "74",
+    "fixed": "47"
+   },
+   {
+    "row_y": 1511,
+    "kind": "ocr_fail",
+    "text": "030915212733394535137"
+   },
+   {
+    "row_y": 1846,
+    "kind": "ocr_fail",
+    "text": "061423314048357"
+   },
+   {
+    "row_y": 2182,
+    "kind": "ocr_fail",
+    "text": "041321303847955"
+   },
+   {
+    "row_y": 2405,
+    "kind": "ocr_fail",
+    "text": "0311172430364248934"
+   },
+   {
+    "row_y": 2740,
+    "kind": "repaired_swap",
+    "text": "61",
+    "fixed": "16"
+   },
+   {
+    "row_y": 2740,
+    "kind": "repaired_swap",
+    "text": "82",
+    "fixed": "28"
+   },
+   {
+    "row_y": 2852,
+    "kind": "ocr_fail",
+    "text": "021119283645353"
+   },
+   {
+    "row_y": 2964,
+    "kind": "repaired_swap",
+    "text": "64",
+    "fixed": "46"
+   }
+  ]
+ },
+ {
+  "source": "timetables/昌平-昌平东关-4.jpg",
+  "id": "昌平-昌平东关-4",
+  "n_times": 140,
+  "stats": {
+   "n": 140,
+   "n_hours": 19,
+   "median_gap": 8,
+   "max_gap": 26,
+   "min_gap": 1
+  },
+  "issues": [
+   {
+    "kind": "gap_large",
+    "gap": 26,
+    "at": "13:49->14:15",
+    "msg": "gap 26 min exceeds 18 (possible missed train)"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 25,
+    "at": "14:49->15:14",
+    "msg": "gap 25 min exceeds 18 (possible missed train)"
+   },
+   {
+    "kind": "gap_small",
+    "gap": 1,
+    "at": "19:37->19:38",
+    "msg": "gap 1 min is below 2"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 23,
+    "at": "19:51->20:14",
+    "msg": "gap 23 min exceeds 18 (possible missed train)"
+   }
+  ],
+  "flags": [
+   {
+    "row_y": 953,
+    "kind": "ocr_fail",
+    "text": "0817253443452"
+   },
+   {
+    "row_y": 1398,
+    "kind": "ocr_fail",
+    "text": "030915222934482"
+   },
+   {
+    "row_y": 1509,
+    "kind": "repaired_swap",
+    "text": "81",
+    "fixed": "18"
+   },
+   {
+    "row_y": 1509,
+    "kind": "repaired_swap",
+    "text": "72",
+    "fixed": "27"
+   },
+   {
+    "row_y": 1732,
+    "kind": "ocr_fail",
+    "text": "071624334135038"
+   },
+   {
+    "row_y": 2845,
+    "kind": "ocr_fail",
+    "text": "051423334130359"
+   }
+  ]
+ },
+ {
+  "source": "timetables/昌平-昌平西山口-1.jpg",
+  "id": "昌平-昌平西山口-1",
+  "n_times": 164,
+  "stats": {
+   "n": 164,
+   "n_hours": 19,
+   "median_gap": 7,
+   "max_gap": 11,
+   "min_gap": 2
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 951,
+    "kind": "ocr_fail",
+    "text": "0500061116202529333640454955457"
+   },
+   {
+    "row_y": 1062,
+    "kind": "ocr_fail",
+    "text": "06030710141722125313604380664306460650065358"
+   },
+   {
+    "row_y": 1175,
+    "kind": "ocr_fail",
+    "text": "01060810171924293638434750544959"
+   },
+   {
+    "row_y": 2295,
+    "kind": "ocr_fail",
+    "text": "17030813182325333742435053"
+   }
+  ]
+ },
+ {
+  "source": "timetables/昌平-昌平西山口-2.jpg",
+  "id": "昌平-昌平西山口-2",
+  "n_times": 141,
+  "stats": {
+   "n": 141,
+   "n_hours": 19,
+   "median_gap": 8,
+   "max_gap": 18,
+   "min_gap": 4
+  },
+  "issues": [
+   {
+    "kind": "gap_large",
+    "gap": 18,
+    "at": "22:58->23:16",
+    "msg": "gap 18 min exceeds 18 (possible missed train)"
+   }
+  ],
+  "flags": [
+   {
+    "row_y": 1068,
+    "kind": "ocr_fail",
+    "text": "000817232404782"
+   },
+   {
+    "row_y": 1180,
+    "kind": "ocr_fail",
+    "text": "000512162430344247934"
+   },
+   {
+    "row_y": 1292,
+    "kind": "ocr_fail",
+    "text": "000612172429344248934"
+   },
+   {
+    "row_y": 1404,
+    "kind": "ocr_fail",
+    "text": "0006132027354235039"
+   },
+   {
+    "row_y": 1515,
+    "kind": "ocr_fail",
+    "text": "071624334149358"
+   }
+  ]
+ },
+ {
+  "source": "timetables/昌平-朱房北-1.jpg",
+  "id": "昌平-朱房北-1",
+  "n_times": 263,
+  "stats": {
+   "n": 263,
+   "n_hours": 19,
+   "median_gap": 3,
+   "max_gap": 11,
+   "min_gap": 2
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 1052,
+    "kind": "repaired_swap",
+    "text": "75",
+    "fixed": "57"
+   },
+   {
+    "row_y": 1052,
+    "kind": "repaired_swap",
+    "text": "75",
+    "fixed": "57"
+   },
+   {
+    "row_y": 1052,
+    "kind": "repaired_swap",
+    "text": "65",
+    "fixed": "56"
+   },
+   {
+    "row_y": 1165,
+    "kind": "ocr_fail",
+    "text": "0720501114172022623235341446485155656"
+   },
+   {
+    "row_y": 1277,
+    "kind": "ocr_fail",
+    "text": "080103081111618212262313334374042444495155558"
+   },
+   {
+    "row_y": 1392,
+    "kind": "repaired_swap",
+    "text": "90",
+    "fixed": "09"
+   },
+   {
+    "row_y": 2284,
+    "kind": "repaired_swap",
+    "text": "74",
+    "fixed": "47"
+   },
+   {
+    "row_y": 2396,
+    "kind": "ocr_fail",
+    "text": "18010403911141619212426231343341444495154565"
+   },
+   {
+    "row_y": 2507,
+    "kind": "ocr_fail",
+    "text": "1991040111416192124262313433414444951545659"
+   }
+  ]
+ },
+ {
+  "source": "timetables/昌平-朱房北-2.jpg",
+  "id": "昌平-朱房北-2",
+  "n_times": 265,
+  "stats": {
+   "n": 265,
+   "n_hours": 19,
+   "median_gap": 3,
+   "max_gap": 10,
+   "min_gap": 1
+  },
+  "issues": [
+   {
+    "kind": "gap_small",
+    "gap": 1,
+    "at": "10:33->10:34",
+    "msg": "gap 1 min is below 2"
+   }
+  ],
+  "flags": [
+   {
+    "row_y": 1169,
+    "kind": "ocr_fail",
+    "text": "070104071012151820232528303353844345485053558"
+   },
+   {
+    "row_y": 1281,
+    "kind": "ocr_fail",
+    "text": "0800234070911131618202225273032343739414346450535557"
+   },
+   {
+    "row_y": 1392,
+    "kind": "bad_minute",
+    "text": "99"
+   },
+   {
+    "row_y": 1392,
+    "kind": "repaired_swap",
+    "text": "74",
+    "fixed": "47"
+   },
+   {
+    "row_y": 1392,
+    "kind": "repaired_swap",
+    "text": "75",
+    "fixed": "57"
+   },
+   {
+    "row_y": 1733,
+    "kind": "ocr_fail",
+    "text": "142031323334353"
+   },
+   {
+    "row_y": 2514,
+    "kind": "ocr_fail",
+    "text": "191330638111316182122628313363841434648515558"
+   },
+   {
+    "row_y": 2736,
+    "kind": "repaired_swap",
+    "text": "93",
+    "fixed": "39"
+   }
+  ]
+ },
+ {
+  "source": "timetables/昌平-朱房北-3.jpg",
+  "id": "昌平-朱房北-3",
+  "n_times": 142,
+  "stats": {
+   "n": 142,
+   "n_hours": 19,
+   "median_gap": 8,
+   "max_gap": 17,
+   "min_gap": 6
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 1058,
+    "kind": "ocr_fail",
+    "text": "051382230394756"
+   },
+   {
+    "row_y": 1840,
+    "kind": "ocr_fail",
+    "text": "041221293846455"
+   },
+   {
+    "row_y": 2734,
+    "kind": "ocr_fail",
+    "text": "0310182635434952"
+   }
+  ]
+ },
+ {
+  "source": "timetables/昌平-朱房北-4.jpg",
+  "id": "昌平-朱房北-4",
+  "n_times": 139,
+  "stats": {
+   "n": 139,
+   "n_hours": 19,
+   "median_gap": 8,
+   "max_gap": 18,
+   "min_gap": 5
+  },
+  "issues": [
+   {
+    "kind": "gap_large",
+    "gap": 18,
+    "at": "22:59->23:17",
+    "msg": "gap 18 min exceeds 18 (possible missed train)"
+   }
+  ],
+  "flags": [
+   {
+    "row_y": 946,
+    "kind": "ocr_fail",
+    "text": "19273644583"
+   },
+   {
+    "row_y": 1393,
+    "kind": "ocr_fail",
+    "text": "031015212733394552459"
+   },
+   {
+    "row_y": 1616,
+    "kind": "ocr_fail",
+    "text": "0210182735444682"
+   },
+   {
+    "row_y": 1952,
+    "kind": "ocr_fail",
+    "text": "0008172344251"
+   },
+   {
+    "row_y": 2510,
+    "kind": "ocr_fail",
+    "text": "000612182530364248954"
+   },
+   {
+    "row_y": 2734,
+    "kind": "ocr_fail",
+    "text": "081625334250459"
+   }
+  ]
+ },
+ {
+  "source": "timetables/昌平-朱辛庄-1.jpg",
+  "id": "昌平-朱辛庄-1",
+  "n_times": 267,
+  "stats": {
+   "n": 267,
+   "n_hours": 19,
+   "median_gap": 3,
+   "max_gap": 11,
+   "min_gap": 2
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 915,
+    "kind": "repaired_swap",
+    "text": "71",
+    "fixed": "17"
+   },
+   {
+    "row_y": 915,
+    "kind": "repaired_swap",
+    "text": "72",
+    "fixed": "27"
+   },
+   {
+    "row_y": 915,
+    "kind": "repaired_swap",
+    "text": "72",
+    "fixed": "27"
+   },
+   {
+    "row_y": 1627,
+    "kind": "ocr_fail",
+    "text": "170715202428323640444852565"
+   },
+   {
+    "row_y": 1706,
+    "kind": "repaired_swap",
+    "text": "61",
+    "fixed": "16"
+   },
+   {
+    "row_y": 1706,
+    "kind": "repaired_swap",
+    "text": "92",
+    "fixed": "29"
+   },
+   {
+    "row_y": 1706,
+    "kind": "repaired_swap",
+    "text": "62",
+    "fixed": "26"
+   },
+   {
+    "row_y": 1785,
+    "kind": "repaired_swap",
+    "text": "90",
+    "fixed": "09"
+   },
+   {
+    "row_y": 1785,
+    "kind": "repaired_swap",
+    "text": "60",
+    "fixed": "06"
+   },
+   {
+    "row_y": 1864,
+    "kind": "repaired_swap",
+    "text": "60",
+    "fixed": "06"
+   }
+  ]
+ },
+ {
+  "source": "timetables/昌平-朱辛庄-2.jpg",
+  "id": "昌平-朱辛庄-2",
+  "n_times": 265,
+  "stats": {
+   "n": 265,
+   "n_hours": 19,
+   "median_gap": 3,
+   "max_gap": 10,
+   "min_gap": 2
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 836,
+    "kind": "repaired_swap",
+    "text": "70",
+    "fixed": "07"
+   },
+   {
+    "row_y": 836,
+    "kind": "repaired_swap",
+    "text": "71",
+    "fixed": "17"
+   },
+   {
+    "row_y": 836,
+    "kind": "repaired_swap",
+    "text": "72",
+    "fixed": "27"
+   },
+   {
+    "row_y": 836,
+    "kind": "repaired_swap",
+    "text": "73",
+    "fixed": "37"
+   },
+   {
+    "row_y": 836,
+    "kind": "repaired_swap",
+    "text": "74",
+    "fixed": "47"
+   },
+   {
+    "row_y": 836,
+    "kind": "repaired_swap",
+    "text": "74",
+    "fixed": "47"
+   },
+   {
+    "row_y": 915,
+    "kind": "ocr_fail",
+    "text": "08909205071012151719212496283032353740424547405154558"
+   },
+   {
+    "row_y": 994,
+    "kind": "repaired_swap",
+    "text": "92",
+    "fixed": "29"
+   }
+  ]
+ },
+ {
+  "source": "timetables/昌平-朱辛庄-3.jpg",
+  "id": "昌平-朱辛庄-3",
+  "n_times": 135,
+  "stats": {
+   "n": 135,
+   "n_hours": 19,
+   "median_gap": 8,
+   "max_gap": 22,
+   "min_gap": 1
+  },
+  "issues": [
+   {
+    "kind": "gap_large",
+    "gap": 20,
+    "at": "05:50->06:10",
+    "msg": "gap 20 min exceeds 18 (possible missed train)"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 18,
+    "at": "19:12->19:30",
+    "msg": "gap 18 min exceeds 18 (possible missed train)"
+   },
+   {
+    "kind": "gap_small",
+    "gap": 1,
+    "at": "19:51->19:52",
+    "msg": "gap 1 min is below 2"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 22,
+    "at": "21:11->21:33",
+    "msg": "gap 22 min exceeds 18 (possible missed train)"
+   }
+  ],
+  "flags": [
+   {
+    "row_y": 1311,
+    "kind": "ocr_fail",
+    "text": "011018273544682"
+   },
+   {
+    "row_y": 1390,
+    "kind": "ocr_fail",
+    "text": "010918273544682"
+   },
+   {
+    "row_y": 1469,
+    "kind": "ocr_fail",
+    "text": "0009172344351"
+   },
+   {
+    "row_y": 1785,
+    "kind": "repaired_swap",
+    "text": "91",
+    "fixed": "19"
+   },
+   {
+    "row_y": 1864,
+    "kind": "ocr_fail",
+    "text": "030915212733394551457"
+   },
+   {
+    "row_y": 1943,
+    "kind": "repaired_swap",
+    "text": "82",
+    "fixed": "28"
+   }
+  ]
+ },
+ {
+  "source": "timetables/昌平-朱辛庄-4.jpg",
+  "id": "昌平-朱辛庄-4",
+  "n_times": 136,
+  "stats": {
+   "n": 136,
+   "n_hours": 19,
+   "median_gap": 8,
+   "max_gap": 17,
+   "min_gap": 5
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 1389,
+    "kind": "ocr_fail",
+    "text": "011018273544652"
+   },
+   {
+    "row_y": 1862,
+    "kind": "repaired_swap",
+    "text": "62",
+    "fixed": "26"
+   }
+  ]
+ },
+ {
+  "source": "timetables/昌平-沙河-1.jpg",
+  "id": "昌平-沙河-1",
+  "n_times": 244,
+  "stats": {
+   "n": 244,
+   "n_hours": 19,
+   "median_gap": 3,
+   "max_gap": 11,
+   "min_gap": 2
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/昌平-沙河-2.jpg",
+  "id": "昌平-沙河-2",
+  "n_times": 244,
+  "stats": {
+   "n": 244,
+   "n_hours": 19,
+   "median_gap": 3,
+   "max_gap": 10,
+   "min_gap": 2
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/昌平-沙河-3.jpg",
+  "id": "昌平-沙河-3",
+  "n_times": 139,
+  "stats": {
+   "n": 139,
+   "n_hours": 19,
+   "median_gap": 8,
+   "max_gap": 20,
+   "min_gap": 5
+  },
+  "issues": [
+   {
+    "kind": "gap_large",
+    "gap": 20,
+    "at": "05:58->06:18",
+    "msg": "gap 20 min exceeds 18 (possible missed train)"
+   }
+  ],
+  "flags": [
+   {
+    "row_y": 836,
+    "kind": "ocr_fail",
+    "text": "010918273544652"
+   },
+   {
+    "row_y": 1230,
+    "kind": "ocr_fail",
+    "text": "010918273544583"
+   },
+   {
+    "row_y": 1467,
+    "kind": "ocr_fail",
+    "text": "00081725344251359"
+   },
+   {
+    "row_y": 1546,
+    "kind": "ocr_fail",
+    "text": "0716234425059"
+   },
+   {
+    "row_y": 1940,
+    "kind": "ocr_fail",
+    "text": "04111825334049357"
+   }
+  ]
+ },
+ {
+  "source": "timetables/昌平-沙河-4.jpg",
+  "id": "昌平-沙河-4",
+  "n_times": 140,
+  "stats": {
+   "n": 140,
+   "n_hours": 19,
+   "median_gap": 8,
+   "max_gap": 18,
+   "min_gap": 5
+  },
+  "issues": [
+   {
+    "kind": "gap_large",
+    "gap": 18,
+    "at": "11:54->12:12",
+    "msg": "gap 18 min exceeds 18 (possible missed train)"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 18,
+    "at": "22:54->23:12",
+    "msg": "gap 18 min exceeds 18 (possible missed train)"
+   }
+  ],
+  "flags": [
+   {
+    "row_y": 1389,
+    "kind": "ocr_fail",
+    "text": "021119283745583"
+   },
+   {
+    "row_y": 1467,
+    "kind": "ocr_fail",
+    "text": "021019273644583"
+   }
+  ]
+ },
+ {
+  "source": "timetables/昌平-沙河高教园-1.jpg",
+  "id": "昌平-沙河高教园-1",
+  "n_times": 244,
+  "stats": {
+   "n": 244,
+   "n_hours": 20,
+   "median_gap": 3,
+   "max_gap": 323,
+   "min_gap": 2
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/昌平-沙河高教园-2.jpg",
+  "id": "昌平-沙河高教园-2",
+  "n_times": 244,
+  "stats": {
+   "n": 244,
+   "n_hours": 19,
+   "median_gap": 3,
+   "max_gap": 10,
+   "min_gap": 2
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/昌平-沙河高教园-3.jpg",
+  "id": "昌平-沙河高教园-3",
+  "n_times": 142,
+  "stats": {
+   "n": 142,
+   "n_hours": 19,
+   "median_gap": 8,
+   "max_gap": 30,
+   "min_gap": 2
+  },
+  "issues": [
+   {
+    "kind": "gap_large",
+    "gap": 30,
+    "at": "09:22->09:52",
+    "msg": "gap 30 min exceeds 18 (possible missed train)"
+   }
+  ],
+  "flags": [
+   {
+    "row_y": 995,
+    "kind": "repaired_swap",
+    "text": "93",
+    "fixed": "39"
+   },
+   {
+    "row_y": 1074,
+    "kind": "repaired_swap",
+    "text": "72",
+    "fixed": "27"
+   },
+   {
+    "row_y": 1548,
+    "kind": "ocr_fail",
+    "text": "021019283745583"
+   },
+   {
+    "row_y": 1863,
+    "kind": "repaired_swap",
+    "text": "92",
+    "fixed": "29"
+   },
+   {
+    "row_y": 1942,
+    "kind": "ocr_fail",
+    "text": "01071421283643652"
+   },
+   {
+    "row_y": 2021,
+    "kind": "ocr_fail",
+    "text": "0009172344351"
+   },
+   {
+    "row_y": 2100,
+    "kind": "ocr_fail",
+    "text": "0008172344251"
+   }
+  ]
+ },
+ {
+  "source": "timetables/昌平-沙河高教园-4.jpg",
+  "id": "昌平-沙河高教园-4",
+  "n_times": 142,
+  "stats": {
+   "n": 142,
+   "n_hours": 19,
+   "median_gap": 8,
+   "max_gap": 18,
+   "min_gap": 5
+  },
+  "issues": [
+   {
+    "kind": "gap_large",
+    "gap": 18,
+    "at": "11:51->12:09",
+    "msg": "gap 18 min exceeds 18 (possible missed train)"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 18,
+    "at": "22:51->23:09",
+    "msg": "gap 18 min exceeds 18 (possible missed train)"
+   }
+  ],
+  "flags": [
+   {
+    "row_y": 758,
+    "kind": "ocr_fail",
+    "text": "021119283645524359"
+   },
+   {
+    "row_y": 915,
+    "kind": "repaired_swap",
+    "text": "71",
+    "fixed": "17"
+   },
+   {
+    "row_y": 915,
+    "kind": "repaired_swap",
+    "text": "92",
+    "fixed": "29"
+   },
+   {
+    "row_y": 1073,
+    "kind": "ocr_fail",
+    "text": "021018273644652"
+   },
+   {
+    "row_y": 1309,
+    "kind": "repaired_swap",
+    "text": "81",
+    "fixed": "18"
+   },
+   {
+    "row_y": 1309,
+    "kind": "repaired_swap",
+    "text": "72",
+    "fixed": "27"
+   },
+   {
+    "row_y": 1546,
+    "kind": "ocr_fail",
+    "text": "07152331394652359"
+   }
+  ]
+ },
+ {
+  "source": "timetables/昌平-清河-1.jpg",
+  "id": "昌平-清河-1",
+  "n_times": 248,
+  "stats": {
+   "n": 248,
+   "n_hours": 19,
+   "median_gap": 3,
+   "max_gap": 20,
+   "min_gap": 2
+  },
+  "issues": [
+   {
+    "kind": "gap_large",
+    "gap": 17,
+    "at": "05:58->06:15",
+    "msg": "gap 17 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 20,
+    "at": "11:56->12:16",
+    "msg": "gap 20 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 20,
+    "at": "12:56->13:16",
+    "msg": "gap 20 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 20,
+    "at": "13:56->14:16",
+    "msg": "gap 20 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 20,
+    "at": "14:56->15:16",
+    "msg": "gap 20 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 20,
+    "at": "15:56->16:16",
+    "msg": "gap 20 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 19,
+    "at": "22:52->23:11",
+    "msg": "gap 19 min exceeds 15 (possible missed train)"
+   }
+  ],
+  "flags": []
+ },
+ {
+  "source": "timetables/昌平-清河-2.jpg",
+  "id": "昌平-清河-2",
+  "n_times": 246,
+  "stats": {
+   "n": 246,
+   "n_hours": 19,
+   "median_gap": 3,
+   "max_gap": 20,
+   "min_gap": 2
+  },
+  "issues": [
+   {
+    "kind": "gap_large",
+    "gap": 19,
+    "at": "10:51->11:10",
+    "msg": "gap 19 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 20,
+    "at": "11:50->12:10",
+    "msg": "gap 20 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 20,
+    "at": "12:50->13:10",
+    "msg": "gap 20 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 20,
+    "at": "13:50->14:10",
+    "msg": "gap 20 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 20,
+    "at": "14:50->15:10",
+    "msg": "gap 20 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 19,
+    "at": "15:50->16:09",
+    "msg": "gap 19 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 19,
+    "at": "21:51->22:10",
+    "msg": "gap 19 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 18,
+    "at": "22:57->23:15",
+    "msg": "gap 18 min exceeds 15 (possible missed train)"
+   }
+  ],
+  "flags": []
+ },
+ {
+  "source": "timetables/昌平-清河-3.jpg",
+  "id": "昌平-清河-3",
+  "n_times": 129,
+  "stats": {
+   "n": 129,
+   "n_hours": 19,
+   "median_gap": 8,
+   "max_gap": 18,
+   "min_gap": 6
+  },
+  "issues": [
+   {
+    "kind": "gap_large",
+    "gap": 18,
+    "at": "05:58->06:16",
+    "msg": "gap 18 min exceeds 18 (possible missed train)"
+   }
+  ],
+  "flags": []
+ },
+ {
+  "source": "timetables/昌平-清河-4.jpg",
+  "id": "昌平-清河-4",
+  "n_times": 128,
+  "stats": {
+   "n": 128,
+   "n_hours": 19,
+   "median_gap": 8,
+   "max_gap": 18,
+   "min_gap": 5
+  },
+  "issues": [
+   {
+    "kind": "gap_large",
+    "gap": 18,
+    "at": "05:59->06:17",
+    "msg": "gap 18 min exceeds 18 (possible missed train)"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 18,
+    "at": "22:57->23:15",
+    "msg": "gap 18 min exceeds 18 (possible missed train)"
+   }
+  ],
+  "flags": []
+ },
+ {
+  "source": "timetables/昌平-清河小营桥-1.jpg",
+  "id": "昌平-清河小营桥-1",
+  "n_times": 263,
+  "stats": {
+   "n": 263,
+   "n_hours": 19,
+   "median_gap": 3,
+   "max_gap": 11,
+   "min_gap": 2
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 1174,
+    "kind": "ocr_fail",
+    "text": "079070200811141720232232338414246405153558"
+   },
+   {
+    "row_y": 1286,
+    "kind": "repaired_swap",
+    "text": "80",
+    "fixed": "08"
+   },
+   {
+    "row_y": 2292,
+    "kind": "ocr_fail",
+    "text": "170307111512327313839424447409525457509"
+   },
+   {
+    "row_y": 2405,
+    "kind": "repaired_swap",
+    "text": "91",
+    "fixed": "19"
+   },
+   {
+    "row_y": 2405,
+    "kind": "repaired_swap",
+    "text": "71",
+    "fixed": "17"
+   },
+   {
+    "row_y": 2405,
+    "kind": "repaired_swap",
+    "text": "92",
+    "fixed": "29"
+   },
+   {
+    "row_y": 2517,
+    "kind": "ocr_fail",
+    "text": "19020400912141712224212632343139424447495254575"
+   },
+   {
+    "row_y": 2628,
+    "kind": "repaired_swap",
+    "text": "70",
+    "fixed": "07"
+   },
+   {
+    "row_y": 2628,
+    "kind": "repaired_swap",
+    "text": "91",
+    "fixed": "19"
+   },
+   {
+    "row_y": 2628,
+    "kind": "repaired_swap",
+    "text": "71",
+    "fixed": "17"
+   },
+   {
+    "row_y": 2628,
+    "kind": "repaired_swap",
+    "text": "92",
+    "fixed": "29"
+   },
+   {
+    "row_y": 2628,
+    "kind": "repaired_swap",
+    "text": "72",
+    "fixed": "27"
+   }
+  ]
+ },
+ {
+  "source": "timetables/昌平-清河小营桥-2.jpg",
+  "id": "昌平-清河小营桥-2",
+  "n_times": 265,
+  "stats": {
+   "n": 265,
+   "n_hours": 19,
+   "median_gap": 3,
+   "max_gap": 10,
+   "min_gap": 2
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 1175,
+    "kind": "bad_minute",
+    "text": "78"
+   },
+   {
+    "row_y": 1398,
+    "kind": "ocr_fail",
+    "text": "000305070912141618212327528303335384042454850535558"
+   }
+  ]
+ },
+ {
+  "source": "timetables/昌平-清河小营桥-3.jpg",
+  "id": "昌平-清河小营桥-3",
+  "n_times": 140,
+  "stats": {
+   "n": 140,
+   "n_hours": 19,
+   "median_gap": 8,
+   "max_gap": 18,
+   "min_gap": 5
+  },
+  "issues": [
+   {
+    "kind": "gap_large",
+    "gap": 18,
+    "at": "13:52->14:10",
+    "msg": "gap 18 min exceeds 18 (possible missed train)"
+   }
+  ],
+  "flags": [
+   {
+    "row_y": 1064,
+    "kind": "repaired_swap",
+    "text": "83",
+    "fixed": "38"
+   },
+   {
+    "row_y": 1510,
+    "kind": "repaired_swap",
+    "text": "61",
+    "fixed": "16"
+   },
+   {
+    "row_y": 1510,
+    "kind": "repaired_swap",
+    "text": "92",
+    "fixed": "29"
+   },
+   {
+    "row_y": 1733,
+    "kind": "ocr_fail",
+    "text": "021019283644383"
+   },
+   {
+    "row_y": 2068,
+    "kind": "ocr_fail",
+    "text": "0009172344251"
+   },
+   {
+    "row_y": 2291,
+    "kind": "repaired_swap",
+    "text": "94",
+    "fixed": "49"
+   },
+   {
+    "row_y": 2291,
+    "kind": "repaired_swap",
+    "text": "65",
+    "fixed": "56"
+   },
+   {
+    "row_y": 2738,
+    "kind": "ocr_fail",
+    "text": "01081624334150388"
+   }
+  ]
+ },
+ {
+  "source": "timetables/昌平-清河小营桥-4.jpg",
+  "id": "昌平-清河小营桥-4",
+  "n_times": 140,
+  "stats": {
+   "n": 140,
+   "n_hours": 19,
+   "median_gap": 8,
+   "max_gap": 19,
+   "min_gap": 5
+  },
+  "issues": [
+   {
+    "kind": "gap_large",
+    "gap": 19,
+    "at": "22:53->23:12",
+    "msg": "gap 19 min exceeds 18 (possible missed train)"
+   }
+  ],
+  "flags": [
+   {
+    "row_y": 1063,
+    "kind": "ocr_fail",
+    "text": "041322314048357"
+   },
+   {
+    "row_y": 1287,
+    "kind": "ocr_fail",
+    "text": "000612182431364248934"
+   },
+   {
+    "row_y": 1734,
+    "kind": "ocr_fail",
+    "text": "041220293846455"
+   },
+   {
+    "row_y": 2069,
+    "kind": "ocr_fail",
+    "text": "0311192836453583"
+   },
+   {
+    "row_y": 2292,
+    "kind": "ocr_fail",
+    "text": "000815212833394535137"
+   },
+   {
+    "row_y": 2404,
+    "kind": "ocr_fail",
+    "text": "030915212833394551538"
+   },
+   {
+    "row_y": 2739,
+    "kind": "ocr_fail",
+    "text": "021119283645588"
+   },
+   {
+    "row_y": 2851,
+    "kind": "ocr_fail",
+    "text": "02101923644883"
+   }
+  ]
+ },
+ {
+  "source": "timetables/昌平-清河站-1.jpg",
+  "id": "昌平-清河站-1",
+  "n_times": 246,
+  "stats": {
+   "n": 246,
+   "n_hours": 19,
+   "median_gap": 3,
+   "max_gap": 20,
+   "min_gap": 2
+  },
+  "issues": [
+   {
+    "kind": "gap_large",
+    "gap": 17,
+    "at": "05:58->06:15",
+    "msg": "gap 17 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 20,
+    "at": "11:56->12:16",
+    "msg": "gap 20 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 20,
+    "at": "12:56->13:16",
+    "msg": "gap 20 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 20,
+    "at": "13:56->14:16",
+    "msg": "gap 20 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 20,
+    "at": "14:56->15:16",
+    "msg": "gap 20 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 20,
+    "at": "15:56->16:16",
+    "msg": "gap 20 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 19,
+    "at": "22:52->23:11",
+    "msg": "gap 19 min exceeds 15 (possible missed train)"
+   }
+  ],
+  "flags": [
+   {
+    "row_y": 1078,
+    "kind": "bad_minute",
+    "text": "76"
+   },
+   {
+    "row_y": 1385,
+    "kind": "bad_minute",
+    "text": "99"
+   }
+  ]
+ },
+ {
+  "source": "timetables/昌平-清河站-2.jpg",
+  "id": "昌平-清河站-2",
+  "n_times": 254,
+  "stats": {
+   "n": 254,
+   "n_hours": 17,
+   "median_gap": 3,
+   "max_gap": 10,
+   "min_gap": 2
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/昌平-清河站-3.jpg",
+  "id": "昌平-清河站-3",
+  "n_times": 129,
+  "stats": {
+   "n": 129,
+   "n_hours": 19,
+   "median_gap": 8,
+   "max_gap": 18,
+   "min_gap": 6
+  },
+  "issues": [
+   {
+    "kind": "gap_large",
+    "gap": 18,
+    "at": "05:58->06:16",
+    "msg": "gap 18 min exceeds 18 (possible missed train)"
+   }
+  ],
+  "flags": [
+   {
+    "row_y": 2102,
+    "kind": "ocr_fail",
+    "text": "05132230384451957"
+   }
+  ]
+ },
+ {
+  "source": "timetables/昌平-清河站-4.jpg",
+  "id": "昌平-清河站-4",
+  "n_times": 128,
+  "stats": {
+   "n": 128,
+   "n_hours": 19,
+   "median_gap": 8,
+   "max_gap": 18,
+   "min_gap": 5
+  },
+  "issues": [
+   {
+    "kind": "gap_large",
+    "gap": 18,
+    "at": "05:59->06:17",
+    "msg": "gap 18 min exceeds 18 (possible missed train)"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 18,
+    "at": "22:57->23:15",
+    "msg": "gap 18 min exceeds 18 (possible missed train)"
+   }
+  ],
+  "flags": []
+ },
+ {
+  "source": "timetables/昌平-生命科学园-1.jpg",
+  "id": "昌平-生命科学园-1",
+  "n_times": 264,
+  "stats": {
+   "n": 264,
+   "n_hours": 19,
+   "median_gap": 3,
+   "max_gap": 11,
+   "min_gap": 2
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 837,
+    "kind": "repaired_swap",
+    "text": "75",
+    "fixed": "57"
+   },
+   {
+    "row_y": 917,
+    "kind": "bad_minute",
+    "text": "99"
+   },
+   {
+    "row_y": 1631,
+    "kind": "repaired_swap",
+    "text": "74",
+    "fixed": "47"
+   }
+  ]
+ },
+ {
+  "source": "timetables/昌平-生命科学园-2.jpg",
+  "id": "昌平-生命科学园-2",
+  "n_times": 264,
+  "stats": {
+   "n": 264,
+   "n_hours": 19,
+   "median_gap": 3,
+   "max_gap": 10,
+   "min_gap": 1
+  },
+  "issues": [
+   {
+    "kind": "gap_small",
+    "gap": 1,
+    "at": "09:23->09:24",
+    "msg": "gap 1 min is below 2"
+   }
+  ],
+  "flags": [
+   {
+    "row_y": 915,
+    "kind": "repaired_swap",
+    "text": "80",
+    "fixed": "08"
+   },
+   {
+    "row_y": 915,
+    "kind": "repaired_swap",
+    "text": "60",
+    "fixed": "06"
+   },
+   {
+    "row_y": 915,
+    "kind": "repaired_swap",
+    "text": "81",
+    "fixed": "18"
+   },
+   {
+    "row_y": 915,
+    "kind": "repaired_swap",
+    "text": "61",
+    "fixed": "16"
+   },
+   {
+    "row_y": 915,
+    "kind": "repaired_swap",
+    "text": "82",
+    "fixed": "28"
+   },
+   {
+    "row_y": 994,
+    "kind": "repaired_swap",
+    "text": "90",
+    "fixed": "09"
+   },
+   {
+    "row_y": 1625,
+    "kind": "ocr_fail",
+    "text": "1701040709121417192224272932343739424447495254575"
+   },
+   {
+    "row_y": 1704,
+    "kind": "ocr_fail",
+    "text": "1802040709121417192224272932343739424447495254575"
+   }
+  ]
+ },
+ {
+  "source": "timetables/昌平-生命科学园-3.jpg",
+  "id": "昌平-生命科学园-3",
+  "n_times": 135,
+  "stats": {
+   "n": 135,
+   "n_hours": 19,
+   "median_gap": 8,
+   "max_gap": 18,
+   "min_gap": 2
+  },
+  "issues": [
+   {
+    "kind": "gap_large",
+    "gap": 18,
+    "at": "20:11->20:29",
+    "msg": "gap 18 min exceeds 18 (possible missed train)"
+   }
+  ],
+  "flags": [
+   {
+    "row_y": 995,
+    "kind": "repaired_swap",
+    "text": "81",
+    "fixed": "18"
+   },
+   {
+    "row_y": 1074,
+    "kind": "ocr_fail",
+    "text": "0208152026323946533"
+   },
+   {
+    "row_y": 1785,
+    "kind": "repaired_swap",
+    "text": "72",
+    "fixed": "27"
+   },
+   {
+    "row_y": 1864,
+    "kind": "repaired_swap",
+    "text": "72",
+    "fixed": "27"
+   }
+  ]
+ },
+ {
+  "source": "timetables/昌平-生命科学园-4.jpg",
+  "id": "昌平-生命科学园-4",
+  "n_times": 137,
+  "stats": {
+   "n": 137,
+   "n_hours": 19,
+   "median_gap": 8,
+   "max_gap": 17,
+   "min_gap": 4
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/昌平-蓟门桥-1.jpg",
+  "id": "昌平-蓟门桥-1",
+  "n_times": 262,
+  "stats": {
+   "n": 262,
+   "n_hours": 19,
+   "median_gap": 3,
+   "max_gap": 11,
+   "min_gap": 1
+  },
+  "issues": [
+   {
+    "kind": "gap_small",
+    "gap": 1,
+    "at": "17:17->17:18",
+    "msg": "gap 1 min is below 2"
+   },
+   {
+    "kind": "gap_small",
+    "gap": 1,
+    "at": "17:33->17:34",
+    "msg": "gap 1 min is below 2"
+   }
+  ],
+  "flags": [
+   {
+    "row_y": 1174,
+    "kind": "repaired_swap",
+    "text": "92",
+    "fixed": "29"
+   },
+   {
+    "row_y": 1286,
+    "kind": "ocr_fail",
+    "text": "08910306081113161820222527293134363840434548505255575"
+   },
+   {
+    "row_y": 1620,
+    "kind": "ocr_fail",
+    "text": "141081827384857"
+   },
+   {
+    "row_y": 2514,
+    "kind": "ocr_fail",
+    "text": "149210406081114161921242629313436394144464951545659"
+   }
+  ]
+ },
+ {
+  "source": "timetables/昌平-蓟门桥-2.jpg",
+  "id": "昌平-蓟门桥-2",
+  "n_times": 130,
+  "stats": {
+   "n": 130,
+   "n_hours": 19,
+   "median_gap": 8,
+   "max_gap": 18,
+   "min_gap": 5
+  },
+  "issues": [
+   {
+    "kind": "gap_large",
+    "gap": 18,
+    "at": "16:54->17:12",
+    "msg": "gap 18 min exceeds 18 (possible missed train)"
+   }
+  ],
+  "flags": [
+   {
+    "row_y": 2851,
+    "kind": "ocr_fail",
+    "text": "021119283644583"
+   }
+  ]
+ },
+ {
+  "source": "timetables/昌平-西二旗-1.jpg",
+  "id": "昌平-西二旗-1",
+  "n_times": 265,
+  "stats": {
+   "n": 265,
+   "n_hours": 19,
+   "median_gap": 3,
+   "max_gap": 11,
+   "min_gap": 2
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 835,
+    "kind": "ocr_fail",
+    "text": "070194971013161992252831343740434640951545750"
+   },
+   {
+    "row_y": 915,
+    "kind": "repaired_swap",
+    "text": "80",
+    "fixed": "08"
+   },
+   {
+    "row_y": 994,
+    "kind": "bad_minute",
+    "text": "96"
+   },
+   {
+    "row_y": 1627,
+    "kind": "ocr_fail",
+    "text": "170611151923297313539434750525557"
+   }
+  ]
+ },
+ {
+  "source": "timetables/昌平-西二旗-2.jpg",
+  "id": "昌平-西二旗-2",
+  "n_times": 265,
+  "stats": {
+   "n": 265,
+   "n_hours": 19,
+   "median_gap": 3,
+   "max_gap": 10,
+   "min_gap": 2
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 836,
+    "kind": "repaired_swap",
+    "text": "93",
+    "fixed": "39"
+   },
+   {
+    "row_y": 836,
+    "kind": "repaired_swap",
+    "text": "63",
+    "fixed": "36"
+   },
+   {
+    "row_y": 836,
+    "kind": "repaired_swap",
+    "text": "94",
+    "fixed": "49"
+   },
+   {
+    "row_y": 836,
+    "kind": "repaired_swap",
+    "text": "64",
+    "fixed": "46"
+   },
+   {
+    "row_y": 836,
+    "kind": "repaired_swap",
+    "text": "95",
+    "fixed": "59"
+   },
+   {
+    "row_y": 914,
+    "kind": "repaired_swap",
+    "text": "80",
+    "fixed": "08"
+   },
+   {
+    "row_y": 914,
+    "kind": "bad_minute",
+    "text": "67"
+   },
+   {
+    "row_y": 914,
+    "kind": "repaired_swap",
+    "text": "83",
+    "fixed": "38"
+   },
+   {
+    "row_y": 914,
+    "kind": "repaired_swap",
+    "text": "73",
+    "fixed": "37"
+   },
+   {
+    "row_y": 914,
+    "kind": "repaired_swap",
+    "text": "94",
+    "fixed": "49"
+   },
+   {
+    "row_y": 914,
+    "kind": "repaired_swap",
+    "text": "64",
+    "fixed": "46"
+   },
+   {
+    "row_y": 914,
+    "kind": "repaired_swap",
+    "text": "95",
+    "fixed": "59"
+   },
+   {
+    "row_y": 993,
+    "kind": "repaired_swap",
+    "text": "92",
+    "fixed": "29"
+   },
+   {
+    "row_y": 993,
+    "kind": "bad_minute",
+    "text": "79"
+   },
+   {
+    "row_y": 993,
+    "kind": "repaired_swap",
+    "text": "91",
+    "fixed": "19"
+   },
+   {
+    "row_y": 993,
+    "kind": "repaired_swap",
+    "text": "61",
+    "fixed": "16"
+   },
+   {
+    "row_y": 993,
+    "kind": "repaired_swap",
+    "text": "92",
+    "fixed": "29"
+   },
+   {
+    "row_y": 1072,
+    "kind": "repaired_swap",
+    "text": "94",
+    "fixed": "49"
+   },
+   {
+    "row_y": 1703,
+    "kind": "ocr_fail",
+    "text": "18000200710121517202222730323374042454750525457"
+   },
+   {
+    "row_y": 1782,
+    "kind": "repaired_swap",
+    "text": "90",
+    "fixed": "09"
+   },
+   {
+    "row_y": 1782,
+    "kind": "repaired_swap",
+    "text": "71",
+    "fixed": "17"
+   },
+   {
+    "row_y": 1782,
+    "kind": "repaired_swap",
+    "text": "72",
+    "fixed": "27"
+   },
+   {
+    "row_y": 1861,
+    "kind": "repaired_swap",
+    "text": "82",
+    "fixed": "28"
+   }
+  ]
+ },
+ {
+  "source": "timetables/昌平-西二旗-3.jpg",
+  "id": "昌平-西二旗-3",
+  "n_times": 135,
+  "stats": {
+   "n": 135,
+   "n_hours": 19,
+   "median_gap": 8,
+   "max_gap": 34,
+   "min_gap": 1
+  },
+  "issues": [
+   {
+    "kind": "gap_large",
+    "gap": 19,
+    "at": "05:51->06:10",
+    "msg": "gap 19 min exceeds 18 (possible missed train)"
+   },
+   {
+    "kind": "gap_small",
+    "gap": 1,
+    "at": "08:00->08:01",
+    "msg": "gap 1 min is below 2"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 21,
+    "at": "08:12->08:33",
+    "msg": "gap 21 min exceeds 18 (possible missed train)"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 18,
+    "at": "11:52->12:10",
+    "msg": "gap 18 min exceeds 18 (possible missed train)"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 34,
+    "at": "15:00->15:34",
+    "msg": "gap 34 min exceeds 18 (possible missed train)"
+   }
+  ],
+  "flags": [
+   {
+    "row_y": 758,
+    "kind": "repaired_swap",
+    "text": "82",
+    "fixed": "28"
+   },
+   {
+    "row_y": 837,
+    "kind": "ocr_fail",
+    "text": "0110182735446582"
+   },
+   {
+    "row_y": 995,
+    "kind": "repaired_swap",
+    "text": "91",
+    "fixed": "19"
+   },
+   {
+    "row_y": 1232,
+    "kind": "repaired_swap",
+    "text": "82",
+    "fixed": "28"
+   },
+   {
+    "row_y": 1469,
+    "kind": "repaired_swap",
+    "text": "81",
+    "fixed": "18"
+   },
+   {
+    "row_y": 1469,
+    "kind": "repaired_swap",
+    "text": "72",
+    "fixed": "27"
+   },
+   {
+    "row_y": 1548,
+    "kind": "ocr_fail",
+    "text": "0817233425059"
+   }
+  ]
+ },
+ {
+  "source": "timetables/昌平-西二旗-4.jpg",
+  "id": "昌平-西二旗-4",
+  "n_times": 134,
+  "stats": {
+   "n": 134,
+   "n_hours": 19,
+   "median_gap": 8,
+   "max_gap": 21,
+   "min_gap": 1
+  },
+  "issues": [
+   {
+    "kind": "gap_large",
+    "gap": 18,
+    "at": "05:55->06:13",
+    "msg": "gap 18 min exceeds 18 (possible missed train)"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 21,
+    "at": "09:12->09:33",
+    "msg": "gap 21 min exceeds 18 (possible missed train)"
+   },
+   {
+    "kind": "gap_small",
+    "gap": 1,
+    "at": "09:39->09:40",
+    "msg": "gap 1 min is below 2"
+   },
+   {
+    "kind": "gap_small",
+    "gap": 1,
+    "at": "09:52->09:53",
+    "msg": "gap 1 min is below 2"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 18,
+    "at": "22:53->23:11",
+    "msg": "gap 18 min exceeds 18 (possible missed train)"
+   }
+  ],
+  "flags": [
+   {
+    "row_y": 995,
+    "kind": "repaired_swap",
+    "text": "91",
+    "fixed": "19"
+   },
+   {
+    "row_y": 1546,
+    "kind": "ocr_fail",
+    "text": "01101827354351459"
+   },
+   {
+    "row_y": 1940,
+    "kind": "ocr_fail",
+    "text": "0210192736443583"
+   },
+   {
+    "row_y": 2019,
+    "kind": "ocr_fail",
+    "text": "011018273544583"
+   }
+  ]
+ },
+ {
+  "source": "timetables/昌平-西土城-1.jpg",
+  "id": "昌平-西土城-1",
+  "n_times": 263,
+  "stats": {
+   "n": 263,
+   "n_hours": 19,
+   "median_gap": 3,
+   "max_gap": 11,
+   "min_gap": 2
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 1063,
+    "kind": "ocr_fail",
+    "text": "06061218222730343744344525558"
+   },
+   {
+    "row_y": 1175,
+    "kind": "repaired_swap",
+    "text": "70",
+    "fixed": "07"
+   },
+   {
+    "row_y": 1175,
+    "kind": "repaired_swap",
+    "text": "71",
+    "fixed": "17"
+   },
+   {
+    "row_y": 1175,
+    "kind": "repaired_swap",
+    "text": "61",
+    "fixed": "16"
+   },
+   {
+    "row_y": 1175,
+    "kind": "repaired_swap",
+    "text": "92",
+    "fixed": "29"
+   },
+   {
+    "row_y": 1175,
+    "kind": "repaired_swap",
+    "text": "82",
+    "fixed": "28"
+   },
+   {
+    "row_y": 1175,
+    "kind": "repaired_swap",
+    "text": "83",
+    "fixed": "38"
+   },
+   {
+    "row_y": 1287,
+    "kind": "ocr_fail",
+    "text": "08000305081013151820222527293134363840434548505255759"
+   },
+   {
+    "row_y": 2069,
+    "kind": "ocr_fail",
+    "text": "145102029405059"
+   },
+   {
+    "row_y": 2293,
+    "kind": "repaired_swap",
+    "text": "74",
+    "fixed": "47"
+   },
+   {
+    "row_y": 2404,
+    "kind": "repaired_swap",
+    "text": "80",
+    "fixed": "08"
+   },
+   {
+    "row_y": 2404,
+    "kind": "repaired_swap",
+    "text": "60",
+    "fixed": "06"
+   },
+   {
+    "row_y": 2404,
+    "kind": "repaired_swap",
+    "text": "81",
+    "fixed": "18"
+   },
+   {
+    "row_y": 2404,
+    "kind": "repaired_swap",
+    "text": "61",
+    "fixed": "16"
+   },
+   {
+    "row_y": 2404,
+    "kind": "repaired_swap",
+    "text": "82",
+    "fixed": "28"
+   },
+   {
+    "row_y": 2516,
+    "kind": "repaired_swap",
+    "text": "90",
+    "fixed": "09"
+   },
+   {
+    "row_y": 2516,
+    "kind": "repaired_swap",
+    "text": "60",
+    "fixed": "06"
+   },
+   {
+    "row_y": 2516,
+    "kind": "repaired_swap",
+    "text": "81",
+    "fixed": "18"
+   },
+   {
+    "row_y": 2516,
+    "kind": "repaired_swap",
+    "text": "61",
+    "fixed": "16"
+   },
+   {
+    "row_y": 2516,
+    "kind": "repaired_swap",
+    "text": "82",
+    "fixed": "28"
+   }
+  ]
+ },
+ {
+  "source": "timetables/昌平-西土城-2.jpg",
+  "id": "昌平-西土城-2",
+  "n_times": 265,
+  "stats": {
+   "n": 265,
+   "n_hours": 19,
+   "median_gap": 3,
+   "max_gap": 10,
+   "min_gap": 2
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/昌平-西土城-3.jpg",
+  "id": "昌平-西土城-3",
+  "n_times": 128,
+  "stats": {
+   "n": 128,
+   "n_hours": 19,
+   "median_gap": 8,
+   "max_gap": 33,
+   "min_gap": 2
+  },
+  "issues": [
+   {
+    "kind": "gap_large",
+    "gap": 33,
+    "at": "06:00->06:33",
+    "msg": "gap 33 min exceeds 18 (possible missed train)"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 33,
+    "at": "11:00->11:33",
+    "msg": "gap 33 min exceeds 18 (possible missed train)"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 22,
+    "at": "12:11->12:33",
+    "msg": "gap 22 min exceeds 18 (possible missed train)"
+   }
+  ],
+  "flags": [
+   {
+    "row_y": 1064,
+    "kind": "repaired_swap",
+    "text": "81",
+    "fixed": "18"
+   },
+   {
+    "row_y": 1064,
+    "kind": "repaired_swap",
+    "text": "72",
+    "fixed": "27"
+   },
+   {
+    "row_y": 1622,
+    "kind": "repaired_swap",
+    "text": "81",
+    "fixed": "18"
+   },
+   {
+    "row_y": 1622,
+    "kind": "repaired_swap",
+    "text": "72",
+    "fixed": "27"
+   },
+   {
+    "row_y": 1734,
+    "kind": "repaired_swap",
+    "text": "72",
+    "fixed": "27"
+   },
+   {
+    "row_y": 1957,
+    "kind": "ocr_fail",
+    "text": "071624324149388"
+   },
+   {
+    "row_y": 2069,
+    "kind": "ocr_fail",
+    "text": "061523314049358"
+   },
+   {
+    "row_y": 2293,
+    "kind": "ocr_fail",
+    "text": "0514212835414753359"
+   },
+   {
+    "row_y": 2404,
+    "kind": "repaired_swap",
+    "text": "72",
+    "fixed": "27"
+   },
+   {
+    "row_y": 2404,
+    "kind": "repaired_swap",
+    "text": "73",
+    "fixed": "37"
+   },
+   {
+    "row_y": 2516,
+    "kind": "ocr_fail",
+    "text": "05111722935414753589"
+   },
+   {
+    "row_y": 2627,
+    "kind": "repaired_swap",
+    "text": "93",
+    "fixed": "39"
+   },
+   {
+    "row_y": 2627,
+    "kind": "repaired_swap",
+    "text": "64",
+    "fixed": "46"
+   }
+  ]
+ },
+ {
+  "source": "timetables/昌平-西土城-4.jpg",
+  "id": "昌平-西土城-4",
+  "n_times": 138,
+  "stats": {
+   "n": 138,
+   "n_hours": 19,
+   "median_gap": 8,
+   "max_gap": 18,
+   "min_gap": 6
+  },
+  "issues": [
+   {
+    "kind": "gap_large",
+    "gap": 18,
+    "at": "22:55->23:13",
+    "msg": "gap 18 min exceeds 18 (possible missed train)"
+   }
+  ],
+  "flags": [
+   {
+    "row_y": 1064,
+    "kind": "ocr_fail",
+    "text": "071524334235059"
+   },
+   {
+    "row_y": 1287,
+    "kind": "ocr_fail",
+    "text": "051117232935414753359"
+   },
+   {
+    "row_y": 1399,
+    "kind": "repaired_swap",
+    "text": "72",
+    "fixed": "27"
+   },
+   {
+    "row_y": 1511,
+    "kind": "ocr_fail",
+    "text": "05121926344149538"
+   },
+   {
+    "row_y": 1623,
+    "kind": "bad_minute",
+    "text": "97"
+   }
+  ]
+ }
+]

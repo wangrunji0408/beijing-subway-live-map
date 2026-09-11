@@ -1,0 +1,7234 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.7 375dc00a",
+  "osm3s": {
+    "timestamp_osm_base": "2026-09-09T15:01:02Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+
+{
+  "type": "node",
+  "id": 340262247,
+  "lat": 40.0290192,
+  "lon": 116.4119016,
+  "tags": {
+    "name": "北苑路北",
+    "name:en": "Beiyuanlu North",
+    "name:ru": "Бэйюаньлу-Северная",
+    "name:zh": "北苑路北",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q4881517"
+  }
+},
+{
+  "type": "node",
+  "id": 1094071212,
+  "lat": 39.7937219,
+  "lon": 116.5753324,
+  "tags": {
+    "name": "次渠南",
+    "name:en": "Ciqu South",
+    "name:ru": "Южный Цыцюй",
+    "name:zh": "次渠南",
+    "name:zh-Latn-pinyin": "Cìqúnán",
+    "public_transport": "stop_position",
+    "railway": "station",
+    "subway": "yes",
+    "wikidata": "Q5121331"
+  }
+},
+{
+  "type": "node",
+  "id": 1296102418,
+  "lat": 39.8989948,
+  "lon": 116.1976160,
+  "tags": {
+    "name": "衙门口",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "train": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 3363538820,
+  "lat": 39.9429320,
+  "lon": 116.4690136,
+  "tags": {
+    "name": "枣营",
+    "name:en": "Zaoying",
+    "name:zh": "枣营",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q17028044"
+  }
+},
+{
+  "type": "node",
+  "id": 3363577821,
+  "lat": 39.9323096,
+  "lon": 116.4725284,
+  "tags": {
+    "name": "朝阳公园",
+    "name:en": "Chaoyang Park",
+    "name:zh": "朝阳公园",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q15931937"
+  }
+},
+{
+  "type": "node",
+  "id": 3365609789,
+  "lat": 39.8640190,
+  "lon": 116.2688628,
+  "tags": {
+    "name": "大井",
+    "name:en": "Dajing",
+    "name:zh": "大井",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q9206167"
+  }
+},
+{
+  "type": "node",
+  "id": 3365609790,
+  "lat": 39.8583275,
+  "lon": 116.2344523,
+  "tags": {
+    "name": "大瓦窑",
+    "name:en": "Dawayao",
+    "name:zh": "大瓦窑",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q9206415"
+  }
+},
+{
+  "type": "node",
+  "id": 3365609791,
+  "lat": 39.8640535,
+  "lon": 116.2483861,
+  "tags": {
+    "name": "郭庄子",
+    "name:en": "Guozhuangzi",
+    "name:zh": "郭庄子",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q9206264"
+  }
+},
+{
+  "type": "node",
+  "id": 3367038996,
+  "lat": 39.8652402,
+  "lon": 116.2881665,
+  "tags": {
+    "name": "七里庄",
+    "name:en": "Qilizhuang",
+    "name:zh": "七里庄",
+    "name:zh-Latn-pinyin": "Qīlĭzhuāng",
+    "operator": "北京市地铁运营;北京京港地铁",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q5926481",
+    "wikipedia:en": "Qilizhuang station"
+  }
+},
+{
+  "type": "node",
+  "id": 3367044891,
+  "lat": 39.8652242,
+  "lon": 116.2978076,
+  "tags": {
+    "name": "西局",
+    "name:en": "Xiju",
+    "name:zh": "西局",
+    "name:zh-Latn-pinyin": "Xījú",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q75387"
+  }
+},
+{
+  "type": "node",
+  "id": 3367069254,
+  "lat": 39.8661164,
+  "lon": 116.3144367,
+  "tags": {
+    "name": "东管头",
+    "name:en": "Dongguantou",
+    "name:zh": "东管头",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q105069698"
+  }
+},
+{
+  "type": "node",
+  "id": 3367069255,
+  "lat": 39.8662759,
+  "lon": 116.3256029,
+  "tags": {
+    "name": "丽泽商务区",
+    "name:en": "Lize Business District",
+    "name:ru": "Деловой квартал Лицзэ",
+    "name:zh": "丽泽商务区",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q27949117",
+    "wikipedia": "en:Lize Shangwuqu station"
+  }
+},
+{
+  "type": "node",
+  "id": 3367069256,
+  "lat": 39.8614067,
+  "lon": 116.3600963,
+  "tags": {
+    "name": "景风门",
+    "name:en": "Jingfengmen",
+    "name:zh": "景风门",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q27916010",
+    "wikipedia": "en:Jingfengmen station"
+  }
+},
+{
+  "type": "node",
+  "id": 3367069257,
+  "lat": 39.8662594,
+  "lon": 116.3366819,
+  "tags": {
+    "name": "菜户营",
+    "name:en": "Caihuying",
+    "name:zh": "菜户营",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q105069699"
+  }
+},
+{
+  "type": "node",
+  "id": 3367857703,
+  "lat": 39.8636494,
+  "lon": 116.4049409,
+  "tags": {
+    "name": "景泰",
+    "name:en": "Jingtai",
+    "name:zh": "景泰",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q21245986",
+    "wikipedia:zh": "景泰站 (北京市)"
+  }
+},
+{
+  "type": "node",
+  "id": 3367857705,
+  "lat": 39.8643287,
+  "lon": 116.4154612,
+  "tags": {
+    "name": "蒲黄榆",
+    "name:en": "Puhuangyu",
+    "name:ru": "Пухуанъюй",
+    "name:zh": "蒲黄榆",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q7258998",
+    "wikipedia:en": "Puhuangyu station"
+  }
+},
+{
+  "type": "node",
+  "id": 3367857706,
+  "lat": 39.8675967,
+  "lon": 116.3816795,
+  "tags": {
+    "construction": "yes",
+    "construction:public_transport": "station",
+    "name": "陶然桥(在建)",
+    "name:en": "Taoranqiao(under construction)",
+    "name:zh": "陶然桥",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q21246002",
+    "wikipedia": "zh:陶然桥站"
+  }
+},
+{
+  "type": "node",
+  "id": 3367977137,
+  "lat": 39.8647129,
+  "lon": 116.4525595,
+  "tags": {
+    "name": "十里河",
+    "name:en": "Shilihe",
+    "name:zh": "十里河",
+    "name:zh-Latn-pinyin": "Shílĭhé",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q7496646"
+  }
+},
+{
+  "type": "node",
+  "id": 3367977138,
+  "lat": 39.8646354,
+  "lon": 116.4339348,
+  "tags": {
+    "name": "方庄",
+    "name:en": "Fangzhuang",
+    "name:zh": "方庄",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q21850054",
+    "wikipedia": "en:Fangzhuang station"
+  }
+},
+{
+  "type": "node",
+  "id": 3369001427,
+  "lat": 39.9583029,
+  "lon": 116.4789687,
+  "tags": {
+    "name": "东风北桥",
+    "name:en": "Dongfeng Beiqiao",
+    "name:zh": "东风北桥",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q17013586"
+  }
+},
+{
+  "type": "node",
+  "id": 3369001428,
+  "lat": 39.8921089,
+  "lon": 116.4716849,
+  "tags": {
+    "name": "九龙山",
+    "name:en": "Jiulongshan",
+    "name:zh": "九龙山",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q15928637"
+  }
+},
+{
+  "type": "node",
+  "id": 3369001431,
+  "lat": 39.9069399,
+  "lon": 116.4712272,
+  "tags": {
+    "name": "大望路",
+    "name:en": "Dawanglu",
+    "name:zh": "大望路",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q5242277",
+    "wikipedia": "en:Dawang Lu station"
+  }
+},
+{
+  "type": "node",
+  "id": 3369001432,
+  "lat": 39.8838514,
+  "lon": 116.4713411,
+  "tags": {
+    "name": "平乐园",
+    "name:en": "Pingleyuan",
+    "name:zh": "平乐园",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q46999367"
+  }
+},
+{
+  "type": "node",
+  "id": 3369001433,
+  "lat": 39.8736424,
+  "lon": 116.4713573,
+  "tags": {
+    "name": "北工大西门",
+    "name:en": "Beijing University of Technology West Gate",
+    "name:zh": "北工大西门",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q21850056"
+  }
+},
+{
+  "type": "node",
+  "id": 3369356928,
+  "lat": 40.0091272,
+  "lon": 116.4611561,
+  "tags": {
+    "name": "东湖渠",
+    "name:en": "Donghuqu",
+    "name:zh": "东湖渠",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q17163628"
+  }
+},
+{
+  "type": "node",
+  "id": 3369356930,
+  "lat": 39.9694941,
+  "lon": 116.4840447,
+  "tags": {
+    "name": "将台",
+    "name:en": "Jiangtai",
+    "name:zh": "将台",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q17024829"
+  }
+},
+{
+  "type": "node",
+  "id": 3369356931,
+  "lat": 39.9965663,
+  "lon": 116.4624279,
+  "tags": {
+    "name": "望京",
+    "name:en": "Wangjing",
+    "name:ru": "Ванцзин",
+    "name:zh": "望京",
+    "name:zh-Latn-pinyin": "Wàngjīng",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q6119178"
+  }
+},
+{
+  "type": "node",
+  "id": 3369356933,
+  "lat": 40.0191988,
+  "lon": 116.4607871,
+  "tags": {
+    "name": "来广营",
+    "name:en": "Laiguangying",
+    "name:zh": "来广营",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q18759603"
+  }
+},
+{
+  "type": "node",
+  "id": 3369356934,
+  "lat": 39.9906798,
+  "lon": 116.4650632,
+  "tags": {
+    "name": "阜通",
+    "name:en": "Futong",
+    "name:zh": "阜通",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wheelchair": "yes",
+    "wikidata": "Q18759604"
+  }
+},
+{
+  "type": "node",
+  "id": 3369459831,
+  "lat": 39.8840067,
+  "lon": 116.4975172,
+  "tags": {
+    "name": "化工",
+    "name:en": "Huagong",
+    "name:zh": "化工",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q15942662"
+  }
+},
+{
+  "type": "node",
+  "id": 3369459832,
+  "lat": 39.8733935,
+  "lon": 116.4954124,
+  "tags": {
+    "name": "南楼梓庄",
+    "name:en": "Nanlouzizhuang",
+    "name:zh": "南楼梓庄",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q15942316"
+  }
+},
+{
+  "type": "node",
+  "id": 3369459833,
+  "lat": 39.8920933,
+  "lon": 116.4552314,
+  "tags": {
+    "name": "双井",
+    "name:en": "Shuangjing",
+    "name:zh": "双井",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q5936021"
+  }
+},
+{
+  "type": "node",
+  "id": 3369459834,
+  "lat": 39.8581385,
+  "lon": 116.5223453,
+  "tags": {
+    "name": "双合",
+    "name:en": "Shuanghe",
+    "name:zh": "双合",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q17498770"
+  }
+},
+{
+  "type": "node",
+  "id": 3369459835,
+  "lat": 39.8595740,
+  "lon": 116.5057156,
+  "tags": {
+    "name": "垡头",
+    "name:en": "Fatou",
+    "name:zh": "垡头",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q17498803"
+  }
+},
+{
+  "type": "node",
+  "id": 3369459836,
+  "lat": 39.8921857,
+  "lon": 116.4813499,
+  "tags": {
+    "name": "大郊亭",
+    "name:en": "Dajiaoting",
+    "name:zh": "大郊亭",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "wikidata": "Q18652379"
+  }
+},
+{
+  "type": "node",
+  "id": 3369459837,
+  "lat": 39.8885681,
+  "lon": 116.3517270,
+  "tags": {
+    "name": "广安门内",
+    "name:en": "Inner Guang'anmen",
+    "name:zh": "广安门内",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 3369459838,
+  "lat": 39.8923066,
+  "lon": 116.4430351,
+  "tags": {
+    "name": "广渠门外",
+    "name:en": "Guangqumen Wai",
+    "name:zh": "广渠门外",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q18653130"
+  }
+},
+{
+  "type": "node",
+  "id": 3369459839,
+  "lat": 39.8912849,
+  "lon": 116.4022485,
+  "tags": {
+    "name": "桥湾",
+    "name:en": "Qiaowan",
+    "name:zh": "桥湾",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q18654011",
+    "wikipedia:zh": "桥湾站 (北京市)"
+  }
+},
+{
+  "type": "node",
+  "id": 3369459840,
+  "lat": 39.8922863,
+  "lon": 116.4277207,
+  "tags": {
+    "name": "广渠门内",
+    "name:en": "Guangqumen Nei",
+    "name:zh": "广渠门内",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 3369459841,
+  "lat": 39.8656674,
+  "lon": 116.4930838,
+  "tags": {
+    "name": "欢乐谷景区",
+    "name:en": "Beijing Happy Valley",
+    "name:zh": "欢乐谷景区",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q17499129"
+  }
+},
+{
+  "type": "node",
+  "id": 3369459843,
+  "lat": 39.8542896,
+  "lon": 116.5316140,
+  "tags": {
+    "name": "焦化厂",
+    "name:en": "Jiaohuachang",
+    "name:zh": "焦化厂",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q17499265"
+  }
+},
+{
+  "type": "node",
+  "id": 3369459845,
+  "lat": 39.8913756,
+  "lon": 116.4902447,
+  "tags": {
+    "name": "百子湾",
+    "name:en": "Baiziwan",
+    "name:zh": "百子湾",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q18657528"
+  }
+},
+{
+  "type": "node",
+  "id": 3369459846,
+  "lat": 39.8917025,
+  "lon": 116.4126199,
+  "tags": {
+    "name": "磁器口",
+    "name:en": "Ciqikou",
+    "name:ru": "Цыцикоу",
+    "name:zh": "磁器口",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q5121330",
+    "wikipedia:zh": "磁器口站 (北京市)"
+  }
+},
+{
+  "type": "node",
+  "id": 3369459847,
+  "lat": 39.8879910,
+  "lon": 116.3682164,
+  "tags": {
+    "name": "菜市口",
+    "name:en": "Caishikou",
+    "name:zh": "菜市口",
+    "operator": "北京市地铁运营;北京京港地铁",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q5017826",
+    "wikipedia": "zh:菜市口站"
+  }
+},
+{
+  "type": "node",
+  "id": 3369459848,
+  "lat": 39.8883975,
+  "lon": 116.3774806,
+  "tags": {
+    "name": "虎坊桥",
+    "name:en": "Hufangqiao",
+    "name:zh": "虎坊桥",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q15953285"
+  }
+},
+{
+  "type": "node",
+  "id": 3369459849,
+  "lat": 39.8888920,
+  "lon": 116.3293717,
+  "tags": {
+    "name": "达官营",
+    "name:en": "Daguanying",
+    "name:ru": "Дагуаньин",
+    "name:zh": "达官营",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q15929607"
+  }
+},
+{
+  "type": "node",
+  "id": 3379245685,
+  "lat": 39.9997494,
+  "lon": 116.4250584,
+  "tags": {
+    "name": "关庄",
+    "name:en": "Guanzhuang",
+    "name:ru": "Гуаньчжуан",
+    "name:zh": "关庄",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q5613854"
+  }
+},
+{
+  "type": "node",
+  "id": 3379245686,
+  "lat": 40.0001238,
+  "lon": 116.3620432,
+  "tags": {
+    "name": "北沙滩",
+    "name:en": "Beishatan",
+    "name:ru": "Бэйшатань",
+    "name:zh": "北沙滩",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q18699937"
+  }
+},
+{
+  "type": "node",
+  "id": 3379245688,
+  "lat": 40.0003857,
+  "lon": 116.3867559,
+  "tags": {
+    "name": "奥林匹克公园",
+    "name:en": "Olympic Park",
+    "name:ru": "Олимпийский парк",
+    "name:zh": "奥林匹克公园",
+    "name:zh-Hans": "奥林匹克公园",
+    "name:zh-Hant": "奧林匹克公園",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wheelchair": "yes",
+    "wikidata": "Q7089092",
+    "wikipedia": "zh:奥林匹克公园站 (北京市)"
+  }
+},
+{
+  "type": "node",
+  "id": 3379245689,
+  "lat": 40.0011779,
+  "lon": 116.4016216,
+  "tags": {
+    "name": "安立路",
+    "name:en": "Anlilu",
+    "name:ru": "Улица Аньли",
+    "name:zh": "安立路",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q18697398"
+  }
+},
+{
+  "type": "node",
+  "id": 3379245690,
+  "lat": 39.9993038,
+  "lon": 116.3336262,
+  "tags": {
+    "name": "清华东路西口",
+    "name:en": "Qinghua Donglu Xikou",
+    "name:ja": "清華東路西口",
+    "name:ja-Hira": "せいかとうろせいかとうろにしぐち",
+    "name:ko": "청화동로서구",
+    "name:ru": "Западный вход на восток улицы Цинхуа",
+    "name:zh": "清华东路西口",
+    "name:zh-Latn-pinyin": "Qīnghuá Dōnglù Xīkǒu",
+    "network": "北京地铁",
+    "operator": "北京地铁",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q15919571"
+  }
+},
+{
+  "type": "node",
+  "id": 4564112633,
+  "lat": 39.8477313,
+  "lon": 116.2233972,
+  "tags": {
+    "name": "宛平城",
+    "name:en": "Wanpingcheng",
+    "name:ru": "Ваньпинчэн",
+    "public_transport": "station",
+    "railway": "station",
+    "start_date": "2023-12-30",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q45859909",
+    "wikipedia": "zh:宛平城站"
+  }
+},
+{
+  "type": "node",
+  "id": 4564112640,
+  "lat": 39.8375683,
+  "lon": 116.2529824,
+  "tags": {
+    "name": "榆树庄",
+    "name:en": "Yushuzhuang",
+    "name:ru": "Юйшучжуан",
+    "public_transport": "station",
+    "railway": "station",
+    "start_date": "2022-12-31",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q78872905"
+  }
+},
+{
+  "type": "node",
+  "id": 4564112660,
+  "lat": 39.8349394,
+  "lon": 116.2810932,
+  "tags": {
+    "name": "富丰桥",
+    "name:en": "Fufengqiao",
+    "name:ru": "Мост Фуфын",
+    "public_transport": "station",
+    "railway": "station",
+    "start_date": "2022-12-31",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q78872883",
+    "wikipedia": "en:Fufengqiao station"
+  }
+},
+{
+  "type": "node",
+  "id": 4564112795,
+  "lat": 39.8762703,
+  "lon": 116.3307982,
+  "tags": {
+    "name": "红莲南路",
+    "name:en": "Honglian Nanlu",
+    "name:ru": "Южная улица Хунлянь",
+    "public_transport": "station",
+    "railway": "station",
+    "start_date": "2022-12-31",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q45412676",
+    "wikipedia": "en:Honglian Nanlu station"
+  }
+},
+{
+  "type": "node",
+  "id": 4564112811,
+  "lat": 39.9077017,
+  "lon": 116.3277725,
+  "tags": {
+    "name": "木樨地",
+    "name:en": "Muxidi",
+    "name:ru": "Мусиди",
+    "public_transport": "station",
+    "railway": "station",
+    "start_date": "2022-12-31",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q842107",
+    "wikipedia": "en:Muxidi station"
+  }
+},
+{
+  "type": "node",
+  "id": 4564112816,
+  "lat": 39.9139393,
+  "lon": 116.3288720,
+  "tags": {
+    "name": "玉渊潭东门",
+    "name:en": "Yuyuantan Park East Gate",
+    "name:ru": "Восточные ворота парка Юйюаньтань",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q78144946",
+    "wikipedia": "en:Yuyuantan Dongmen (Yuyuantan Park East Gate) station"
+  }
+},
+{
+  "type": "node",
+  "id": 4564112817,
+  "lat": 39.9224390,
+  "lon": 116.3285052,
+  "tags": {
+    "name": "甘家口",
+    "name:en": "Ganjia Kou",
+    "name:ru": "Ганьцзякоу",
+    "public_transport": "station",
+    "railway": "station",
+    "start_date": "2020-12-31",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q28309040",
+    "wikipedia": "zh:甘家口站"
+  }
+},
+{
+  "type": "node",
+  "id": 4564112842,
+  "lat": 39.9471407,
+  "lon": 116.3032926,
+  "tags": {
+    "name": "万寿寺",
+    "name:en": "Wanshousi",
+    "name:ru": "Храм Ваньшоу",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q28412821",
+    "wikipedia": "en:Wanshou Si station"
+  }
+},
+{
+  "type": "node",
+  "id": 4564112846,
+  "lat": 39.9612484,
+  "lon": 116.3015319,
+  "tags": {
+    "name": "苏州桥",
+    "name:en": "Suzhou Qiao",
+    "name:ru": "Мост Сучжоу",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q28309051",
+    "wikipedia": "zh:苏州桥站"
+  }
+},
+{
+  "type": "node",
+  "id": 4564112855,
+  "lat": 39.9839185,
+  "lon": 116.2942646,
+  "tags": {
+    "name": "万泉河桥",
+    "name:en": "Wanquanhe Qiao",
+    "name:ru": "Мост Ваньцюаньхэ",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q28411146",
+    "wikipedia": "zh:万泉河桥站"
+  }
+},
+{
+  "type": "node",
+  "id": 4564112873,
+  "lat": 40.0184431,
+  "lon": 116.2770283,
+  "tags": {
+    "name": "农大南路",
+    "name:en": "Nongda Nanlu",
+    "name:ru": "Южная улица Нунда",
+    "name:zh": "农大南路",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q25349546",
+    "wikipedia": "en:Nongda Nanlu station"
+  }
+},
+{
+  "type": "node",
+  "id": 4564112875,
+  "lat": 40.0314450,
+  "lon": 116.2658290,
+  "tags": {
+    "name": "马连洼",
+    "name:en": "Malianwa",
+    "name:ru": "Маляньва",
+    "name:zh": "马连洼",
+    "public_transport": "station",
+    "railway": "station",
+    "start_date": "2016-12-31",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q26261977",
+    "wikipedia": "zh:马连洼站"
+  }
+},
+{
+  "type": "node",
+  "id": 4564112882,
+  "lat": 40.0478932,
+  "lon": 116.2520781,
+  "tags": {
+    "name": "西北旺",
+    "name:en": "Xibeiwang",
+    "name:ru": "Сибэйван",
+    "name:zh": "西北旺",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q26206379"
+  }
+},
+{
+  "type": "node",
+  "id": 4564112888,
+  "lat": 40.0630145,
+  "lon": 116.2435428,
+  "tags": {
+    "name": "永丰南",
+    "name:en": "Yongfeng South",
+    "name:ru": "Южный Юнфын",
+    "name:zh": "永丰南",
+    "railway": "station",
+    "station": "subway",
+    "wikidata": "Q24831566"
+  }
+},
+{
+  "type": "node",
+  "id": 4564113101,
+  "lat": 40.0673089,
+  "lon": 116.2093337,
+  "tags": {
+    "name": "屯佃",
+    "name:en": "Tundian",
+    "name:ru": "Туньдянь",
+    "name:zh": "屯佃",
+    "name:zh-Latn-pinyin": "Tún diàn",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q24835471",
+    "wikipedia": "zh:屯佃站"
+  }
+},
+{
+  "type": "node",
+  "id": 4564113107,
+  "lat": 40.0675113,
+  "lon": 116.1555687,
+  "tags": {
+    "name": "温阳路",
+    "name:en": "Wenyanglu",
+    "name:ru": "Вэньян",
+    "name:zh": "温阳路",
+    "name:zh-Latn-pinyin": "Wēn yáng lù",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q24327754"
+  }
+},
+{
+  "type": "node",
+  "id": 4564113110,
+  "lat": 40.0668592,
+  "lon": 116.1243785,
+  "tags": {
+    "name": "北安河",
+    "name:en": "Beianhe",
+    "name:ru": "Бэйаньхэ",
+    "name:zh": "北安河",
+    "name:zh-Latn-pinyin": "Běiān hé",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q24699103"
+  }
+},
+{
+  "type": "node",
+  "id": 4846712797,
+  "lat": 39.9035987,
+  "lon": 116.4209544,
+  "tags": {
+    "name": "北京站",
+    "name:en": "Beijing Railway Station",
+    "name:ja": "北京駅",
+    "name:ja-Hira": "ぺきんえき",
+    "name:ja-Latn": "Pekineki",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 5158580594,
+  "lat": 39.8635548,
+  "lon": 116.3727527,
+  "tags": {
+    "name": "北京南站",
+    "name:de": "Peking Südbahnhof",
+    "name:en": "Beijing South",
+    "name:zh": "北京南站",
+    "operator": "北京京港地铁",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 5305505984,
+  "lat": 39.9861781,
+  "lon": 116.4109068,
+  "tags": {
+    "name": "惠新西街北口",
+    "name:en": "Huixinxijie Beikou",
+    "name:ru": "Северный вход на улицу Хуэйсинь-Восточный",
+    "name:zh": "惠新西街北口",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q5972925"
+  }
+},
+{
+  "type": "node",
+  "id": 5305505985,
+  "lat": 39.9759588,
+  "lon": 116.4113554,
+  "tags": {
+    "name": "惠新西街南口",
+    "name:en": "Huixinxijie Nankou",
+    "name:ru": "Южный вход на улицу Хуэйсинь-Восточный",
+    "name:zh": "惠新西街南口",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q5966161"
+  }
+},
+{
+  "type": "node",
+  "id": 5305505986,
+  "lat": 39.9672289,
+  "lon": 116.4117932,
+  "tags": {
+    "name": "和平西桥",
+    "name:en": "Heping Xiqiao",
+    "name:zh": "和平西桥",
+    "name:zh-Hans": "和平西桥",
+    "name:zh-Hant": "和平西橋",
+    "operator": "北京地铁运营一分公司",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wheelchair": "yes",
+    "wikidata": "Q6123956",
+    "wikipedia": "zh:和平西桥站"
+  }
+},
+{
+  "type": "node",
+  "id": 5305505987,
+  "lat": 39.9469713,
+  "lon": 116.4101645,
+  "tags": {
+    "name": "雍和宫",
+    "name:en": "Yonghegong Lama Temple",
+    "name:ru": "Храм Юнхэ",
+    "name:zh": "雍和宫",
+    "name:zh-Hans": "雍和宫",
+    "name:zh-Hant": "雍和宮",
+    "opening_hours": "Mo-Su 09:00-17:00",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wheelchair": "yes",
+    "wikidata": "Q5976347",
+    "wikipedia": "zh:雍和宫站"
+  }
+},
+{
+  "type": "node",
+  "id": 5305505988,
+  "lat": 39.9479275,
+  "lon": 116.4115432,
+  "tags": {
+    "name": "雍和宫",
+    "name:en": "Yonghegong Lama Temple",
+    "name:ru": "Юнхэгун",
+    "name:zh": "雍和宫",
+    "name:zh-Hans": "雍和宫",
+    "name:zh-Hant": "雍和宮",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wheelchair": "yes",
+    "wikidata": "Q5976347",
+    "wikipedia": "zh:雍和宫站"
+  }
+},
+{
+  "type": "node",
+  "id": 5305505989,
+  "lat": 39.9154103,
+  "lon": 116.4118355,
+  "tags": {
+    "name": "灯市口",
+    "name:en": "Dengshikou",
+    "name:ru": "Дэншикоу",
+    "name:zh": "灯市口",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q5256961"
+  }
+},
+{
+  "type": "node",
+  "id": 5305505990,
+  "lat": 39.9229744,
+  "lon": 116.4102477,
+  "tags": {
+    "name": "东四",
+    "name:en": "Dongsi",
+    "name:zh": "东四",
+    "name:zh-Latn-pinyin": "Dōngsì",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 5305505993,
+  "lat": 39.9359528,
+  "lon": 116.3900647,
+  "tags": {
+    "name": "什刹海",
+    "name:en": "Shichahai",
+    "name:ru": "Шичахай",
+    "name:zh": "什刹海",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q7496096"
+  }
+},
+{
+  "type": "node",
+  "id": 5305505994,
+  "lat": 39.9475440,
+  "lon": 116.3879183,
+  "tags": {
+    "name": "鼓楼大街",
+    "name:en": "Gulou Dajie",
+    "name:ru": "Улица Гулоу",
+    "name:zh": "鼓楼大街",
+    "name:zh-Latn-pinyin": "Gŭlóudàjiē",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 5305505995,
+  "lat": 39.9467307,
+  "lon": 116.3876367,
+  "tags": {
+    "name": "鼓楼大街",
+    "name:en": "Gulou Dajie",
+    "name:zh": "鼓楼大街",
+    "name:zh-Latn-pinyin": "Gŭlóudàjiē",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 5305505996,
+  "lat": 39.9671117,
+  "lon": 116.3883984,
+  "tags": {
+    "name": "安华桥",
+    "name:en": "Anhuaqiao",
+    "name:ru": "Мост Аньхуа",
+    "name:zh": "安华桥",
+    "name:zh-Latn-pinyin": "Ānhuáqiáo",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q4764370"
+  }
+},
+{
+  "type": "node",
+  "id": 5305505997,
+  "lat": 39.9763987,
+  "lon": 116.3879263,
+  "tags": {
+    "name": "北土城",
+    "name:en": "Beitucheng",
+    "name:ru": "Бэйтучэн",
+    "name:zh": "北土城",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q847653"
+  }
+},
+{
+  "type": "node",
+  "id": 5305505998,
+  "lat": 40.0091950,
+  "lon": 116.3864002,
+  "tags": {
+    "name": "森林公园南门",
+    "name:en": "Forest Park South Gate",
+    "name:ru": "Южные ворота лесопарка",
+    "name:zh": "森林公园南门",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q847787"
+  }
+},
+{
+  "type": "node",
+  "id": 5305506001,
+  "lat": 40.0704794,
+  "lon": 116.3538978,
+  "tags": {
+    "name": "霍营",
+    "name:en": "Huoying",
+    "name:ru": "Хуоин",
+    "name:zh": "霍营",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 5305506002,
+  "lat": 40.0206001,
+  "lon": 116.3667905,
+  "tags": {
+    "name": "林萃桥",
+    "name:en": "Lincuiqiao",
+    "name:ru": "Линьцуйцяо",
+    "name:zh": "林萃桥",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q4392184"
+  }
+},
+{
+  "type": "node",
+  "id": 5305506003,
+  "lat": 40.0366785,
+  "lon": 116.3483302,
+  "tags": {
+    "name": "永泰庄",
+    "name:en": "Yongtaizhuang",
+    "name:ru": "Юнтайчжуан",
+    "name:zh": "永泰庄",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "train": "yes",
+    "wikidata": "Q4392290"
+  }
+},
+{
+  "type": "node",
+  "id": 5305506004,
+  "lat": 40.0460679,
+  "lon": 116.3451639,
+  "tags": {
+    "name": "西小口",
+    "name:en": "Xixiaokou",
+    "name:ru": "Сисяокоу",
+    "name:zh": "西小口",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q4392224"
+  }
+},
+{
+  "type": "node",
+  "id": 5305506006,
+  "lat": 40.0797507,
+  "lon": 116.3571849,
+  "tags": {
+    "name": "回龙观东大街",
+    "name:en": "Huilongguan Dongdajie",
+    "name:ru": "Проспект Хуэйлунгуань-дун",
+    "name:zh": "回龙观东大街",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q5935093",
+    "wikipedia": "zh:回龙观东大街站"
+  }
+},
+{
+  "type": "node",
+  "id": 5305506007,
+  "lat": 40.0886607,
+  "lon": 116.3441902,
+  "tags": {
+    "name": "平西府",
+    "name:en": "Pingxifu",
+    "name:ru": "Пинсифу",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q15500795"
+  }
+},
+{
+  "type": "node",
+  "id": 5305506010,
+  "lat": 40.1296641,
+  "lon": 116.2878759,
+  "tags": {
+    "name": "巩华城",
+    "name:en": "Gonghuacheng",
+    "name:ru": "Гунхуачэн",
+    "name:zh": "巩华城",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q4392266"
+  }
+},
+{
+  "type": "node",
+  "id": 5305506011,
+  "lat": 40.1470443,
+  "lon": 116.2827677,
+  "tags": {
+    "name": "沙河",
+    "name:en": "Shahe",
+    "name:ru": "Шахэ",
+    "name:zh": "沙河",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q5937736"
+  }
+},
+{
+  "type": "node",
+  "id": 5305506012,
+  "lat": 40.1633993,
+  "lon": 116.2743857,
+  "tags": {
+    "name": "沙河高教园",
+    "name:en": "Shahe University Park",
+    "name:ru": "Парк Университет Шахэ",
+    "name:zh": "沙河高教园",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q4392198"
+  }
+},
+{
+  "type": "node",
+  "id": 5305506013,
+  "lat": 40.2433130,
+  "lon": 116.1893808,
+  "tags": {
+    "name": "昌平西山口",
+    "name:en": "Changping Xishankou",
+    "name:ru": "Чанпин Сишанькоу",
+    "name:zh": "昌平西山口",
+    "name:zh-Latn-pinyin": "Chāngpíng Xīshānkŏu",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "train": "yes",
+    "wheelchair": "limited",
+    "wikidata": "Q21245985"
+  }
+},
+{
+  "type": "node",
+  "id": 5305506014,
+  "lat": 40.2386353,
+  "lon": 116.2018465,
+  "tags": {
+    "name": "十三陵景区",
+    "name:en": "Ming Tombs",
+    "name:ru": "Гробницы Мин",
+    "name:zh": "十三陵景区",
+    "name:zh-Latn-pinyin": "Shísānlíngjĭngqū",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wheelchair": "limited",
+    "wikidata": "Q21245978"
+  }
+},
+{
+  "type": "node",
+  "id": 5305506015,
+  "lat": 40.2193139,
+  "lon": 116.2274869,
+  "tags": {
+    "name": "昌平",
+    "name:en": "Changping",
+    "name:ru": "Чанпин",
+    "name:zh": "昌平",
+    "name:zh-Latn-pinyin": "Chāngpíng",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "train": "yes",
+    "wikidata": "Q21017081"
+  }
+},
+{
+  "type": "node",
+  "id": 5305506016,
+  "lat": 40.2066479,
+  "lon": 116.2819710,
+  "tags": {
+    "name": "南邵",
+    "name:en": "Nanshao",
+    "name:ru": "Наньшао",
+    "name:zh": "南邵",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q5938143"
+  }
+},
+{
+  "type": "node",
+  "id": 5305506017,
+  "lat": 40.2206969,
+  "lon": 116.2754466,
+  "tags": {
+    "name": "北邵洼",
+    "name:en": "Beishaowa",
+    "name:ru": "Бэйшаова",
+    "name:zh": "北邵洼",
+    "name:zh-Latn-pinyin": "Bĕishàowā",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q21245977"
+  }
+},
+{
+  "type": "node",
+  "id": 5305506018,
+  "lat": 40.2205477,
+  "lon": 116.2567145,
+  "tags": {
+    "name": "昌平东关",
+    "name:en": "Changping Dongguan",
+    "name:ru": "Чанпин Дунгуань",
+    "name:zh": "昌平东关",
+    "name:zh-Latn-pinyin": "Chāngpíng Dōngguān",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "train": "yes",
+    "wikidata": "Q21245984"
+  }
+},
+{
+  "type": "node",
+  "id": 5372350032,
+  "lat": 39.8748619,
+  "lon": 116.4549705,
+  "tags": {
+    "name": "潘家园",
+    "name:en": "Panjiayuan",
+    "name:zh": "潘家园",
+    "name:zh-Latn-pinyin": "Pānjiāyuán",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q7131255"
+  }
+},
+{
+  "type": "node",
+  "id": 5372350033,
+  "lat": 39.8506149,
+  "lon": 116.4475880,
+  "tags": {
+    "name": "分钟寺",
+    "name:en": "Fenzhongsi",
+    "name:zh": "分钟寺",
+    "name:zh-Latn-pinyin": "Fēnzhōngsì",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q5443701"
+  }
+},
+{
+  "type": "node",
+  "id": 5402687151,
+  "lat": 40.0015358,
+  "lon": 116.4121905,
+  "tags": {
+    "name": "大屯路东",
+    "name:en": "Datunlu East",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q5227793",
+    "wikipedia": "en:Datunludong station"
+  }
+},
+{
+  "type": "node",
+  "id": 5402695989,
+  "lat": 40.0008946,
+  "lon": 116.3853355,
+  "tags": {
+    "name": "奥林匹克公园",
+    "name:en": "Olympic Park",
+    "name:zh": "奥林匹克公园",
+    "name:zh-Hans": "奥林匹克公园",
+    "name:zh-Hant": "奧林匹克公園",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wheelchair": "yes",
+    "wikidata": "Q7089092",
+    "wikipedia": "zh:奥林匹克公园站 (北京市)"
+  }
+},
+{
+  "type": "node",
+  "id": 5402953665,
+  "lat": 39.7152880,
+  "lon": 116.0739687,
+  "tags": {
+    "name": "阎村",
+    "name:en": "Yancun",
+    "name:zh": "阎村",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q46716045"
+  }
+},
+{
+  "type": "node",
+  "id": 5402956432,
+  "lat": 39.7046285,
+  "lon": 115.9835976,
+  "tags": {
+    "internet_access": "yes",
+    "name": "房山城关",
+    "name:en": "Fangshan Chengguan",
+    "name:zh": "房山城关",
+    "name:zh-Hans": "房山城关",
+    "name:zh-Hant": "房山城關",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q41695204",
+    "wikipedia": "en:Fangshan Chengguan station"
+  }
+},
+{
+  "type": "node",
+  "id": 5402957177,
+  "lat": 39.7184583,
+  "lon": 115.9674631,
+  "tags": {
+    "name": "燕山",
+    "name:en": "Yanshan",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q41627671"
+  }
+},
+{
+  "type": "node",
+  "id": 5428305222,
+  "lat": 39.9941582,
+  "lon": 116.4417045,
+  "tags": {
+    "name": "望京西",
+    "name:en": "Wangjing West",
+    "name:ru": "Ванцзин-Западный",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q6125577"
+  }
+},
+{
+  "type": "node",
+  "id": 5428310397,
+  "lat": 39.6689886,
+  "lon": 116.3139055,
+  "tags": {
+    "name": "天宫院",
+    "name:en": "Tiangongyuan",
+    "name:zh": "天宫院",
+    "operator": "北京京港地铁",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q5936562"
+  }
+},
+{
+  "type": "node",
+  "id": 5428312459,
+  "lat": 39.9022116,
+  "lon": 116.7272447,
+  "tags": {
+    "name": "东夏园",
+    "name:en": "Dongxiayuan",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q18394757"
+  }
+},
+{
+  "type": "node",
+  "id": 5428312892,
+  "lat": 39.8986925,
+  "lon": 116.3777751,
+  "tags": {
+    "name": "和平门",
+    "name:en": "Hepingmen",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q5731938",
+    "wikipedia:zh": "和平门站 (北京市)"
+  }
+},
+{
+  "type": "node",
+  "id": 5429399341,
+  "lat": 39.9369392,
+  "lon": 116.3327330,
+  "tags": {
+    "name": "动物园",
+    "name:en": "Beijing Zoo",
+    "operator": "北京京港地铁",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q4881220",
+    "wikipedia": "zh:动物园站 (北京市)"
+  }
+},
+{
+  "type": "node",
+  "id": 5429400342,
+  "lat": 39.9393851,
+  "lon": 116.4108894,
+  "tags": {
+    "name": "北新桥",
+    "name:en": "Beixinqiao",
+    "name:ru": "Бэйсинцяо",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q4881506"
+  }
+},
+{
+  "type": "node",
+  "id": 5429413631,
+  "lat": 39.9412214,
+  "lon": 116.3187284,
+  "tags": {
+    "name": "国家图书馆",
+    "name:en": "National Library",
+    "name:ru": "Национальная библиотека",
+    "operator": "北京市地铁运营;北京京港地铁",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q5937216"
+  }
+},
+{
+  "type": "node",
+  "id": 5430390389,
+  "lat": 39.8830661,
+  "lon": 116.4551162,
+  "tags": {
+    "name": "劲松",
+    "name:en": "Jinsong",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q847852"
+  }
+},
+{
+  "type": "node",
+  "id": 5430390454,
+  "lat": 39.7218824,
+  "lon": 116.1342397,
+  "tags": {
+    "name": "良乡南关",
+    "name:en": "Liangxiang Nanguan",
+    "name:zh": "良乡南关",
+    "name:zh-Hans": "良乡南关",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q6119094"
+  }
+},
+{
+  "type": "node",
+  "id": 5430391236,
+  "lat": 39.8438402,
+  "lon": 116.3788076,
+  "tags": {
+    "name": "角门东",
+    "name:en": "Jiaomen East",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q75262",
+    "wikipedia:en": "Jiaomen East station"
+  }
+},
+{
+  "type": "node",
+  "id": 5430391237,
+  "lat": 39.7718151,
+  "lon": 116.5339480,
+  "tags": {
+    "name": "同济南路",
+    "name:en": "Tongjinanlu",
+    "name:ru": "Южная улица Тунцзи",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q5937020"
+  }
+},
+{
+  "type": "node",
+  "id": 5430392913,
+  "lat": 39.9759527,
+  "lon": 116.4297381,
+  "tags": {
+    "name": "芍药居",
+    "name:en": "Shaoyaoju",
+    "name:zh": "芍药居",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q6124150"
+  }
+},
+{
+  "type": "node",
+  "id": 5430395013,
+  "lat": 39.9059480,
+  "lon": 116.3505107,
+  "tags": {
+    "name": "复兴门",
+    "name:en": "Fuxingmen",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q1037957"
+  }
+},
+{
+  "type": "node",
+  "id": 5430403863,
+  "lat": 39.9750927,
+  "lon": 116.3343902,
+  "tags": {
+    "name": "知春路",
+    "name:en": "Zhichun Lu",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 5430417411,
+  "lat": 39.9061218,
+  "lon": 116.3178241,
+  "tags": {
+    "name": "军事博物馆",
+    "name:en": "Military Museum",
+    "operator": "北京市地铁运营",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q5976309",
+    "wikipedia": "zh:军事博物馆站"
+  }
+},
+{
+  "type": "node",
+  "id": 5430419547,
+  "lat": 39.8983866,
+  "lon": 116.3680141,
+  "tags": {
+    "name": "宣武门",
+    "name:en": "Xuanwumen",
+    "operator": "北京市地铁运营;北京京港地铁",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q5976401"
+  }
+},
+{
+  "type": "node",
+  "id": 5430420858,
+  "lat": 39.8997371,
+  "lon": 116.4119567,
+  "tags": {
+    "name": "崇文门",
+    "name:en": "Chongwenmen",
+    "name:ru": "Чунвэньмэнь",
+    "name:zh": "崇文门",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wheelchair": "no",
+    "wikidata": "Q848288",
+    "wikipedia:zh": "崇文门站"
+  }
+},
+{
+  "type": "node",
+  "id": 5430421400,
+  "lat": 39.9061762,
+  "lon": 116.3041253,
+  "tags": {
+    "name": "公主坟",
+    "name:en": "Gongzhufen",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q5581824"
+  }
+},
+{
+  "type": "node",
+  "id": 5430429324,
+  "lat": 39.9068579,
+  "lon": 116.4126260,
+  "tags": {
+    "name": "东单",
+    "name:en": "Dongdan",
+    "name:ru": "Дундань",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q843279",
+    "wikipedia": "zh:东单站"
+  }
+},
+{
+  "type": "node",
+  "id": 5430443221,
+  "lat": 39.9220995,
+  "lon": 116.4554956,
+  "tags": {
+    "name": "呼家楼",
+    "name:en": "Hujialou",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q5935355"
+  }
+},
+{
+  "type": "node",
+  "id": 5430444271,
+  "lat": 39.8352632,
+  "lon": 116.3646715,
+  "tags": {
+    "name": "公益西桥",
+    "name:en": "Gongyixiqiao",
+    "operator": "北京京港地铁",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q5581810"
+  }
+},
+{
+  "type": "node",
+  "id": 5430448102,
+  "lat": 39.9732969,
+  "lon": 116.2874286,
+  "tags": {
+    "name": "巴沟",
+    "name:en": "Bagou",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 5430450045,
+  "lat": 39.8133778,
+  "lon": 116.2960281,
+  "tags": {
+    "name": "郭公庄",
+    "name:en": "Guogongzhuang",
+    "operator": "北京市地铁运营",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q5619660"
+  }
+},
+{
+  "type": "node",
+  "id": 5430450498,
+  "lat": 40.0325513,
+  "lon": 116.4983103,
+  "tags": {
+    "name": "马泉营",
+    "name:en": "Maquanying",
+    "name:ru": "Мацюаньинь",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q5937635"
+  }
+},
+{
+  "type": "node",
+  "id": 5430454140,
+  "lat": 39.8786861,
+  "lon": 116.2968997,
+  "tags": {
+    "name": "六里桥",
+    "name:en": "Liuliqiao",
+    "operator": "北京市地铁运营",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q4392236"
+  }
+},
+{
+  "type": "node",
+  "id": 5430462574,
+  "lat": 39.9392172,
+  "lon": 116.3492348,
+  "tags": {
+    "name": "西直门",
+    "name:en": "Xizhimen",
+    "operator": "北京市地铁运营;北京京港地铁",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q847791",
+    "wikipedia": "zh:西直门站"
+  }
+},
+{
+  "type": "node",
+  "id": 5430487507,
+  "lat": 39.9018256,
+  "lon": 116.6819734,
+  "tags": {
+    "name": "北运河西",
+    "name:en": "Beiyunhe West",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q16928795"
+  }
+},
+{
+  "type": "node",
+  "id": 5430491074,
+  "lat": 39.9073037,
+  "lon": 116.5094811,
+  "tags": {
+    "name": "四惠东",
+    "name:en": "Sihui East",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wheelchair": "limited",
+    "wikidata": "Q1039422"
+  }
+},
+{
+  "type": "node",
+  "id": 5430493577,
+  "lat": 39.9075722,
+  "lon": 116.4893819,
+  "tags": {
+    "name": "四惠",
+    "name:en": "Sihui",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wheelchair": "limited",
+    "wikidata": "Q1039435"
+  }
+},
+{
+  "type": "node",
+  "id": 5430497283,
+  "lat": 39.9071594,
+  "lon": 116.4292321,
+  "tags": {
+    "name": "建国门",
+    "name:en": "Jianguomen",
+    "name:zh": "建国门",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q843282"
+  }
+},
+{
+  "type": "node",
+  "id": 5430502371,
+  "lat": 39.9323165,
+  "lon": 116.3664868,
+  "tags": {
+    "name": "平安里",
+    "name:en": "Ping'anli",
+    "name:ru": "Пинъаньли",
+    "name:zh": "平安里",
+    "operator": "北京京港地铁",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q5959534"
+  }
+},
+{
+  "type": "node",
+  "id": 5430505472,
+  "lat": 39.9311554,
+  "lon": 116.3493426,
+  "tags": {
+    "name": "车公庄",
+    "name:en": "Chegongzhuang",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q5089563"
+  }
+},
+{
+  "type": "node",
+  "id": 5430507192,
+  "lat": 39.8444824,
+  "lon": 116.3647807,
+  "tags": {
+    "name": "角门西",
+    "name:en": "Jiaomen West",
+    "operator": "北京市地铁运营;北京京港地铁",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q5960800"
+  }
+},
+{
+  "type": "node",
+  "id": 5430509863,
+  "lat": 39.9315586,
+  "lon": 116.2888626,
+  "tags": {
+    "name": "慈寿寺",
+    "name:en": "Cishousi",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q9278249"
+  }
+},
+{
+  "type": "node",
+  "id": 5430522453,
+  "lat": 39.9070164,
+  "lon": 116.4556474,
+  "tags": {
+    "name": "国贸",
+    "name:en": "Guomao",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wheelchair": "yes",
+    "wikidata": "Q843217"
+  }
+},
+{
+  "type": "node",
+  "id": 5430525703,
+  "lat": 39.9230647,
+  "lon": 116.4279504,
+  "tags": {
+    "name": "朝阳门",
+    "name:en": "Chaoyangmen",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q5976481"
+  }
+},
+{
+  "type": "node",
+  "id": 5430532540,
+  "lat": 40.0693567,
+  "lon": 116.3544475,
+  "tags": {
+    "name": "霍营",
+    "name:en": "Huoying",
+    "name:zh": "霍营",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 5430533767,
+  "lat": 40.0517165,
+  "lon": 116.3001813,
+  "tags": {
+    "name": "西二旗",
+    "name:en": "Xi'erqi",
+    "name:ru": "Сиэрци",
+    "name:zh": "西二旗",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q4674479"
+  }
+},
+{
+  "type": "node",
+  "id": 5430540736,
+  "lat": 39.9057386,
+  "lon": 116.3682035,
+  "tags": {
+    "name": "西单",
+    "name:en": "Xidan",
+    "operator": "北京市地铁运营;北京京港地铁",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q842064"
+  }
+},
+{
+  "type": "node",
+  "id": 5430545454,
+  "lat": 39.9323878,
+  "lon": 116.3193762,
+  "tags": {
+    "name": "白石桥南",
+    "name:en": "Baishiqiao South",
+    "operator": "北京市地铁运营",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q4848682",
+    "wikipedia": "zh:白石桥南站"
+  }
+},
+{
+  "type": "node",
+  "id": 5441470420,
+  "lat": 40.0695250,
+  "lon": 116.3297550,
+  "tags": {
+    "name": "回龙观",
+    "name:en": "Huilongguan",
+    "name:zh": "回龙观",
+    "public_transport": "station",
+    "railway": "station",
+    "railway:position:exact": "18.324",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q5935100"
+  }
+},
+{
+  "type": "node",
+  "id": 5441488835,
+  "lat": 39.9021403,
+  "lon": 116.7111595,
+  "tags": {
+    "name": "郝家府",
+    "name:en": "Haojiafu",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q16928969"
+  }
+},
+{
+  "type": "node",
+  "id": 5441491000,
+  "lat": 39.8443821,
+  "lon": 116.4219287,
+  "tags": {
+    "name": "宋家庄",
+    "name:en": "Songjiazhuang",
+    "name:ru": "Сунцзячжуан",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q898095"
+  }
+},
+{
+  "type": "node",
+  "id": 5441499243,
+  "lat": 39.9226731,
+  "lon": 116.5581345,
+  "tags": {
+    "name": "褡裢坡",
+    "name:en": "Dalianpo",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q5210947"
+  }
+},
+{
+  "type": "node",
+  "id": 5441502966,
+  "lat": 40.0416631,
+  "lon": 116.4281870,
+  "tags": {
+    "name": "北苑",
+    "name:en": "Beiyuan",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q5976495"
+  }
+},
+{
+  "type": "node",
+  "id": 5441503035,
+  "lat": 40.0110618,
+  "lon": 116.2639202,
+  "tags": {
+    "name": "安河桥北",
+    "name:en": "Anheqiaobei",
+    "operator": "北京京港地铁",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 5441507804,
+  "lat": 39.8560744,
+  "lon": 116.4156074,
+  "tags": {
+    "name": "刘家窑",
+    "name:en": "Liujiayao",
+    "name:ru": "Люцзяяо",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q6123757"
+  }
+},
+{
+  "type": "node",
+  "id": 5441512445,
+  "lat": 39.9394291,
+  "lon": 116.3612739,
+  "tags": {
+    "name": "新街口",
+    "name:en": "Xinjiekou",
+    "operator": "北京京港地铁",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q5959491"
+  }
+},
+{
+  "type": "node",
+  "id": 5441513452,
+  "lat": 39.9016234,
+  "lon": 116.7416309,
+  "tags": {
+    "name": "潞城",
+    "name:en": "Lucheng",
+    "name:zh": "潞城",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q1767779",
+    "wikipedia": "zh:潞城站 (北京市)"
+  }
+},
+{
+  "type": "node",
+  "id": 5441516142,
+  "lat": 39.6851077,
+  "lon": 116.3156802,
+  "tags": {
+    "name": "生物医药基地",
+    "name:en": "Biomedical Base",
+    "name:zh": "生物医药基地",
+    "operator": "北京京港地铁",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q4915106"
+  }
+},
+{
+  "type": "node",
+  "id": 5441520625,
+  "lat": 39.9063337,
+  "lon": 116.3949169,
+  "tags": {
+    "name": "天安门东",
+    "name:en": "Tian'anmen East",
+    "name:ja": "天安門東",
+    "name:ja-Hira": "てんあんもんひがし",
+    "name:ko": "톈안먼둥",
+    "name:ru": "Тяньаньмэнь-Дун",
+    "name:zh": "天安门东",
+    "name:zh-Hans": "天安门东",
+    "name:zh-Hant": "天安門東",
+    "name:zh-Latn-pinyin": "Tiān'ānmén-Dōng",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q6125611",
+    "wikipedia:zh": "天安门东站"
+  }
+},
+{
+  "type": "node",
+  "id": 5441521553,
+  "lat": 39.9597061,
+  "lon": 116.4514799,
+  "tags": {
+    "name": "三元桥",
+    "name:en": "Sanyuanqiao",
+    "name:ru": "Саньюаньцяо",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q847757"
+  }
+},
+{
+  "type": "node",
+  "id": 5441522470,
+  "lat": 39.9312135,
+  "lon": 116.3039811,
+  "tags": {
+    "name": "花园桥",
+    "name:en": "Huayuanqiao",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q130437"
+  }
+},
+{
+  "type": "node",
+  "id": 5441526453,
+  "lat": 39.9317985,
+  "lon": 116.3800445,
+  "tags": {
+    "name": "北海北",
+    "name:en": "Beihai North",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wheelchair": "yes",
+    "wikidata": "Q4881077",
+    "wikipedia:zh": "北海北站"
+  }
+},
+{
+  "type": "node",
+  "id": 5441536634,
+  "lat": 39.7622885,
+  "lon": 116.3256940,
+  "tags": {
+    "name": "高米店南",
+    "name:en": "Gaomidian South",
+    "name:zh": "高米店南",
+    "operator": "北京京港地铁",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q5521694"
+  }
+},
+{
+  "type": "node",
+  "id": 5441536712,
+  "lat": 39.9080845,
+  "lon": 116.5931678,
+  "tags": {
+    "name": "管庄",
+    "name:en": "Guaanzhuang",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q5613861"
+  }
+},
+{
+  "type": "node",
+  "id": 5441544159,
+  "lat": 40.1288586,
+  "lon": 116.6511833,
+  "tags": {
+    "name": "顺义",
+    "name:en": "Shunyi",
+    "name:ru": "Шуньи",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 5442185238,
+  "lat": 39.9070982,
+  "lon": 116.4441500,
+  "tags": {
+    "name": "永安里",
+    "name:en": "Yonganli",
+    "name:zh": "永安里",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q843202"
+  }
+},
+{
+  "type": "node",
+  "id": 5442190079,
+  "lat": 39.9050518,
+  "lon": 116.6127053,
+  "tags": {
+    "name": "八里桥",
+    "name:en": "Baliqiao",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q4851007"
+  }
+},
+{
+  "type": "node",
+  "id": 5442212133,
+  "lat": 40.0405075,
+  "lon": 116.4082437,
+  "tags": {
+    "name": "立水桥南",
+    "name:en": "Lishuiqiao South",
+    "name:ru": "Южный Лишуйцяо",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q5972622"
+  }
+},
+{
+  "type": "node",
+  "id": 5442227596,
+  "lat": 39.8599934,
+  "lon": 116.1956719,
+  "tags": {
+    "name": "园博园",
+    "name:en": "Garden Expo Park",
+    "name:zh": "园博园",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q9206315"
+  }
+},
+{
+  "type": "node",
+  "id": 5442237543,
+  "lat": 39.9914779,
+  "lon": 116.3317017,
+  "tags": {
+    "name": "五道口",
+    "name:en": "Wudaokou",
+    "name:zh": "五道口",
+    "network": "北京地铁",
+    "operator": "北京地铁",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q6124229"
+  }
+},
+{
+  "type": "node",
+  "id": 5442237611,
+  "lat": 39.8308852,
+  "lon": 116.2914302,
+  "tags": {
+    "name": "科怡路",
+    "name:en": "Keyilu",
+    "operator": "北京市地铁运营",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q4392249"
+  }
+},
+{
+  "type": "node",
+  "id": 5444431618,
+  "lat": 39.9216819,
+  "lon": 116.5108366,
+  "tags": {
+    "name": "青年路",
+    "name:en": "Qingnianlu",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q7267855",
+    "wikipedia": "en:Qingnian Lu station"
+  }
+},
+{
+  "type": "node",
+  "id": 5444434450,
+  "lat": 39.9574108,
+  "lon": 116.2880393,
+  "tags": {
+    "name": "长春桥",
+    "name:en": "Changchunqiao",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q5071745"
+  }
+},
+{
+  "type": "node",
+  "id": 5444436956,
+  "lat": 39.9643309,
+  "lon": 116.2834171,
+  "tags": {
+    "name": "火器营",
+    "name:en": "Huoqiying",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q5946141"
+  }
+},
+{
+  "type": "node",
+  "id": 5444439979,
+  "lat": 39.9147796,
+  "lon": 116.3672738,
+  "tags": {
+    "name": "灵境胡同",
+    "name:en": "Lingjing Hutong",
+    "operator": "北京京港地铁",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q5959844"
+  }
+},
+{
+  "type": "node",
+  "id": 5444440441,
+  "lat": 39.7518055,
+  "lon": 116.3260337,
+  "tags": {
+    "name": "枣园",
+    "name:en": "Zaoyuan",
+    "name:zh": "枣园",
+    "operator": "北京京港地铁",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q5936756"
+  }
+},
+{
+  "type": "node",
+  "id": 5444674048,
+  "lat": 39.9027423,
+  "lon": 116.6314069,
+  "tags": {
+    "name": "通州北苑",
+    "name:en": "Tongzhou Beiyuan",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wheelchair": "yes",
+    "wikidata": "Q5973079"
+  }
+},
+{
+  "type": "node",
+  "id": 5444677242,
+  "lat": 39.9090728,
+  "lon": 116.5709843,
+  "tags": {
+    "name": "双桥",
+    "name:en": "Shuangqiao",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 5444679354,
+  "lat": 40.0737747,
+  "lon": 116.4066402,
+  "tags": {
+    "name": "天通苑",
+    "name:en": "Tiantongyuan",
+    "name:ru": "Тяньтунюань",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q6124366",
+    "wikipedia": "zh:天通苑站"
+  }
+},
+{
+  "type": "node",
+  "id": 5444680534,
+  "lat": 39.9080422,
+  "lon": 116.5488365,
+  "tags": {
+    "name": "传媒大学",
+    "name:en": "Communication University of China",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q5154119"
+  }
+},
+{
+  "type": "node",
+  "id": 5444681481,
+  "lat": 39.9322844,
+  "lon": 116.4112952,
+  "tags": {
+    "name": "张自忠路",
+    "name:en": "Zhangzizhong Lu",
+    "name:ru": "Дорога Чжан Цзычжун",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 5444690814,
+  "lat": 39.8267264,
+  "lon": 116.4532399,
+  "tags": {
+    "name": "小红门",
+    "name:en": "Xiaohongmen",
+    "name:ru": "Сяохунмэнь",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 5444691512,
+  "lat": 39.8056285,
+  "lon": 116.4846211,
+  "tags": {
+    "name": "亦庄文化园",
+    "name:en": "Yizhuang Culture Park",
+    "name:ru": "Парк культуры Ичжуан",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q5938025"
+  }
+},
+{
+  "type": "node",
+  "id": 5444694219,
+  "lat": 39.8017615,
+  "lon": 116.4995335,
+  "tags": {
+    "internet_access": "yes",
+    "name": "万源街",
+    "name:en": "Wanyuanjie",
+    "name:ru": "Ваньюаньцзе",
+    "name:zh": "万源街",
+    "name:zh-Hans": "万源街",
+    "name:zh-Hant": "萬源街",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q5936047",
+    "wikipedia": "en:Wanyuan Jie station"
+  }
+},
+{
+  "type": "node",
+  "id": 5444695596,
+  "lat": 39.7825504,
+  "lon": 116.5564358,
+  "tags": {
+    "internet_access": "yes",
+    "name": "经海路",
+    "name:en": "Jinghailu",
+    "name:ru": "Улица Цзинхай",
+    "name:zh": "经海路",
+    "name:zh-Hans": "经海路",
+    "name:zh-Hant": "經海路",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wheelchair": "yes",
+    "wikidata": "Q6119390",
+    "wikipedia": "zh:经海路站"
+  }
+},
+{
+  "type": "node",
+  "id": 5444733365,
+  "lat": 40.1313792,
+  "lon": 116.6789785,
+  "tags": {
+    "name": "俸伯",
+    "name:en": "Fengbo",
+    "name:ru": "Фынбо",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q4392144"
+  }
+},
+{
+  "type": "node",
+  "id": 5447564524,
+  "lat": 40.0021697,
+  "lon": 116.4110688,
+  "tags": {
+    "name": "大屯路东",
+    "name:en": "Datunlu East",
+    "name:ru": "Датуньлу-Восточная",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q5227793",
+    "wikipedia": "en:Datunludong station"
+  }
+},
+{
+  "type": "node",
+  "id": 5447578126,
+  "lat": 40.0020276,
+  "lon": 116.4809035,
+  "tags": {
+    "name": "望京东",
+    "name:en": "Wangjing East",
+    "name:ru": "Ванцзин-Восточный",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q5940665"
+  }
+},
+{
+  "type": "node",
+  "id": 5447625351,
+  "lat": 39.9750859,
+  "lon": 116.3747659,
+  "tags": {
+    "name": "健德门",
+    "name:en": "Jiandemen",
+    "name:zh": "健德门",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q6119375"
+  }
+},
+{
+  "type": "node",
+  "id": 5448545746,
+  "lat": 39.9225738,
+  "lon": 116.3196813,
+  "tags": {
+    "name": "白堆子",
+    "name:en": "Baiduizi",
+    "operator": "北京市地铁运营",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q4843191"
+  }
+},
+{
+  "type": "node",
+  "id": 5448550393,
+  "lat": 39.9061423,
+  "lon": 116.1844475,
+  "tags": {
+    "name": "古城",
+    "name:en": "Gucheng",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q5614482",
+    "wikipedia:en": "Gucheng station"
+  }
+},
+{
+  "type": "node",
+  "id": 5448554757,
+  "lat": 39.8445478,
+  "lon": 116.4418815,
+  "tags": {
+    "name": "成寿寺",
+    "name:en": "Chengshousi",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q75393"
+  }
+},
+{
+  "type": "node",
+  "id": 5448561568,
+  "lat": 39.9322013,
+  "lon": 116.4556066,
+  "tags": {
+    "name": "团结湖",
+    "name:en": "Tuanjiehu",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q5935750"
+  }
+},
+{
+  "type": "node",
+  "id": 5448567458,
+  "lat": 39.9401290,
+  "lon": 116.4562886,
+  "tags": {
+    "name": "农业展览馆",
+    "name:en": "Agricultural Exhibition Center",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 5448569279,
+  "lat": 39.9482568,
+  "lon": 116.4562709,
+  "tags": {
+    "name": "亮马桥",
+    "name:en": "Liangmaqiao",
+    "name:zh": "亮马桥",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wheelchair": "no",
+    "wikidata": "Q5937256"
+  }
+},
+{
+  "type": "node",
+  "id": 5448580676,
+  "lat": 39.9758344,
+  "lon": 116.3991828,
+  "tags": {
+    "name": "安贞门",
+    "name:en": "Anzhenmen",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q4778457"
+  }
+},
+{
+  "type": "node",
+  "id": 5448581898,
+  "lat": 39.9749126,
+  "lon": 116.3630635,
+  "tags": {
+    "name": "牡丹园",
+    "name:en": "Mudanyuan",
+    "name:ru": "Муданьюань",
+    "name:zh": "牡丹园",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q6124616"
+  }
+},
+{
+  "type": "node",
+  "id": 5448585739,
+  "lat": 39.9748659,
+  "lon": 116.3477745,
+  "tags": {
+    "name": "西土城",
+    "name:en": "Xitucheng",
+    "name:ru": "Ситучэн",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q5937841"
+  }
+},
+{
+  "type": "node",
+  "id": 5448587388,
+  "lat": 39.9743281,
+  "lon": 116.2999736,
+  "tags": {
+    "name": "苏州街",
+    "name:en": "Suzhoujie",
+    "name:ru": "Улица Сучжоу",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q5936074",
+    "wikipedia": "en:Suzhou Jie station"
+  }
+},
+{
+  "type": "node",
+  "id": 5448589968,
+  "lat": 39.9312548,
+  "lon": 116.3184480,
+  "tags": {
+    "name": "白石桥南",
+    "name:en": "Baishi Bridge South",
+    "operator": "北京市地铁运营",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 5448590861,
+  "lat": 40.0263879,
+  "lon": 116.4725535,
+  "tags": {
+    "name": "善各庄",
+    "name:en": "Shan'gezhuang",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 5448593092,
+  "lat": 39.9554944,
+  "lon": 116.3885480,
+  "tags": {
+    "name": "安德里北街",
+    "name:en": "Andeli Beijie",
+    "name:ru": "Улица Андрея Северного",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q4753682",
+    "wikipedia": "en:Andelibeijie Station"
+  }
+},
+{
+  "type": "node",
+  "id": 5453371982,
+  "lat": 39.9451275,
+  "lon": 116.2878965,
+  "tags": {
+    "description": "有三个出口",
+    "name": "车道沟",
+    "name:en": "Chedaogou",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 5453382713,
+  "lat": 39.8573762,
+  "lon": 116.2981946,
+  "tags": {
+    "name": "泥洼",
+    "name:en": "Niwa",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q7041866"
+  }
+},
+{
+  "type": "node",
+  "id": 5453388186,
+  "lat": 39.9218994,
+  "lon": 116.2919093,
+  "tags": {
+    "name": "西钓鱼台",
+    "name:en": "Xidiaoyutai",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q8044360"
+  }
+},
+{
+  "type": "node",
+  "id": 5453394777,
+  "lat": 39.8961589,
+  "lon": 116.3043065,
+  "tags": {
+    "name": "莲花桥",
+    "name:en": "Lianhuaqiao",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q75398"
+  }
+},
+{
+  "type": "node",
+  "id": 5453410797,
+  "lat": 39.8496396,
+  "lon": 116.2975967,
+  "tags": {
+    "name": "丰台站",
+    "name:en": "Fengtai Railway Station",
+    "name:ru": "Вокзал Фэнтай",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q105072002",
+    "wikipedia": "zh:丰台站 (地铁)"
+  }
+},
+{
+  "type": "node",
+  "id": 5463450278,
+  "lat": 39.8935411,
+  "lon": 116.3151056,
+  "tags": {
+    "name": "北京西站",
+    "name:de": "Peking Westbahnhof",
+    "name:en": "Beijing West Railway Station",
+    "name:zh": "北京西站",
+    "name:zh-Latn-pinyin": "Bĕijīngxīzhàn",
+    "operator": "北京地铁运营公司",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q105062204"
+  }
+},
+{
+  "type": "node",
+  "id": 5687426566,
+  "lat": 39.9996659,
+  "lon": 116.3466428,
+  "tags": {
+    "name": "六道口",
+    "name:en": "Liudaokou",
+    "name:ru": "Людаокоу",
+    "name:zh": "六道口",
+    "name:zh-Hans": "六道口",
+    "name:zh-Hant": "六道口",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wheelchair": "yes",
+    "wikidata": "Q18651655",
+    "wikipedia": "zh:六道口站"
+  }
+},
+{
+  "type": "node",
+  "id": 5687481931,
+  "lat": 39.9159595,
+  "lon": 116.4555255,
+  "tags": {
+    "name": "金台夕照",
+    "name:en": "Jintaixizhao",
+    "name:zh": "金台夕照",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q5956448"
+  }
+},
+{
+  "type": "node",
+  "id": 5687495579,
+  "lat": 40.0820885,
+  "lon": 116.4067673,
+  "tags": {
+    "name": "天通苑北",
+    "name:en": "Tiantongyuan North",
+    "name:ru": "Северный Тяньтунюань",
+    "name:zh": "天通苑北",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q847741"
+  }
+},
+{
+  "type": "node",
+  "id": 5720933166,
+  "lat": 39.9396965,
+  "lon": 116.4119342,
+  "tags": {
+    "name": "北新桥",
+    "name:en": "Beixinqiao",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q4881506"
+  }
+},
+{
+  "type": "node",
+  "id": 5779155490,
+  "lat": 39.7275574,
+  "lon": 116.0945570,
+  "tags": {
+    "name": "阎村东",
+    "name:en": "Yancun East",
+    "name:zh": "阎村东",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q39085456"
+  }
+},
+{
+  "type": "node",
+  "id": 5779214860,
+  "lat": 39.9385482,
+  "lon": 116.1649357,
+  "tags": {
+    "name": "福寿岭",
+    "name:en": "Fushouling",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q11591976",
+    "wikipedia:zh": "福寿岭站"
+  }
+},
+{
+  "type": "node",
+  "id": 6172173583,
+  "lat": 39.9219237,
+  "lon": 116.1568270,
+  "tags": {
+    "name": "金安桥",
+    "name:en": "Jin'anqiao",
+    "name:zh": "金安桥",
+    "name:zh-Hans": "金安桥",
+    "name:zh-Hant": "金安橋",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q38679541",
+    "wikipedia": "en:Jin'anqiao station"
+  }
+},
+{
+  "type": "node",
+  "id": 6172173584,
+  "lat": 39.9264588,
+  "lon": 116.1795516,
+  "tags": {
+    "name": "杨庄",
+    "name:en": "Yang Zhuang",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q56683263"
+  }
+},
+{
+  "type": "node",
+  "id": 6172173685,
+  "lat": 39.9324935,
+  "lon": 116.2005982,
+  "tags": {
+    "name": "西黄村",
+    "name:en": "Xihuang Cun",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q57777858",
+    "wikipedia:en": "Xihuang Cun station"
+  }
+},
+{
+  "type": "node",
+  "id": 6172173686,
+  "lat": 39.9314101,
+  "lon": 116.2208854,
+  "tags": {
+    "name": "廖公庄",
+    "name:en": "Liaogong Zhuang",
+    "operator": "北京地铁运营一分公司",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q42751307"
+  }
+},
+{
+  "type": "node",
+  "id": 6172173687,
+  "lat": 39.9283896,
+  "lon": 116.2468822,
+  "tags": {
+    "name": "田村",
+    "name:en": "Tian Cun",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q56881426"
+  }
+},
+{
+  "type": "node",
+  "id": 6172173698,
+  "lat": 39.8893117,
+  "lon": 116.3921937,
+  "tags": {
+    "name": "珠市口",
+    "name:en": "Zhushikou",
+    "name:ru": "Чжушикоу",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 6172173700,
+  "lat": 39.8647562,
+  "lon": 116.3930393,
+  "tags": {
+    "name": "永定门外",
+    "name:en": "Outer Yongdingmen",
+    "name:ru": "Внешний Юндинмэнь",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q21245988",
+    "wikipedia": "en:Yongdingmenwai station"
+  }
+},
+{
+  "type": "node",
+  "id": 6172173701,
+  "lat": 39.8581810,
+  "lon": 116.3932245,
+  "tags": {
+    "name": "木樨园",
+    "name:en": "Muxi Yuan",
+    "name:ru": "Мусиюань",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q57025115",
+    "wikipedia:zh": "木樨园站"
+  }
+},
+{
+  "type": "node",
+  "id": 6172173702,
+  "lat": 39.8506537,
+  "lon": 116.3940324,
+  "tags": {
+    "name": "海户屯",
+    "name:en": "Haihu Tun",
+    "name:ru": "Хайхутунь",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q57659234",
+    "wikipedia:en": "Haihu Tun station"
+  }
+},
+{
+  "type": "node",
+  "id": 6172173703,
+  "lat": 39.8355481,
+  "lon": 116.3948539,
+  "tags": {
+    "name": "大红门南",
+    "name:en": "Dahongmen Nan (South)",
+    "name:ru": "Дахунмэнь Юг",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q57659078",
+    "wikipedia": "zh:大红门南站",
+    "wikipedia:en": "Dahongmen Nan (South) station"
+  }
+},
+{
+  "type": "node",
+  "id": 6172173704,
+  "lat": 39.8135634,
+  "lon": 116.3958329,
+  "tags": {
+    "name": "和义",
+    "name:en": "Heyi",
+    "name:ru": "Хэи",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q57658896",
+    "wikipedia:en": "Heyi station"
+  }
+},
+{
+  "type": "node",
+  "id": 6172173705,
+  "lat": 39.8037787,
+  "lon": 116.4030681,
+  "tags": {
+    "name": "东高地",
+    "name:en": "Donggao Di",
+    "name:ru": "Дунгаоди",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q56449093",
+    "wikipedia:en": "Donggao Di station"
+  }
+},
+{
+  "type": "node",
+  "id": 6172173706,
+  "lat": 39.7979820,
+  "lon": 116.4124409,
+  "tags": {
+    "name": "火箭万源",
+    "name:en": "Huojian Wanyuan",
+    "name:ru": "Хоцзянь-Ваньюань",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q56882475",
+    "wikipedia:en": "Huojian Wanyuan station"
+  }
+},
+{
+  "type": "node",
+  "id": 6172173707,
+  "lat": 39.7837675,
+  "lon": 116.4174105,
+  "tags": {
+    "name": "五福堂",
+    "name:en": "Wufu Tang",
+    "name:ru": "Уфутан",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q56683211",
+    "wikipedia": "zh:五福堂站"
+  }
+},
+{
+  "type": "node",
+  "id": 6172173744,
+  "lat": 39.9236287,
+  "lon": 116.4045447,
+  "tags": {
+    "name": "中国美术馆",
+    "name:en": "National Art Museum",
+    "name:ru": "Музей изобразительных искусств Китая",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q6970482",
+    "wikipedia": "zh:中国美术馆站"
+  }
+},
+{
+  "type": "node",
+  "id": 6447754030,
+  "lat": 39.9059702,
+  "lon": 116.3851622,
+  "tags": {
+    "name": "天安门西",
+    "name:de": "Tian'anmen West",
+    "name:en": "Tian'anmen West",
+    "name:ja": "天安門西",
+    "name:ru": "Тяньаньмэнь-Си",
+    "name:zh": "天安门西",
+    "name:zh-Hans": "天安门西",
+    "name:zh-Hant": "天安門西",
+    "name:zh-Latn-pinyin": "Tiān'ānmén-Xī",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q842095"
+  }
+},
+{
+  "type": "node",
+  "id": 6488102423,
+  "lat": 39.7712874,
+  "lon": 116.4355574,
+  "tags": {
+    "name": "德茂",
+    "name:en": "Demao",
+    "name:ru": "Дэмао",
+    "public_transport": "station",
+    "railway": "station",
+    "ref": "802",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q57658585"
+  }
+},
+{
+  "type": "node",
+  "id": 6488102424,
+  "lat": 39.7593594,
+  "lon": 116.4428265,
+  "tags": {
+    "name": "瀛海",
+    "name:en": "Yinghai",
+    "name:ru": "Инхай",
+    "public_transport": "station",
+    "railway": "station",
+    "ref": "801",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q56882345"
+  }
+},
+{
+  "type": "node",
+  "id": 6488102425,
+  "lat": 39.8806517,
+  "lon": 116.3925037,
+  "tags": {
+    "name": "天桥",
+    "name:en": "Tian Qiao",
+    "name:ru": "Тяньцяо",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q19852289"
+  }
+},
+{
+  "type": "node",
+  "id": 6496364880,
+  "lat": 39.9248346,
+  "lon": 116.1719509,
+  "tags": {
+    "name": "苹果园",
+    "name:en": "Pingguoyuan",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q1039443",
+    "wikipedia:en": "Pingguoyuan station"
+  }
+},
+{
+  "type": "node",
+  "id": 6496364883,
+  "lat": 39.8440139,
+  "lon": 116.3927722,
+  "tags": {
+    "name": "大红门",
+    "name:en": "Dahongmen",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q75258",
+    "wikipedia:en": "Dahongmen station"
+  }
+},
+{
+  "type": "node",
+  "id": 6496364884,
+  "lat": 39.8889326,
+  "lon": 116.3213598,
+  "tags": {
+    "name": "湾子",
+    "name:en": "Wanzi",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 6497754454,
+  "lat": 39.9322870,
+  "lon": 116.4280068,
+  "tags": {
+    "name": "东四十条",
+    "name:en": "Dongsi Shitiao",
+    "name:zh": "东四十条",
+    "name:zh-Hans": "东四十条",
+    "name:zh-Hant": "東四十條",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wheelchair": "yes",
+    "wikidata": "Q5296031",
+    "wikipedia": "zh:东四十条站"
+  }
+},
+{
+  "type": "node",
+  "id": 6497767616,
+  "lat": 39.9316439,
+  "lon": 116.3966927,
+  "tags": {
+    "name": "南锣鼓巷",
+    "name:en": "Nanluogu Xiang",
+    "name:zh-Latn-pinyin": "Nánluógŭxiàng",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 6497773831,
+  "lat": 39.9323094,
+  "lon": 116.3976888,
+  "tags": {
+    "name": "南锣鼓巷",
+    "name:en": "Nanluogu Xiang",
+    "name:ru": "Южная аллея Луогу",
+    "name:zh-Latn-pinyin": "Nánluógŭxiàng",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q10909164",
+    "wikipedia": "zh:南锣鼓巷站"
+  }
+},
+{
+  "type": "node",
+  "id": 6497814374,
+  "lat": 40.0011928,
+  "lon": 116.2713671,
+  "tags": {
+    "name": "北宫门站",
+    "name:de": "Beigongmen",
+    "name:en": "Beigongmen",
+    "name:zh": "北宫门",
+    "operator": "北京京港地铁",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q4881073"
+  }
+},
+{
+  "type": "node",
+  "id": 6580603898,
+  "lat": 39.9966984,
+  "lon": 116.2855319,
+  "tags": {
+    "name": "西苑",
+    "name:en": "Xiyuan",
+    "name:zh": "西苑",
+    "operator": "北京京港地铁",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 6606206479,
+  "lat": 39.9215918,
+  "lon": 116.4723407,
+  "tags": {
+    "name": "金台路",
+    "name:en": "Jintailu",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q82796",
+    "wikipedia": "en:Jintai Lu station"
+  }
+},
+{
+  "type": "node",
+  "id": 6606270273,
+  "lat": 39.9747132,
+  "lon": 116.3115201,
+  "tags": {
+    "name": "海淀黄庄",
+    "name:en": "Haidian Huangzhuang",
+    "name:zh": "海淀黄庄",
+    "operator": "北京市地铁运营;北京京港地铁",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q5639035"
+  }
+},
+{
+  "type": "node",
+  "id": 6617849501,
+  "lat": 39.9061161,
+  "lon": 116.3315051,
+  "tags": {
+    "name": "木樨地",
+    "name:en": "Muxidi",
+    "name:zh": "木樨地",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q842107",
+    "wikipedia": "zh:木樨地站"
+  }
+},
+{
+  "type": "node",
+  "id": 6617849502,
+  "lat": 39.9058662,
+  "lon": 116.3465697,
+  "tags": {
+    "name": "南礼士路",
+    "name:en": "Nanlishi Lu",
+    "name:zh": "南礼士路",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 6617849503,
+  "lat": 39.9069496,
+  "lon": 116.4052789,
+  "tags": {
+    "name": "王府井",
+    "name:en": "Wangfujing",
+    "name:ru": "Ванфуцзин",
+    "name:zh": "王府井",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q843213"
+  }
+},
+{
+  "type": "node",
+  "id": 6617849504,
+  "lat": 39.9062159,
+  "lon": 116.2887714,
+  "tags": {
+    "name": "万寿路",
+    "name:en": "Wanshoulu",
+    "name:zh": "万寿路",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q6123642"
+  }
+},
+{
+  "type": "node",
+  "id": 6617849505,
+  "lat": 39.9062214,
+  "lon": 116.2680336,
+  "tags": {
+    "name": "五棵松",
+    "name:en": "Wukesong",
+    "name:zh": "五棵松",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q842090"
+  }
+},
+{
+  "type": "node",
+  "id": 6617849506,
+  "lat": 39.9061539,
+  "lon": 116.2064861,
+  "tags": {
+    "name": "八角游乐园（封闭改造中）",
+    "name:en": "Bajiao Amusement Park (renovation)",
+    "note": "预计2027年5月3日恢复运营",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q842959"
+  }
+},
+{
+  "type": "node",
+  "id": 6617849507,
+  "lat": 39.9061888,
+  "lon": 116.2296796,
+  "tags": {
+    "name": "八宝山",
+    "name:en": "Babaoshan",
+    "name:zh": "八宝山",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q842136"
+  }
+},
+{
+  "type": "node",
+  "id": 6617849508,
+  "lat": 39.9061931,
+  "lon": 116.2468996,
+  "tags": {
+    "air_conditioning": "yes",
+    "internet_access": "yes",
+    "name": "玉泉路",
+    "name:en": "Yuquanlu",
+    "name:zh": "玉泉路",
+    "name:zh-Hans": "玉泉路",
+    "name:zh-Hant": "玉泉路",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 6617852356,
+  "lat": 39.9652731,
+  "lon": 116.3390137,
+  "tags": {
+    "name": "大钟寺",
+    "name:en": "Dazhongsi",
+    "name:zh": "大钟寺",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q5243679"
+  }
+},
+{
+  "type": "node",
+  "id": 6617852357,
+  "lat": 39.9669843,
+  "lon": 116.4256410,
+  "tags": {
+    "name": "光熙门",
+    "name:en": "Guangximen",
+    "name:zh": "光熙门",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q5613705"
+  }
+},
+{
+  "type": "node",
+  "id": 6617852358,
+  "lat": 39.9568025,
+  "lon": 116.4266211,
+  "tags": {
+    "name": "柳芳",
+    "name:en": "Liufang",
+    "name:zh": "柳芳",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q6124548"
+  }
+},
+{
+  "type": "node",
+  "id": 6617852359,
+  "lat": 40.0317646,
+  "lon": 116.3140843,
+  "tags": {
+    "name": "上地",
+    "name:en": "Shangdi",
+    "name:zh": "上地",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q5976563"
+  }
+},
+{
+  "type": "node",
+  "id": 6617852360,
+  "lat": 40.0695732,
+  "lon": 116.3132033,
+  "tags": {
+    "name": "龙泽",
+    "name:en": "Longze",
+    "name:ru": "Лонгзе",
+    "name:zh": "龙泽",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q6126985"
+  }
+},
+{
+  "type": "node",
+  "id": 6713165204,
+  "lat": 39.9021187,
+  "lon": 116.7018094,
+  "tags": {
+    "name": "北运河东",
+    "name:en": "Beiyunhe East",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q18651878",
+    "wikipedia": "zh:北运河东站"
+  }
+},
+{
+  "type": "node",
+  "id": 6716238810,
+  "lat": 39.8707455,
+  "lon": 116.6802742,
+  "tags": {
+    "name": "土桥",
+    "name:en": "Tuqiao",
+    "name:zh": "土桥",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q1039412",
+    "wikipedia": "zh:土橋站 (中國)"
+  }
+},
+{
+  "type": "node",
+  "id": 6724002358,
+  "lat": 39.9473250,
+  "lon": 116.3670609,
+  "tags": {
+    "name": "积水潭",
+    "name:en": "Jishuitan",
+    "name:ru": "Цзишуйтань",
+    "name:zh": "积水潭",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q5976575",
+    "wikipedia": "zh:积水潭站"
+  }
+},
+{
+  "type": "node",
+  "id": 6724644886,
+  "lat": 39.8982814,
+  "lon": 116.3929416,
+  "tags": {
+    "name": "前门",
+    "name:en": "Qianmen",
+    "name:ja": "前門",
+    "name:ru": "Цяньмэнь",
+    "name:zh": "前门",
+    "name:zh-Latn-pinyin": "Qiánmén",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q847934",
+    "wikipedia:zh": "前门站"
+  }
+},
+{
+  "type": "node",
+  "id": 6724644887,
+  "lat": 39.9223130,
+  "lon": 116.3500666,
+  "tags": {
+    "name": "阜成门",
+    "name:en": "Fuchengmen",
+    "name:ru": "Фучэнмэнь",
+    "name:zh": "阜成门",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 6724644888,
+  "lat": 39.8980394,
+  "lon": 116.3572147,
+  "tags": {
+    "name": "长椿街",
+    "name:en": "Changchunjie",
+    "name:zh": "长椿街",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 6724644889,
+  "lat": 39.9476674,
+  "lon": 116.4020676,
+  "tags": {
+    "name": "安定门",
+    "name:en": "Andingmen",
+    "name:ru": "Аньдинмэнь",
+    "name:zh": "安定门",
+    "name:zh-Hans": "安定门",
+    "name:zh-Hant": "安定門",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wheelchair": "yes",
+    "wikidata": "Q4754482",
+    "wikipedia": "zh:安定门站"
+  }
+},
+{
+  "type": "node",
+  "id": 6818020471,
+  "lat": 39.5124863,
+  "lon": 116.4106758,
+  "tags": {
+    "name": "大兴机场",
+    "name:en": "Daxing Airport",
+    "name:zh": "大兴机场",
+    "name:zh-Latn-pinyin": "Dàxīng Jīchǎng zhàn",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "train": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 6818020472,
+  "lat": 39.7340741,
+  "lon": 116.3594824,
+  "tags": {
+    "name": "大兴新城",
+    "name:en": "Daxing Xincheng",
+    "name:ru": "Новый город Дасин",
+    "name:zh": "大兴新城",
+    "name:zh-Latn-pinyin": "Dàxīng Xīnchéng zhàn",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "train": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 6930098566,
+  "lat": 39.8479616,
+  "lon": 116.5475285,
+  "tags": {
+    "name": "黄厂",
+    "name:en": "Huangchang",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q72328419"
+  }
+},
+{
+  "type": "node",
+  "id": 6930098568,
+  "lat": 39.8555351,
+  "lon": 116.5641046,
+  "tags": {
+    "name": "郎辛庄",
+    "name:en": "Langxinzhuang",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q76063542"
+  }
+},
+{
+  "type": "node",
+  "id": 6930098569,
+  "lat": 39.8577135,
+  "lon": 116.5927827,
+  "tags": {
+    "name": "黑庄户",
+    "name:en": "Heizhuanghu",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q76063590"
+  }
+},
+{
+  "type": "node",
+  "id": 6930098570,
+  "lat": 39.8624408,
+  "lon": 116.6267073,
+  "tags": {
+    "name": "万盛西",
+    "name:en": "Wansheng West",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 6930098785,
+  "lat": 39.8553801,
+  "lon": 116.6890142,
+  "tags": {
+    "name": "花庄",
+    "name:en": "Huazhuang",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q75161881"
+  }
+},
+{
+  "type": "node",
+  "id": 6930098800,
+  "lat": 39.8481659,
+  "lon": 116.6735290,
+  "tags": {
+    "name": "环球度假区",
+    "name:en": "Universal Resort",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q75161769"
+  }
+},
+{
+  "type": "node",
+  "id": 7074344502,
+  "lat": 39.8431792,
+  "lon": 116.3140715,
+  "tags": {
+    "layer": "-5",
+    "name": "首经贸",
+    "name:en": "Capital University of Economics & Business",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "train": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 7116372189,
+  "lat": 40.0397784,
+  "lon": 116.3086826,
+  "tags": {
+    "name": "清河站",
+    "name:en": "Qinghe Railway Station",
+    "name:ru": "Вокзал Цинхэ",
+    "name:zh": "清河站",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 7117305974,
+  "lat": 39.8618619,
+  "lon": 116.6795103,
+  "tags": {
+    "name": "高楼金",
+    "name:en": "Gaoloujin",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 7278207455,
+  "lat": 39.8328015,
+  "lon": 116.4427211,
+  "tags": {
+    "name": "肖村",
+    "name:en": "Xiaocun",
+    "name:ru": "Сяоцунь",
+    "name:zh": "肖村",
+    "name:zh-Latn-pinyin": "Xiàocūn",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q5936601"
+  }
+},
+{
+  "type": "node",
+  "id": 7631365912,
+  "lat": 39.8182740,
+  "lon": 116.3067798,
+  "tags": {
+    "name": "白盆窑",
+    "name:en": "Baipenyao",
+    "name:zh": "白盆窑",
+    "name:zh-Latn-pinyin": "Bái pén yáo",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 7631365924,
+  "lat": 39.8278468,
+  "lon": 116.3139452,
+  "tags": {
+    "name": "花乡东桥",
+    "name:en": "Huaxiang Dongqiao",
+    "name:zh": "花乡东桥",
+    "name:zh-Latn-pinyin": "Huā xiāng dōng qiáo",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 7780780502,
+  "lat": 39.8395949,
+  "lon": 116.2906678,
+  "tags": {
+    "name": "丰台南路",
+    "name:en": "Fengtai Nanlu",
+    "name:ru": "Южная улица Фэнтай",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q4392273"
+  }
+},
+{
+  "type": "node",
+  "id": 7796839024,
+  "lat": 39.7037753,
+  "lon": 116.0105495,
+  "tags": {
+    "name": "马各庄",
+    "name:en": "Magezhuang",
+    "name:zh": "马各庄",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q46999649"
+  }
+},
+{
+  "type": "node",
+  "id": 7796853448,
+  "lat": 39.7002557,
+  "lon": 116.0000480,
+  "tags": {
+    "name": "饶乐府",
+    "name:en": "Raolefu",
+    "name:zh": "饶乐府",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q45797647"
+  }
+},
+{
+  "type": "node",
+  "id": 7860304588,
+  "lat": 39.8239138,
+  "lon": 116.2912488,
+  "tags": {
+    "name": "丰台科技园",
+    "name:en": "Fengtai Science Park",
+    "name:zh": "丰台科技园",
+    "name:zh-Latn-pinyin": "Fēngtái Kējìyuán",
+    "operator": "北京市地铁运营",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 7860304589,
+  "lat": 39.8541721,
+  "lon": 116.2877862,
+  "tags": {
+    "name": "丰台东大街",
+    "name:en": "Fengtai Dongdajie",
+    "name:zh": "丰台东大街",
+    "name:zh-Latn-pinyin": "Fēngtáidōngdàjiē",
+    "operator": "北京市地铁运营",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q4392154"
+  }
+},
+{
+  "type": "node",
+  "id": 7860304590,
+  "lat": 39.8857143,
+  "lon": 116.3088080,
+  "tags": {
+    "name": "六里桥东",
+    "name:en": "Liuliqiao East",
+    "name:zh": "六里桥东",
+    "name:zh-Latn-pinyin": "Liùlĭqiáodōng",
+    "operator": "北京市地铁运营",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q4392166"
+  }
+},
+{
+  "type": "node",
+  "id": 7860703071,
+  "lat": 39.7883939,
+  "lon": 116.3226770,
+  "tags": {
+    "name": "西红门",
+    "name:en": "Xihongmen",
+    "name:zh": "西红门",
+    "name:zh-Latn-pinyin": "Xīhóngmén",
+    "operator": "北京京港地铁",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q5938103"
+  }
+},
+{
+  "type": "node",
+  "id": 7860703072,
+  "lat": 39.7730301,
+  "lon": 116.3244805,
+  "tags": {
+    "name": "高米店北",
+    "name:en": "Gaomidian North",
+    "name:zh": "高米店北",
+    "name:zh-Latn-pinyin": "Gāomĭdiànbĕi",
+    "operator": "北京京港地铁",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q5521693"
+  }
+},
+{
+  "type": "node",
+  "id": 7860703073,
+  "lat": 39.7417561,
+  "lon": 116.3263162,
+  "tags": {
+    "name": "清源路",
+    "name:en": "Qingyuanlu",
+    "name:zh": "清源路",
+    "name:zh-Latn-pinyin": "Qīngyuánlù",
+    "operator": "北京京港地铁",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q5938212"
+  }
+},
+{
+  "type": "node",
+  "id": 7860703074,
+  "lat": 39.7304220,
+  "lon": 116.3265186,
+  "tags": {
+    "name": "黄村西大街",
+    "name:en": "Huangcun Xidajie",
+    "name:zh": "黄村西大街",
+    "name:zh-Latn-pinyin": "Huángcūnxīdàjiē",
+    "operator": "北京京港地铁",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q6119338"
+  }
+},
+{
+  "type": "node",
+  "id": 7860703075,
+  "lat": 39.7215049,
+  "lon": 116.3266541,
+  "tags": {
+    "name": "黄村火车站",
+    "name:en": "Huangcun Railway Station",
+    "name:zh": "黄村火车站",
+    "name:zh-Latn-pinyin": "Huángcūn Huŏchēzhàn",
+    "operator": "北京京港地铁",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 7860703076,
+  "lat": 39.7111046,
+  "lon": 116.3130186,
+  "tags": {
+    "name": "义和庄",
+    "name:en": "Yihezhuang",
+    "name:zh": "义和庄",
+    "name:zh-Latn-pinyin": "Yìhézhuāng",
+    "operator": "北京京港地铁",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q6119497"
+  }
+},
+{
+  "type": "node",
+  "id": 7861046849,
+  "lat": 39.9982949,
+  "lon": 116.3036739,
+  "tags": {
+    "name": "圆明园",
+    "name:en": "Yuanmingyuan Park",
+    "name:zh": "圆明园",
+    "operator": "北京京港地铁",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q5938257",
+    "wikipedia": "zh:圆明园站"
+  }
+},
+{
+  "type": "node",
+  "id": 7861046850,
+  "lat": 39.9907813,
+  "lon": 116.3097264,
+  "tags": {
+    "name": "北京大学东门",
+    "name:en": "Peking University East Gate",
+    "name:zh": "北京大学东门",
+    "operator": "北京京港地铁",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q5328414"
+  }
+},
+{
+  "type": "node",
+  "id": 7861046851,
+  "lat": 39.9826574,
+  "lon": 116.3103787,
+  "tags": {
+    "name": "中关村",
+    "name:en": "Zhongguancun",
+    "name:zh": "中关村",
+    "operator": "北京京港地铁",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q5937882"
+  }
+},
+{
+  "type": "node",
+  "id": 7861046852,
+  "lat": 39.9657440,
+  "lon": 116.3157286,
+  "tags": {
+    "name": "人民大学",
+    "name:en": "Renmin University",
+    "name:zh": "人民大学",
+    "operator": "北京京港地铁",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q5938338",
+    "wikipedia": "en:Renmin Daxue (Renmin Univ.) station"
+  }
+},
+{
+  "type": "node",
+  "id": 7861046853,
+  "lat": 39.9563044,
+  "lon": 116.3171815,
+  "tags": {
+    "name": "魏公村",
+    "name:en": "Weigongcun",
+    "name:zh": "魏公村",
+    "operator": "北京京港地铁",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q5938302"
+  }
+},
+{
+  "type": "node",
+  "id": 7861046854,
+  "lat": 39.9225455,
+  "lon": 116.3668145,
+  "tags": {
+    "name": "西四",
+    "name:en": "Xisi",
+    "name:zh": "西四",
+    "operator": "北京京港地铁",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q6122274"
+  }
+},
+{
+  "type": "node",
+  "id": 7861046855,
+  "lat": 39.8774369,
+  "lon": 116.3682029,
+  "tags": {
+    "name": "陶然亭",
+    "name:en": "Taoranting",
+    "name:zh": "陶然亭",
+    "operator": "北京京港地铁",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q5960410"
+  }
+},
+{
+  "type": "node",
+  "id": 7861046856,
+  "lat": 39.8516352,
+  "lon": 116.3652070,
+  "tags": {
+    "name": "马家堡",
+    "name:en": "Majiapu",
+    "name:zh": "马家堡",
+    "operator": "北京京港地铁",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q5959373"
+  }
+},
+{
+  "type": "node",
+  "id": 7896842489,
+  "lat": 39.9573887,
+  "lon": 116.4122352,
+  "tags": {
+    "name": "和平里北街",
+    "name:en": "Hepingli Beijie",
+    "name:ru": "Улица Северный Хэпинли",
+    "name:zh": "和平里北街",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q5976333"
+  }
+},
+{
+  "type": "node",
+  "id": 7896842490,
+  "lat": 39.8822567,
+  "lon": 116.4145694,
+  "tags": {
+    "name": "天坛东门",
+    "name:de": "Osttor des Himmelstempels",
+    "name:en": "East Gate of Temple of Heaven",
+    "name:ru": "Восточные ворота Храма Неба",
+    "name:zh": "天坛东门",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 7896877677,
+  "lat": 39.9228365,
+  "lon": 116.5730712,
+  "tags": {
+    "name": "黄渠",
+    "name:en": "Huangqu",
+    "name:zh": "黄渠",
+    "name:zh-Latn-pinyin": "Huángqú",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q11177956"
+  }
+},
+{
+  "type": "node",
+  "id": 7896877678,
+  "lat": 39.9310610,
+  "lon": 116.3379903,
+  "tags": {
+    "name": "车公庄西",
+    "name:en": "Chegongzhuang West",
+    "name:zh": "车公庄西",
+    "name:zh-Latn-pinyin": "Chēgōngzhuāngxī",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q130435"
+  }
+},
+{
+  "type": "node",
+  "id": 7896877679,
+  "lat": 39.8431736,
+  "lon": 116.3273554,
+  "tags": {
+    "name": "纪家庙",
+    "name:en": "Jijiaomiao",
+    "name:zh": "纪家庙",
+    "name:zh-Hans": "纪家庙",
+    "name:zh-Hant": "紀家廟",
+    "name:zh-Latn-pinyin": "Jìjiāmiào",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q2043475",
+    "wikipedia": "en:Jijiamiao station"
+  }
+},
+{
+  "type": "node",
+  "id": 7896877680,
+  "lat": 39.9214820,
+  "lon": 116.4455603,
+  "tags": {
+    "name": "东大桥",
+    "name:en": "Dongdaqiao",
+    "name:zh": "东大桥",
+    "name:zh-Latn-pinyin": "Dōngdàqiáo",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q82803"
+  }
+},
+{
+  "type": "node",
+  "id": 7896877681,
+  "lat": 39.9749496,
+  "lon": 116.3229284,
+  "tags": {
+    "name": "知春里",
+    "name:en": "Zhichunli",
+    "name:zh": "知春里",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q5936478"
+  }
+},
+{
+  "type": "node",
+  "id": 7896877682,
+  "lat": 39.8444927,
+  "lon": 116.4074126,
+  "tags": {
+    "name": "石榴庄",
+    "name:en": "Shiliuzhuang",
+    "name:zh": "石榴庄",
+    "name:zh-Latn-pinyin": "Shíliúzhuāng",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q7496655"
+  }
+},
+{
+  "type": "node",
+  "id": 8073260825,
+  "lat": 39.8056107,
+  "lon": 116.4547308,
+  "tags": {
+    "name": "旧宫",
+    "name:en": "Jiugong",
+    "name:ru": "Цзюгун",
+    "name:zh": "旧宫",
+    "name:zh-Latn-pinyin": "Jiùgōng",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q5935707"
+  }
+},
+{
+  "type": "node",
+  "id": 8073260826,
+  "lat": 39.8017440,
+  "lon": 116.4742673,
+  "tags": {
+    "name": "亦庄桥",
+    "name:en": "Yizhuangqiao",
+    "name:ru": "Ичжуанцяо",
+    "name:zh": "亦庄桥",
+    "name:zh-Latn-pinyin": "Yìzhuāngqiáo",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q5936835"
+  }
+},
+{
+  "type": "node",
+  "id": 8073260827,
+  "lat": 39.7920207,
+  "lon": 116.5074630,
+  "tags": {
+    "name": "荣京东街",
+    "name:en": "Rongjing Dongjie",
+    "name:ru": "Улица Жунцзин-Восточный",
+    "name:zh": "荣京东街",
+    "name:zh-Latn-pinyin": "Róngjīngdōngjiē",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q5937809"
+  }
+},
+{
+  "type": "node",
+  "id": 8073260828,
+  "lat": 39.7816956,
+  "lon": 116.5158570,
+  "tags": {
+    "name": "荣昌东街",
+    "name:en": "Rongchangdongjie",
+    "name:ru": "Улица Жунчан-Восточный",
+    "name:zh": "荣昌东街",
+    "name:zh-Latn-pinyin": "Róngchāngdōngjiē",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q5937661"
+  }
+},
+{
+  "type": "node",
+  "id": 8073260829,
+  "lat": 39.8115669,
+  "lon": 116.5960819,
+  "tags": {
+    "name": "亦庄火车站",
+    "name:en": "Yizhuang Railway Station",
+    "name:ru": "Вокзал Ичжуан",
+    "name:zh": "亦庄火车站",
+    "name:zh-Latn-pinyin": "Yìzhuāng Huŏchēzhàn",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 8073260830,
+  "lat": 39.8025523,
+  "lon": 116.5856212,
+  "tags": {
+    "name": "次渠",
+    "name:en": "Ciqu",
+    "name:ru": "Цыцюй",
+    "name:zh": "次渠",
+    "name:zh-Latn-pinyin": "Cìqú",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q5121332"
+  }
+},
+{
+  "type": "node",
+  "id": 8073272027,
+  "lat": 39.8064524,
+  "lon": 116.2854666,
+  "tags": {
+    "name": "大葆台",
+    "name:en": "Dabaotai",
+    "name:zh": "大葆台",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q5207411"
+  }
+},
+{
+  "type": "node",
+  "id": 8073272028,
+  "lat": 39.7625141,
+  "lon": 116.2065044,
+  "tags": {
+    "name": "长阳",
+    "name:en": "Changyang",
+    "name:zh": "长阳",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q5072154"
+  }
+},
+{
+  "type": "node",
+  "id": 8073272029,
+  "lat": 39.7593770,
+  "lon": 116.1833797,
+  "tags": {
+    "name": "篱笆房",
+    "name:en": "Libafang",
+    "name:zh": "篱笆房",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q4392161"
+  }
+},
+{
+  "type": "node",
+  "id": 8073272030,
+  "lat": 39.7465971,
+  "lon": 116.1788414,
+  "tags": {
+    "name": "广阳城",
+    "name:en": "Guangyangcheng",
+    "name:zh": "广阳城",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q4392228"
+  }
+},
+{
+  "type": "node",
+  "id": 8073272031,
+  "lat": 39.7284650,
+  "lon": 116.1773354,
+  "tags": {
+    "name": "良乡大学城北",
+    "name:en": "Liangxiang University Town North",
+    "name:zh": "良乡大学城北",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q4392201"
+  }
+},
+{
+  "type": "node",
+  "id": 8073272032,
+  "lat": 39.7219018,
+  "lon": 116.1702973,
+  "tags": {
+    "name": "良乡大学城",
+    "name:en": "Liangxiang University Town",
+    "name:zh": "良乡大学城",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q4392294"
+  }
+},
+{
+  "type": "node",
+  "id": 8073272033,
+  "lat": 39.7218688,
+  "lon": 116.1500157,
+  "tags": {
+    "name": "良乡大学城西",
+    "name:en": "Liangxiang University Town West",
+    "name:zh": "良乡大学城西",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q4392300"
+  }
+},
+{
+  "type": "node",
+  "id": 8073272034,
+  "lat": 39.7218523,
+  "lon": 116.1189698,
+  "tags": {
+    "name": "苏庄",
+    "name:en": "Suzhuang",
+    "name:zh": "苏庄",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q5936795"
+  }
+},
+{
+  "type": "node",
+  "id": 8073325252,
+  "lat": 40.0689030,
+  "lon": 116.5493705,
+  "tags": {
+    "name": "国展",
+    "name:en": "China International Exhibition Center",
+    "name:ru": "Международный выставочный центр",
+    "name:zh": "国展",
+    "name:zh-Latn-pinyin": "Guózhăn",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q5099743"
+  }
+},
+{
+  "type": "node",
+  "id": 8073325253,
+  "lat": 40.0833437,
+  "lon": 116.5518402,
+  "tags": {
+    "name": "花梨坎",
+    "name:en": "Hualikan",
+    "name:ru": "Хуаликань",
+    "name:zh": "花梨坎",
+    "name:zh-Latn-pinyin": "Huālíkăn",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q5937712"
+  }
+},
+{
+  "type": "node",
+  "id": 8073325254,
+  "lat": 40.1130148,
+  "lon": 116.5584491,
+  "tags": {
+    "name": "后沙峪",
+    "name:en": "Houshayu",
+    "name:ru": "Хоушаюй",
+    "name:zh": "后沙峪",
+    "name:zh-Latn-pinyin": "Hòushāyù",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q5936980"
+  }
+},
+{
+  "type": "node",
+  "id": 8073325255,
+  "lat": 40.1274067,
+  "lon": 116.6035713,
+  "tags": {
+    "name": "南法信",
+    "name:en": "Nanfaxin",
+    "name:ru": "Наньфасинь",
+    "name:zh": "南法信",
+    "name:zh-Latn-pinyin": "Nánfăxìn",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q4392279"
+  }
+},
+{
+  "type": "node",
+  "id": 8073325256,
+  "lat": 40.0205632,
+  "lon": 116.4867537,
+  "tags": {
+    "name": "崔各庄",
+    "name:en": "Cuigezhuang",
+    "name:ru": "Цуйгэчжуан",
+    "name:zh": "崔各庄",
+    "name:zh-Latn-pinyin": "Cuīgèzhuāng",
+    "public_transport": "station",
+    "railway": "station",
+    "subway": "yes",
+    "wikidata": "Q5192742"
+  }
+},
+{
+  "type": "node",
+  "id": 8073325257,
+  "lat": 39.9174644,
+  "lon": 116.6555297,
+  "tags": {
+    "name": "通州北关",
+    "name:en": "Tongzhou Beiguan",
+    "name:zh": "通州北关",
+    "name:zh-Latn-pinyin": "Tōngzhōubĕiguān",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 8073325258,
+  "lat": 39.9259297,
+  "lon": 116.6334973,
+  "tags": {
+    "name": "物资学院路",
+    "name:en": "Wuzixueyuanlu",
+    "name:zh": "物资学院路",
+    "name:zh-Latn-pinyin": "Wùzīxuéyuànlù",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q16928789"
+  }
+},
+{
+  "type": "node",
+  "id": 8073325259,
+  "lat": 39.9235091,
+  "lon": 116.6103044,
+  "tags": {
+    "name": "草房",
+    "name:en": "Caofang",
+    "name:zh": "草房",
+    "name:zh-Latn-pinyin": "Căofáng",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q82801"
+  }
+},
+{
+  "type": "node",
+  "id": 8073325260,
+  "lat": 39.8742944,
+  "lon": 116.6728594,
+  "tags": {
+    "name": "临河里",
+    "name:en": "Linheli",
+    "name:zh": "临河里",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q5973022"
+  }
+},
+{
+  "type": "node",
+  "id": 8073325261,
+  "lat": 39.8891650,
+  "lon": 116.6516230,
+  "tags": {
+    "name": "九棵树",
+    "name:en": "Jiukeshu",
+    "name:zh": "九棵树",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q5973051"
+  }
+},
+{
+  "type": "node",
+  "id": 8073325262,
+  "lat": 39.8922857,
+  "lon": 116.6407547,
+  "tags": {
+    "name": "果园",
+    "name:en": "Guoyuan",
+    "name:zh": "果园",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q5619690"
+  }
+},
+{
+  "type": "node",
+  "id": 8073325263,
+  "lat": 40.0935730,
+  "lon": 116.2881830,
+  "tags": {
+    "name": "生命科学园",
+    "name:en": "Life Science Park",
+    "name:ru": "Парк естественных наук",
+    "name:zh": "生命科学园",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q6119466"
+  }
+},
+{
+  "type": "node",
+  "id": 8073325264,
+  "lat": 39.9841327,
+  "lon": 116.3875830,
+  "tags": {
+    "name": "奥体中心",
+    "name:en": "Olympic Sports Center",
+    "name:ru": "Олимпийский спортивный центр",
+    "name:zh": "奥体中心",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q6126685"
+  }
+},
+{
+  "type": "node",
+  "id": 8277164621,
+  "lat": 39.8429666,
+  "lon": 116.3138654,
+  "tags": {
+    "layer": "-4",
+    "name": "首经贸",
+    "name:en": "Capital University of Economics & Business",
+    "name:zh": "首经贸",
+    "name:zh-Hans": "首经贸",
+    "name:zh-Hant": "首經貿",
+    "name:zh-Latn-pinyin": "Shŏujīngmào",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 8277164642,
+  "lat": 39.8535213,
+  "lon": 116.3166795,
+  "tags": {
+    "name": "东管头南",
+    "name:en": "Dongguantou South",
+    "name:ru": "Южный Дунгуаньтоу",
+    "name:zh": "东管头南",
+    "name:zh-Latn-pinyin": "Dōng guǎn tóu nán",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q78054167",
+    "wikipedia": "en:Dongguantounan station"
+  }
+},
+{
+  "type": "node",
+  "id": 8278912792,
+  "lat": 39.8473000,
+  "lon": 116.2425658,
+  "tags": {
+    "name": "洪泰庄",
+    "name:en": "Hongtaizhuang",
+    "name:ru": "Хунтайчжуан",
+    "old_name": "榆树庄北",
+    "public_transport": "station",
+    "railway": "station",
+    "start_date": "2023-12-30",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q96649511",
+    "wikipedia": "en:Hongtaizhuang station"
+  }
+},
+{
+  "type": "node",
+  "id": 8658952312,
+  "lat": 39.8641006,
+  "lon": 116.3733186,
+  "tags": {
+    "name": "北京南站",
+    "name:de": "Peking Südbahnhof",
+    "name:en": "Beijing South Railway Station",
+    "name:zh": "北京南站",
+    "operator": "北京京港地铁",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 8978629464,
+  "lat": 39.9082528,
+  "lon": 116.5255476,
+  "tags": {
+    "name": "高碑店",
+    "name:en": "Gaobeidian",
+    "name:zh": "高碑店",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q5521677",
+    "wikipedia": "zh:高碑店站 (北京市)"
+  }
+},
+{
+  "type": "node",
+  "id": 9122347219,
+  "lat": 39.8445995,
+  "lon": 116.3454124,
+  "tags": {
+    "name": "草桥",
+    "name:en": "Caoqiao",
+    "name:zh": "草桥",
+    "railway": "station",
+    "station": "subway",
+    "wikidata": "Q2257617"
+  }
+},
+{
+  "type": "node",
+  "id": 9147328748,
+  "lat": 39.8635284,
+  "lon": 116.4544834,
+  "tags": {
+    "name": "十里河",
+    "name:zh": "十里河",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 9150216945,
+  "lat": 39.9145679,
+  "lon": 116.4721115,
+  "tags": {
+    "construction": "station",
+    "name": "红庙",
+    "name:en": "Hongmiao",
+    "public_transport": "station",
+    "railway": "construction",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q26261976",
+    "wikipedia": "en:Hongmiao station"
+  }
+},
+{
+  "type": "node",
+  "id": 9153343830,
+  "lat": 39.7085836,
+  "lon": 116.0339981,
+  "tags": {
+    "name": "大石河东",
+    "name:en": "Dashihe East",
+    "name:zh": "大石河东",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q43750525"
+  }
+},
+{
+  "type": "node",
+  "id": 9153343831,
+  "lat": 39.7122214,
+  "lon": 116.0551386,
+  "tags": {
+    "name": "星城",
+    "name:en": "Xingcheng",
+    "name:zh": "星城",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q46717114"
+  }
+},
+{
+  "type": "node",
+  "id": 9153343832,
+  "lat": 39.7230220,
+  "lon": 116.0804553,
+  "tags": {
+    "name": "紫草坞",
+    "name:en": "Zicaowu",
+    "name:zh": "紫草坞",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q42748562"
+  }
+},
+{
+  "type": "node",
+  "id": 9365006124,
+  "lat": 39.8599770,
+  "lon": 116.3497096,
+  "tags": {
+    "name": "西铁营",
+    "name:en": "Xitieying",
+    "name:zh": "西铁营",
+    "name:zh-Hans": "西铁营",
+    "name:zh-Hant": "西鐵營",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q105069700",
+    "wikipedia": "en:Xitieying station"
+  }
+},
+{
+  "type": "node",
+  "id": 9379477284,
+  "lat": 39.9147047,
+  "lon": 116.4049246,
+  "tags": {
+    "name": "金鱼胡同",
+    "name:en": "Jinyu Hutong",
+    "name:ru": "Цзиньюй-хутун",
+    "name:zh": "金鱼胡同",
+    "name:zh-Hans": "金鱼胡同",
+    "name:zh-Hant": "金魚胡同",
+    "network": "北京地铁",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 9379477289,
+  "lat": 39.9138827,
+  "lon": 116.1585873,
+  "tags": {
+    "name": "北辛安",
+    "name:en": "Beixin'an",
+    "name:zh": "北辛安",
+    "name:zh-Hans": "北辛安",
+    "name:zh-Hant": "北辛安",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q102367263",
+    "wikipedia": "zh:北辛安站"
+  }
+},
+{
+  "type": "node",
+  "id": 9379477290,
+  "lat": 39.9076653,
+  "lon": 116.1586061,
+  "tags": {
+    "name": "新首钢",
+    "name:en": "Shougang Park",
+    "name:zh": "新首钢",
+    "name:zh-Hans": "新首钢",
+    "name:zh-Hant": "新首鋼",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q102367265",
+    "wikipedia": "zh:新首钢站"
+  }
+},
+{
+  "type": "node",
+  "id": 9379477292,
+  "lat": 39.9209099,
+  "lon": 116.1552373,
+  "tags": {
+    "name": "金安桥",
+    "name:en": "Jin'anqiao",
+    "name:zh": "金安桥",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q38679541",
+    "wikipedia": "zh:金安桥站"
+  }
+},
+{
+  "type": "node",
+  "id": 9379477293,
+  "lat": 39.8225567,
+  "lon": 116.3402526,
+  "tags": {
+    "name": "新发地",
+    "name:en": "Xinfadi",
+    "name:ru": "Синьфади",
+    "name:zh": "新发地",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q97172031",
+    "wikipedia": "zh:新发地站"
+  }
+},
+{
+  "type": "node",
+  "id": 9380267870,
+  "lat": 40.0515344,
+  "lon": 116.6097731,
+  "tags": {
+    "name": "首都机场3号航站楼",
+    "name:be": "Тэрмінал 3",
+    "name:en": "Capital Airport Terminal 3",
+    "name:ru": "Терминал 3 аэропорта Шоуду",
+    "name:zh": "首都机场3号航站楼",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 9380267871,
+  "lat": 40.0780123,
+  "lon": 116.5871495,
+  "tags": {
+    "name": "首都机场2号航站楼",
+    "name:be": "Тэрмінал 2",
+    "name:en": "Capital Airport Terminal 2",
+    "name:ru": "Терминал 2 аэропорта Шоуду",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 9380291879,
+  "lat": 39.8430584,
+  "lon": 116.4898314,
+  "tags": {
+    "name": "十八里店",
+    "name:en": "Shibalidian",
+    "name:zh": "十八里店",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 9380291880,
+  "lat": 39.8175347,
+  "lon": 116.5471730,
+  "tags": {
+    "name": "北神树",
+    "name:en": "Beishenshu",
+    "name:zh": "北神树",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 9380291881,
+  "lat": 39.7918725,
+  "lon": 116.6052556,
+  "tags": {
+    "name": "嘉会湖",
+    "name:en": "Jiahuihu",
+    "name:zh": "嘉会湖",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 9380308680,
+  "lat": 39.9310721,
+  "lon": 116.3275776,
+  "tags": {
+    "name": "二里沟",
+    "name:en": "Erligou",
+    "name:ru": "Эрлигоу",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q130094",
+    "wikipedia": "en:Erligou station"
+  }
+},
+{
+  "type": "node",
+  "id": 9380332412,
+  "lat": 39.9243597,
+  "lon": 116.1713056,
+  "tags": {
+    "name": "苹果园",
+    "name:en": "Pingguoyuan",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q1039443",
+    "wikipedia": "en:Pingguoyuan station"
+  }
+},
+{
+  "type": "node",
+  "id": 9383939775,
+  "lat": 39.9323418,
+  "lon": 116.1498174,
+  "tags": {
+    "name": "模式口",
+    "name:en": "Moshikou",
+    "name:zh": "模式口",
+    "public_transport": "station",
+    "railway": "station",
+    "start_date": "2023-12-30",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q102367262",
+    "wikipedia": "zh:模式口站"
+  }
+},
+{
+  "type": "node",
+  "id": 9384986215,
+  "lat": 39.8552520,
+  "lon": 116.4706068,
+  "tags": {
+    "name": "周家庄",
+    "name:en": "Zhoujiazhuang",
+    "name:zh": "周家庄",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 9385028990,
+  "lat": 39.8025261,
+  "lon": 116.5859058,
+  "tags": {
+    "name": "次渠",
+    "name:en": "Ciqu",
+    "name:zh": "次渠",
+    "name:zh-Latn-pinyin": "Cìqú",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q5121332"
+  }
+},
+{
+  "type": "node",
+  "id": 9385028991,
+  "lat": 39.8085973,
+  "lon": 116.5706243,
+  "tags": {
+    "name": "次渠北",
+    "name:en": "Ciqubei",
+    "name:zh": "次渠北",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 9385085643,
+  "lat": 39.9462372,
+  "lon": 116.3658244,
+  "tags": {
+    "name": "积水潭",
+    "name:en": "Jishuitan",
+    "name:ru": "Цзишуйтань",
+    "name:zh": "积水潭",
+    "operator": "北京轨道运营",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q5976575",
+    "wikipedia": "zh:积水潭站"
+  }
+},
+{
+  "type": "node",
+  "id": 9385085646,
+  "lat": 39.9667708,
+  "lon": 116.3641240,
+  "tags": {
+    "name": "北太平庄",
+    "name:en": "Beitaipingzhuang",
+    "name:ru": "Бэйтайпинчжуан",
+    "name:zh": "北太平庄",
+    "operator": "北京轨道运营",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q84249130",
+    "wikipedia": "zh:北太平庄站"
+  }
+},
+{
+  "type": "node",
+  "id": 9385088768,
+  "lat": 39.9320831,
+  "lon": 116.3617483,
+  "tags": {
+    "name": "平安里",
+    "name:en": "Ping'anli",
+    "name:zh": "平安里",
+    "operator": "北京轨道运营",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q5959534"
+  }
+},
+{
+  "type": "node",
+  "id": 9385088769,
+  "lat": 39.9313232,
+  "lon": 116.3651624,
+  "tags": {
+    "name": "平安里",
+    "name:en": "Ping'anli",
+    "name:zh": "平安里",
+    "operator": "北京市地铁运营",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q5959534"
+  }
+},
+{
+  "type": "node",
+  "id": 9385101461,
+  "lat": 39.9750791,
+  "lon": 116.3636148,
+  "tags": {
+    "name": "牡丹园",
+    "name:en": "Mudanyuan",
+    "name:zh": "牡丹园",
+    "operator": "北京轨道运营",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q6124616"
+  }
+},
+{
+  "type": "node",
+  "id": 9385116432,
+  "lat": 39.8460959,
+  "lon": 116.3428438,
+  "tags": {
+    "name": "草桥",
+    "name:en": "Caoqiao",
+    "name:ru": "Цаоцяо",
+    "name:zh": "草桥",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q2257617",
+    "wikipedia": "zh:草桥站"
+  }
+},
+{
+  "type": "node",
+  "id": 9385116433,
+  "lat": 39.8461391,
+  "lon": 116.3424361,
+  "tags": {
+    "name": "草桥",
+    "name:en": "Caoqiao",
+    "name:ru": "Цаоцяо",
+    "name:zh": "草桥",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q2257617",
+    "wikipedia": "zh:草桥站"
+  }
+},
+{
+  "type": "node",
+  "id": 9385116436,
+  "lat": 39.8626316,
+  "lon": 116.3580843,
+  "tags": {
+    "name": "景风门",
+    "name:en": "Jingfengmen",
+    "name:ru": "Ворота Цзинфэн",
+    "name:zh": "景风门",
+    "operator": "北京轨道运营",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q27916010",
+    "wikipedia": "zh:景风门站"
+  }
+},
+{
+  "type": "node",
+  "id": 9470274656,
+  "lat": 39.9470576,
+  "lon": 116.1485756,
+  "tags": {
+    "internet_access": "no",
+    "name": "五三",
+    "name:en": "Wusan",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q11668737",
+    "wikipedia:zh": "53号站"
+  }
+},
+{
+  "type": "node",
+  "id": 9669538693,
+  "lat": 40.0313885,
+  "lon": 116.2684248,
+  "tags": {
+    "name": "马连洼",
+    "name:en": "Malianwa",
+    "name:ru": "Маляньва",
+    "name:zh": "马连洼",
+    "public_transport": "station",
+    "railway": "station",
+    "start_date": "2025-12-27",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q26261977",
+    "wikipedia": "zh:马连洼站"
+  }
+},
+{
+  "type": "node",
+  "id": 9706596471,
+  "lat": 39.8110444,
+  "lon": 116.3597490,
+  "tags": {
+    "name": "新宫",
+    "name:en": "Xingong",
+    "name:ru": "Синьгун",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q5935686",
+    "wikipedia": "zh:新宫站 (北京市)"
+  }
+},
+{
+  "type": "node",
+  "id": 9920410920,
+  "lat": 39.9087765,
+  "lon": 116.3571516,
+  "tags": {
+    "name": "太平桥",
+    "name:en": "Taipingqiao",
+    "name:ru": "Мост Тайпин",
+    "operator": "北京轨道运营",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q102353186",
+    "wikipedia": "zh:太平桥站_(北京市)"
+  }
+},
+{
+  "type": "node",
+  "id": 10296512593,
+  "lat": 39.8338003,
+  "lon": 116.2666477,
+  "tags": {
+    "name": "看丹",
+    "name:en": "Kandan",
+    "name:ru": "Каньдань",
+    "public_transport": "station",
+    "railway": "station",
+    "start_date": "2022-12-31",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q78872939",
+    "wikipedia": "en:Kandan station"
+  }
+},
+{
+  "type": "node",
+  "id": 10605339565,
+  "lat": 39.9868013,
+  "lon": 116.3472515,
+  "tags": {
+    "name": "学院桥",
+    "name:en": "Xueyuanqiao",
+    "name:ru": "Мост Сюэюань",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q103745077",
+    "wikipedia": "en:Xueyuanqiao station"
+  }
+},
+{
+  "type": "node",
+  "id": 10605339566,
+  "lat": 40.0136302,
+  "lon": 116.3457528,
+  "tags": {
+    "name": "学知园",
+    "name:en": "Xuezhiyuan",
+    "name:ru": "Сюэчжиюань",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q103745051",
+    "wikipedia": "en:Xuezhiyuan station"
+  }
+},
+{
+  "type": "node",
+  "id": 10605339567,
+  "lat": 40.0338705,
+  "lon": 116.3367846,
+  "tags": {
+    "name": "清河小营桥",
+    "name:en": "Qinghe Xiaoyingqiao",
+    "name:ru": "Мост Цинхэ Сяоин",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q102353068",
+    "wikipedia": "en:Qinghe Xiaoyingqiao station"
+  }
+},
+{
+  "type": "node",
+  "id": 10655378373,
+  "lat": 39.9416520,
+  "lon": 116.4285738,
+  "tags": {
+    "name": "东直门",
+    "name:en": "Dongzhimen",
+    "name:ru": "Дунчжимэнь",
+    "name:zh": "东直门",
+    "name:zh-Hans": "东直门",
+    "name:zh-Hant": "東直門",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wheelchair": "yes",
+    "wikidata": "Q847850",
+    "wikipedia": "zh:东直门站"
+  }
+},
+{
+  "type": "node",
+  "id": 10655378374,
+  "lat": 39.9397031,
+  "lon": 116.4276776,
+  "tags": {
+    "name": "东直门",
+    "name:ru": "Дунчжимэнь",
+    "name:zh": "东直门",
+    "name:zh-Hans": "东直门",
+    "name:zh-Hant": "東直門",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wheelchair": "yes",
+    "wikidata": "Q847850",
+    "wikipedia": "zh:东直门站"
+  }
+},
+{
+  "type": "node",
+  "id": 10655378375,
+  "lat": 39.9400378,
+  "lon": 116.4294829,
+  "tags": {
+    "name": "东直门",
+    "name:en": "Dongzhimen",
+    "name:zh": "东直门",
+    "name:zh-Hans": "东直门",
+    "name:zh-Hant": "東直門",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wheelchair": "yes",
+    "wikidata": "Q847850",
+    "wikipedia": "zh:东直门站"
+  }
+},
+{
+  "type": "node",
+  "id": 10671369627,
+  "lat": 39.9746043,
+  "lon": 116.5519702,
+  "tags": {
+    "name": "东坝北",
+    "name:en": "Dongbabei",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q103742468"
+  }
+},
+{
+  "type": "node",
+  "id": 11478693895,
+  "lat": 40.1295159,
+  "lon": 116.4631715,
+  "tags": {
+    "baby_feeding": "room",
+    "name": "未来科学城北",
+    "name:en": "Future Science City North",
+    "old_name": "未来科技城北;未来科技城北区",
+    "operator": "北京京港地铁有限公司",
+    "public_transport": "station",
+    "railway": "station",
+    "start_date": "2023-12-30",
+    "station": "subway",
+    "subway": "yes",
+    "wheelchair": "yes",
+    "wikidata": "Q107583300",
+    "wikipedia": "en:Future Science City North station"
+  }
+},
+{
+  "type": "node",
+  "id": 11478693919,
+  "lat": 40.1141592,
+  "lon": 116.4605159,
+  "tags": {
+    "baby_feeding": "room",
+    "name": "未来科学城",
+    "name:en": "Future Science City",
+    "name:zh": "未来科技城",
+    "old_name": "未来科技城南区;未来科学城南;未来科技城南",
+    "operator": "北京京港地铁有限公司",
+    "public_transport": "station",
+    "railway": "station",
+    "start_date": "2023-12-30",
+    "station": "subway",
+    "subway": "yes",
+    "wheelchair": "yes",
+    "wikidata": "Q107583301",
+    "wikipedia": "en:Future Science City station"
+  }
+},
+{
+  "type": "node",
+  "id": 11478693941,
+  "lat": 40.0671005,
+  "lon": 116.4359844,
+  "tags": {
+    "baby_feeding": "room",
+    "name": "天通苑东",
+    "name:en": "Tiantongyuandong",
+    "name:zh": "天通苑东",
+    "operator": "北京京港地铁有限公司",
+    "public_transport": "station",
+    "railway": "station",
+    "start_date": "2023-12-30",
+    "station": "subway",
+    "subway": "yes",
+    "wheelchair": "yes",
+    "wikidata": "Q107472104",
+    "wikipedia": "zh:天通苑东站"
+  }
+},
+{
+  "type": "node",
+  "id": 11478723285,
+  "lat": 40.0496531,
+  "lon": 116.4360139,
+  "tags": {
+    "name": "清河营",
+    "name:en": "Qingheying",
+    "name:zh": "清河营",
+    "operator": "北京京港地铁有限公司",
+    "public_transport": "station",
+    "railway": "station",
+    "start_date": "2023-12-30",
+    "station": "subway",
+    "subway": "yes",
+    "wheelchair": "yes",
+    "wikidata": "Q107472049",
+    "wikipedia": "en:Qingheying station"
+  }
+},
+{
+  "type": "node",
+  "id": 11478723290,
+  "lat": 40.0330877,
+  "lon": 116.4355362,
+  "tags": {
+    "baby_feeding": "room",
+    "name": "红军营",
+    "name:en": "Hongjunying",
+    "name:zh": "红军营",
+    "old_name": "勇士营",
+    "operator": "北京京港地铁有限公司",
+    "public_transport": "station",
+    "railway": "station",
+    "start_date": "2023-12-30",
+    "station": "subway",
+    "subway": "yes",
+    "wheelchair": "yes",
+    "wikidata": "Q107471993",
+    "wikipedia": "en:Hongjunying station"
+  }
+},
+{
+  "type": "node",
+  "id": 11481744716,
+  "lat": 39.9323548,
+  "lon": 116.4442038,
+  "tags": {
+    "baby_feeding": "room",
+    "name": "工人体育场",
+    "name:en": "Workers' Stadium",
+    "operator": "北京京港地铁有限公司",
+    "public_transport": "station",
+    "railway": "station",
+    "start_date": "2023-12-30",
+    "station": "subway",
+    "subway": "yes",
+    "wheelchair": "yes",
+    "wikidata": "Q84244521",
+    "wikipedia": "zh:工人体育场站"
+  }
+},
+{
+  "type": "node",
+  "id": 11481744722,
+  "lat": 39.9644456,
+  "lon": 116.4348149,
+  "tags": {
+    "baby_feeding": "room",
+    "name": "西坝河",
+    "name:en": "Xibahe",
+    "operator": "北京京港地铁有限公司",
+    "public_transport": "station",
+    "railway": "station",
+    "start_date": "2023-12-30",
+    "station": "subway",
+    "subway": "yes",
+    "wheelchair": "yes",
+    "wikidata": "Q84244726",
+    "wikipedia": "zh:西坝河站"
+  }
+},
+{
+  "type": "node",
+  "id": 11481744738,
+  "lat": 39.9485486,
+  "lon": 116.4365482,
+  "tags": {
+    "baby_feeding": "room",
+    "name": "左家庄",
+    "name:en": "Zuojiazhuang",
+    "old_name": "香河园",
+    "operator": "北京京港地铁有限公司",
+    "public_transport": "station",
+    "railway": "station",
+    "start_date": "2023-12-30",
+    "station": "subway",
+    "subway": "yes",
+    "wheelchair": "yes",
+    "wikidata": "Q84262185",
+    "wikipedia": "en:Zuojiazhuang station"
+  }
+},
+{
+  "type": "node",
+  "id": 11496710264,
+  "lat": 39.9712918,
+  "lon": 116.4411862,
+  "tags": {
+    "name": "太阳宫",
+    "name:en": "Taiyanggong",
+    "name:zh": "太阳宫",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q5937094",
+    "wikipedia": "en:Taiyanggong station"
+  }
+},
+{
+  "type": "node",
+  "id": 12205156087,
+  "lat": 40.0515049,
+  "lon": 116.4057013,
+  "tags": {
+    "name": "立水桥",
+    "name:en": "Lishuiqiao",
+    "name:ru": "Лишуйцяо",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q6125740"
+  }
+},
+{
+  "type": "node",
+  "id": 12416948175,
+  "lat": 39.9425119,
+  "lon": 116.2682827,
+  "tags": {
+    "name": "四季青桥",
+    "name:en": "Sijiqing Qiao",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q103745656"
+  }
+},
+{
+  "type": "node",
+  "id": 12417931579,
+  "lat": 39.9507876,
+  "lon": 116.5411241,
+  "tags": {
+    "name": "东坝南",
+    "name:en": "Dongbanan",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q103819135",
+    "wikipedia": "zh:东坝南站"
+  }
+},
+{
+  "type": "node",
+  "id": 12417931584,
+  "lat": 39.9646450,
+  "lon": 116.5413590,
+  "tags": {
+    "name": "东坝",
+    "name:en": "Dongba",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q103791191",
+    "wikipedia": "zh:东坝站 (北京市)"
+  }
+},
+{
+  "type": "node",
+  "id": 12423657577,
+  "lat": 39.9792261,
+  "lon": 116.4994848,
+  "tags": {
+    "name": "驼房营",
+    "name:en": "Tuofangying",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q103742571",
+    "wikipedia": "zh:驼房营站"
+  }
+},
+{
+  "type": "node",
+  "id": 12423657578,
+  "lat": 39.9791304,
+  "lon": 116.4850346,
+  "tags": {
+    "name": "高家园",
+    "name:en": "Gaojiayuan",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q17034758",
+    "wikipedia": "en:Gaojiayuan station"
+  }
+},
+{
+  "type": "node",
+  "id": 12423657579,
+  "lat": 39.9713939,
+  "lon": 116.4739564,
+  "tags": {
+    "name": "将台西",
+    "name:en": "Jiangtaixi",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q102367414",
+    "wikipedia": "zh:将台西站"
+  }
+},
+{
+  "type": "node",
+  "id": 12423757161,
+  "lat": 39.9733361,
+  "lon": 116.5283562,
+  "tags": {
+    "name": "东坝西",
+    "name:en": "Dongbaxi",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q103745911",
+    "wikipedia": "en:Dongbaxi station"
+  }
+},
+{
+  "type": "node",
+  "id": 12430713733,
+  "lat": 39.9663129,
+  "lon": 116.3488274,
+  "tags": {
+    "name": "蓟门桥",
+    "name:en": "Jimenqiao",
+    "name:ru": "Мост Цзимэнь",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q84244808",
+    "wikipedia": "en:Jimenqiao station"
+  }
+},
+{
+  "type": "node",
+  "id": 12430713734,
+  "lat": 39.9668285,
+  "lon": 116.3758342,
+  "tags": {
+    "name": "马甸桥",
+    "name:en": "Madian Qiao",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q84251336",
+    "wikipedia": "zh:马甸桥站"
+  }
+},
+{
+  "type": "node",
+  "id": 12430713735,
+  "lat": 39.9675012,
+  "lon": 116.4009974,
+  "tags": {
+    "name": "安贞桥",
+    "name:en": "Anzhen Qiao",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q96632013",
+    "wikipedia": "zh:安贞桥站"
+  }
+},
+{
+  "type": "node",
+  "id": 12430714719,
+  "lat": 39.9558597,
+  "lon": 116.2767052,
+  "tags": {
+    "name": "蓝靛厂",
+    "name:en": "Landianchang",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q103745773",
+    "wikipedia": "zh:蓝靛厂站"
+  }
+},
+{
+  "type": "node",
+  "id": 12430747506,
+  "lat": 39.9341652,
+  "lon": 116.4934435,
+  "tags": {
+    "name": "石佛营",
+    "name:en": "Shifoying",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q97172525",
+    "wikipedia": "zh:石佛营站"
+  }
+},
+{
+  "type": "node",
+  "id": 12430747507,
+  "lat": 39.9429982,
+  "lon": 116.4998836,
+  "tags": {
+    "name": "朝阳站",
+    "name:en": "Chaoyang Railway Station",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 12430747508,
+  "lat": 39.9465956,
+  "lon": 116.5212923,
+  "tags": {
+    "name": "姚家园",
+    "name:en": "Yaojiayuan",
+    "public_transport": "station",
+    "railway": "station",
+    "start_date": "2024-12-15",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q103819136",
+    "wikipedia": "zh:姚家园站"
+  }
+},
+{
+  "type": "node",
+  "id": 12435251103,
+  "lat": 39.9677829,
+  "lon": 116.4118056,
+  "tags": {
+    "name": "和平西桥",
+    "name:en": "Heping Xiqiao",
+    "name:ru": "Мост Хэпин-Западный",
+    "name:zh": "和平西桥",
+    "name:zh-Hans": "和平西桥",
+    "name:zh-Hant": "和平西橋",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 12435251104,
+  "lat": 39.9680699,
+  "lon": 116.4242608,
+  "tags": {
+    "name": "光熙门",
+    "name:en": "Guangximen",
+    "name:zh": "光熙门",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 12435251105,
+  "lat": 39.9644089,
+  "lon": 116.4360547,
+  "tags": {
+    "name": "西坝河",
+    "name:en": "Xibahe",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 12435287602,
+  "lat": 39.9607503,
+  "lon": 116.3015966,
+  "tags": {
+    "name": "苏州桥",
+    "name:en": "Suzhou Qiao",
+    "name:ru": "Мост Сучжоу",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q28309051",
+    "wikipedia": "en:Suzhou Qiao station"
+  }
+},
+{
+  "type": "node",
+  "id": 12435287603,
+  "lat": 39.9661057,
+  "lon": 116.3378309,
+  "tags": {
+    "name": "大钟寺",
+    "name:en": "Dazhongsi",
+    "name:zh": "大钟寺",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q5243679"
+  }
+},
+{
+  "type": "node",
+  "id": 12438117726,
+  "lat": 39.9061612,
+  "lon": 116.3152771,
+  "tags": {
+    "name": "军事博物馆",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q5976309",
+    "wikipedia": "zh:军事博物馆站"
+  }
+},
+{
+  "type": "node",
+  "id": 13161970243,
+  "lat": 40.0347054,
+  "lon": 116.3259094,
+  "tags": {
+    "name": "朱房北",
+    "name:en": "Zhufangbei",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13202962134,
+  "lat": 39.9097035,
+  "lon": 116.7327618,
+  "tags": {
+    "name": "潞源东",
+    "public_transport": "station",
+    "railway": "station",
+    "start_date": "未启用",
+    "station": "subway",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13288528515,
+  "lat": 39.8429511,
+  "lon": 116.3944459,
+  "tags": {
+    "name": "大红门",
+    "name:en": "Dahongmen",
+    "name:ru": "Дахунмэнь",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q75258",
+    "wikipedia:en": "Dahongmen station"
+  }
+},
+{
+  "type": "node",
+  "id": 13299172063,
+  "lat": 40.1286418,
+  "lon": 116.6352180,
+  "tags": {
+    "name": "石门",
+    "name:en": "Shimen",
+    "name:ru": "Шимэнь",
+    "name:zh": "石门",
+    "name:zh-Latn-pinyin": "Shímén",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q4392190"
+  }
+},
+{
+  "type": "node",
+  "id": 13354529561,
+  "lat": 40.0714794,
+  "lon": 116.3040433,
+  "tags": {
+    "alt_name": "北郊农场桥站；新龙泽站",
+    "alt_name:en": "Longze West",
+    "name": "龙泽西",
+    "name:en": "Longzexi",
+    "name:zh-Hant": "龍澤西",
+    "network": "北京地铁",
+    "public_transport": "station",
+    "railway": "station",
+    "start_date": "2025-12-27",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q111802872",
+    "wikipedia": "zh:龙泽西站 (北京地铁)"
+  }
+},
+{
+  "type": "node",
+  "id": 13367702388,
+  "lat": 39.8888289,
+  "lon": 116.7510869,
+  "tags": {
+    "name": "潞阳",
+    "name:en": "Luyang",
+    "name:zh": "潞阳",
+    "opening_date": "2025-12-27",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q113720157",
+    "wikipedia": "zh:潞阳站"
+  }
+},
+{
+  "type": "node",
+  "id": 13410014896,
+  "lat": 40.0435370,
+  "lon": 116.2805664,
+  "tags": {
+    "name": "上地软件园",
+    "name:en": "Shangdi Software Park",
+    "name:zh": "上地软件园",
+    "public_transport": "station",
+    "railway": "station",
+    "start_date": "2025-12-27",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q107870434",
+    "wikipedia": "zh:上地软件园站"
+  }
+},
+{
+  "type": "node",
+  "id": 13410014897,
+  "lat": 40.0518350,
+  "lon": 116.2887219,
+  "tags": {
+    "name": "东北旺",
+    "name:en": "Dongbeiwang",
+    "name:zh": "东北旺",
+    "public_transport": "station",
+    "railway": "station",
+    "start_date": "2025-12-27",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q111802257",
+    "wikipedia": "zh:东北旺站"
+  }
+},
+{
+  "type": "node",
+  "id": 13410014898,
+  "lat": 40.0772781,
+  "lon": 116.3245924,
+  "tags": {
+    "name": "回龙观西大街",
+    "name:en": "Huilongguan Xidajie",
+    "name:zh": "回龙观西大街",
+    "public_transport": "station",
+    "railway": "station",
+    "start_date": "2025-12-27",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q111812996",
+    "wikipedia": "zh:回龙观西大街站"
+  }
+},
+{
+  "type": "node",
+  "id": 13410014899,
+  "lat": 40.0788401,
+  "lon": 116.3356615,
+  "tags": {
+    "name": "文华路",
+    "name:en": "Wenhualu",
+    "name:zh": "文华路",
+    "public_transport": "station",
+    "railway": "station",
+    "start_date": "2025-12-27",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q111813013",
+    "wikipedia": "zh:文华路站 (北京市)"
+  }
+},
+{
+  "type": "node",
+  "id": 13410044001,
+  "lat": 40.0805687,
+  "lon": 116.3698028,
+  "tags": {
+    "name": "霍营东",
+    "name:en": "Huoyingdong",
+    "name:zh": "霍营东",
+    "public_transport": "station",
+    "railway": "station",
+    "start_date": "2025-12-27",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q111813027",
+    "wikipedia": "zh:霍营东站"
+  }
+},
+{
+  "type": "node",
+  "id": 13410044002,
+  "lat": 40.0726643,
+  "lon": 116.4087263,
+  "tags": {
+    "name": "天通苑",
+    "name:en": "Tiantongyuan",
+    "public_transport": "station",
+    "railway": "station",
+    "start_date": "2025-12-27",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q6124366",
+    "wikipedia": "zh:天通苑站"
+  }
+},
+{
+  "type": "node",
+  "id": 13410044003,
+  "lat": 40.0727436,
+  "lon": 116.4202773,
+  "tags": {
+    "name": "太平庄",
+    "name:en": "Taipingzhuang",
+    "name:zh": "太平庄",
+    "public_transport": "station",
+    "railway": "station",
+    "start_date": "2025-12-27",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q111823410",
+    "wikipedia": "zh:太平庄站 (北京市)"
+  }
+},
+{
+  "type": "node",
+  "id": 13410044004,
+  "lat": 40.0670514,
+  "lon": 116.4378145,
+  "tags": {
+    "name": "天通苑东",
+    "name:en": "Tiantongyuandong",
+    "name:zh": "天通苑东",
+    "public_transport": "station",
+    "railway": "station",
+    "start_date": "2025-12-27",
+    "station": "subway",
+    "subway": "yes",
+    "wheelchair": "yes",
+    "wikidata": "Q107472104",
+    "wikipedia": "zh:天通苑东站"
+  }
+},
+{
+  "type": "node",
+  "id": 13417518487,
+  "lat": 39.9216405,
+  "lon": 116.4442134,
+  "tags": {
+    "name": "东大桥",
+    "name:en": "Dongdaqiao",
+    "name:zh": "东大桥",
+    "name:zh-Latn-pinyin": "Dōngdàqiáo",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q82803"
+  }
+},
+{
+  "type": "node",
+  "id": 13417518490,
+  "lat": 39.9083452,
+  "lon": 116.4441940,
+  "tags": {
+    "name": "永安里",
+    "name:en": "Yonganli",
+    "name:zh": "永安里",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q843202"
+  }
+},
+{
+  "type": "node",
+  "id": 13417518491,
+  "lat": 39.8738240,
+  "lon": 116.4446966,
+  "tags": {
+    "name": "潘家园西",
+    "name:en": "Panjiayuanxi",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q102346922",
+    "wikipedia": "en:Panjiayuanxi station"
+  }
+},
+{
+  "type": "node",
+  "id": 13763706652,
+  "lat": 40.0439358,
+  "lon": 116.5288048,
+  "tags": {
+    "name": "孙河",
+    "name:en": "Sunhe",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q6119031"
+  }
+},
+{
+  "type": "node",
+  "id": 13974628840,
+  "lat": 39.9099934,
+  "lon": 116.6669531,
+  "tags": {
+    "name": "通运门",
+    "name:en": "Tongyun Men",
+    "name:zh": "通运门",
+    "public_transport": "station",
+    "railway": "station",
+    "start_date": "2026-06-30",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q11081564"
+  }
+},
+{
+  "type": "node",
+  "id": 14124020370,
+  "lat": 39.9214779,
+  "lon": 116.4969516,
+  "tags": {
+    "name": "十里堡",
+    "name:en": "Shilipu",
+    "name:zh": "十里堡",
+    "name:zh-Latn-pinyin": "Shílĭpù",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q82802"
+  }
+},
+{
+  "type": "node",
+  "id": 14124551323,
+  "lat": 39.3346194,
+  "lon": 116.4600032,
+  "tags": {
+    "name": "固安东",
+    "public_transport": "station",
+    "railway": "construction",
+    "station": "subway",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 14142473063,
+  "lat": 39.9216386,
+  "lon": 116.4961468,
+  "tags": {
+    "name": "十里堡",
+    "name:en": "Shilipu",
+    "name:zh": "十里堡",
+    "name:zh-Latn-pinyin": "Shílĭpù",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wikidata": "Q82802"
+  }
+}
+
+  ]
+}

@@ -1,0 +1,39 @@
+{
+ "1": {
+  "direction": "苹果园",
+  "service": "weekday",
+  "legend": {}
+ },
+ "2": {
+  "direction": "石厂",
+  "service": "weekday",
+  "legend": {}
+ },
+ "3": {
+  "direction": "苹果园",
+  "service": "weekend",
+  "legend": {}
+ },
+ "4": {
+  "direction": "石厂",
+  "service": "weekend",
+  "legend": {}
+ },
+ "_images": {
+  "S1-苹果园-1": {
+   "direction": "石厂",
+   "service": "weekday",
+   "legend": {}
+  },
+  "S1-石厂-2": {
+   "direction": "苹果园",
+   "service": "weekend",
+   "legend": {}
+  },
+  "S1-苹果园-2": {
+   "direction": "石厂",
+   "service": "weekend",
+   "legend": {}
+  }
+ }
+}

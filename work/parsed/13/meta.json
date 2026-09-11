@@ -1,0 +1,45 @@
+{
+ "1": {
+  "direction": "东直门",
+  "service": "weekday",
+  "legend": {"gray": "霍营", "purple": "立水桥", "yellow": "回龙观"},
+  "note": "17 images; weekday, towards Dongzhimen. Marker colours are short-turn services (see _images for per-station variants)."
+ },
+ "2": {
+  "direction": "西直门",
+  "service": "weekday",
+  "legend": {"orange": "西直门"},
+  "note": "17 images; weekday, towards Xizhimen"
+ },
+ "3": {
+  "direction": "东直门",
+  "service": "weekend",
+  "legend": {"gray": "霍营", "purple": "立水桥", "yellow": "回龙观"},
+  "note": "16 images; weekend, towards Dongzhimen"
+ },
+ "4": {
+  "direction": "西直门",
+  "service": "weekend",
+  "legend": {"orange": "西直门"},
+  "note": "15 images; weekend, towards Xizhimen"
+ },
+ "_images": {
+  "13-东直门-1": {"direction": "西直门",
+                   "note": "Dongzhimen is a terminus; -1 is the weekday sheet towards Xizhimen",
+                   "legend": {"purple": "立水桥", "yellow": "回龙观"}},
+  "13-东直门-2": {"direction": "西直门", "service": "weekend",
+                   "note": "Dongzhimen is a terminus; -2 is the weekend sheet towards Xizhimen",
+                   "legend": {"purple": "立水桥", "yellow": "回龙观"}},
+  "13-西直门-2": {"direction": "东直门",
+                   "note": "Xizhimen is a terminus; both -1 and -2 are weekday sheets towards Dongzhimen"},
+  "13-清河站-1": {"direction": "西直门",
+                   "note": "Qinghe Zhan uses the opposite suffix convention to the rest of the line"},
+  "13-清河站-2": {"direction": "东直门"},
+  "13-清河站-3": {"direction": "西直门"},
+  "13-清河站-4": {"direction": "东直门"},
+  "13-霍营-1": {"legend": {"orange": "东直门"}},
+  "13-立水桥-1": {"legend": {"pink": "东直门", "cyan": "东直门"}},
+  "13-柳芳-1": {"legend": {"purple": "立水桥", "yellow": "回龙观"}},
+  "13-望京西-1": {"legend": {"purple": "立水桥", "yellow": "回龙观"}}
+ }
+}

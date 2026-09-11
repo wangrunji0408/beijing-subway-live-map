@@ -1,0 +1,536 @@
+{
+ "1": {
+  "direction": null,
+  "service": "weekday",
+  "legend": {
+   "red": "积水潭"
+  }
+ },
+ "2": {
+  "direction": null,
+  "service": "weekday",
+  "legend": {
+   "cyan": "西直门"
+  }
+ },
+ "3": {
+  "direction": null,
+  "service": "weekend",
+  "legend": {
+   "red": "积水潭"
+  }
+ },
+ "4": {
+  "direction": null,
+  "service": "weekend",
+  "legend": {
+   "cyan": "西直门"
+  }
+ },
+ "_images": {
+  "2-西直门-1": {
+   "direction": "车公庄",
+   "service": "weekday",
+   "legend": {
+    "red": "积水潭"
+   }
+  },
+  "2-西直门-2": {
+   "direction": "积水潭",
+   "service": "weekday",
+   "legend": {
+    "cyan": "西直门"
+   }
+  },
+  "2-西直门-3": {
+   "direction": "车公庄",
+   "service": "weekend",
+   "legend": {
+    "red": "积水潭"
+   }
+  },
+  "2-西直门-4": {
+   "direction": "积水潭",
+   "service": "weekend",
+   "legend": {
+    "cyan": "西直门"
+   }
+  },
+  "2-积水潭-1": {
+   "direction": "西直门",
+   "service": "weekday",
+   "legend": {
+    "red": "积水潭"
+   }
+  },
+  "2-积水潭-2": {
+   "direction": "鼓楼大街",
+   "service": "weekday",
+   "legend": {
+    "cyan": "西直门"
+   }
+  },
+  "2-积水潭-3": {
+   "direction": "西直门",
+   "service": "weekend",
+   "legend": {
+    "red": "积水潭"
+   }
+  },
+  "2-积水潭-4": {
+   "direction": "鼓楼大街",
+   "service": "weekend",
+   "legend": {
+    "cyan": "西直门"
+   }
+  },
+  "2-鼓楼大街-1": {
+   "direction": "积水潭",
+   "service": "weekday",
+   "legend": {
+    "red": "积水潭"
+   }
+  },
+  "2-鼓楼大街-2": {
+   "direction": "安定门",
+   "service": "weekday",
+   "legend": {
+    "cyan": "西直门"
+   }
+  },
+  "2-鼓楼大街-3": {
+   "direction": "积水潭",
+   "service": "weekend",
+   "legend": {
+    "red": "积水潭"
+   }
+  },
+  "2-鼓楼大街-4": {
+   "direction": "安定门",
+   "service": "weekend",
+   "legend": {
+    "cyan": "西直门"
+   }
+  },
+  "2-安定门-1": {
+   "direction": "鼓楼大街",
+   "service": "weekday",
+   "legend": {
+    "red": "积水潭"
+   }
+  },
+  "2-安定门-2": {
+   "direction": "雍和宫",
+   "service": "weekday",
+   "legend": {
+    "cyan": "西直门"
+   }
+  },
+  "2-安定门-3": {
+   "direction": "鼓楼大街",
+   "service": "weekend",
+   "legend": {
+    "red": "积水潭"
+   }
+  },
+  "2-安定门-4": {
+   "direction": "雍和宫",
+   "service": "weekend",
+   "legend": {
+    "cyan": "西直门"
+   }
+  },
+  "2-雍和宫-1": {
+   "direction": "安定门",
+   "service": "weekday",
+   "legend": {
+    "red": "积水潭"
+   }
+  },
+  "2-雍和宫-2": {
+   "direction": "东直门",
+   "service": "weekday",
+   "legend": {
+    "cyan": "西直门"
+   }
+  },
+  "2-雍和宫-3": {
+   "direction": "安定门",
+   "service": "weekend",
+   "legend": {
+    "red": "积水潭"
+   }
+  },
+  "2-雍和宫-4": {
+   "direction": "东直门",
+   "service": "weekend",
+   "legend": {
+    "cyan": "西直门"
+   }
+  },
+  "2-东直门-1": {
+   "direction": "雍和宫",
+   "service": "weekday",
+   "legend": {
+    "red": "积水潭"
+   }
+  },
+  "2-东直门-2": {
+   "direction": "东四十条",
+   "service": "weekday",
+   "legend": {
+    "cyan": "西直门"
+   }
+  },
+  "2-东直门-3": {
+   "direction": "雍和宫",
+   "service": "weekend",
+   "legend": {
+    "red": "积水潭"
+   }
+  },
+  "2-东直门-4": {
+   "direction": "东四十条",
+   "service": "weekend",
+   "legend": {
+    "cyan": "西直门"
+   }
+  },
+  "2-东四十条-1": {
+   "direction": "东直门",
+   "service": "weekday",
+   "legend": {
+    "red": "积水潭"
+   }
+  },
+  "2-东四十条-2": {
+   "direction": "朝阳门",
+   "service": "weekday",
+   "legend": {
+    "cyan": "西直门"
+   }
+  },
+  "2-东四十条-3": {
+   "direction": "东直门",
+   "service": "weekend",
+   "legend": {
+    "red": "积水潭"
+   }
+  },
+  "2-东四十条-4": {
+   "direction": "朝阳门",
+   "service": "weekend",
+   "legend": {
+    "cyan": "西直门"
+   }
+  },
+  "2-朝阳门-1": {
+   "direction": "东四十条",
+   "service": "weekday",
+   "legend": {
+    "red": "积水潭"
+   }
+  },
+  "2-朝阳门-2": {
+   "direction": "建国门",
+   "service": "weekday",
+   "legend": {
+    "cyan": "西直门"
+   }
+  },
+  "2-朝阳门-3": {
+   "direction": "东四十条",
+   "service": "weekend",
+   "legend": {
+    "red": "积水潭"
+   }
+  },
+  "2-朝阳门-4": {
+   "direction": "建国门",
+   "service": "weekend",
+   "legend": {
+    "cyan": "西直门"
+   }
+  },
+  "2-建国门-1": {
+   "direction": "朝阳门",
+   "service": "weekday",
+   "legend": {
+    "red": "积水潭"
+   }
+  },
+  "2-建国门-2": {
+   "direction": "北京站",
+   "service": "weekday",
+   "legend": {
+    "cyan": "西直门"
+   }
+  },
+  "2-建国门-3": {
+   "direction": "朝阳门",
+   "service": "weekend",
+   "legend": {
+    "red": "积水潭"
+   }
+  },
+  "2-建国门-4": {
+   "direction": "北京站",
+   "service": "weekend",
+   "legend": {
+    "cyan": "西直门"
+   }
+  },
+  "2-北京站-1": {
+   "direction": "建国门",
+   "service": "weekday",
+   "legend": {
+    "red": "积水潭"
+   }
+  },
+  "2-北京站-2": {
+   "direction": "崇文门",
+   "service": "weekday",
+   "legend": {
+    "cyan": "西直门"
+   }
+  },
+  "2-北京站-3": {
+   "direction": "建国门",
+   "service": "weekend",
+   "legend": {
+    "red": "积水潭"
+   }
+  },
+  "2-北京站-4": {
+   "direction": "崇文门",
+   "service": "weekend",
+   "legend": {
+    "cyan": "西直门"
+   }
+  },
+  "2-崇文门-1": {
+   "direction": "北京站",
+   "service": "weekday",
+   "legend": {
+    "red": "积水潭"
+   }
+  },
+  "2-崇文门-2": {
+   "direction": "前门",
+   "service": "weekday",
+   "legend": {
+    "cyan": "西直门"
+   }
+  },
+  "2-崇文门-3": {
+   "direction": "北京站",
+   "service": "weekend",
+   "legend": {
+    "red": "积水潭"
+   }
+  },
+  "2-崇文门-4": {
+   "direction": "前门",
+   "service": "weekend",
+   "legend": {
+    "cyan": "西直门"
+   }
+  },
+  "2-前门-1": {
+   "direction": "崇文门",
+   "service": "weekday",
+   "legend": {
+    "red": "积水潭"
+   }
+  },
+  "2-前门-2": {
+   "direction": "和平门",
+   "service": "weekday",
+   "legend": {
+    "cyan": "西直门"
+   }
+  },
+  "2-前门-3": {
+   "direction": "崇文门",
+   "service": "weekend",
+   "legend": {
+    "red": "积水潭"
+   }
+  },
+  "2-前门-4": {
+   "direction": "和平门",
+   "service": "weekend",
+   "legend": {
+    "cyan": "西直门"
+   }
+  },
+  "2-和平门-1": {
+   "direction": "前门",
+   "service": "weekday",
+   "legend": {
+    "red": "积水潭"
+   }
+  },
+  "2-和平门-2": {
+   "direction": "宣武门",
+   "service": "weekday",
+   "legend": {
+    "cyan": "西直门"
+   }
+  },
+  "2-和平门-3": {
+   "direction": "前门",
+   "service": "weekend",
+   "legend": {
+    "red": "积水潭"
+   }
+  },
+  "2-和平门-4": {
+   "direction": "宣武门",
+   "service": "weekend",
+   "legend": {
+    "cyan": "西直门"
+   }
+  },
+  "2-宣武门-1": {
+   "direction": "和平门",
+   "service": "weekday",
+   "legend": {
+    "red": "积水潭"
+   }
+  },
+  "2-宣武门-2": {
+   "direction": "长椿街",
+   "service": "weekday",
+   "legend": {
+    "cyan": "西直门"
+   }
+  },
+  "2-宣武门-3": {
+   "direction": "和平门",
+   "service": "weekend",
+   "legend": {
+    "red": "积水潭"
+   }
+  },
+  "2-宣武门-4": {
+   "direction": "长椿街",
+   "service": "weekend",
+   "legend": {
+    "cyan": "西直门"
+   }
+  },
+  "2-长椿街-1": {
+   "direction": "宣武门",
+   "service": "weekday",
+   "legend": {
+    "red": "积水潭"
+   }
+  },
+  "2-长椿街-2": {
+   "direction": "复兴门",
+   "service": "weekday",
+   "legend": {
+    "cyan": "西直门"
+   }
+  },
+  "2-长椿街-3": {
+   "direction": "宣武门",
+   "service": "weekend",
+   "legend": {
+    "red": "积水潭"
+   }
+  },
+  "2-长椿街-4": {
+   "direction": "复兴门",
+   "service": "weekend",
+   "legend": {
+    "cyan": "西直门"
+   }
+  },
+  "2-复兴门-1": {
+   "direction": "长椿街",
+   "service": "weekday",
+   "legend": {
+    "red": "积水潭"
+   }
+  },
+  "2-复兴门-2": {
+   "direction": "阜成门",
+   "service": "weekday",
+   "legend": {
+    "cyan": "西直门"
+   }
+  },
+  "2-复兴门-3": {
+   "direction": "长椿街",
+   "service": "weekend",
+   "legend": {
+    "red": "积水潭"
+   }
+  },
+  "2-复兴门-4": {
+   "direction": "阜成门",
+   "service": "weekend",
+   "legend": {
+    "cyan": "西直门"
+   }
+  },
+  "2-阜成门-1": {
+   "direction": "复兴门",
+   "service": "weekday",
+   "legend": {
+    "red": "积水潭"
+   }
+  },
+  "2-阜成门-2": {
+   "direction": "车公庄",
+   "service": "weekday",
+   "legend": {
+    "cyan": "西直门"
+   }
+  },
+  "2-阜成门-3": {
+   "direction": "复兴门",
+   "service": "weekend",
+   "legend": {
+    "red": "积水潭"
+   }
+  },
+  "2-阜成门-4": {
+   "direction": "车公庄",
+   "service": "weekend",
+   "legend": {
+    "cyan": "西直门"
+   }
+  },
+  "2-车公庄-1": {
+   "direction": "阜成门",
+   "service": "weekday",
+   "legend": {
+    "red": "积水潭"
+   }
+  },
+  "2-车公庄-2": {
+   "direction": "西直门",
+   "service": "weekday",
+   "legend": {
+    "cyan": "西直门"
+   }
+  },
+  "2-车公庄-3": {
+   "direction": "阜成门",
+   "service": "weekend",
+   "legend": {
+    "red": "积水潭"
+   }
+  },
+  "2-车公庄-4": {
+   "direction": "西直门",
+   "service": "weekend",
+   "legend": {
+    "cyan": "西直门"
+   }
+  }
+ }
+}

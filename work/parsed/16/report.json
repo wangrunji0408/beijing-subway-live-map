@@ -1,0 +1,1860 @@
+[
+ {
+  "source": "timetables/16-万寿寺-1.jpg",
+  "id": "16-万寿寺-1",
+  "n_times": 143,
+  "stats": {
+   "n": 143,
+   "n_hours": 19,
+   "median_gap": 8,
+   "max_gap": 10,
+   "min_gap": 6
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/16-万寿寺-2.jpg",
+  "id": "16-万寿寺-2",
+  "n_times": 143,
+  "stats": {
+   "n": 143,
+   "n_hours": 19,
+   "median_gap": 8,
+   "max_gap": 10,
+   "min_gap": 6
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/16-万寿寺-3.jpg",
+  "id": "16-万寿寺-3",
+  "n_times": 130,
+  "stats": {
+   "n": 130,
+   "n_hours": 19,
+   "median_gap": 8,
+   "max_gap": 10,
+   "min_gap": 8
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/16-万寿寺-4.jpg",
+  "id": "16-万寿寺-4",
+  "n_times": 130,
+  "stats": {
+   "n": 130,
+   "n_hours": 19,
+   "median_gap": 8,
+   "max_gap": 10,
+   "min_gap": 8
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/16-万泉河桥-1.jpg",
+  "id": "16-万泉河桥-1",
+  "n_times": 143,
+  "stats": {
+   "n": 143,
+   "n_hours": 19,
+   "median_gap": 8,
+   "max_gap": 10,
+   "min_gap": 6
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/16-万泉河桥-2.jpg",
+  "id": "16-万泉河桥-2",
+  "n_times": 143,
+  "stats": {
+   "n": 143,
+   "n_hours": 19,
+   "median_gap": 8,
+   "max_gap": 10,
+   "min_gap": 6
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/16-万泉河桥-3.jpg",
+  "id": "16-万泉河桥-3",
+  "n_times": 130,
+  "stats": {
+   "n": 130,
+   "n_hours": 19,
+   "median_gap": 8,
+   "max_gap": 10,
+   "min_gap": 8
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/16-万泉河桥-4.jpg",
+  "id": "16-万泉河桥-4",
+  "n_times": 130,
+  "stats": {
+   "n": 130,
+   "n_hours": 19,
+   "median_gap": 8,
+   "max_gap": 10,
+   "min_gap": 8
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/16-东管头南-1.jpg",
+  "id": "16-东管头南-1",
+  "n_times": 143,
+  "stats": {
+   "n": 143,
+   "n_hours": 18,
+   "median_gap": 8,
+   "max_gap": 10,
+   "min_gap": 6
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/16-东管头南-2.jpg",
+  "id": "16-东管头南-2",
+  "n_times": 143,
+  "stats": {
+   "n": 143,
+   "n_hours": 18,
+   "median_gap": 8,
+   "max_gap": 10,
+   "min_gap": 6
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/16-东管头南-3.jpg",
+  "id": "16-东管头南-3",
+  "n_times": 130,
+  "stats": {
+   "n": 130,
+   "n_hours": 18,
+   "median_gap": 8,
+   "max_gap": 10,
+   "min_gap": 8
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/16-东管头南-4.jpg",
+  "id": "16-东管头南-4",
+  "n_times": 130,
+  "stats": {
+   "n": 130,
+   "n_hours": 18,
+   "median_gap": 8,
+   "max_gap": 10,
+   "min_gap": 8
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 1206,
+    "kind": "bad_minute",
+    "text": "3442"
+   }
+  ]
+ },
+ {
+  "source": "timetables/16-丰台-1.jpg",
+  "id": "16-丰台-1",
+  "n_times": 143,
+  "stats": {
+   "n": 143,
+   "n_hours": 18,
+   "median_gap": 8,
+   "max_gap": 10,
+   "min_gap": 6
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/16-丰台-2.jpg",
+  "id": "16-丰台-2",
+  "n_times": 143,
+  "stats": {
+   "n": 143,
+   "n_hours": 18,
+   "median_gap": 8,
+   "max_gap": 10,
+   "min_gap": 6
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/16-丰台-3.jpg",
+  "id": "16-丰台-3",
+  "n_times": 130,
+  "stats": {
+   "n": 130,
+   "n_hours": 18,
+   "median_gap": 8,
+   "max_gap": 10,
+   "min_gap": 8
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/16-丰台-4.jpg",
+  "id": "16-丰台-4",
+  "n_times": 130,
+  "stats": {
+   "n": 130,
+   "n_hours": 18,
+   "median_gap": 8,
+   "max_gap": 10,
+   "min_gap": 8
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/16-丰台南路-1.jpg",
+  "id": "16-丰台南路-1",
+  "n_times": 143,
+  "stats": {
+   "n": 143,
+   "n_hours": 18,
+   "median_gap": 8,
+   "max_gap": 10,
+   "min_gap": 6
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 169,
+    "kind": "ocr_fail",
+    "text": "6022224404855"
+   },
+   {
+    "row_y": 199,
+    "kind": "ocr_fail",
+    "text": "70713925337434955"
+   },
+   {
+    "row_y": 227,
+    "kind": "ocr_fail",
+    "text": "8010731925337434955"
+   },
+   {
+    "row_y": 255,
+    "kind": "ocr_fail",
+    "text": "0205623303744558"
+   },
+   {
+    "row_y": 312,
+    "kind": "bad_minute",
+    "text": "86"
+   },
+   {
+    "row_y": 370,
+    "kind": "bad_minute",
+    "text": "86"
+   },
+   {
+    "row_y": 453,
+    "kind": "repaired_swap",
+    "text": "60",
+    "fixed": "06"
+   },
+   {
+    "row_y": 509,
+    "kind": "bad_minute",
+    "text": "99"
+   },
+   {
+    "row_y": 537,
+    "kind": "repaired_swap",
+    "text": "90",
+    "fixed": "09"
+   },
+   {
+    "row_y": 537,
+    "kind": "repaired_swap",
+    "text": "91",
+    "fixed": "19"
+   },
+   {
+    "row_y": 564,
+    "kind": "repaired_swap",
+    "text": "71",
+    "fixed": "17"
+   }
+  ]
+ },
+ {
+  "source": "timetables/16-丰台南路-2.jpg",
+  "id": "16-丰台南路-2",
+  "n_times": 143,
+  "stats": {
+   "n": 143,
+   "n_hours": 18,
+   "median_gap": 8,
+   "max_gap": 10,
+   "min_gap": 6
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 169,
+    "kind": "repaired_swap",
+    "text": "70",
+    "fixed": "07"
+   },
+   {
+    "row_y": 198,
+    "kind": "repaired_swap",
+    "text": "80",
+    "fixed": "08"
+   },
+   {
+    "row_y": 198,
+    "kind": "repaired_swap",
+    "text": "82",
+    "fixed": "28"
+   },
+   {
+    "row_y": 227,
+    "kind": "bad_minute",
+    "text": "99"
+   },
+   {
+    "row_y": 227,
+    "kind": "repaired_swap",
+    "text": "82",
+    "fixed": "28"
+   },
+   {
+    "row_y": 256,
+    "kind": "ocr_fail",
+    "text": "1803"
+   },
+   {
+    "row_y": 312,
+    "kind": "ocr_fail",
+    "text": "1203"
+   },
+   {
+    "row_y": 371,
+    "kind": "ocr_fail",
+    "text": "1403"
+   },
+   {
+    "row_y": 538,
+    "kind": "repaired_swap",
+    "text": "84",
+    "fixed": "48"
+   }
+  ]
+ },
+ {
+  "source": "timetables/16-丰台南路-3.jpg",
+  "id": "16-丰台南路-3",
+  "n_times": 130,
+  "stats": {
+   "n": 130,
+   "n_hours": 18,
+   "median_gap": 8,
+   "max_gap": 10,
+   "min_gap": 8
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 169,
+    "kind": "repaired_swap",
+    "text": "60",
+    "fixed": "06"
+   },
+   {
+    "row_y": 199,
+    "kind": "repaired_swap",
+    "text": "83",
+    "fixed": "38"
+   },
+   {
+    "row_y": 255,
+    "kind": "ocr_fail",
+    "text": "9053229374553"
+   },
+   {
+    "row_y": 480,
+    "kind": "repaired_swap",
+    "text": "70",
+    "fixed": "07"
+   },
+   {
+    "row_y": 480,
+    "kind": "repaired_swap",
+    "text": "94",
+    "fixed": "49"
+   },
+   {
+    "row_y": 509,
+    "kind": "ocr_fail",
+    "text": "180972543414957"
+   },
+   {
+    "row_y": 537,
+    "kind": "bad_minute",
+    "text": "99"
+   },
+   {
+    "row_y": 565,
+    "kind": "bad_minute",
+    "text": "97"
+   }
+  ]
+ },
+ {
+  "source": "timetables/16-丰台南路-4.jpg",
+  "id": "16-丰台南路-4",
+  "n_times": 130,
+  "stats": {
+   "n": 130,
+   "n_hours": 18,
+   "median_gap": 8,
+   "max_gap": 10,
+   "min_gap": 8
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 198,
+    "kind": "repaired_swap",
+    "text": "80",
+    "fixed": "08"
+   },
+   {
+    "row_y": 198,
+    "kind": "bad_minute",
+    "text": "86"
+   },
+   {
+    "row_y": 227,
+    "kind": "repaired_swap",
+    "text": "64",
+    "fixed": "46"
+   },
+   {
+    "row_y": 371,
+    "kind": "bad_minute",
+    "text": "86"
+   },
+   {
+    "row_y": 483,
+    "kind": "repaired_swap",
+    "text": "80",
+    "fixed": "08"
+   },
+   {
+    "row_y": 483,
+    "kind": "bad_minute",
+    "text": "86"
+   },
+   {
+    "row_y": 538,
+    "kind": "bad_minute",
+    "text": "86"
+   },
+   {
+    "row_y": 594,
+    "kind": "bad_minute",
+    "text": "86"
+   }
+  ]
+ },
+ {
+  "source": "timetables/16-丽泽商务区-1.jpg",
+  "id": "16-丽泽商务区-1",
+  "n_times": 143,
+  "stats": {
+   "n": 143,
+   "n_hours": 19,
+   "median_gap": 8,
+   "max_gap": 10,
+   "min_gap": 6
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/16-丽泽商务区-2.jpg",
+  "id": "16-丽泽商务区-2",
+  "n_times": 143,
+  "stats": {
+   "n": 143,
+   "n_hours": 18,
+   "median_gap": 8,
+   "max_gap": 10,
+   "min_gap": 6
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/16-丽泽商务区-3.jpg",
+  "id": "16-丽泽商务区-3",
+  "n_times": 130,
+  "stats": {
+   "n": 130,
+   "n_hours": 19,
+   "median_gap": 8,
+   "max_gap": 10,
+   "min_gap": 8
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/16-丽泽商务区-4.jpg",
+  "id": "16-丽泽商务区-4",
+  "n_times": 130,
+  "stats": {
+   "n": 130,
+   "n_hours": 18,
+   "median_gap": 8,
+   "max_gap": 10,
+   "min_gap": 8
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/16-二里沟-1.jpg",
+  "id": "16-二里沟-1",
+  "n_times": 143,
+  "stats": {
+   "n": 143,
+   "n_hours": 19,
+   "median_gap": 8,
+   "max_gap": 10,
+   "min_gap": 6
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/16-二里沟-2.jpg",
+  "id": "16-二里沟-2",
+  "n_times": 143,
+  "stats": {
+   "n": 143,
+   "n_hours": 18,
+   "median_gap": 8,
+   "max_gap": 10,
+   "min_gap": 6
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/16-二里沟-3.jpg",
+  "id": "16-二里沟-3",
+  "n_times": 130,
+  "stats": {
+   "n": 130,
+   "n_hours": 19,
+   "median_gap": 8,
+   "max_gap": 10,
+   "min_gap": 8
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/16-二里沟-4.jpg",
+  "id": "16-二里沟-4",
+  "n_times": 130,
+  "stats": {
+   "n": 130,
+   "n_hours": 18,
+   "median_gap": 8,
+   "max_gap": 10,
+   "min_gap": 8
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/16-农大南路-1.jpg",
+  "id": "16-农大南路-1",
+  "n_times": 143,
+  "stats": {
+   "n": 143,
+   "n_hours": 19,
+   "median_gap": 8,
+   "max_gap": 10,
+   "min_gap": 6
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/16-农大南路-2.jpg",
+  "id": "16-农大南路-2",
+  "n_times": 143,
+  "stats": {
+   "n": 143,
+   "n_hours": 18,
+   "median_gap": 8,
+   "max_gap": 10,
+   "min_gap": 6
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/16-农大南路-3.jpg",
+  "id": "16-农大南路-3",
+  "n_times": 130,
+  "stats": {
+   "n": 130,
+   "n_hours": 19,
+   "median_gap": 8,
+   "max_gap": 10,
+   "min_gap": 8
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/16-农大南路-4.jpg",
+  "id": "16-农大南路-4",
+  "n_times": 130,
+  "stats": {
+   "n": 130,
+   "n_hours": 18,
+   "median_gap": 8,
+   "max_gap": 10,
+   "min_gap": 8
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/16-北安河-1.jpg",
+  "id": "16-北安河-1",
+  "n_times": 143,
+  "stats": {
+   "n": 143,
+   "n_hours": 18,
+   "median_gap": 8,
+   "max_gap": 10,
+   "min_gap": 6
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/16-北安河-2.jpg",
+  "id": "16-北安河-2",
+  "n_times": 130,
+  "stats": {
+   "n": 130,
+   "n_hours": 18,
+   "median_gap": 8,
+   "max_gap": 10,
+   "min_gap": 8
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/16-国家图书馆-1.jpg",
+  "id": "16-国家图书馆-1",
+  "n_times": 143,
+  "stats": {
+   "n": 143,
+   "n_hours": 19,
+   "median_gap": 8,
+   "max_gap": 10,
+   "min_gap": 6
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/16-国家图书馆-2.jpg",
+  "id": "16-国家图书馆-2",
+  "n_times": 143,
+  "stats": {
+   "n": 143,
+   "n_hours": 19,
+   "median_gap": 8,
+   "max_gap": 10,
+   "min_gap": 6
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/16-国家图书馆-3.jpg",
+  "id": "16-国家图书馆-3",
+  "n_times": 130,
+  "stats": {
+   "n": 130,
+   "n_hours": 19,
+   "median_gap": 8,
+   "max_gap": 10,
+   "min_gap": 8
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 779,
+    "kind": "bad_minute",
+    "text": "0109"
+   }
+  ]
+ },
+ {
+  "source": "timetables/16-国家图书馆-4.jpg",
+  "id": "16-国家图书馆-4",
+  "n_times": 131,
+  "stats": {
+   "n": 131,
+   "n_hours": 19,
+   "median_gap": 8,
+   "max_gap": 10,
+   "min_gap": 3
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/16-宛平城-1.jpg",
+  "id": "16-宛平城-1",
+  "n_times": 143,
+  "stats": {
+   "n": 143,
+   "n_hours": 18,
+   "median_gap": 8,
+   "max_gap": 10,
+   "min_gap": 6
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/16-宛平城-2.jpg",
+  "id": "16-宛平城-2",
+  "n_times": 130,
+  "stats": {
+   "n": 130,
+   "n_hours": 18,
+   "median_gap": 8,
+   "max_gap": 10,
+   "min_gap": 8
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/16-富丰桥-1.jpg",
+  "id": "16-富丰桥-1",
+  "n_times": 143,
+  "stats": {
+   "n": 143,
+   "n_hours": 18,
+   "median_gap": 8,
+   "max_gap": 10,
+   "min_gap": 6
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/16-富丰桥-2.jpg",
+  "id": "16-富丰桥-2",
+  "n_times": 143,
+  "stats": {
+   "n": 143,
+   "n_hours": 18,
+   "median_gap": 8,
+   "max_gap": 10,
+   "min_gap": 6
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/16-富丰桥-3.jpg",
+  "id": "16-富丰桥-3",
+  "n_times": 130,
+  "stats": {
+   "n": 130,
+   "n_hours": 18,
+   "median_gap": 8,
+   "max_gap": 10,
+   "min_gap": 8
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/16-富丰桥-4.jpg",
+  "id": "16-富丰桥-4",
+  "n_times": 130,
+  "stats": {
+   "n": 130,
+   "n_hours": 18,
+   "median_gap": 8,
+   "max_gap": 10,
+   "min_gap": 8
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/16-屯佃-1.jpg",
+  "id": "16-屯佃-1",
+  "n_times": 143,
+  "stats": {
+   "n": 143,
+   "n_hours": 18,
+   "median_gap": 8,
+   "max_gap": 10,
+   "min_gap": 6
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/16-屯佃-2.jpg",
+  "id": "16-屯佃-2",
+  "n_times": 143,
+  "stats": {
+   "n": 143,
+   "n_hours": 18,
+   "median_gap": 8,
+   "max_gap": 10,
+   "min_gap": 6
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/16-屯佃-3.jpg",
+  "id": "16-屯佃-3",
+  "n_times": 130,
+  "stats": {
+   "n": 130,
+   "n_hours": 18,
+   "median_gap": 8,
+   "max_gap": 10,
+   "min_gap": 8
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/16-屯佃-4.jpg",
+  "id": "16-屯佃-4",
+  "n_times": 130,
+  "stats": {
+   "n": 130,
+   "n_hours": 18,
+   "median_gap": 8,
+   "max_gap": 10,
+   "min_gap": 8
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 710,
+    "kind": "bad_minute",
+    "text": "3442"
+   }
+  ]
+ },
+ {
+  "source": "timetables/16-木樨地-1.jpg",
+  "id": "16-木樨地-1",
+  "n_times": 143,
+  "stats": {
+   "n": 143,
+   "n_hours": 19,
+   "median_gap": 8,
+   "max_gap": 10,
+   "min_gap": 6
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/16-木樨地-2.jpg",
+  "id": "16-木樨地-2",
+  "n_times": 143,
+  "stats": {
+   "n": 143,
+   "n_hours": 18,
+   "median_gap": 8,
+   "max_gap": 10,
+   "min_gap": 6
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/16-木樨地-3.jpg",
+  "id": "16-木樨地-3",
+  "n_times": 130,
+  "stats": {
+   "n": 130,
+   "n_hours": 19,
+   "median_gap": 8,
+   "max_gap": 10,
+   "min_gap": 8
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/16-木樨地-4.jpg",
+  "id": "16-木樨地-4",
+  "n_times": 130,
+  "stats": {
+   "n": 130,
+   "n_hours": 18,
+   "median_gap": 8,
+   "max_gap": 10,
+   "min_gap": 8
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/16-榆树庄-1.jpg",
+  "id": "16-榆树庄-1",
+  "n_times": 143,
+  "stats": {
+   "n": 143,
+   "n_hours": 18,
+   "median_gap": 8,
+   "max_gap": 10,
+   "min_gap": 6
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/16-榆树庄-2.jpg",
+  "id": "16-榆树庄-2",
+  "n_times": 143,
+  "stats": {
+   "n": 143,
+   "n_hours": 18,
+   "median_gap": 8,
+   "max_gap": 10,
+   "min_gap": 6
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/16-榆树庄-3.jpg",
+  "id": "16-榆树庄-3",
+  "n_times": 130,
+  "stats": {
+   "n": 130,
+   "n_hours": 18,
+   "median_gap": 8,
+   "max_gap": 10,
+   "min_gap": 8
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/16-榆树庄-4.jpg",
+  "id": "16-榆树庄-4",
+  "n_times": 130,
+  "stats": {
+   "n": 130,
+   "n_hours": 18,
+   "median_gap": 8,
+   "max_gap": 10,
+   "min_gap": 8
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/16-永丰-1.jpg",
+  "id": "16-永丰-1",
+  "n_times": 143,
+  "stats": {
+   "n": 143,
+   "n_hours": 18,
+   "median_gap": 8,
+   "max_gap": 10,
+   "min_gap": 6
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/16-永丰-2.jpg",
+  "id": "16-永丰-2",
+  "n_times": 143,
+  "stats": {
+   "n": 143,
+   "n_hours": 18,
+   "median_gap": 8,
+   "max_gap": 10,
+   "min_gap": 6
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/16-永丰-3.jpg",
+  "id": "16-永丰-3",
+  "n_times": 130,
+  "stats": {
+   "n": 130,
+   "n_hours": 18,
+   "median_gap": 8,
+   "max_gap": 10,
+   "min_gap": 8
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/16-永丰-4.jpg",
+  "id": "16-永丰-4",
+  "n_times": 130,
+  "stats": {
+   "n": 130,
+   "n_hours": 18,
+   "median_gap": 8,
+   "max_gap": 10,
+   "min_gap": 8
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/16-永丰南-1.jpg",
+  "id": "16-永丰南-1",
+  "n_times": 143,
+  "stats": {
+   "n": 143,
+   "n_hours": 18,
+   "median_gap": 8,
+   "max_gap": 10,
+   "min_gap": 6
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/16-永丰南-2.jpg",
+  "id": "16-永丰南-2",
+  "n_times": 143,
+  "stats": {
+   "n": 143,
+   "n_hours": 18,
+   "median_gap": 8,
+   "max_gap": 10,
+   "min_gap": 6
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/16-永丰南-3.jpg",
+  "id": "16-永丰南-3",
+  "n_times": 130,
+  "stats": {
+   "n": 130,
+   "n_hours": 18,
+   "median_gap": 8,
+   "max_gap": 10,
+   "min_gap": 8
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/16-永丰南-4.jpg",
+  "id": "16-永丰南-4",
+  "n_times": 130,
+  "stats": {
+   "n": 130,
+   "n_hours": 18,
+   "median_gap": 8,
+   "max_gap": 10,
+   "min_gap": 8
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/16-洪泰庄-1.jpg",
+  "id": "16-洪泰庄-1",
+  "n_times": 143,
+  "stats": {
+   "n": 143,
+   "n_hours": 18,
+   "median_gap": 8,
+   "max_gap": 10,
+   "min_gap": 6
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/16-洪泰庄-2.jpg",
+  "id": "16-洪泰庄-2",
+  "n_times": 143,
+  "stats": {
+   "n": 143,
+   "n_hours": 18,
+   "median_gap": 8,
+   "max_gap": 10,
+   "min_gap": 6
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/16-洪泰庄-3.jpg",
+  "id": "16-洪泰庄-3",
+  "n_times": 130,
+  "stats": {
+   "n": 130,
+   "n_hours": 18,
+   "median_gap": 8,
+   "max_gap": 10,
+   "min_gap": 8
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/16-洪泰庄-4.jpg",
+  "id": "16-洪泰庄-4",
+  "n_times": 130,
+  "stats": {
+   "n": 130,
+   "n_hours": 18,
+   "median_gap": 8,
+   "max_gap": 10,
+   "min_gap": 8
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/16-温阳路-1.jpg",
+  "id": "16-温阳路-1",
+  "n_times": 143,
+  "stats": {
+   "n": 143,
+   "n_hours": 19,
+   "median_gap": 8,
+   "max_gap": 381,
+   "min_gap": 6
+  },
+  "issues": [
+   {
+    "kind": "hour_gap",
+    "msg": "hours 0->6 not consecutive"
+   }
+  ],
+  "flags": []
+ },
+ {
+  "source": "timetables/16-温阳路-2.jpg",
+  "id": "16-温阳路-2",
+  "n_times": 143,
+  "stats": {
+   "n": 143,
+   "n_hours": 18,
+   "median_gap": 8,
+   "max_gap": 10,
+   "min_gap": 6
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/16-温阳路-3.jpg",
+  "id": "16-温阳路-3",
+  "n_times": 130,
+  "stats": {
+   "n": 130,
+   "n_hours": 19,
+   "median_gap": 8,
+   "max_gap": 381,
+   "min_gap": 8
+  },
+  "issues": [
+   {
+    "kind": "hour_gap",
+    "msg": "hours 0->6 not consecutive"
+   }
+  ],
+  "flags": []
+ },
+ {
+  "source": "timetables/16-温阳路-4.jpg",
+  "id": "16-温阳路-4",
+  "n_times": 130,
+  "stats": {
+   "n": 130,
+   "n_hours": 18,
+   "median_gap": 8,
+   "max_gap": 10,
+   "min_gap": 8
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/16-玉渊潭东门-1.jpg",
+  "id": "16-玉渊潭东门-1",
+  "n_times": 143,
+  "stats": {
+   "n": 143,
+   "n_hours": 19,
+   "median_gap": 8,
+   "max_gap": 10,
+   "min_gap": 6
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/16-玉渊潭东门-2.jpg",
+  "id": "16-玉渊潭东门-2",
+  "n_times": 143,
+  "stats": {
+   "n": 143,
+   "n_hours": 18,
+   "median_gap": 8,
+   "max_gap": 10,
+   "min_gap": 6
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/16-玉渊潭东门-3.jpg",
+  "id": "16-玉渊潭东门-3",
+  "n_times": 130,
+  "stats": {
+   "n": 130,
+   "n_hours": 19,
+   "median_gap": 8,
+   "max_gap": 10,
+   "min_gap": 8
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/16-玉渊潭东门-4.jpg",
+  "id": "16-玉渊潭东门-4",
+  "n_times": 130,
+  "stats": {
+   "n": 130,
+   "n_hours": 18,
+   "median_gap": 8,
+   "max_gap": 10,
+   "min_gap": 8
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/16-甘家口-1.jpg",
+  "id": "16-甘家口-1",
+  "n_times": 143,
+  "stats": {
+   "n": 143,
+   "n_hours": 19,
+   "median_gap": 8,
+   "max_gap": 10,
+   "min_gap": 6
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/16-甘家口-2.jpg",
+  "id": "16-甘家口-2",
+  "n_times": 143,
+  "stats": {
+   "n": 143,
+   "n_hours": 18,
+   "median_gap": 8,
+   "max_gap": 10,
+   "min_gap": 6
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/16-甘家口-3.jpg",
+  "id": "16-甘家口-3",
+  "n_times": 130,
+  "stats": {
+   "n": 130,
+   "n_hours": 19,
+   "median_gap": 8,
+   "max_gap": 10,
+   "min_gap": 8
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/16-甘家口-4.jpg",
+  "id": "16-甘家口-4",
+  "n_times": 130,
+  "stats": {
+   "n": 130,
+   "n_hours": 18,
+   "median_gap": 8,
+   "max_gap": 10,
+   "min_gap": 8
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 620,
+    "kind": "bad_minute",
+    "text": "3442"
+   }
+  ]
+ },
+ {
+  "source": "timetables/16-看丹-1.jpg",
+  "id": "16-看丹-1",
+  "n_times": 143,
+  "stats": {
+   "n": 143,
+   "n_hours": 18,
+   "median_gap": 8,
+   "max_gap": 10,
+   "min_gap": 6
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/16-看丹-2.jpg",
+  "id": "16-看丹-2",
+  "n_times": 143,
+  "stats": {
+   "n": 143,
+   "n_hours": 18,
+   "median_gap": 8,
+   "max_gap": 10,
+   "min_gap": 6
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/16-看丹-3.jpg",
+  "id": "16-看丹-3",
+  "n_times": 130,
+  "stats": {
+   "n": 130,
+   "n_hours": 18,
+   "median_gap": 8,
+   "max_gap": 10,
+   "min_gap": 8
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/16-看丹-4.jpg",
+  "id": "16-看丹-4",
+  "n_times": 130,
+  "stats": {
+   "n": 130,
+   "n_hours": 18,
+   "median_gap": 8,
+   "max_gap": 10,
+   "min_gap": 8
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/16-稻香湖路-1.jpg",
+  "id": "16-稻香湖路-1",
+  "n_times": 143,
+  "stats": {
+   "n": 143,
+   "n_hours": 18,
+   "median_gap": 8,
+   "max_gap": 10,
+   "min_gap": 6
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/16-稻香湖路-2.jpg",
+  "id": "16-稻香湖路-2",
+  "n_times": 143,
+  "stats": {
+   "n": 143,
+   "n_hours": 18,
+   "median_gap": 8,
+   "max_gap": 10,
+   "min_gap": 5
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/16-稻香湖路-3.jpg",
+  "id": "16-稻香湖路-3",
+  "n_times": 130,
+  "stats": {
+   "n": 130,
+   "n_hours": 18,
+   "median_gap": 8,
+   "max_gap": 10,
+   "min_gap": 8
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/16-稻香湖路-4.jpg",
+  "id": "16-稻香湖路-4",
+  "n_times": 130,
+  "stats": {
+   "n": 130,
+   "n_hours": 18,
+   "median_gap": 8,
+   "max_gap": 10,
+   "min_gap": 8
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/16-红莲南路-1.jpg",
+  "id": "16-红莲南路-1",
+  "n_times": 143,
+  "stats": {
+   "n": 143,
+   "n_hours": 19,
+   "median_gap": 8,
+   "max_gap": 10,
+   "min_gap": 6
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/16-红莲南路-2.jpg",
+  "id": "16-红莲南路-2",
+  "n_times": 143,
+  "stats": {
+   "n": 143,
+   "n_hours": 18,
+   "median_gap": 8,
+   "max_gap": 10,
+   "min_gap": 6
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/16-红莲南路-3.jpg",
+  "id": "16-红莲南路-3",
+  "n_times": 130,
+  "stats": {
+   "n": 130,
+   "n_hours": 19,
+   "median_gap": 8,
+   "max_gap": 10,
+   "min_gap": 8
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/16-红莲南路-4.jpg",
+  "id": "16-红莲南路-4",
+  "n_times": 130,
+  "stats": {
+   "n": 130,
+   "n_hours": 18,
+   "median_gap": 8,
+   "max_gap": 10,
+   "min_gap": 8
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/16-苏州桥-1.jpg",
+  "id": "16-苏州桥-1",
+  "n_times": 143,
+  "stats": {
+   "n": 143,
+   "n_hours": 19,
+   "median_gap": 8,
+   "max_gap": 10,
+   "min_gap": 6
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/16-苏州桥-2.jpg",
+  "id": "16-苏州桥-2",
+  "n_times": 143,
+  "stats": {
+   "n": 143,
+   "n_hours": 19,
+   "median_gap": 8,
+   "max_gap": 10,
+   "min_gap": 6
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/16-苏州桥-3.jpg",
+  "id": "16-苏州桥-3",
+  "n_times": 130,
+  "stats": {
+   "n": 130,
+   "n_hours": 19,
+   "median_gap": 8,
+   "max_gap": 10,
+   "min_gap": 8
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/16-苏州桥-4.jpg",
+  "id": "16-苏州桥-4",
+  "n_times": 130,
+  "stats": {
+   "n": 130,
+   "n_hours": 19,
+   "median_gap": 8,
+   "max_gap": 10,
+   "min_gap": 8
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/16-苏州街-1.jpg",
+  "id": "16-苏州街-1",
+  "n_times": 143,
+  "stats": {
+   "n": 143,
+   "n_hours": 19,
+   "median_gap": 8,
+   "max_gap": 10,
+   "min_gap": 6
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/16-苏州街-2.jpg",
+  "id": "16-苏州街-2",
+  "n_times": 143,
+  "stats": {
+   "n": 143,
+   "n_hours": 19,
+   "median_gap": 8,
+   "max_gap": 10,
+   "min_gap": 6
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/16-苏州街-3.jpg",
+  "id": "16-苏州街-3",
+  "n_times": 130,
+  "stats": {
+   "n": 130,
+   "n_hours": 19,
+   "median_gap": 8,
+   "max_gap": 10,
+   "min_gap": 8
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/16-苏州街-4.jpg",
+  "id": "16-苏州街-4",
+  "n_times": 130,
+  "stats": {
+   "n": 130,
+   "n_hours": 19,
+   "median_gap": 8,
+   "max_gap": 10,
+   "min_gap": 8
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/16-西北旺-1.jpg",
+  "id": "16-西北旺-1",
+  "n_times": 143,
+  "stats": {
+   "n": 143,
+   "n_hours": 18,
+   "median_gap": 8,
+   "max_gap": 10,
+   "min_gap": 6
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/16-西北旺-2.jpg",
+  "id": "16-西北旺-2",
+  "n_times": 143,
+  "stats": {
+   "n": 143,
+   "n_hours": 18,
+   "median_gap": 8,
+   "max_gap": 10,
+   "min_gap": 6
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/16-西北旺-3.jpg",
+  "id": "16-西北旺-3",
+  "n_times": 130,
+  "stats": {
+   "n": 130,
+   "n_hours": 18,
+   "median_gap": 8,
+   "max_gap": 10,
+   "min_gap": 8
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/16-西北旺-4.jpg",
+  "id": "16-西北旺-4",
+  "n_times": 130,
+  "stats": {
+   "n": 130,
+   "n_hours": 18,
+   "median_gap": 8,
+   "max_gap": 10,
+   "min_gap": 8
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/16-西苑-1.jpg",
+  "id": "16-西苑-1",
+  "n_times": 143,
+  "stats": {
+   "n": 143,
+   "n_hours": 19,
+   "median_gap": 8,
+   "max_gap": 10,
+   "min_gap": 6
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/16-西苑-2.jpg",
+  "id": "16-西苑-2",
+  "n_times": 143,
+  "stats": {
+   "n": 143,
+   "n_hours": 19,
+   "median_gap": 8,
+   "max_gap": 10,
+   "min_gap": 6
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/16-西苑-3.jpg",
+  "id": "16-西苑-3",
+  "n_times": 130,
+  "stats": {
+   "n": 130,
+   "n_hours": 19,
+   "median_gap": 8,
+   "max_gap": 10,
+   "min_gap": 8
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/16-西苑-4.jpg",
+  "id": "16-西苑-4",
+  "n_times": 130,
+  "stats": {
+   "n": 130,
+   "n_hours": 19,
+   "median_gap": 8,
+   "max_gap": 10,
+   "min_gap": 8
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/16-达官营-1.jpg",
+  "id": "16-达官营-1",
+  "n_times": 143,
+  "stats": {
+   "n": 143,
+   "n_hours": 19,
+   "median_gap": 8,
+   "max_gap": 10,
+   "min_gap": 6
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/16-达官营-2.jpg",
+  "id": "16-达官营-2",
+  "n_times": 143,
+  "stats": {
+   "n": 143,
+   "n_hours": 18,
+   "median_gap": 8,
+   "max_gap": 10,
+   "min_gap": 6
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/16-达官营-3.jpg",
+  "id": "16-达官营-3",
+  "n_times": 130,
+  "stats": {
+   "n": 130,
+   "n_hours": 19,
+   "median_gap": 8,
+   "max_gap": 10,
+   "min_gap": 8
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/16-达官营-4.jpg",
+  "id": "16-达官营-4",
+  "n_times": 130,
+  "stats": {
+   "n": 130,
+   "n_hours": 18,
+   "median_gap": 8,
+   "max_gap": 10,
+   "min_gap": 8
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/16-马连洼-1.jpg",
+  "id": "16-马连洼-1",
+  "n_times": 143,
+  "stats": {
+   "n": 143,
+   "n_hours": 18,
+   "median_gap": 8,
+   "max_gap": 10,
+   "min_gap": 6
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/16-马连洼-2.jpg",
+  "id": "16-马连洼-2",
+  "n_times": 143,
+  "stats": {
+   "n": 143,
+   "n_hours": 18,
+   "median_gap": 8,
+   "max_gap": 10,
+   "min_gap": 6
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/16-马连洼-3.jpg",
+  "id": "16-马连洼-3",
+  "n_times": 130,
+  "stats": {
+   "n": 130,
+   "n_hours": 18,
+   "median_gap": 8,
+   "max_gap": 10,
+   "min_gap": 8
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/16-马连洼-4.jpg",
+  "id": "16-马连洼-4",
+  "n_times": 130,
+  "stats": {
+   "n": 130,
+   "n_hours": 18,
+   "median_gap": 8,
+   "max_gap": 10,
+   "min_gap": 8
+  },
+  "issues": [],
+  "flags": []
+ }
+]

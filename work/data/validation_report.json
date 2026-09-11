@@ -1,0 +1,452 @@
+{
+ "sources": {
+  "osm": {
+   "file": "beijing_subway_lines_wgs84.geojson",
+   "coord": "WGS84",
+   "license": "ODbL 1.0",
+   "geometry": true
+  },
+  "amap": {
+   "file": "beijing_subway_stations_amap_gcj02.geojson",
+   "coord": "GCJ-02",
+   "license": "no explicit repo license; Amap draw API practice data",
+   "geometry": false
+  },
+  "mick235711": {
+   "repo": "https://github.com/Mick235711/Beijing-Subway-Tools",
+   "coord": "none",
+   "license": "MIT",
+   "geometry": false,
+   "role": "station-name cross-check only"
+  }
+ },
+ "lines": {
+  "1": {
+   "name": "1号线",
+   "osm_stations": 35,
+   "amap_stations": 35,
+   "osm_only_vs_amap": [],
+   "amap_only_vs_osm": [],
+   "mick_stations": 35,
+   "osm_only_vs_mick": [],
+   "mick_only_vs_osm": [],
+   "geometry_km": 51.18,
+   "geometry_type": "LineString",
+   "coords": 749
+  },
+  "2": {
+   "name": "2号线",
+   "osm_stations": 18,
+   "amap_stations": 18,
+   "osm_only_vs_amap": [],
+   "amap_only_vs_osm": [],
+   "mick_stations": 18,
+   "osm_only_vs_mick": [],
+   "mick_only_vs_osm": [],
+   "geometry_km": 23.14,
+   "geometry_type": "LineString",
+   "coords": 192
+  },
+  "3": {
+   "name": "3号线",
+   "osm_stations": 10,
+   "amap_stations": 10,
+   "osm_only_vs_amap": [],
+   "amap_only_vs_osm": [],
+   "mick_stations": 10,
+   "osm_only_vs_mick": [],
+   "mick_only_vs_osm": [],
+   "geometry_km": 14.64,
+   "geometry_type": "LineString",
+   "coords": 64
+  },
+  "4": {
+   "name": "4号线",
+   "osm_stations": 35,
+   "amap_stations": 35,
+   "osm_only_vs_amap": [],
+   "amap_only_vs_osm": [],
+   "mick_stations": 35,
+   "osm_only_vs_mick": [],
+   "mick_only_vs_osm": [],
+   "geometry_km": 49.51,
+   "geometry_type": "LineString",
+   "coords": 300
+  },
+  "5": {
+   "name": "5号线",
+   "osm_stations": 23,
+   "amap_stations": 23,
+   "osm_only_vs_amap": [],
+   "amap_only_vs_osm": [],
+   "mick_stations": 23,
+   "osm_only_vs_mick": [],
+   "mick_only_vs_osm": [],
+   "geometry_km": 27.14,
+   "geometry_type": "LineString",
+   "coords": 253
+  },
+  "6": {
+   "name": "6号线",
+   "osm_stations": 36,
+   "amap_stations": 36,
+   "osm_only_vs_amap": [],
+   "amap_only_vs_osm": [],
+   "mick_stations": 36,
+   "osm_only_vs_mick": [],
+   "mick_only_vs_osm": [],
+   "geometry_km": 55.06,
+   "geometry_type": "LineString",
+   "coords": 342
+  },
+  "7": {
+   "name": "7号线",
+   "osm_stations": 30,
+   "amap_stations": 30,
+   "osm_only_vs_amap": [],
+   "amap_only_vs_osm": [],
+   "mick_stations": 30,
+   "osm_only_vs_mick": [],
+   "mick_only_vs_osm": [],
+   "geometry_km": 39.34,
+   "geometry_type": "LineString",
+   "coords": 229
+  },
+  "8": {
+   "name": "8号线",
+   "osm_stations": 35,
+   "amap_stations": 35,
+   "osm_only_vs_amap": [],
+   "amap_only_vs_osm": [],
+   "mick_stations": 35,
+   "osm_only_vs_mick": [],
+   "mick_only_vs_osm": [],
+   "geometry_km": 48.64,
+   "geometry_type": "LineString",
+   "coords": 349
+  },
+  "9": {
+   "name": "9号线",
+   "osm_stations": 13,
+   "amap_stations": 13,
+   "osm_only_vs_amap": [],
+   "amap_only_vs_osm": [],
+   "mick_stations": 13,
+   "osm_only_vs_mick": [],
+   "mick_only_vs_osm": [],
+   "geometry_km": 15.78,
+   "geometry_type": "LineString",
+   "coords": 134
+  },
+  "10": {
+   "name": "10号线",
+   "osm_stations": 45,
+   "amap_stations": 45,
+   "osm_only_vs_amap": [],
+   "amap_only_vs_osm": [],
+   "mick_stations": 45,
+   "osm_only_vs_mick": [],
+   "mick_only_vs_osm": [],
+   "geometry_km": 56.99,
+   "geometry_type": "LineString",
+   "coords": 316
+  },
+  "11": {
+   "name": "11号线",
+   "osm_stations": 4,
+   "amap_stations": 4,
+   "osm_only_vs_amap": [],
+   "amap_only_vs_osm": [],
+   "mick_stations": 4,
+   "osm_only_vs_mick": [],
+   "mick_only_vs_osm": [],
+   "geometry_km": 2.94,
+   "geometry_type": "LineString",
+   "coords": 39
+  },
+  "12": {
+   "name": "12号线",
+   "osm_stations": 20,
+   "amap_stations": 20,
+   "osm_only_vs_amap": [],
+   "amap_only_vs_osm": [],
+   "mick_stations": 20,
+   "osm_only_vs_mick": [],
+   "mick_only_vs_osm": [],
+   "geometry_km": 27.41,
+   "geometry_type": "LineString",
+   "coords": 176
+  },
+  "13": {
+   "name": "13号线",
+   "osm_stations": 17,
+   "amap_stations": 17,
+   "osm_only_vs_amap": [],
+   "amap_only_vs_osm": [],
+   "mick_stations": 17,
+   "osm_only_vs_mick": [],
+   "mick_only_vs_osm": [],
+   "geometry_km": 40.36,
+   "geometry_type": "LineString",
+   "coords": 425
+  },
+  "14": {
+   "name": "14号线",
+   "osm_stations": 34,
+   "amap_stations": 33,
+   "osm_only_vs_amap": [
+    "红庙"
+   ],
+   "amap_only_vs_osm": [],
+   "mick_stations": 33,
+   "osm_only_vs_mick": [
+    "红庙"
+   ],
+   "mick_only_vs_osm": [],
+   "geometry_km": 46.57,
+   "geometry_type": "LineString",
+   "coords": 290
+  },
+  "15": {
+   "name": "15号线",
+   "osm_stations": 20,
+   "amap_stations": 20,
+   "osm_only_vs_amap": [],
+   "amap_only_vs_osm": [],
+   "mick_stations": 20,
+   "osm_only_vs_mick": [],
+   "mick_only_vs_osm": [],
+   "geometry_km": 40.55,
+   "geometry_type": "LineString",
+   "coords": 279
+  },
+  "16": {
+   "name": "16号线",
+   "osm_stations": 30,
+   "amap_stations": 30,
+   "osm_only_vs_amap": [],
+   "amap_only_vs_osm": [],
+   "mick_stations": 30,
+   "osm_only_vs_mick": [],
+   "mick_only_vs_osm": [],
+   "geometry_km": 48.72,
+   "geometry_type": "LineString",
+   "coords": 372
+  },
+  "17": {
+   "name": "17号线",
+   "osm_stations": 20,
+   "amap_stations": 20,
+   "osm_only_vs_amap": [],
+   "amap_only_vs_osm": [],
+   "mick_stations": 20,
+   "osm_only_vs_mick": [],
+   "mick_only_vs_osm": [],
+   "geometry_km": 48.84,
+   "geometry_type": "LineString",
+   "coords": 249
+  },
+  "18": {
+   "name": "18号线",
+   "osm_stations": 11,
+   "amap_stations": 11,
+   "osm_only_vs_amap": [],
+   "amap_only_vs_osm": [],
+   "mick_stations": 11,
+   "osm_only_vs_mick": [],
+   "mick_only_vs_osm": [],
+   "geometry_km": 19.66,
+   "geometry_type": "LineString",
+   "coords": 133
+  },
+  "19": {
+   "name": "19号线",
+   "osm_stations": 10,
+   "amap_stations": 10,
+   "osm_only_vs_amap": [],
+   "amap_only_vs_osm": [],
+   "mick_stations": 10,
+   "osm_only_vs_mick": [],
+   "mick_only_vs_osm": [],
+   "geometry_km": 20.68,
+   "geometry_type": "LineString",
+   "coords": 136
+  },
+  "S1": {
+   "name": "S1线",
+   "osm_stations": 8,
+   "amap_stations": 8,
+   "osm_only_vs_amap": [],
+   "amap_only_vs_osm": [],
+   "mick_stations": 8,
+   "osm_only_vs_mick": [],
+   "mick_only_vs_osm": [],
+   "geometry_km": 9.69,
+   "geometry_type": "LineString",
+   "coords": 118
+  },
+  "Yizhuang": {
+   "name": "亦庄线",
+   "osm_stations": 14,
+   "amap_stations": 14,
+   "osm_only_vs_amap": [],
+   "amap_only_vs_osm": [],
+   "mick_stations": 14,
+   "osm_only_vs_mick": [],
+   "mick_only_vs_osm": [],
+   "geometry_km": 22.71,
+   "geometry_type": "LineString",
+   "coords": 231
+  },
+  "Batong": {
+   "name": "八通线",
+   "osm_stations": 15,
+   "amap_stations": null,
+   "amap_note": "not present as a separate line in the Amap snapshot (merged into line 1/4)",
+   "mick_stations": null,
+   "geometry_km": 22.1,
+   "geometry_type": "LineString",
+   "coords": 561
+  },
+  "DaxingAirport": {
+   "name": "大兴机场线",
+   "osm_stations": 3,
+   "amap_stations": 3,
+   "osm_only_vs_amap": [],
+   "amap_only_vs_osm": [],
+   "mick_stations": 3,
+   "osm_only_vs_mick": [],
+   "mick_only_vs_osm": [],
+   "geometry_km": 38.62,
+   "geometry_type": "LineString",
+   "coords": 153
+  },
+  "Fangshan": {
+   "name": "房山线",
+   "osm_stations": 16,
+   "amap_stations": 16,
+   "osm_only_vs_amap": [],
+   "amap_only_vs_osm": [],
+   "mick_stations": 16,
+   "osm_only_vs_mick": [],
+   "mick_only_vs_osm": [],
+   "geometry_km": 32.5,
+   "geometry_type": "LineString",
+   "coords": 323
+  },
+  "Changping": {
+   "name": "昌平线",
+   "osm_stations": 20,
+   "amap_stations": 20,
+   "osm_only_vs_amap": [],
+   "amap_only_vs_osm": [],
+   "mick_stations": 20,
+   "osm_only_vs_mick": [],
+   "mick_only_vs_osm": [],
+   "geometry_km": 44.56,
+   "geometry_type": "LineString",
+   "coords": 415
+  },
+  "Yanfang": {
+   "name": "燕房线",
+   "osm_stations": 9,
+   "amap_stations": 9,
+   "osm_only_vs_amap": [],
+   "amap_only_vs_osm": [],
+   "mick_stations": 9,
+   "osm_only_vs_mick": [],
+   "mick_only_vs_osm": [],
+   "geometry_km": 14.42,
+   "geometry_type": "LineString",
+   "coords": 147
+  },
+  "CapitalAirport": {
+   "name": "首都机场线",
+   "osm_stations": 5,
+   "amap_stations": 5,
+   "osm_only_vs_amap": [
+    "首都机场2号航楼",
+    "首都机场3号航楼"
+   ],
+   "amap_only_vs_osm": [
+    "2号航楼",
+    "3号航楼"
+   ],
+   "mick_stations": 5,
+   "osm_only_vs_mick": [
+    "首都机场2号航楼",
+    "首都机场3号航楼"
+   ],
+   "mick_only_vs_osm": [
+    "2号航楼",
+    "3号航楼"
+   ],
+   "geometry_km": 29.98,
+   "geometry_type": "LineString",
+   "coords": 214
+  },
+  "Xijiao": {
+   "name": "西郊线",
+   "osm_stations": 6,
+   "amap_stations": 6,
+   "osm_only_vs_amap": [],
+   "amap_only_vs_osm": [],
+   "mick_stations": 6,
+   "osm_only_vs_mick": [],
+   "mick_only_vs_osm": [],
+   "geometry_km": 8.85,
+   "geometry_type": "LineString",
+   "coords": 179
+  },
+  "Daxing": {
+   "name": "大兴线",
+   "osm_stations": 11,
+   "amap_stations": null,
+   "amap_note": "not present as a separate line in the Amap snapshot (merged into line 1/4)",
+   "mick_stations": null,
+   "geometry_km": 19.39,
+   "geometry_type": "LineString",
+   "coords": 100
+  }
+ },
+ "summary": {
+  "osm_lines": 29,
+  "osm_station_complexes": 410,
+  "osm_stop_records": 553,
+  "amap_lines": 27,
+  "amap_station_records": 526,
+  "target_lines_present_osm": [
+   "1",
+   "10",
+   "11",
+   "12",
+   "13",
+   "14",
+   "15",
+   "16",
+   "17",
+   "18",
+   "19",
+   "2",
+   "3",
+   "4",
+   "5",
+   "6",
+   "7",
+   "8",
+   "9",
+   "Batong",
+   "CapitalAirport",
+   "Changping",
+   "DaxingAirport",
+   "Fangshan",
+   "S1",
+   "Yanfang",
+   "Yizhuang"
+  ],
+  "not_separate_in_amap": [
+   "Batong (merged into BJ-1)",
+   "Daxing (merged into BJ-4)"
+  ]
+ }
+}

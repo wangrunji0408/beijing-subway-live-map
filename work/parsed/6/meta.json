@@ -1,0 +1,43 @@
+{
+ "1": {
+  "direction": "金安桥",
+  "service": "weekday",
+  "legend": {"blue": "车公庄西", "purple": "海淀五路居"},
+  "note": "开往金安桥站方向 工作日; legend from 6-东四-1"
+ },
+ "2": {
+  "direction": "潞阳",
+  "service": "weekday",
+  "legend": {"blue": "潞城", "red": "草房", "green": "通州北关"},
+  "note": "开往潞阳站方向 工作日; legend from 6-东四-2 (blue ring=潞城, red=草房, teal=通州北关); 6-常营-2 is an exception (金安桥 weekday)"
+ },
+ "3": {
+  "direction": "金安桥",
+  "service": "weekend",
+  "legend": {"purple": "海淀五路居"},
+  "note": "开往金安桥站方向 双休日; legend from 6-东四-3; 6-常营-3 is an exception (潞阳 weekday)"
+ },
+ "4": {
+  "direction": "潞阳",
+  "service": "weekend",
+  "legend": {"yellow": "草房", "blue": "潞城"},
+  "note": "开往潞阳站方向 双休日; legend from 6-东四-4 (yellow=草房, open ring=潞城); 6-常营-4 is an exception (潞阳 weekday)"
+ },
+ "5": {
+  "direction": "金安桥",
+  "service": "weekend",
+  "legend": {"purple": "海淀五路居"},
+  "note": "6-常营-5 only; 开往金安桥站方向 双休日"
+ },
+ "6": {
+  "direction": "潞阳",
+  "service": "weekend",
+  "legend": {"yellow": "草房", "blue": "潞城"},
+  "note": "6-常营-6 only; 开往潞阳站方向 双休日"
+ },
+ "_images": {
+  "6-常营-2": {"direction": "金安桥", "service": "weekday", "note": "常营 numbering differs: -1/-2 金安桥 weekday, -3/-4 潞阳 weekday, -5 金安桥 weekend, -6 潞阳 weekend"},
+  "6-常营-3": {"direction": "潞阳", "service": "weekday"},
+  "6-常营-4": {"direction": "潞阳", "service": "weekday"}
+ }
+}

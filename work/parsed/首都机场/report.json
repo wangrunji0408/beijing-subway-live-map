@@ -1,0 +1,587 @@
+[
+ {
+  "source": "timetables/首都机场-2号航站楼-1.jpg",
+  "id": "首都机场-2号航站楼-1",
+  "n_times": 88,
+  "stats": {
+   "n": 88,
+   "n_hours": 18,
+   "median_gap": 11,
+   "max_gap": 14,
+   "min_gap": 11
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/首都机场-2号航站楼-2.jpg",
+  "id": "首都机场-2号航站楼-2",
+  "n_times": 90,
+  "stats": {
+   "n": 90,
+   "n_hours": 18,
+   "median_gap": 11,
+   "max_gap": 14,
+   "min_gap": 9
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/首都机场-2号航站楼-3.jpg",
+  "id": "首都机场-2号航站楼-3",
+  "n_times": 90,
+  "stats": {
+   "n": 90,
+   "n_hours": 18,
+   "median_gap": 11,
+   "max_gap": 14,
+   "min_gap": 10
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 2796,
+    "kind": "ocr_fail",
+    "text": "081930415382"
+   }
+  ]
+ },
+ {
+  "source": "timetables/首都机场-2号航站楼-4.jpg",
+  "id": "首都机场-2号航站楼-4",
+  "n_times": 92,
+  "stats": {
+   "n": 92,
+   "n_hours": 18,
+   "median_gap": 11,
+   "max_gap": 14,
+   "min_gap": 9
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 2133,
+    "kind": "ocr_fail",
+    "text": "081930415382"
+   },
+   {
+    "row_y": 3292,
+    "kind": "ocr_fail",
+    "text": "0716263748359"
+   }
+  ]
+ },
+ {
+  "source": "timetables/首都机场-3号航站楼-1.jpg",
+  "id": "首都机场-3号航站楼-1",
+  "n_times": 88,
+  "stats": {
+   "n": 88,
+   "n_hours": 17,
+   "median_gap": 11,
+   "max_gap": 14,
+   "min_gap": 11
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/首都机场-3号航站楼-2.jpg",
+  "id": "首都机场-3号航站楼-2",
+  "n_times": 90,
+  "stats": {
+   "n": 90,
+   "n_hours": 17,
+   "median_gap": 11,
+   "max_gap": 14,
+   "min_gap": 9
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/首都机场-3号航站楼-3.jpg",
+  "id": "首都机场-3号航站楼-3",
+  "n_times": 90,
+  "stats": {
+   "n": 90,
+   "n_hours": 17,
+   "median_gap": 11,
+   "max_gap": 13,
+   "min_gap": 10
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 2100,
+    "kind": "ocr_fail",
+    "text": "07182940951"
+   },
+   {
+    "row_y": 3071,
+    "kind": "ocr_fail",
+    "text": "10213243954"
+   },
+   {
+    "row_y": 3552,
+    "kind": "ocr_fail",
+    "text": "06172839951"
+   },
+   {
+    "row_y": 3717,
+    "kind": "ocr_fail",
+    "text": "03152739582"
+   }
+  ]
+ },
+ {
+  "source": "timetables/首都机场-3号航站楼-4.jpg",
+  "id": "首都机场-3号航站楼-4",
+  "n_times": 92,
+  "stats": {
+   "n": 92,
+   "n_hours": 17,
+   "median_gap": 11,
+   "max_gap": 13,
+   "min_gap": 9
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 1781,
+    "kind": "ocr_fail",
+    "text": "07182940951"
+   },
+   {
+    "row_y": 3395,
+    "kind": "ocr_fail",
+    "text": "10213243954"
+   },
+   {
+    "row_y": 3552,
+    "kind": "ocr_fail",
+    "text": "05162738951"
+   }
+  ]
+ },
+ {
+  "source": "timetables/首都机场-三元桥-1.jpg",
+  "id": "首都机场-三元桥-1",
+  "n_times": 88,
+  "stats": {
+   "n": 88,
+   "n_hours": 17,
+   "median_gap": 11,
+   "max_gap": 14,
+   "min_gap": 11
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/首都机场-三元桥-2.jpg",
+  "id": "首都机场-三元桥-2",
+  "n_times": 88,
+  "stats": {
+   "n": 88,
+   "n_hours": 18,
+   "median_gap": 11,
+   "max_gap": 14,
+   "min_gap": 10
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/首都机场-三元桥-3.jpg",
+  "id": "首都机场-三元桥-3",
+  "n_times": 90,
+  "stats": {
+   "n": 90,
+   "n_hours": 17,
+   "median_gap": 11,
+   "max_gap": 14,
+   "min_gap": 9
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/首都机场-三元桥-4.jpg",
+  "id": "首都机场-三元桥-4",
+  "n_times": 90,
+  "stats": {
+   "n": 90,
+   "n_hours": 18,
+   "median_gap": 11,
+   "max_gap": 14,
+   "min_gap": 9
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/首都机场-三元桥-5.jpg",
+  "id": "首都机场-三元桥-5",
+  "n_times": 90,
+  "stats": {
+   "n": 90,
+   "n_hours": 17,
+   "median_gap": 11,
+   "max_gap": 14,
+   "min_gap": 9
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 1306,
+    "kind": "ocr_fail",
+    "text": "0617263748359"
+   },
+   {
+    "row_y": 2629,
+    "kind": "ocr_fail",
+    "text": "08193041382"
+   }
+  ]
+ },
+ {
+  "source": "timetables/首都机场-三元桥-6.jpg",
+  "id": "首都机场-三元桥-6",
+  "n_times": 90,
+  "stats": {
+   "n": 90,
+   "n_hours": 18,
+   "median_gap": 11,
+   "max_gap": 14,
+   "min_gap": 10
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 1971,
+    "kind": "ocr_fail",
+    "text": "07182940951"
+   },
+   {
+    "row_y": 2302,
+    "kind": "ocr_fail",
+    "text": "08193041982"
+   },
+   {
+    "row_y": 2796,
+    "kind": "ocr_fail",
+    "text": "0415263748359"
+   }
+  ]
+ },
+ {
+  "source": "timetables/首都机场-三元桥-7.jpg",
+  "id": "首都机场-三元桥-7",
+  "n_times": 92,
+  "stats": {
+   "n": 92,
+   "n_hours": 17,
+   "median_gap": 11,
+   "max_gap": 14,
+   "min_gap": 9
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 1971,
+    "kind": "ocr_fail",
+    "text": "08193041382"
+   },
+   {
+    "row_y": 3128,
+    "kind": "ocr_fail",
+    "text": "021121304049359"
+   }
+  ]
+ },
+ {
+  "source": "timetables/首都机场-三元桥-8.jpg",
+  "id": "首都机场-三元桥-8",
+  "n_times": 92,
+  "stats": {
+   "n": 92,
+   "n_hours": 18,
+   "median_gap": 11,
+   "max_gap": 14,
+   "min_gap": 9
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 1636,
+    "kind": "ocr_fail",
+    "text": "08193041982"
+   },
+   {
+    "row_y": 2134,
+    "kind": "ocr_fail",
+    "text": "0415263748359"
+   }
+  ]
+ },
+ {
+  "source": "timetables/首都机场-东直门-1.jpg",
+  "id": "首都机场-东直门-1",
+  "n_times": 88,
+  "stats": {
+   "n": 88,
+   "n_hours": 17,
+   "median_gap": 11,
+   "max_gap": 14,
+   "min_gap": 11
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/首都机场-东直门-2.jpg",
+  "id": "首都机场-东直门-2",
+  "n_times": 88,
+  "stats": {
+   "n": 88,
+   "n_hours": 17,
+   "median_gap": 11,
+   "max_gap": 16,
+   "min_gap": 9
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/首都机场-东直门-3.jpg",
+  "id": "首都机场-东直门-3",
+  "n_times": 90,
+  "stats": {
+   "n": 90,
+   "n_hours": 17,
+   "median_gap": 11,
+   "max_gap": 16,
+   "min_gap": 9
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/首都机场-东直门-4.jpg",
+  "id": "首都机场-东直门-4",
+  "n_times": 90,
+  "stats": {
+   "n": 90,
+   "n_hours": 17,
+   "median_gap": 11,
+   "max_gap": 14,
+   "min_gap": 9
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/首都机场-东直门-5.jpg",
+  "id": "首都机场-东直门-5",
+  "n_times": 90,
+  "stats": {
+   "n": 90,
+   "n_hours": 17,
+   "median_gap": 11,
+   "max_gap": 14,
+   "min_gap": 9
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 2495,
+    "kind": "ocr_fail",
+    "text": "08193041582"
+   }
+  ]
+ },
+ {
+  "source": "timetables/首都机场-东直门-6.jpg",
+  "id": "首都机场-东直门-6",
+  "n_times": 90,
+  "stats": {
+   "n": 90,
+   "n_hours": 17,
+   "median_gap": 11,
+   "max_gap": 16,
+   "min_gap": 9
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 1307,
+    "kind": "ocr_fail",
+    "text": "0515263748359"
+   },
+   {
+    "row_y": 2629,
+    "kind": "ocr_fail",
+    "text": "08193041982"
+   },
+   {
+    "row_y": 3128,
+    "kind": "ocr_fail",
+    "text": "0415263748359"
+   },
+   {
+    "row_y": 3622,
+    "kind": "ocr_fail",
+    "text": "00132639382"
+   }
+  ]
+ },
+ {
+  "source": "timetables/首都机场-东直门-7.jpg",
+  "id": "首都机场-东直门-7",
+  "n_times": 92,
+  "stats": {
+   "n": 92,
+   "n_hours": 17,
+   "median_gap": 11,
+   "max_gap": 14,
+   "min_gap": 9
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/首都机场-东直门-8.jpg",
+  "id": "首都机场-东直门-8",
+  "n_times": 92,
+  "stats": {
+   "n": 92,
+   "n_hours": 17,
+   "median_gap": 11,
+   "max_gap": 16,
+   "min_gap": 9
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 1637,
+    "kind": "ocr_fail",
+    "text": "08193041982"
+   },
+   {
+    "row_y": 2962,
+    "kind": "ocr_fail",
+    "text": "0414233342352"
+   },
+   {
+    "row_y": 3622,
+    "kind": "ocr_fail",
+    "text": "00132639382"
+   }
+  ]
+ },
+ {
+  "source": "timetables/首都机场-北新桥-1.jpg",
+  "id": "首都机场-北新桥-1",
+  "n_times": 88,
+  "stats": {
+   "n": 88,
+   "n_hours": 18,
+   "median_gap": 11,
+   "max_gap": 14,
+   "min_gap": 11
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/首都机场-北新桥-2.jpg",
+  "id": "首都机场-北新桥-2",
+  "n_times": 90,
+  "stats": {
+   "n": 90,
+   "n_hours": 18,
+   "median_gap": 11,
+   "max_gap": 14,
+   "min_gap": 9
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/首都机场-北新桥-3.jpg",
+  "id": "首都机场-北新桥-3",
+  "n_times": 90,
+  "stats": {
+   "n": 90,
+   "n_hours": 18,
+   "median_gap": 11,
+   "max_gap": 14,
+   "min_gap": 9
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 1310,
+    "kind": "ocr_fail",
+    "text": "09233546937"
+   },
+   {
+    "row_y": 1796,
+    "kind": "ocr_fail",
+    "text": "07182940951"
+   },
+   {
+    "row_y": 1958,
+    "kind": "ocr_fail",
+    "text": "0213243546957"
+   },
+   {
+    "row_y": 2115,
+    "kind": "ocr_fail",
+    "text": "08193041352"
+   },
+   {
+    "row_y": 2761,
+    "kind": "ocr_fail",
+    "text": "10213243954"
+   },
+   {
+    "row_y": 3567,
+    "kind": "ocr_fail",
+    "text": "07182940951"
+   }
+  ]
+ },
+ {
+  "source": "timetables/首都机场-北新桥-4.jpg",
+  "id": "首都机场-北新桥-4",
+  "n_times": 92,
+  "stats": {
+   "n": 92,
+   "n_hours": 18,
+   "median_gap": 11,
+   "max_gap": 14,
+   "min_gap": 9
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 1333,
+    "kind": "ocr_fail",
+    "text": "09233546937"
+   },
+   {
+    "row_y": 1819,
+    "kind": "ocr_fail",
+    "text": "09203142353"
+   },
+   {
+    "row_y": 3590,
+    "kind": "ocr_fail",
+    "text": "07182940951"
+   }
+  ]
+ }
+]

@@ -1,0 +1,1695 @@
+[
+ {
+  "source": "timetables/燕房-大石河东-1.png",
+  "id": "燕房-大石河东-1",
+  "n_times": 137,
+  "stats": {
+   "n": 137,
+   "n_hours": 18,
+   "median_gap": 8,
+   "max_gap": 18,
+   "min_gap": 4
+  },
+  "issues": [
+   {
+    "kind": "gap_large",
+    "gap": 18,
+    "at": "13:44->14:02",
+    "msg": "gap 18 min exceeds 18 (possible missed train)"
+   }
+  ],
+  "flags": [
+   {
+    "row_y": 440,
+    "kind": "ocr_fail",
+    "text": "001018273747561"
+   },
+   {
+    "row_y": 688,
+    "kind": "ocr_fail",
+    "text": "000891827364655"
+   },
+   {
+    "row_y": 724,
+    "kind": "ocr_fail",
+    "text": "04111723283438444853358"
+   },
+   {
+    "row_y": 796,
+    "kind": "repaired_swap",
+    "text": "63",
+    "fixed": "36"
+   },
+   {
+    "row_y": 866,
+    "kind": "ocr_fail",
+    "text": "60110192834737"
+   }
+  ]
+ },
+ {
+  "source": "timetables/燕房-大石河东-2.png",
+  "id": "燕房-大石河东-2",
+  "n_times": 143,
+  "stats": {
+   "n": 143,
+   "n_hours": 18,
+   "median_gap": 8,
+   "max_gap": 12,
+   "min_gap": 4
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 301,
+    "kind": "repaired_swap",
+    "text": "81",
+    "fixed": "18"
+   },
+   {
+    "row_y": 301,
+    "kind": "repaired_swap",
+    "text": "82",
+    "fixed": "28"
+   },
+   {
+    "row_y": 301,
+    "kind": "repaired_swap",
+    "text": "73",
+    "fixed": "37"
+   },
+   {
+    "row_y": 452,
+    "kind": "ocr_fail",
+    "text": "001019293847571"
+   },
+   {
+    "row_y": 489,
+    "kind": "ocr_fail",
+    "text": "0615253443533"
+   },
+   {
+    "row_y": 602,
+    "kind": "ocr_fail",
+    "text": "031322314415059"
+   },
+   {
+    "row_y": 751,
+    "kind": "ocr_fail",
+    "text": "010611162123234246517"
+   },
+   {
+    "row_y": 827,
+    "kind": "repaired_swap",
+    "text": "65",
+    "fixed": "56"
+   },
+   {
+    "row_y": 864,
+    "kind": "repaired_swap",
+    "text": "91",
+    "fixed": "19"
+   },
+   {
+    "row_y": 864,
+    "kind": "repaired_swap",
+    "text": "72",
+    "fixed": "27"
+   }
+  ]
+ },
+ {
+  "source": "timetables/燕房-大石河东-3.png",
+  "id": "燕房-大石河东-3",
+  "n_times": 129,
+  "stats": {
+   "n": 129,
+   "n_hours": 18,
+   "median_gap": 8,
+   "max_gap": 16,
+   "min_gap": 6
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 334,
+    "kind": "repaired_swap",
+    "text": "93",
+    "fixed": "39"
+   },
+   {
+    "row_y": 369,
+    "kind": "repaired_swap",
+    "text": "91",
+    "fixed": "19"
+   },
+   {
+    "row_y": 369,
+    "kind": "repaired_swap",
+    "text": "72",
+    "fixed": "27"
+   },
+   {
+    "row_y": 441,
+    "kind": "ocr_fail",
+    "text": "010917243341497"
+   },
+   {
+    "row_y": 511,
+    "kind": "repaired_swap",
+    "text": "81",
+    "fixed": "18"
+   },
+   {
+    "row_y": 511,
+    "kind": "repaired_swap",
+    "text": "72",
+    "fixed": "27"
+   },
+   {
+    "row_y": 546,
+    "kind": "repaired_swap",
+    "text": "83",
+    "fixed": "38"
+   },
+   {
+    "row_y": 582,
+    "kind": "bad_minute",
+    "text": "97"
+   },
+   {
+    "row_y": 654,
+    "kind": "ocr_fail",
+    "text": "010912334149"
+   },
+   {
+    "row_y": 760,
+    "kind": "repaired_swap",
+    "text": "93",
+    "fixed": "39"
+   },
+   {
+    "row_y": 796,
+    "kind": "ocr_fail",
+    "text": "01091232414857"
+   }
+  ]
+ },
+ {
+  "source": "timetables/燕房-大石河东-4.png",
+  "id": "燕房-大石河东-4",
+  "n_times": 130,
+  "stats": {
+   "n": 130,
+   "n_hours": 18,
+   "median_gap": 8,
+   "max_gap": 16,
+   "min_gap": 6
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 301,
+    "kind": "repaired_swap",
+    "text": "93",
+    "fixed": "39"
+   },
+   {
+    "row_y": 376,
+    "kind": "repaired_swap",
+    "text": "93",
+    "fixed": "39"
+   },
+   {
+    "row_y": 414,
+    "kind": "ocr_fail",
+    "text": "010917253441493"
+   },
+   {
+    "row_y": 639,
+    "kind": "repaired_swap",
+    "text": "81",
+    "fixed": "18"
+   },
+   {
+    "row_y": 639,
+    "kind": "repaired_swap",
+    "text": "72",
+    "fixed": "27"
+   },
+   {
+    "row_y": 714,
+    "kind": "repaired_swap",
+    "text": "91",
+    "fixed": "19"
+   },
+   {
+    "row_y": 714,
+    "kind": "repaired_swap",
+    "text": "72",
+    "fixed": "27"
+   },
+   {
+    "row_y": 789,
+    "kind": "ocr_fail",
+    "text": "0109172344349"
+   }
+  ]
+ },
+ {
+  "source": "timetables/燕房-房山城关-1.png",
+  "id": "燕房-房山城关-1",
+  "n_times": 143,
+  "stats": {
+   "n": 143,
+   "n_hours": 18,
+   "median_gap": 8,
+   "max_gap": 10,
+   "min_gap": 4
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 377,
+    "kind": "repaired_swap",
+    "text": "64",
+    "fixed": "46"
+   },
+   {
+    "row_y": 528,
+    "kind": "ocr_fail",
+    "text": "021221304049538"
+   },
+   {
+    "row_y": 753,
+    "kind": "ocr_fail",
+    "text": "1890309142026303646455055"
+   },
+   {
+    "row_y": 903,
+    "kind": "ocr_fail",
+    "text": "0211202939497"
+   }
+  ]
+ },
+ {
+  "source": "timetables/燕房-房山城关-2.png",
+  "id": "燕房-房山城关-2",
+  "n_times": 140,
+  "stats": {
+   "n": 140,
+   "n_hours": 18,
+   "median_gap": 8,
+   "max_gap": 19,
+   "min_gap": 4
+  },
+  "issues": [
+   {
+    "kind": "gap_large",
+    "gap": 19,
+    "at": "13:25->13:44",
+    "msg": "gap 19 min exceeds 18 (possible missed train)"
+   }
+  ],
+  "flags": [
+   {
+    "row_y": 263,
+    "kind": "repaired_swap",
+    "text": "94",
+    "fixed": "49"
+   },
+   {
+    "row_y": 376,
+    "kind": "ocr_fail",
+    "text": "801061116212632341465238"
+   },
+   {
+    "row_y": 564,
+    "kind": "ocr_fail",
+    "text": "130616253444533"
+   },
+   {
+    "row_y": 676,
+    "kind": "ocr_fail",
+    "text": "160381322324150459"
+   },
+   {
+    "row_y": 714,
+    "kind": "ocr_fail",
+    "text": "17069182836455358"
+   },
+   {
+    "row_y": 788,
+    "kind": "ocr_fail",
+    "text": "05101520253035404550537"
+   },
+   {
+    "row_y": 864,
+    "kind": "ocr_fail",
+    "text": "216000917233414957"
+   },
+   {
+    "row_y": 948,
+    "kind": "ocr_fail",
+    "text": "188425"
+   },
+   {
+    "row_y": 970,
+    "kind": "ocr_fail",
+    "text": "3"
+   }
+  ]
+ },
+ {
+  "source": "timetables/燕房-房山城关-3.png",
+  "id": "燕房-房山城关-3",
+  "n_times": 131,
+  "stats": {
+   "n": 131,
+   "n_hours": 18,
+   "median_gap": 8,
+   "max_gap": 11,
+   "min_gap": 6
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 301,
+    "kind": "repaired_swap",
+    "text": "81",
+    "fixed": "18"
+   },
+   {
+    "row_y": 301,
+    "kind": "repaired_swap",
+    "text": "72",
+    "fixed": "27"
+   },
+   {
+    "row_y": 338,
+    "kind": "repaired_swap",
+    "text": "93",
+    "fixed": "39"
+   },
+   {
+    "row_y": 376,
+    "kind": "repaired_swap",
+    "text": "91",
+    "fixed": "19"
+   },
+   {
+    "row_y": 376,
+    "kind": "repaired_swap",
+    "text": "72",
+    "fixed": "27"
+   },
+   {
+    "row_y": 451,
+    "kind": "ocr_fail",
+    "text": "01091625334149571"
+   },
+   {
+    "row_y": 489,
+    "kind": "repaired_swap",
+    "text": "93",
+    "fixed": "39"
+   },
+   {
+    "row_y": 526,
+    "kind": "repaired_swap",
+    "text": "91",
+    "fixed": "19"
+   },
+   {
+    "row_y": 526,
+    "kind": "repaired_swap",
+    "text": "72",
+    "fixed": "27"
+   },
+   {
+    "row_y": 564,
+    "kind": "repaired_swap",
+    "text": "93",
+    "fixed": "39"
+   },
+   {
+    "row_y": 601,
+    "kind": "bad_minute",
+    "text": "97"
+   },
+   {
+    "row_y": 676,
+    "kind": "bad_minute",
+    "text": "98"
+   },
+   {
+    "row_y": 789,
+    "kind": "repaired_swap",
+    "text": "93",
+    "fixed": "39"
+   },
+   {
+    "row_y": 827,
+    "kind": "ocr_fail",
+    "text": "601092433404957"
+   },
+   {
+    "row_y": 902,
+    "kind": "ocr_fail",
+    "text": "0816233414957"
+   }
+  ]
+ },
+ {
+  "source": "timetables/燕房-房山城关-4.png",
+  "id": "燕房-房山城关-4",
+  "n_times": 131,
+  "stats": {
+   "n": 131,
+   "n_hours": 18,
+   "median_gap": 8,
+   "max_gap": 10,
+   "min_gap": 6
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 301,
+    "kind": "repaired_swap",
+    "text": "93",
+    "fixed": "39"
+   },
+   {
+    "row_y": 376,
+    "kind": "ocr_fail",
+    "text": "0613212934553"
+   },
+   {
+    "row_y": 414,
+    "kind": "ocr_fail",
+    "text": "0109123342497"
+   },
+   {
+    "row_y": 451,
+    "kind": "ocr_fail",
+    "text": "0514212934853"
+   },
+   {
+    "row_y": 564,
+    "kind": "repaired_swap",
+    "text": "91",
+    "fixed": "19"
+   },
+   {
+    "row_y": 564,
+    "kind": "repaired_swap",
+    "text": "72",
+    "fixed": "27"
+   },
+   {
+    "row_y": 639,
+    "kind": "repaired_swap",
+    "text": "91",
+    "fixed": "19"
+   },
+   {
+    "row_y": 827,
+    "kind": "repaired_swap",
+    "text": "84",
+    "fixed": "48"
+   },
+   {
+    "row_y": 827,
+    "kind": "repaired_swap",
+    "text": "64",
+    "fixed": "46"
+   }
+  ]
+ },
+ {
+  "source": "timetables/燕房-星城-1.png",
+  "id": "燕房-星城-1",
+  "n_times": 140,
+  "stats": {
+   "n": 140,
+   "n_hours": 19,
+   "median_gap": 8,
+   "max_gap": 38,
+   "min_gap": 4
+  },
+  "issues": [
+   {
+    "kind": "gap_large",
+    "gap": 38,
+    "at": "16:25->17:03",
+    "msg": "gap 38 min exceeds 18 (possible missed train)"
+   }
+  ],
+  "flags": [
+   {
+    "row_y": 547,
+    "kind": "ocr_fail",
+    "text": "0009192837477"
+   },
+   {
+    "row_y": 583,
+    "kind": "ocr_fail",
+    "text": "0514243343582"
+   },
+   {
+    "row_y": 690,
+    "kind": "ocr_fail",
+    "text": "031221303949358"
+   },
+   {
+    "row_y": 725,
+    "kind": "repaired_swap",
+    "text": "61",
+    "fixed": "16"
+   },
+   {
+    "row_y": 760,
+    "kind": "ocr_fail",
+    "text": "0106111721263136414652357"
+   }
+  ]
+ },
+ {
+  "source": "timetables/燕房-星城-2.png",
+  "id": "燕房-星城-2",
+  "n_times": 138,
+  "stats": {
+   "n": 138,
+   "n_hours": 18,
+   "median_gap": 8,
+   "max_gap": 18,
+   "min_gap": 4
+  },
+  "issues": [
+   {
+    "kind": "gap_large",
+    "gap": 18,
+    "at": "10:35->10:53",
+    "msg": "gap 18 min exceeds 18 (possible missed train)"
+   }
+  ],
+  "flags": [
+   {
+    "row_y": 451,
+    "kind": "ocr_fail",
+    "text": "0716253544531"
+   },
+   {
+    "row_y": 864,
+    "kind": "ocr_fail",
+    "text": "051321303746955"
+   },
+   {
+    "row_y": 902,
+    "kind": "ocr_fail",
+    "text": "0515273"
+   }
+  ]
+ },
+ {
+  "source": "timetables/燕房-星城-3.png",
+  "id": "燕房-星城-3",
+  "n_times": 127,
+  "stats": {
+   "n": 127,
+   "n_hours": 19,
+   "median_gap": 8,
+   "max_gap": 18,
+   "min_gap": 6
+  },
+  "issues": [
+   {
+    "kind": "gap_large",
+    "gap": 18,
+    "at": "05:54->06:12",
+    "msg": "gap 18 min exceeds 18 (possible missed train)"
+   }
+  ],
+  "flags": [
+   {
+    "row_y": 582,
+    "kind": "repaired_swap",
+    "text": "62",
+    "fixed": "26"
+   },
+   {
+    "row_y": 653,
+    "kind": "repaired_swap",
+    "text": "62",
+    "fixed": "26"
+   }
+  ]
+ },
+ {
+  "source": "timetables/燕房-星城-4.png",
+  "id": "燕房-星城-4",
+  "n_times": 126,
+  "stats": {
+   "n": 126,
+   "n_hours": 18,
+   "median_gap": 8,
+   "max_gap": 17,
+   "min_gap": 6
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 338,
+    "kind": "ocr_fail",
+    "text": "061422303846454"
+   },
+   {
+    "row_y": 413,
+    "kind": "ocr_fail",
+    "text": "051422313846454"
+   },
+   {
+    "row_y": 601,
+    "kind": "repaired_swap",
+    "text": "72",
+    "fixed": "27"
+   },
+   {
+    "row_y": 864,
+    "kind": "repaired_swap",
+    "text": "61",
+    "fixed": "16"
+   }
+  ]
+ },
+ {
+  "source": "timetables/燕房-燕山-1.png",
+  "id": "燕房-燕山-1",
+  "n_times": 142,
+  "stats": {
+   "n": 142,
+   "n_hours": 18,
+   "median_gap": 8,
+   "max_gap": 18,
+   "min_gap": 4
+  },
+  "issues": [
+   {
+    "kind": "gap_large",
+    "gap": 18,
+    "at": "10:45->11:03",
+    "msg": "gap 18 min exceeds 18 (possible missed train)"
+   }
+  ],
+  "flags": [
+   {
+    "row_y": 452,
+    "kind": "ocr_fail",
+    "text": "0716263545541"
+   },
+   {
+    "row_y": 602,
+    "kind": "ocr_fail",
+    "text": "0010192937477"
+   },
+   {
+    "row_y": 751,
+    "kind": "ocr_fail",
+    "text": "000611172223234245257"
+   }
+  ]
+ },
+ {
+  "source": "timetables/燕房-燕山-2.png",
+  "id": "燕房-燕山-2",
+  "n_times": 131,
+  "stats": {
+   "n": 131,
+   "n_hours": 18,
+   "median_gap": 8,
+   "max_gap": 11,
+   "min_gap": 6
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 301,
+    "kind": "ocr_fail",
+    "text": "0513212934582"
+   },
+   {
+    "row_y": 376,
+    "kind": "repaired_swap",
+    "text": "93",
+    "fixed": "39"
+   },
+   {
+    "row_y": 451,
+    "kind": "ocr_fail",
+    "text": "0612212934553"
+   },
+   {
+    "row_y": 564,
+    "kind": "repaired_swap",
+    "text": "72",
+    "fixed": "27"
+   },
+   {
+    "row_y": 714,
+    "kind": "bad_minute",
+    "text": "87"
+   },
+   {
+    "row_y": 789,
+    "kind": "bad_minute",
+    "text": "97"
+   },
+   {
+    "row_y": 827,
+    "kind": "ocr_fail",
+    "text": "0513202934553"
+   }
+  ]
+ },
+ {
+  "source": "timetables/燕房-紫草坞-1.png",
+  "id": "燕房-紫草坞-1",
+  "n_times": 143,
+  "stats": {
+   "n": 143,
+   "n_hours": 19,
+   "median_gap": 8,
+   "max_gap": 10,
+   "min_gap": 4
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 796,
+    "kind": "ocr_fail",
+    "text": "0207121825324048561"
+   },
+   {
+    "row_y": 832,
+    "kind": "repaired_swap",
+    "text": "82",
+    "fixed": "28"
+   }
+  ]
+ },
+ {
+  "source": "timetables/燕房-紫草坞-2.png",
+  "id": "燕房-紫草坞-2",
+  "n_times": 136,
+  "stats": {
+   "n": 136,
+   "n_hours": 18,
+   "median_gap": 8,
+   "max_gap": 19,
+   "min_gap": 4
+  },
+  "issues": [
+   {
+    "kind": "gap_large",
+    "gap": 19,
+    "at": "13:55->14:14",
+    "msg": "gap 19 min exceeds 18 (possible missed train)"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 19,
+    "at": "16:24->16:43",
+    "msg": "gap 19 min exceeds 18 (possible missed train)"
+   }
+  ],
+  "flags": [
+   {
+    "row_y": 376,
+    "kind": "ocr_fail",
+    "text": "000509152026293542497"
+   },
+   {
+    "row_y": 414,
+    "kind": "ocr_fail",
+    "text": "0616243442682"
+   }
+  ]
+ },
+ {
+  "source": "timetables/燕房-紫草坞-3.png",
+  "id": "燕房-紫草坞-3",
+  "n_times": 131,
+  "stats": {
+   "n": 131,
+   "n_hours": 19,
+   "median_gap": 8,
+   "max_gap": 10,
+   "min_gap": 6
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 369,
+    "kind": "repaired_swap",
+    "text": "91",
+    "fixed": "19"
+   },
+   {
+    "row_y": 369,
+    "kind": "repaired_swap",
+    "text": "72",
+    "fixed": "27"
+   },
+   {
+    "row_y": 440,
+    "kind": "ocr_fail",
+    "text": "01091725324149571"
+   },
+   {
+    "row_y": 582,
+    "kind": "ocr_fail",
+    "text": "010917253342495"
+   },
+   {
+    "row_y": 653,
+    "kind": "repaired_swap",
+    "text": "95",
+    "fixed": "59"
+   },
+   {
+    "row_y": 688,
+    "kind": "ocr_fail",
+    "text": "095132029374552"
+   },
+   {
+    "row_y": 724,
+    "kind": "repaired_swap",
+    "text": "85",
+    "fixed": "58"
+   },
+   {
+    "row_y": 760,
+    "kind": "repaired_swap",
+    "text": "93",
+    "fixed": "39"
+   },
+   {
+    "row_y": 795,
+    "kind": "repaired_swap",
+    "text": "91",
+    "fixed": "19"
+   },
+   {
+    "row_y": 795,
+    "kind": "repaired_swap",
+    "text": "72",
+    "fixed": "27"
+   },
+   {
+    "row_y": 831,
+    "kind": "ocr_fail",
+    "text": "051321293745353"
+   }
+  ]
+ },
+ {
+  "source": "timetables/燕房-紫草坞-4.png",
+  "id": "燕房-紫草坞-4",
+  "n_times": 129,
+  "stats": {
+   "n": 129,
+   "n_hours": 18,
+   "median_gap": 8,
+   "max_gap": 16,
+   "min_gap": 6
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 338,
+    "kind": "repaired_swap",
+    "text": "91",
+    "fixed": "19"
+   },
+   {
+    "row_y": 338,
+    "kind": "repaired_swap",
+    "text": "72",
+    "fixed": "27"
+   },
+   {
+    "row_y": 376,
+    "kind": "repaired_swap",
+    "text": "93",
+    "fixed": "39"
+   },
+   {
+    "row_y": 413,
+    "kind": "repaired_swap",
+    "text": "91",
+    "fixed": "19"
+   },
+   {
+    "row_y": 413,
+    "kind": "repaired_swap",
+    "text": "72",
+    "fixed": "27"
+   },
+   {
+    "row_y": 451,
+    "kind": "repaired_swap",
+    "text": "93",
+    "fixed": "39"
+   },
+   {
+    "row_y": 526,
+    "kind": "ocr_fail",
+    "text": "05132129346583"
+   },
+   {
+    "row_y": 564,
+    "kind": "ocr_fail",
+    "text": "011012334149"
+   },
+   {
+    "row_y": 714,
+    "kind": "repaired_swap",
+    "text": "91",
+    "fixed": "19"
+   },
+   {
+    "row_y": 752,
+    "kind": "repaired_swap",
+    "text": "93",
+    "fixed": "39"
+   },
+   {
+    "row_y": 789,
+    "kind": "repaired_swap",
+    "text": "91",
+    "fixed": "19"
+   },
+   {
+    "row_y": 789,
+    "kind": "repaired_swap",
+    "text": "72",
+    "fixed": "27"
+   },
+   {
+    "row_y": 827,
+    "kind": "repaired_swap",
+    "text": "81",
+    "fixed": "18"
+   },
+   {
+    "row_y": 827,
+    "kind": "repaired_swap",
+    "text": "74",
+    "fixed": "47"
+   }
+  ]
+ },
+ {
+  "source": "timetables/燕房-阎村-1.png",
+  "id": "燕房-阎村-1",
+  "n_times": 135,
+  "stats": {
+   "n": 135,
+   "n_hours": 19,
+   "median_gap": 8,
+   "max_gap": 28,
+   "min_gap": 4
+  },
+  "issues": [
+   {
+    "kind": "gap_large",
+    "gap": 28,
+    "at": "12:35->13:03",
+    "msg": "gap 28 min exceeds 18 (possible missed train)"
+   }
+  ],
+  "flags": [
+   {
+    "row_y": 724,
+    "kind": "repaired_swap",
+    "text": "81",
+    "fixed": "18"
+   },
+   {
+    "row_y": 724,
+    "kind": "repaired_swap",
+    "text": "72",
+    "fixed": "27"
+   },
+   {
+    "row_y": 724,
+    "kind": "repaired_swap",
+    "text": "83",
+    "fixed": "38"
+   }
+  ]
+ },
+ {
+  "source": "timetables/燕房-阎村-2.png",
+  "id": "燕房-阎村-2",
+  "n_times": 140,
+  "stats": {
+   "n": 140,
+   "n_hours": 18,
+   "median_gap": 8,
+   "max_gap": 19,
+   "min_gap": 4
+  },
+  "issues": [
+   {
+    "kind": "gap_large",
+    "gap": 18,
+    "at": "14:35->14:53",
+    "msg": "gap 18 min exceeds 18 (possible missed train)"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 19,
+    "at": "16:45->17:04",
+    "msg": "gap 19 min exceeds 18 (possible missed train)"
+   }
+  ],
+  "flags": [
+   {
+    "row_y": 302,
+    "kind": "ocr_fail",
+    "text": "0207121721263136424735236"
+   },
+   {
+    "row_y": 340,
+    "kind": "ocr_fail",
+    "text": "02071216212732374247515"
+   },
+   {
+    "row_y": 377,
+    "kind": "repaired_swap",
+    "text": "64",
+    "fixed": "46"
+   }
+  ]
+ },
+ {
+  "source": "timetables/燕房-阎村-3.png",
+  "id": "燕房-阎村-3",
+  "n_times": 123,
+  "stats": {
+   "n": 123,
+   "n_hours": 19,
+   "median_gap": 8,
+   "max_gap": 16,
+   "min_gap": 6
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 333,
+    "kind": "ocr_fail",
+    "text": "02091826344250459"
+   },
+   {
+    "row_y": 440,
+    "kind": "ocr_fail",
+    "text": "061423293846541"
+   },
+   {
+    "row_y": 511,
+    "kind": "ocr_fail",
+    "text": "061422313846454"
+   },
+   {
+    "row_y": 831,
+    "kind": "ocr_fail",
+    "text": "02101827344250538"
+   },
+   {
+    "row_y": 866,
+    "kind": "ocr_fail",
+    "text": "061322303846454"
+   }
+  ]
+ },
+ {
+  "source": "timetables/燕房-阎村-4.png",
+  "id": "燕房-阎村-4",
+  "n_times": 131,
+  "stats": {
+   "n": 131,
+   "n_hours": 18,
+   "median_gap": 8,
+   "max_gap": 10,
+   "min_gap": 6
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 301,
+    "kind": "repaired_swap",
+    "text": "94",
+    "fixed": "49"
+   },
+   {
+    "row_y": 338,
+    "kind": "ocr_fail",
+    "text": "04111927354352359"
+   },
+   {
+    "row_y": 451,
+    "kind": "ocr_fail",
+    "text": "000152331394755"
+   },
+   {
+    "row_y": 564,
+    "kind": "ocr_fail",
+    "text": "03121927354351459"
+   },
+   {
+    "row_y": 789,
+    "kind": "repaired_swap",
+    "text": "92",
+    "fixed": "29"
+   },
+   {
+    "row_y": 789,
+    "kind": "repaired_swap",
+    "text": "83",
+    "fixed": "38"
+   },
+   {
+    "row_y": 827,
+    "kind": "ocr_fail",
+    "text": "0152432394755"
+   },
+   {
+    "row_y": 864,
+    "kind": "ocr_fail",
+    "text": "03121928354351459"
+   }
+  ]
+ },
+ {
+  "source": "timetables/燕房-阎村东-1.png",
+  "id": "燕房-阎村东-1",
+  "n_times": 140,
+  "stats": {
+   "n": 140,
+   "n_hours": 18,
+   "median_gap": 8,
+   "max_gap": 19,
+   "min_gap": 4
+  },
+  "issues": [
+   {
+    "kind": "gap_large",
+    "gap": 19,
+    "at": "10:45->11:04",
+    "msg": "gap 19 min exceeds 18 (possible missed train)"
+   }
+  ],
+  "flags": [
+   {
+    "row_y": 269,
+    "kind": "ocr_fail",
+    "text": "0471220283541465156"
+   },
+   {
+    "row_y": 456,
+    "kind": "ocr_fail",
+    "text": "08172364534"
+   },
+   {
+    "row_y": 716,
+    "kind": "ocr_fail",
+    "text": "0817253339445034359"
+   }
+  ]
+ },
+ {
+  "source": "timetables/燕房-阎村东-2.png",
+  "id": "燕房-阎村东-2",
+  "n_times": 126,
+  "stats": {
+   "n": 126,
+   "n_hours": 18,
+   "median_gap": 8,
+   "max_gap": 16,
+   "min_gap": 6
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 489,
+    "kind": "ocr_fail",
+    "text": "00061422303846454"
+   },
+   {
+    "row_y": 601,
+    "kind": "repaired_swap",
+    "text": "80",
+    "fixed": "08"
+   }
+  ]
+ },
+ {
+  "source": "timetables/燕房-饶乐府-1.png",
+  "id": "燕房-饶乐府-1",
+  "n_times": 142,
+  "stats": {
+   "n": 142,
+   "n_hours": 18,
+   "median_gap": 8,
+   "max_gap": 10,
+   "min_gap": 4
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 298,
+    "kind": "bad_minute",
+    "text": "89"
+   },
+   {
+    "row_y": 476,
+    "kind": "ocr_fail",
+    "text": "0009192834756"
+   }
+  ]
+ },
+ {
+  "source": "timetables/燕房-饶乐府-2.png",
+  "id": "燕房-饶乐府-2",
+  "n_times": 138,
+  "stats": {
+   "n": 138,
+   "n_hours": 18,
+   "median_gap": 8,
+   "max_gap": 18,
+   "min_gap": 4
+  },
+  "issues": [
+   {
+    "kind": "gap_large",
+    "gap": 18,
+    "at": "10:25->10:43",
+    "msg": "gap 18 min exceeds 18 (possible missed train)"
+   }
+  ],
+  "flags": [
+   {
+    "row_y": 264,
+    "kind": "ocr_fail",
+    "text": "2028364435137"
+   },
+   {
+    "row_y": 340,
+    "kind": "ocr_fail",
+    "text": "0308131824283338434854358"
+   },
+   {
+    "row_y": 452,
+    "kind": "repaired_swap",
+    "text": "61",
+    "fixed": "16"
+   },
+   {
+    "row_y": 676,
+    "kind": "ocr_fail",
+    "text": "60010192938475"
+   },
+   {
+    "row_y": 752,
+    "kind": "ocr_fail",
+    "text": "0106111627126323742473156"
+   },
+   {
+    "row_y": 790,
+    "kind": "repaired_swap",
+    "text": "83",
+    "fixed": "38"
+   }
+  ]
+ },
+ {
+  "source": "timetables/燕房-饶乐府-3.png",
+  "id": "燕房-饶乐府-3",
+  "n_times": 127,
+  "stats": {
+   "n": 127,
+   "n_hours": 18,
+   "median_gap": 8,
+   "max_gap": 17,
+   "min_gap": 6
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 298,
+    "kind": "repaired_swap",
+    "text": "92",
+    "fixed": "29"
+   },
+   {
+    "row_y": 369,
+    "kind": "repaired_swap",
+    "text": "92",
+    "fixed": "29"
+   },
+   {
+    "row_y": 405,
+    "kind": "ocr_fail",
+    "text": "0815233139455"
+   },
+   {
+    "row_y": 440,
+    "kind": "ocr_fail",
+    "text": "03121827354351591"
+   },
+   {
+    "row_y": 476,
+    "kind": "ocr_fail",
+    "text": "081523313947455"
+   },
+   {
+    "row_y": 582,
+    "kind": "ocr_fail",
+    "text": "03111929354351459"
+   },
+   {
+    "row_y": 653,
+    "kind": "ocr_fail",
+    "text": "03121928354351459"
+   },
+   {
+    "row_y": 725,
+    "kind": "ocr_fail",
+    "text": "03111927344451539"
+   },
+   {
+    "row_y": 796,
+    "kind": "repaired_swap",
+    "text": "92",
+    "fixed": "29"
+   },
+   {
+    "row_y": 796,
+    "kind": "repaired_swap",
+    "text": "63",
+    "fixed": "36"
+   }
+  ]
+ },
+ {
+  "source": "timetables/燕房-饶乐府-4.png",
+  "id": "燕房-饶乐府-4",
+  "n_times": 122,
+  "stats": {
+   "n": 122,
+   "n_hours": 18,
+   "median_gap": 8,
+   "max_gap": 17,
+   "min_gap": 6
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 301,
+    "kind": "ocr_fail",
+    "text": "02101926344235038"
+   },
+   {
+    "row_y": 413,
+    "kind": "ocr_fail",
+    "text": "061422303946454"
+   },
+   {
+    "row_y": 488,
+    "kind": "ocr_fail",
+    "text": "061622303846454"
+   },
+   {
+    "row_y": 639,
+    "kind": "ocr_fail",
+    "text": "061422313846454"
+   },
+   {
+    "row_y": 714,
+    "kind": "ocr_fail",
+    "text": "071422313846454"
+   }
+  ]
+ },
+ {
+  "source": "timetables/燕房-马各庄-1.png",
+  "id": "燕房-马各庄-1",
+  "n_times": 140,
+  "stats": {
+   "n": 140,
+   "n_hours": 18,
+   "median_gap": 8,
+   "max_gap": 19,
+   "min_gap": 4
+  },
+  "issues": [
+   {
+    "kind": "gap_large",
+    "gap": 19,
+    "at": "10:24->10:43",
+    "msg": "gap 19 min exceeds 18 (possible missed train)"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 18,
+    "at": "12:45->13:03",
+    "msg": "gap 18 min exceeds 18 (possible missed train)"
+   }
+  ],
+  "flags": [
+   {
+    "row_y": 298,
+    "kind": "repaired_swap",
+    "text": "72",
+    "fixed": "27"
+   },
+   {
+    "row_y": 298,
+    "kind": "repaired_swap",
+    "text": "63",
+    "fixed": "36"
+   },
+   {
+    "row_y": 334,
+    "kind": "repaired_swap",
+    "text": "61",
+    "fixed": "16"
+   },
+   {
+    "row_y": 334,
+    "kind": "repaired_swap",
+    "text": "63",
+    "fixed": "36"
+   },
+   {
+    "row_y": 831,
+    "kind": "repaired_swap",
+    "text": "91",
+    "fixed": "19"
+   },
+   {
+    "row_y": 831,
+    "kind": "repaired_swap",
+    "text": "72",
+    "fixed": "27"
+   }
+  ]
+ },
+ {
+  "source": "timetables/燕房-马各庄-2.png",
+  "id": "燕房-马各庄-2",
+  "n_times": 141,
+  "stats": {
+   "n": 141,
+   "n_hours": 18,
+   "median_gap": 8,
+   "max_gap": 19,
+   "min_gap": 4
+  },
+  "issues": [
+   {
+    "kind": "gap_large",
+    "gap": 19,
+    "at": "14:34->14:53",
+    "msg": "gap 19 min exceeds 18 (possible missed train)"
+   }
+  ],
+  "flags": [
+   {
+    "row_y": 338,
+    "kind": "ocr_fail",
+    "text": "0106114162126303641465156"
+   },
+   {
+    "row_y": 564,
+    "kind": "ocr_fail",
+    "text": "0110202938483"
+   },
+   {
+    "row_y": 601,
+    "kind": "ocr_fail",
+    "text": "0616253444533"
+   },
+   {
+    "row_y": 826,
+    "kind": "ocr_fail",
+    "text": "00081624323948551"
+   }
+  ]
+ },
+ {
+  "source": "timetables/燕房-马各庄-3.png",
+  "id": "燕房-马各庄-3",
+  "n_times": 129,
+  "stats": {
+   "n": 129,
+   "n_hours": 18,
+   "median_gap": 8,
+   "max_gap": 16,
+   "min_gap": 6
+  },
+  "issues": [],
+  "flags": [
+   {
+    "row_y": 262,
+    "kind": "ocr_fail",
+    "text": "36480"
+   },
+   {
+    "row_y": 298,
+    "kind": "ocr_fail",
+    "text": "0613212934653"
+   },
+   {
+    "row_y": 334,
+    "kind": "ocr_fail",
+    "text": "0090917233415057"
+   },
+   {
+    "row_y": 404,
+    "kind": "ocr_fail",
+    "text": "0110123341497"
+   },
+   {
+    "row_y": 618,
+    "kind": "bad_minute",
+    "text": "98"
+   },
+   {
+    "row_y": 618,
+    "kind": "repaired_swap",
+    "text": "95",
+    "fixed": "59"
+   },
+   {
+    "row_y": 654,
+    "kind": "repaired_swap",
+    "text": "83",
+    "fixed": "38"
+   },
+   {
+    "row_y": 690,
+    "kind": "repaired_swap",
+    "text": "91",
+    "fixed": "19"
+   },
+   {
+    "row_y": 690,
+    "kind": "repaired_swap",
+    "text": "95",
+    "fixed": "59"
+   },
+   {
+    "row_y": 760,
+    "kind": "repaired_swap",
+    "text": "91",
+    "fixed": "19"
+   },
+   {
+    "row_y": 760,
+    "kind": "repaired_swap",
+    "text": "72",
+    "fixed": "27"
+   },
+   {
+    "row_y": 796,
+    "kind": "ocr_fail",
+    "text": "0513212834553"
+   },
+   {
+    "row_y": 832,
+    "kind": "ocr_fail",
+    "text": "019818253341497"
+   },
+   {
+    "row_y": 867,
+    "kind": "ocr_fail",
+    "text": "04132123745383"
+   }
+  ]
+ },
+ {
+  "source": "timetables/燕房-马各庄-4.png",
+  "id": "燕房-马各庄-4",
+  "n_times": 130,
+  "stats": {
+   "n": 130,
+   "n_hours": 18,
+   "median_gap": 8,
+   "max_gap": 18,
+   "min_gap": 6
+  },
+  "issues": [
+   {
+    "kind": "gap_large",
+    "gap": 18,
+    "at": "22:25->22:43",
+    "msg": "gap 18 min exceeds 18 (possible missed train)"
+   }
+  ],
+  "flags": [
+   {
+    "row_y": 264,
+    "kind": "ocr_fail",
+    "text": "18283644382"
+   },
+   {
+    "row_y": 414,
+    "kind": "ocr_fail",
+    "text": "041220283744482"
+   },
+   {
+    "row_y": 489,
+    "kind": "ocr_fail",
+    "text": "041420283644452"
+   },
+   {
+    "row_y": 526,
+    "kind": "repaired_swap",
+    "text": "81",
+    "fixed": "18"
+   },
+   {
+    "row_y": 639,
+    "kind": "ocr_fail",
+    "text": "041220293644452"
+   },
+   {
+    "row_y": 714,
+    "kind": "ocr_fail",
+    "text": "051220293644452"
+   }
+  ]
+ }
+]

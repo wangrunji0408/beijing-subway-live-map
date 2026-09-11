@@ -1,0 +1,39 @@
+{
+ "1": {
+  "direction": "亦庄火车站",
+  "service": "weekday",
+  "legend": {}
+ },
+ "2": {
+  "direction": "宋家庄",
+  "service": "weekday",
+  "legend": {}
+ },
+ "3": {
+  "direction": "亦庄火车站",
+  "service": "weekend",
+  "legend": {}
+ },
+ "4": {
+  "direction": "宋家庄",
+  "service": "weekend",
+  "legend": {}
+ },
+ "_images": {
+  "亦庄-亦庄火车站-1": {
+   "direction": "宋家庄",
+   "service": "weekday",
+   "legend": {}
+  },
+  "亦庄-宋家庄-2": {
+   "direction": "亦庄火车站",
+   "service": "weekend",
+   "legend": {}
+  },
+  "亦庄-亦庄火车站-2": {
+   "direction": "宋家庄",
+   "service": "weekend",
+   "legend": {}
+  }
+ }
+}

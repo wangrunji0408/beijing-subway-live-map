@@ -1,0 +1,46 @@
+{
+ "1": {
+  "direction": "北京西站",
+  "service": "weekday",
+  "legend": {"blue": "双合", "green": "高楼金"},
+  "note": "开往北京西站方向 工作日; legend from 7-北京西站-1 (purple-blue=双合, teal=高楼金); some stations (e.g. 7-化工-1) print no colour legend"
+ },
+ "2": {
+  "direction": "环球度假区",
+  "service": "weekday",
+  "legend": {"green": "双合", "blue": "高楼金"},
+  "note": "开往环球度假区站方向 工作日; legend from 7-化工-2"
+ },
+ "3": {
+  "direction": "北京西站",
+  "service": "weekend",
+  "legend": {},
+  "note": "开往北京西站方向 双休日; 7-化工-3 legend has no colour key"
+ },
+ "4": {
+  "direction": "环球度假区",
+  "service": "weekend",
+  "legend": {"green": "高楼金", "blue": "双合"},
+  "note": "开往环球度假区站方向 双休日; legend from 7-化工-4 (colours swapped vs suffix 2)"
+ },
+ "5": {
+  "direction": "北京西站",
+  "service": "weekend",
+  "legend": {},
+  "note": "7-双合-5 only; poster holds TWO stacked tables: top 开往北京西站方向 工作日 (双合始发, 3 rows), bottom 开往北京西站方向 双休日; legend is 始发站 双合 / 终点站 北京西站 (no colours)"
+ },
+ "6": {
+  "direction": "环球度假区",
+  "service": "weekend",
+  "legend": {},
+  "note": "7-双合-6 only; poster holds TWO stacked tables: top 开往环球度假区站方向 工作日 (双合始发), bottom 双休日; legend is 始发站 双合 / 终点站 环球度假区 (no colours)"
+ },
+ "_panels": {
+  "7-双合-5": {
+   "0": {"direction": "北京西站", "service": "weekend"}
+  },
+  "7-双合-6": {
+   "0": {"direction": "环球度假区", "service": "weekend"}
+  }
+ }
+}
