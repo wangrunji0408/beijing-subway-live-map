@@ -25,8 +25,10 @@ RUNS = os.path.join(ROOT, 'work', 'out', 'train_runs.jsonl')
 SPACING = os.path.join(ROOT, 'work', 'data', 'station_spacing', 'bjmoa_spacing.json')
 # lines whose rolling stock legitimately exceeds the metro speed bound
 FAST_LINES = {'大兴机场', '首都机场'}
-DWELL_MAX = 1.5   # minutes of dwell allowed on top of the slow-speed bound
-DWELL_MIN = 0.75  # a stop costs at least this long
+# the printed minute is the ARRIVAL: the train stands at the platform for one
+# minute and only then runs on, so a segment's RUNNING time is
+# (arrival difference) - DWELL.  Speeds are reported for that running time.
+DWELL = 1.0
 # the 大兴线 poster is published separately but is part of line 4
 MERGED_SPACING = {'4': ['大兴'], '1': ['八通']}
 
@@ -111,32 +113,31 @@ def main():
                 dt = tb - ta
                 if dt <= 0:
                     continue
-                # a segment's timetable gap = dwell + running; allow DWELL_MAX
-                # minutes of dwell on top of the slow bound, otherwise short
-                # inner-city hops (e.g. 木樨地->玉渊潭东门, 565 m) are always
-                # "too slow"
-                fast_lim = (m / 1000.0) / ((dt / 60.0))
-                # the timetable is printed in whole minutes, so a 1 km segment
-                # quantises to +-33% speed.  Use the diagram's calibrated tau
-                # (float) when available so rounding is not read as an error.
+                # the timetable is printed in whole minutes, so a segment time
+                # carries +-0.5 min; use the diagram's calibrated tau (float)
                 tau = g.get('tau') or {}
                 if sa in tau and sb in tau and tau[sb] > tau[sa]:
                     dtau = tau[sb] - tau[sa]
                 else:
                     dtau = float(dt)
-                kmh = (m / 1000.0) / (dtau / 60.0)
+                run_min = dtau - DWELL          # dwell does not move the train
+                if run_min <= 0.05:
+                    p = per_line[line]
+                    p['n'] += 1; p['fast'] += 1
+                    bad.append((1e6, 'FAST', line, g['direction'], g['service'],
+                                sa, sb, m, round(dtau, 1), 9999))
+                    continue
+                kmh = (m / 1000.0) / (run_min / 60.0)
+                # judge "too slow" on the favourable side of the rounding
+                kmh_hi = (m / 1000.0) / ((run_min + 0.5) / 60.0)
                 seg_speeds[(line, sa, sb)].append(kmh)
                 p = per_line[line]
                 p['n'] += 1; p['km'] += m / 1000.0; p['mins'] += dt
-                slow_bound = (m / 1000.0 / ((dtau - DWELL_MAX) / 60.0)
-                              if dtau > DWELL_MAX else 1e9)
-                fast_bound = (m / 1000.0 / ((dtau - DWELL_MIN) / 60.0)
-                              if dtau > DWELL_MIN else 1e9)
-                if (kmh > a.max and not fast_ok) or fast_bound > a.max:
+                if kmh > a.max and not fast_ok:
                     p['fast'] += 1
                     bad.append((kmh - a.max, 'FAST', line, g['direction'], g['service'],
                                 sa, sb, m, dt, round(kmh, 1)))
-                elif slow_bound < a.min:
+                elif kmh_hi < a.min:
                     p['slow'] += 1
                     bad.append((a.min - kmh, 'SLOW', line, g['direction'], g['service'],
                                 sa, sb, m, dt, round(kmh, 1)))
@@ -182,6 +183,31 @@ def main():
         _, ln, sa, sb, med, v, zz, cnt = o
         print(f"   {ln:6s} {sa}->{sb}  {v:6.1f} km/h vs line median {med:5.1f} "
               f"({v/med:.2f}x, z={zz:+.1f}, {cnt} runs)")
+
+    # ---- segments far below their own line's mean speed.  On a short hop the
+    # fixed dwell dominates, so a genuine 400 m platform-to-platform move looks
+    # slow; the list is still worth reading because a mis-parsed interval shows
+    # up here first.
+    print(f"\nsegments slower than half their line's mean speed:")
+    per_line_seg = defaultdict(list)
+    for (ln, sa, sb), vs in seg_speeds.items():
+        per_line_seg[ln].append((sort_median(vs), sa, sb, len(vs)))
+    half = []
+    for ln, items in per_line_seg.items():
+        if not items:
+            continue
+        mean = sum(v for v, _, _, _ in items) / len(items)
+        for v, sa, sb, cnt in items:
+            if v < mean / 2:
+                half.append((v / max(mean, 1e-9), ln, sa, sb, v, mean, cnt))
+    half.sort()
+    if not half:
+        print("   none")
+    for q, ln, sa, sb, v, mean, cnt in half[:a.max_show]:
+        km = (spacing.get(ln) or {}).get((canon(sa), canon(sb)))
+        print(f"   {ln:6s} {sa}->{sb} {v:5.1f} km/h = {q:.2f}x line mean {mean:4.1f}"
+              f"   ({'%.0fm' % km if km else '?'}, {cnt} groups)")
+    print(f"   total: {len(half)}")
 
     # ---- direction symmetry: running time between two stations is the same
     # both ways, so A->B and B->A must agree (dwell rounding aside)

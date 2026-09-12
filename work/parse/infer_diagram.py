@@ -445,6 +445,7 @@ def infer_group(line, sign, recs, meta=None, osm=None, segkey=None):
 
     runs = match_runs(order, stations, tau, tol=4)
     runs = [r for r in runs if len(r) >= 2]
+    _keep = {k: v for k, v in stations.items() if v}
     from collections import Counter as _C
     svc = m.get('service')
     if not svc:
@@ -454,7 +455,7 @@ def infer_group(line, sign, recs, meta=None, osm=None, segkey=None):
         direction = osm[-1] if sign == 1 else osm[0]
     else:
         direction = (osm[-1] if osm else None)
-    return dict(line=line, group=sign,
+    return dict(line=line, group=sign, _stations=_keep, _key=LINE_MAP.get(line, line),
                 direction=m.get('direction') or direction,
                 service=svc,
                 station_order=order, tau={k: round(tau[k], 1) for k in order},
@@ -520,6 +521,81 @@ def infer_key(key, lines):
     return out
 
 
+
+def symmetrize(groups):
+    """Give both directions of a station pair the same running time.
+
+    The two directions are calibrated independently; when one poster carries
+    noisy entries the matcher can settle two minutes away from the other
+    (大望路->四惠 came out at 5 min while 四惠->大望路 is 3), and a train then
+    crawls across the map.  Only pairs that disagree by SYM_TOL or more are
+    pooled, and the affected groups are re-timed and rebuilt.
+    """
+    SYM_TOL = 2.0
+    seg = defaultdict(list)
+    for g in groups:
+        key = g.get('_key')
+        tau, o = g['tau'], g['station_order']
+        for x, y in zip(o, o[1:]):
+            seg[(key, x, y)].append(tau[y] - tau[x])
+    ref = {}
+    for (key, x, y), v in seg.items():
+        w = seg.get((key, y, x))
+        if not w:
+            continue
+        m1, m2 = _median(v), _median(w)
+        if abs(m1 - m2) < SYM_TOL:
+            continue
+        dt = min(m1, m2)          # a too-long interval is the usual failure
+        tl = line_of_key(key)
+        km = seg_km(tl, x, y) if tl else None
+        if km and km > 0.05:
+            fast = key in FAST_LINES
+            lo = DWELL_MIN + km / (160.0 if fast else MAX_SEG_KMH) * 60.0
+            hi = DWELL_MAX + km / MIN_SEG_KMH * 60.0
+            dt = min(max(dt, lo), hi)
+        ref[(key, x, y)] = dt
+        ref[(key, y, x)] = dt
+
+    changed = 0
+    for g in groups:
+        key, o, tau = g.get('_key'), g['station_order'], g['tau']
+        new, prev, moved = {o[0]: 0.0}, 0.0, False
+        for x, y in zip(o, o[1:]):
+            dt = ref.get((key, x, y))
+            cur = tau.get(y, prev) - tau.get(x, 0.0)
+            if dt is None or abs(dt - cur) < 0.5:
+                dt = cur
+            else:
+                moved = True
+            prev = prev + max(dt, 0.5)
+            new[y] = prev
+        if not moved:
+            continue
+        changed += 1
+        runs = [r for r in match_runs(o, g['_stations'], new, tol=4) if len(r) >= 2]
+        g['tau'] = {k: round(v, 1) for k, v in new.items()}
+        g['total_travel'] = round(max(new.values()), 1)
+        g['n_runs'] = len(runs)
+        g['runs'] = [dict(stops=[dict(station=s, minute=r[s]) for s in o if s in r])
+                     for r in runs]
+    print(f"symmetrised {changed} groups")
+    return groups
+
+
+def _median(xs):
+    xs = sorted(xs); n = len(xs)
+    if not n: return 0.0
+    return xs[n // 2] if n % 2 else 0.5 * (xs[n // 2 - 1] + xs[n // 2])
+
+
+def line_of_key(key):
+    for ln, k in LINE_MAP.items():
+        if k == key:
+            return ln
+    return None
+
+
 def main():
     import argparse
     ap = argparse.ArgumentParser()
@@ -539,6 +615,7 @@ def main():
             allg.append(g)
             print(f"[{'+'.join(ls)}/{g['group']}] {g['n_stations']} stations, {g['n_runs']} runs, "
                   f"total={g['total_travel']}min dir={g['direction']} svc={g['service']}")
+    allg = symmetrize(allg)
     with open(a.out, 'w') as f:
         for g in allg:
             f.write(json.dumps(g, ensure_ascii=False) + '\n')
