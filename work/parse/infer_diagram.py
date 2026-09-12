@@ -74,7 +74,11 @@ def seg_km(line, a, b):
     for alt in MERGED_SPACING.get(line, []):
         d.update(allsp.get(alt) or {})
     return d.get((_canon(a), _canon(b)))
-EXTRA_AFTER = {'八角游乐园': '古城', '陶然桥': '永定门外', '红庙': '大望路'}
+EXTRA_AFTER = {'陶然桥': '永定门外', '红庙': '大望路'}
+# stations that trains currently run through without stopping (甩站); they have
+# no OSM geometry and no published spacing, so keeping them in the diagram put a
+# geometry-less stop between two real ones and trains vanished there
+CLOSED_STATIONS = {'八角游乐园'}
 
 _GEO = None
 _OSM = None
@@ -334,6 +338,8 @@ def match_runs(order, stations, tau, tol=4):
 def infer_group(line, sign, recs, meta=None, osm=None):
     merged = {}
     for r in recs:
+        if r['station'] in CLOSED_STATIONS:
+            continue          # 甩站：通过不停车
         ts = dedup_times(r)
         if ts:
             merged.setdefault(r['station'], []).extend(ts)

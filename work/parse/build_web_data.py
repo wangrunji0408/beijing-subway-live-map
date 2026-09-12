@@ -131,6 +131,13 @@ def build():
             continue
         oo = osm_order[okey]
         order = g['station_order']
+        # safety net: a station with no geometry on this line would make the
+        # train interpolation return nothing and the train would disappear
+        # between its neighbours, so drop such stops from the order
+        geom = {s['name'] for s in lines_out[okey]['stations']}
+        kept = [n for n in order if n in geom]
+        if len(kept) >= 2 and len(kept) != len(order):
+            order = kept
         # score forward vs reverse by the fraction of stations present in order
         def score(seq):
             pos = {norm(n): i for i, n in enumerate(seq)}
