@@ -538,6 +538,76 @@
   ]
  },
  {
+  "source": "timetables/17-望京西-1.jpg",
+  "id": "17-望京西-1",
+  "n_times": 143,
+  "stats": {
+   "n": 143,
+   "n_hours": 18,
+   "median_gap": 8,
+   "max_gap": 12,
+   "min_gap": 3
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/17-望京西-2.jpg",
+  "id": "17-望京西-2",
+  "n_times": 143,
+  "stats": {
+   "n": 143,
+   "n_hours": 18,
+   "median_gap": 8,
+   "max_gap": 16,
+   "min_gap": 1
+  },
+  "issues": [
+   {
+    "kind": "gap_small",
+    "gap": 1,
+    "at": "15:49->15:50",
+    "msg": "gap 1 min is below 2"
+   }
+  ],
+  "flags": []
+ },
+ {
+  "source": "timetables/17-望京西-3.jpg",
+  "id": "17-望京西-3",
+  "n_times": 130,
+  "stats": {
+   "n": 130,
+   "n_hours": 18,
+   "median_gap": 8,
+   "max_gap": 12,
+   "min_gap": 1
+  },
+  "issues": [
+   {
+    "kind": "gap_small",
+    "gap": 1,
+    "at": "11:11->11:12",
+    "msg": "gap 1 min is below 2"
+   }
+  ],
+  "flags": []
+ },
+ {
+  "source": "timetables/17-望京西-4.jpg",
+  "id": "17-望京西-4",
+  "n_times": 130,
+  "stats": {
+   "n": 130,
+   "n_hours": 18,
+   "median_gap": 8,
+   "max_gap": 11,
+   "min_gap": 2
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
   "source": "timetables/17-未来科学城-1.jpg",
   "id": "17-未来科学城-1",
   "n_times": 142,
