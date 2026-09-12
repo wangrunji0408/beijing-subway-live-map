@@ -110,6 +110,20 @@ const SERVICE_ZH = { weekday: '工作日', weekend: '双休日', unknown: '未�
 /* minutes a train stands at each station: it arrives on the printed minute and
    departs DWELL minutes later */
 const DWELL = 1;
+/* the service filter is by day of week; each day picks up every schedule type
+   that runs on it.  Ordinary lines post 工作日/双休日, the Airport Express posts
+   周一至周四+双休日 / 周五, and the Daxing Airport Express adds a Sunday
+   extension plus its 重点保障 trains. */
+const DAY_LABELS = ['周一','周二','周三','周四','周五','周六','周日'];
+const DAY_SERVICES = [
+  ['weekday','mon-thu_weekend','key_guaranteed'],
+  ['weekday','mon-thu_weekend','key_guaranteed'],
+  ['weekday','mon-thu_weekend','key_guaranteed'],
+  ['weekday','mon-thu_weekend','key_guaranteed'],
+  ['weekday','friday','key_guaranteed'],
+  ['weekend','mon-thu_weekend','key_guaranteed'],
+  ['weekend','mon-thu_weekend','sunday_extension','key_guaranteed'],
+];
 const DAY_ZH = ['周日','周一','周二','周三','周四','周五','周六'];
 
 let NET = null;          // network.json
@@ -119,7 +133,7 @@ let state = {
   t: 480,                // minutes since midnight
   playing: true,
   speed: 60,             // simulated seconds per real second
-  service: 'weekday',
+  day: 0,                 // 0 = 周一 ... 6 = 周日
   hidden: new Set(),
   selected: null,        // {g, r} of the clicked train
 };
@@ -230,16 +244,17 @@ function pointAtDistance(L, d) {
 function buildUI() {
   const sc = document.getElementById('services');
   document.getElementById('daytype').textContent =
-    (SERVICE_ZH[state.service] || state.service) + ' · 运行图';
+    DAY_LABELS[state.day] + ' · 运行图';
   sc.innerHTML = '';
-  const svcs = [...new Set(NET.groups.map(g=>g.service||'unknown'))];
-  for (const s of svcs) {
+  DAY_LABELS.forEach((label, i) => {
+    const n = NET.groups.filter(g => DAY_SERVICES[i].includes(g.service||'unknown')).length;
     const el = document.createElement('div');
-    el.className = 'chip' + (state.service===s?'':' off');
-    el.textContent = SERVICE_ZH[s] || s;
-    el.onclick = () => { state.service = s; buildUI(); };
+    el.className = 'chip' + (state.day===i?'':' off');
+    el.textContent = label + (n ? '' : '（无）');
+    el.title = label + '：' + DAY_SERVICES[i].map(x => SERVICE_ZH[x]||x).join(' / ');
+    el.onclick = () => { state.day = i; buildUI(); };
     sc.appendChild(el);
-  }
+  });
   const lc = document.getElementById('lines');
   lc.innerHTML = '';
   for (const key of Object.keys(NET.lines)) {
@@ -260,7 +275,7 @@ function activeRuns() {
   // returns array of {g, r} for runs active at state.t
   const out = [];
   for (const g of NET.groups) {
-    if ((g.service||'unknown') !== state.service) continue;
+    if (!DAY_SERVICES[state.day].includes(g.service||'unknown')) continue;
     if (state.hidden.has(g.line)) continue;
     for (const r of g.runs) {
       if (state.t < r[1] || state.t > r[r.length-1] + DWELL) continue;

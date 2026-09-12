@@ -127,7 +127,8 @@ def main():
                 p = per_line[line]
                 p['n'] += 1; p['km'] += m / 1000.0; p['mins'] += dt
                 slow_bound = m / 1000.0 / ((dt - DWELL_MAX) / 60.0) if dt > DWELL_MAX else 1e9
-                fast_bound = m / 1000.0 / ((dt - DWELL_MIN) / 60.0) if dt > DWELL_MIN else 1e9
+                fast_bound = (m / 1000.0 / ((dtau - DWELL_MIN) / 60.0)
+                              if dtau > DWELL_MIN else 1e9)
                 if (kmh > a.max and not fast_ok) or fast_bound > a.max:
                     p['fast'] += 1
                     bad.append((kmh - a.max, 'FAST', line, g['direction'], g['service'],

@@ -40,6 +40,7 @@ FAST_LINES = {'大兴机场', '首都机场'}
 MAX_SEG_KMH = 85.0     # metro rolling stock ceiling
 MIN_SEG_KMH = 20.0     # slowest plausible RUNNING average
 DWELL_MAX = 1.5        # minutes of station dwell a segment may additionally take
+MAX_TERMINUS_HOPS = 3  # how far past the last poster we may extrapolate
 DWELL_MIN = 0.75       # a stop costs at least this long, so a segment cannot
                        # be shorter than DWELL_MIN + running time
 _SPACING = None
@@ -301,6 +302,12 @@ def calibrate_tau(order, stations, tau_geo, line=None):
     for i, s in enumerate(order[1:], start=1):
         km = seg_km(line, order[i - 1], s) if line else None
         seg_geo = tau_geo[s] - tau_geo[order[i - 1]]
+        if not stations.get(s):
+            # no poster here (the terminus): use the geometric running time
+            run = max(seg_geo, (km / MAX_SEG_KMH * 60.0) if km else 0.0)
+            prev = prev + DWELL_MIN + run      # dwell at the stop + running time
+            fit[s] = prev
+            continue
         if km and km > 0.05:
             hi_kmh = 160.0 if fast else MAX_SEG_KMH
             d_lo = prev + DWELL_MIN + km / hi_kmh * 60.0
@@ -319,23 +326,34 @@ def match_runs(order, stations, tau, tol=4):
     """Every train uses the same calibrated tau, so no train can overtake
     another.  A train is truncated at the LAST station with a matching
     departure (its short-turn terminus); interior OCR gaps are bridged with the
-    predicted time, so a train never vanishes mid-line."""
+    predicted time, so a train never vanishes mid-line.
+
+    The terminus has no arrival poster (its board lists the opposite direction),
+    so a train that reaches the LAST station that does have data continues to
+    the end of the order; a train that short-turns earlier still stops early.
+    """
     origin = order[0]
     base = stations[origin]
+    data_idx = [i for i, s in enumerate(order) if stations.get(s)]
+    last_data = max(data_idx) if data_idx else len(order) - 1
     runs = []
     for t0 in base:
         last = -1
         for i, s in enumerate(order):
+            if not stations.get(s):
+                continue
             pred = t0 + tau[s]
             if any(abs(x - pred) <= tol for x in stations[s]):
                 last = i
         if last < 1:
             continue
+        if last >= last_data:
+            last = len(order) - 1          # run through to the terminus
         runs.append({order[i]: int(round(t0 + tau[order[i]])) for i in range(last + 1)})
     return runs
 
 
-def infer_group(line, sign, recs, meta=None, osm=None):
+def infer_group(line, sign, recs, meta=None, osm=None, segkey=None):
     merged = {}
     for r in recs:
         if r['station'] in CLOSED_STATIONS:
@@ -358,7 +376,7 @@ def infer_group(line, sign, recs, meta=None, osm=None):
     if len(stations) < 2:
         return None
     present = set(stations)
-    key = LINE_MAP.get(line)
+    key = segkey or LINE_MAP.get(line)
     m = (meta or {}).get(sign, {}) or {}
     if not isinstance(m, dict):
         m = {}
@@ -383,6 +401,27 @@ def infer_group(line, sign, recs, meta=None, osm=None):
             order = seq if et[seq[-1]] >= et[seq[0]] else list(reversed(seq))
     else:
         order = sorted(stations, key=lambda n: early_time(stations[n]))
+
+    # posters stop one (sometimes two) stations short of the terminus, because
+    # the terminus board only shows the departing direction; add the remaining
+    # stations of this direction so trains are drawn all the way in
+    if osm:
+        pos_o = {_canon(n): i for i, n in enumerate(osm)}
+        step = 1 if sign == 1 else -1
+        term = osm[-1] if sign == 1 else osm[0]
+        i = pos_o.get(_canon(order[-1]))
+        extra = []
+        if i is not None and _canon(order[-1]) != _canon(term):
+            j = i + step
+            while 0 <= j < len(osm) and len(extra) < MAX_TERMINUS_HOPS:
+                extra.append(osm[j])
+                j += step
+            if extra and _canon(extra[-1]) != _canon(term):
+                extra = []                 # gap too long: another group covers it
+        for n in extra:
+            if n not in stations:
+                stations[n] = []
+            order.append(n)
 
     km = station_km(key, order) if key else None
     if km and sum(1 for n in order if km.get(n) is not None) >= 2:
@@ -424,6 +463,27 @@ def infer_group(line, sign, recs, meta=None, osm=None):
                       for r in runs])
 
 
+def physical_lines():
+    """{physical key: [timetable line names]} - 1号线 and 八通线 are one line on
+    the ground, 4号线 and 大兴线 likewise, so their posters must be merged or
+    each diagram stops at the boundary and the shared section gets no trains."""
+    out = defaultdict(list)
+    for p in sorted(glob.glob(os.path.join(PARSED, '*.jsonl'))):
+        ln = os.path.basename(p)[:-6]
+        k = LINE_MAP.get(ln)
+        if k:
+            out[k].append(ln)
+    return out
+
+
+def display_name(key, lines):
+    """the name to show on the map: prefer the primary (non-suffix) line"""
+    for ln in lines:
+        if ln == key:
+            return ln
+    return sorted(lines, key=len)[0]
+
+
 def infer_line(line, meta=None):
     recs = load_line(line)
     if not recs:
@@ -433,6 +493,27 @@ def infer_line(line, meta=None):
     loop = line in LOOP_LINES
     for key, rs in sorted(group_records(line, recs, osm, loop).items(), key=lambda kv: str(kv[0])):
         g = infer_group(line, key[0], rs, meta, osm)
+        if g:
+            out.append(g)
+    return out
+
+
+def infer_key(key, lines):
+    """Build every diagram that lies on one physical line key."""
+    recs = []
+    for ln in lines:
+        for r in load_line(ln):
+            r = dict(r)
+            r['_tline'] = ln
+            recs.append(r)
+    if not recs:
+        return []
+    osm = [s['name'] for s in osm_order_by_key(key)]
+    disp = display_name(key, lines)
+    out = []
+    for gk, rs in sorted(group_records(key, recs, osm, key in LOOP_LINES).items(),
+                         key=lambda kv: str(kv[0])):
+        g = infer_group(disp, gk[0], rs, None, osm, segkey=key)
         if g:
             out.append(g)
     return out
@@ -448,14 +529,14 @@ def main():
              for p in sorted(glob.glob(os.path.join(PARSED, '*.jsonl')))]
     os.makedirs(OUT, exist_ok=True)
     allg = []
-    for line in lines:
-        meta = {}
-        mp = os.path.join(PARSED, line, 'meta.json')
-        if os.path.exists(mp):
-            meta = json.load(open(mp))
-        for g in infer_line(line, meta):
+    phys = physical_lines()
+    if a.lines:
+        want = set(lines)
+        phys = {k: [l for l in ls] for k, ls in phys.items() if want & set(ls)}
+    for key, ls in sorted(phys.items(), key=lambda kv: str(kv[0])):
+        for g in infer_key(key, ls):
             allg.append(g)
-            print(f"[{line}/{g['group']}] {g['n_stations']} stations, {g['n_runs']} runs, "
+            print(f"[{'+'.join(ls)}/{g['group']}] {g['n_stations']} stations, {g['n_runs']} runs, "
                   f"total={g['total_travel']}min dir={g['direction']} svc={g['service']}")
     with open(a.out, 'w') as f:
         for g in allg:
