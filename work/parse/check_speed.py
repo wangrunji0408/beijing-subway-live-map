@@ -77,6 +77,8 @@ def main():
     ap.add_argument('--z', type=float, default=5.0, help='flag |robust z| above this')
     ap.add_argument('--min-dev', type=float, default=15.0, help='minimum deviation from the median (km/h)')
     ap.add_argument('--strict', action='store_true', help='also fail on per-line outliers')
+    ap.add_argument('--sym-tol', type=float, default=1.5,
+                    help='max difference (min) between the A->B and B->A segment times')
     a = ap.parse_args()
 
     spacing = load_spacing()
@@ -126,7 +128,8 @@ def main():
                 seg_speeds[(line, sa, sb)].append(kmh)
                 p = per_line[line]
                 p['n'] += 1; p['km'] += m / 1000.0; p['mins'] += dt
-                slow_bound = m / 1000.0 / ((dt - DWELL_MAX) / 60.0) if dt > DWELL_MAX else 1e9
+                slow_bound = (m / 1000.0 / ((dtau - DWELL_MAX) / 60.0)
+                              if dtau > DWELL_MAX else 1e9)
                 fast_bound = (m / 1000.0 / ((dtau - DWELL_MIN) / 60.0)
                               if dtau > DWELL_MIN else 1e9)
                 if (kmh > a.max and not fast_ok) or fast_bound > a.max:
@@ -179,6 +182,36 @@ def main():
         _, ln, sa, sb, med, v, zz, cnt = o
         print(f"   {ln:6s} {sa}->{sb}  {v:6.1f} km/h vs line median {med:5.1f} "
               f"({v/med:.2f}x, z={zz:+.1f}, {cnt} runs)")
+
+    # ---- direction symmetry: running time between two stations is the same
+    # both ways, so A->B and B->A must agree (dwell rounding aside)
+    seg_times = defaultdict(list)
+    for g in groups:
+        tau = g.get('tau') or {}
+        o = g['station_order']
+        for x, y in zip(o, o[1:]):
+            if x in tau and y in tau:
+                seg_times[(g['line'], x, y)].append(tau[y] - tau[x])
+    asym = []
+    for (ln, sa, sb), v in seg_times.items():
+        w = seg_times.get((ln, sb, sa))
+        if not w:
+            continue
+        if sa > sb:
+            continue                     # report each unordered pair once
+        d1, d2 = sort_median(v), sort_median(w)
+        if abs(d1 - d2) >= a.sym_tol:
+            asym.append((abs(d1 - d2), ln, sa, sb, d1, d2, len(v), len(w)))
+    asym.sort(reverse=True)
+    print(f"\ndirection-asymmetry check (|A->B - B->A| >= {a.sym_tol:g} min):")
+    if not asym:
+        print("   none")
+    for o in asym[:a.max_show]:
+        _, ln, sa, sb, d1, d2, c1, c2 = o
+        km = (spacing.get(ln) or {}).get((canon(sa), canon(sb)))
+        print(f"   {ln:6s} {sa}->{sb} {d1:5.1f}min  vs  {sb}->{sa} {d2:5.1f}min"
+              f"   ({'%.0fm' % km if km else '?'}, {c1}/{c2} groups)")
+    print(f"   asymmetric pairs: {len(asym)}")
 
     if missing:
         print("\nsegments with no published spacing (top 10):")
