@@ -39,7 +39,10 @@ SPACING_PATH = os.path.join(DATA, 'station_spacing', 'bjmoa_spacing.json')
 FAST_LINES = {'大兴机场', '首都机场'}
 MAX_SEG_KMH = 85.0     # metro rolling stock ceiling
 MIN_SEG_KMH = 20.0     # slowest plausible RUNNING average
-EXPRESS_KMH = 45.0     # the airport expresses average about this
+# the two airport expresses are far faster than the network average; the
+# Daxing Airport Express runs at up to 160 km/h (草桥-大兴新城 13.0 km in ~6 min,
+# the full 38.3 km in ~20), the Capital Airport Express averages about 45
+EXPRESS_KMH = {'大兴机场': 115.0, '首都机场': 45.0}
 DWELL_MAX = 1.5        # minutes of station dwell a segment may additionally take
 MAX_TERMINUS_HOPS = 3  # how far past the last poster we may extrapolate
 DWELL_MIN = 0.75       # a stop costs at least this long, so a segment cannot
@@ -504,7 +507,7 @@ def infer_group(line, sign, recs, meta=None, osm=None, segkey=None):
                 km[n] = lo[1] if lo[0] == hi[0] else lo[1] + (i - lo[0]) / (hi[0] - lo[0]) * (hi[1] - lo[1])
         d0 = km[order[0]]
         # the airport expresses run far faster than the network average
-        v = EXPRESS_KMH if line in FAST_LINES else AVG_SPEED_KMH
+        v = EXPRESS_KMH.get(line, AVG_SPEED_KMH)
         tau = {n: abs(km[n] - d0) / v * 60 for n in order}
     else:
         tau = {n: i / max(1, len(order) - 1) * 50.0 for i, n in enumerate(order)}
