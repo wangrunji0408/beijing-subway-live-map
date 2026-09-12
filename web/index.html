@@ -112,7 +112,8 @@
 </div>
 <script>
 const SERVICE_ZH = { weekday: '工作日', weekend: '双休日', unknown: '未知',
-  key_guaranteed: '重点保障', 'mon-thu_weekend': '周一至周四+双休日',
+  ordinary: '平日', key_guaranteed: '重点保障（周五及重点保障期）',
+  'mon-thu_weekend': '周一至周四+双休日',
   friday: '周五', sunday_extension: '周日延长运营' };
 /* minutes a train stands at each station: it arrives on the printed minute and
    departs DWELL minutes later */
@@ -123,13 +124,13 @@ const DWELL = 1;
    extension plus its 重点保障 trains. */
 const DAY_LABELS = ['周一','周二','周三','周四','周五','周六','周日'];
 const DAY_SERVICES = [
-  ['weekday','mon-thu_weekend','key_guaranteed'],
-  ['weekday','mon-thu_weekend','key_guaranteed'],
-  ['weekday','mon-thu_weekend','key_guaranteed'],
-  ['weekday','mon-thu_weekend','key_guaranteed'],
-  ['weekday','friday','key_guaranteed'],
-  ['weekend','mon-thu_weekend','key_guaranteed'],
-  ['weekend','mon-thu_weekend','sunday_extension','key_guaranteed'],
+  ['weekday','mon-thu_weekend','ordinary'],                       // 周一
+  ['weekday','mon-thu_weekend','ordinary'],                       // 周二
+  ['weekday','mon-thu_weekend','ordinary'],                       // 周三
+  ['weekday','mon-thu_weekend','ordinary'],                       // 周四
+  ['weekday','friday','key_guaranteed'],                          // 周五
+  ['weekend','mon-thu_weekend','ordinary'],                       // 周六
+  ['weekend','mon-thu_weekend','ordinary','sunday_extension'],    // 周日
 ];
 const DAY_ZH = ['周日','周一','周二','周三','周四','周五','周六'];
 

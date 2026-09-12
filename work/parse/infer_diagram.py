@@ -345,8 +345,8 @@ def match_runs(order, stations, tau, tol=4):
             pred = t0 + tau[s]
             if any(abs(x - pred) <= tol for x in stations[s]):
                 last = i
-        if last < 1:
-            continue
+        if last < 0:
+            continue          # matched nothing at all
         if last >= last_data:
             last = len(order) - 1          # run through to the terminus
         runs.append({order[i]: int(round(t0 + tau[order[i]])) for i in range(last + 1)})
@@ -373,8 +373,9 @@ def infer_group(line, sign, recs, meta=None, osm=None, segkey=None):
     stations = {}
     for k, v in by_canon.items():
         stations[osm_name.get(k, k)] = sorted(set(v))
-    if len(stations) < 2:
-        return None
+    if not stations:
+        return None      # a single station is fine: the terminus extension
+                         # completes the order (e.g. the Sunday late-night table)
     present = set(stations)
     key = segkey or LINE_MAP.get(line)
     m = (meta or {}).get(sign, {}) or {}
