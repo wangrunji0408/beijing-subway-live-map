@@ -36,6 +36,8 @@
   .stat { display:flex; justify-content:space-between; font-size:12px; color:var(--muted); padding:2px 0; }
   .stat b { color:var(--fg); font-variant-numeric: tabular-nums; }
   #traininfo { max-height: 320px; overflow-y: auto; }
+  #hist { width: 100%; height: 112px; display: block; border-radius: 6px;
+    background: #0d1117; border: 1px solid var(--line); }
   .thead { color: var(--fg); font-size: 12px; margin-bottom: 6px; }
   .tstops { font-size: 12px; }
   .trow { display: flex; justify-content: space-between; gap: 8px; padding: 3px 0;
@@ -98,6 +100,10 @@
     <div class="stat"><span>显示线路</span><b id="nLines">–</b></div>
     <div class="stat"><span>车站总数</span><b id="nStations">–</b></div>
     <div class="stat"><span>列车运行图班次</span><b id="nRuns">–</b></div>
+
+    <label>在线列车数 · 全天变化</label>
+    <canvas id="hist" height="112"></canvas>
+    <div class="sub" id="histtip">–</div>
 
     <label>选中列车 · 逐站时刻</label>
     <div id="traininfo" class="sub">点击地图上的列车查看它的运行图（逐站时刻）</div>
@@ -252,7 +258,7 @@ function buildUI() {
     el.className = 'chip' + (state.day===i?'':' off');
     el.textContent = label + (n ? '' : '（无）');
     el.title = label + '：' + DAY_SERVICES[i].map(x => SERVICE_ZH[x]||x).join(' / ');
-    el.onclick = () => { state.day = i; buildUI(); };
+    el.onclick = () => { state.day = i; buildUI(); drawHist(true); };
     sc.appendChild(el);
   });
   const lc = document.getElementById('lines');
@@ -262,7 +268,8 @@ function buildUI() {
     const el = document.createElement('div');
     el.className = 'chip' + (state.hidden.has(key)?' off':'');
     el.innerHTML = `<span class="dot" style="background:${L.color}"></span>${L.name}`;
-    el.onclick = () => { state.hidden.has(key)?state.hidden.delete(key):state.hidden.add(key); buildUI(); };
+    el.onclick = () => { state.hidden.has(key)?state.hidden.delete(key):state.hidden.add(key);
+                         buildUI(); drawHist(true); };
     lc.appendChild(el);
   }
   document.getElementById('nStations').textContent =
@@ -310,6 +317,84 @@ function trainPos(g, r, t) {
   const span = tb - depart;
   const f = span > 0 ? Math.max(0, Math.min(1, (t-depart)/span)) : 1;
   return pointAtDistance(L, (da + (db-da)*f) * L.len);
+}
+
+
+/* ---------------- trains-online histogram ---------------- */
+let histCache = null, histKey = '';
+function trainSeries() {
+  // how many trains are running at each 5-minute slot of the service day
+  const key = state.day + '|' + [...state.hidden].sort().join(',');
+  if (histKey === key && histCache) return histCache;
+  const T0 = 4*60, T1 = 25*60, STEP = 5;
+  const n = Math.floor((T1 - T0) / STEP) + 1;
+  const vals = new Array(n).fill(0);
+  for (const g of NET.groups) {
+    if (!DAY_SERVICES[state.day].includes(g.service || 'unknown')) continue;
+    if (state.hidden.has(g.line)) continue;
+    for (const r of g.runs) {
+      const a = r[1], b = r[r.length-1] + DWELL;
+      const i0 = Math.max(0, Math.ceil((a - T0) / STEP));
+      const i1 = Math.min(n - 1, Math.floor((b - T0) / STEP));
+      for (let i = i0; i <= i1; i++) vals[i]++;
+    }
+  }
+  let max = 1;
+  for (const v of vals) if (v > max) max = v;
+  histCache = {T0, T1, STEP, vals, max};
+  histKey = key;
+  return histCache;
+}
+
+let histLastMin = -1;
+function drawHist(force) {
+  const c = document.getElementById('hist');
+  if (!c) return;
+  const bucket = Math.floor(state.t);
+  if (!force && bucket === histLastMin) return;   // once per service minute
+  histLastMin = bucket;
+  const w = c.clientWidth || 240, h = 112;
+  const dpr = window.devicePixelRatio || 1;
+  if (c.width !== Math.round(w*dpr) || c.height !== Math.round(h*dpr)) {
+    c.width = Math.round(w*dpr); c.height = Math.round(h*dpr);
+  }
+  const x = c.getContext('2d');
+  x.setTransform(dpr, 0, 0, dpr, 0, 0);
+  x.clearRect(0, 0, w, h);
+  const S = trainSeries();
+  const padL = 26, padR = 6, padT = 8, padB = 14;
+  const X = t => padL + (t - S.T0) / (S.T1 - S.T0) * (w - padL - padR);
+  const Y = v => h - padB - v / S.max * (h - padT - padB);
+  x.font = '9px sans-serif';
+  x.strokeStyle = '#21262d'; x.lineWidth = 1;
+  for (const frac of [0, 0.5, 1]) {
+    const v = Math.round(S.max * frac), yy = Y(v);
+    x.beginPath(); x.moveTo(padL, yy); x.lineTo(w - padR, yy); x.stroke();
+    x.fillStyle = '#6b7280'; x.fillText(String(v), 3, yy + 3);
+  }
+  for (let t = Math.ceil(S.T0/180)*180; t <= S.T1; t += 180) {
+    x.strokeStyle = '#1b2028';
+    x.beginPath(); x.moveTo(X(t), padT); x.lineTo(X(t), h - padB); x.stroke();
+    x.fillStyle = '#6b7280'; x.fillText(fmt(t), X(t) - 11, h - 3);
+  }
+  x.beginPath(); x.moveTo(X(S.T0), Y(S.vals[0]));
+  S.vals.forEach((v, i) => x.lineTo(X(S.T0 + i*S.STEP), Y(v)));
+  x.lineTo(X(S.T1), h - padB); x.lineTo(X(S.T0), h - padB); x.closePath();
+  x.fillStyle = 'rgba(88,166,255,.18)'; x.fill();
+  x.beginPath();
+  S.vals.forEach((v, i) => {
+    const px = X(S.T0 + i*S.STEP), py = Y(v);
+    i ? x.lineTo(px, py) : x.moveTo(px, py);
+  });
+  x.strokeStyle = '#58a6ff'; x.lineWidth = 1.6; x.stroke();
+  const tc = Math.min(Math.max(state.t, S.T0), S.T1);
+  const ix = Math.min(S.vals.length - 1, Math.max(0, Math.round((tc - S.T0) / S.STEP)));
+  const v = S.vals[ix];
+  x.strokeStyle = '#ff4d4d'; x.lineWidth = 1;
+  x.beginPath(); x.moveTo(X(tc), padT); x.lineTo(X(tc), h - padB); x.stroke();
+  x.beginPath(); x.arc(X(tc), Y(v), 3, 0, 7); x.fillStyle = '#ff4d4d'; x.fill();
+  const el = document.getElementById('histtip');
+  if (el) el.textContent = `${fmt(state.t)} · 在线 ${v} 列 · 全天峰值 ${S.max} 列`;
 }
 
 /* ---------------- render ---------------- */
@@ -361,6 +446,7 @@ function draw() {
     shown++;
   }
   document.getElementById('nTrains').textContent = shown;
+  drawHist();
   document.getElementById('nLines').textContent =
     Object.keys(NET.lines).filter(k=>!state.hidden.has(k)).length;
   drawDiagram();
