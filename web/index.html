@@ -107,6 +107,9 @@
 const SERVICE_ZH = { weekday: '工作日', weekend: '双休日', unknown: '未知',
   key_guaranteed: '重点保障', 'mon-thu_weekend': '周一至周四+双休日',
   friday: '周五', sunday_extension: '周日延长运营' };
+/* minutes a train stands at each station: it arrives on the printed minute and
+   departs DWELL minutes later */
+const DWELL = 1;
 const DAY_ZH = ['周日','周一','周二','周三','周四','周五','周六'];
 
 let NET = null;          // network.json
@@ -260,7 +263,7 @@ function activeRuns() {
     if ((g.service||'unknown') !== state.service) continue;
     if (state.hidden.has(g.line)) continue;
     for (const r of g.runs) {
-      if (state.t < r[1] || state.t > r[r.length-1]) continue;
+      if (state.t < r[1] || state.t > r[r.length-1] + DWELL) continue;
       out.push({g, r});
     }
   }
@@ -269,15 +272,28 @@ function activeRuns() {
 
 function trainPos(g, r, t) {
   // r = [idx0, min0, idx1, min1, ...]
+  // The printed minute is the ARRIVAL: the train sits at the station for
+  // DWELL minutes and only then runs to the next one.
+  const L = NET.lines[g.line];
+  const lastArr = r[r.length-1];
+  if (t < r[1] || t > lastArr + DWELL) return null;
+  const posAt = i => {
+    const d = g.stationD[r[2*i]];
+    return (d === null || d === undefined) ? null : pointAtDistance(L, d * L.len);
+  };
+  if (t >= lastArr) return posAt(r.length/2 - 1);      // dwelling at the terminus
   let k = 0;
   while (k+3 < r.length && r[k+3] < t) k += 2;
-  if (k+3 >= r.length) return null;
+  if (k+3 >= r.length) return posAt(r.length/2 - 1);
   const ia = r[k], ta = r[k+1], ib = r[k+2], tb = r[k+3];
   const da = g.stationD[ia], db = g.stationD[ib];
-  const L = NET.lines[g.line];
   if (da === null || db === null || da === undefined || db === undefined) return null;
-  const span = tb - ta;
-  const f = span>0 ? Math.max(0, Math.min(1, (t-ta)/span)) : 0;
+  const dt = tb - ta;
+  const dwell = Math.min(DWELL, Math.max(0, dt));   // never dwell past the interval
+  const depart = ta + dwell;
+  if (t <= depart) return pointAtDistance(L, da * L.len);
+  const span = tb - depart;
+  const f = span > 0 ? Math.max(0, Math.min(1, (t-depart)/span)) : 1;
   return pointAtDistance(L, (da + (db-da)*f) * L.len);
 }
 
@@ -405,14 +421,17 @@ function renderTrainInfo() {
   const now = state.t;
   let html = `<div class="thead">${L ? L.name : g.line} · 开往 ${g.direction || '?'}<br>` +
              `<span class="sub">${SERVICE_ZH[g.service] || g.service || ''} · ` +
-             `${fmt(r[1])} 发车 · ${Math.round((r[r.length-1]-r[1]))} 分钟全程</span></div>`;
+             `${fmt(r[1])} 发车 · 每站停 ${DWELL} 分钟 · ` +
+             `${Math.round(r[r.length-1]-r[1]) + DWELL} 分钟全程</span></div>`;
   html += '<div class="tstops">';
   for (let k = 0; k < r.length; k += 2) {
     const idx = r[k], t = r[k+1];
-    const nxt = (k+3 < r.length) ? r[k+3] : null;
-    const cls = (now >= t && (nxt === null || now < nxt)) ? 'now'
-              : (now >= t ? 'past' : '');
-    html += `<div class="trow ${cls}"><span>${g.stations[idx]}</span><span class="t">${fmt(t)}</span></div>`;
+    const dep = t + DWELL;
+    const dwelling = now >= t && now < dep;
+    const cls = dwelling ? 'now' : (now >= dep ? 'past' : '');
+    const mark = dwelling ? '●' : '';
+    html += `<div class="trow ${cls}"><span>${mark}${g.stations[idx]}</span>` +
+            `<span class="t">${fmt(t)}→${fmt(dep)}</span></div>`;
   }
   html += '</div>';
   el.innerHTML = html;
@@ -546,28 +565,28 @@ function drawDiagram() {
     dctx.fillStyle = '#8b949e'; dctx.fillText(g.stations[i], 4, Y(i) + 3);
   }
   const col = NET.lines[g.line] ? NET.lines[g.line].color : '#fff';
+  // each train's diagram is a staircase: a flat run of DWELL minutes at every
+  // station, then a diagonal on to the next one
+  const traceRun = r => {
+    dctx.beginPath();
+    for (let k = 0; k + 1 < r.length; k += 2) {
+      const t = r[k + 1], yy = Y(r[k]);
+      k ? dctx.lineTo(X(t), yy) : dctx.moveTo(X(t), yy);
+      dctx.lineTo(X(t + DWELL), yy);
+    }
+    dctx.stroke();
+  };
   dctx.strokeStyle = col; dctx.lineWidth = 1; dctx.globalAlpha = 0.5;
   for (const r of g.runs) {
     const isSel = state.selected && state.selected.g === g && state.selected.r === r;
     if (isSel) continue;
-    dctx.beginPath();
-    for (let k = 0; k + 1 < r.length; k += 2) {
-      const xx = X(r[k + 1]), yy = Y(r[k]);
-      k ? dctx.lineTo(xx, yy) : dctx.moveTo(xx, yy);
-    }
-    dctx.stroke();
+    traceRun(r);
   }
   dctx.globalAlpha = 1;
   // highlight the selected train's trajectory in the diagram
   if (state.selected && state.selected.g === g) {
-    const r = state.selected.r;
     dctx.strokeStyle = '#ffffff'; dctx.lineWidth = 2.2;
-    dctx.beginPath();
-    for (let k = 0; k + 1 < r.length; k += 2) {
-      const xx = X(r[k + 1]), yy = Y(r[k]);
-      k ? dctx.lineTo(xx, yy) : dctx.moveTo(xx, yy);
-    }
-    dctx.stroke();
+    traceRun(state.selected.r);
   }
   dctx.strokeStyle = '#ff4d4d'; dctx.lineWidth = 1.5;
   dctx.beginPath(); dctx.moveTo(X(state.t), padT); dctx.lineTo(X(state.t), h - padB); dctx.stroke();
