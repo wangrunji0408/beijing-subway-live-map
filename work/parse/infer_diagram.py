@@ -16,7 +16,7 @@ t + tau_s.  We recover:
 
 Output: work/out/train_runs.jsonl, one JSON object per group.
 """
-import json, os, glob, sys, re
+import json, os, glob, sys, re, bisect
 import numpy as np
 from collections import defaultdict
 
@@ -39,6 +39,7 @@ SPACING_PATH = os.path.join(DATA, 'station_spacing', 'bjmoa_spacing.json')
 FAST_LINES = {'大兴机场', '首都机场'}
 MAX_SEG_KMH = 85.0     # metro rolling stock ceiling
 MIN_SEG_KMH = 20.0     # slowest plausible RUNNING average
+EXPRESS_KMH = 45.0     # the airport expresses average about this
 DWELL_MAX = 1.5        # minutes of station dwell a segment may additionally take
 MAX_TERMINUS_HOPS = 3  # how far past the last poster we may extrapolate
 DWELL_MIN = 0.75       # a stop costs at least this long, so a segment cannot
@@ -379,8 +380,16 @@ def infer_group(line, sign, recs, meta=None, osm=None, segkey=None):
     for r in recs:
         if r['station'] in CLOSED_STATIONS:
             continue          # 甩站：通过不停车
-        for t in dedup_times(r):
-            merged.setdefault(r['station'], []).append((t, r['id']))
+        ts = dedup_times(r)
+        if ts:
+            # the dataset was collected in several batches, so the same board
+            # can appear twice; the file that was downloaded (and therefore
+            # published) most recently wins when they are duplicates
+            try:
+                mt = os.path.getmtime(os.path.join(ROOT, r.get('source', '')))
+            except OSError:
+                mt = 0.0
+            merged.setdefault(r['station'], []).append((ts, r['id'], mt))
     # Several posters can cover one station: one per service window (they must
     # be unioned), but also a "发车时刻表" and a "列车时刻表" pair that describe
     # the SAME trains (e.g. every Capital Airport Express stop).  A departure
@@ -394,14 +403,38 @@ def infer_group(line, sign, recs, meta=None, osm=None, segkey=None):
     for k, v in merged.items():
         by_canon.setdefault(_canon(k), []).extend(v)
     stations = {}
-    for k, v in by_canon.items():
-        v.sort()
-        kept = []
-        for t, rid in v:
-            if kept and abs(t - kept[-1][0]) <= 1 and rid != kept[-1][1]:
-                continue
-            kept.append((t, rid))
-        stations[osm_name.get(k, k)] = [t for t, _ in kept]
+    for k, versions in by_canon.items():
+        # One station can carry several posters.  They are either COMPLEMENTARY
+        # (different windows, e.g. 13-西直门-1 covers the morning and -2 the
+        # afternoon: union them) or the SAME trains published twice - every
+        # Capital Airport Express stop has a 发车时刻表 and a 列车时刻表 whose
+        # times drift a few minutes apart while the train count matches.
+        # Unioning the latter would double count, so a poster whose departures
+        # mostly coincide with one already taken is dropped.
+        kept_sets = []
+        for ts, rid, _mt in sorted(versions, key=lambda x: (-x[2], -len(x[0]))):
+            dup = False
+            for other in kept_sets:
+                a, b = len(ts), len(other)
+                if abs(a - b) > 0.25 * max(a, b):
+                    continue              # complementary windows, not a copy
+                # rank alignment breaks as soon as one poster has an extra
+                # train in an hour, so compare by nearest neighbour instead
+                near = []
+                for t in ts:
+                    i = bisect.bisect_left(other, t)
+                    cands = [other[j] for j in (i - 1, i, i + 1) if 0 <= j < len(other)]
+                    if cands:
+                        near.append(min(abs(c - t) for c in cands))
+                if near and sorted(near)[len(near) // 2] <= 4:
+                    dup = True            # same trains, republished
+                    break
+            if not dup:
+                kept_sets.append(ts)
+        base = []
+        for ts in kept_sets:
+            base.extend(ts)
+        stations[osm_name.get(k, k)] = sorted(set(base))
     if not stations:
         return None      # a single station is fine: the terminus extension
                          # completes the order (e.g. the Sunday late-night table)
@@ -470,7 +503,9 @@ def infer_group(line, sign, recs, meta=None, osm=None, segkey=None):
                 hi = min((v for v in vals if v[0] >= i), default=vals[-1])
                 km[n] = lo[1] if lo[0] == hi[0] else lo[1] + (i - lo[0]) / (hi[0] - lo[0]) * (hi[1] - lo[1])
         d0 = km[order[0]]
-        tau = {n: abs(km[n] - d0) / AVG_SPEED_KMH * 60 for n in order}
+        # the airport expresses run far faster than the network average
+        v = EXPRESS_KMH if line in FAST_LINES else AVG_SPEED_KMH
+        tau = {n: abs(km[n] - d0) / v * 60 for n in order}
     else:
         tau = {n: i / max(1, len(order) - 1) * 50.0 for i, n in enumerate(order)}
     for a, b in zip(order, order[1:]):

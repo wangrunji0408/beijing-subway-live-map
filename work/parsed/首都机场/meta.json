@@ -1,40 +1,112 @@
 {
- "1": {"direction": null, "service": null, "legend": {}, "note": "suffix meaning differs per station on 首都机场线; see _images for the authoritative per-image header"},
- "2": {"direction": null, "service": null, "legend": {}, "note": "see _images"},
- "3": {"direction": null, "service": null, "legend": {}, "note": "see _images"},
- "4": {"direction": null, "service": null, "legend": {}, "note": "see _images"},
- "5": {"direction": null, "service": null, "legend": {}, "note": "see _images"},
- "6": {"direction": null, "service": null, "legend": {}, "note": "see _images"},
- "7": {"direction": null, "service": null, "legend": {}, "note": "see _images"},
- "8": {"direction": null, "service": null, "legend": {}, "note": "see _images"},
+ "1": {
+  "direction": null,
+  "service": null,
+  "legend": {},
+  "note": "suffix meaning differs per station on 首都机场线; see _images for the authoritative per-image header"
+ },
+ "2": {
+  "direction": null,
+  "service": null,
+  "legend": {},
+  "note": "see _images"
+ },
+ "3": {
+  "direction": null,
+  "service": null,
+  "legend": {},
+  "note": "see _images"
+ },
+ "4": {
+  "direction": null,
+  "service": null,
+  "legend": {},
+  "note": "see _images"
+ },
  "_images": {
-  "首都机场-东直门-1": {"direction": "首都机场", "service": "mon-thu_weekend", "legend": {}, "note": "去往首都机场方向 周一至周四、双休日"},
-  "首都机场-东直门-2": {"direction": "北新桥", "service": "mon-thu_weekend", "legend": {}, "note": "去往北新桥方向 周一至周四、双休日"},
-  "首都机场-东直门-3": {"direction": "北新桥", "service": "friday", "legend": {}, "note": "去往北新桥方向 周五"},
-  "首都机场-东直门-4": {"direction": "首都机场", "service": "friday", "legend": {}, "note": "去往首都机场方向 周五"},
-  "首都机场-东直门-5": {"direction": "首都机场", "service": "mon-thu_weekend", "legend": {}, "note": "去往首都机场方向 周一至周四、双休日"},
-  "首都机场-东直门-6": {"direction": "北新桥", "service": "mon-thu_weekend", "legend": {}, "note": "去往北新桥方向 周一至周四、双休日"},
-  "首都机场-东直门-7": {"direction": "首都机场", "service": "friday", "legend": {}, "note": "去往首都机场方向 周五"},
-  "首都机场-东直门-8": {"direction": "北新桥", "service": "friday", "legend": {}, "note": "去往北新桥方向 周五"},
-  "首都机场-三元桥-1": {"direction": "首都机场", "service": "mon-thu_weekend", "legend": {}, "note": "去往首都机场方向 周一至周四、双休日"},
-  "首都机场-三元桥-2": {"direction": "北新桥", "service": "mon-thu_weekend", "legend": {}, "note": "去往北新桥方向 周一至周四、双休日"},
-  "首都机场-三元桥-3": {"direction": "首都机场", "service": "friday", "legend": {}, "note": "去往首都机场方向 周五"},
-  "首都机场-三元桥-4": {"direction": "北新桥", "service": "friday", "legend": {}, "note": "去往北新桥方向 周五"},
-  "首都机场-三元桥-5": {"direction": "首都机场", "service": "mon-thu_weekend", "legend": {}, "note": "去往首都机场方向 周一至周四、双休日"},
-  "首都机场-三元桥-6": {"direction": "北新桥", "service": "mon-thu_weekend", "legend": {}, "note": "去往北新桥方向 周一至周四、双休日"},
-  "首都机场-三元桥-7": {"direction": "首都机场", "service": "friday", "legend": {}, "note": "去往首都机场方向 周五"},
-  "首都机场-三元桥-8": {"direction": "北新桥", "service": "friday", "legend": {}, "note": "去往北新桥方向 周五"},
-  "首都机场-北新桥-1": {"direction": "首都机场", "service": "mon-thu_weekend", "legend": {}, "note": "去往首都机场方向 周一至周四、双休日"},
-  "首都机场-北新桥-2": {"direction": "首都机场", "service": "friday", "legend": {}, "note": "去往首都机场方向 周五"},
-  "首都机场-北新桥-3": {"direction": "首都机场", "service": "mon-thu_weekend", "legend": {}, "note": "去往首都机场方向 周一至周四、双休日"},
-  "首都机场-北新桥-4": {"direction": "首都机场", "service": "friday", "legend": {}, "note": "去往首都机场方向 周五"},
-  "首都机场-2号航站楼-1": {"direction": "北新桥", "service": "mon-thu_weekend", "legend": {}, "note": "去往北新桥方向 周一至周四、双休日"},
-  "首都机场-2号航站楼-2": {"direction": "北新桥", "service": "friday", "legend": {}, "note": "去往北新桥方向 周五"},
-  "首都机场-2号航站楼-3": {"direction": "北新桥", "service": "mon-thu_weekend", "legend": {}, "note": "去往北新桥方向 周一至周四、双休日"},
-  "首都机场-2号航站楼-4": {"direction": "北新桥", "service": "friday", "legend": {}, "note": "去往北新桥方向 周五"},
-  "首都机场-3号航站楼-1": {"direction": "北新桥", "service": "mon-thu_weekend", "legend": {}, "note": "去往北新桥方向 周一至周四、双休日"},
-  "首都机场-3号航站楼-2": {"direction": "北新桥", "service": "friday", "legend": {}, "note": "去往北新桥方向 周五"},
-  "首都机场-3号航站楼-3": {"direction": "北新桥", "service": "mon-thu_weekend", "legend": {}, "note": "去往北新桥方向 周一至周四、双休日"},
-  "首都机场-3号航站楼-4": {"direction": "北新桥", "service": "friday", "legend": {}, "note": "去往北新桥方向 周五"}
+  "首都机场-东直门-1": {
+   "direction": "首都机场",
+   "service": "mon-thu_weekend",
+   "legend": {},
+   "note": "去往首都机场方向 周一至周四、双休日"
+  },
+  "首都机场-东直门-2": {
+   "direction": "北新桥",
+   "service": "mon-thu_weekend",
+   "legend": {},
+   "note": "去往北新桥方向 周一至周四、双休日"
+  },
+  "首都机场-东直门-3": {
+   "direction": "北新桥",
+   "service": "friday",
+   "legend": {},
+   "note": "去往北新桥方向 周五"
+  },
+  "首都机场-东直门-4": {
+   "direction": "首都机场",
+   "service": "friday",
+   "legend": {},
+   "note": "去往首都机场方向 周五"
+  },
+  "首都机场-三元桥-1": {
+   "direction": "首都机场",
+   "service": "mon-thu_weekend",
+   "legend": {},
+   "note": "去往首都机场方向 周一至周四、双休日"
+  },
+  "首都机场-三元桥-2": {
+   "direction": "北新桥",
+   "service": "mon-thu_weekend",
+   "legend": {},
+   "note": "去往北新桥方向 周一至周四、双休日"
+  },
+  "首都机场-三元桥-3": {
+   "direction": "首都机场",
+   "service": "friday",
+   "legend": {},
+   "note": "去往首都机场方向 周五"
+  },
+  "首都机场-三元桥-4": {
+   "direction": "北新桥",
+   "service": "friday",
+   "legend": {},
+   "note": "去往北新桥方向 周五"
+  },
+  "首都机场-北新桥-1": {
+   "direction": "首都机场",
+   "service": "mon-thu_weekend",
+   "legend": {},
+   "note": "去往首都机场方向 周一至周四、双休日"
+  },
+  "首都机场-北新桥-2": {
+   "direction": "首都机场",
+   "service": "friday",
+   "legend": {},
+   "note": "去往首都机场方向 周五"
+  },
+  "首都机场-2号航站楼-1": {
+   "direction": "北新桥",
+   "service": "mon-thu_weekend",
+   "legend": {},
+   "note": "去往北新桥方向 周一至周四、双休日"
+  },
+  "首都机场-2号航站楼-2": {
+   "direction": "北新桥",
+   "service": "friday",
+   "legend": {},
+   "note": "去往北新桥方向 周五"
+  },
+  "首都机场-3号航站楼-1": {
+   "direction": "北新桥",
+   "service": "mon-thu_weekend",
+   "legend": {},
+   "note": "去往北新桥方向 周一至周四、双休日"
+  },
+  "首都机场-3号航站楼-2": {
+   "direction": "北新桥",
+   "service": "friday",
+   "legend": {},
+   "note": "去往北新桥方向 周五"
+  }
  }
 }
