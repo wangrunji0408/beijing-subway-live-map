@@ -33,6 +33,45 @@ LINE_MAP = {'1': '1', '2': '2', '3': '3', '4': '4', '5': '5', '6': '6', '7': '7'
 
 AVG_SPEED_KMH = 36.0
 LOOP_LINES = {'2', '10'}   # loop lines: the station order is cyclic
+# published station-to-station track distances (北京市轨道交通运营管理有限公司);
+# they bound how long a segment may legitimately take
+SPACING_PATH = os.path.join(DATA, 'station_spacing', 'bjmoa_spacing.json')
+FAST_LINES = {'大兴机场', '首都机场'}
+MAX_SEG_KMH = 85.0     # metro rolling stock ceiling
+MIN_SEG_KMH = 20.0     # slowest plausible RUNNING average
+DWELL_MAX = 1.5        # minutes of station dwell a segment may additionally take
+_SPACING = None
+
+
+def load_spacing():
+    global _SPACING
+    if _SPACING is None:
+        _SPACING = {}
+        try:
+            raw = json.load(open(SPACING_PATH))
+        except Exception:
+            raw = {}
+        for line, pairs in raw.items():
+            d = {}
+            for k, m in pairs.items():
+                a, b = k.split('|')
+                d[(_canon(a), _canon(b))] = m / 1000.0
+            _SPACING[line] = d
+    return _SPACING
+
+
+MERGED_SPACING = {'4': ['大兴'], '1': ['八通']}
+
+
+def seg_km(line, a, b):
+    allsp = load_spacing()
+    sp = allsp.get(line)
+    if sp is None and line not in MERGED_SPACING:
+        return None
+    d = dict(sp or {})
+    for alt in MERGED_SPACING.get(line, []):
+        d.update(allsp.get(alt) or {})
+    return d.get((_canon(a), _canon(b)))
 EXTRA_AFTER = {'八角游乐园': '古城', '陶然桥': '永定门外', '红庙': '大望路'}
 
 _GEO = None
@@ -198,7 +237,7 @@ def _count_matches(T0, Ts, d, tol=2):
     return sum(1 for t0 in T0 if any(abs(x - (t0 + d)) <= tol for x in Ts))
 
 
-def best_shift(T0, Ts, guess, lo=None, window=25, tol=2):
+def best_shift(T0, Ts, guess, lo=None, hi=None, window=25, tol=2):
     """Offset with the most matching departures, searched around `guess`.
 
     `lo` is the physical floor (the previous station's offset): a train cannot
@@ -209,11 +248,20 @@ def best_shift(T0, Ts, guess, lo=None, window=25, tol=2):
     if not T0 or not Ts:
         return guess if lo is None else max(guess, lo)
     start = guess - window
+    end = guess + window
     if lo is not None:
         start = max(start, lo)
-    best = (-1, max(guess, start), 1e9)
-    for d in np.arange(start, guess + window + 0.5, 1.0):
+    if hi is not None:
+        end = min(end, hi)
+    if start > end:            # feasible interval wins over the window
+        start, end = (lo if lo is not None else guess), (hi if hi is not None else guess)
+    # integer search: shifts are whole minutes, and a float step would let the
+    # result drift past the feasible bound
+    best = (-1, float(min(max(guess, start), end)), 1e9)
+    for d in range(int(np.floor(start - 1e-9)), int(np.ceil(end + 1e-9)) + 1):
         if lo is not None and d < lo - 1e-9:
+            continue
+        if hi is not None and d > hi + 1e-9:
             continue
         m = _count_matches(T0, Ts, d, tol)
         if m > best[0] or (m == best[0] and abs(d - guess) < best[2]):
@@ -221,15 +269,31 @@ def best_shift(T0, Ts, guess, lo=None, window=25, tol=2):
     return best[1]
 
 
-def calibrate_tau(order, stations, tau_geo):
-    """Calibrate every station offset against the real departures, keeping the
-    sequence non-decreasing (each station searched inside the feasible range)."""
+def calibrate_tau(order, stations, tau_geo, line=None):
+    """Calibrate every station offset against the real departures.
+
+    The search is additionally bounded by the published track distance: a
+    segment of L km cannot take less than L/85 h (85 km/h) nor more than L/6 h
+    (6 km/h, a very long dwell).  Without that bound a regular headway lets the
+    matcher lock onto a neighbouring slot and compress or stretch a segment
+    (line 15 had 南法信->后沙峪, 4.6 km, timed at 1 minute).
+    """
     T0 = stations[order[0]]
     fit = {order[0]: 0.0}
     prev = 0.0
-    for s in order[1:]:
-        prev = best_shift(T0, stations[s], tau_geo[s], lo=prev)
-        fit[s] = prev
+    fast = line in FAST_LINES
+    for i, s in enumerate(order[1:], start=1):
+        km = seg_km(line, order[i - 1], s) if line else None
+        if km and km > 0.05:
+            hi_kmh = 160.0 if fast else MAX_SEG_KMH
+            lo_kmh = MIN_SEG_KMH
+            d_lo = prev + km / hi_kmh * 60.0
+            d_hi = prev + DWELL_MAX + km / lo_kmh * 60.0
+            d = best_shift(T0, stations[s], tau_geo[s], lo=d_lo, hi=d_hi)
+        else:
+            d = best_shift(T0, stations[s], tau_geo[s], lo=prev)
+        fit[s] = d
+        prev = d
     return fit
 
 
@@ -307,7 +371,7 @@ def infer_group(line, sign, recs, meta=None, osm=None):
         if tau[b] < tau[a]:
             tau[b] = tau[a]
 
-    tau = calibrate_tau(order, stations, tau)
+    tau = calibrate_tau(order, stations, tau, line=line)
     total = max(tau.values())
 
     runs = match_runs(order, stations, tau, tol=4)
