@@ -69,17 +69,35 @@ MERGED_SPACING = {'4': ['大兴'], '1': ['八通']}
 def seg_km(line, a, b):
     allsp = load_spacing()
     sp = allsp.get(line)
-    if sp is None and line not in MERGED_SPACING:
-        return None
     d = dict(sp or {})
     for alt in MERGED_SPACING.get(line, []):
         d.update(allsp.get(alt) or {})
-    return d.get((_canon(a), _canon(b)))
+    v = d.get((_canon(a), _canon(b)))
+    if v is not None:
+        return v
+    # the published table does not cover every hop (e.g. the airport loop's
+    # return leg); fall back to the OSM straight-line distance, which still
+    # gives the calibration a physical bound
+    key = LINE_MAP.get(line, line)
+    st = {_canon(x['name']): (x['lon'], x['lat']) for x in osm_order_by_key(key)}
+    pa, pb = st.get(_canon(a)), st.get(_canon(b))
+    if not pa or not pb:
+        return None
+    kx = np.cos(np.radians((pa[1] + pb[1]) / 2))
+    km = float(np.hypot((pb[0] - pa[0]) * kx * 111.32, (pb[1] - pa[1]) * 110.57))
+    return km * 1.15 if km > 0.05 else None
 EXTRA_AFTER = {'陶然桥': '永定门外', '红庙': '大望路'}
 # stations that trains currently run through without stopping (甩站); they have
 # no OSM geometry and no published spacing, so keeping them in the diagram put a
 # geometry-less stop between two real ones and trains vanished there
 CLOSED_STATIONS = {'八角游乐园'}
+
+# The airport end of the Capital Airport Express is a ONE-WAY loop:
+# 三元桥 -> T3 -> T2 -> back to 三元桥.  The OSM relation lists T2 before T3,
+# but inbound trains call at T3 first and then run from T2 straight back to
+# 三元桥 (they do not pass T3 again).
+ORDER_OVERRIDE = {('CapitalAirport', 1): ['首都机场3号航站楼', '首都机场2号航站楼',
+                                          '三元桥', '东直门', '北新桥']}
 
 _GEO = None
 _OSM = None
@@ -108,6 +126,9 @@ def _norm(s):
 ALIAS = {'清河': '清河站',
          '2号航站楼': '首都机场2号航站楼',
          '3号航站楼': '首都机场3号航站楼',
+         # the official spacing table spells the airport stops this way
+         'T2航站楼': '首都机场2号航站楼',
+         'T3航站楼': '首都机场3号航站楼',
          '首都机场': '首都机场2号航站楼'}
 
 
@@ -423,6 +444,14 @@ def infer_group(line, sign, recs, meta=None, osm=None, segkey=None):
             if n not in stations:
                 stations[n] = []
             order.append(n)
+
+    ov = ORDER_OVERRIDE.get((key, sign))
+    if ov:
+        pos_ov = {_canon(n): i for i, n in enumerate(ov)}
+        known = [n for n in order if _canon(n) in pos_ov]
+        known.sort(key=lambda n: pos_ov[_canon(n)])
+        extra = [n for n in order if _canon(n) not in pos_ov]
+        order = known + extra
 
     km = station_km(key, order) if key else None
     if km and sum(1 for n in order if km.get(n) is not None) >= 2:
