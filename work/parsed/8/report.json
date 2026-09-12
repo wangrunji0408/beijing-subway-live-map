@@ -1,5 +1,19 @@
 [
  {
+  "source": "timetables/8-东高地-1.jpg",
+  "id": "8-东高地-1",
+  "n_times": 217,
+  "stats": {
+   "n": 217,
+   "n_hours": 19,
+   "median_gap": 4,
+   "max_gap": 10,
+   "min_gap": 2
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
   "source": "timetables/8-东高地-2.jpg",
   "id": "8-东高地-2",
   "n_times": 219,
@@ -348,6 +362,20 @@
    "median_gap": 4,
    "max_gap": 10,
    "min_gap": 3
+  },
+  "issues": [],
+  "flags": []
+ },
+ {
+  "source": "timetables/8-北土城-2.jpg",
+  "id": "8-北土城-2",
+  "n_times": 216,
+  "stats": {
+   "n": 216,
+   "n_hours": 19,
+   "median_gap": 5,
+   "max_gap": 10,
+   "min_gap": 2
   },
   "issues": [],
   "flags": []
@@ -866,15 +894,22 @@
  {
   "source": "timetables/8-奥体中心-1.jpg",
   "id": "8-奥体中心-1",
-  "n_times": 190,
+  "n_times": 216,
   "stats": {
-   "n": 190,
-   "n_hours": 16,
+   "n": 216,
+   "n_hours": 19,
    "median_gap": 4,
-   "max_gap": 10,
+   "max_gap": 20,
    "min_gap": 3
   },
-  "issues": [],
+  "issues": [
+   {
+    "kind": "gap_large",
+    "gap": 20,
+    "at": "05:42->06:02",
+    "msg": "gap 20 min exceeds 15 (possible missed train)"
+   }
+  ],
   "flags": []
  },
  {
@@ -989,11 +1024,11 @@
  {
   "source": "timetables/8-安华桥-1.jpg",
   "id": "8-安华桥-1",
-  "n_times": 108,
+  "n_times": 219,
   "stats": {
-   "n": 108,
-   "n_hours": 10,
-   "median_gap": 5,
+   "n": 219,
+   "n_hours": 19,
+   "median_gap": 4,
    "max_gap": 11,
    "min_gap": 3
   },
@@ -1544,27 +1579,38 @@
  {
   "source": "timetables/8-林萃桥-3.jpg",
   "id": "8-林萃桥-3",
-  "n_times": 0,
+  "n_times": 149,
   "stats": {
-   "n": 0,
-   "n_hours": 0,
-   "median_gap": null,
-   "max_gap": null,
-   "min_gap": null
+   "n": 149,
+   "n_hours": 18,
+   "median_gap": 7,
+   "max_gap": 375,
+   "min_gap": 5
   },
-  "issues": [],
-  "flags": [
+  "issues": [
    {
-    "row_y": 976,
-    "kind": "ocr_fail",
-    "text": ""
+    "kind": "duplicate",
+    "hour": 6,
+    "minute": 38,
+    "msg": "duplicate 06:38"
    },
    {
-    "row_y": 1078,
-    "kind": "ocr_fail",
-    "text": ""
+    "kind": "dup_hour",
+    "hour": 6,
+    "msg": "hour 06 has duplicates: [13, 18, 23, 28, 33, 38, 38, 43, 50, 57]"
+   },
+   {
+    "kind": "gap_large",
+    "gap": 20,
+    "at": "16:50->17:10",
+    "msg": "gap 20 min exceeds 15 (possible missed train)"
+   },
+   {
+    "kind": "hour_gap",
+    "msg": "hours 9->16 not consecutive"
    }
-  ]
+  ],
+  "flags": []
  },
  {
   "source": "timetables/8-林萃桥-4.jpg",
@@ -1666,6 +1712,20 @@
     "text": "04091419242933394449545"
    }
   ]
+ },
+ {
+  "source": "timetables/8-永定门外-1.jpg",
+  "id": "8-永定门外-1",
+  "n_times": 214,
+  "stats": {
+   "n": 214,
+   "n_hours": 19,
+   "median_gap": 4,
+   "max_gap": 10,
+   "min_gap": 3
+  },
+  "issues": [],
+  "flags": []
  },
  {
   "source": "timetables/8-永定门外-2.jpg",
