@@ -26,6 +26,7 @@ SPACING = os.path.join(ROOT, 'work', 'data', 'station_spacing', 'bjmoa_spacing.j
 # lines whose rolling stock legitimately exceeds the metro speed bound
 FAST_LINES = {'大兴机场', '首都机场'}
 DWELL_MAX = 1.5   # minutes of dwell allowed on top of the slow-speed bound
+DWELL_MIN = 0.75  # a stop costs at least this long
 # the 大兴线 poster is published separately but is part of line 4
 MERGED_SPACING = {'4': ['大兴'], '1': ['八通']}
 
@@ -43,6 +44,14 @@ ALIAS = {'清河': '清河站', '2号航站楼': '首都机场2号航站楼',
 def canon(s):
     n = norm(s)
     return norm(ALIAS.get(n, n))
+
+
+def sort_median(xs):
+    xs = sorted(xs)
+    n = len(xs)
+    if not n:
+        return 0.0
+    return xs[n // 2] if n % 2 else 0.5 * (xs[n // 2 - 1] + xs[n // 2])
 
 
 def load_spacing():
@@ -63,12 +72,18 @@ def main():
     ap.add_argument('--min', type=float, default=20.0, help='min plausible km/h')
     ap.add_argument('--max-show', type=int, default=15)
     ap.add_argument('--min-dist', type=int, default=200, help='ignore segments shorter than this (m)')
+    ap.add_argument('--ratio-hi', type=float, default=1.7, help='flag speeds above this x the line median')
+    ap.add_argument('--ratio-lo', type=float, default=0.55, help='flag speeds below this x the line median')
+    ap.add_argument('--z', type=float, default=5.0, help='flag |robust z| above this')
+    ap.add_argument('--min-dev', type=float, default=15.0, help='minimum deviation from the median (km/h)')
+    ap.add_argument('--strict', action='store_true', help='also fail on per-line outliers')
     a = ap.parse_args()
 
     spacing = load_spacing()
     groups = [json.loads(l) for l in open(RUNS) if l.strip()]
 
     per_line = defaultdict(lambda: dict(n=0, fast=0, slow=0, km=0.0, mins=0.0, nofare=0))
+    seg_speeds = defaultdict(list)   # (line, a, b) -> [km/h]
     bad = []
     missing = Counter()
     for g in groups:
@@ -108,10 +123,12 @@ def main():
                 else:
                     dtau = float(dt)
                 kmh = (m / 1000.0) / (dtau / 60.0)
+                seg_speeds[(line, sa, sb)].append(kmh)
                 p = per_line[line]
                 p['n'] += 1; p['km'] += m / 1000.0; p['mins'] += dt
                 slow_bound = m / 1000.0 / ((dt - DWELL_MAX) / 60.0) if dt > DWELL_MAX else 1e9
-                if kmh > a.max and not fast_ok:
+                fast_bound = m / 1000.0 / ((dt - DWELL_MIN) / 60.0) if dt > DWELL_MIN else 1e9
+                if (kmh > a.max and not fast_ok) or fast_bound > a.max:
                     p['fast'] += 1
                     bad.append((kmh - a.max, 'FAST', line, g['direction'], g['service'],
                                 sa, sb, m, dt, round(kmh, 1)))
@@ -135,11 +152,38 @@ def main():
         _, kind, ln, d, svc, sa, sb, m, dt, kmh = b
         print(f"  {kind}  {ln:6s} {sa}->{sb}  {m}m / {dt}min = {kmh} km/h   "
               f"(开往{d} {svc})")
+    # ---- per-line outlier check: a line's own median is the reference, so a
+    # segment far from its own line's typical speed is flagged even when it is
+    # inside the absolute [min, max] band (e.g. 昌平 清河小营桥->朱房北).
+    print(f"\nper-line speed outliers "
+          f"(median +-{a.ratio_hi:.1f}x/{a.ratio_lo:.2f}x or {a.z:.0f} MAD, "
+          f"min deviation {a.min_dev:.0f} km/h):")
+    outliers = []
+    by_line = defaultdict(list)
+    for (ln, sa, sb), vs in seg_speeds.items():
+        by_line[ln].append((sort_median(vs), sa, sb, len(vs)))
+    for ln, items in sorted(by_line.items(), key=lambda kv: (len(kv[0]), kv[0])):
+        med = sort_median([v for v, _, _, _ in items])
+        mad = sort_median([abs(v - med) for v, _, _, _ in items]) or 0.0
+        for v, sa, sb, cnt in items:
+            dev = v - med
+            zz = (0.6745 * dev / mad) if mad > 1e-9 else 0.0
+            far = (v > med * a.ratio_hi) or (v < med * a.ratio_lo) or (abs(zz) > a.z)
+            if far and abs(dev) >= a.min_dev:
+                outliers.append((abs(dev), ln, sa, sb, med, v, zz, cnt))
+    outliers.sort(reverse=True)
+    if not outliers:
+        print("   none")
+    for o in outliers[:a.max_show]:
+        _, ln, sa, sb, med, v, zz, cnt = o
+        print(f"   {ln:6s} {sa}->{sb}  {v:6.1f} km/h vs line median {med:5.1f} "
+              f"({v/med:.2f}x, z={zz:+.1f}, {cnt} runs)")
+
     if missing:
         print("\nsegments with no published spacing (top 10):")
         for k, v in missing.most_common(10):
             print(f"   {k}: {v}")
-    return 1 if bad else 0
+    return 1 if (bad or (a.strict and outliers)) else 0
 
 
 if __name__ == '__main__':

@@ -40,6 +40,8 @@ FAST_LINES = {'大兴机场', '首都机场'}
 MAX_SEG_KMH = 85.0     # metro rolling stock ceiling
 MIN_SEG_KMH = 20.0     # slowest plausible RUNNING average
 DWELL_MAX = 1.5        # minutes of station dwell a segment may additionally take
+DWELL_MIN = 0.75       # a stop costs at least this long, so a segment cannot
+                       # be shorter than DWELL_MIN + running time
 _SPACING = None
 
 
@@ -237,7 +239,7 @@ def _count_matches(T0, Ts, d, tol=2):
     return sum(1 for t0 in T0 if any(abs(x - (t0 + d)) <= tol for x in Ts))
 
 
-def best_shift(T0, Ts, guess, lo=None, hi=None, window=25, tol=2):
+def best_shift(T0, Ts, guess, lo=None, hi=None, window=25, tol=2, prev=None, seg_guess=None):
     """Offset with the most matching departures, searched around `guess`.
 
     `lo` is the physical floor (the previous station's offset): a train cannot
@@ -257,6 +259,15 @@ def best_shift(T0, Ts, guess, lo=None, hi=None, window=25, tol=2):
         start, end = (lo if lo is not None else guess), (hi if hi is not None else guess)
     # integer search: shifts are whole minutes, and a float step would let the
     # result drift past the feasible bound
+    # Because headways are short, the match count saturates over a whole range
+    # of shifts and cannot pick the right one on its own.  Ties are therefore
+    # broken by the SEGMENT's own geometric estimate (not the cumulative one),
+    # otherwise one station's over-estimate is inherited by the next segment.
+    def cost(d):
+        if prev is None or seg_guess is None:
+            return abs(d - guess)
+        return abs((d - prev) - seg_guess)
+
     best = (-1, float(min(max(guess, start), end)), 1e9)
     for d in range(int(np.floor(start - 1e-9)), int(np.ceil(end + 1e-9)) + 1):
         if lo is not None and d < lo - 1e-9:
@@ -264,8 +275,9 @@ def best_shift(T0, Ts, guess, lo=None, hi=None, window=25, tol=2):
         if hi is not None and d > hi + 1e-9:
             continue
         m = _count_matches(T0, Ts, d, tol)
-        if m > best[0] or (m == best[0] and abs(d - guess) < best[2]):
-            best = (m, float(d), abs(d - guess))
+        c = cost(d)
+        if m > best[0] or (m == best[0] and c < best[2]):
+            best = (m, float(d), c)
     return best[1]
 
 
@@ -284,14 +296,16 @@ def calibrate_tau(order, stations, tau_geo, line=None):
     fast = line in FAST_LINES
     for i, s in enumerate(order[1:], start=1):
         km = seg_km(line, order[i - 1], s) if line else None
+        seg_geo = tau_geo[s] - tau_geo[order[i - 1]]
         if km and km > 0.05:
             hi_kmh = 160.0 if fast else MAX_SEG_KMH
-            lo_kmh = MIN_SEG_KMH
-            d_lo = prev + km / hi_kmh * 60.0
-            d_hi = prev + DWELL_MAX + km / lo_kmh * 60.0
-            d = best_shift(T0, stations[s], tau_geo[s], lo=d_lo, hi=d_hi)
+            d_lo = prev + DWELL_MIN + km / hi_kmh * 60.0
+            d_hi = prev + DWELL_MAX + km / MIN_SEG_KMH * 60.0
+            d = best_shift(T0, stations[s], tau_geo[s], lo=d_lo, hi=d_hi,
+                           prev=prev, seg_guess=seg_geo)
         else:
-            d = best_shift(T0, stations[s], tau_geo[s], lo=prev)
+            d = best_shift(T0, stations[s], tau_geo[s], lo=prev,
+                           prev=prev, seg_guess=seg_geo)
         fit[s] = d
         prev = d
     return fit
@@ -324,8 +338,17 @@ def infer_group(line, sign, recs, meta=None, osm=None):
         if ts:
             merged.setdefault(r['station'], []).extend(ts)
     # several posters can cover one station (e.g. one per service window); their
-    # departures must be unioned, not overwritten
-    stations = {k: sorted(set(v)) for k, v in merged.items()}
+    # departures must be unioned, not overwritten.  Fold them by CANONICAL name
+    # too: "清河" and "清河站" are the same station, and treating them as two
+    # put one copy at the end of the station order, which then became the
+    # diagram's origin and corrupted the whole line's running times.
+    osm_name = {_canon(n): n for n in (osm or [])}
+    by_canon = {}
+    for k, v in merged.items():
+        by_canon.setdefault(_canon(k), []).extend(v)
+    stations = {}
+    for k, v in by_canon.items():
+        stations[osm_name.get(k, k)] = sorted(set(v))
     if len(stations) < 2:
         return None
     present = set(stations)
