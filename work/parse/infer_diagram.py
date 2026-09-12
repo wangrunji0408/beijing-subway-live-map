@@ -379,21 +379,29 @@ def infer_group(line, sign, recs, meta=None, osm=None, segkey=None):
     for r in recs:
         if r['station'] in CLOSED_STATIONS:
             continue          # 甩站：通过不停车
-        ts = dedup_times(r)
-        if ts:
-            merged.setdefault(r['station'], []).extend(ts)
-    # several posters can cover one station (e.g. one per service window); their
-    # departures must be unioned, not overwritten.  Fold them by CANONICAL name
-    # too: "清河" and "清河站" are the same station, and treating them as two
-    # put one copy at the end of the station order, which then became the
-    # diagram's origin and corrupted the whole line's running times.
+        for t in dedup_times(r):
+            merged.setdefault(r['station'], []).append((t, r['id']))
+    # Several posters can cover one station: one per service window (they must
+    # be unioned), but also a "发车时刻表" and a "列车时刻表" pair that describe
+    # the SAME trains (e.g. every Capital Airport Express stop).  A departure
+    # from a different poster within a minute of one already kept is that same
+    # train, so it is dropped; a minute gap inside one poster is real and kept.
+    # Folding by CANONICAL name also merges "清河" with "清河站", which
+    # otherwise put a second copy at the end of the station order that then
+    # became the diagram's origin and corrupted the whole line.
     osm_name = {_canon(n): n for n in (osm or [])}
     by_canon = {}
     for k, v in merged.items():
         by_canon.setdefault(_canon(k), []).extend(v)
     stations = {}
     for k, v in by_canon.items():
-        stations[osm_name.get(k, k)] = sorted(set(v))
+        v.sort()
+        kept = []
+        for t, rid in v:
+            if kept and abs(t - kept[-1][0]) <= 1 and rid != kept[-1][1]:
+                continue
+            kept.append((t, rid))
+        stations[osm_name.get(k, k)] = [t for t, _ in kept]
     if not stations:
         return None      # a single station is fine: the terminus extension
                          # completes the order (e.g. the Sunday late-night table)
