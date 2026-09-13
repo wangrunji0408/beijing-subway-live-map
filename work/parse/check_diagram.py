@@ -16,6 +16,9 @@ Usage:
   python3 work/parse/check_diagram.py --fix           # classify + suggest shifts
 """
 import json, os, sys, argparse
+import sys as _sys, os as _os
+_sys.path.insert(0, _os.path.dirname(_os.path.abspath(__file__)))
+import compact
 from collections import defaultdict
 
 ROOT = os.getcwd()
@@ -27,7 +30,7 @@ def load(path):
     for line in open(path):
         line = line.strip()
         if line:
-            groups.append(json.loads(line))
+            groups.append(compact.expand_group(json.loads(line)))
     return groups
 
 

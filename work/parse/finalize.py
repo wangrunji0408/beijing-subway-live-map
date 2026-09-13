@@ -7,6 +7,9 @@ Outputs
   work/out/parse_report.json  aggregate quality report
 """
 import json, os, glob, sys
+import sys as _sys, os as _os
+_sys.path.insert(0, _os.path.dirname(_os.path.abspath(__file__)))
+import compact
 from collections import Counter
 
 ROOT = os.getcwd()
@@ -34,7 +37,7 @@ def main():
             if not l:
                 continue
             try:
-                recs.append(json.loads(l))
+                recs.append(compact.expand_record(json.loads(l)))
             except Exception:
                 pass  # tolerate a file being rewritten concurrently
         img_meta = meta.get('_images', {}) or {}
@@ -65,9 +68,7 @@ def main():
         report[line] = dict(images=len(rep), issues=dict(c))
 
     all_recs.sort(key=lambda r: (r['line'], r['station'], str(r.get('suffix'))))
-    with open(os.path.join(OUT, 'timetables.jsonl'), 'w') as f:
-        for r in all_recs:
-            f.write(json.dumps(r, ensure_ascii=False) + '\n')
+    compact.write_records(os.path.join(OUT, 'timetables.jsonl'), all_recs)
     json.dump(report, open(os.path.join(OUT, 'parse_report.json'), 'w'),
               ensure_ascii=False, indent=1)
     print('timetables.jsonl:', len(all_recs), 'timetables')

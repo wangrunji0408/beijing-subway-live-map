@@ -8,6 +8,9 @@ Prints one block per image that has flags/issues, including the currently
 parsed minutes for the affected hour so a reviewer knows what to check.
 """
 import sys, os, json, argparse
+import sys as _sys, os as _os
+_sys.path.insert(0, _os.path.dirname(_os.path.abspath(__file__)))
+import compact
 from collections import defaultdict
 
 ROOT = os.getcwd()
@@ -26,7 +29,7 @@ def main():
     jp = os.path.join(PARSED, f'{a.line}.jsonl')
     if os.path.exists(jp):
         for l in open(jp):
-            r = json.loads(l); recs[r['id']] = r
+            r = compact.expand_record(json.loads(l)); recs[r['id']] = r
     shown = 0
     for x in rep:
         probs = [f for f in x.get('flags', []) if f['kind'] in kinds]

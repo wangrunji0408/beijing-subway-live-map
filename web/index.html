@@ -113,6 +113,9 @@
     <label>选中列车 · 逐站时刻</label>
     <div id="traininfo" class="sub">点击地图上的列车查看它的运行图（逐站时刻）</div>
 
+    <label>选中车站 · 时刻表</label>
+    <div id="stationinfo" class="sub">点击地图上的车站查看该站时刻表</div>
+
     <div class="disclaimer">运行图根据各站时刻表生成，可能存在错误，仅供参考。</div>
   </aside>
 </div>
@@ -150,6 +153,7 @@ let state = {
   day: 0,                 // 0 = 周一 ... 6 = 周日
   focus: new Set(),       // highlighted lines (empty = all)
   selected: null,        // {g, r} of the clicked train
+  station: null,         // {line, name} of the clicked station
 };
 let lineInfo = {};       // per-line prepared geometry
 let hovered = null;
@@ -266,7 +270,7 @@ function buildUI() {
     el.className = 'chip' + (state.day===i?'':' off');
     el.textContent = label + (n ? '' : '（无）');
     el.title = label + '：' + DAY_SERVICES[i].map(x => SERVICE_ZH[x]||x).join(' / ');
-    el.onclick = () => { state.day = i; buildUI(); drawHist(true); };
+    el.onclick = () => { state.day = i; buildUI(); drawHist(true); renderStationInfo(); };
     sc.appendChild(el);
   });
   const lc = document.getElementById('lines');
@@ -333,6 +337,47 @@ function trainPos(g, r, t) {
 
 /* ---------------- line focus ---------------- */
 function dimmed(key) { return state.focus.size > 0 && !state.focus.has(key); }
+
+/* ---------------- selected station timetable ---------------- */
+let TT = null, ttLoading = false;
+function loadTT() {
+  if (TT || ttLoading) return Promise.resolve(TT);
+  ttLoading = true;
+  return fetch('data/timetables.json').then(r => r.json())
+    .then(j => { TT = j; ttLoading = false; return TT; })
+    .catch(() => { TT = {}; ttLoading = false; return TT; });
+}
+
+function renderStationInfo() {
+  const el = document.getElementById('stationinfo');
+  if (!el) return;
+  const sel = state.station;
+  if (!sel) { el.innerHTML = '点击地图上的车站查看该站时刻表'; return; }
+  if (!TT) {
+    el.innerHTML = '载入时刻表…';
+    loadTT().then(() => renderStationInfo());
+    return;
+  }
+  const sub = TT[sel.line + '|' + sel.name];
+  if (!sub) { el.innerHTML = `${sel.name}：没有解析出的时刻表`; return; }
+  const day = DAY_SERVICES[state.day];
+  let html = '';
+  for (const name of Object.keys(sub).sort()) {
+    const [dir, svc] = name.split('|');
+    if (!day.includes(svc)) continue;
+    const mins = sub[name];
+    const byh = {};
+    for (const m of mins) (byh[Math.floor(m / 60)] = byh[Math.floor(m / 60)] || []).push(m % 60);
+    html += `<div class="thead">开往 ${dir} · ${SERVICE_ZH[svc] || svc}（${mins.length} 班）</div>`;
+    html += '<div class="tstops">';
+    for (const h of Object.keys(byh).sort((a, b) => a - b)) {
+      html += `<div class="trow"><span>${String(h).padStart(2, '0')} 时</span>` +
+              `<span class="t">${byh[h].map(x => String(x).padStart(2, '0')).join(' ')}</span></div>`;
+    }
+    html += '</div>';
+  }
+  el.innerHTML = html || `${sel.name}：${DAY_LABELS[state.day]}没有运营`;
+}
 
 /* ---------------- trains-online histogram ---------------- */
 let histCache = null, histKey = '';
@@ -462,6 +507,17 @@ function draw() {
     shown++;
   }
   ctx.globalAlpha = 1;
+  if (state.station) {
+    const L = NET.lines[state.station.line];
+    const st = L && L.stations.find(x => x.name === state.station.name);
+    if (st) {
+      const p = toScreen(st.world);
+      ctx.beginPath(); ctx.arc(p[0], p[1], 7, 0, 7);
+      ctx.strokeStyle = '#ffffff'; ctx.lineWidth = 2; ctx.stroke();
+      ctx.beginPath(); ctx.arc(p[0], p[1], 3, 0, 7);
+      ctx.fillStyle = '#ffffff'; ctx.fill();
+    }
+  }
   document.getElementById('nTrains').textContent = shown;
   drawHist();
   document.getElementById('nLines').textContent =
@@ -477,31 +533,33 @@ function nearestStopIndex(r, t) {
 }
 
 function pickAt(mx, my) {
-  let best = null;
+  // a train and a station can sit on the same pixel; take whichever is closer
+  // and let the station win a tie
+  let train = null, station = null;
   for (const {g, r} of activeRuns()) {
     const p = trainPos(g, r, state.t);
     if (!p) continue;
     const s = toScreen(p);
     const d = Math.hypot(s[0]-mx, s[1]-my);
-    if (d < 8 && (!best || d < best.d)) {
+    if (d < 8 && (!train || d < train.d)) {
       const k = nearestStopIndex(r, state.t);
-      best = {d, kind:'train', g, r, line:g.line, direction:g.direction,
-              service:g.service, station:g.stations[r[k]], minute:r[k+1]};
+      train = {d, kind:'train', g, r, line:g.line, direction:g.direction,
+               service:g.service, station:g.stations[r[k]], minute:r[k+1]};
     }
   }
-  if (best) return best;
   for (const key in NET.lines) {
     if (dimmed(key)) continue;
     const L = NET.lines[key];
     for (const st of L.stations) {
       const p = toScreen(st.world);
       const d = Math.hypot(p[0]-mx, p[1]-my);
-      if (d < 7 && (!best || d < best.d)) {
-        best = {d, kind:'station', name:st.name, line:L.name};
+      if (d < 7 && (!station || d < station.d)) {
+        station = {d, kind:'station', name:st.name, line:L.name, lineKey:key};
       }
     }
   }
-  return best;
+  if (station && (!train || station.d <= train.d + 1.5)) return station;
+  return train || station;
 }
 
 cv.addEventListener('mousemove', e => {
@@ -561,6 +619,7 @@ cv.addEventListener('click', e => {
   const hit = pickAt(mx, my);
   if (hit && hit.kind === 'train') {
     state.selected = {g: hit.g, r: hit.r};
+    state.station = null;
     // also show this train's line diagram and highlight it there
     diagGroup = hit.g;
     dcv.style.display = 'block';
@@ -568,10 +627,15 @@ cv.addEventListener('click', e => {
     const sel = document.getElementById('diagsel');
     if (idx >= 0) sel.value = String(idx);
     resizeDiagram();
+  } else if (hit && hit.kind === 'station') {
+    state.station = {line: hit.lineKey, name: hit.name};
+    state.selected = null;
   } else {
     state.selected = null;
+    state.station = null;
   }
   renderTrainInfo();
+  renderStationInfo();
 });
 
 /* keep the stop list in sync while time advances */

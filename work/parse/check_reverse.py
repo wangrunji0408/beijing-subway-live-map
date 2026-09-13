@@ -18,6 +18,7 @@ Usage: python3 work/parse/check_reverse.py [--tol 2] [--lines 1,2] [--max 15]
 import json, os, sys, argparse
 from collections import defaultdict
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import compact
 import infer_diagram as inf
 
 ROOT = os.getcwd()
@@ -26,7 +27,7 @@ RUNS = os.path.join(ROOT, 'work', 'out', 'train_runs.jsonl')
 
 
 def load_runs():
-    return [json.loads(l) for l in open(RUNS) if l.strip()]
+    return compact.read_groups(RUNS)
 
 
 _OSM_CACHE = {}
@@ -43,7 +44,7 @@ def load_timetables(lines):
             l = l.strip()
             if not l:
                 continue
-            r = json.loads(l)
+            r = compact.expand_record(json.loads(l))
             osm = _OSM_CACHE.setdefault(line, inf.osm_order(line))
             sign = inf.physical_sign(r, osm, line in inf.LOOP_LINES)
             key = (line, r['station'], sign, r.get('service') or '?')

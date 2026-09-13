@@ -1,6 +1,9 @@
 #!/usr/bin/env python3
 """Final QA summary of the parsed dataset and inferred diagrams."""
 import json, os, sys
+import sys as _sys, os as _os
+_sys.path.insert(0, _os.path.dirname(_os.path.abspath(__file__)))
+import compact
 from collections import defaultdict, Counter
 
 ROOT = os.getcwd()
@@ -8,7 +11,7 @@ OUT = os.path.join(ROOT, 'work', 'out')
 
 
 def main():
-    recs = [json.loads(l) for l in open(os.path.join(OUT, 'timetables.jsonl'))]
+    recs = compact.read_records(os.path.join(OUT, 'timetables.jsonl'))
     print(f"timetables.jsonl: {len(recs)} timetables")
     by_line = defaultdict(list)
     for r in recs:
@@ -31,7 +34,7 @@ def main():
               f"{med//60:5d}h{med%60:02d}")
     runs_p = os.path.join(OUT, 'train_runs.jsonl')
     if os.path.exists(runs_p):
-        groups = [json.loads(l) for l in open(runs_p)]
+        groups = compact.read_groups(runs_p)
         nruns = sum(g['n_runs'] for g in groups)
         print(f"\ntrain_runs.jsonl: {len(groups)} groups, {nruns} train runs")
         for g in groups[:0]:

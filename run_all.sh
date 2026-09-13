@@ -15,9 +15,9 @@ python3 work/parse/infer_diagram.py
 echo "== 4/7 build map data -> web/data/network.json"
 python3 work/parse/build_web_data.py
 
-echo "== 5/7 copy deliverables -> output/"
-mkdir -p output
-cp work/out/timetables.jsonl work/out/train_runs.jsonl work/out/parse_report.json output/
+echo "== 5/7 export compact deliverables -> output/"
+python3 work/parse/export.py
+cp work/out/parse_report.json output/
 
 echo "== 6/7 QA summary"
 python3 work/parse/validate_final.py

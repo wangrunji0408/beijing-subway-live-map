@@ -5,24 +5,29 @@
 
 ## 数据格式
 
+全部 JSONL（`work/parsed/*.jsonl`、`work/out/*.jsonl`、`output/*.jsonl`）都用
+**紧凑格式**：逐行重复的字段名不再写出，23 MB + 17 MB → 3.3 MB + 2.5 MB（14%），
+且可无损还原。编解码集中在 `work/parse/compact.py`，读写双方都经它转换，
+所以解析、反推、检查、建图等逻辑代码看到的仍是原来的展开结构。
+
 ### timetables.jsonl
 
 ```json
 {
   "id": "1-万寿路-1",
-  "source": "timetables/1-万寿路-1.jpg",
-  "suffix": "1",
   "line": "1",
   "station": "万寿路",
   "direction": "环球度假区",
   "service": "weekday",
+  "suffix": "1",
+  "source": "timetables/1-万寿路-1.jpg",
   "legend": {"red": "四惠东", "yellow": "土桥"},
-  "times": [
-    {"hour": 5, "minute": 11, "terminal": null, "color": "red"},
-    {"hour": 5, "minute": 15, "terminal": null, "color": "red"}
-  ]
+  "times": [[5, 11, "red"], [5, 15, "red"], [5, 19]]
 }
 ```
+
+`times` 的每一项是 `[时, 分, 颜色?]`：颜色只在站牌上有圆环/实心圆标记时出现
+（`legend` 把它映射到终点站）；`terminal` 字段在全部数据中恒为 null，故省略。
 
 - `direction`：站牌上「开往 X 站方向」的 X。环线（2、10 号线）与机场线为下一站名。
 - `service`：运营日代号，见下文「运营日筛选」。
@@ -35,16 +40,15 @@
 {
   "line": "1", "group": 1, "direction": "环球度假区", "service": "weekday",
   "station_order": ["四惠东", "四惠", "..."],
-  "tau": {"四惠东": 0.0, "四惠": 3.2, "...": 0.0},
-  "total_travel": 55.2,
-  "runs": [
-    {"stops": [{"station": "四惠东", "minute": 304}, {"station": "四惠", "minute": 307}]}
-  ]
+  "tau": [0.0, 3.2, "..."],
+  "total_travel": 55.2, "n_stations": 23, "n_runs": 278,
+  "runs": [[0, 304, 1, 307], [0, 312, 1, 315]]
 }
 ```
 
-`minute` 为自当日 0 点起的分钟数；`tau` 是各站相对始发站的累计时分。
-短交路列车在中途站自然终止（`stops` 较短），其余列车跑满全程。
+`tau` 与 `station_order` 一一对应，是各站相对始发站的累计时分。
+每趟车是**扁平的 `[站序号, 分钟, 站序号, 分钟, …]`**，`minute` 为自当日 0 点起的
+分钟数。短交路列车在中途站自然终止（数组较短），其余列车跑满全程。
 
 ## 解析方法（`work/parse/`）
 

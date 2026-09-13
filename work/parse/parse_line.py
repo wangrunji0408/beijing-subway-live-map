@@ -17,6 +17,7 @@ from collections import defaultdict
 from PIL import Image
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import compact
 import common, checker
 
 ROOT = os.getcwd()
@@ -507,9 +508,7 @@ def build_line(line, meta_map=None, overrides_all=None):
             recs.append(r)
     os.makedirs(OUT, exist_ok=True)
     jsonl = os.path.join(OUT, f'{line}.jsonl')
-    with open(jsonl, 'w') as f:
-        for r in recs:
-            f.write(json.dumps(r, ensure_ascii=False) + '\n')
+    compact.write_records(jsonl, recs)
     os.makedirs(os.path.join(OUT, line), exist_ok=True)
     json.dump(report, open(os.path.join(OUT, line, 'report.json'), 'w'),
               ensure_ascii=False, indent=1)
@@ -521,9 +520,7 @@ def build_line(line, meta_map=None, overrides_all=None):
 def write_line(line, recs, report):
     os.makedirs(OUT, exist_ok=True)
     jsonl = os.path.join(OUT, f'{line}.jsonl')
-    with open(jsonl, 'w') as f:
-        for r in recs:
-            f.write(json.dumps(r, ensure_ascii=False) + '\n')
+    compact.write_records(jsonl, recs)
     os.makedirs(os.path.join(OUT, line), exist_ok=True)
     json.dump(report, open(os.path.join(OUT, line, 'report.json'), 'w'),
               ensure_ascii=False, indent=1)

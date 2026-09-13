@@ -17,6 +17,9 @@ t + tau_s.  We recover:
 Output: work/out/train_runs.jsonl, one JSON object per group.
 """
 import json, os, glob, sys, re, bisect
+import sys as _sys, os as _os
+_sys.path.insert(0, _os.path.dirname(_os.path.abspath(__file__)))
+import compact
 import numpy as np
 from collections import defaultdict
 
@@ -122,7 +125,7 @@ def load_line(line):
     p = os.path.join(PARSED, f'{line}.jsonl')
     if not os.path.exists(p):
         return []
-    return [json.loads(l) for l in open(p)]
+    return compact.read_records(p)
 
 
 def _norm(s):
@@ -725,9 +728,7 @@ def main():
             print(f"[{'+'.join(ls)}/{g['group']}] {g['n_stations']} stations, {g['n_runs']} runs, "
                   f"total={g['total_travel']}min dir={g['direction']} svc={g['service']}")
     allg = symmetrize(allg)
-    with open(a.out, 'w') as f:
-        for g in allg:
-            f.write(json.dumps(g, ensure_ascii=False) + '\n')
+    compact.write_groups(a.out, allg)
     print('wrote', a.out, len(allg), 'groups')
 
 

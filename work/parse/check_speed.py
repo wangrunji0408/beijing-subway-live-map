@@ -18,6 +18,9 @@ Usage:
   python3 work/parse/check_speed.py --fix           # list the worst segments
 """
 import json, os, sys, argparse, re
+import sys as _sys, os as _os
+_sys.path.insert(0, _os.path.dirname(_os.path.abspath(__file__)))
+import compact
 from collections import defaultdict, Counter
 
 ROOT = os.getcwd()
@@ -84,7 +87,7 @@ def main():
     a = ap.parse_args()
 
     spacing = load_spacing()
-    groups = [json.loads(l) for l in open(RUNS) if l.strip()]
+    groups = compact.read_groups(RUNS)
 
     per_line = defaultdict(lambda: dict(n=0, fast=0, slow=0, km=0.0, mins=0.0, nofare=0))
     seg_speeds = defaultdict(list)   # (line, a, b) -> [km/h]

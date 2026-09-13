@@ -10,6 +10,9 @@
   suffix unless a hand-written meta.json says otherwise.
 """
 import json, os, glob, re
+import sys as _sys, os as _os
+_sys.path.insert(0, _os.path.dirname(_os.path.abspath(__file__)))
+import compact
 import numpy as np
 
 ROOT = os.getcwd()
@@ -136,7 +139,7 @@ def airport_return_leg(L):
 def build():
     osm = load_osm()
     geo = load_geojson()
-    groups = [json.loads(l) for l in open(os.path.join(ROOT, 'work', 'out', 'train_runs.jsonl'))]
+    groups = compact.read_groups(os.path.join(ROOT, 'work', 'out', 'train_runs.jsonl'))
 
     # OSM station order per display line
     osm_order = {}
@@ -246,6 +249,26 @@ def build():
           'runs', sum(len(g['runs']) for g in cleaned))
     sz = os.path.getsize(os.path.join(OUT, 'network.json'))
     print('network.json', round(sz / 1e6, 2), 'MB')
+
+    # compact per-station timetables for the "click a station" panel: minutes
+    # only, keyed by "<line key>|<station>"
+    tt = {}
+    for r in compact.read_records(os.path.join(ROOT, 'work', 'out', 'timetables.jsonl')):
+        okey = LINE_MAP.get(r['line'])
+        if not okey:
+            continue
+        key = okey + '|' + r['station']
+        sub = tt.setdefault(key, {})
+        name = (r.get('direction') or '?') + '|' + (r.get('service') or '?')
+        mins = sorted({t['hour'] * 60 + t['minute'] for t in r['times']})
+        if name in sub:
+            sub[name] = sorted(set(sub[name]) | set(mins))
+        else:
+            sub[name] = mins
+    with open(os.path.join(OUT, 'timetables.json'), 'w') as f:
+        json.dump(tt, f, ensure_ascii=False, separators=(',', ':'))
+    print('timetables.json', round(os.path.getsize(os.path.join(OUT, 'timetables.json')) / 1e6, 2),
+          'MB,', len(tt), 'stations')
 
 
 def run_pairs(run, order):
