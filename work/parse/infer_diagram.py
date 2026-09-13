@@ -625,7 +625,10 @@ def symmetrize(groups):
         tl = line_of_key(key)
         km = seg_km(tl, x, y) if tl else None
         if km and km > 0.05:
-            fast = key in FAST_LINES
+            # FAST_LINES holds timetable line names (大兴机场), not OSM keys
+            # (DaxingAirport) - testing the key made the express comply with the
+            # 85 km/h metro floor, which stretched its segments to 28 min
+            fast = tl in FAST_LINES
             lo = DWELL_MIN + km / (160.0 if fast else MAX_SEG_KMH) * 60.0
             hi = DWELL_MAX + km / MIN_SEG_KMH * 60.0
             dt = min(max(dt, lo), hi)

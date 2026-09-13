@@ -90,6 +90,49 @@ def snap_stations(line, kx):
         s['d'] = round(best[1], 5)
 
 
+
+def path_world(path, kx):
+    """Project [lat,lon] points to the map's world space and accumulate length."""
+    pts = [(p[1] * kx, p[0]) for p in path]
+    cum = [0.0]
+    for i in range(1, len(pts)):
+        cum.append(cum[-1] + float(np.hypot(pts[i][0] - pts[i-1][0],
+                                            pts[i][1] - pts[i-1][1])))
+    return dict(path=path, world=pts, cum=cum, len=cum[-1] or 1.0)
+
+
+def airport_return_leg(L):
+    """The Capital Airport Express' T2 -> 三元桥 hop.
+
+    The OSM relation unrolls the airport loop as T2 -> junction -> T3 -> main
+    line, so running from T2 back to the city retraced the T3 branch.  The
+    official diagram shows T2's own track joining the main line directly, so
+    that leg is spliced out of the two branches: the descent from T2 up to the
+    junction, then the main line from the junction to 三元桥.
+    """
+    p = L['path']
+    idx = {}
+    for s in L['stations']:
+        idx[s['name']] = min(range(len(p)),
+                             key=lambda i: (p[i][0] - s['lat']) ** 2 + (p[i][1] - s['lon']) ** 2)
+    i_t2 = idx.get('首都机场2号航站楼'); i_t3 = idx.get('首都机场3号航站楼')
+    i_syq = idx.get('三元桥')
+    if i_t2 is None or i_t3 is None or i_syq is None or not (i_t2 < i_t3 < i_syq):
+        return None
+    # the junction is where the two branches physically meet: the closest pair
+    # of points, one before T3 (T2's descent) and one after it (the main line)
+    best = (1e18, None, None)
+    for j1 in range(i_t2 + 1, i_t3):
+        for j2 in range(i_t3 + 1, i_syq + 1):
+            dd = (p[j1][0] - p[j2][0]) ** 2 + (p[j1][1] - p[j2][1]) ** 2
+            if dd < best[0]:
+                best = (dd, j1, j2)
+    if best[1] is None:
+        return None
+    leg = p[:best[1] + 1] + p[best[2]:i_syq + 1]
+    return leg, best[0] ** 0.5
+
+
 def build():
     osm = load_osm()
     geo = load_geojson()
@@ -126,6 +169,14 @@ def build():
     kx = np.cos(np.radians(np.mean(all_lats))) if all_lats else 1.0
     for L in lines_out.values():
         snap_stations(L, kx)
+    # a leg whose track differs from the line's own polyline (airport loop)
+    L = lines_out.get('CapitalAirport')
+    if L:
+        r = airport_return_leg(L)
+        if r:
+            leg, gap = r
+            L['legs'] = {'首都机场2号航站楼|三元桥': path_world(leg, kx)}
+            print(f"CapitalAirport return leg: {len(leg)} points, junction gap {gap*111:.0f} m")
 
     # attach each group to a display line and resolve direction
     out_groups = []

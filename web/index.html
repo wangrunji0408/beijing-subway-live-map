@@ -318,6 +318,10 @@ function trainPos(g, r, t) {
   if (t <= depart) return pointAtDistance(L, da * L.len);
   const span = tb - depart;
   const f = span > 0 ? Math.max(0, Math.min(1, (t-depart)/span)) : 1;
+  // some hops have their own track, e.g. the Capital Airport Express' T2 ->
+  // 三元桥 return, which does not run back through T3
+  const leg = L.legs && L.legs[g.stations[ia] + '|' + g.stations[ib]];
+  if (leg) return pointAtDistance(leg, f * leg.len);
   return pointAtDistance(L, (da + (db-da)*f) * L.len);
 }
 
