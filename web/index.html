@@ -75,6 +75,7 @@
     <div class="row" style="margin-top:8px">
       <button id="play" class="active">⏸ 暂停</button>
       <button id="reset">↺ 重置 08:00</button>
+      <button id="live" title="跟随当前真实时间：跳到此刻、切到今天、按 1× 播放">● 实时</button>
     </div>
 
     <label>时刻 <span id="tlabel">08:00</span></label>
@@ -539,7 +540,7 @@ function renderTrainInfo() {
     const cls = dwelling ? 'now' : (now >= dep ? 'past' : '');
     const mark = dwelling ? '●' : '';
     html += `<div class="trow ${cls}"><span>${mark}${g.stations[idx]}</span>` +
-            `<span class="t">${fmt(t)}→${fmt(dep)}</span></div>`;
+            `<span class="t">${fmt(t)}</span></div>`;
   }
   html += '</div>';
   el.innerHTML = html;
@@ -592,6 +593,20 @@ document.getElementById('play').onclick = (e) => {
   e.target.classList.toggle('active', state.playing);
 };
 document.getElementById('reset').onclick = () => { state.t = 480; syncTimeUI(); };
+// jump to the current wall-clock time, select today and play at 1x
+document.getElementById('live').onclick = () => {
+  const now = new Date();
+  state.day = (now.getDay() + 6) % 7;          // JS: 0=Sun -> our 0=周一
+  state.t = now.getHours() * 60 + now.getMinutes() + now.getSeconds() / 60;
+  state.speed = 1;
+  document.getElementById('speed').value = 1;
+  document.getElementById('slabel').textContent = '1×';
+  document.getElementById('speedhint').textContent = '1 秒现实 = 1 秒运营时间（实时）';
+  state.playing = true;
+  const pb = document.getElementById('play');
+  pb.textContent = '⏸ 暂停'; pb.classList.add('active');
+  buildUI(); drawHist(true); syncTimeUI();
+};
 document.getElementById('time').oninput = (e) => {
   state.t = +e.target.value; syncTimeUI();
 };
