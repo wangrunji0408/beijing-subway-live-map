@@ -21,6 +21,9 @@
   h1 .en { color:var(--muted); font-weight:400; font-size:11px; display:block; }
   .clock { font-variant-numeric: tabular-nums; font-size:30px; font-weight:600; letter-spacing:1px; margin:10px 0 2px; }
   .sub { color:var(--muted); font-size:11px; margin-bottom:12px; }
+  .disclaimer { position:sticky; bottom:0; color:var(--muted); font-size:11px;
+    line-height:1.6; margin-top:14px; padding:8px 10px; border:1px solid var(--line);
+    border-radius:6px; background:#161b22; }
   label { display:block; color:var(--muted); font-size:11px; margin:12px 0 4px; text-transform:uppercase; letter-spacing:.06em; }
   input[type=range] { width:100%; accent-color: var(--accent); }
   .row { display:flex; gap:8px; align-items:center; }
@@ -109,6 +112,8 @@
 
     <label>选中列车 · 逐站时刻</label>
     <div id="traininfo" class="sub">点击地图上的列车查看它的运行图（逐站时刻）</div>
+
+    <div class="disclaimer">运行图根据各站时刻表生成，可能存在错误，仅供参考。</div>
   </aside>
 </div>
 <script>
