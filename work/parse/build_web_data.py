@@ -55,7 +55,11 @@ def load_geojson():
     out = {}
     for f in g['features']:
         p = f['properties']
-        key = p.get('ref') or p.get('name')
+        # the features carry both the OSM ref (L1, 27, 25S, ...) and the
+        # normalised line_key used by LINE_MAP / the station file; keying on the
+        # ref alone silently dropped the geometry of 首都机场线/昌平线/房山线/
+        # 燕房线/亦庄线/大兴机场线, which then fell back to straight lines
+        key = p.get('line_key') or p.get('ref') or p.get('name')
         out.setdefault(key, []).append(f['geometry']['coordinates'])
     return out
 
