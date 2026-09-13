@@ -100,6 +100,13 @@ CLOSED_STATIONS = {'八角游乐园'}
 # 三元桥 -> T3 -> T2 -> back to 三元桥.  The OSM relation lists T2 before T3,
 # but inbound trains call at T3 first and then run from T2 straight back to
 # 三元桥 (they do not pass T3 again).
+# The airport loop makes the two directions serve DIFFERENT station pairs, so
+# the pairwise symmetry pass cannot see them.  These segment times were
+# measured by rank-aligning the two neighbouring posters (the cross-correlation
+# against the origin is ambiguous here because the headway is long).
+SEGMENT_OVERRIDE = {
+    ('首都机场', '首都机场2号航站楼', '三元桥'): 19.0,   # was 37 by origin matching
+}
 ORDER_OVERRIDE = {('CapitalAirport', 1): ['首都机场3号航站楼', '首都机场2号航站楼',
                                           '三元桥', '东直门', '北新桥']}
 
@@ -265,6 +272,23 @@ def station_km(key, names):
 
 
 # ---------------------------------------------------------------- diagram
+def adj_offset(Ta, Tb, lo, hi):
+    """Segment time between two adjacent stations, by rank alignment.
+
+    Cross-correlating against the origin is ambiguous on a line with a long
+    headway - every multiple of the headway scores the same - and for the
+    airport expresses that picked 49 min for 3号航站楼->三元桥 instead of 33.
+    Two neighbouring posters have the same train list, so pairing them up by
+    rank gives the offset directly.
+    """
+    n = min(len(Ta), len(Tb))
+    if n < 5 or abs(len(Ta) - len(Tb)) > 0.25 * max(len(Ta), len(Tb)):
+        return None
+    diffs = sorted(Tb[i] - Ta[i] for i in range(n))
+    m = diffs[n // 2]
+    return float(m) if lo <= m <= hi else None
+
+
 def _count_matches(T0, Ts, d, tol=2):
     return sum(1 for t0 in T0 if any(abs(x - (t0 + d)) <= tol for x in Ts))
 
@@ -325,8 +349,13 @@ def calibrate_tau(order, stations, tau_geo, line=None):
     prev = 0.0
     fast = line in FAST_LINES
     for i, s in enumerate(order[1:], start=1):
+        ov_seg = SEGMENT_OVERRIDE.get((line, order[i - 1], s))
+        if ov_seg is not None:
+            prev = prev + ov_seg
+            fit[s] = prev
+            continue
         km = seg_km(line, order[i - 1], s) if line else None
-        seg_geo = tau_geo[s] - tau_geo[order[i - 1]]
+        seg_geo = DWELL_MIN + (tau_geo[s] - tau_geo[order[i - 1]])
         if not stations.get(s):
             # no poster here (the terminus): use the geometric running time
             run = max(seg_geo, (km / MAX_SEG_KMH * 60.0) if km else 0.0)
@@ -347,7 +376,7 @@ def calibrate_tau(order, stations, tau_geo, line=None):
     return fit
 
 
-def match_runs(order, stations, tau, tol=4):
+def match_runs(order, stations, tau, tol=4, always_full=False):
     """Every train uses the same calibrated tau, so no train can overtake
     another.  A train is truncated at the LAST station with a matching
     departure (its short-turn terminus); interior OCR gaps are bridged with the
@@ -372,7 +401,7 @@ def match_runs(order, stations, tau, tol=4):
                 last = i
         if last < 0:
             continue          # matched nothing at all
-        if last >= last_data:
+        if always_full or last >= last_data:
             last = len(order) - 1          # run through to the terminus
         runs.append({order[i]: int(round(t0 + tau[order[i]])) for i in range(last + 1)})
     return runs
@@ -518,7 +547,7 @@ def infer_group(line, sign, recs, meta=None, osm=None, segkey=None):
     tau = calibrate_tau(order, stations, tau, line=line)
     total = max(tau.values())
 
-    runs = match_runs(order, stations, tau, tol=4)
+    runs = match_runs(order, stations, tau, tol=4, always_full=line in FAST_LINES)
     runs = [r for r in runs if len(r) >= 2]
     _keep = {k: v for k, v in stations.items() if v}
     from collections import Counter as _C
@@ -651,7 +680,9 @@ def symmetrize(groups):
         if not moved:
             continue
         changed += 1
-        runs = [r for r in match_runs(o, g['_stations'], new, tol=4) if len(r) >= 2]
+        runs = [r for r in match_runs(o, g['_stations'], new, tol=4,
+                                          always_full=g['line'] in FAST_LINES)
+                if len(r) >= 2]
         g['tau'] = {k: round(v, 1) for k, v in new.items()}
         g['total_travel'] = round(max(new.values()), 1)
         g['n_runs'] = len(runs)
